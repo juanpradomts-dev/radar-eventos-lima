@@ -1,0 +1,476 @@
+"""eventos.py — Radar de eventos en Lima que SUMAN (no conciertos ni fiestas).
+
+Recolecta eventos de Luma, Eventbrite y Meetup (fuentes públicas, sin login),
+los clasifica por categoría (Tecnología/IA, Datos, Ingeniería y operaciones,
+Negocios, Investigación, Habilidades, Idiomas y becas, Competencias), descarta
+lo recreativo y puntúa cada uno según el perfil de JP. Genera:
+  eventos.json      datos normalizados + historial de "vistos"
+  site/index.html   página autocontenida
+
+La página se recarga sola cada 15 min; el refresco lo hace la GitHub Action
+.github/workflows/actualizar.yml cada 3 h y publica site/ en GitHub Pages.
+
+Uso:
+  python eventos.py              refresca y genera la página
+  python eventos.py --abrir      además la abre en el navegador
+  python eventos.py --dias 90    horizonte (def. 60 días)
+  python eventos.py --solo-html  regenera la página con el JSON existente
+"""
+import argparse
+import html
+import json
+import re
+import unicodedata
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+import requests
+
+RAIZ = Path(__file__).resolve().parent
+CARPETA = RAIZ / "site"
+DATOS = RAIZ / "eventos.json"          # versionado: guarda cuándo se vio cada evento
+PAGINA = CARPETA / "index.html"
+LIMA = timezone(timedelta(hours=-5))
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/128 Safari/537.36",
+      "Accept-Language": "es-PE,es;q=0.9"}
+
+
+def norm(s):
+    s = unicodedata.normalize("NFKD", (s or "").lower())
+    return "".join(c for c in s if not unicodedata.combining(c))
+
+
+# ---------------------------------------------------------------- clasificación
+# Palabras sin tildes (se compara contra norm()). "\b" evita que "ia" pegue en "familia".
+CATEGORIAS = {
+    "Tecnología e IA": r"\b(ia|ai|inteligencia artificial|machine learning|llm|genai|gpt|claude|"
+                       r"agentes?|agents?|python|javascript|programacion|developer|dev|devs|software|cloud|aws|"
+                       r"azure|google cloud|kubernetes|kubefest|ciberseguridad|seguridad informatica|pentest|"
+                       r"red team|hacking|blockchain|web3|n8n|automatiza\w*|no-?code|notion|replit|"
+                       r"robot\w*|arduino|iot|ccna|cisco|redes|tech|tecnolog\w+|open source|linux|github)\b",
+    "Datos y analítica": r"\b(datos|data|analytics|analitica|power bi|tableau|sql|big data|"
+                         r"ciencia de datos|data science|estadistica|dashboard|excel|bi)\b",
+    "Ingeniería y operaciones": r"\b(ingenieria|ingeniero|industrial|supply chain|cadena de suministro|"
+                                r"logistica|operaciones|lean|six sigma|kaizen|procurement|compras|"
+                                r"manufactura|mantenimiento|calidad|iso \d+|bim|proyectos de inversion|"
+                                r"energia|mineria|sostenib\w+|mecanic\w+|electric\w+|pmp|project management|"
+                                r"gestion de proyectos|scrum|agile)\b",
+    "Negocios y emprendimiento": r"\b(emprend\w+|startup\w*|founders?|vc|venture|inversion|finanzas|"
+                                 r"fintech|banca|banking|negocio\w*|pymes?|marketing|ventas|growth|"
+                                 r"innovacion|business|e-?commerce|economia|pitch|incubadora|aceleradora|"
+                                 r"networking|negociacion)\b",
+    "Investigación y ciencia": r"\b(investigacion|research|paper|cientific\w+|ciencia|scopus|tesis|"
+                               r"publicacion|academic\w*|congreso|simposio|concytec|laboratorio|"
+                               r"biotecnolog\w+|fisica|quimica|matematica\w*)\b",
+    "Habilidades y liderazgo": r"\b(liderazgo|lider\w*|oratoria|comunicacion efectiva|soft skills|"
+                               r"habilidades|productividad|mentoring|mentoria|carrera|empleabilidad|"
+                               r"cv|linkedin|entrevista|career|talento|coaching ejecutivo|debate|"
+                               r"toastmasters|pensamiento critico)\b",
+    "Idiomas, becas e internacional": r"\b(beca\w*|scholarship|educationusa|fulbright|chevening|"
+                                      r"daad|intercambio|estudiar en el extranjero|study abroad|mba|"
+                                      r"maestria|posgrado|ll\.?m|toefl|ielts|ingles|english|"
+                                      r"expoestudios|feria educativa|admision)\b",
+    "Competencias y hackathons": r"\b(hackathon|hackaton|datathon|datafest|game jam|ideathon|"
+                                 r"concurso|competencia|challenge|olimpiada|reto|premiacion|demo ?day|"
+                                 r"showcase)\b",
+}
+FORMATO = r"\b(taller|workshop|conferencia|charla|seminario|meetup|summit|congreso|foro|panel|" \
+          r"conversatorio|bootcamp|curso|clase modelo|masterclass|webinar|simposio|keynote|" \
+          r"hackathon|feria|jornada|open lab|kickoff|tech week|fest)\b"
+# Lo que NO suma como estudiante: ocio, venta, espiritualidad, fiestas.
+EXCLUIR = r"\b(concierto|fiesta|party|dj|rave|reggaeton|salsa|karaoke|stand ?up|comedia|" \
+          r"closet sale|bazar|mercadillo|feria gastronomica|degustacion|cata|wine|cerveza|beer|" \
+          r"brunch|dinner|cena|coctel\w*|cocktail|drinks|happy hour|cocina|chef|amigurumi\w*|crochet|manualidades|padel|running|carrera \d+k|\d+k\b|" \
+          r"maraton|yoga|meditacion|reiki|tarot|astrolog\w+|constelaciones|sanacion|energia cuantica|" \
+          r"retiro espiritual|culto|misa|iglesia|oracion|glow up|belleza|maquillaje|skincare|" \
+          r"botanicals|cashflow|trading de|forex|cripto ?trading|multinivel|halloween|pijamada|" \
+          r"kawaii|cosplay|anime|drag|speed ?dating|citas|singles|lanzamiento de|pop ?up|" \
+          r"recorrido|tour|exposicion de arte|galeria|teatro|cine|danza|baile|esgrima)\b"
+# Afinidad con JP: Ing. Industrial, datos/ML (BCP Datafest), supply chain, investigación, IA.
+PERFIL = {
+    r"\b(industrial|supply chain|cadena de suministro|logistica|almacen|lean|six sigma|operaciones|procurement)\b": 4,
+    r"\b(data|datos|machine learning|ml|analytics|python|sql|power bi|estadistica|datafest|datathon)\b": 4,
+    r"\b(ia|ai|inteligencia artificial|llm|agentes?|claude|genai)\b": 3,
+    r"\b(hackathon|hackaton|competencia|concurso|challenge)\b": 3,
+    r"\b(investigacion|research|scopus|paper|congreso|simposio)\b": 3,
+    r"\b(beca\w*|educationusa|fulbright|mba|posgrado|intercambio|toefl|ielts)\b": 3,
+    r"\b(liderazgo|oratoria|negociacion|mentoring|mentoria)\b": 2,
+    r"\b(emprend\w+|startup\w*|founders?|innovacion|fintech|banca)\b": 2,
+    r"\b(universidad|pucp|uni|upc|ucsur|ulima|esan|utec|usil|unmsm|san marcos)\b": 1,
+    r"\b(gratis|gratuito|free|libre)\b": 1,
+}
+
+
+TOP = 8  # puntaje desde el que un evento es "Top para ti"
+
+
+def clasificar(ev):
+    """Devuelve (categorías, puntaje) o (None, 0) si el evento no suma."""
+    titulo = norm(ev["titulo"])
+    texto = f"{titulo} {norm(ev.get('descripcion', ''))[:1500]} {norm(' '.join(ev.get('etiquetas', [])))}"
+    # El título manda para excluir: una charla de IA que menciona "coffee break" no se descarta.
+    if re.search(EXCLUIR, titulo):
+        return None, 0
+    cats = [c for c, rx in CATEGORIAS.items() if re.search(rx, titulo)]
+    if not cats and ev.get("cats_fuente"):  # la fuente ya trae área temática confiable (PUCP)
+        cats = ev["cats_fuente"]
+    if not cats:  # respaldo: descripción, pero exigiendo formato formativo en el título o texto
+        cats = [c for c, rx in CATEGORIAS.items() if len(re.findall(rx, texto)) >= 2]
+        if not cats or not re.search(FORMATO, texto):
+            return None, 0
+    puntos = sum(p for rx, p in PERFIL.items() if re.search(rx, texto))
+    puntos += 2 * sum(1 for rx in PERFIL if re.search(rx, titulo))  # afinidad en el título pesa más
+    if re.search(FORMATO, titulo):
+        puntos += 1
+    return cats, puntos
+
+
+# ---------------------------------------------------------------- fuentes
+def _iso(dt):
+    return dt.astimezone(LIMA).isoformat(timespec="minutes") if dt else ""
+
+
+def _parse(s):
+    if not s:
+        return None
+    try:
+        d = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        return d if d.tzinfo else d.replace(tzinfo=LIMA)
+    except ValueError:
+        return None
+
+
+def luma(limite):
+    """API pública de descubrimiento de Luma, centrada en Lima."""
+    out, cursor = [], None
+    for _ in range(8):
+        p = {"latitude": -12.0464, "longitude": -77.0428, "pagination_limit": 50}
+        if cursor:
+            p["pagination_cursor"] = cursor
+        r = requests.get("https://api.lu.ma/discover/get-paginated-events", params=p,
+                         headers=UA, timeout=25)
+        r.raise_for_status()
+        j = r.json()
+        for e in j.get("entries", []):
+            ev = e.get("event", {})
+            g = ev.get("geo_address_info") or {}
+            if g.get("country_code") not in (None, "PE"):
+                continue
+            ini = _parse(ev.get("start_at"))
+            tickets = e.get("ticket_info") or {}
+            out.append({
+                "id": "luma:" + ev.get("api_id", ""),
+                "titulo": ev.get("name", "").strip(),
+                "inicio": _iso(ini), "fin": _iso(_parse(ev.get("end_at"))),
+                "lugar": g.get("short_address") or g.get("city_state") or "",
+                "distrito": g.get("city") or "",
+                "modalidad": "Virtual" if ev.get("location_type") == "online" else "Presencial",
+                "url": "https://lu.ma/" + ev.get("url", ""),
+                "fuente": "Luma",
+                "organizador": (e.get("calendar") or {}).get("name", ""),
+                "descripcion": (e.get("calendar") or {}).get("description_short", "") or "",
+                "gratis": True if tickets.get("is_free") else (False if tickets.get("is_free") is False else None),
+                "imagen": ev.get("cover_url", ""),
+            })
+            if ini and ini > limite:
+                return out
+        cursor = j.get("next_cursor")
+        if not j.get("has_more") or not cursor:
+            break
+    return out
+
+
+def _server_data(t):
+    i = t.find("__SERVER_DATA__")
+    if i < 0:
+        return {}
+    return json.JSONDecoder().raw_decode(t[t.find("{", i):])[0]
+
+
+def eventbrite(limite):
+    rutas = ["science-and-tech--events", "all-events", "conferencia", "taller",
+             "seminario", "free--events", "events--next-month", "hackathon", "networking"]
+    out = {}
+    for ruta in rutas:
+        for pagina in (1, 2, 3):
+            r = requests.get(f"https://www.eventbrite.com.pe/d/peru--lima/{ruta}/?page={pagina}",
+                             headers=UA, timeout=25)
+            if not r.ok:
+                break
+            res = (_server_data(r.text).get("search_data") or {}).get("events") or {}
+            lista = res.get("results") or []
+            for e in lista:
+                if e.get("is_cancelled"):
+                    continue
+                ini = _parse(f"{e.get('start_date')}T{e.get('start_time') or '00:00'}")
+                fin = _parse(f"{e.get('end_date')}T{e.get('end_time') or '00:00'}")
+                v = e.get("primary_venue") or {}
+                a = v.get("address") or {}
+                out[e.get("id")] = {
+                    "id": "eb:" + str(e.get("id")),
+                    "titulo": (e.get("name") or "").strip(),
+                    "inicio": _iso(ini), "fin": _iso(fin),
+                    "lugar": ", ".join(x for x in (v.get("name"), a.get("address_1")) if x),
+                    "distrito": a.get("city") or "",
+                    "modalidad": "Virtual" if e.get("is_online_event") else "Presencial",
+                    "url": e.get("url", ""),
+                    "fuente": "Eventbrite",
+                    "organizador": "",
+                    "descripcion": e.get("summary") or "",
+                    "etiquetas": [t.get("display_name", "") for t in e.get("tags") or []],
+                    "gratis": None,
+                    "imagen": (e.get("image") or {}).get("url", ""),
+                }
+            pag = res.get("pagination") or {}
+            if len(lista) < 20 or pagina >= (pag.get("page_count") or 1):
+                break
+    return list(out.values())
+
+
+def _local(texto):
+    t = f" {norm(texto)} "
+    if re.search(r"(peru|lima|pucp|uni|upc|utec|san marcos)", t):
+        return True
+    return sum(t.count(w) for w in (" de ", " la ", " para ", " con ", " el ", " y ", " en ")) >= 3
+
+
+def meetup(limite):
+    claves = ["tecnologia", "ingenieria", "datos", "inteligencia artificial", "python",
+              "emprendimiento", "liderazgo", "ingles", "cloud", "startup"]
+    out = {}
+    for k in [""] + claves:
+        r = requests.get("https://www.meetup.com/find/", headers=UA, timeout=25,
+                         params={"location": "pe--Lima", "source": "EVENTS", "keywords": k} if k
+                         else {"location": "pe--Lima", "source": "EVENTS"})
+        m = re.search(r'id="__NEXT_DATA__"[^>]*>(.*?)</script>', r.text, re.S)
+        if not m:
+            continue
+        ap = json.loads(m.group(1)).get("props", {}).get("pageProps", {}).get("__APOLLO_STATE__", {})
+        for key, e in ap.items():
+            if not key.startswith("Event:") or not e.get("title"):
+                continue
+            venue = ap.get((e.get("venue") or {}).get("__ref", ""), {}) or {}
+            grupo = ap.get((e.get("group") or {}).get("__ref", ""), {}) or {}
+            ciudad = norm(venue.get("city", ""))
+            online = e.get("eventType") == "ONLINE" or e.get("isOnline")
+            if not online and ciudad and "lima" not in ciudad and "callao" not in ciudad:
+                continue
+            # Meetup mezcla webinars online de todo el mundo (su timezone viene en la hora
+            # del visitante, no sirve): un online solo entra si está en español o cita Perú.
+            if online and not _local(e["title"] + " " + (e.get("description") or "")[:400]):
+                continue
+            fee = e.get("feeSettings")
+            out[e["id"]] = {
+                "id": "meetup:" + e["id"],
+                "titulo": e["title"].strip(),
+                "inicio": _iso(_parse(e.get("dateTime"))), "fin": _iso(_parse(e.get("endTime"))),
+                "lugar": ", ".join(x for x in (venue.get("name"), venue.get("address")) if x),
+                "distrito": venue.get("city") or "",
+                "modalidad": "Virtual" if online else "Presencial",
+                "url": e.get("eventUrl", ""),
+                "fuente": "Meetup",
+                "organizador": grupo.get("name", ""),
+                "descripcion": e.get("description") or "",
+                "gratis": True if fee in (None, {}) else None,
+                "imagen": "",
+            }
+    return list(out.values())
+
+
+AREAS_PUCP = {
+    "Ciencias e Ingeniería": "Ingeniería y operaciones", "Investigación": "Investigación y ciencia",
+    "Negocios y Empresa": "Negocios y emprendimiento", "Innovación": "Negocios y emprendimiento",
+    "Internacional": "Idiomas, becas e internacional",
+}
+TIPOS_FUERA_PUCP = {"Cine", "Concierto", "Exposición", "Teatro", "Danza", "Misa", "Feria gastronómica",
+                    "Deporte", "Actividad deportiva", "Festival"}
+
+
+def pucp(limite):
+    """Agenda oficial PUCP (sitio Gatsby: los eventos vienen en page-data.json)."""
+    r = requests.get("https://agenda.pucp.edu.pe/page-data/index/page-data.json", headers=UA, timeout=25)
+    r.raise_for_status()
+    ahora = datetime.now(LIMA)
+    out = []
+    for edge in r.json()["result"]["data"]["allApiExternaEventosNext"]["edges"]:
+        n = edge["node"]
+        tipo = (n.get("tipo_evento") or {}).get("Nombre", "")
+        if tipo in TIPOS_FUERA_PUCP:
+            continue
+        # Próxima ocurrencia: días específicos (Fecha + hora local) o rangos cortos.
+        # Rangos largos (exposiciones, podcasts de meses) no son "un evento al que ir".
+        ocurrencias = []
+        for f in n.get("Fechas") or []:
+            if f.get("_xcomponent") == "frecuencia.dia-especifico" and f.get("Fecha"):
+                ini = _parse(f"{f['Fecha']}T{(f.get('Inicio') or '00:00')[:5]}")
+                fin = _parse(f"{f['Fecha']}T{(f.get('Fin') or '23:59')[:5]}")
+            elif f.get("_xcomponent") == "frecuencia.rango":
+                ini, fin = _parse(f.get("Inicio")), _parse(f.get("Fin"))
+                if not ini or not fin or fin - ini > timedelta(days=10):
+                    continue
+            else:
+                continue
+            if ini and (fin or ini) >= ahora:
+                ocurrencias.append((ini, fin))
+        if not ocurrencias:
+            continue
+        ini, fin = min(ocurrencias)
+        lugares = [l.get("Ubicacion") or (l.get("agenda_master_lugar_pucp") or {}).get("Nombre")
+                   for l in n.get("Lugar") or []]
+        areas = [a.get("Nombre", "") for a in n.get("area_tematicas") or []]
+        etiquetas = [e.get("Nombre", "") for e in n.get("agenda_master_etiquetas") or []]
+        virtual = any("virtual" in norm(x or "") or "zoom" in norm(x or "") for x in lugares)
+        out.append({
+            "id": "pucp:" + n["slug"],
+            "titulo": n["Titulo"].strip(),
+            "inicio": _iso(ini), "fin": _iso(fin),
+            "lugar": ", ".join(dict.fromkeys(x for x in lugares if x)) or "PUCP",
+            "distrito": "San Miguel",
+            "modalidad": "Virtual" if virtual else "Presencial",
+            "url": "https://agenda.pucp.edu.pe/evento/" + n["slug"] + "/",
+            "fuente": "PUCP",
+            "organizador": "PUCP",
+            "descripcion": f"{tipo} · " + " · ".join(areas + etiquetas),
+            "etiquetas": [tipo] + areas + etiquetas,
+            "cats_fuente": list(dict.fromkeys(AREAS_PUCP[a] for a in areas if a in AREAS_PUCP)),
+            "gratis": None,
+            "imagen": "",
+        })
+    return out
+
+
+FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Meetup": meetup, "PUCP": pucp}
+
+
+# ---------------------------------------------------------------- pipeline
+def recolectar(dias):
+    ahora = datetime.now(LIMA)
+    limite = ahora + timedelta(days=dias)
+    crudos, estado = [], {}
+    for nombre, f in FUENTES.items():
+        try:
+            lote = f(limite)
+            crudos += lote
+            estado[nombre] = {"ok": True, "n": len(lote)}
+        except Exception as e:  # una fuente caída no tumba el radar
+            estado[nombre] = {"ok": False, "n": 0, "error": str(e)[:160]}
+    vistos, eventos = set(), []
+    for ev in crudos:
+        ini = _parse(ev["inicio"])
+        fin = _parse(ev["fin"]) or ini
+        if not ini or fin < ahora or ini > limite or not ev["titulo"]:
+            continue
+        clave = (re.sub(r"[^a-z0-9]", "", norm(ev["titulo"]))[:40], ev["inicio"][:10])
+        if clave in vistos:
+            continue
+        cats, puntos = clasificar(ev)
+        if not cats:
+            continue
+        vistos.add(clave)
+        ev["categorias"], ev["puntaje"] = cats, puntos
+        ev["descripcion"] = re.sub(r"[*_#`\\]+", "", ev["descripcion"])[:400]
+        ev.pop("etiquetas", None)
+        ev.pop("cats_fuente", None)
+        eventos.append(ev)
+    eventos.sort(key=lambda e: e["inicio"])
+    return eventos, estado, len(crudos)
+
+
+def guardar(eventos, estado, total):
+    previo = {}
+    try:
+        previo = json.loads(DATOS.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        pass
+    primera_vez = previo.get("primera_vez") or {}
+    ahora = datetime.now(LIMA).isoformat(timespec="minutes")
+    # Si una fuente falló en esta corrida (bloqueo, timeout), conserva sus eventos
+    # anteriores que sigan vigentes en vez de hacerlos desaparecer de la página.
+    caidas = {k for k, v in estado.items() if not v["ok"]}
+    if caidas:
+        ids = {e["id"] for e in eventos}
+        eventos += [e for e in previo.get("eventos", []) if e["fuente"] in caidas
+                    and e["id"] not in ids and e["inicio"] >= ahora[:10]]
+        eventos.sort(key=lambda e: e["inicio"])
+    for ev in eventos:
+        primera_vez.setdefault(ev["id"], ahora)
+        ev["visto_desde"] = primera_vez[ev["id"]]
+    # olvida ids viejos para que el archivo no crezca sin fin
+    vivos = {e["id"] for e in eventos}
+    primera_vez = {k: v for k, v in primera_vez.items() if k in vivos}
+    datos = {"actualizado": ahora, "fuentes": estado, "revisados": total,
+             "eventos": eventos, "primera_vez": primera_vez}
+    DATOS.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
+    return datos
+
+
+def _ics_texto(s):
+    return re.sub(r"([,;\\])", r"\\\1", s or "").replace("\n", "\\n")
+
+
+def generar_ics(eventos, nombre, ruta):
+    """Feed iCalendar: suscribible desde Google Calendar (se actualiza solo)."""
+    utc = lambda iso: _parse(iso).astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    sello = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    lineas = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//radar-eventos-lima//ES",
+              "CALSCALE:GREGORIAN", "METHOD:PUBLISH", f"X-WR-CALNAME:{nombre}",
+              "X-WR-TIMEZONE:America/Lima", "REFRESH-INTERVAL;VALUE=DURATION:PT3H",
+              "X-PUBLISHED-TTL:PT3H"]
+    for e in eventos:
+        fin = e["fin"] or _iso(_parse(e["inicio"]) + timedelta(hours=2))
+        lineas += ["BEGIN:VEVENT", f"UID:{re.sub(r'[^A-Za-z0-9:_-]', '', e['id'])}@radar-eventos-lima",
+                   f"DTSTAMP:{sello}", f"DTSTART:{utc(e['inicio'])}", f"DTEND:{utc(fin)}",
+                   f"SUMMARY:{_ics_texto(e['titulo'])}",
+                   f"LOCATION:{_ics_texto(e['lugar'] or e['modalidad'])}",
+                   f"DESCRIPTION:{_ics_texto(' · '.join(e['categorias']) + chr(10) + e['url'])}",
+                   f"URL:{e['url']}", "END:VEVENT"]
+    lineas.append("END:VCALENDAR")
+    # RFC 5545: líneas de máx. 75 octetos, continuación con espacio
+    out = []
+    for l in lineas:
+        b = l.encode("utf-8")
+        while len(b) > 75:
+            corte = 75
+            while (b[corte] & 0xC0) == 0x80:  # no partir un carácter UTF-8
+                corte -= 1
+            out.append(b[:corte].decode("utf-8")); b = b" " + b[corte:]
+        out.append(b.decode("utf-8"))
+    ruta.write_text("\r\n".join(out) + "\r\n", encoding="utf-8", newline="")
+
+
+def generar_html(datos):
+    CARPETA.mkdir(exist_ok=True)
+    plantilla = (RAIZ / "plantilla.html").read_text(encoding="utf-8")
+    publico = {k: v for k, v in datos.items() if k != "primera_vez"}
+    js = json.dumps(publico, ensure_ascii=False).replace("</", "<\\/")
+    PAGINA.write_text(plantilla.replace("/*__DATOS__*/null", js), encoding="utf-8")
+    generar_ics(datos["eventos"], "Radar Lima · todos", CARPETA / "eventos.ics")
+    generar_ics([e for e in datos["eventos"] if e["puntaje"] >= TOP],
+                "Radar Lima · Top para ti", CARPETA / "top.ics")
+    (CARPETA / "eventos.json").write_text(js, encoding="utf-8")
+    return PAGINA
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Radar de eventos formativos en Lima")
+    ap.add_argument("--dias", type=int, default=60)
+    ap.add_argument("--abrir", action="store_true")
+    ap.add_argument("--solo-html", action="store_true")
+    a = ap.parse_args()
+    if a.solo_html:
+        datos = json.loads(DATOS.read_text(encoding="utf-8"))
+    else:
+        eventos, estado, total = recolectar(a.dias)
+        datos = guardar(eventos, estado, total)
+        fuentes = ", ".join(f"{k} {v['n']}" + ("" if v["ok"] else " (FALLÓ)") for k, v in estado.items())
+        print(f"[radar] {len(datos['eventos'])} eventos que suman (de {total} revisados) · {fuentes}")
+    ruta = generar_html(datos)
+    print(ruta)
+    if a.abrir:
+        import webbrowser
+        webbrowser.open(ruta.as_uri())
+
+
+if __name__ == "__main__":
+    main()
