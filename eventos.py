@@ -1,6 +1,7 @@
 """eventos.py — Radar de eventos en Lima que SUMAN (no conciertos ni fiestas).
 
-Recolecta eventos de Luma, Eventbrite y Meetup (fuentes públicas, sin login),
+Recolecta eventos de Luma, Eventbrite, Meetup (iCal por grupo) y PUCP (fuentes públicas,
+sin login, respetando robots.txt),
 los clasifica por categoría (Tecnología/IA, Datos, Ingeniería y operaciones,
 Negocios, Investigación, Habilidades, Idiomas y becas, Competencias), descarta
 lo recreativo y puntúa cada uno según el perfil de JP. Genera:
@@ -22,6 +23,9 @@ import html
 import json
 import re
 import unicodedata
+from threading import Lock
+from urllib import robotparser
+from urllib.parse import urlsplit
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -35,6 +39,41 @@ LIMA = timezone(timedelta(hours=-5))
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/128 Safari/537.36",
       "Accept-Language": "es-PE,es;q=0.9"}
+BOT = "radar-eventos-lima"  # nombre con el que se consulta robots.txt (cae en "*")
+
+
+# ---------------------------------------------------------------- robots.txt
+_ROBOTS = {}
+_ROBOTS_LOCK = Lock()
+
+
+def permitido(url):
+    """Respeta robots.txt del sitio (caché por host). Sin robots.txt = permitido."""
+    host = "{0.scheme}://{0.netloc}".format(urlsplit(url))
+    with _ROBOTS_LOCK:
+        rp = _ROBOTS.get(host)
+        if rp is None:
+            rp = robotparser.RobotFileParser()
+            try:
+                r = requests.get(host + "/robots.txt", headers=UA, timeout=15)
+                if r.status_code in (401, 403):
+                    rp.disallow_all = True
+                elif r.ok:
+                    rp.parse(r.content.decode("utf-8", errors="replace").splitlines())
+                else:
+                    rp.allow_all = True
+            except requests.RequestException:
+                rp.allow_all = True
+            _ROBOTS[host] = rp
+    return rp.can_fetch(BOT, url)
+
+
+def get(url, **kw):
+    """requests.get que antes verifica robots.txt."""
+    if not permitido(url):
+        raise PermissionError(f"robots.txt no permite {url}")
+    kw.setdefault("headers", UA)
+    return requests.get(url, **kw)
 
 
 def norm(s):
@@ -149,8 +188,7 @@ def luma(limite):
         p = {"latitude": -12.0464, "longitude": -77.0428, "pagination_limit": 50}
         if cursor:
             p["pagination_cursor"] = cursor
-        r = requests.get("https://api.lu.ma/discover/get-paginated-events", params=p,
-                         headers=UA, timeout=25)
+        r = get("https://api.lu.ma/discover/get-paginated-events", params=p, timeout=25)
         r.raise_for_status()
         j = r.json()
         for e in j.get("entries", []):
@@ -198,8 +236,7 @@ def eventbrite(limite):
     out = {}
     for ruta in rutas:
         for pagina in (1, 2, 3):
-            r = requests.get(f"https://www.eventbrite.com.pe/d/peru--lima/{ruta}/?page={pagina}",
-                             headers=UA, timeout=25)
+            r = get(f"https://www.eventbrite.com.pe/d/peru--lima/{ruta}/?page={pagina}", timeout=25)
             if not r.ok:
                 break
             res = (_server_data(r.text).get("search_data") or {}).get("events") or {}
@@ -236,57 +273,85 @@ def eventbrite(limite):
 
 def _local(texto):
     t = f" {norm(texto)} "
-    if re.search(r"(peru|lima|pucp|uni|upc|utec|san marcos)", t):
+    if re.search(r"\b(peru|lima|pucp|uni|upc|utec|san marcos)\b", t):
         return True
     return sum(t.count(w) for w in (" de ", " la ", " para ", " con ", " el ", " y ", " en ")) >= 3
 
 
+# Meetup prohíbe en robots.txt su buscador (/find/), pero permite el iCal de cada grupo:
+# se siguen los grupos de Lima que publican cosas que suman.
+GRUPOS_MEETUP = ["awsperu", "aws-sbg-at-national-university-of-engineering",
+                 "aws-sbg-at-technological-university-of-peru", "bi-expert", "msperu",
+                 "speak-up-conversation-club", "practice-english-saturday", "lince-english-group"]
+VIRTUAL = r"\b(online|virtual|zoom|google meet|meet\.google|teams|youtube|webinar|transmision en vivo)\b"
+
+
+def _texto_ical(v):
+    if isinstance(v, list):  # propiedad repetida (Meetup duplica X-WR-CALNAME)
+        v = v[0] if v else None
+    if v is None:
+        return ""
+    return v.to_ical().decode("utf-8") if hasattr(v, "to_ical") and not isinstance(v, str) else str(v)
+
+
+def _fecha_ical(v):
+    if v is None:
+        return None
+    d = v.dt
+    if isinstance(d, datetime):
+        return d if d.tzinfo else d.replace(tzinfo=LIMA)  # TZID America/Lima ya viene resuelto
+    return datetime(d.year, d.month, d.day, tzinfo=LIMA)  # evento de día completo
+
+
 def meetup(limite):
-    claves = ["tecnologia", "ingenieria", "datos", "inteligencia artificial", "python",
-              "emprendimiento", "liderazgo", "ingles", "cloud", "startup"]
-    out = {}
-    for k in [""] + claves:
-        r = requests.get("https://www.meetup.com/find/", headers=UA, timeout=25,
-                         params={"location": "pe--Lima", "source": "EVENTS", "keywords": k} if k
-                         else {"location": "pe--Lima", "source": "EVENTS"})
-        m = re.search(r'id="__NEXT_DATA__"[^>]*>(.*?)</script>', r.text, re.S)
-        if not m:
+    from icalendar import Calendar
+    out, errores = {}, []
+    for g in GRUPOS_MEETUP:
+        url_cal = f"https://www.meetup.com/{g}/events/ical/"
+        try:
+            r = get(url_cal, timeout=25)
+            r.raise_for_status()
+            # bytes, no r.text: requests adivina latin-1 para text/calendar y sale mojibake
+            cal = Calendar.from_ical(r.content.decode("utf-8", errors="replace"))
+        except Exception as e:  # un grupo roto no tumba a los demás
+            errores.append(f"{g}: {e}")
             continue
-        ap = json.loads(m.group(1)).get("props", {}).get("pageProps", {}).get("__APOLLO_STATE__", {})
-        for key, e in ap.items():
-            if not key.startswith("Event:") or not e.get("title"):
+        grupo = _texto_ical(cal.get("X-WR-CALNAME")) or _texto_ical(cal.get("NAME")) or g
+        for ve in cal.walk("VEVENT"):
+            if str(ve.get("STATUS", "")).upper() == "CANCELLED":
                 continue
-            venue = e.get("venue") or {}
-            venue = ap.get(venue["__ref"], {}) if "__ref" in venue else venue
-            grupo = ap.get((e.get("group") or {}).get("__ref", ""), {}) or {}
-            ciudad = norm(venue.get("city", ""))
-            online = e.get("eventType") == "ONLINE" or e.get("isOnline")
-            if not online and ciudad and "lima" not in ciudad and "callao" not in ciudad:
+            ini = _fecha_ical(ve.get("DTSTART"))
+            if not ini or ini > limite:
                 continue
-            # Meetup mezcla webinars online de todo el mundo (su timezone viene en la hora
-            # del visitante, no sirve): un online solo entra si está en español o cita Perú.
-            if online and not _local(e["title"] + " " + (e.get("description") or "")[:400]):
+            titulo = str(ve.get("SUMMARY", "")).strip()
+            desc = str(ve.get("DESCRIPTION", ""))
+            if desc.startswith(grupo):  # Meetup antepone el nombre del grupo a la descripción
+                desc = desc[len(grupo):].lstrip("\n ")
+            lugar = str(ve.get("LOCATION", "") or "")
+            online = not lugar and bool(re.search(VIRTUAL, norm(titulo + " " + desc[:600])))
+            # un online solo entra si está en español o cita Perú (misma regla que antes)
+            if online and not _local(titulo + " " + desc[:400]):
                 continue
-            fee = e.get("feeSettings")
-            foto = e.get("displayPhoto") or e.get("featuredEventPhoto") or {}
-            foto = ap.get(foto.get("__ref", ""), {}) if "__ref" in foto else foto
-            out[e["id"]] = {
-                "id": "meetup:" + e["id"],
-                "titulo": e["title"].strip(),
-                "inicio": _iso(_parse(e.get("dateTime"))), "fin": _iso(_parse(e.get("endTime"))),
-                "lugar": ", ".join(x for x in (venue.get("name"), venue.get("address"))
-                              if x and x != "Online event"),
-                "distrito": venue.get("city") or "",
+            url = str(ve.get("URL", "") or "")
+            uid = str(ve.get("UID", "")) or f"{g}:{titulo}:{ini.isoformat()}"
+            out[uid] = {
+                "id": "meetup:" + uid.split("@")[0].removeprefix("event_"),
+                "titulo": titulo,
+                "inicio": _iso(ini), "fin": _iso(_fecha_ical(ve.get("DTEND")) or ini),
+                "lugar": lugar,
+                "distrito": "" if online else "Lima",
                 "modalidad": "Virtual" if online else "Presencial",
-                "url": e.get("eventUrl", ""),
+                "url": url,
                 "fuente": "Meetup",
-                "organizador": grupo.get("name", ""),
-                "descripcion": e.get("description") or "",
-                "gratis": True if fee in (None, {}) else None,
-                "imagen": foto.get("highResUrl", ""),
-                "inscripcion": e.get("eventUrl", ""),
-                "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
+                "organizador": grupo,
+                "descripcion": desc,
+                "gratis": True if re.search(r"\b(gratis|gratuit[oa]|free)\b", norm(desc)) else None,
+                "imagen": "",
+                "inscripcion": url,
+                "fuente_url": url_cal,
             }
+    if errores and len(errores) == len(GRUPOS_MEETUP):
+        raise RuntimeError("todos los grupos fallaron: " + "; ".join(errores)[:120])
     return list(out.values())
 
 
@@ -301,7 +366,7 @@ TIPOS_FUERA_PUCP = {"Cine", "Concierto", "Exposición", "Teatro", "Danza", "Misa
 
 def pucp(limite):
     """Agenda oficial PUCP (sitio Gatsby: los eventos vienen en page-data.json)."""
-    r = requests.get("https://agenda.pucp.edu.pe/page-data/index/page-data.json", headers=UA, timeout=25)
+    r = get("https://agenda.pucp.edu.pe/page-data/index/page-data.json", timeout=25)
     r.raise_for_status()
     ahora = datetime.now(LIMA)
     out = []
@@ -374,8 +439,8 @@ def enriquecer(ev):
     """Descripción completa, organizador, costo y link de inscripción real (1 request por evento)."""
     try:
         if ev.get("_luma_id"):
-            j = requests.get("https://api.lu.ma/event/get", params={"event_api_id": ev["_luma_id"]},
-                             headers=UA, timeout=20).json()
+            j = get("https://api.lu.ma/event/get", params={"event_api_id": ev["_luma_id"]},
+                    timeout=20).json()
             desc = _texto_prosemirror(j.get("description_mirror") or {}).strip()
             if desc:
                 ev["descripcion"] = desc
@@ -386,8 +451,8 @@ def enriquecer(ev):
             if t.get("is_free") is not None:
                 ev["gratis"] = bool(t["is_free"])
         elif ev.get("_pucp_slug"):
-            j = requests.get(f"https://agenda.pucp.edu.pe/page-data/evento/{ev['_pucp_slug']}/page-data.json",
-                             headers=UA, timeout=20).json()
+            j = get(f"https://agenda.pucp.edu.pe/page-data/evento/{ev['_pucp_slug']}/page-data.json",
+                    timeout=20).json()
             e = j["result"]["pageContext"]["resultData"]["evento"]
             desc = _html_a_texto(e.get("Descripcion"))
             if desc:
