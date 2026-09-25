@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-25T14:05-05:00",
+ "actualizado": "2026-09-25T18:45-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 74
+   "n": 70
   },
   "Eventbrite": {
    "ok": false,
@@ -16,81 +16,15 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 44
+   "n": 43
   },
   "Redes (manual)": {
    "ok": true,
    "n": 0
   }
  },
- "revisados": 134,
+ "revisados": 129,
  "eventos": [
-  {
-   "id": "pucp:primera-catedra-indigena-de-la-maestria-en-linguistica-pucp-17092026101621",
-   "titulo": "Primera Cátedra Indígena de la Maestría en Lingüistica PUCP",
-   "inicio": "2026-09-23T18:00-05:00",
-   "fin": "2026-09-25T18:00-05:00",
-   "lugar": "Complejo Mac Gregor (Pabellón N)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/primera-catedra-indigena-de-la-maestria-en-linguistica-pucp-17092026101621/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El estudio del tono constituye una de las áreas más interesantes y fructíferas de la lingüística en México. Esto se debe, por una parte, a que alrededor del 60 % de las variantes lingüísticas reconocidas en el catálogo del Instituto Nacional de Lenguas Indígenas son tonales y, por otra, a la notable diversidad que presentan sus inventarios, incluso entre variantes pertenecientes a una misma agrupación lingüística. Actualmente, después de un periodo en el que buena parte de las investigaciones se enfocaron en establecer inventarios tonales, el interés comienza a desplazarse hacia una pregunta más amplia: ¿cómo se integra el tono con la morfología, la sintaxis, la prosodia y el discurso? En nu",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_908b595dba_df91042a54.jpg",
-   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSfK3cXA1k_DxMC8lkh6aTit_Ap69SHKokGsjbs-AiD2xpQT3w/viewform",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "puntaje": 3,
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "pucp:feria-de-emplea-habilidad-2026",
-   "titulo": "Feria de Emplea+Habilidad 2026",
-   "inicio": "2026-09-25T10:00-05:00",
-   "fin": "2026-09-25T17:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/feria-de-emplea-habilidad-2026/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Conecta con empresas, conoce oportunidades laborales y potencia tus habilidades para el mundo profesional. Participa en una jornada pensada para acercarte al mercado laboral, explorar nuevas oportunidades y fortalecer tu perfil profesional.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/feria_empl_692708c140.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/feria-de-emplea-habilidad-2026/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "puntaje": 2,
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "pucp:feria-de-voluntariado-rsu-desde-la-pucp-2026-11092026151531",
-   "titulo": "Feria de Voluntariado RSU desde la PUCP 2026",
-   "inicio": "2026-09-25T11:00-05:00",
-   "fin": "2026-09-25T16:00-05:00",
-   "lugar": "Comedor Central #ParadaSaludable",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/feria-de-voluntariado-rsu-desde-la-pucp-2026-11092026151531/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "La Dirección Académica de Responsabilidad Social (DARS) invita al estudiantado a participar en la Feria de Voluntariado RSU 2026 los días jueves 24 y viernes 25 de septiembre, de 11:00 a. m. a 4:00 p. m., en los jardines del Comedor Central del campus PUCP.\n \nLa feria busca generar un espacio de encuentro entre la comunidad estudiantil y distintas iniciativas de voluntariado con enfoque RSU. Durante ambas jornadas, las y los estudiantes podrán conocer los proyectos y oportunidades de participación que ofrecen diferentes unidades de la Universidad, organizaciones externas y equipos ganadores del Fondo RSU 2026. Conoce a quienes serán parte de esta feria.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631.jpg",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/feria-de-voluntariado-rsu-desde-la-pucp-2026-11092026151531/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "puntaje": 4,
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
   {
    "id": "luma:evt-m7VmnNKFBBERFF7",
    "titulo": "Build with Claude Lima pt.2",
@@ -111,52 +45,6 @@
     "Tecnología e IA"
    ],
    "puntaje": 5,
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "pucp:viernes-economico-y-financiero-elaboracion-de-modelos-financieros-para-planeacion-financiera-y-estr-18092026152400",
-   "titulo": "Viernes Económico y Financiero \"Elaboración de Modelos Financieros para Planeación Financiera y Estr",
-   "inicio": "2026-09-25T14:00-05:00",
-   "fin": "2026-09-25T16:00-05:00",
-   "lugar": "Auditorio de Ciencias Sociales (Gustavo Gutiérrez Merino)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/viernes-economico-y-financiero-elaboracion-de-modelos-financieros-para-planeacion-financiera-y-estr-18092026152400/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Se presentarán directrices y herramientas prácticas para la elaboración de modelos financieros aplicados a la planeación financiera estratégica y a la estructuración de deudas. Se abordará la proyección de estados financieros, el análisis de sensibilidad, el costo de capital (WACC) y la mezcla óptima deuda-capital, con casos generales y los retos y desafíos que representan para los profesionales financieros.\n \nExpositor | Enrique Olaechea (UDEP y UPC)\nProfesional en el campo de las Finanzas Corporativas y Estrategia con una experiencia de más de 30 años en la Gerencia y Dirección de Empresas nacionales y transnacionales como Citibank; Grupo Carsa, Mobil Oil y Grupo Fima. Ingeniero Industrial",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Imagen_para_agenda_PUCP_3_7d7fa04577.jpg",
-   "inscripcion": "https://bit.ly/4xd7Zw6",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Investigación y ciencia"
-   ],
-   "puntaje": 0,
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "luma:evt-HrNZZWrafC2MlOH",
-   "titulo": "Next-Gen Networking: Cisco, Certificaciones y el nuevo CCNA",
-   "inicio": "2026-09-25T15:30-05:00",
-   "fin": "2026-09-25T16:30-05:00",
-   "lugar": "Santa Anita, Av. Cascanueces 2221, Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/d625i7vj",
-   "fuente": "Luma",
-   "organizador": "ComSoc",
-   "descripcion": "Descubre cómo los cursos y certificaciones de Cisco pueden ayudarte a construir una ruta de crecimiento profesional, desde los fundamentos de networking hasta seguridad, automatización y nuevas tecnologías.\nConoce además las principales novedades del nuevo examen CCNA 200-301 v2.0, cómo prepararte y qué habilidades serán clave para el futuro profesional de las redes.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/mt/7e0805b9-fe34-4d9c-9323-10bff5d2bc9d.jpg",
-   "inscripcion": "https://lu.ma/d625i7vj",
-   "fuente_url": "https://lu.ma/lima",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "puntaje": 0,
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
@@ -1207,6 +1095,28 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
+   "id": "luma:evt-JwsF76ozgbSq1QP",
+   "titulo": "EXPERIENCIA EN CATAMARÁN: IA TALENT WAVE PTW 2026",
+   "inicio": "2026-10-13T12:30-05:00",
+   "fin": "2026-10-13T18:00-05:00",
+   "lugar": "Av. Coronel Bolognesi 761, La Punta",
+   "distrito": "La Punta",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/bv2x7r84",
+   "fuente": "Luma",
+   "organizador": "Inteligenze",
+   "descripcion": "IA TALENT WAVE PERÚ TECH WEEK 2026Una velada exclusiva en el Pacífico peruano\nMartes 13 de octubre, 2026Embarque: 12:30 PM · Regreso: 6:00 PMYacht Club Peruano — Av. Coronel Bolognesi 761, La Punta, CallaoCosto: S/ 350.00\nPreventa EntradasAcceso limitado · 25 a 35 líderes seleccionados\n¿Qué es Talent Wave Private Session?\nUna salida exclusiva en catamarán por el Pacífico peruano diseñada para reunir a los líderes más influyentes del ecosistema tech peruano durante Perú Tech Week 2026. No es un evento corporativo. No hay presentaciones ni ponencias. Es una conversación real entre personas que están construyendo el futuro del país, en el único puerto marítimo de una capital sudamericana.\nTrein",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/sm/28f7d8d7-9c3a-434e-820b-b56831625482.png",
+   "inscripcion": "https://lu.ma/bv2x7r84",
+   "fuente_url": "https://lu.ma/lima",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "puntaje": 5,
+   "visto_desde": "2026-09-25T18:45-05:00"
+  },
+  {
    "id": "luma:evt-3DJQYpadON2zOB8",
    "titulo": "IA Talent Wave Private Session en Catamarán",
    "inicio": "2026-10-13T12:30-05:00",
@@ -1273,6 +1183,28 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
+   "id": "luma:evt-Baf4UVf5QoQEKyh",
+   "titulo": "De Perú al mundo: Construye tu startup global | Stripe Lima Community",
+   "inicio": "2026-10-13T19:00-05:00",
+   "fin": "2026-10-13T21:00-05:00",
+   "lugar": "San Isidro, Perú",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/y7ic8a5t",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Bienvenidos al primer evento de Stripe Lima community, organizado en colaboración con  Startups.pe . Un espacio para conocer a otros fundadores, compartir lo que estamos aprendiendo y conversar sobre cómo construir desde Perú para clientes de todo el mundo.\nEn este primer encuentro escucharemos a dos fundadores en momentos distintos: uno que ya tiene experiencia creciendo con Stripe y otro que está dando sus primeros pasos. Hablaremos de cómo empezaron, qué decisiones tomaron y qué les hubiera gustado saber antes.\nA partir de sus historias, exploraremos cómo cobrar a clientes internacionales, qué implica constituir una empresa en Estados Unidos con Stripe Atlas y dónde encajan Stripe y Strip",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/0y/1ab6b891-1248-4ba0-9d9c-c41c649b219c.png",
+   "inscripcion": "https://lu.ma/y7ic8a5t",
+   "fuente_url": "https://lu.ma/lima",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "puntaje": 4,
+   "visto_desde": "2026-09-25T18:45-05:00"
+  },
+  {
    "id": "luma:evt-x1zNe4EIIqbQPhu",
    "titulo": "Founders Live Lima",
    "inicio": "2026-10-13T19:00-05:00",
@@ -1315,6 +1247,28 @@
    ],
    "puntaje": 1,
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "pucp:visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727",
+   "titulo": "Visita del profesor Camille Riquier (Institut Catholique de Paris)",
+   "inicio": "2026-10-14T14:51-05:00",
+   "fin": "2026-10-16T14:51-05:00",
+   "lugar": "Auditorio de Ciencias Sociales (Gustavo Gutiérrez Merino), Complejo Mac Gregor (Pabellón N)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Del miércoles 14 al viernes 16 de octubre de 2026\n \nPrograma:\n \nConferencia, “La fe en cuestión”\nComentarios a cargo de Miguel Giusti y Véronique Claire Gauthier de Lecaros\nJueves 15 de octubre\n6:00 p.m.\nAuditorio de Ciencias Sociales (Gustavo Gutiérrez Merino), Facultad de Ciencias Sociales (Pabellón J), campus PUCP\n \nTaller: “Las dos fuentes de la fe”\nMiércoles 14  y viernes 16 de octubre\nDe 5:00 a 7:00 p.m.\nAula N-111, Complejo MacGregor, campus PUCP\n \n \nOrganizadores: CEF, Departamento de Teología, Departamento de Humanidades de la PUCP",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://cef.pucp.edu.pe/eventos/visita-academica-de-camille-riquierprofesor-del-institut-catholique-de-paris/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "puntaje": 0,
+   "visto_desde": "2026-09-25T18:45-05:00"
   },
   {
    "id": "luma:evt-CeicP1IqAcCe5yA",
@@ -1936,11 +1890,33 @@
    ],
    "puntaje": 8,
    "visto_desde": "2026-09-25T14:05-05:00"
+  },
+  {
+   "id": "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452",
+   "titulo": "Congreso de filosofía de la tecnología",
+   "inicio": "2026-11-24T15:10-05:00",
+   "fin": "2026-11-28T15:10-05:00",
+   "lugar": "NOS PUCP, Auditorio de Humanidades",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/congreso-de-filosofia-de-la-tecnologia-25092026151452/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "l Congreso de filosofía de la tecnología se realizará del martes 24 al sábado 28 de noviembre de 2026, en el campus de la Pontificia Universidad Católica del Perú. El tema del evento será “El eclipse del deseo: la tecnología como pharmakon y la cura del arte”.\nSe contará con los siguientes ponentes extranjeros:\nFlavia Costa (Universidad de Buenos Aires, Argentina), Renzo Filinich (Universidad de Witwatersrand, Sudáfrica), Victor J. Krebs (Pontificia Universidad Católica del Perú), Andreia Machado Oliveira (Universidad Federal de Santa María, Brasil), Cécile Malaspina (King’s College de Londres, Reino Unido), Pablo Manolo Rodríguez (Universidad de Buenos Aires, Argentina).\nOrganizado conjunta",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://cef.pucp.edu.pe/eventos/congreso-de-filosofia-de-la-tecnologia-el-eclipse-del-deseo-la-tecnologia-como-pharmakon-y-la-cura-del-arte/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "categorias": [
+    "Tecnología e IA",
+    "Investigación y ciencia"
+   ],
+   "puntaje": 6,
+   "visto_desde": "2026-09-25T18:45-05:00"
   }
  ],
  "primera_vez": {
   "luma:evt-m7VmnNKFBBERFF7": "2026-09-24T21:06-05:00",
-  "luma:evt-HrNZZWrafC2MlOH": "2026-09-24T21:06-05:00",
   "luma:evt-EsTLj2WutCj8Aeq": "2026-09-24T21:06-05:00",
   "luma:evt-Xx9u94VcrO2tDQY": "2026-09-24T21:06-05:00",
   "eb:1997093130313": "2026-09-24T21:06-05:00",
@@ -1983,10 +1959,6 @@
   "luma:evt-zmNdUbRiQVfLBVR": "2026-09-24T21:06-05:00",
   "meetup:315593600": "2026-09-24T21:06-05:00",
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
-  "pucp:primera-catedra-indigena-de-la-maestria-en-linguistica-pucp-17092026101621": "2026-09-24T21:10-05:00",
-  "pucp:feria-de-emplea-habilidad-2026": "2026-09-24T21:10-05:00",
-  "pucp:feria-de-voluntariado-rsu-desde-la-pucp-2026-11092026151531": "2026-09-24T21:10-05:00",
-  "pucp:viernes-economico-y-financiero-elaboracion-de-modelos-financieros-para-planeacion-financiera-y-estr-18092026152400": "2026-09-24T21:10-05:00",
   "pucp:webinar-dominio-afectivo-en-educacion-matematica-04092026125726": "2026-09-24T21:10-05:00",
   "pucp:infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518": "2026-09-24T21:10-05:00",
   "pucp:la-meliponicultura-en-loreto-impactos-en-las-comunidades-amazonicas-y-en-la-conservacion-ambiental-17092026101522": "2026-09-24T21:10-05:00",
@@ -2024,6 +1996,10 @@
   "pucp:development-and-validation-of-a-mobile-robotic-platform-for-fall-prevention-during-walking-25092026113126": "2026-09-25T14:05-05:00",
   "pucp:mini-curso-geometria-birracional-de-foliaciones-en-superficies-a-traves-de-ejemplos-25092026062408": "2026-09-25T14:05-05:00",
   "pucp:seminario-de-matematica-una-introduccion-a-las-foliaciones-lineales-en-toros-reales-y-complejos-25092026060119": "2026-09-25T14:05-05:00",
-  "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00"
+  "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00",
+  "luma:evt-JwsF76ozgbSq1QP": "2026-09-25T18:45-05:00",
+  "luma:evt-Baf4UVf5QoQEKyh": "2026-09-25T18:45-05:00",
+  "pucp:visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727": "2026-09-25T18:45-05:00",
+  "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00"
  }
 }
