@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-24T21:10-05:00",
+ "actualizado": "2026-09-24T21:21-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -11,14 +11,18 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 19
+   "n": 16
   },
   "PUCP": {
    "ok": true,
    "n": 42
+  },
+  "Redes (manual)": {
+   "ok": true,
+   "n": 0
   }
  },
- "revisados": 177,
+ "revisados": 174,
  "eventos": [
   {
    "id": "pucp:primera-catedra-indigena-de-la-maestria-en-linguistica-pucp-17092026101621",
@@ -31,9 +35,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/primera-catedra-indigena-de-la-maestria-en-linguistica-pucp-17092026101621/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Curso/Taller · Educación y Humanidades · Departamento Académico de Humanidades",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "El estudio del tono constituye una de las áreas más interesantes y fructíferas de la lingüística en México. Esto se debe, por una parte, a que alrededor del 60 % de las variantes lingüísticas reconocidas en el catálogo del Instituto Nacional de Lenguas Indígenas son tonales y, por otra, a la notable diversidad que presentan sus inventarios, incluso entre variantes pertenecientes a una misma agrupación lingüística. Actualmente, después de un periodo en el que buena parte de las investigaciones se enfocaron en establecer inventarios tonales, el interés comienza a desplazarse hacia una pregunta más amplia: ¿cómo se integra el tono con la morfología, la sintaxis, la prosodia y el discurso? En nu",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_908b595dba_df91042a54.jpg",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSfK3cXA1k_DxMC8lkh6aTit_Ap69SHKokGsjbs-AiD2xpQT3w/viewform",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -50,10 +56,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/3s1n0nw2",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Jaime Chiarella, Eddy Fernandez Ochoa",
+   "descripcion": "Vender más por el canal digital no siempre significa ganar más. Y muchas veces el problema no está solamente en la estrategia comercial, sino en una infraestructura que se vuelve más costosa, rígida y difícil de escalar a medida que el canal crece.\nEn este desayuno privado reuniremos a 10 gerentes y líderes de eCommerce de empresas medianas para conversar sobre cómo construir un canal digital rentable, preparado para crecer y capaz de incorporar las nuevas oportunidades que trae la inteligencia artificial.\nLa conversación será liderada por:\nEddy Fernández Ochoa Chief Digital & Revenue Officer (CDO), cuenta con más de 17 años construyendo y escalando negocios digitales en Claro Perú, Entel y ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/c6/26f0a314-2213-45ac-bc6e-c916a9e72c50.png",
+   "inscripcion": "https://lu.ma/3s1n0nw2",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -71,9 +79,11 @@
    "url": "https://lu.ma/cq3ba4t4",
    "fuente": "Luma",
    "organizador": "Festival de Innovación y Transferencia Tecnológica 2026",
-   "descripcion": "🚀 Este 23 y 24 de septiembre, conéctate con líderes de innovación y transferencia tecnológica. Participa en paneles, talleres y networking para potenciar tu empresa o institución. ¡Conecta e innova!",
+   "descripcion": "¿Quieres explorar nuevas oportunidades de innovación para tu organización, con el respaldo de una universidad líder en investigación en el país?\nOpen Lab es una experiencia diseñada especialmente para empresas que buscan transformar ideas en proyectos concretos. Durante esta visita guiada podrás recorrer laboratorios y centros especializados de la Pontificia Universidad Católica del Perú, conocer nuestras capacidades técnicas y ver de cerca cómo trabajamos en proyectos de I+D+i, validación tecnológica, innovación abierta y desafíos articulados con cursos de pregrado y posgrado.\nCon más de 15 años de experiencia en vinculación empresa–universidad, más de 250 proyectos de colaboración desarrol",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/p9/8d9af519-e2af-4b96-9552-a96720ceb786.png",
+   "inscripcion": "https://lu.ma/cq3ba4t4",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -90,10 +100,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/hqkdxrqa",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Naddia Schiaffino",
+   "descripcion": "PROSPECTA SIN MIEDO AL RECHAZOy contacta en vivo a tus prospectos reales, sin esperar el momento perfecto, con feedback inmediato de cada mensaje.\n¿Tienes dudas? Escribe a este whatsapp.\n¿De qué trata?Un taller de 3 horas para dueños/as de PYME y ejecutivos/as comerciales que conocen muy bien su producto, pero no se sienten \"vendedores\". Aquí vas a contactar en vivo a tus propios prospectos —desde cero o en seguimiento— aplicando tácticas que sí funcionan para generar respuesta, sin sonar insistente.\n¿Para quién es?\nDueños/as de PYME que lideran sus propias ventas.\n\nEjecutivos/as comerciales de PYMES B2B que no logran mantener su flujo de oportunidades.\n\nNo necesitas experiencia previa en ve",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/eg/8aa6476a-82b8-4faf-b991-71fcc3c96af0.jpg",
+   "inscripcion": "https://lu.ma/hqkdxrqa",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -111,9 +123,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/feria-de-emplea-habilidad-2026/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Feria · Interdisciplinarias · Dirección de Asuntos Estudiantiles · Oficina de Empleabilidad · Empleabilidad PUCP · Bienestar PUCP",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Conecta con empresas, conoce oportunidades laborales y potencia tus habilidades para el mundo profesional. Participa en una jornada pensada para acercarte al mercado laboral, explorar nuevas oportunidades y fortalecer tu perfil profesional.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/feria_empl_692708c140.png",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/feria-de-emplea-habilidad-2026/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Habilidades y liderazgo"
    ],
@@ -131,9 +145,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/de-las-moleculas-a-las-tecnologias-emergentes-electronica-molecular-y-diseno-asistido-por-ia-14092026115716/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Charla · Ciencias e Ingeniería · Departamento Académico de Ciencias",
+   "descripcion": "Expositor: Dr. Julio Palma (Pennsylvania State University, Estados Unidos)\nLa electrónica molecular es un campo interdisciplinario que busca comprender y controlar el transporte de electrones a través de moléculas individuales, estableciendo un puente entre la ciencia fundamental, la nanociencia y el desarrollo de nuevas tecnologías. Los avances experimentales y computacionales de las últimas décadas han permitido caracterizar y manipular sistemas moleculares con una precisión sin precedentes, abriendo nuevas posibilidades para el desarrollo de dispositivos electrónicos, sensores, tecnologías cuánticas y sistemas de procesamiento de información a escala nanométrica.\nNuestra investigación uti",
    "gratis": null,
-   "imagen": "",
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631.jpg",
+   "inscripcion": "https://encuentroici.pucp.edu.pe/event/de-las-moleculas-a-las-tecnologias-emergentes-electronica-molecular-y-diseno-asistido-por-inteligencia-artificial/#contact-form-7547",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -151,9 +167,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/feria-de-voluntariado-rsu-desde-la-pucp-2026-11092026151531/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Feria · Ciencias Sociales · Educación y Humanidades · Responsabilidad Social · Dirección Académica de Responsabilidad Social",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "La Dirección Académica de Responsabilidad Social (DARS) invita al estudiantado a participar en la Feria de Voluntariado RSU 2026 los días jueves 24 y viernes 25 de septiembre, de 11:00 a. m. a 4:00 p. m., en los jardines del Comedor Central del campus PUCP.\n \nLa feria busca generar un espacio de encuentro entre la comunidad estudiantil y distintas iniciativas de voluntariado con enfoque RSU. Durante ambas jornadas, las y los estudiantes podrán conocer los proyectos y oportunidades de participación que ofrecen diferentes unidades de la Universidad, organizaciones externas y equipos ganadores del Fondo RSU 2026. Conoce a quienes serán parte de esta feria.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631.jpg",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/feria-de-voluntariado-rsu-desde-la-pucp-2026-11092026151531/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Investigación y ciencia"
    ],
@@ -171,9 +189,11 @@
    "url": "https://lu.ma/gnwa9c5d",
    "fuente": "Luma",
    "organizador": "DSC PUCP",
-   "descripcion": "",
+   "descripcion": "🚨 ¡Suelta el teclado! Lo que debes hacer antes de abrir VS Code\nAprende a validar tu idea, mercado y viabilidad técnica en minutos usando IA antes de escribir una sola línea de código.\n¿Abres el editor de código sin saber si tu idea ya existe, si es técnicamente viable o si hay mercado real? ¡Detén el teclado un momento!\nUn proyecto ganador de hackathon no solo necesita buen código, necesita un fundamento sólido. Acompáñanos a esta sesión intensiva donde aprenderás a hacer research relámpago antes de quemar horas programando la solución equivocada.\nDominarás los 3 pilares clave para validar cualquier idea (problema/mercado, viabilidad técnica y competencia) usando el poder de herramientas de",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/8z/4100c06b-43e5-4255-a52d-d5d5f1b1a457.png",
+   "inscripcion": "https://lu.ma/gnwa9c5d",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA",
     "Investigación y ciencia"
@@ -192,9 +212,11 @@
    "url": "https://lu.ma/s2wr8stn",
    "fuente": "Luma",
    "organizador": "IA Labs Sessions",
-   "descripcion": "Un espacio práctico para experimentar con diferentes herramientas, agentes y automatizaciones.\nÚnete a la comunidad: https://chat.whatsapp.com/JGAIH9dubWFH4wN5JmRXmu?s=cl&p=i&mlu=4&ilr=4",
+   "descripcion": "Únete a la comunidad\n👉 Ingresa al grupo de WhatsApp\nBuild with Claude Lima - Edición 2\nLa comunidad vuelve a encontrarse para una nueva edición de Build with Claude Lima: un espacio para aprender, construir y conectar alrededor de Claude y la inteligencia artificial.\nMás que un evento, queremos seguir construyendo una comunidad de personas que aprenden haciendo y comparten lo que construyen.\nAgenda\n2:00 – 2:15 PM👋 Bienvenida a Build with Claude Lima\n2:15 – 2:55 PM🎤 Charla 1: El modelo que sospecha, el flujo que no necesita que confíes\n2:55 – 3:35 PM🎤 Charla 2: De $9 a $200: El precio real de un Claude que funciona\n3:35 – 4:15 PM🎤 Charla 3: Automatiza tu onboarding con IA (Claude)\n4:15 – 4:45",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/3r/f7becea1-554a-4456-9f44-7c9f7884e90d.jpg",
+   "inscripcion": "https://lu.ma/s2wr8stn",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -212,9 +234,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/viernes-economico-y-financiero-elaboracion-de-modelos-financieros-para-planeacion-financiera-y-estr-18092026152400/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Conferencia · Ciencias Sociales · Departamento Académico de Economía",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Se presentarán directrices y herramientas prácticas para la elaboración de modelos financieros aplicados a la planeación financiera estratégica y a la estructuración de deudas. Se abordará la proyección de estados financieros, el análisis de sensibilidad, el costo de capital (WACC) y la mezcla óptima deuda-capital, con casos generales y los retos y desafíos que representan para los profesionales financieros.\n \nExpositor | Enrique Olaechea (UDEP y UPC)\nProfesional en el campo de las Finanzas Corporativas y Estrategia con una experiencia de más de 30 años en la Gerencia y Dirección de Empresas nacionales y transnacionales como Citibank; Grupo Carsa, Mobil Oil y Grupo Fima. Ingeniero Industrial",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Imagen_para_agenda_PUCP_3_7d7fa04577.jpg",
+   "inscripcion": "https://bit.ly/4xd7Zw6",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Negocios y emprendimiento",
     "Investigación y ciencia"
@@ -233,9 +257,11 @@
    "url": "https://lu.ma/d625i7vj",
    "fuente": "Luma",
    "organizador": "ComSoc",
-   "descripcion": "",
+   "descripcion": "Descubre cómo los cursos y certificaciones de Cisco pueden ayudarte a construir una ruta de crecimiento profesional, desde los fundamentos de networking hasta seguridad, automatización y nuevas tecnologías.\nConoce además las principales novedades del nuevo examen CCNA 200-301 v2.0, cómo prepararte y qué habilidades serán clave para el futuro profesional de las redes.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/mt/7e0805b9-fe34-4d9c-9323-10bff5d2bc9d.jpg",
+   "inscripcion": "https://lu.ma/d625i7vj",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA",
     "Negocios y emprendimiento"
@@ -253,10 +279,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/jd40wkzp",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "CSH, Diego Godoy",
+   "descripcion": "Hablemos de Red Team es una charla organizada por CSH UTEC en colaboración con Equifax, con José Ureña Gutierrez, Red Team Operator en Equifax y speaker en DEFCON.\nSobre el ponente:\nRed Team Operator en Equifax\n\nLíder Técnico en el Equipo de Vulnerabilidades, Equifax\n\nLíder Técnico del equipo HackerOne, Equifax\n\nConsultor de Soluciones Técnicas, HP\n\nDesarrollador de Seguridad en Deloitte\n\nIngeniero en Ciencias de la Computación e Informática, Universidad de Costa Rica\n\n📅 25 de septiembre, 5:00pm\n📍 UTEC – Concept Lab (L108)",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/ii/4b17fc03-7f82-488e-a6ad-e6ac11b3e742.png",
+   "inscripcion": "https://lu.ma/jd40wkzp",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -273,35 +301,16 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/6osjnisy",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "AI Dev Peru",
+   "descripcion": "¡Bienvenidos al meetup 8 de la comunidad AI Dev Peru!\nSerá un espacio donde nos pondremos al día con las últimas novedades y aprenderemos nuevas formas de trabajar de la mano de la IA.\n🗓️ Agenda\n🎤 \"De la Ilusión del Vibe Coding al Rigor de los Contratos: Evolución de las Arquitecturas Agénticas y Spec-Driven Development\". Anthony Alarcon - Lider AI @ Valtx, Ricardo Alarcon Cardenas - Tech Lead @ Valtx\n🎤 \"Markdown como dependencias\". Guillermo Cava, Programmer @ Tighten\nRecomendaciones:\nAforo limitado (40 personas), entrada por orden de llegada.\n\nEl local no cuenta con estacionamiento, planifica tu viaje.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/h3/9ad6017d-7111-47f9-bc5b-0688191ec943.png",
+   "inscripcion": "https://lu.ma/6osjnisy",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
    "puntaje": 6,
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "meetup:316628931",
-   "titulo": "Cloud Night en la PUCP: IA, datos y comunidad",
-   "inicio": "2026-09-25T19:00-05:00",
-   "fin": "",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/awsperu/events/316628931/",
-   "fuente": "Meetup",
-   "organizador": "AWS User Group Peru",
-   "descripcion": "📅 Fecha: Viernes 25 de septiembre de 2026\n🕐 Hora: 7:00 p.m. a 10:00 p.m.\n📍 Lugar: Laboratorio V201, Pabellón V\nAv. Universitaria 1801, San Miguel, Lima\nPUCP (Ingeniería Informática)\n\n🎟️ Evento gratuito | Cupos limitados\n\n✨ Sobre este evento\nEste es un espacio de todos y para todos. No importa si recién estás empezando en la nube o si ya llevas años en producción; aquí venimos a aprender, compartir",
-   "gratis": true,
-   "imagen": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Datos y analítica"
-   ],
-   "puntaje": 15,
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
@@ -318,6 +327,8 @@
    "descripcion": "TECNOLOGÍAS CLOUD NATIVE QUE ESTÁN TRANSFORMANDO EL MUNDO",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190517074%2F442849417140%2F1%2Foriginal.20260807-030549?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=72ccbfa807e376196a830459ae26e5ab",
+   "inscripcion": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -335,9 +346,11 @@
    "url": "https://www.meetup.com/bi-expert/events/316699296/",
    "fuente": "Meetup",
    "organizador": "BI Expert",
-   "descripcion": "¡Bienvenidos al Kickoff oficial de Fabric User Group Lima Perú! 🚀\n\nTe invitamos a ser parte del lanzamiento oficial de nuestra comunidad, un espacio creado para compartir conocimiento, experiencias y buenas prácticas alrededor de Microsoft Fabric, Power BI, Data Engineering, Data Science, Gobierno de Datos, Inteligencia Artificial y Analytics.\nDurante esta jornada virtual contaremos con reconocido",
+   "descripcion": "¡Bienvenidos al Kickoff oficial de Fabric User Group Lima Perú! 🚀\n\nTe invitamos a ser parte del lanzamiento oficial de nuestra comunidad, un espacio creado para compartir conocimiento, experiencias y buenas prácticas alrededor de Microsoft Fabric, Power BI, Data Engineering, Data Science, Gobierno de Datos, Inteligencia Artificial y Analytics.\nDurante esta jornada virtual contaremos con reconocidos especialistas de la comunidad, quienes compartirán sesiones técnicas, demostraciones, casos prácticos y experiencias reales trabajando con el ecosistema Microsoft Fabric.\nLa agenda estará conformada por las siguientes sesiones:\n🕘 9:00 a. m. – 9:40 a. m. | Cristiam Espinoza\nInteligencia de Negocios",
    "gratis": true,
-   "imagen": "",
+   "imagen": "https://secure.meetupstatic.com/photos/event/3/b/2/2/highres_536295138.jpeg",
+   "inscripcion": "https://www.meetup.com/bi-expert/events/316699296/",
+   "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
    "categorias": [
     "Tecnología e IA",
     "Datos y analítica",
@@ -358,9 +371,11 @@
    "url": "https://lu.ma/kwkc73b3",
    "fuente": "Luma",
    "organizador": "IA Labs Sessions",
-   "descripcion": "Un espacio práctico para experimentar con diferentes herramientas, agentes y automatizaciones.\nÚnete a la comunidad: https://chat.whatsapp.com/JGAIH9dubWFH4wN5JmRXmu?s=cl&p=i&mlu=4&ilr=4",
+   "descripcion": "Costo del workshop\nPrecio de preventa: S/99 (sube a S/159 el 21 septiembre).¿Tienes dudas sobre si este workshop es para ti?Escríbenos por y WhatsApp te ayudamos a resolverlas.\nDescripción\nDeja de mover información manualmente entre herramientas. En esta sesión en vivo aprenderás a conectar Notion con n8n y automatizar procesos de tu OS, para que más tareas sucedan automáticamente.\nAprenderás:\nCómo integrar Notion con n8n usando conectores.\n\nCómo automatizar tareas repetitivas y reducir trabajo manual.\n\nCómo construir un OS más conectado, eficiente y automático.\n\n¿Para quién es?\nPara personas que usan Notion para organizar su trabajo o vida y quieren conectar herramientas, automatizar proces",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/1i/c510b9ec-7dbc-4820-877e-1bd2a8c25540.png",
+   "inscripcion": "https://lu.ma/kwkc73b3",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -378,9 +393,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/webinar-dominio-afectivo-en-educacion-matematica-04092026125726/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Seminario · Educación y Humanidades · Departamento Académico de Educación",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "invitamos al webinar : \"Dominio afectivo en Educación Matemática\", un espacio de diálogo junto a dos especialistas.\n \nEste evento forma parte de nuestro ciclo “Educación Matemática y Estadística en Debate”, organizado por los docentes del Área de Matemática del Departamento Académico de Educación de la PUCP.\n \n???? Especialistas:\n- María del Socorro García González: Doctora en Matemática Educativa por el Cinvestav-IPN-México. Profesora de la Universidad Autónoma de Guerrero, México.\n- Veronica Castillo Pérez: Doctora en Diseño, Orientación e Intervención Psicopedagógica por la Universidad de Alicante. Es docente ordinario - asociada del Departamento Académico de Educación de la PUCP.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/form_cabecera_agenda_pucp_2_2b01d5411c.png",
+   "inscripcion": "https://zoom.us/webinar/register/WN_I3Yt1pU6SPuobcv4LLC2Kg",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Investigación y ciencia"
    ],
@@ -397,10 +414,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/dk3yycu6",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Takernal Community",
+   "descripcion": "Ceremonia de Premiación de Takernal Game Jam 2026\nEn la ceremonia de premiación de Takernal Game Jam 2026 se darán a conocer los ganadores de las cinco categorías de los videojuegos desarrollados durante la Game Jam.\nLuego de nueve días de desarrollo, nos reuniremos para reconocer y celebrar a los equipos y proyectos ganadores de esta edición.\nLa jornada contará con la ceremonia de premiación, un show en vivo, un showcase de proyectos y un espacio final de coffee break y networking, donde participantes, desarrolladores y miembros de distintas comunidades de GameDev podrán compartir y celebrar juntos el cierre de la competencia.\n📍 Lugar: Aula Magna – UPC Sede Monterrico🕒 Horario: 12:50 a. m. ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/os/aa45c239-5ca5-4976-a1b7-ab954c2f0b81.png",
+   "inscripcion": "https://lu.ma/dk3yycu6",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Competencias y hackathons"
    ],
@@ -417,10 +436,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/e5fy98r4",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Python Lima Perú",
+   "descripcion": "⚠️⚠️⚠️ ¡CUPOS AGOTADOS! ⚠️⚠️⚠️\nPython Meetup Vol. 4 + PyCafé 1 llega como la primera edición presencial de Python Lima 🐍🇵🇪, reuniendo a nuestra comunidad para una tarde de tecnología, aprendizaje, experiencias y networking.\nEste sábado 26 de septiembre nos encontraremos en la UPC Campus Monterrico, Aula Magna 2, junto a estudiantes, desarrolladores, docentes y profesionales interesados en Python, inteligencia artificial, ciencia de datos, desarrollo de software y otras áreas del ecosistema tecnológico.\nDurante el Python Meetup Vol. 4 tendremos tres charlas presenciales a cargo de profesionales de la industria, abordando temas actuales desde diferentes perspectivas:\n🔹 Sistemas de Recomendació",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/tx/ce30eb04-6aa4-4807-b478-214b49fb185e.png",
+   "inscripcion": "https://lu.ma/e5fy98r4",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -432,15 +453,17 @@
    "titulo": "Speak Up - Conversation Club",
    "inicio": "2026-09-26T17:00-05:00",
    "fin": "",
-   "lugar": "",
-   "distrito": "",
+   "lugar": "Lima, Calle Alcanfores 425 - Miraflores",
+   "distrito": "Lima",
    "modalidad": "Presencial",
    "url": "https://www.meetup.com/speak-up-conversation-club/events/316449593/",
    "fuente": "Meetup",
    "organizador": "Speak Up - Conversation Club",
-   "descripcion": "Welcome to Speak Up Conversation Club! 🇬🇧☕\n\nLooking for a fun way to practice English and meet new people in Lima?\n\nJoin Speak Up Conversation Club, where you'll improve your speaking skills in a relaxed and friendly environment while connecting with locals, expats, travelers, and English learners from different backgrounds.\n\nWho is this event for?\n✅ Adults (18+)\n✅ All English levels are welcome (",
+   "descripcion": "Welcome to Speak Up Conversation Club! 🇬🇧☕\n\nLooking for a fun way to practice English and meet new people in Lima?\n\nJoin Speak Up Conversation Club, where you'll improve your speaking skills in a relaxed and friendly environment while connecting with locals, expats, travelers, and English learners from different backgrounds.\n\nWho is this event for?\n✅ Adults (18+)\n✅ All English levels are welcome (Beginner, Intermediate, and Advanced)\n✅ Anyone who enjoys meeting new people, practicing English, and having meaningful conversations\n\nWhat can you expect?\n✅ Icebreaker activities\n✅ Fun games and trivia\n✅ Guided conversation tables\n✅ Coffee break with beverages and a variety of snacks\n✅ Karaoke and ",
    "gratis": null,
-   "imagen": "",
+   "imagen": "https://secure.meetupstatic.com/photos/event/4/3/5/4/highres_535517236.jpeg",
+   "inscripcion": "https://www.meetup.com/speak-up-conversation-club/events/316449593/",
+   "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -452,15 +475,17 @@
    "titulo": "Saturday - Let's practice English (Rustica - First Floor Terrace)",
    "inicio": "2026-09-26T18:00-05:00",
    "fin": "",
-   "lugar": "",
-   "distrito": "",
+   "lugar": "Rustica, Pje. Juan Figari 135",
+   "distrito": "Lima",
    "modalidad": "Presencial",
    "url": "https://www.meetup.com/practice-english-saturday/events/316649907/",
    "fuente": "Meetup",
    "organizador": "Let’s Practice English (Saturdays)",
-   "descripcion": "Join us this Saturday to practice English at Rustica in Miraflores (Next to Kennedy Park)!\nPlease note: There are two Rustica locations on Calle de las Pizzas. We'll be at the one on Pasaje Figari.\n\nWe'll be meeting to practice English/Spanish, talk, meet new people, and share cultures. Intermediate and advanced English levels are welcome — Spanish is not a must if you can speak English! Free admi",
+   "descripcion": "Join us this Saturday to practice English at Rustica in Miraflores (Next to Kennedy Park)!\nPlease note: There are two Rustica locations on Calle de las Pizzas. We'll be at the one on Pasaje Figari.\n\nWe'll be meeting to practice English/Spanish, talk, meet new people, and share cultures. Intermediate and advanced English levels are welcome — Spanish is not a must if you can speak English! Free admission, but you must order at least a soft drink since we're meeting at a café. 😎😊\n\nAnd don't rush home after the meetup! Afterward, a group of us usually goes for a casual, inexpensive dinner somewhere nearby. It's a great chance to keep chatting, get to know everyone better, and continue the evenin",
    "gratis": true,
-   "imagen": "",
+   "imagen": "https://secure.meetupstatic.com/photos/event/b/7/1/f/highres_535846879.jpeg",
+   "inscripcion": "https://www.meetup.com/practice-english-saturday/events/316649907/",
+   "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -478,9 +503,11 @@
    "url": "https://www.meetup.com/aws-sbg-at-technological-university-of-peru/events/316639358/",
    "fuente": "Meetup",
    "organizador": "AWS SBG at Technological University of Peru",
-   "descripcion": "¿Has escuchado hablar de Kiro, pero términos como specs y hooks todavía te resultan confusos? ¿O simplemente quieres descubrir cómo puede ayudarte a desarrollar proyectos de una manera diferente?\nEn esta sesión conocerás Kiro desde cero, entendiendo qué es, cómo funciona y cuáles son algunos de sus conceptos principales. Veremos de forma sencilla qué significan los specs y hooks, para qué sirven y",
+   "descripcion": "¿Has escuchado hablar de Kiro, pero términos como specs y hooks todavía te resultan confusos? ¿O simplemente quieres descubrir cómo puede ayudarte a desarrollar proyectos de una manera diferente?\nEn esta sesión conocerás Kiro desde cero, entendiendo qué es, cómo funciona y cuáles son algunos de sus conceptos principales. Veremos de forma sencilla qué significan los specs y hooks, para qué sirven y cómo pueden utilizarse en la práctica . 💻✨\n\n✅ Descubre qué es Kiro y cómo puede ayudarte en el desarrollo de software\n✅ Comprende conceptos fundamentales como specs y hooks\n✅ Aprende cómo llevar estos conceptos a un flujo de trabajo práctico\n✅ Conoce una forma diferente de organizar y desarrollar t",
    "gratis": true,
-   "imagen": "",
+   "imagen": "https://secure.meetupstatic.com/photos/event/3/1/3/4/highres_536232596.jpeg",
+   "inscripcion": "https://www.meetup.com/aws-sbg-at-technological-university-of-peru/events/316639358/",
+   "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -501,6 +528,8 @@
    "descripcion": "ATECH ZONE conecta gente y tecnología en un evento único para vivir la innovación de cerca. ¡No te lo pierdas!",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193712952%2F3014416757640%2F1%2Foriginal.20260917-014856?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=864987258228717c090b426cdb3f042a",
+   "inscripcion": "https://www.eventbrite.com.pe/e/atech-zone-tecnologia-que-conecta-contigo-tickets-2001277781718",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -518,9 +547,11 @@
    "url": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/316630675/",
    "fuente": "Meetup",
    "organizador": "AWS SBG at National University of Engineering",
-   "descripcion": "Desplegando con Costo Cero: Cloud Economics y Facturación en AWS ☁️\n¡Seguimos con el AWS Practitioner Challenge!\nEn esta sesión aprenderás sobre pricing, billing, Free Tier y control de costos en AWS, además de herramientas como AWS Budgets y Cost Explorer y tips clave para el examen.\nPonente:\nCésar Carrasco · AWS SBG Leader · Cloud Customer Success en IBM\nDetalles:\n\n 📅 27 de septiembre\n ⏰ 6:30 PM",
+   "descripcion": "Desplegando con Costo Cero: Cloud Economics y Facturación en AWS ☁️\n¡Seguimos con el AWS Practitioner Challenge!\nEn esta sesión aprenderás sobre pricing, billing, Free Tier y control de costos en AWS, además de herramientas como AWS Budgets y Cost Explorer y tips clave para el examen.\nPonente:\nCésar Carrasco · AWS SBG Leader · Cloud Customer Success en IBM\nDetalles:\n\n 📅 27 de septiembre\n ⏰ 6:30 PM – 8:00 PM (Perú)\n 💻 Virtual\n 🌐 AWS Student Builder Group at UNI\n\n🔗 Nuestras redes: https://linktr.ee/AWSCloudClubUNI",
    "gratis": true,
-   "imagen": "",
+   "imagen": "https://secure.meetupstatic.com/photos/event/2/0/5/2/highres_536288274.jpeg",
+   "inscripcion": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/316630675/",
+   "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -538,9 +569,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Curso/Taller · Institucional · INFOPUCP",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "INFOPUCP invita a estudiantes, recién egresados y a la comunidad educativa a participar en la Semana Modo IA: para el mundo educativo, una serie de talleres gratuitos y virtuales orientados al uso de herramientas digitales potenciadas con inteligencia artificial.\nDel 28 de septiembre al 2 de octubre, los participantes podrán fortalecer sus conocimientos y descubrir nuevas formas de aplicar la IA en herramientas como Excel, Power BI, Word, redes sociales y más, a través de sesiones prácticas diseñadas para el ámbito académico.\n● Dirigido a: Estudiantes, recién egresados y comunidad educativa.\n● Fechas: Del 28 de septiembre al 2 de octubre.\n● Modalidad: Virtual.\n● Inversión: Gratuita.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agenda_pucp_1_bb80e78fe0.png",
+   "inscripcion": "https://infopucp.pucp.edu.pe/semana-de-la-ia-2026/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -558,9 +591,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/la-meliponicultura-en-loreto-impactos-en-las-comunidades-amazonicas-y-en-la-conservacion-ambiental-17092026101522/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Charla · Ciencias e Ingeniería · Cultura · Innovación · Interdisciplinarias · Investigación · Departamento Académico de Ingeniería",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Los invitamos a participar en la charla: “La meliponicultura en Loreto: impactos en las comunidades amazónicas y en la conservación ambiental”. Dicha charla estará a cargo del Mg. Adriano Meza Braga, quien es Fundador de Beequeencoin, iniciativa socio ambiental loretana dedicada a la conservación de las abejas nativas sin aguijón en la Amazonía peruana.\nDurante la charla conoceremos cómo la meliponicultura puede desarrollarse como un bionegocio para las comunidades amazónicas, contribuyendo al mismo tiempo a la conservación de especies nativas polinizadoras y de los ecosistemas amazónicos. \nFecha: lunes 28 de setiembre\nHora: 11:00 a. m. – 12:00 m.\nLugar: Auditorio de la Facultad de Ciencias ",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_908b595dba_df91042a54.jpg",
+   "inscripcion": "https://forms.gle/6Y4BSN3rTDVUoaLM7",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Ingeniería y operaciones",
     "Negocios y emprendimiento",
@@ -580,9 +615,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/bridging-process-science-and-global-monitoring-in-satellite-observations-of-clouds-and-storms-02092026163203/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Charla · Ciencias e Ingeniería · Innovación · Internacional · Investigación · Centro de Investigación en Geografía Aplicada",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "El Centro de Investigación en Geografía Aplicada (CIGA) de la PUCP invita a la comunidad académica y al público interesado a la Charla Magistral: \"Bridging Process Science and Global Monitoring in Satellite Observations of Clouds and Storms\", a cargo del Dr. Z. Johnny Luo, Director del Departamento de Ciencias de la Tierra y de la Atmósfera en The City College of New York (CCNY - CUNY).\n \n(Nota: La conferencia se dictará íntegramente en idioma inglés).\n \nResumen de la conferencia:\n \nLas observaciones de la Tierra desde el espacio enfrentan con frecuencia una disyuntiva fundamental entre profundidad y cobertura: las misiones \"enfocadas en procesos\" (como CloudSat y EarthCARE) actúan como micr",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Referencia_Agenda_PUCP_d53bc95221.png",
+   "inscripcion": "https://forms.gle/9EM29Z8KzthH8aGP8",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Ingeniería y operaciones",
     "Negocios y emprendimiento",
@@ -603,9 +640,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/ici-pucp-2026-riesgo-editorial-en-revistas-estrategias-y-herramientas-04092026171447/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Charla · Investigación · Vicerrectorado de Investigación",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Esta charla se orienta a investigadores(as) y tiene como objetivo brindarles información sobre las señales de alerta de riesgo editorial que pueden identificar en las revistas donde buscan publicar. Esto, a su vez, permite prevenir la publicación en revistas con prácticas sospechosas y dañar, así, la reputación del propio investigador y de la universidad en conjunto. Además de información, se presentarán las herramientas desarrolladas por AERI para identficar estas señales de manera rápida.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Inauguracion_y_conferencia_magistral_9_975b399a73.jpg",
+   "inscripcion": "https://encuentroici.pucp.edu.pe/event/riesgo-editorial-en-revistas-estrategias-y-herramientas-para-identificarlo-y-prevenirlo/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Investigación y ciencia"
    ],
@@ -622,10 +661,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/insfifg4",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Alexander Zamora, Prueba",
+   "descripcion": "Si tienes un emprendimiento y quieres sacarle más provecho a tu día a día, esta charla te mostrará cómo usar herramientas de Google para organizar mejor tus tareas, comunicarte con más orden y mantener todo bajo control sin complicarte. En la sesión, verás opciones prácticas para trabajar más ágilmente, ahorrar tiempo y tener una visión más clara de lo que pasa en tu negocio.¿Qué necesito para poder participar?1. Manejar el correo electrónico de Gmail (adjuntar archivos, almacenamiento en la nube, entre otros)2. Conocer ofimática básica (Word, Excel, Powerpoint)\nNosotros confirmaremos tu participación vía correo electrónico.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/bj/95e639c8-2a31-4c41-be0c-ecb10a670672.png",
+   "inscripcion": "https://lu.ma/insfifg4",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -643,9 +684,11 @@
    "url": "https://lu.ma/vjmpk177",
    "fuente": "Luma",
    "organizador": "Replit Perú",
-   "descripcion": "Acompáñanos en todas nuestras Buildathons mensuales de la comunidad de Replit Perú.\n\nEncuéntranos en Instagram como @replitperu",
+   "descripcion": "¡Acompáñanos en este Building Fest by Replit!\nCompartiremos un espacio para construir ideas, proyectos y productos usando Replit mientras construimos en comunidad.\n\n¿Qué podrás hacer aquí?\nDesarrollar tu proyecto usando Replit.\n\nGrabar contenido BuildInPublic\n\nConectar con otros builders y comunidades.\n\n¿Qué te regalaremos?\nCréditos de Replit para que desarrolles tu idea.\n\nStickers de Replit.\n\nProductos de otras comunidades.\n\nPerks de otras empresas.\n\nMucho café y buena música mientras desarrollas.\n\nAdemás, al final podrás pitchear tu idea para recibir feedback de todos los asistentes y ganar:\nCréditos de Replit.\n\nMembresías de Platzi.\n\nPerks de nuestros partners\n\nFecha: martes, 29/sept.Hora",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/sv/ce677673-7d53-46b6-929f-752586c0cff4.png",
+   "inscripcion": "https://lu.ma/vjmpk177",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -663,9 +706,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/webinar-fssc-22000-esquema-de-verificacion-y-lo-nuevo-de-la-version-7-11092026141545/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": " · Instituto para la Calidad",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Descubre los principales cambios que trae la nueva versión de FSSC 22000 y los aspectos clave de su esquema de verificación. Conoce su importancia para fortalecer la competitividad de las organizaciones y garantizar la inocuidad alimentaria en un entorno cada vez más exigente.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agenda_pucp_100_db852540c8.jpg",
+   "inscripcion": "https://calidad.pucp.edu.pe/agendas_calidad/fssc-22000-esquema-de-verificacion-y-lo-nuevo-de-la-version-7/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Ingeniería y operaciones"
    ],
@@ -683,9 +728,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/ici-pucp-2026-el-rol-de-la-inteligencia-artificial-en-la-transformacion-academica-04092026174417/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Conferencia · Investigación · Vicerrectorado de Investigación",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Esta conferencia que se realizará durante la clausura del Encuentro ICI PUCP 2026 analiza cómo la Inteligencia Artificial está transformando la educación universitaria, generando nuevos desafíos y oportunidades en la enseñanza, evaluación, innovación curricular y gestión educativa.\n\nSe aborda el uso responsable de la IA, la personalización del aprendizaje y su potencial para apoyar la labor docente y administrativa. Asimismo, se destaca la necesidad de incorporar la ética, la responsabilidad social y nuevas competencias en la formación de profesionales capaces de afrontar los impactos y desafíos de la transformación tecnológica.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Inauguracion_y_conferencia_magistral_10_e318b1e8e7.jpg",
+   "inscripcion": "https://encuentroici.pucp.edu.pe/event/el-rol-de-la-inteligencia-artificial-en-la-transformacion-academica/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Tecnología e IA",
     "Investigación y ciencia"
@@ -703,10 +750,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/786z4552",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Marcia de SONDA, Daniel Delgado",
+   "descripcion": "Te invitamos a este evento presencial, donde conocerás cómo implementar BIM en proyectos de inversión pública y todo lo que puedes lograr con Forma Site Design y Forma Building Design.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/nc/6deb9542-a482-4dbb-8084-ebbd44333455.png",
+   "inscripcion": "https://lu.ma/786z4552",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Ingeniería y operaciones",
     "Negocios y emprendimiento"
@@ -725,9 +774,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/transformando-la-educacion-del-futuro-inteligencia-artificial-calidad-y-acreditacion-14092026163614/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Panel · Educación y Humanidades · Instituto para la Calidad",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "La educación del futuro exige integrar innovación, calidad y tecnología para responder a los nuevos desafíos del aprendizaje. En esta jornada con educadores descubrirás sobre el impacto de la Inteligencia Artificial, la gestión de la calidad, la acreditación y la transformación de la educación. Una oportunidad para ampliar tu visión junto a especialistas y líderes del sector.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/web_3mailing_b0391509ac.jpg",
+   "inscripcion": "https://calidad.pucp.edu.pe/agendas_calidad/jornada-con-educadores-transformando-la-educacion-del-futuro-inteligencia-artificial-calidad-y-acreditacion/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Tecnología e IA",
     "Ingeniería y operaciones"
@@ -746,9 +797,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/tejiendo-redes-de-encuentro-para-estudiantes/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Encuentro · Interdisciplinarias · Dirección de Asuntos Estudiantiles · Bienestar PUCP",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Un espacio para conectar, compartir experiencias y fortalecer vínculos con otros estudiantes. Participa en actividades que promueven el encuentro, la integración y el bienestar durante tu vida universitaria.\nLugar: jardines DAES",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Tejiendo_redes_b66351a819.png",
+   "inscripcion": "https://daes.pucp.edu.pe/servicios/circulos-de-apoyo-social-para-estudiantes",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -765,10 +818,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/ze7o6cj5",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "wieunmsm2026",
+   "descripcion": "💻🌸 II HACKATHON WIE – NextGen Innovators\nUna experiencia de innovación y tecnología donde desarrollarás, junto a tu equipo, una solución basada en Inteligencia Artificial para abordar un problema real relacionado con la educación, orientación o acceso a oportunidades para mujeres.\n📅 1, 2 y 3 de octubre de 2026\n💻 Jueves 1 de octubre: Jornada virtual – Ponencias y actividades de inicio de la Hackathon.\n💻 Viernes 2 de octubre: Jornada virtual – Ponencia y sesión de mentoría con las mentoras.\n🏫 Sábado 3 de octubre: Jornada presencial en la Universidad Nacional Mayor de San Marcos – Desarrollo y presentación del proyecto.\n👩‍💻 Dirigido a mujeres estudiantes universitarias.\nLa inscripción es indivi",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/gd/93725afa-5c5d-4209-802e-cb4aa6a91a48.jpg",
+   "inscripcion": "https://lu.ma/ze7o6cj5",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Competencias y hackathons"
    ],
@@ -785,10 +840,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/ydco9610",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Michelle Garreaud",
+   "descripcion": "Negociar no es ganarle a la otra persona — es entender qué la mueve y usar eso a tu favor.\nMariano Mejía lidera un taller de negociación diseñado originalmente para nivel gerencial, ahora adaptado para emprendedores que negocian todos los días: con proveedores, clientes, socios, inversionistas.\nRevisaremos casos reales, tus propios errores puestos sobre la mesa, y un framework que te llevarás para la próxima vez que te sientes a negociar.\n📍 Comunal, Alberto del Campo🗓️ Jueves 1 de octubre, 5:00–7:00 pm👥 Cupos limitados\nAbierto a Colis de Mastermind Collective y a emprendedores que quieran conocer cómo trabajamos en comunidad.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/v6/a62a076a-adca-4613-b061-874f0cb6d3cd.png",
+   "inscripcion": "https://lu.ma/ydco9610",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -805,10 +862,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/xqqg8plq",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "NXTEP Producto & Growth",
+   "descripcion": "🤖 NextGen Agents — La era de los agentes autónomos en el trabajo\n¡Bienvenido/a! 👋 Este 1 de octubre nos juntamos para hablar de algo que ya está pasando: pasar de escribir prompts uno por uno, a delegar tareas completas en agentes de IA autónomos.\n3 founders y líderes técnicos/operativos que ya lo están implementando en sus empresas nos van a contar, con casos reales, cómo lo hicieron y qué cambió en sus operaciones.\n📌 Lo que vas a encontrar:🎤 3 keynotes prácticas con casos reales + Q&A⚡ Panel relámpago con debate cruzado entre los speakers🤝 Networking activo con otros profesionales y founders🎁 Sorteo de mentoría 1-on-1 con un speaker\n📅 Jueves 1 de octubre, 2026🕡 6:30pm📍 UTEC Ventures, Lima🎟",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/dd/f9f91020-a1c3-4a32-8d2d-00c63da87702.jpg",
+   "inscripcion": "https://lu.ma/xqqg8plq",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -825,10 +884,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/bjysaxlr",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Adriana Muñoz, Paolo diaz",
+   "descripcion": "Future Banking Experience 2026\nExperiencia, tecnología y valor en la nueva banca\nLa banca está entrando en una nueva etapa, donde la experiencia del cliente y la tecnología están cada vez más conectadas con los resultados de negocio.\nFuture Banking Experience 2026 nace para abrir esta conversación: explorar qué está cambiando en la experiencia financiera y qué decisiones están tomando hoy las organizaciones para construir el futuro de la banca.\nFuture Banking Experience 2026 reúne a líderes y especialistas de banca, Customer Experience, tecnología, operaciones, marketing e investigación para conversar sobre una pregunta central:\n¿Cómo estamos construyendo la experiencia financiera que viene?",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/hk/ddc9f845-1ab5-4e0e-9dfa-bdf7c83d78bb.png",
+   "inscripcion": "https://lu.ma/bjysaxlr",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -846,9 +907,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/regulacion-gobernanza-y-gestion-de-ia-en-organizaciones-empresariales-16092026180226/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Conferencia · Derecho · Escuela de Posgrado",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Clase Magistral en Trujillo: Regulacion, gobernanza y gestión de IA en organizaciones empresariales.\n\nExpositor: Bruno Debenedetti\nLugar: Centro de Convenciones Los Conquistadores\nDirección: Jirón Ayacucho 372, Trujillo\nDirigido a: Abogados y contadores que vive en Trujillo e interesados en las siguientes maestrías:\nMaestría en Derecho Tributario\nMaestría en Derecho Bancario y Financiero\nMaestría en Derecho de la Empresa",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_908b595dba_df91042a54.jpg",
+   "inscripcion": "https://eros.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=032&id=35279&a=&l=&cis=&on=&lp=",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -866,9 +929,11 @@
    "url": "https://lu.ma/t6kreqmq",
    "fuente": "Luma",
    "organizador": "LIGA NACIONAL DE ROBÓTICA DE COMPETENCIA DE PERÚ 2026",
-   "descripcion": "",
+   "descripcion": "⚡ TORNEO DE ROBÓTICA EN VIVO ⚡\n🔥 Prepárate para vivir un espectáculo donde la tecnología cobra vida.\nDurante 2 días, los mejores equipos de todo el Perú pondrán a prueba sus robots en emocionantes enfrentamientos, estrategia en tiempo real y pura adrenalina tecnológica.\n🎯 Este evento está dirigido a:\nPúblico en general\n\nEstudiantes interesados en tecnología\n\nFans de la robótica y la innovación\n\n🤖 ¿Qué verás?\nBatallas, carreras y fútbol de robots en vivo\n\nCompetencias intensas y dinámicas\n\nRobots made in Perú\n\nTecnología, estrategia y acción sin pausa\n\n⚠️ Importante\nEste registro es exclusivo para espectadores.Ven a disfrutar el show, aprender y vivir la experiencia.\n🎟️ Cupos limitados\nAsegur",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/event-covers/xf/89841d09-a022-497e-a894-832a224618a7.png",
+   "inscripcion": "https://lu.ma/t6kreqmq",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -885,10 +950,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/nu1hru5x",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "STARTUP UNI, José Torres Valenzuela",
+   "descripcion": "💼 Difusión de Resultados – DATA AIX\nSistema de exploración minera con IA para análisis de variables geológicas.\nTe invitamos a conocer los resultados del proyecto desarrollado por DATA AIX, una iniciativa orientada al desarrollo de una solución tecnológica basada en inteligencia artificial para la exploración y análisis de información geológica.\n🔎 Durante el taller conocerás:\n📈 Los resultados del proyecto🚀 Sus principales avances y logros💡 La solución desarrollada y sus principales funcionalidades🧪 El proceso de desarrollo y validación📊 Los aprendizajes obtenidos durante el proyecto\n💰 Proyecto cofinanciado por ProInnóvate – Ministerio de la Producción, en el marco de Startup Perú 12G.\n👨‍💻 CE",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/ls/5268bc33-09a7-4411-b7b5-72bbaeb56b9d.jpg",
+   "inscripcion": "https://lu.ma/nu1hru5x",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Datos y analítica"
    ],
@@ -909,6 +976,8 @@
    "descripcion": "",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192328906%2F3012475766147%2F1%2Foriginal.20260901-010024?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7bed9b2234515374328275250f8b90dd",
+   "inscripcion": "https://www.eventbrite.com/e/aws-community-day-peru-2026-tickets-1999328032967",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -926,9 +995,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/conferencia-exodo-liberacion-y-antijudaismo-gustavo-gutierrez-y-una-critica-pendiente-24092026104728/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Conferencia · Educación y Humanidades · Teología · Departamento Académico de Teología",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Las y los invitamos a participar en esta nueva sesión del Seminario Permanente: El pensamiento de Gustavo Gutiérrez y el futuro de la teología de la liberación, espacio de intercambio académico multidisciplinario que busca profundizar en la obra y legado del destacado teólogo peruano y profesor emérito de nuestra casa de estudios.\n \nEn esta oportunidad, el Dr. Todd Walatka (University of Notre Dame) impartirá la conferencia titulada Éxodo, liberación y antijudaísmo: Gustavo Gutiérrez y una crítica pendiente. La sesión abordará las críticas a la interpretación del Éxodo en la teología de la liberación latinoamericana y, a partir de la obra de Gustavo Gutiérrez, explorará sus alcances y aspect",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Miniaturas_Agenda_PUCP_16_d7c6cced7c.png",
+   "inscripcion": "https://forms.gle/yqD4YHYm4v6gzUdv7",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Investigación y ciencia"
    ],
@@ -946,9 +1017,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/webinar-claves-para-la-gestion-por-procesos-que-generan-valor-18092026144913/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": " · Instituto para la Calidad",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Descubre las claves para diseñar, gestionar y mejorar los procesos de tu organización, de modo que dejen de ser tareas aisladas y se conviertan en una fuente real de valor para el cliente y el negocio. Conoce las prácticas clave para gestionarlos de forma efectiva y lograr que cada proceso aporte resultados concretos y sostenibles en el tiempo.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agenda_pucp_100_880ea7663a.jpg",
+   "inscripcion": "https://calidad.pucp.edu.pe/agendas_calidad/claves-para-la-gestion-por-procesos-que-generan-valor/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Ingeniería y operaciones"
    ],
@@ -960,15 +1033,17 @@
    "titulo": "Friday - Let's practice English over a drink🥤🥃",
    "inicio": "2026-10-09T18:00-05:00",
    "fin": "",
-   "lugar": "",
-   "distrito": "",
+   "lugar": "Rustica, Jr. Risso 147, Lince",
+   "distrito": "lima",
    "modalidad": "Presencial",
    "url": "https://www.meetup.com/lince-english-group/events/316470912/",
    "fuente": "Meetup",
    "organizador": "English Practice Club 🎉✨",
-   "descripcion": "Join us on Friday for a drink while we practice English in Lince, Lima! We’ll be meeting at Rustica de Lince to practice English/Spanish by talking, meeting new people, and sharing cultures. All English levels are welcome — everyone’s invited! 😎😊 Since we’ll be using the Rustica space, please try to order at least a drink so the place is happy to host us. ☕🙏\n[https://chat.whatsapp.com/KGsBhzFyekw6",
+   "descripcion": "Join us on Friday for a drink while we practice English in Lince, Lima! We’ll be meeting at Rustica de Lince to practice English/Spanish by talking, meeting new people, and sharing cultures. All English levels are welcome — everyone’s invited! 😎😊 Since we’ll be using the Rustica space, please try to order at least a drink so the place is happy to host us. ☕🙏\n[https://chat.whatsapp.com/KGsBhzFyekw6gU1PuKRagS](https://chat.whatsapp.com/KGsBhzFyekw6gU1PuKRagS)\n\n¡Acompáñanos el Viernes para tomar algo y practicar inglés en Lince, Lima! Nos reuniremos en Rustica de Lince para practicar inglés/español conversando, conocer gente nueva y compartir culturas. Todos los niveles de inglés son bienvenido",
    "gratis": true,
-   "imagen": "",
+   "imagen": "https://secure.meetupstatic.com/photos/event/4/c/d/4/highres_536239668.jpeg",
+   "inscripcion": "https://www.meetup.com/lince-english-group/events/316470912/",
+   "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -980,15 +1055,17 @@
    "titulo": "Sesión 01: El Panorama de los Agentes de IA",
    "inicio": "2026-10-09T19:00-05:00",
    "fin": "",
-   "lugar": "",
-   "distrito": "",
+   "lugar": "Sesión Online, Videoconferencia",
+   "distrito": "Lima",
    "modalidad": "Presencial",
    "url": "https://www.meetup.com/msperu/events/315593587/",
    "fuente": "Meetup",
    "organizador": "Microsoft User Group Perú",
-   "descripcion": "Por qué los controles de seguridad tradicionales no fueron diseñados para identidades no humanas autónomas\nQué vas a aprender\n\n Qué es realmente un agente de IA (modelo + memoria + herramientas + orquestador) y por qué eso lo vuelve un actor con permisos propios, no un chatbot más inteligente.\n La diferencia que cambia el riesgo: un chatbot responde preguntas, un agente ejecuta acciones en sistema",
+   "descripcion": "Por qué los controles de seguridad tradicionales no fueron diseñados para identidades no humanas autónomas\nQué vas a aprender\n\n Qué es realmente un agente de IA (modelo + memoria + herramientas + orquestador) y por qué eso lo vuelve un actor con permisos propios, no un chatbot más inteligente.\n La diferencia que cambia el riesgo: un chatbot responde preguntas, un agente ejecuta acciones en sistemas reales sin que un humano revise cada paso.\n El estado real de tu organización hoy: 73% de empresas van a desplegar agentes en 2025, pero 47% de los que ya están activos no tienen dueño identificado.\n Las 5 amenazas que definen 2026: prompt injection, LPCI, supply chain de servidores MCP, shadow AI",
    "gratis": true,
-   "imagen": "",
+   "imagen": "https://secure.meetupstatic.com/photos/event/4/5/6/5/highres_536177765.jpeg",
+   "inscripcion": "https://www.meetup.com/msperu/events/315593587/",
+   "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1006,9 +1083,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/webinar-iso-21001-2025-claves-para-una-gestion-educativa-sostenible-21092026102119/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": " · Instituto para la Calidad",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Conoce las claves de la ISO 21001:2025 para fortalecer la gestión educativa sostenible y la calidad en las organizaciones educativas.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agenda_pucp_100_609103d6e4.jpg",
+   "inscripcion": "https://calidad.pucp.edu.pe/agendas_calidad/iso-210012025-claves-para-una-gestion-educativa-sostenible/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Ingeniería y operaciones"
    ],
@@ -1029,6 +1108,8 @@
    "descripcion": "Una feria gratuita para conocer las mejores opciones educativas en el extranjero✈️",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192318848%2F242127667892%2F1%2Foriginal.20260831-220326?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a6fb445f0f2fcb6e4abfb0f34761579c",
+   "inscripcion": "https://www.eventbrite.co/e/expoestudios-lima-2026-2-tickets-1999310788388",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -1046,9 +1127,11 @@
    "url": "https://lu.ma/notion-yut0",
    "fuente": "Luma",
    "organizador": "Notion Lima",
-   "descripcion": "Comunidad de Notion Lima liderada por los embajadores de Perú.\nÚnete a la comunidad: https://chat.whatsapp.com/H8Gmkkxe47g6B31vNIRO9E?mode=git",
+   "descripcion": "Notion Community Fest 2026\n¡La comunidad de Notion vuelve a encontrarse! 🫶🏻\nEste sábado 10 de octubre nos reunimos en la UPC San Miguel para celebrar todo lo que podemos crear, organizar y aprender con Notion.\nSerá una tarde para aprender, conectar y compartir en comunidad, con una agenda que incluirá workshops, charlas, entrevistas y experiencias prácticas para llevar tu forma de trabajar y organizarte al siguiente nivel.\nY, por supuesto, tendremos regalos, sorteos, comida y muchas sorpresas para disfrutar juntos.\n📅 Fecha: sábado, 10 de octubre🕒 Hora: desde las 3:00 p. m.📍 Lugar: UPC San Miguel, Lima, Perú\nSi eres fan de Notion, lo usas en tu trabajo, estudios o proyectos, o simplemente qui",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/8v/9fdc7d43-8cba-4b13-9cfd-f365683776b9.jpg",
+   "inscripcion": "https://lu.ma/notion-yut0",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1066,9 +1149,11 @@
    "url": "https://lu.ma/notionper-qdo0",
    "fuente": "Luma",
    "organizador": "Notion Perú",
-   "descripcion": "Notion Peru Community",
+   "descripcion": "Organiza proyectos, arma paneles de control y deja que la IA te ayude a ejecutar.\n¿Tus proyectos viven entre chats, hojas de cálculo y tareas que nadie actualiza? 👀 No es falta de esfuerzo: te falta un sistema.\nEn esta sesión presencial de Notion Perú ves, en vivo y con casos reales, cómo un proyecto pasa del caos a un tablero que todo el equipo entiende. Notion ya no es “la app de notas bonitas”: hoy sostiene la operación completa — proyectos, equipos, dashboards y agentes de IA trabajando juntos.\nLo que vas a ver ⚡\n📂 Gestión de proyectos en Notion — estructura, fases y entregables sin complicaciones\n👥 Coordinación de equipos — roles claros y responsabilidades visibles\n📊 Paneles de control ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/78/09f81313-dd2a-467b-b2fc-943f4e23267d.png",
+   "inscripcion": "https://lu.ma/notionper-qdo0",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1086,9 +1171,11 @@
    "url": "https://lu.ma/m32zilye",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "La inteligencia artificial no solo está cambiando las herramientas que usamos. Está transformando la forma en que las empresas operan, venden, toman decisiones y crecen.\nEn el marco de Perú Tech Week, Indrox presenta AI-Augmented Companies, un encuentro para descubrir cómo construir organizaciones en las que las personas, el software y la inteligencia artificial trabajan como un solo sistema.\nDurante esta experiencia conocerás:\nQué diferencia a una empresa aumentada por IA de una empresa que simplemente utiliza herramientas de IA.\n\nCómo identificar procesos que pueden automatizarse o convertirse en software.\n\nPor qué el modelo Service as Software está redefiniendo industrias completas.\n\nCaso",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/93/bcc16c78-7d78-4f3d-b141-98d1f34843f1.png",
+   "inscripcion": "https://lu.ma/m32zilye",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1106,9 +1193,11 @@
    "url": "https://lu.ma/d5zarkk2",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "Acerca del evento\nEn el marco de Perú Tech Week 2026, la UPC y StartUPC, presentan un espacio de encuentro entre empresas, academia, especialistas y actores del ecosistema de innovación para explorar cómo la innovación abierta y la transferencia tecnológica pueden transformar desafíos reales en soluciones aplicables.\nDurante la jornada abordaremos cómo conectar conocimiento y capacidades con necesidades empresariales, conoceremos perspectivas y retos del sector Salud y compartiremos aprendizajes para avanzar de una oportunidad de innovación a un piloto.\nUn encuentro para generar conexiones, compartir experiencias y abrir nuevas oportunidades de colaboración entre empresa y academia.\n¿Qué enc",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/lv/0c68fc51-8379-468a-a0f3-f5130e5ea1ef.png",
+   "inscripcion": "https://lu.ma/d5zarkk2",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento",
     "Competencias y hackathons"
@@ -1127,9 +1216,11 @@
    "url": "https://lu.ma/0ckqkqwz",
    "fuente": "Luma",
    "organizador": "SHIFT",
-   "descripcion": "",
+   "descripcion": "Innovar en la era de la IA\nEmpresas, ecosistema y colaboración para transformar\nSHIFT Connect VII reúne a líderes corporativos para contrastar experiencias reales y construir criterio sobre algunas de las decisiones más relevantes que hoy enfrentan las organizaciones en innovación e inteligencia artificial.\nEn esta edición, realizada en el marco de Perú Tech Week, ampliaremos la mirada para explorar cómo están innovando las organizaciones en un contexto marcado por la IA y qué oportunidades surgen al conectar las capacidades de las empresas con un ecosistema de innovación cada vez más relevante.\nA través de conversaciones entre líderes empresariales, conoceremos experiencias y aprendizajes s",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/cf/61cb4fc5-6cb2-47cb-a627-22cbc0ee54b3.png",
+   "inscripcion": "https://lu.ma/0ckqkqwz",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1147,9 +1238,11 @@
    "url": "https://lu.ma/lrkvf16u",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "Un encuentro para founders, CEOs, ejecutivos y equipos que están explorando o atravesando procesos de expansión regional, en el marco de Perú Tech Week 2026.\n💬 Preguntas & Networking: Pregunta de forma anónima aquello que siempre quisiste saber sobre internacionalización y conecta con otros founders, decisiones difíciles y lecciones reales de quienes ya llevaron sus empresas fuera del Perú.\n🎤 Panel de conversación: Founders y líderes compartirán experiencias reales sobre lo que implica entrar a nuevos mercados, desde las decisiones que funcionaron hasta los errores que les hubiera gustado evitar.\n🛠️ Workshop práctico: Lleva la conversación a tu propia empresa y trabaja sobre los principales ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/kt/498e623a-4420-474f-8fa1-0ff6fb89f916.jpg",
+   "inscripcion": "https://lu.ma/lrkvf16u",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1167,9 +1260,11 @@
    "url": "https://lu.ma/d822gk86",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "HORARIO\nInicio: 12:00 PM (registro y bienvenida en tierra)Embarque: 12:45 PMFinalización: 6:00 PM\nENTRADAS\nCon costo.Precio: S/ 350 por persona.Acceso limitado: 25 a 35 personas seleccionadas.\nUBICACIÓN\nYacht Club PeruanoAv. Coronel Bolognesi 761, La Punta, Callao, Lima — Perú\nDESCRIPCIÓN\nUna velada exclusiva en el Pacífico peruano diseñada para reunir a los líderes más influyentes del ecosistema tech peruano durante Perú Tech Week 2026.\nTalent Wave Private Session es la experiencia más memorable de la semana. Un catamarán saliendo del único puerto marítimo de una capital sudamericana, con 25 a 35 líderes seleccionados del ecosistema: founders, inversores, directores de innovación, gerentes ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/7w/059d5bb3-27f8-415b-b0ae-6ddb38f305ef.png",
+   "inscripcion": "https://lu.ma/d822gk86",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1187,9 +1282,11 @@
    "url": "https://lu.ma/l42s5hug",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "Un encuentro exclusivo entre fundadores, operadores e inversionistas del mundo PropTech y FinTech, en el marco de Perú Tech Week 2026. Organizado por ADN VC, UTEC Ventures & 401 Accelerator, este mixer busca conectar a los principales actores que están transformando los sectores inmobiliario y financiero de América Latina.\n🎤 Panel de Founders revolucionando la Vivienda y Finanzas en Latam. Tendencias emergentes en PropTech & FinTech.\n🎤 Panel de Fondos de VC. Debate a lo 'Verdad o Mito' sobre situaciones reales a las que se enfrentan inversionistas en relación a Startups.\n🚀 Pitch! 5 startups seleccionadas presentarán sus soluciones y 5 fondos VC/CVC en un Panel compartirán su tesis de inversi",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/tg/6dd5c592-303d-4c73-bce9-b9d9b62687df.jpg",
+   "inscripcion": "https://lu.ma/l42s5hug",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1207,9 +1304,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/30-aula-magna-tejamos-el-pais-desde-las-diferencias-crecimiento-desarrollo-e-instituciones-11092026180436/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Simposio · Educación y Humanidades · Institucional · Vicerrectorado Académico",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "La 30 edición de Aula Magna, bajo el lema “Tejamos el país desde las diferencias: crecimiento, desarrollo e instituciones”, propone un espacio de diálogo y reflexión sobre los principales desafíos que enfrenta el Perú y las condiciones necesarias para construir un país más justo, democrático y sostenible.\n \nEn esta edición, destacadas expertas y expertos se reunirán para analizar, dialogar y debatir en torno a tres ejes fundamentales:\n \n- Impulsar el crecimiento económico, fortaleciendo la productividad, la innovación, la transformación digital y la generación de oportunidades.\n- Promover el desarrollo humano, ampliando las capacidades, libertades y oportunidades de las personas y garantizan",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Copia_de_Programa_aula_magna_1_2799c5b498.jpg",
+   "inscripcion": "https://eros.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=032&id=35358&a=&l=&cis=&on=&lp=",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Investigación y ciencia"
    ],
@@ -1227,9 +1326,11 @@
    "url": "https://lu.ma/founderslive-lima-2026-10",
    "fuente": "Luma",
    "organizador": "Founders Live",
-   "descripcion": "The global ecosystem for early-stage founders.",
+   "descripcion": "Founders Live Lima VII is here!\nJoin us for an incredible evening…\nFounders Live is an unforgettable networking experience and pitch competition sweeping the globe.\n5 founders99-second pitches4 minutes of audience Q&AYOUR VOTES decide the winner!\nSo bring your friends and coworkers, grab some food and drink, get to know your local entrepreneurs, and vote for what you think will be the next big thing… built in Peru.\nKnow someone who should attend? Open The Door\nStarring\nRonald Barzola as your city leader!\nCompeting Founders and Startups\nTBA\nInterested in pitching at this or a future event? Apply here!Know someone who should pitch? Open The Door\nAgenda\n6:00 pm - Networking7:00 pm - Announcemen",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/z5/e4d19d83-591a-4244-a971-cfc5701c7e8a.png",
+   "inscripcion": "https://lu.ma/founderslive-lima-2026-10",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1247,9 +1348,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/webinar-clasificar-para-proteger-fundamentos-de-seguridad-de-la-informacion-22092026160651/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": " · Instituto para la Calidad",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Conoce los fundamentos esenciales de la seguridad de la información y descubre cómo identificar, clasificar y proteger los datos de manera adecuada según su nivel de sensibilidad y valor estratégico. Aprenderás a aplicar buenas prácticas para fortalecer la protección de la información, gestionar los riesgos asociados a su manejo y contribuir a la construcción de una cultura de seguridad sólida dentro de las organizaciones.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agenda_pucp_100_de39472982.jpg",
+   "inscripcion": "https://calidad.pucp.edu.pe/agendas_calidad/clasificar-para-proteger-fundamentos-de-seguridad-de-la-informacion/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Ingeniería y operaciones"
    ],
@@ -1267,9 +1370,11 @@
    "url": "https://lu.ma/aisalon-5pmw",
    "fuente": "Luma",
    "organizador": "AI Salon (www.AiSalon.ai)",
-   "descripcion": "AI Salon is the global community bringing together AI founders and builders, investors, and partners to connect and collaborate.\n\nDecentralized, chapter-based.  Launch a chapter in your city!",
+   "descripcion": "¡Perú Tech Week está aquí!El ecosistema tech peruano se reúne para una noche enfocada en las tres fuerzas que están redefiniendo la industria financiera y tecnológica: Inteligencia Artificial, Activos Digitales y Quantum Computing.\nUn espacio donde bancos, startups, builders e inversionistas comparten el mismo escenario para hablar de Open Banking, blockchain aplicado, inteligencia artificial y el futuro cuántico — con paneles, masterclasses, demos de startups y networking real.\nSpeakers confirmados:🔹 Juan José Miranda — NTT Data, Director de Innovación Web3 & Quantum Computing🔹 Willy Vega — Santander Consumer, Jefe de Tecnología🔹 Rodrigo Osorio — MiBanco - Credicorp, AI Technical Lead🔹 Mich",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/ph/d5154556-0452-485d-9429-e67354d50e60.png",
+   "inscripcion": "https://lu.ma/aisalon-5pmw",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA",
     "Negocios y emprendimiento"
@@ -1287,10 +1392,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/bdhxlram",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Comunicaciones PECAP",
+   "descripcion": "🚀 SAVE THE DATE | PVCC26\nEl 15 de octubre, vuelve el encuentro que reúne a quienes están impulsando el futuro del venture capital en Perú y Latinoamérica.\nLa 11.ª edición del Peru Venture Capital Conference reunirá nuevamente a los principales actores del ecosistema de innovación y venture capital del Perú y la región: startups, inversionistas, fondos VC, corporativos, líderes del sector y aliados estratégicos.\nEste año, vamos más allá de la conversación: buscamos convertir los desafíos del ecosistema en planes de acción concretos, impulsando la colaboración entre quienes están construyendo el futuro del emprendimiento y la inversión.\nNuevas conexiones. Nuevas oportunidades. Nuevas acciones ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/4c/06899f26-ff1f-4aa7-80d8-390e087be6ec.png",
+   "inscripcion": "https://lu.ma/bdhxlram",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1307,10 +1414,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/6f5fbxkc",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Asociacion Blockchain Peru, Dayana Salinas",
+   "descripcion": "🏦 Retos y oportunidades de las stablecoins en la banca peruana\nLas stablecoins están transformando la conversación sobre pagos, transferencias, tesorería e infraestructura financiera. Pero su integración con el sistema financiero también abre preguntas importantes sobre regulación, riesgos, cumplimiento y confianza.\nEn el marco de Perú Tech Week 2026, la Asociación Blockchain & DLT Perú (ABPE) y Horizonte Blockchain presentan un encuentro presencial para conectar a la banca, reguladores, fintechs, empresas y al ecosistema blockchain en una misma conversación.\n📅 Jueves 15 de octubre de 2026📍 Auditorio UPC · Campus San Isidro🎟️ Entrada gratuita con registro previo👥 Aforo: 150 asistentes\n¿De qu",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/vl/3d16204e-c704-4d2b-87c2-5f2d56632e70.png",
+   "inscripcion": "https://lu.ma/6f5fbxkc",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1328,9 +1437,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/conferencia-internacional-empleabilidad-ia-y-competencias-para-el-futuro-laboral-21092026152940/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Conferencia · Innovación · Investigación · Negocios y Empresa · Facultad de Ciencias Contables",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "La Facultad de Ciencias Contables de la Pontificia Universidad Católica del Perú invita a participar en la Conferencia Internacional “Profesionales que Crecen con la Tecnología: Empleabilidad, IA y Competencias para el Futuro Laboral”, un espacio para conocer las herramientas digitales y competencias estratégicas que están transformando el mercado laboral y el desarrollo profesional.\n \nLa inteligencia artificial, la automatización y las nuevas formas de trabajo están modificando los procesos, las competencias que demandan las organizaciones y la manera en que los profesionales gestionan su crecimiento. Frente a este escenario, la conferencia propone abordar dos dimensiones complementarias: e",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Networking_591_x_400_px_2ea36864e4.png",
+   "inscripcion": "https://ares.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=047&id=638&a=&l=&cis=&on=&lp=",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Tecnología e IA",
     "Habilidades y liderazgo"
@@ -1348,10 +1459,12 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/7anmtnee",
    "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
+   "organizador": "Gostartups",
+   "descripcion": "🚀 Fundraising Startup Summit\nConstruyendo el camino al éxito: hoja de ruta para levantar capital\nEn el marco de Perú Tech Week 2026, acompáñanos a conocer las claves para construir una estrategia de fundraising y entender el camino que una startup debe recorrer para prepararse y levantar capital. 💰🚀\nConecta con el ecosistema emprendedor, conoce nuevas perspectivas y comparte con startups, inversionistas, mentores y actores del ecosistema de innovación en un espacio pensado para aprender, conectar y generar nuevas oportunidades. 🤝💡\n¿QUÉ VIVIRÁS? 😱\n🚀 Fundraising Startup Summit\n💡 Claves para prepararte para levantar capital\n📈 Hoja de ruta para el crecimiento de tu startup\n🤝 Networking con actor",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/2v/8e0f66a9-667e-45ff-aa99-107af339380c.jpg",
+   "inscripcion": "https://lu.ma/7anmtnee",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1369,9 +1482,11 @@
    "url": "https://lu.ma/gkcg9w0a",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "PERUINCUBA SUMMIT 2026 | De incubadoras a ecosistemas 🚀\nUn encuentro que reúne a gestores de incubadoras, universidades y aliados del ecosistema para conectar oportunidades, compartir herramientas y construir nuevas posibilidades para el emprendimiento universitario en el Perú.\nUna mañana de inspiración, aprendizaje, networking e internacionalización, con expertos y aliados que están impulsando el futuro del ecosistema emprendedor.\n\nHorario: 9:00 a. m. – 1:00 p. m.\n9:00 – 9:30 | Políticas de emprendimiento universitario y el futuro de las incubadoras del Perú: Panel sobre los retos, oportunidades y desafíos que vienen los próximos años en el ecosistema de emprendimiento universitario en el P",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/14/e618d3d1-1677-48ac-8320-580a06020ed0.png",
+   "inscripcion": "https://lu.ma/gkcg9w0a",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1389,9 +1504,11 @@
    "url": "https://lu.ma/t8domlmm",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "Si tienes una startup y quieres saber cómo venderle a un corporativo, este evento es para ti. Si quieres aprender de Corporate Venturing, especialmente Venture Clienting... también.\nEl Venture Clienting está transformando la manera en que corporativos, startups y organizaciones colaboran para resolver problemas reales e impulsar la innovación. El evento reúne a corporativos, startups, fondos de inversión, universidades, aceleradoras, cámaras empresariales e instituciones públicas para compartir experiencias, generar conexiones estratégicas y descubrir oportunidades de colaboración.\nSe explora qué es el Venture Clienting y por qué está creciendo en Latinoamérica, cómo colaboran corporativos y",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/h1/ce33f6b9-4093-4075-94c5-c6814a820778.png",
+   "inscripcion": "https://lu.ma/t8domlmm",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1409,9 +1526,11 @@
    "url": "https://lu.ma/d7tdulwh",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "WOMEN BUILDING THE FUTURE OF AI\nUn encuentro de Women in AI Perú como parte de Perú Tech Week 2026, creado para mujeres que quieren descubrir nuevas formas de construir una carrera en inteligencia artificial, incluso sin contar con una formación técnica tradicional.\n📅 16 de octubre de 2026🕡 6:30 p. m. – 9:30 p. m.📍 NTT DATA - Piso 17 - Calle Dean Valdivia 148, San Isidro, Lima, Perú🎟️ Evento gratuito, sujeto a aforo\n🎤 PANEL: DIFFERENT PATHS INTO AI\nUna conversación con expertas del ecosistema de inteligencia artificial sobre los distintos caminos para entrar y crecer en la industria, los roles que existen más allá de lo técnico y cómo profesionales de diferentes disciplinas pueden aprovechar",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/vp/e3f8d095-1549-45d0-a249-d49ba1fa3fa7.png",
+   "inscripcion": "https://lu.ma/d7tdulwh",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1432,6 +1551,8 @@
    "descripcion": "¡Impulsa tu futuro profesional con una maestría en Derecho o Negocios en Estados Unidos!",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188626220%2F229423681153%2F1%2Foriginal.20260710-173651?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=050e51a9a3d8c1425ef8090c0ed82295",
+   "inscripcion": "https://www.eventbrite.co/e/feria-educationusa-llm-mba-2026-lima-tickets-1993705212961",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -1452,6 +1573,8 @@
    "descripcion": "Meet top MBA schools in Zurich and get personalized admissions, career, networking, and funding guidance—all in one afternoon.",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191936685%2F185222602399%2F1%2Foriginal.20260826-120315?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.593&s=feaffaa76e797dacce6409405b984c8f",
+   "inscripcion": "https://www.eventbrite.co.uk/e/explore-global-mba-opportunities-access-mba-lima-tickets-1998953963114",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -1469,9 +1592,11 @@
    "url": "https://lu.ma/nhflgkqi",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "descripcion": "El debate tecnológico que conecta a los líderes universitarios con el futuro de la innovación.\n¿Qué pasa cuando cinco universidades se juntan a debatir los dilemas tecnológicos más importantes de nuestra generación?\nLEAD TECH 2026 es el torneo de debate interuniversitario organizado por LEAD UTP, que reunirá a los chapters de PUCP, UNI, ULIMA, UCSUR y UTP en una experiencia de debate, pensamiento crítico, tecnología y networking.\nA lo largo de cinco rondas, los chapters se enfrentarán a temas que ya están transformando nuestra sociedad: inteligencia artificial, neurotecnología, sostenibilidad, automatización, salud digital y ética tecnológica.\nEl evento utilizará la modalidad Debate 3.0: Int",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/ck/2dd6ed63-dae5-47d6-af96-6c5ae60ab02a.png",
+   "inscripcion": "https://lu.ma/nhflgkqi",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1492,6 +1617,8 @@
    "descripcion": "Your global future is waiting. Let’s help you find the right path.",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191938474%2F185222602399%2F1%2Foriginal.20260826-123707?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.023&fp-y=0.55&s=877755a2a5f027ff0abc7ef65f920fb5",
+   "inscripcion": "https://www.eventbrite.co.uk/e/discover-the-right-masters-for-your-career-at-access-masters-lima-event-tickets-1998955190786",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/events--next-month/",
    "categorias": [
     "Habilidades y liderazgo"
    ],
@@ -1509,9 +1636,11 @@
    "url": "https://lu.ma/notion-6vkm",
    "fuente": "Luma",
    "organizador": "Notion Lima",
-   "descripcion": "Comunidad de Notion Lima liderada por los embajadores de Perú.\nÚnete a la comunidad: https://chat.whatsapp.com/H8Gmkkxe47g6B31vNIRO9E?mode=git",
+   "descripcion": "Notion está evolucionando rápido. En este Meetup vamos a descubrir sus novedades y explorar cómo Custom Agents, Notion Worker y Notion AI pueden abrir nuevas posibilidades para trabajar, automatizar y mejorar procesos.\nEn esta sesión aprenderás:\n🤖 Qué son los Custom Agents y cómo puedes aprovecharlos.\n\n⚙️ Qué propone Notion Worker y qué nuevas posibilidades habilita.\n\n🏢 Ideas y casos de uso de Notion para agencias.\n\n¿Para quién es?\nPara personas que ya usan Notion, profesionales, equipos y agencias que quieren conocer sus nuevas capacidades y encontrar formas de trabajar mejor con la plataforma.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/f9/f5baa568-b2a6-4981-b613-02aa7bd8a102.png",
+   "inscripcion": "https://lu.ma/notion-6vkm",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1532,6 +1661,8 @@
    "descripcion": "Programa de certificación en la metodología LEGO® SERIOUS PLAY® avalado por The Global Federation of LSP Master Trainers.",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185130443%2F292069486484%2F1%2Foriginal.20260521-133831?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.375&s=ada9a343918b47e8ef517de256e32957",
+   "inscripcion": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Habilidades y liderazgo"
    ],
@@ -1549,9 +1680,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Congreso · Arquitectura, Artes y Diseño · Investigación · Departamento Académico de Arquitectura",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Arquitectura PUCP y Arquitectura UC presentan el Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS, que se proyecta como una plataforma académica desde el Sur Global, orientada a compartir experiencias y desafíos en la enseñanza y aprendizaje en arquitectura y urbanismo. El Congreso se realizará del 21 al 23 de octubre de 2026 en el Campus PUCP en Lima, Perú.\nDurante estos tres días, se desarrollarán conferencias magistrales, presentaciones de ponencias y afiches, mesas de discusión, y acciones pedagógicas. A través de estos espacios de conversación ampliada se busca mirar hacia el futuro con la elaboración de un manifiesto conjunto y una publicac",
+   "gratis": false,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Plantillas_Thumbs_aca0d9475a.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=048&i=353",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Investigación y ciencia"
    ],
@@ -1563,15 +1696,17 @@
    "titulo": "Sesión 03: Zero Trust para Agentes",
    "inicio": "2026-10-23T19:00-05:00",
    "fin": "",
-   "lugar": "",
-   "distrito": "",
+   "lugar": "Sesión Online, Videoconferencia",
+   "distrito": "Lima",
    "modalidad": "Presencial",
    "url": "https://www.meetup.com/msperu/events/315593600/",
    "fuente": "Meetup",
    "organizador": "Microsoft User Group Perú",
-   "descripcion": "Acceso, permisos y OAuth cuando no hay un humano al otro lado del login\nQué vas a aprender\n\n Por qué el MFA, pensado para un humano con un dispositivo conocido, no significa nada para un agente que actúa con client credentials.\n Los cuatro patrones de acceso de agente que existen hoy (delegado, autónomo, agent user, blueprint CA) y cuál usa cada uno de tus proveedores.\n Qué es el \"OAuth consent dr",
+   "descripcion": "Acceso, permisos y OAuth cuando no hay un humano al otro lado del login\nQué vas a aprender\n\n Por qué el MFA, pensado para un humano con un dispositivo conocido, no significa nada para un agente que actúa con client credentials.\n Los cuatro patrones de acceso de agente que existen hoy (delegado, autónomo, agent user, blueprint CA) y cuál usa cada uno de tus proveedores.\n Qué es el \"OAuth consent drift\": permisos de alto privilegio acumulados sin que nadie los haya aprobado explícitamente.\n Por qué el gateway de IA de tu organización es ahora infraestructura crítica de identidad, y qué pasa cuando nadie lo audita (6.2% de instancias expuestas sin autenticación, verificado en DEF CON 34).\n Caso",
    "gratis": true,
-   "imagen": "",
+   "imagen": "https://secure.meetupstatic.com/photos/event/4/5/8/5/highres_536177797.jpeg",
+   "inscripcion": "https://www.meetup.com/msperu/events/315593600/",
+   "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -1592,6 +1727,8 @@
    "descripcion": "Innovación y tecnología para Compras en un evento con networking de talla mundial",
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193328333%2F1395286984083%2F1%2Foriginal.20260912-124038?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.987&s=ece64cbc3e704b66fe51761f902b0072",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-procurement-innovation-day-lima-1982108679417",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Ingeniería y operaciones"
    ],
@@ -1609,9 +1746,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Encuentro · Educación y Humanidades · Interdisciplinarias · Internacional · Investigación · Psicología y Salud · Departamento Académico de Psicología",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Con gran entusiasmo, les damos la bienvenida a las XXIV Jornadas Internacionales de Psicología Educacional: “Subjetividad, Educación y Democracia: Retos de la Psicología Educacional en el Siglo XXI”, un espacio académico que reunirá a investigadores, docentes, profesionales y estudiantes interesados en reflexionar sobre los desafíos que enfrenta la educación en un contexto de profundas transformaciones sociales, culturales y tecnológicas.\n \nEstas Jornadas constituyen una valiosa oportunidad para intercambiar conocimientos, compartir experiencias e investigaciones, y fortalecer redes de colaboración entre especialistas de distintos países y disciplinas. A través del diálogo académico, buscare",
+   "gratis": false,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Diseno_sin_titulo_7_21228e55de.png",
+   "inscripcion": "https://jipse2026.pucp.edu.pe/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Idiomas, becas e internacional",
     "Investigación y ciencia"
@@ -1630,9 +1769,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Congreso · Educación y Humanidades · Innovación · Interdisciplinarias · Internacional · Investigación · Psicología y Salud · Departamento Académico de Psicología",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Con gran entusiasmo, les damos la bienvenida al Congreso Latinoamericano de Evaluación y Medición Psicológica, que se realizará del 3 al 5 de noviembre de 2026 en la Pontificia Universidad Católica del Perú (PUCP), en la ciudad de Lima, Perú. Este espacio académico reunirá a investigadores, docentes, profesionales y estudiantes interesados en los avances contemporáneos de la evaluación, la medición y la psicometría en América Latina.\n \nLa Pontificia Universidad Católica del Perú, reconocida por su compromiso con la excelencia académica, la investigación y la proyección internacional, será la sede de este encuentro, ofreciendo un entorno propicio para el intercambio científico, la colaboració",
+   "gratis": false,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Diseno_sin_titulo_11_d72ad06b0f.png",
+   "inscripcion": "https://clemp2026.pucp.edu.pe/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Investigación y ciencia"
    ],
@@ -1650,9 +1791,11 @@
    "url": "https://agenda.pucp.edu.pe/evento/link-ing-pucp-2026-25082026175920/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Encuentro · Ciencias e Ingeniería · Innovación · Investigación · CIDE · Departamento Académico de Ingeniería · Facultad de Ciencias e Ingeniería",
-   "gratis": null,
-   "imagen": "",
+   "descripcion": "Celebra su quinta edición consolidándose como un espacio de encuentro y articulación entre la academia, la industria y la sociedad.\nLinkING se constituye como una plataforma que pone en valor el talento y conocimiento de la PUCP, promoviendo el diálogo, la colaboración y la innovación para contribuir a la construcción de un futuro sostenible desde la ingeniería.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/imagen_591x400_2ebfe968f0.jpeg",
+   "inscripcion": "https://emprende.pucp.edu.pe/linking/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "categorias": [
     "Ingeniería y operaciones",
     "Negocios y emprendimiento",
@@ -1672,9 +1815,11 @@
    "url": "https://lu.ma/9qy5vcu8",
    "fuente": "Luma",
    "organizador": "B Venture Capital",
-   "descripcion": "B Venture Capital",
+   "descripcion": "B Venture Capital presents: Peru Japan Startup Forum 2026\nJoin us for this exclusive event, designed to connect you with B Venture Capital's global network.\nWe will share BVC’s vision, our investment strategy, and ongoing initiatives to support Peruvian and Latin American startups. The forum will bring together BVC’s General Partners, fund investors, portfolio founders, and a special guest from Japan, offering a unique space for high-level dialogue, strategic insights, and networking.\n🎯 Who should attend?\nStartup Founders\n\nAngel and Venture Capital Investors\n\nInnovation ecosystem actors and builders\n\n📅 Agenda\nTo be confirmed (TBC)\n\nFollow us on our social media for updates and new opportunit",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/7n/5af317d8-9005-4fd1-97d6-2b3353c8efd9.jpg",
+   "inscripcion": "https://lu.ma/9qy5vcu8",
+   "fuente_url": "https://lu.ma/lima",
    "categorias": [
     "Negocios y emprendimiento"
    ],
@@ -1691,7 +1836,6 @@
   "luma:evt-HrNZZWrafC2MlOH": "2026-09-24T21:06-05:00",
   "luma:evt-EsTLj2WutCj8Aeq": "2026-09-24T21:06-05:00",
   "luma:evt-Xx9u94VcrO2tDQY": "2026-09-24T21:06-05:00",
-  "meetup:316628931": "2026-09-24T21:06-05:00",
   "eb:1997093130313": "2026-09-24T21:06-05:00",
   "meetup:316699296": "2026-09-24T21:06-05:00",
   "luma:evt-fxunEJe0j4oVJ9h": "2026-09-24T21:06-05:00",

@@ -17,6 +17,7 @@ Uso:
   python eventos.py --solo-html  regenera la página con el JSON existente
 """
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import html
 import json
 import re
@@ -172,6 +173,9 @@ def luma(limite):
                 "descripcion": (e.get("calendar") or {}).get("description_short", "") or "",
                 "gratis": True if tickets.get("is_free") else (False if tickets.get("is_free") is False else None),
                 "imagen": ev.get("cover_url", ""),
+                "inscripcion": "https://lu.ma/" + ev.get("url", ""),
+                "fuente_url": "https://lu.ma/lima",
+                "_luma_id": ev.get("api_id", ""),
             })
             if ini and ini > limite:
                 return out
@@ -221,6 +225,8 @@ def eventbrite(limite):
                     "etiquetas": [t.get("display_name", "") for t in e.get("tags") or []],
                     "gratis": None,
                     "imagen": (e.get("image") or {}).get("url", ""),
+                    "inscripcion": e.get("url", ""),
+                    "fuente_url": f"https://www.eventbrite.com.pe/d/peru--lima/{ruta}/",
                 }
             pag = res.get("pagination") or {}
             if len(lista) < 20 or pagina >= (pag.get("page_count") or 1):
@@ -250,7 +256,8 @@ def meetup(limite):
         for key, e in ap.items():
             if not key.startswith("Event:") or not e.get("title"):
                 continue
-            venue = ap.get((e.get("venue") or {}).get("__ref", ""), {}) or {}
+            venue = e.get("venue") or {}
+            venue = ap.get(venue["__ref"], {}) if "__ref" in venue else venue
             grupo = ap.get((e.get("group") or {}).get("__ref", ""), {}) or {}
             ciudad = norm(venue.get("city", ""))
             online = e.get("eventType") == "ONLINE" or e.get("isOnline")
@@ -261,11 +268,14 @@ def meetup(limite):
             if online and not _local(e["title"] + " " + (e.get("description") or "")[:400]):
                 continue
             fee = e.get("feeSettings")
+            foto = e.get("displayPhoto") or e.get("featuredEventPhoto") or {}
+            foto = ap.get(foto.get("__ref", ""), {}) if "__ref" in foto else foto
             out[e["id"]] = {
                 "id": "meetup:" + e["id"],
                 "titulo": e["title"].strip(),
                 "inicio": _iso(_parse(e.get("dateTime"))), "fin": _iso(_parse(e.get("endTime"))),
-                "lugar": ", ".join(x for x in (venue.get("name"), venue.get("address")) if x),
+                "lugar": ", ".join(x for x in (venue.get("name"), venue.get("address"))
+                              if x and x != "Online event"),
                 "distrito": venue.get("city") or "",
                 "modalidad": "Virtual" if online else "Presencial",
                 "url": e.get("eventUrl", ""),
@@ -273,7 +283,9 @@ def meetup(limite):
                 "organizador": grupo.get("name", ""),
                 "descripcion": e.get("description") or "",
                 "gratis": True if fee in (None, {}) else None,
-                "imagen": "",
+                "imagen": foto.get("highResUrl", ""),
+                "inscripcion": e.get("eventUrl", ""),
+                "fuente_url": "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS",
             }
     return list(out.values())
 
@@ -335,12 +347,89 @@ def pucp(limite):
             "etiquetas": [tipo] + areas + etiquetas,
             "cats_fuente": list(dict.fromkeys(AREAS_PUCP[a] for a in areas if a in AREAS_PUCP)),
             "gratis": None,
-            "imagen": "",
+            "imagen": ("https://api-agenda.pucp.edu.pe" + ((n.get("ImagenDestacada") or {}).get("url") or ""))
+                      if (n.get("ImagenDestacada") or {}).get("url") else "",
+            "inscripcion": "https://agenda.pucp.edu.pe/evento/" + n["slug"] + "/",
+            "fuente_url": "https://agenda.pucp.edu.pe/",
+            "_pucp_slug": n["slug"],
         })
     return out
 
 
-FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Meetup": meetup, "PUCP": pucp}
+def _texto_prosemirror(nodo):
+    if isinstance(nodo, dict):
+        if nodo.get("type") == "text":
+            return nodo.get("text", "")
+        sep = "\n" if nodo.get("type") in ("paragraph", "heading", "list_item", "bullet_list") else ""
+        return "".join(_texto_prosemirror(h) for h in nodo.get("content") or []) + sep
+    return ""
+
+
+def _html_a_texto(h):
+    h = re.sub(r"</(p|li|h\d)>|<br\s*/?>", "\n", h or "")
+    return html.unescape(re.sub(r"<[^>]+>", "", h)).strip()
+
+
+def enriquecer(ev):
+    """Descripción completa, organizador, costo y link de inscripción real (1 request por evento)."""
+    try:
+        if ev.get("_luma_id"):
+            j = requests.get("https://api.lu.ma/event/get", params={"event_api_id": ev["_luma_id"]},
+                             headers=UA, timeout=20).json()
+            desc = _texto_prosemirror(j.get("description_mirror") or {}).strip()
+            if desc:
+                ev["descripcion"] = desc
+            hosts = [h.get("name") for h in j.get("hosts") or [] if h.get("name")]
+            cal = (j.get("calendar") or {}).get("name")
+            ev["organizador"] = cal if cal and cal != "Personal" else ", ".join(hosts[:2])
+            t = j.get("ticket_info") or {}
+            if t.get("is_free") is not None:
+                ev["gratis"] = bool(t["is_free"])
+        elif ev.get("_pucp_slug"):
+            j = requests.get(f"https://agenda.pucp.edu.pe/page-data/evento/{ev['_pucp_slug']}/page-data.json",
+                             headers=UA, timeout=20).json()
+            e = j["result"]["pageContext"]["resultData"]["evento"]
+            desc = _html_a_texto(e.get("Descripcion"))
+            if desc:
+                ev["descripcion"] = desc
+            costo = e.get("Costo") or ""
+            ev["gratis"] = True if costo.startswith("Gratuito") else (False if costo else None)
+            link = (e.get("LinkInscripcion") or "").strip()
+            if link.startswith("http"):
+                ev["inscripcion"] = link
+    except Exception:
+        pass  # sin detalle igual sirve: queda lo del listado
+    return ev
+
+
+def manuales(limite):
+    """Eventos vistos en redes sociales (Instagram, LinkedIn...) que se agregan a mano en
+    manuales.json. Esas redes exigen login y prohíben el scraping, así que no se leen solas."""
+    ruta = RAIZ / "manuales.json"
+    if not ruta.exists():
+        return []
+    out = []
+    for i, m in enumerate(json.loads(ruta.read_text(encoding="utf-8")).get("eventos", [])):
+        red = m.get("red") or "Redes"
+        out.append({
+            "id": f"manual:{i}:{norm(m['titulo'])[:30]}",
+            "titulo": m["titulo"].strip(),
+            "inicio": _iso(_parse(m["inicio"])), "fin": _iso(_parse(m.get("fin"))),
+            "lugar": m.get("lugar", ""), "distrito": m.get("distrito", ""),
+            "modalidad": m.get("modalidad", "Presencial"),
+            "url": m["url"], "inscripcion": m.get("inscripcion") or m["url"],
+            "fuente": red, "fuente_url": m["url"],
+            "organizador": m.get("organizador", ""),
+            "descripcion": m.get("descripcion", ""),
+            "gratis": m.get("gratis"),
+            "imagen": m.get("imagen", ""),
+            "cats_fuente": m.get("categorias") or ["Habilidades y liderazgo"],
+            "_manual": True,
+        })
+    return out
+
+
+FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Meetup": meetup, "PUCP": pucp, "Redes (manual)": manuales}
 
 
 # ---------------------------------------------------------------- pipeline
@@ -352,6 +441,10 @@ def recolectar(dias):
         try:
             lote = f(limite)
             crudos += lote
+            # 0 resultados en una fuente automática = casi siempre bloqueo (p. ej. Eventbrite
+            # ante IPs de GitHub): se trata como caída para conservar sus eventos previos.
+            if not lote and nombre != "Redes (manual)":
+                raise RuntimeError("0 resultados (posible bloqueo)")
             estado[nombre] = {"ok": True, "n": len(lote)}
         except Exception as e:  # una fuente caída no tumba el radar
             estado[nombre] = {"ok": False, "n": 0, "error": str(e)[:160]}
@@ -365,14 +458,22 @@ def recolectar(dias):
         if clave in vistos:
             continue
         cats, puntos = clasificar(ev)
+        if not cats and ev.get("_manual"):
+            cats, puntos = ev["cats_fuente"], clasificar(dict(ev, cats_fuente=["_"]))[1]
         if not cats:
             continue
         vistos.add(clave)
         ev["categorias"], ev["puntaje"] = cats, puntos
-        ev["descripcion"] = re.sub(r"[*_#`\\]+", "", ev["descripcion"])[:400]
         ev.pop("etiquetas", None)
         ev.pop("cats_fuente", None)
         eventos.append(ev)
+    with ThreadPoolExecutor(8) as pool:
+        eventos = list(pool.map(enriquecer, eventos))
+    for ev in eventos:
+        ev["descripcion"] = re.sub(r"[*_#`\\]+", "", ev["descripcion"])
+        ev["descripcion"] = re.sub(r"\n{3,}", "\n\n", ev["descripcion"]).strip()[:700]
+        for k in [k for k in ev if k.startswith("_")]:
+            ev.pop(k)
     eventos.sort(key=lambda e: e["inicio"])
     return eventos, estado, len(crudos)
 
