@@ -1,13 +1,14 @@
 {
- "actualizado": "2026-09-24T21:21-05:00",
+ "actualizado": "2026-09-24T21:23-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
    "n": 76
   },
   "Eventbrite": {
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "n": 0,
+   "error": "0 resultados (posible bloqueo)"
   },
   "Meetup": {
    "ok": true,
@@ -22,7 +23,7 @@
    "n": 0
   }
  },
- "revisados": 174,
+ "revisados": 134,
  "eventos": [
   {
    "id": "pucp:primera-catedra-indigena-de-la-maestria-en-linguistica-pucp-17092026101621",
@@ -314,28 +315,6 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
-   "id": "eb:1997093130313",
-   "titulo": "KUBEFEST #02",
-   "inicio": "2026-09-26T09:00-05:00",
-   "fin": "2026-09-26T13:00-05:00",
-   "lugar": "UNIVERSIDAD ESAN, 1652 Jirón Alonso de Molina",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "TECNOLOGÍAS CLOUD NATIVE QUE ESTÁN TRANSFORMANDO EL MUNDO",
-   "gratis": null,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190517074%2F442849417140%2F1%2Foriginal.20260807-030549?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=72ccbfa807e376196a830459ae26e5ab",
-   "inscripcion": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "puntaje": 0,
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
    "id": "meetup:316699296",
    "titulo": "Fabric User Group Lima Perú– Kickoff 2026",
    "inicio": "2026-09-26T09:00-05:00",
@@ -358,6 +337,28 @@
     "Investigación y ciencia"
    ],
    "puntaje": 8,
+   "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "eb:1997093130313",
+   "titulo": "KUBEFEST #02",
+   "inicio": "2026-09-26T09:00-05:00",
+   "fin": "2026-09-26T13:00-05:00",
+   "lugar": "UNIVERSIDAD ESAN, 1652 Jirón Alonso de Molina",
+   "distrito": "Santiago de Surco",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "TECNOLOGÍAS CLOUD NATIVE QUE ESTÁN TRANSFORMANDO EL MUNDO",
+   "gratis": null,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190517074%2F442849417140%2F1%2Foriginal.20260807-030549?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=72ccbfa807e376196a830459ae26e5ab",
+   "inscripcion": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "puntaje": 0,
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
@@ -534,7 +535,7 @@
     "Tecnología e IA"
    ],
    "puntaje": 2,
-   "visto_desde": "2026-09-24T21:06-05:00"
+   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "meetup:316630675",
@@ -982,7 +983,7 @@
     "Tecnología e IA"
    ],
    "puntaje": 0,
-   "visto_desde": "2026-09-24T21:06-05:00"
+   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "pucp:conferencia-exodo-liberacion-y-antijudaismo-gustavo-gutierrez-y-una-critica-pendiente-24092026104728",
@@ -1114,7 +1115,7 @@
     "Idiomas, becas e internacional"
    ],
    "puntaje": 0,
-   "visto_desde": "2026-09-24T21:06-05:00"
+   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "luma:evt-x8hN8xnVNgFJeM7",
@@ -1557,7 +1558,7 @@
     "Idiomas, becas e internacional"
    ],
    "puntaje": 9,
-   "visto_desde": "2026-09-24T21:06-05:00"
+   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "eb:1998953963114",
@@ -1579,7 +1580,7 @@
     "Idiomas, becas e internacional"
    ],
    "puntaje": 5,
-   "visto_desde": "2026-09-24T21:06-05:00"
+   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "luma:evt-W72RWEmMS5BLcUR",
@@ -1623,7 +1624,7 @@
     "Habilidades y liderazgo"
    ],
    "puntaje": 0,
-   "visto_desde": "2026-09-24T21:06-05:00"
+   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "luma:evt-zmNdUbRiQVfLBVR",
@@ -1648,28 +1649,6 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
-   "id": "eb:1976583565653",
-   "titulo": "Certificación para Equipos y Grupos con LEGO® SERIOUS PLAY® Lima",
-   "inicio": "2026-10-21T09:00-05:00",
-   "fin": "2026-10-23T18:00-05:00",
-   "lugar": "CO-Labora Coworking | Salas de Conferencia, Reuniones, Salas de Capacitación, 878 Avenida Andrés Aramburú",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "Programa de certificación en la metodología LEGO® SERIOUS PLAY® avalado por The Global Federation of LSP Master Trainers.",
-   "gratis": null,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185130443%2F292069486484%2F1%2Foriginal.20260521-133831?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.375&s=ada9a343918b47e8ef517de256e32957",
-   "inscripcion": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "puntaje": 0,
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
    "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
    "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS",
    "inicio": "2026-10-21T09:00-05:00",
@@ -1690,6 +1669,28 @@
    ],
    "puntaje": 6,
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "eb:1976583565653",
+   "titulo": "Certificación para Equipos y Grupos con LEGO® SERIOUS PLAY® Lima",
+   "inicio": "2026-10-21T09:00-05:00",
+   "fin": "2026-10-23T18:00-05:00",
+   "lugar": "CO-Labora Coworking | Salas de Conferencia, Reuniones, Salas de Capacitación, 878 Avenida Andrés Aramburú",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Programa de certificación en la metodología LEGO® SERIOUS PLAY® avalado por The Global Federation of LSP Master Trainers.",
+   "gratis": null,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185130443%2F292069486484%2F1%2Foriginal.20260521-133831?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.375&s=ada9a343918b47e8ef517de256e32957",
+   "inscripcion": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "categorias": [
+    "Habilidades y liderazgo"
+   ],
+   "puntaje": 0,
+   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "meetup:315593600",
@@ -1733,7 +1734,7 @@
     "Ingeniería y operaciones"
    ],
    "puntaje": 8,
-   "visto_desde": "2026-09-24T21:06-05:00"
+   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037",
@@ -1900,6 +1901,14 @@
   "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405": "2026-09-24T21:10-05:00",
   "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037": "2026-09-24T21:10-05:00",
   "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233": "2026-09-24T21:10-05:00",
-  "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00"
+  "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
+  "eb:2001277781718": "2026-09-24T21:23-05:00",
+  "eb:1999328032967": "2026-09-24T21:23-05:00",
+  "eb:1999310788388": "2026-09-24T21:23-05:00",
+  "eb:1993705212961": "2026-09-24T21:23-05:00",
+  "eb:1998953963114": "2026-09-24T21:23-05:00",
+  "eb:1998955190786": "2026-09-24T21:23-05:00",
+  "eb:1976583565653": "2026-09-24T21:23-05:00",
+  "eb:1982108679417": "2026-09-24T21:23-05:00"
  }
 }
