@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-26T02:09-05:00",
+ "actualizado": "2026-09-26T02:13-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 43
+   "n": 40
   },
   "Meetup": {
    "ok": true,
@@ -22,7 +22,7 @@
    "n": 0
   }
  },
- "revisados": 169,
+ "revisados": 166,
  "eventos": [
   {
    "id": "eb:1997093130313",
@@ -34,12 +34,12 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "KUBEFEST",
    "descripcion": "TECNOLOGÍAS CLOUD NATIVE QUE ESTÁN TRANSFORMANDO EL MUNDO",
-   "gratis": null,
+   "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190517074%2F442849417140%2F1%2Foriginal.20260807-030549?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=72ccbfa807e376196a830459ae26e5ab",
    "inscripcion": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -237,10 +237,10 @@
    "fuente": "Eventbrite",
    "organizador": "",
    "descripcion": "ATECH ZONE conecta gente y tecnología en un evento único para vivir la innovación de cerca. ¡No te lo pierdas!",
-   "gratis": null,
+   "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193712952%2F3014416757640%2F1%2Foriginal.20260917-014856?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=864987258228717c090b426cdb3f042a",
    "inscripcion": "https://www.eventbrite.com.pe/e/atech-zone-tecnologia-que-conecta-contigo-tickets-2001277781718",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -727,12 +727,12 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.com/e/aws-community-day-peru-2026-tickets-1999328032967",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "Comunidades AWS Perú",
    "descripcion": "",
-   "gratis": null,
+   "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192328906%2F3012475766147%2F1%2Foriginal.20260901-010024?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=950f81d05fae2372d21f8c9ed7520294",
    "inscripcion": "https://www.eventbrite.com/e/aws-community-day-peru-2026-tickets-1999328032967",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Tecnología e IA"
    ],
@@ -859,12 +859,12 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.co/e/expoestudios-lima-2026-2-tickets-1999310788388",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "ExpoEstudios - Feria de Estudios en el Extranjero",
    "descripcion": "Una feria gratuita para conocer las mejores opciones educativas en el extranjero✈️",
-   "gratis": null,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192318848%2F242127667892%2F1%2Foriginal.20260831-220326?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a6fb445f0f2fcb6e4abfb0f34761579c",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192318848%2F242127667892%2F1%2Foriginal.20260831-220326?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8481481aade3adb4008c2743f02195bc",
    "inscripcion": "https://www.eventbrite.co/e/expoestudios-lima-2026-2-tickets-1999310788388",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -1390,12 +1390,12 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.co/e/feria-educationusa-llm-mba-2026-lima-tickets-1993705212961",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "EducationUSA LL.M. & MBA Tour",
    "descripcion": "¡Impulsa tu futuro profesional con una maestría en Derecho o Negocios en Estados Unidos!",
-   "gratis": null,
+   "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188626220%2F229423681153%2F1%2Foriginal.20260710-173651?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2fb95d0179ef2403d511731527997281",
    "inscripcion": "https://www.eventbrite.co/e/feria-educationusa-llm-mba-2026-lima-tickets-1993705212961",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -1412,12 +1412,12 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.co.uk/e/explore-global-mba-opportunities-access-mba-lima-tickets-1998953963114",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "Advent Group",
    "descripcion": "Meet top MBA schools in Zurich and get personalized admissions, career, networking, and funding guidance—all in one afternoon.",
-   "gratis": null,
+   "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191936685%2F185222602399%2F1%2Foriginal.20260826-120315?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.593&s=eda720bd2f73617d987399ec864a3701",
    "inscripcion": "https://www.eventbrite.co.uk/e/explore-global-mba-opportunities-access-mba-lima-tickets-1998953963114",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -1478,12 +1478,12 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.co.uk/e/discover-the-right-masters-for-your-career-at-access-masters-lima-event-tickets-1998955190786",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "Advent Group",
    "descripcion": "Your global future is waiting. Let’s help you find the right path.",
-   "gratis": null,
+   "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191938474%2F185222602399%2F1%2Foriginal.20260826-123707?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.023&fp-y=0.55&s=877755a2a5f027ff0abc7ef65f920fb5",
    "inscripcion": "https://www.eventbrite.co.uk/e/discover-the-right-masters-for-your-career-at-access-masters-lima-event-tickets-1998955190786",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Habilidades y liderazgo"
    ],
@@ -1544,12 +1544,12 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "Strategic Play®",
    "descripcion": "Programa de certificación en la metodología LEGO® SERIOUS PLAY® avalado por The Global Federation of LSP Master Trainers.",
-   "gratis": null,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185130443%2F292069486484%2F1%2Foriginal.20260521-133831?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.375&s=ada9a343918b47e8ef517de256e32957",
+   "gratis": false,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185130443%2F292069486484%2F1%2Foriginal.20260521-133831?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.375&s=707821ce8e616cc4405b627a44c05922",
    "inscripcion": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Habilidades y liderazgo"
    ],
@@ -1654,12 +1654,12 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.es/e/entradas-procurement-innovation-day-lima-1982108679417",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "Agile Procurement",
    "descripcion": "Innovación y tecnología para Compras en un evento con networking de talla mundial",
-   "gratis": null,
+   "gratis": false,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193328333%2F1395286984083%2F1%2Foriginal.20260912-124038?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.987&s=ece64cbc3e704b66fe51761f902b0072",
    "inscripcion": "https://www.eventbrite.es/e/entradas-procurement-innovation-day-lima-1982108679417",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "categorias": [
     "Ingeniería y operaciones"
    ],
