@@ -29,6 +29,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests icalendar
+      # si un test falla no se publica: la página anterior sigue en línea
+      - run: python -m unittest -v test_radar
       - run: python eventos.py
       - name: Guardar historial de eventos vistos
         run: |
