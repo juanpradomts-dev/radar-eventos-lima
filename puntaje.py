@@ -204,7 +204,12 @@ def cargar_perfil(ruta):
     if not p or not p.get("areas"):
         return None
     for a in p["areas"]:
-        a["_rx"] = re.compile(r"\b(" + "|".join(re.escape(norm(w)) for w in a.get("palabras", []) if w) + r")\b")
+        simples = [w for w in a.get("palabras", []) if isinstance(w, str) and w]
+        a["_rx"] = re.compile(r"\b(" + "|".join(re.escape(norm(w)) for w in simples) + r")\b") if simples else None
+        # Palabras ambiguas que solo cuentan junto a otras: {"palabra": "operaciones", "junto_a": ["logistica", …]}
+        a["_ctx"] = [(re.compile(r"\b" + re.escape(norm(w["palabra"])) + r"\b"),
+                      re.compile(r"\b(" + "|".join(re.escape(norm(x)) for x in w.get("junto_a", [])) + r")\w*"))
+                     for w in a.get("palabras", []) if isinstance(w, dict) and w.get("palabra") and w.get("junto_a")]
     p["_evitar"] = [norm(w) for w in p.get("evitar", []) if w]
     return p
 
@@ -215,12 +220,14 @@ def afinidad(ev, perfil):
         return 0, []
     titulo, texto = norm(ev.get("titulo")), _texto(ev)
     razones = []
+    def coincide(zona):
+        # palabra simple, o palabra ambigua acompañada de su contexto en cualquier parte del texto
+        return bool(a["_rx"] and a["_rx"].search(zona)) or any(p.search(zona) and c.search(texto) for p, c in a["_ctx"])
+
     for a in perfil["areas"]:
-        if a["_rx"].pattern == r"\b()\b":
-            continue
-        if a["_rx"].search(titulo):
+        if coincide(titulo):
             razones.append((f"Afín: {a['nombre']}", round(a.get("peso", 5) * 1.5)))
-        elif a["_rx"].search(texto):
+        elif coincide(texto):
             razones.append((f"Afín: {a['nombre']}", a.get("peso", 5)))
     for w in perfil["_evitar"]:
         if re.search(r"\b" + re.escape(w) + r"\b", texto):
@@ -241,6 +248,20 @@ def puntuar(ev, perfil):
 
 
 # ---------------------------------------------------------------- recomendados balanceados
+def es_imperdible_institucional(e, ahora, dias=7):
+    """Institucional grande, gratis y en Lima que empieza (o sigue en curso) dentro de `dias`."""
+    from datetime import datetime, timedelta
+    if not (e.get("institucional") and e.get("escala") == "grande" and e.get("gratis") is True and _en_lima(e)):
+        return False
+    try:
+        ini = datetime.fromisoformat(e["inicio"])
+        fin = datetime.fromisoformat(e.get("fin") or e["inicio"])
+    except (KeyError, ValueError):
+        return False
+    return fin >= ahora and ini <= ahora + timedelta(days=dias)
+
+
+
 def recomendados(eventos, ahora, n=8, max_por_tipo=3, min_lima=3, max_por_fuente=3,
                  dias_eventos=14, dias_cierre=45):
     """Los `n` mejores, con cupos: ningún tipo de convocatoria (hackathon, CFP, beca…) ocupa más de
@@ -273,15 +294,25 @@ def recomendados(eventos, ahora, n=8, max_por_tipo=3, min_lima=3, max_por_fuente
         por_tipo[t] = por_tipo.get(t, 0) + 1
         por_fuente[e.get("fuente")] = por_fuente.get(e.get("fuente"), 0) + 1
 
+    # Obligatorios: un evento institucional grande, gratis y en Lima que ocurre en ≤7 días entra siempre
+    # (caso real: la Cumbre Perú Sostenible quedó fuera con 55 puntos frente a eventos más afines al perfil).
+    for e in [e for e in candidatos if es_imperdible_institucional(e, ahora)]:
+        if len(elegidos) < n:
+            agregar(e)
     for e in [e for e in candidatos if (e.get("tipo") or "evento") == "evento" and _en_lima(e)]:
-        if len(elegidos) >= min_lima:
+        if sum(1 for x in elegidos if _en_lima(x)) >= min_lima or len(elegidos) >= n:
             break
-        if cabe(e):
+        if e not in elegidos and cabe(e):
             agregar(e)
     for e in candidatos:
         if len(elegidos) >= n:
             break
         if e not in elegidos and cabe(e):
+            agregar(e)
+    for e in candidatos:  # si los cupos dejaron huecos, se completa con lo mejor que quede
+        if len(elegidos) >= n:
+            break
+        if e not in elegidos and ((e.get("tipo") or "evento") == "evento" or por_tipo.get(e.get("tipo"), 0) < max_por_tipo):
             agregar(e)
     elegidos.sort(key=lambda e: -e.get("puntaje", 0))
     return [e["id"] for e in elegidos]

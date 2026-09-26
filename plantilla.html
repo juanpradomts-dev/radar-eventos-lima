@@ -507,7 +507,7 @@ if (DATOS) {
   $("#lista-fuentes").innerHTML = Object.entries(f).map(([k, v]) => {
     const i = FUENTES_INFO[k] || {};
     const n = eventos.filter(e => e.fuente === k).length, na = archivo.filter(e => e.fuente === k).length;
-    return `<div class="f-item"><b>${esc(k)} <span class="estado ${v.ok ? "" : "caida"}">${v.ok ? n + " en lista" + (na ? ` · ${na} arch.` : "") : "sin respuesta"}</span></b>
+    return `<div class="f-item"><b>${esc(k)} <span class="estado ${v.ok ? "" : "caida"}">${v.ok ? n + " en lista" + (na ? ` · ${na} arch.` : "") + (v.cache ? ` · copia del ${new Date(v.cache).toLocaleDateString("es-PE", {day: "numeric", month: "short"})}` : "") : "sin respuesta"}</span></b>
       <p>${esc(i.txt || "")}</p>${i.url ? `<a href="${i.url}" target="_blank" rel="noopener">Ver en ${esc(k)} ↗</a>` : ""}</div>`;
   }).join("");
 }

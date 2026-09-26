@@ -105,7 +105,9 @@ EXCLUIR = r"\b(concierto|fiesta|party|dj|rave|reggaeton|salsa|karaoke|stand ?up|
 # Afinidad personal: perfil.json (editable). Sin ese archivo, solo cuenta el valor general.
 PERFIL_JSON = RAIZ / "perfil.json"
 INSTITUCIONALES_JSON = RAIZ / "institucionales.json"
+RECURRENTES_JSON = RAIZ / "recurrentes.json"  # eventos anuales verificados → "Se viene"
 TOP = 55           # puntaje (0-100) desde el que algo es "Para ti" (valor general + afinidad del perfil)
+VIRTUAL_TITULO = r"\b(webinar|webinars|online|virtual|en linea|via zoom|por zoom)\b"
 TOP_SIN_PERFIL = 40  # sin perfil.json solo hay valor general (0-60): "Destacado" desde 40
 
 
@@ -497,6 +499,7 @@ def recolectar(dias, perfil=None):
     crudos, estado = [], {}
     for nombre, f in FUENTES.items():
         try:
+            antes = set(fuentes_extra.CACHE_USADO)
             lote = f(limite)
             crudos += lote
             # 0 resultados en una fuente automática = casi siempre bloqueo (p. ej. Eventbrite
@@ -504,6 +507,9 @@ def recolectar(dias, perfil=None):
             if not lote and nombre not in ("Redes (manual)", "Institucionales"):
                 raise RuntimeError("0 resultados (posible bloqueo)")
             estado[nombre] = {"ok": True, "n": len(lote)}
+            copias = [v for k, v in fuentes_extra.CACHE_USADO.items() if k not in antes]
+            if copias:  # respondió con error (p. ej. 429) y se usó la última respuesta buena
+                estado[nombre]["cache"] = min(copias)
         except Exception as e:  # una fuente caída no tumba el radar
             estado[nombre] = {"ok": False, "n": 0, "error": str(e)[:160]}
     vistos, candidatos, archivo = set(), [], []
@@ -538,6 +544,14 @@ def recolectar(dias, perfil=None):
     eventos = []
     for ev in candidatos:
         ev["gratis"] = puntaje.es_gratis(ev)  # el precio en el texto gana a la bandera de la fuente
+        if re.search(VIRTUAL_TITULO, norm(ev["titulo"])):
+            ev["modalidad"] = "Virtual"  # caso: un webinar de ISO 21001 figuraba presencial
+        if re.search(puntaje.PROMO_PROGRAMA, norm(ev["titulo"])):
+            # "Conferencia informativa" de una maestría o diplomado: es admisión, no una oportunidad de crecer
+            ev["tipo"], ev["institucional"] = "admisión", False
+            ev["motivo"] = "admisión: promociona una maestría o diplomado pagado"
+            archivo.append(ev)
+            continue
         cats, coincidencias = puntaje.categorias(ev)
         if ev.get("_manual") and not cats:
             cats = ev["cats_fuente"]
@@ -684,7 +698,7 @@ def main():
             "perfil": bool(perfil), "top": TOP if perfil else TOP_SIN_PERFIL,
             "recomendados": puntaje.recomendados(eventos, ahora),
             "institucionales": _ESTADO_INST.copy(),
-            "se_viene": institucionales.se_viene(INSTITUCIONALES_JSON, previo.get("historial_institucional"), eventos),
+            "se_viene": institucionales.se_viene(RECURRENTES_JSON, eventos),
         }
         try:
             extras["por_confirmar"] = institucionales.descubrir(get, INSTITUCIONALES_JSON,

@@ -16,8 +16,9 @@ Publicado en https://juanpradomts-dev.github.io/radar-eventos-lima/ · se actual
 - Convocatorias (`fuentes_extra.py`): Devpost, WikiCFP, Opportunity Desk, Opportunities for Youth y TEDx Perú.
 - **Institucionales** (`institucionales.py` + `institucionales.json`): lista de vigilancia de cumbres, foros, congresos y ferias que viven en la web del organizador (Cumbre Perú Sostenible, CADE/IPAE, ESAN, PMI Lima, CCL, AmCham, CIP, universidades, gremios, ministerios, ONG…). Extracción genérica: JSON-LD → `.ics` → `<time>` → fechas en español. Agrega una fila al JSON para vigilar otra web.
   - **Por confirmar**: titulares de Bing News (cumbre, foro, congreso, summit o feria, más Lima y el año) que aún no están en el radar. El RSS de Google News lo prohíbe su `robots.txt`.
-  - **Se viene**: eventos anuales cuyo mes habitual se acerca (~2 meses) aunque su web aún no publique fechas.
-- Todas son públicas, sin login, y se consultan respetando `robots.txt`; si una falla, cae sola sin tumbar las demás.
+  - **Se viene** (`recurrentes.json`): eventos anuales o bienales (CADE, Cumbre Perú Sostenible, PERUMIN, Expoalimentaria, Expomina…) con su mes habitual y ediciones verificadas en prensa; aparecen ~2 meses antes aunque su web aún no publique fechas. IPAE bloquea a los servidores de GitHub, así que CADE vive aquí y no se raspa.
+  - Las webs que no tienen una agenda legible quedan en `institucionales.json → descartadas` con la nota del porqué.
+- Todas son públicas, sin login, y se consultan respetando `robots.txt`; si una falla, cae sola sin tumbar las demás. Los feeds RSS reintentan ante un 429 (respetando `Retry-After`) y, si igual fallan, usan la última respuesta buena guardada en `cache/` (máx. 14 días); la página lo indica como "copia del …".
 
 ## Uso local
 ```
@@ -28,5 +29,6 @@ python eventos.py [--abrir] [--perfil ""]    # --perfil "" = sin afinidad person
 Genera `eventos.json` (historial: no borrar) y `site/index.html`, `site/eventos.ics`, `site/top.ics`.
 
 ## Volver atrás
-- Antes de esta mejora: `git checkout respaldo-pre-mejora-2026-09-26` (para ver) o `git revert` del merge (para deshacer en `main`). Copia completa en `Claudio/respaldos/radar-eventos-lima_2026-09-26/`.
+- Antes de los ajustes (institucionales, recurrentes, falsos positivos): `git checkout respaldo-pre-ajustes-2026-09-26`.
+- Antes de la mejora de puntaje: `git checkout respaldo-pre-mejora-2026-09-26` (para ver) o `git revert` del merge (para deshacer en `main`). Copia completa en `Claudio/respaldos/radar-eventos-lima_2026-09-26/`.
 - Versión original (solo Lima, con descartes): `git checkout original-2026-09-26`.
