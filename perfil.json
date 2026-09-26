@@ -1,25 +1,199 @@
 {
-  "descripcion": "Afinidad personal de JP (Ingeniería Industrial, UCSUR). Edítalo cuando cambien tus intereses: cada área suma su peso si aparece alguna de sus palabras (x1.5 si está en el título). Borra este archivo o deja \"areas\" vacío y el radar usará solo el valor general, igual para cualquier estudiante.",
+  "descripcion": "Afinidad personal de JP (Ingeniería Industrial, UCSUR). Edítalo cuando cambien tus intereses: cada área suma su peso si aparece alguna de sus palabras (x1.5 si está en el título). Borra este archivo o deja \"areas\" vacío y el radar usará solo el valor general, igual para cualquier estudiante. Las palabras ambiguas se escriben como {\"palabra\": …, \"junto_a\": […]}: solo cuentan si aparece alguna de las otras (p. ej. «operaciones» solo junto a logística, supply, cadena, planta o producción).",
   "tope": 40,
   "areas": [
-    {"nombre": "Supply chain y operaciones", "peso": 12,
-     "palabras": ["supply chain", "cadena de suministro", "logistica", "logistics", "almacen", "inventario", "lean", "six sigma", "operaciones", "operations", "procurement", "compras", "manufactura", "ingenieria industrial", "industrial engineering", "gs1"]},
-    {"nombre": "Datos y machine learning", "peso": 12,
-     "palabras": ["data", "datos", "machine learning", "ml", "analytics", "analitica", "python", "sql", "power bi", "estadistica", "datafest", "datathon", "ciencia de datos", "data science"]},
-    {"nombre": "Inteligencia artificial", "peso": 8,
-     "palabras": ["inteligencia artificial", "ia", "ai", "llm", "agentes", "agents", "claude", "genai"]},
-    {"nombre": "Investigación", "peso": 8,
-     "palabras": ["investigacion", "research", "scopus", "paper", "call for papers", "congreso", "simposio", "operations research", "optimizacion", "optimization"]},
-    {"nombre": "Becas y posgrado", "peso": 8,
-     "palabras": ["beca", "becas", "scholarship", "fellowship", "educationusa", "fulbright", "posgrado", "maestria", "mba", "intercambio", "toefl", "ielts"]},
-    {"nombre": "Competencias", "peso": 6,
-     "palabras": ["hackathon", "hackaton", "concurso", "competencia", "challenge"]},
-    {"nombre": "Liderazgo y oratoria", "peso": 5,
-     "palabras": ["liderazgo", "oratoria", "negociacion", "mentoria", "mentoring", "debate"]},
-    {"nombre": "Emprendimiento y finanzas", "peso": 4,
-     "palabras": ["emprendimiento", "startup", "founders", "innovacion", "fintech", "banca", "finanzas"]},
-    {"nombre": "Gestión de proyectos", "peso": 4,
-     "palabras": ["pmp", "pmi", "gestion de proyectos", "direccion de proyectos", "project management", "scrum", "agile"]}
+    {
+      "nombre": "Supply chain y operaciones",
+      "peso": 12,
+      "palabras": [
+        "supply chain",
+        "cadena de suministro",
+        "logistica",
+        "logistics",
+        "almacen",
+        "inventario",
+        "lean",
+        "six sigma",
+        "procurement",
+        "manufactura",
+        "ingenieria industrial",
+        "industrial engineering",
+        "gs1",
+        {
+          "palabra": "operaciones",
+          "junto_a": [
+            "logistica",
+            "logistics",
+            "supply",
+            "cadena",
+            "planta",
+            "produccion",
+            "production",
+            "manufactura",
+            "almacen",
+            "inventario",
+            "warehouse"
+          ]
+        },
+        {
+          "palabra": "operations",
+          "junto_a": [
+            "logistica",
+            "logistics",
+            "supply",
+            "cadena",
+            "planta",
+            "produccion",
+            "production",
+            "manufactura",
+            "almacen",
+            "inventario",
+            "warehouse"
+          ]
+        },
+        {
+          "palabra": "compras",
+          "junto_a": [
+            "logistica",
+            "logistics",
+            "supply",
+            "cadena",
+            "planta",
+            "produccion",
+            "production",
+            "manufactura",
+            "almacen",
+            "inventario",
+            "warehouse"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Datos y machine learning",
+      "peso": 12,
+      "palabras": [
+        "data",
+        "datos",
+        "machine learning",
+        "ml",
+        "analytics",
+        "analitica",
+        "python",
+        "sql",
+        "power bi",
+        "estadistica",
+        "datafest",
+        "datathon",
+        "ciencia de datos",
+        "data science"
+      ]
+    },
+    {
+      "nombre": "Inteligencia artificial",
+      "peso": 8,
+      "palabras": [
+        "inteligencia artificial",
+        "ia",
+        "ai",
+        "llm",
+        "agentes",
+        "agents",
+        "claude",
+        "genai"
+      ]
+    },
+    {
+      "nombre": "Investigación",
+      "peso": 8,
+      "palabras": [
+        "investigacion",
+        "research",
+        "scopus",
+        "paper",
+        "call for papers",
+        "congreso",
+        "simposio",
+        "operations research",
+        "optimizacion",
+        "optimization"
+      ]
+    },
+    {
+      "nombre": "Becas y posgrado",
+      "peso": 8,
+      "palabras": [
+        "beca",
+        "becas",
+        "scholarship",
+        "fellowship",
+        "educationusa",
+        "fulbright",
+        "posgrado",
+        "maestria",
+        "mba",
+        "intercambio",
+        "toefl",
+        "ielts"
+      ]
+    },
+    {
+      "nombre": "Competencias",
+      "peso": 6,
+      "palabras": [
+        "hackathon",
+        "hackaton",
+        "concurso",
+        "competencia",
+        "challenge"
+      ]
+    },
+    {
+      "nombre": "Liderazgo y oratoria",
+      "peso": 5,
+      "palabras": [
+        "liderazgo",
+        "oratoria",
+        "negociacion",
+        "mentoria",
+        "mentoring",
+        "debate"
+      ]
+    },
+    {
+      "nombre": "Emprendimiento y finanzas",
+      "peso": 4,
+      "palabras": [
+        "emprendimiento",
+        "startup",
+        "founders",
+        "innovacion",
+        "fintech",
+        "banca",
+        "finanzas"
+      ]
+    },
+    {
+      "nombre": "Gestión de proyectos",
+      "peso": 4,
+      "palabras": [
+        "pmp",
+        "pmi",
+        "gestion de proyectos",
+        "direccion de proyectos",
+        "project management",
+        "scrum",
+        "agile"
+      ]
+    }
   ],
-  "evitar": ["cripto", "crypto", "trading", "forex", "nft", "web3", "multinivel"]
+  "evitar": [
+    "cripto",
+    "crypto",
+    "trading",
+    "forex",
+    "nft",
+    "web3",
+    "multinivel"
+  ]
 }

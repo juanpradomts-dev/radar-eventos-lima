@@ -14,6 +14,7 @@ import html as htmlmod
 import json
 import re
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from urllib.parse import parse_qs, quote_plus, urljoin, urlsplit
 
 LIMA = timezone(timedelta(hours=-5))
@@ -126,7 +127,8 @@ def _eventos_jsonld(html):
                     recorrer(n[k])
     for m in re.finditer(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', html, re.S | re.I):
         try:
-            recorrer(json.loads(m.group(1).strip()))
+            crudo = re.sub(r",\s*([}\]])", r"\1", m.group(1).strip())  # comas sobrantes (JSON inválido)
+            recorrer(json.loads(crudo, strict=False))
         except ValueError:
             continue
     return out
@@ -138,7 +140,14 @@ def _parse_iso(s):
     try:
         d = datetime.fromisoformat(str(s).replace("Z", "+00:00"))
     except ValueError:
-        return None
+        # formatos rotos pero legibles: "2026-9-29T11-11-00-00", "2026-09-29 18:30"
+        m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})(?:[T ](\d{1,2})[:\-](\d{2}))?", str(s))
+        if not m:
+            return None
+        try:
+            d = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4) or 0), int(m.group(5) or 0))
+        except ValueError:
+            return None
     return d if d.tzinfo else d.replace(tzinfo=LIMA)
 
 
@@ -180,12 +189,13 @@ def extraer(fuente, html, ahora, limite, get=None):
     desc_pag = _meta(html, "og:description", "description")
     img_pag = _meta(html, "og:image")
     vigente = lambda ini, fin: ini and (fin or ini) >= ahora and ini <= limite
-    out = []
-    # 1) JSON-LD
+    out, vistos = [], set()
+    # 1) JSON-LD (algunas webs repiten el mismo evento en varios bloques: se deduplica)
     for n in _eventos_jsonld(html):
         ini, fin = _parse_iso(n.get("startDate")), _parse_iso(n.get("endDate"))
-        if not vigente(ini, fin):
+        if not vigente(ini, fin) or (n.get("name"), ini) in vistos:
             continue
+        vistos.add((n.get("name"), ini))
         loc = n.get("location") or {}
         loc = loc[0] if isinstance(loc, list) and loc else loc
         lugar = loc.get("name", "") if isinstance(loc, dict) else str(loc)
@@ -301,13 +311,52 @@ def _agenda_regex(fuente, bloques, ahora, limite, maximo=15):
     return out
 
 
+def _paginas_sitemap(fuente, get, ahora):
+    """URLs de eventos modificadas hace poco según el sitemap del sitio (más recientes primero)."""
+    xml = get(fuente["sitemap"], timeout=25).content.decode("utf-8", "replace")
+    pares = re.findall(r"<url>\s*<loc>([^<]+)</loc>(?:\s*<lastmod>([^<]+)</lastmod>)?", xml)
+    patron = re.compile(fuente.get("patron") or ".", re.I)
+    desde = ahora - timedelta(days=fuente.get("dias_modificado", 120))
+    recientes = [(u, _parse_iso(m)) for u, m in pares if patron.search(u)]
+    recientes = [(u, m) for u, m in recientes if m and m >= desde]
+    recientes.sort(key=lambda x: x[1], reverse=True)
+    return [u for u, _ in recientes[: fuente.get("maximo", 12)]]
+
+
+def _evento_de_pagina(fuente, url, html, ahora, limite):
+    """Una página = un evento: título de la página y la primera fecha futura (año actual si no lo dice)."""
+    bloques = _bloques(html)
+    titulo = re.split(r"\s+[|–-]\s+", _titulo_pagina(html))[0].strip()
+    texto = " | ".join(bloques)
+    anio = _anio_de(titulo) or str(ahora.year)
+    for ini, fin, pos in fechas_es(texto, anio):
+        if fin >= ahora and ini <= limite:
+            cerca = texto[max(0, pos - 400): pos + 400]
+            gratis = True if re.search(r"\bgratuit[oa]s?\b|\bgratis\b|ingreso libre|entrada libre", cerca, re.I) else None
+            return _item(fuente, titulo, ini, fin, url, "", _meta(html, "og:description", "description"),
+                         _meta(html, "og:image"), gratis, "sitemap + fecha en texto")
+    return None
+
+
 def recolectar(get, ruta_json, limite):
     """Recorre la lista de vigilancia. Devuelve (eventos, estado_por_pagina). Cada página falla sola."""
-    conf = json.loads(open(ruta_json, encoding="utf-8").read())
+    conf = json.loads(Path(ruta_json).read_text(encoding="utf-8"))
     ahora = datetime.now(LIMA)
     eventos, estado = [], {}
     for f in conf.get("fuentes", []):
         try:
+            if f.get("modo") == "sitemap":
+                lote = []
+                for u in _paginas_sitemap(f, get, ahora):
+                    try:
+                        e = _evento_de_pagina(f, u, get(u, timeout=25).content.decode("utf-8", "replace"), ahora, limite)
+                    except Exception:
+                        continue  # una página rota no tumba a las demás
+                    if e:
+                        lote.append(e)
+                eventos += lote
+                estado[f["nombre"]] = len(lote)
+                continue
             r = get(f["url"], timeout=25)
             r.raise_for_status()
             html = r.content.decode("utf-8", errors="replace")  # bytes: requests adivina mal el charset
@@ -332,7 +381,7 @@ NO_EVENTO = re.compile(r"\b(congreso de la rep[uú]blica|congresistas?|proyecto 
                        r"vino|f[uú]tbol|anime|cosplay)\b", re.I)
 def descubrir(get, ruta_json, conocidos, maximo=12):
     """Titulares recientes de Bing News sobre cumbres/foros/congresos en Lima que NO están en el radar."""
-    conf = json.loads(open(ruta_json, encoding="utf-8").read()).get("descubrimiento", {})
+    conf = json.loads(Path(ruta_json).read_text(encoding="utf-8")).get("descubrimiento", {})
     ahora = datetime.now(LIMA)
     # Palabras distintivas: sin las genéricas, un "Summit Lima 2026" no tapa a cualquier otro summit.
     distintivas = lambda s: set(re.findall(r"[a-záéíóúñ0-9]{4,}", s.lower())) - GENERICAS
@@ -372,32 +421,44 @@ def descubrir(get, ruta_json, conocidos, maximo=12):
 
 
 # ---------------------------------------------------------------- 3) recurrentes anuales (Se viene)
-def se_viene(ruta_json, historial, eventos, hoy=None, ventana_dias=70):
-    """Eventos anuales cuyo mes habitual está a ≤ ~2 meses y que aún no tienen fecha publicada en el radar."""
-    conf = json.loads(open(ruta_json, encoding="utf-8").read())
+def se_viene(ruta_recurrentes, eventos, hoy=None, ventana_dias=70):
+    """Eventos anuales (o bienales) de recurrentes.json cuyo mes habitual empieza en ≤ ~2 meses y que todavía
+    no tienen fecha publicada en el radar. Si ya se sabe la fecha de esta edición, se muestra con esa fecha."""
+    try:
+        conf = json.loads(Path(ruta_recurrentes).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
     hoy = hoy or datetime.now(LIMA)
-    con_fecha = {e.get("organizador", "") + "|" + norm_simple(e["titulo"]) for e in eventos if e.get("institucional")}
+    listados = [norm_simple(e["titulo"]) for e in eventos]
     out = []
-    for f in conf.get("fuentes", []):
-        nombre = f.get("evento") or f["nombre"]
-        mes = (f.get("recurrente") or {}).get("mes")
-        visto = (historial or {}).get(nombre, {})
-        if not mes and visto:  # aprendido: el mes de la última edición detectada
-            mes = int(sorted(visto.items())[-1][1][5:7])
-        if not mes:
-            continue
+    for r in conf.get("eventos", []):
+        meses = r.get("meses") or [r["mes"]]
+        cada = r.get("cada_anios", 1)
+        ediciones = {str(x["anio"]): x for x in r.get("ediciones", [])}
         for anio in (hoy.year, hoy.year + 1):
-            objetivo = datetime(anio, mes, 1, tzinfo=LIMA)
-            dias = (objetivo - hoy).days
+            if cada > 1 and (anio - int(r.get("anio_referencia", anio))) % cada:
+                continue  # bienal: este año no toca
+            edicion = ediciones.get(str(anio))
+            fecha = datetime.fromisoformat(edicion["inicio"]).replace(tzinfo=LIMA) if edicion and edicion.get("inicio") \
+                else datetime(anio, meses[0], 1, tzinfo=LIMA)
+            dias = (fecha - hoy).days
             if -20 <= dias <= ventana_dias:
                 break
         else:
             continue
-        if any(norm_simple(nombre) in k for k in con_fecha) or str(anio) in visto:
-            continue  # ya tiene fecha publicada (está en la lista) o ya se detectó este año
-        out.append({"nombre": nombre, "organizador": f["organizador"], "url": f["url"], "mes": mes,
-                    "texto": f"suele ser en {NOMBRE_MES[mes]}", "dato": (f.get("recurrente") or {}).get("dato", ""),
-                    "ciudad": f.get("ciudad", "Lima")})
+        if edicion and edicion.get("fin") and datetime.fromisoformat(edicion["fin"]).replace(tzinfo=LIMA) < hoy:
+            continue  # la edición de este año ya pasó
+        if any(norm_simple(r["nombre"]) in t for t in listados):
+            continue  # ya está en la lista con su fecha
+        nombres = [NOMBRE_MES[m] for m in meses]
+        out.append({
+            "nombre": r["nombre"], "organizador": r.get("organizador", ""), "url": r.get("url", ""),
+            "mes": meses[0], "ciudad": (edicion or {}).get("lugar") or r.get("ciudad", "Lima"),
+            "texto": (f"{anio}: del {edicion['inicio'][8:10]}/{edicion['inicio'][5:7]} al {edicion['fin'][8:10]}/{edicion['fin'][5:7]}"
+                      if edicion and edicion.get("fin") else f"suele ser en {' u '.join(nombres)}")
+                     + (" · cada 2 años" if cada == 2 else ""),
+            "dato": r.get("dato", ""),
+        })
     return out
 
 

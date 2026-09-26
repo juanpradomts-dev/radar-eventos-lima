@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-26T09:33-05:00",
+ "actualizado": "2026-09-26T10:21-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -30,9 +30,8 @@
    "n": 10
   },
   "Opportunities for Youth": {
-   "ok": false,
-   "n": 0,
-   "error": "429 Client Error: Too Many Requests for url: https://opportunitiesforyouth.org/category/volunteering/feed/"
+   "ok": true,
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -40,14 +39,14 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 8
+   "n": 14
   },
   "Redes (manual)": {
    "ok": true,
    "n": 0
   }
  },
- "revisados": 341,
+ "revisados": 357,
  "top": 55,
  "eventos": [
   {
@@ -60,7 +59,7 @@
    "publicado": "2026-08-21T13:04-05:00",
    "lugar": "",
    "distrito": "",
-   "modalidad": "Internacional",
+   "modalidad": "Virtual",
    "url": "https://opportunitiesforyouth.org/2026/08/21/agenda-2063-in-power-spaces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity/",
    "inscripcion": "https://opportunitiesforyouth.org/2026/08/21/agenda-2063-in-power-spaces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity/",
    "fuente": "Opportunities for Youth",
@@ -75,7 +74,7 @@
    "valor": 15,
    "afinidad": 0,
    "puntaje": 15,
-   "por_que": "Voluntariado · Evento sin formato claro · Se postula en línea",
+   "por_que": "Voluntariado · Evento sin formato claro · Virtual",
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -227,33 +226,6 @@
    "puntaje": 33,
    "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
    "visto_desde": "2026-09-26T09:26-05:00"
-  },
-  {
-   "id": "luma:evt-0tMW9dRUSZANHz4",
-   "titulo": "EVENTO PRESENCIAL",
-   "inicio": "2026-09-26T06:00-05:00",
-   "fin": "2026-09-26T10:00-05:00",
-   "lugar": "Genoa, La Molina",
-   "distrito": "La Molina",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/rmqu2j1w",
-   "fuente": "Luma",
-   "organizador": "ORGANIC ECOM",
-   "descripcion": "🔥 EVENTO ORGANIC ACADEMY 🔥\nPrepárate para llevar tu negocio al siguiente nivel. 🚀\nEste sábado 26 de SEPTIEMBRE nos reuniremos para compartir estrategias de ventas orgánicas, creación de contenido y crecimiento de negocios que realmente funcionan. Será una noche de aprendizaje, networking y acción. 💥\n📅 Fecha: Sábado 26 de SEPTIEMBRE🕕 Hora: 6:00 PM📍 Lugar: Calle Genoa N°,125 Urbanización, Las Lagunas distrito de La Molina✅ Ingreso: Solo con registro previo\n🧠 Ven con mentalidad de crecimiento, porque aquí se viene a aprender, conectar con otros emprendedores y llevarte estrategias que podrás aplicar desde el primer día.\n⚠️ IMPORTANTE\n✅ El ingreso es únicamente por lista de registro.\n\n✅ Los cupo",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/la/9dba78c8-f31c-4d7c-a6c4-0705c8b9f221.png",
-   "inscripcion": "https://lu.ma/rmqu2j1w",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis",
-   "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
    "id": "eb:1997093130313",
@@ -945,36 +917,36 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "inst:universidad-esan-conferencia-informativa-diploma-de-especial:2026-09-29",
-   "titulo": "Conferencia informativa: Diploma de Especialización en Gestión de Riesgos en el Sistema Financiero",
+   "id": "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29",
+   "titulo": "Webinar: Microempresa: Conoce como puedes subsanar tu primera infracción – Ley 32335",
    "tipo": "evento",
    "institucional": true,
    "escala": "media",
-   "inicio": "2026-09-29T00:00-05:00",
-   "fin": "2026-09-29T23:59-05:00",
+   "inicio": "2026-09-29T11:11-05:00",
+   "fin": "2026-09-29T23:23-05:00",
    "cierre": "",
    "lugar": "Lima",
    "distrito": "Lima",
    "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.esan.edu.pe/eventos/",
-   "inscripcion": "https://www.esan.edu.pe/eventos/",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
    "fuente": "Institucional",
-   "fuente_url": "https://www.esan.edu.pe/eventos/",
-   "organizador": "Universidad ESAN",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
    "descripcion": "",
    "gratis": null,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/09/flyer-img2.jpg",
+   "extraido_por": "json-ld",
    "categorias": [
-    "Investigación y ciencia",
+    "Negocios y emprendimiento",
     "Habilidades y liderazgo"
    ],
-   "valor": 30,
+   "valor": 27,
    "afinidad": 0,
-   "puntaje": 30,
-   "por_que": "Formativo · Evento institucional · Presencial en Lima · Universidad · (Promociona un programa pagado)",
-   "visto_desde": "2026-09-26T09:26-05:00"
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
    "id": "pucp:ici-pucp-2026-riesgo-editorial-en-revistas-estrategias-y-herramientas-04092026171447",
@@ -1002,6 +974,38 @@
    "puntaje": 38,
    "por_que": "Formativo · Afín: Investigación · Universidad · Gratis",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "inst:sni-webinar-gesti-n-integral-de-sustancias-qu-micas-en-el-se:2026-09-29",
+   "titulo": "Webinar: Gestión integral de sustancias químicas en el sector industria manufacturera",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-09-29T16:16-05:00",
+   "fin": "2026-09-29T23:23-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/08/Gestion-integral-de-sustancias-quimicas-en-el-sector-industria-manufacturera-foto.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
    "id": "luma:evt-sDUAopaoSHCWeTn",
@@ -1038,7 +1042,7 @@
    "fin": "2026-09-29T20:00-05:00",
    "lugar": "Online",
    "distrito": "San Miguel",
-   "modalidad": "Presencial",
+   "modalidad": "Virtual",
    "url": "https://agenda.pucp.edu.pe/evento/webinar-fssc-22000-esquema-de-verificacion-y-lo-nuevo-de-la-version-7-11092026141545/",
    "fuente": "PUCP",
    "organizador": "PUCP",
@@ -1052,10 +1056,10 @@
    "categorias": [
     "Ingeniería y operaciones"
    ],
-   "valor": 35,
+   "valor": 30,
    "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "puntaje": 30,
+   "por_que": "Formativo · Universidad · Gratis · Virtual",
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
@@ -1113,38 +1117,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "inst:universidad-esan-conferencia-informativa-maestr-a-en-gesti-n:2026-09-30",
-   "titulo": "Conferencia Informativa: Maestría en Gestión de la Energía",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-09-30T00:00-05:00",
-   "fin": "2026-09-30T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.esan.edu.pe/eventos/",
-   "inscripcion": "https://www.esan.edu.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://www.esan.edu.pe/eventos/",
-   "organizador": "Universidad ESAN",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 27,
-   "afinidad": 12,
-   "puntaje": 39,
-   "por_que": "Formativo · Afín: Becas y posgrado · Evento institucional · Presencial en Lima · (Promociona un programa pagado)",
-   "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
    "id": "eb:1998657030982",
@@ -1257,6 +1229,37 @@
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
+   "id": "inst:sni-webinar-energ-a-como-ventaja-competitiva-c-mo-reducir-el:2026-09-30",
+   "titulo": "Webinar: Energía como ventaja competitiva: ¿Cómo reducir el Opex energético de una industria?",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-09-30T12:12-05:00",
+   "fin": "2026-09-30T23:23-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/09/Energia-como-ventaja-competitiva-IMG-505x400.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Ingeniería y operaciones"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "visto_desde": "2026-09-26T10:21-05:00"
+  },
+  {
    "id": "pucp:ici-pucp-2026-el-rol-de-la-inteligencia-artificial-en-la-transformacion-academica-04092026174417",
    "titulo": "ICI PUCP 2026: El Rol de la Inteligencia Artificial en la Transformación Académica",
    "inicio": "2026-09-30T16:00-05:00",
@@ -1311,6 +1314,38 @@
    "puntaje": 43,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-09-25T14:05-05:00"
+  },
+  {
+   "id": "inst:sni-webinar-tributos-municipales-sin-sorpresas-calcula-verif:2026-09-30",
+   "titulo": "Webinar: Tributos municipales sin sorpresas: calcula, verifica y optimiza con herramientas digitales",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-09-30T17:17-05:00",
+   "fin": "2026-09-30T23:23-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/09/Tributos-municipales-sin-sorpresas-calcula-verifica-y-optimiza-con-herramientas-digitales-img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
    "id": "luma:evt-Ew6EFoGvxsERFv4",
@@ -1561,34 +1596,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "opportunitydesk:ment-council-gyldc-administrative-assistant-to-the-executive-director-",
-   "titulo": "Hot Remote Job: Global Youth Leadership Development Council (GYLDC) Administrative Assistant to the Executive Director",
-   "tipo": "convocatoria",
-   "inicio": "2026-09-30T23:59-05:00",
-   "fin": "2026-09-30T23:59-05:00",
-   "cierre": "2026-09-30T23:59-05:00",
-   "publicado": "2026-09-24T15:56-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/24/global-youth-leadership-development-council-gyldc-administrative-assistant-to-the-executive-director/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/24/global-youth-leadership-development-council-gyldc-administrative-assistant-to-the-executive-director/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: September 30, 2026 The Global Youth Leadership Development Council (GYLDC) is recruiting an Administrative Assistant to the Executive Director to support executive coordination, administration, human resources, contracts, billing, and day-to-day organisational operations. The Administrative Assistant will provide comprehensive administrative, human resources, contracts, and billing support to the Executive Director, ensuring the smooth day-to-day operation [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Supply chain y operaciones · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "luma:evt-zN2QJxZhCUr8UP7",
    "titulo": "BIM NEXT: El futuro de los proyectos de inversión pública",
    "inicio": "2026-10-01T08:30-05:00",
@@ -1778,9 +1785,9 @@
     "Negocios y emprendimiento"
    ],
    "valor": 34,
-   "afinidad": 33,
-   "puntaje": 67,
-   "por_que": "Abre puertas (beca/programa) · Afín: Supply chain y operaciones · Afín: Inteligencia artificial · Presencial en Lima",
+   "afinidad": 21,
+   "puntaje": 55,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Presencial en Lima · Universidad",
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
@@ -1806,9 +1813,9 @@
     "Tecnología e IA"
    ],
    "valor": 29,
-   "afinidad": 32,
-   "puntaje": 61,
-   "por_que": "Afín: Supply chain y operaciones · Networking · Presencial en Lima · Afín: Inteligencia artificial",
+   "afinidad": 20,
+   "puntaje": 49,
+   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Afín: Investigación",
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
@@ -1945,9 +1952,9 @@
     "Investigación y ciencia"
    ],
    "valor": 24,
-   "afinidad": 38,
-   "puntaje": 62,
-   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Supply chain y operaciones · Afín: Investigación",
+   "afinidad": 26,
+   "puntaje": 50,
+   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Gremio o institución",
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -2315,7 +2322,7 @@
    "fin": "2026-10-07T20:00-05:00",
    "lugar": "Online",
    "distrito": "San Miguel",
-   "modalidad": "Presencial",
+   "modalidad": "Virtual",
    "url": "https://agenda.pucp.edu.pe/evento/webinar-claves-para-la-gestion-por-procesos-que-generan-valor-18092026144913/",
    "fuente": "PUCP",
    "organizador": "PUCP",
@@ -2330,10 +2337,10 @@
     "Ingeniería y operaciones",
     "Negocios y emprendimiento"
    ],
-   "valor": 35,
+   "valor": 30,
    "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "puntaje": 30,
+   "por_que": "Formativo · Universidad · Gratis · Virtual",
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
@@ -2425,7 +2432,7 @@
    "fin": "2026-10-09T21:00-05:00",
    "lugar": "Online",
    "distrito": "San Miguel",
-   "modalidad": "Presencial",
+   "modalidad": "Virtual",
    "url": "https://agenda.pucp.edu.pe/evento/webinar-iso-21001-2025-claves-para-una-gestion-educativa-sostenible-21092026102119/",
    "fuente": "PUCP",
    "organizador": "PUCP",
@@ -2439,10 +2446,10 @@
    "categorias": [
     "Ingeniería y operaciones"
    ],
-   "valor": 35,
+   "valor": 30,
    "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "puntaje": 30,
+   "por_que": "Formativo · Universidad · Gratis · Virtual",
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
@@ -2551,9 +2558,9 @@
     "Habilidades y liderazgo"
    ],
    "valor": 24,
-   "afinidad": 28,
-   "puntaje": 52,
-   "por_que": "Afín: Supply chain y operaciones · Afín: Inteligencia artificial · Networking · Presencial en Lima",
+   "afinidad": 16,
+   "puntaje": 40,
+   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
@@ -2583,6 +2590,38 @@
    "puntaje": 39,
    "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13",
+   "titulo": "Ciclo Sunafil: cumplimiento, bienestar y sostenibilidad",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-13T00:00-05:00",
+   "fin": "2026-10-13T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://amcham.org.pe/evento/ciclo-sunafil-cumplimiento-bienestar-y-sostenibilidad/",
+   "inscripcion": "https://amcham.org.pe/evento/ciclo-sunafil-cumplimiento-bienestar-y-sostenibilidad/",
+   "fuente": "Institucional",
+   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
+   "organizador": "Cámara de Comercio Americana del Perú",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/04/ciclo_sunafil.jpg",
+   "extraido_por": "sitemap + fecha en texto",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
+   "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
    "id": "luma:evt-zhKnIxN2kKsuvwI",
@@ -2899,7 +2938,7 @@
    "fin": "2026-10-13T20:00-05:00",
    "lugar": "Online",
    "distrito": "San Miguel",
-   "modalidad": "Presencial",
+   "modalidad": "Virtual",
    "url": "https://agenda.pucp.edu.pe/evento/webinar-clasificar-para-proteger-fundamentos-de-seguridad-de-la-informacion-22092026160651/",
    "fuente": "PUCP",
    "organizador": "PUCP",
@@ -2914,10 +2953,10 @@
     "Datos y analítica",
     "Ingeniería y operaciones"
    ],
-   "valor": 35,
+   "valor": 30,
    "afinidad": 12,
-   "puntaje": 47,
-   "por_que": "Formativo · Afín: Datos y machine learning · Presencial en Lima · Universidad",
+   "puntaje": 42,
+   "por_que": "Formativo · Afín: Datos y machine learning · Universidad · Gratis",
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
@@ -3115,6 +3154,33 @@
    "puntaje": 28,
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-09-25T22:05-05:00"
+  },
+  {
+   "id": "luma:evt-VdivoEb6CyTNEOJ",
+   "titulo": "🤖 Product design con IA",
+   "inicio": "2026-10-15T12:00-05:00",
+   "fin": "2026-10-15T14:00-05:00",
+   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/3r696bsd",
+   "fuente": "Luma",
+   "organizador": "DSC PUCP",
+   "descripcion": "✨Bienvenid@!\n¿Y si la IA pudiera transformar la forma en que diseñamos?\nDescubre nuevas herramientas y posibilidades para llevar tu proceso de Product Design un paso más allá. ✨\n🎯¿Qué aprenderás?\nEn este taller práctico explorarás cómo integrar la Inteligencia Artificial en distintas etapas del proceso de Product Design, desde la ideación y exploración de soluciones hasta la validación y el prototipado.\nDurante el taller trabajaremos en:\n💡 Ideación: explora y desarrolla nuevas ideas con apoyo de IA.\n🔎 Validación: analiza y valida tus ideas para identificar oportunidades de mejora.\n🧩 Design Thinking: aplica una metodología centrada en las necesidades del usuario.\n⚡ Prototipado: construye y ex",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/el/06653212-893c-47a9-8c9b-ebaf2a950dbb.png",
+   "inscripcion": "https://lu.ma/3r696bsd",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 35,
+   "afinidad": 16,
+   "puntaje": 51,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Universidad",
+   "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
    "id": "eb:1982870759820",
@@ -3727,37 +3793,6 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
-   "id": "inst:universidad-esan-ebl-conferencia-informativa-diploma-de-espe:2026-10-20",
-   "titulo": "EBL | Conferencia Informativa: Diploma de Especialización en Protección de Datos Personales",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-20T00:00-05:00",
-   "fin": "2026-10-20T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.esan.edu.pe/eventos/",
-   "inscripcion": "https://www.esan.edu.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://www.esan.edu.pe/eventos/",
-   "organizador": "Universidad ESAN",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "categorias": [
-    "Datos y analítica"
-   ],
-   "valor": 30,
-   "afinidad": 18,
-   "puntaje": 48,
-   "por_que": "Afín: Datos y machine learning · Formativo · Evento institucional · Presencial en Lima · (Promociona un programa pagado)",
-   "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
    "id": "pucp:go-arb-lima-2026-28082026110320",
    "titulo": "GoArb Lima 2026",
    "inicio": "2026-10-20T09:00-05:00",
@@ -4170,38 +4205,6 @@
    "puntaje": 25,
    "por_que": "Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "inst:universidad-esan-ebl-conferencia-informativa-programa-de-alt:2026-10-27",
-   "titulo": "EBL | Conferencia Informativa: Programa de Alta Especialización en Derecho Deportivo",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-27T00:00-05:00",
-   "fin": "2026-10-27T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.esan.edu.pe/eventos/",
-   "inscripcion": "https://www.esan.edu.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://www.esan.edu.pe/eventos/",
-   "organizador": "Universidad ESAN",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "categorias": [
-    "Investigación y ciencia",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Presencial en Lima · Universidad · (Promociona un programa pagado)",
-   "visto_desde": "2026-09-26T09:26-05:00"
   },
   {
    "id": "devpost:30984",
@@ -4865,9 +4868,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 30,
-   "puntaje": 47,
-   "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea",
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -5176,6 +5179,37 @@
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima",
    "visto_desde": "2026-09-24T22:14-05:00"
+  },
+  {
+   "id": "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23",
+   "titulo": "Sustainability Immersion Trip: Moving from Concept to Strategy",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-23T00:00-05:00",
+   "fin": "2026-11-27T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
+   "inscripcion": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
+   "fuente": "Institucional",
+   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
+   "organizador": "Cámara de Comercio Americana del Perú",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/08/1-1-scaled.jpg",
+   "extraido_por": "sitemap + fecha en texto",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
+   "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
    "id": "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214",
@@ -5702,9 +5736,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 24,
-   "puntaje": 41,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -5813,9 +5847,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 20,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
+   "afinidad": 8,
+   "puntaje": 25,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -5935,6 +5969,133 @@
   }
  ],
  "archivo": [
+  {
+   "id": "inst:universidad-esan-conferencia-informativa-diploma-de-especial:2026-09-29",
+   "titulo": "Conferencia informativa: Diploma de Especialización en Gestión de Riesgos en el Sistema Financiero",
+   "tipo": "admisión",
+   "institucional": false,
+   "escala": "media",
+   "inicio": "2026-09-29T00:00-05:00",
+   "fin": "2026-09-29T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.esan.edu.pe/eventos/",
+   "inscripcion": "https://www.esan.edu.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://www.esan.edu.pe/eventos/",
+   "organizador": "Universidad ESAN",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "",
+   "extraido_por": "fecha en texto",
+   "motivo": "admisión: promociona una maestría o diplomado pagado",
+   "categorias": [
+    "Investigación y ciencia",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Con certificado · (Promociona un programa pagado)"
+  },
+  {
+   "id": "inst:universidad-esan-conferencia-informativa-maestr-a-en-gesti-n:2026-09-30",
+   "titulo": "Conferencia Informativa: Maestría en Gestión de la Energía",
+   "tipo": "admisión",
+   "institucional": false,
+   "escala": "media",
+   "inicio": "2026-09-30T00:00-05:00",
+   "fin": "2026-09-30T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.esan.edu.pe/eventos/",
+   "inscripcion": "https://www.esan.edu.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://www.esan.edu.pe/eventos/",
+   "organizador": "Universidad ESAN",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "",
+   "extraido_por": "fecha en texto",
+   "motivo": "admisión: promociona una maestría o diplomado pagado",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 17,
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Becas y posgrado · Presencial en Lima · Universidad · (Promociona un programa pagado)"
+  },
+  {
+   "id": "inst:universidad-esan-ebl-conferencia-informativa-diploma-de-espe:2026-10-20",
+   "titulo": "EBL | Conferencia Informativa: Diploma de Especialización en Protección de Datos Personales",
+   "tipo": "admisión",
+   "institucional": false,
+   "escala": "media",
+   "inicio": "2026-10-20T00:00-05:00",
+   "fin": "2026-10-20T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.esan.edu.pe/eventos/",
+   "inscripcion": "https://www.esan.edu.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://www.esan.edu.pe/eventos/",
+   "organizador": "Universidad ESAN",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "",
+   "extraido_por": "fecha en texto",
+   "motivo": "admisión: promociona una maestría o diplomado pagado",
+   "categorias": [
+    "Datos y analítica"
+   ],
+   "valor": 20,
+   "afinidad": 18,
+   "puntaje": 38,
+   "por_que": "Afín: Datos y machine learning · Formativo · Presencial en Lima · Universidad · (Promociona un programa pagado)"
+  },
+  {
+   "id": "inst:universidad-esan-ebl-conferencia-informativa-programa-de-alt:2026-10-27",
+   "titulo": "EBL | Conferencia Informativa: Programa de Alta Especialización en Derecho Deportivo",
+   "tipo": "admisión",
+   "institucional": false,
+   "escala": "media",
+   "inicio": "2026-10-27T00:00-05:00",
+   "fin": "2026-10-27T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.esan.edu.pe/eventos/",
+   "inscripcion": "https://www.esan.edu.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://www.esan.edu.pe/eventos/",
+   "organizador": "Universidad ESAN",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "",
+   "extraido_por": "fecha en texto",
+   "motivo": "admisión: promociona una maestría o diplomado pagado",
+   "categorias": [
+    "Investigación y ciencia",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 17,
+   "afinidad": 0,
+   "puntaje": 17,
+   "por_que": "Formativo · Presencial en Lima · Universidad · (Promociona un programa pagado)"
+  },
   {
    "id": "wikicfp:164908",
    "titulo": "IIoTBDSC 2022 : Electronics MDPI Special Issue- Advances in Industrial IoT, Big Data and Supply Chain for IIoTBDSC",
@@ -6542,9 +6703,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 30,
-   "puntaje": 47,
-   "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:180864",
@@ -6570,9 +6731,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 38,
-   "puntaje": 55,
-   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Supply chain y operaciones · Afín: Investigación"
+   "afinidad": 26,
+   "puntaje": 43,
+   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:184780",
@@ -6597,9 +6758,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 24,
-   "puntaje": 41,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:181196",
@@ -6624,9 +6785,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 20,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 8,
+   "puntaje": 25,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:182728",
@@ -6651,9 +6812,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 24,
-   "puntaje": 41,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:201252",
@@ -6678,9 +6839,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 20,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 8,
+   "puntaje": 25,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:184842",
@@ -6789,9 +6950,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 32,
-   "puntaje": 49,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Inteligencia artificial · Afín: Investigación"
+   "afinidad": 20,
+   "puntaje": 37,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:189070",
@@ -6845,9 +7006,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 38,
-   "puntaje": 55,
-   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Supply chain y operaciones · Afín: Investigación"
+   "afinidad": 26,
+   "puntaje": 43,
+   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:191009",
@@ -6899,9 +7060,9 @@
     "Investigación y ciencia"
    ],
    "valor": 24,
-   "afinidad": 20,
-   "puntaje": 44,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Gremio o institución"
+   "afinidad": 8,
+   "puntaje": 32,
+   "por_que": "Formativo · Afín: Investigación · Gremio o institución · Se postula en línea"
   },
   {
    "id": "wikicfp:192491",
@@ -7035,9 +7196,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 24,
-   "puntaje": 41,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:192484",
@@ -7116,9 +7277,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 20,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 8,
+   "puntaje": 25,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:194160",
@@ -7280,9 +7441,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 24,
-   "puntaje": 41,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:194675",
@@ -7390,9 +7551,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 20,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 8,
+   "puntaje": 25,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:192605",
@@ -7417,9 +7578,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 24,
-   "puntaje": 41,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:192923",
@@ -7472,9 +7633,9 @@
     "Investigación y ciencia"
    ],
    "valor": 17,
-   "afinidad": 20,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+   "afinidad": 8,
+   "puntaje": 25,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:194875",
@@ -8084,6 +8245,34 @@
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
   },
   {
+   "id": "opportunitiesforyouth:-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children-",
+   "titulo": "UNICEF Club Registration 2026–2027: How to Start or Renew a UNICEF USA Club and Take Action for Children",
+   "tipo": "voluntariado",
+   "inicio": "2026-08-27T19:08-05:00",
+   "fin": "2026-08-27T19:08-05:00",
+   "cierre": "",
+   "publicado": "2026-08-27T19:08-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The UNICEF USA Club Registration for the 2026–2027 school year is now open for students and schools interested in taking action for children in the United States and around the world. The initiative provides an opportunity for students to establish or continue a UNICEF Club and participate in activi",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "no es una convocatoria (artículo o consejos)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 22,
+   "afinidad": 0,
+   "puntaje": 22,
+   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea"
+  },
+  {
    "id": "opportunitydesk:ps-opportunitydesk-org-2026-09-24-investing-in-the-right-stock-market-",
    "titulo": "Investing in the Right Stock Market",
    "tipo": "convocatoria",
@@ -8139,6 +8328,35 @@
    "afinidad": 12,
    "puntaje": 28,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
+   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-12T23:59-05:00",
+   "fin": "2026-09-12T23:59-05:00",
+   "cierre": "2026-09-12T23:59-05:00",
+   "publicado": "2026-09-04T14:38-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
+   "gratis": false,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Tecnología e IA"
+   ],
+   "valor": 36,
+   "afinidad": 28,
+   "puntaje": 64,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Voluntariado · Afín: Investigación"
   },
   {
    "id": "devpost:30539",
@@ -8497,6 +8715,34 @@
    "afinidad": 26,
    "puntaje": 42,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31486",
+   "titulo": "Carolina Data Challenge 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-26T00:00-05:00",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "UNC Chapel Hill - Sitterson Hall",
+   "distrito": "UNC Chapel Hill - Sitterson Hall",
+   "modalidad": "Presencial",
+   "url": "https://carolina-data-challenge-2026.devpost.com/",
+   "inscripcion": "https://carolina-data-challenge-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Carolina Analytics and Data Science",
+   "descripcion": "Hackathon presencial en UNC Chapel Hill - Sitterson Hall. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/369/055/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Datos y analítica",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 35,
+   "puntaje": 51,
+   "por_que": "Afín: Datos y machine learning · Competencia · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "luma:evt-8uZ2OLH6zJhVUgo",
@@ -9124,6 +9370,147 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-08-20-fao-regular-volunteer-",
+   "titulo": "FAO Regular Volunteer Programme for Africa 2026: Applications Open for the United Nations Volunteer Opportunity",
+   "tipo": "voluntariado",
+   "inicio": "2026-08-26T23:59-05:00",
+   "fin": "2026-08-26T23:59-05:00",
+   "cierre": "2026-08-26T23:59-05:00",
+   "publicado": "2026-08-20T03:37-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The Food and Agriculture Organization of the United Nations (FAO) is inviting eligible applicants to submit expressions of interest for the FAO Regular Volunteer Programme for Africa (RAF) 2026. This international volunteer opportunity gives individuals an avenue to contribute their knowledge, exper",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Africa)",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Investigación y ciencia"
+   ],
+   "valor": 19,
+   "afinidad": 8,
+   "puntaje": 27,
+   "por_que": "Voluntariado · Afín: Investigación · Evento sin formato claro · Plazo claro"
+  },
+  {
+   "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
+   "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-04T23:59-05:00",
+   "fin": "2026-09-04T23:59-05:00",
+   "cierre": "2026-09-04T23:59-05:00",
+   "publicado": "2026-08-21T22:07-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The United Nations Development Programme (UNDP) is inviting applications for Agenda 2063 in Power Spaces – Cohort 3, a seven-week online learning and volunteer opportunity designed to help participants strengthen their leadership capacity and identify how they can contribute to achieving Agenda 2063",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (African)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
+   "titulo": "EvalYouth Asia 2026 Core Group: Call for Applications for Young and Emerging Evaluators",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-16T15:31-05:00",
+   "fin": "2026-09-16T15:31-05:00",
+   "cierre": "",
+   "publicado": "2026-09-16T15:31-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "EvalYouth Asia (EYA) has opened applications for its 2026 Core Group, inviting passionate young and emerging evaluators to take an active leadership role in strengthening evaluation practice, youth leadership, networking, and collaboration across the Asia-Pacific region. This is a volunteer leadersh",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Asia)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 21,
+   "afinidad": 0,
+   "puntaje": 21,
+   "por_que": "Networking · Voluntariado · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:rd-of-directors-2026-call-for-expressions-of-interest-and-nominations-",
+   "titulo": "Caribbean Biodiversity Fund Board of Directors 2026: Call for Expressions of Interest and Nominations",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-07T23:59-05:00",
+   "fin": "2026-09-07T23:59-05:00",
+   "cierre": "2026-09-07T23:59-05:00",
+   "publicado": "2026-08-29T08:49-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The Caribbean Biodiversity Fund (CBF) is inviting expressions of interest and nominations from suitably qualified individuals who may be considered for appointment to its Board of Directors. The opportunity provides individuals with an interest and experience in conservation, biodiversity protection",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Caribbean)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitydesk:ment-council-gyldc-administrative-assistant-to-the-executive-director-",
+   "titulo": "Hot Remote Job: Global Youth Leadership Development Council (GYLDC) Administrative Assistant to the Executive Director",
+   "tipo": "convocatoria",
+   "inicio": "2026-09-30T23:59-05:00",
+   "fin": "2026-09-30T23:59-05:00",
+   "cierre": "2026-09-30T23:59-05:00",
+   "publicado": "2026-09-24T15:56-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/09/24/global-youth-leadership-development-council-gyldc-administrative-assistant-to-the-executive-director/",
+   "inscripcion": "https://opportunitydesk.org/2026/09/24/global-youth-leadership-development-council-gyldc-administrative-assistant-to-the-executive-director/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: September 30, 2026 The Global Youth Leadership Development Council (GYLDC) is recruiting an Administrative Assistant to the Executive Director to support executive coordination, administration, human resources, contracts, billing, and day-to-day organisational operations. The Administrativ",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea"
+  },
+  {
    "id": "opportunitydesk:ortunitydesk-org-2026-09-25-cite-investigative-journalism-grants-2026-",
    "titulo": "CITE Investigative Journalism Grants 2026",
    "tipo": "convocatoria",
@@ -9205,33 +9592,6 @@
    "afinidad": 20,
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
-  },
-  {
-   "id": "devpost:28603",
-   "titulo": "MCA 2026 projects",
-   "tipo": "hackathon",
-   "inicio": "2026-02-27T00:00-05:00",
-   "fin": "2026-12-25T23:59-05:00",
-   "cierre": "2026-12-25T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://mca-2026-projects.devpost.com/",
-   "inscripcion": "https://mca-2026-projects.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Mizzou Computing Association",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31397",
@@ -9417,217 +9777,39 @@
    "afinidad": 0,
    "puntaje": 19,
    "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
-  },
-  {
-   "id": "opportunitiesforyouth:-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children-",
-   "titulo": "UNICEF Club Registration 2026–2027: How to Start or Renew a UNICEF USA Club and Take Action for Children",
-   "tipo": "voluntariado",
-   "inicio": "2026-08-27T19:08-05:00",
-   "fin": "2026-08-27T19:08-05:00",
-   "cierre": "",
-   "publicado": "2026-08-27T19:08-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The UNICEF USA Club Registration for the 2026–2027 school year is now open for students and schools interested in taking action for children in the United States and around the world. The initiative provides an opportunity for students to establish or continue a UNICEF Club and participate in activi",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "no es una convocatoria (artículo o consejos)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 22,
-   "afinidad": 0,
-   "puntaje": 22,
-   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
-   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-12T23:59-05:00",
-   "fin": "2026-09-12T23:59-05:00",
-   "cierre": "2026-09-12T23:59-05:00",
-   "publicado": "2026-09-04T14:38-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
-   "gratis": false,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Tecnología e IA"
-   ],
-   "valor": 36,
-   "afinidad": 28,
-   "puntaje": 64,
-   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Voluntariado · Afín: Investigación"
-  },
-  {
-   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-08-20-fao-regular-volunteer-",
-   "titulo": "FAO Regular Volunteer Programme for Africa 2026: Applications Open for the United Nations Volunteer Opportunity",
-   "tipo": "voluntariado",
-   "inicio": "2026-08-26T23:59-05:00",
-   "fin": "2026-08-26T23:59-05:00",
-   "cierre": "2026-08-26T23:59-05:00",
-   "publicado": "2026-08-20T03:37-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The Food and Agriculture Organization of the United Nations (FAO) is inviting eligible applicants to submit expressions of interest for the FAO Regular Volunteer Programme for Africa (RAF) 2026. This international volunteer opportunity gives individuals an avenue to contribute their knowledge, exper",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Africa)",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Investigación y ciencia"
-   ],
-   "valor": 19,
-   "afinidad": 8,
-   "puntaje": 27,
-   "por_que": "Voluntariado · Afín: Investigación · Evento sin formato claro · Plazo claro"
-  },
-  {
-   "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
-   "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-04T23:59-05:00",
-   "fin": "2026-09-04T23:59-05:00",
-   "cierre": "2026-09-04T23:59-05:00",
-   "publicado": "2026-08-21T22:07-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The United Nations Development Programme (UNDP) is inviting applications for Agenda 2063 in Power Spaces – Cohort 3, a seven-week online learning and volunteer opportunity designed to help participants strengthen their leadership capacity and identify how they can contribute to achieving Agenda 2063",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (African)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
-   "titulo": "EvalYouth Asia 2026 Core Group: Call for Applications for Young and Emerging Evaluators",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-16T15:31-05:00",
-   "fin": "2026-09-16T15:31-05:00",
-   "cierre": "",
-   "publicado": "2026-09-16T15:31-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "EvalYouth Asia (EYA) has opened applications for its 2026 Core Group, inviting passionate young and emerging evaluators to take an active leadership role in strengthening evaluation practice, youth leadership, networking, and collaboration across the Asia-Pacific region. This is a volunteer leadersh",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Asia)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 21,
-   "afinidad": 0,
-   "puntaje": 21,
-   "por_que": "Networking · Voluntariado · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:rd-of-directors-2026-call-for-expressions-of-interest-and-nominations-",
-   "titulo": "Caribbean Biodiversity Fund Board of Directors 2026: Call for Expressions of Interest and Nominations",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-07T23:59-05:00",
-   "fin": "2026-09-07T23:59-05:00",
-   "cierre": "2026-09-07T23:59-05:00",
-   "publicado": "2026-08-29T08:49-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The Caribbean Biodiversity Fund (CBF) is inviting expressions of interest and nominations from suitably qualified individuals who may be considered for appointment to its Board of Directors. The opportunity provides individuals with an interest and experience in conservation, biodiversity protection",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Caribbean)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
   }
  ],
  "perfil": true,
  "recomendados": [
-  "luma:evt-sdiPKhxFMLobpJf",
   "luma:evt-ECtnfob42pfw7zA",
-  "wikicfp:201279",
-  "luma:evt-28gHozBdmAyHarL",
+  "luma:evt-qEvoBnGm8AvP98W",
   "pucp:bridging-process-science-and-global-monitoring-in-satellite-observations-of-clouds-and-storms-02092026163203",
   "pucp:ici-pucp-2026-el-rol-de-la-inteligencia-artificial-en-la-transformacion-academica-04092026174417",
   "devpost:31052",
-  "devpost:30790"
+  "devpost:30790",
+  "inst:per-sostenible-cumbre-per-sostenible-2026:2026-09-24",
+  "luma:evt-acUPJEw5CCK1RVr"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 1,
-  "CADE Ejecutivos (IPAE)": "falló: robots.txt no permite https://www.ipae.pe/cade-ejecutivos-2026/",
-  "CADE Universitario (IPAE)": "falló: robots.txt no permite https://www.ipae.pe/cade-universitario-2026/",
-  "IPAE — eventos": "falló: robots.txt no permite https://www.ipae.pe/eventos/",
-  "Expoalimentaria (ADEX)": 0,
-  "ADEX": 0,
   "PERUMIN": 1,
   "ESAN — eventos": 4,
-  "UNMSM": 0,
-  "Universidad Científica del Sur": 0,
-  "Universidad Ricardo Palma": 0,
   "PMI Lima": 2,
-  "Sociedad Nacional de Industrias": 0,
-  "GS1 Perú": 0,
-  "Cámara de Comercio de Lima": 0,
-  "AmCham Perú": 0,
-  "Colegio de Ingenieros del Perú": 0,
-  "CONFIEP": 0,
-  "ComexPerú": 0,
-  "Perú Sostenible": 0,
-  "CONCYTEC": 0,
-  "ProInnovate": 0,
-  "Kunan": 0,
-  "TECHO Perú": 0,
-  "Embajada de EE. UU. en el Perú": 0
+  "Sociedad Nacional de Industrias": 4,
+  "AmCham Perú": 2,
+  "ComexPerú": 0
  },
- "se_viene": [],
+ "se_viene": [
+  {
+   "nombre": "CADE Ejecutivos",
+   "organizador": "IPAE Acción Empresarial",
+   "url": "https://www.ipae.pe/",
+   "mes": 11,
+   "ciudad": "Urubamba, Cusco",
+   "texto": "2026: del 24/11 al 26/11",
+   "dato": "Foro empresarial más importante del país. 2026: 24–26 nov en Urubamba (Cusco)."
+  }
+ ],
  "por_confirmar": [
   {
    "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
@@ -9636,14 +9818,6 @@
    "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
    "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
    "fecha_mencionada": ""
-  },
-  {
-   "titulo": "LIMA ACOGERÁ CUMBRE DE AEROPUERTOS",
-   "url": "https://tnews.com.pe/lima-acogera-cumbre-de-aeropuertos/",
-   "medio": "tnews",
-   "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
-   "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
-   "fecha_mencionada": "2026-09-25T00:00-05:00"
   },
   {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
@@ -9662,43 +9836,19 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "NTT Data realizará Digital & AI Summit Lima 2026 el 28 de abril en Lima",
+   "url": "https://gestion.pe/economia/empresas/empresa-ntt-data-realizara-digital-ai-summit-lima-2026-el-28-de-abril-en-san-borja-lima-noticia/",
+   "medio": "gestion",
+   "publicado": "Wed, 15 Apr 2026 11:18:00 GMT",
+   "resumen": "La empresa NTT Data realizará el próximo martes 28 de abril el evento “Digital & AI Summit Lima 2026”, una jornada enfocada en analizar el impacto de la inteligencia artificial y la transformación ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
    "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
    "medio": "RPP",
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "FIL Lima 2026: Todo lo que debes saber sobre la última semana de la feria",
-   "url": "https://peru21.pe/cultura/fil-lima-2026-todo-lo-que-debes-saber-sobre-la-ultima-semana/",
-   "medio": "Peru21",
-   "publicado": "Sun, 02 Aug 2026 01:01:00 GMT",
-   "resumen": "Para el lunes 3, una de las presentaciones más destacadas será la de Los ojos del cielo, de Luis Fernando Cueto, ganador del Premio Novela Corta Julio Ramón Ribeyro 2026. Tendrá la participación del ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Oxapampa llega a Lima: café, cacao, quesos y miel de calidad premium en feria de Alameda 28 de Julio",
-   "url": "https://larepublica.pe/sociedad/2026/09/10/oxapampa-llega-a-lima-cafe-cacao-quesos-y-miel-de-calidad-premium-en-feria-de-alameda-28-de-julio-230110",
-   "medio": "La República",
-   "publicado": "Thu, 10 Sep 2026 10:53:00 GMT",
-   "resumen": "Cerca de 50 emprendedores de los ocho distritos de la provincia participarán en una feria del 10 al 13 de septiembre. También habrá degustaciones, actividades culturales y promoción turística.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Expomina Perú 2026: Lima será epicentro de la minería mundial en setiembre",
-   "url": "https://www.expreso.com.pe/actualidad/expomina-peru-2026-lima-sera-epicentro-de-la-mineria-mundial-en-setiembre-noticia/1310398/",
-   "medio": "Expreso Interactivo",
-   "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
-   "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Minem declaró de interés su participación en la feria Expomina Perú 2026",
-   "url": "https://andina.pe/agencia/noticia-minem-declaro-interes-su-participacion-la-feria-expomina-peru-2026-1089120.aspx",
-   "medio": "Agencia Peruana de Noticias | ANDINA",
-   "publicado": "Tue, 25 Aug 2026 16:59:00 GMT",
-   "resumen": "El Ministerio de Energía y Minas (Minem) declaró de interés su participación en el X Seminario Internacional de Equipos, Suministros, Servicios y Maquinaria Minera (Expomina Perú) 2026, reconocimiento ...",
    "fecha_mencionada": ""
   }
  ],
@@ -9729,6 +9879,24 @@
   },
   "PERUMIN 38 Convención Minera": {
    "2027": "2027-09-20"
+  },
+  "Webinar: Microempresa: Conoce como puedes subsanar tu primera infracción – Ley 32335": {
+   "2026": "2026-09-29"
+  },
+  "Webinar: Gestión integral de sustancias químicas en el sector industria manufacturera": {
+   "2026": "2026-09-29"
+  },
+  "Webinar: Energía como ventaja competitiva: ¿Cómo reducir el Opex energético de una industria?": {
+   "2026": "2026-09-30"
+  },
+  "Webinar: Tributos municipales sin sorpresas: calcula, verifica y optimiza con herramientas digitales": {
+   "2026": "2026-09-30"
+  },
+  "Ciclo Sunafil: cumplimiento, bienestar y sostenibilidad": {
+   "2026": "2026-10-13"
+  },
+  "Sustainability Immersion Trip: Moving from Concept to Strategy": {
+   "2026": "2026-11-23"
   }
  },
  "primera_vez": {
@@ -9833,7 +10001,6 @@
   "devpost:31095": "2026-09-26T08:43-05:00",
   "devpost:31399": "2026-09-26T08:43-05:00",
   "devpost:31493": "2026-09-26T08:43-05:00",
-  "opportunitydesk:ment-council-gyldc-administrative-assistant-to-the-executive-director-": "2026-09-26T08:43-05:00",
   "devpost:29969": "2026-09-26T08:43-05:00",
   "devpost:30408": "2026-09-26T08:43-05:00",
   "devpost:29359": "2026-09-26T08:43-05:00",
@@ -9898,13 +10065,11 @@
   "wikicfp:202890": "2026-09-26T08:43-05:00",
   "wikicfp:192921": "2026-09-26T08:43-05:00",
   "inst:per-sostenible-cumbre-per-sostenible-2026:2026-09-24": "2026-09-26T09:22-05:00",
-  "luma:evt-0tMW9dRUSZANHz4": "2026-09-26T09:22-05:00",
   "luma:evt-Ao6nwdIiUY3OAHY": "2026-09-26T09:22-05:00",
   "pucp:sonqo-un-solo-corazon-con-dios-08092026113650": "2026-09-26T09:22-05:00",
   "luma:evt-sOtWCdNCwGR2WYq": "2026-09-26T09:22-05:00",
   "pucp:ici-pucp-2026-presentacion-de-libro-el-volumen-en-bruto-04092026163552": "2026-09-26T09:22-05:00",
   "pucp:te-invitamos-al-recital-sikuris-cemduc-2026-21092026122327": "2026-09-26T09:22-05:00",
-  "inst:universidad-esan-conferencia-informativa-maestr-a-en-gesti-n:2026-09-30": "2026-09-26T09:22-05:00",
   "eb:1998657030982": "2026-09-26T09:22-05:00",
   "luma:evt-Zk8uFAL691bY7no": "2026-09-26T09:22-05:00",
   "pucp:taller-preparacion-efectiva-para-parciales": "2026-09-26T09:22-05:00",
@@ -9923,7 +10088,6 @@
   "luma:evt-dMSbo4mZMEawoze": "2026-09-26T09:22-05:00",
   "meetup:315593593": "2026-09-26T09:22-05:00",
   "luma:evt-ZRgPbm1zdAAMWcA": "2026-09-26T09:22-05:00",
-  "inst:universidad-esan-ebl-conferencia-informativa-diploma-de-espe:2026-10-20": "2026-09-26T09:22-05:00",
   "pucp:go-arb-lima-2026-28082026110320": "2026-09-26T09:22-05:00",
   "pucp:mi-rol-de-mama-o-papa-y-estudiante-pucp-2026-2": "2026-09-26T09:22-05:00",
   "pucp:la-produccion-de-conocimiento-en-america-latina-debates-y-desafios-contemporaneos-22092026111852": "2026-09-26T09:22-05:00",
@@ -9940,8 +10104,13 @@
   "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16": "2026-09-26T09:22-05:00",
   "pucp:summit-alumni-pucp-2026-07082026154947": "2026-09-26T09:22-05:00",
   "inst:pmi-lima-per-chapter-think-digital-day-7ma-edici-n:2026-09-25": "2026-09-26T09:26-05:00",
-  "inst:universidad-esan-conferencia-informativa-diploma-de-especial:2026-09-29": "2026-09-26T09:26-05:00",
-  "inst:universidad-esan-ebl-conferencia-informativa-programa-de-alt:2026-10-27": "2026-09-26T09:26-05:00",
-  "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-09-26T09:26-05:00"
+  "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-09-26T09:26-05:00",
+  "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29": "2026-09-26T10:21-05:00",
+  "inst:sni-webinar-gesti-n-integral-de-sustancias-qu-micas-en-el-se:2026-09-29": "2026-09-26T10:21-05:00",
+  "inst:sni-webinar-energ-a-como-ventaja-competitiva-c-mo-reducir-el:2026-09-30": "2026-09-26T10:21-05:00",
+  "inst:sni-webinar-tributos-municipales-sin-sorpresas-calcula-verif:2026-09-30": "2026-09-26T10:21-05:00",
+  "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13": "2026-09-26T10:21-05:00",
+  "luma:evt-VdivoEb6CyTNEOJ": "2026-09-26T10:21-05:00",
+  "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-26T10:21-05:00"
  }
 }

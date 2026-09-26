@@ -16,8 +16,10 @@ Solo biblioteca estándar: la GitHub Action no necesita dependencias nuevas.
 import html
 import json
 import re
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 LIMA = timezone(timedelta(hours=-5))
 MESES = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10,
@@ -148,10 +150,61 @@ CONTENT = "{http://purl.org/rss/1.0/modules/content/}encoded"
 MEDIA = "{http://search.yahoo.com/mrss/}content"
 
 
+CACHE = Path(__file__).resolve().parent / "cache"   # versionada: la Action la guarda junto a eventos.json
+DIAS_CACHE = 14
+CACHE_USADO = {}  # url → fecha de la copia usada en esta corrida (la página lo muestra en "fuentes")
+ESPERAS = (10, 30)  # segundos entre reintentos si el sitio responde 429 (Too Many Requests)
+
+
+def _cache_de(url):
+    return CACHE / (re.sub(r"[^a-z0-9]+", "_", url.lower()).strip("_")[-90:] + ".xml")
+
+
+def _fechas_cache(guardar=None):
+    ruta = CACHE / "fechas.json"
+    try:
+        fechas = json.loads(ruta.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        fechas = {}
+    if guardar:
+        fechas.update(guardar)
+        ruta.write_text(json.dumps(fechas, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    return fechas
+
+
+def descargar(url, get, esperas=ESPERAS, dormir=time.sleep):
+    """Contenido de `url`. Ante 429 reintenta con espera (respeta Retry-After, máx. 60 s). Si igual falla, usa la
+    última respuesta buena guardada en cache/ (≤ DIAS_CACHE días) para no perder la fuente."""
+    ultimo = None
+    for i in range(len(esperas) + 1):
+        try:
+            r = get(url, timeout=25)
+            if r.status_code == 429 and i < len(esperas):
+                espera = r.headers.get("Retry-After", "")
+                dormir(min(60, int(espera)) if espera.isdigit() else esperas[i])
+                continue
+            r.raise_for_status()
+            CACHE.mkdir(exist_ok=True)
+            _cache_de(url).write_bytes(r.content)
+            _fechas_cache(guardar={_cache_de(url).name: datetime.now(LIMA).isoformat(timespec="minutes")})
+            CACHE_USADO.pop(url, None)
+            return r.content
+        except PermissionError:
+            raise  # robots.txt lo prohíbe: no se usa ni la copia
+        except Exception as e:  # 429 final, timeout, 5xx…
+            ultimo = e
+            break
+    copia = _cache_de(url)
+    # la fecha real de la descarga (en GitHub la del archivo es la del checkout, no sirve)
+    fecha = _fechas_cache().get(copia.name)
+    if copia.exists() and fecha and datetime.now(LIMA) - datetime.fromisoformat(fecha) <= timedelta(days=DIAS_CACHE):
+        CACHE_USADO[url] = fecha
+        return copia.read_bytes()
+    raise ultimo or RuntimeError(f"sin respuesta de {url}")
+
+
 def _rss(url, get):
-    r = get(url, timeout=25)
-    r.raise_for_status()
-    raiz = ET.fromstring(r.content)
+    raiz = ET.fromstring(descargar(url, get))
     for it in raiz.iter("item"):
         media = it.find(MEDIA)
         encl = it.find("enclosure")

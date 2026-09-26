@@ -165,5 +165,162 @@ class SinPerfil(unittest.TestCase):
                 eventos.FUENTES, eventos.enriquecer, eventos.DATOS, eventos.CARPETA, eventos.PAGINA = viejo
 
 
+# ---------------------------------------------------------------- ajustes 2026-09-26
+class Respuesta:
+    def __init__(self, status, contenido=b"", headers=None):
+        self.status_code, self.content, self.headers = status, contenido, headers or {}
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise RuntimeError(f"{self.status_code} Client Error")
+
+
+class FuentesInstitucionales(unittest.TestCase):
+    def test_json_ld_con_comas_sobrantes_y_fecha_rota(self):
+        # Así lo publica SNI (plugin EventON): JSON inválido y hora con guiones.
+        html = '''<script type="application/ld+json">{ "@context": "http://schema.org", "@type": "Event",
+          "name": "Webinar: Microempresa", "startDate": "2026-9-29T11-11-00-00", "endDate": "2026-9-29T23-23-50-00",
+          "description":"", }</script>''' * 2  # repetido: se deduplica
+        f = {"nombre": "SNI", "organizador": "SNI", "url": "https://sni.org.pe/eventos/", "modo": "agenda",
+             "tipo_org": "gremio", "escala": "media", "ciudad": "Lima"}
+        ahora = datetime(2026, 9, 26, tzinfo=LIMA)
+        out = institucionales.extraer(f, html, ahora, ahora + timedelta(days=90))
+        self.assertEqual([(e["titulo"], e["inicio"][:16]) for e in out], [("Webinar: Microempresa", "2026-09-29T11:11")])
+
+    def test_modo_sitemap_lee_las_paginas_recientes(self):
+        sm = b"""<urlset><url><loc>https://amcham.org.pe/evento/foro-comercio/</loc><lastmod>2026-09-24T09:45:28-05:00</lastmod></url>
+                 <url><loc>https://amcham.org.pe/evento/viejo/</loc><lastmod>2024-01-10T09:00:00-05:00</lastmod></url>
+                 <url><loc>https://amcham.org.pe/otra-cosa/</loc><lastmod>2026-09-25T09:00:00-05:00</lastmod></url></urlset>"""
+        f = {"nombre": "AmCham", "organizador": "AmCham", "url": "https://amcham.org.pe/", "modo": "sitemap",
+             "sitemap": "https://amcham.org.pe/sm.xml", "patron": "/evento/", "dias_modificado": 150,
+             "tipo_org": "gremio", "escala": "media", "ciudad": "Lima"}
+        ahora = datetime(2026, 9, 26, tzinfo=LIMA)
+        urls = institucionales._paginas_sitemap(f, lambda u, **k: Respuesta(200, sm), ahora)
+        self.assertEqual(urls, ["https://amcham.org.pe/evento/foro-comercio/"])
+        html = "<title>Foro El Futuro del Comercio – AmCham Perú</title><p>Jueves 15 de octubre</p><p>Hotel Westin, Lima</p>"
+        e = institucionales._evento_de_pagina(f, urls[0], html, ahora, ahora + timedelta(days=365))
+        self.assertEqual((e["titulo"], e["inicio"][:10]), ("Foro El Futuro del Comercio", "2026-10-15"))
+
+    def test_lista_de_vigilancia_sin_ipae_y_descartadas_con_nota(self):
+        conf = json.loads((RAIZ / "institucionales.json").read_text(encoding="utf-8"))
+        self.assertFalse([f for f in conf["fuentes"] if "ipae.pe" in f["url"]])  # CADE sale de recurrentes.json
+        self.assertTrue(all(d.get("nota") for d in conf["descartadas"]))
+
+
+class SeViene(unittest.TestCase):
+    def setUp(self):
+        self.ruta = RAIZ / "recurrentes.json"
+
+    def test_cade_ejecutivos_aparece_dos_meses_antes(self):
+        sv = institucionales.se_viene(self.ruta, [], hoy=datetime(2026, 9, 26, tzinfo=LIMA))
+        cade = [x for x in sv if x["nombre"] == "CADE Ejecutivos"]
+        self.assertEqual(len(cade), 1)
+        self.assertIn("24/11", cade[0]["texto"])
+        self.assertIn("Urubamba", cade[0]["ciudad"])
+
+    def test_no_aparece_si_ya_esta_en_la_lista_o_ya_paso(self):
+        hoy = datetime(2026, 9, 26, tzinfo=LIMA)
+        self.assertFalse([x for x in institucionales.se_viene(self.ruta, [ev("CADE Ejecutivos 2026")], hoy=hoy)
+                          if x["nombre"] == "CADE Ejecutivos"])
+        diciembre = institucionales.se_viene(self.ruta, [], hoy=datetime(2026, 12, 10, tzinfo=LIMA))
+        self.assertFalse([x for x in diciembre if x["nombre"] == "CADE Ejecutivos"])
+
+    def test_bienal_solo_en_su_anio(self):
+        nombres = lambda hoy: [x["nombre"] for x in institucionales.se_viene(self.ruta, [], hoy=hoy)]
+        self.assertNotIn("PERUMIN Convención Minera", nombres(datetime(2026, 8, 1, tzinfo=LIMA)))
+        self.assertIn("PERUMIN Convención Minera", nombres(datetime(2027, 8, 1, tzinfo=LIMA)))
+
+    def test_recurrentes_verificados(self):
+        conf = json.loads(self.ruta.read_text(encoding="utf-8"))
+        nombres = {r["nombre"] for r in conf["eventos"]}
+        self.assertTrue({"CADE Ejecutivos", "CADE Universitario", "Cumbre Perú Sostenible", "Expoalimentaria"} <= nombres)
+        self.assertTrue(all(r.get("fuentes") for r in conf["eventos"]))  # cada dato con su fuente pública
+
+
+class RecomendadosObligatorios(unittest.TestCase):
+    def test_institucional_grande_gratis_en_lima_en_7_dias_entra_siempre(self):
+        ahora = datetime(2026, 9, 22, 12, 0, tzinfo=LIMA)
+        cumbre = ev("Cumbre Perú Sostenible 2026", fuente="Institucional", institucional=True, escala="grande",
+                    gratis=True, inicio="2026-09-24T00:00-05:00", fin="2026-09-26T23:59-05:00", puntaje=55)
+        otros = [ev(f"Taller afín {i}", fuente=f"F{i}", inicio="2026-09-24T18:00-05:00", puntaje=90 - i)
+                 for i in range(10)]
+        self.assertIn(cumbre["id"], puntaje.recomendados(otros + [cumbre], ahora))
+        lejos = dict(cumbre, id="lejos", inicio="2026-10-10T00:00-05:00", fin="2026-10-12T23:59-05:00")
+        self.assertNotIn("lejos", puntaje.recomendados(otros + [lejos], ahora))  # a >7 días compite normal
+
+
+class FalsosPositivos(unittest.TestCase):
+    def setUp(self):
+        self.perfil = puntaje.cargar_perfil(RAIZ / "perfil.json")
+
+    def afin_supply(self, titulo, desc=""):
+        _, razones = puntaje.afinidad(ev(titulo, descripcion=desc), self.perfil)
+        return any("Supply chain" in r for r, _ in razones)
+
+    def test_operaciones_solo_cuenta_con_contexto_logistico(self):
+        self.assertFalse(self.afin_supply("Future Banking Experience 2026", "Nuevas operaciones bancarias y pagos."))
+        self.assertFalse(self.afin_supply("NextGen Agents", "Agents that automate business operations."))
+        self.assertTrue(self.afin_supply("Operaciones de almacén", "Gestión de inventario y logística."))
+        self.assertTrue(self.afin_supply("Taller de supply chain"))
+
+    def test_conferencia_informativa_va_al_archivo_como_admision(self):
+        lista, archivo = self._pipeline([ev("Conferencia Informativa: Maestría en Gestión de la Energía",
+                                           fuente="Institucional", institucional=True)])
+        self.assertEqual(lista, [])
+        self.assertEqual(archivo[0]["tipo"], "admisión")
+        self.assertTrue(archivo[0]["motivo"].startswith("admisión"))
+        self.assertFalse(archivo[0]["institucional"])
+
+    def test_webinar_en_el_titulo_es_virtual(self):
+        lista, _ = self._pipeline([ev("Webinar: ISO 21001:2025, claves para una gestión educativa sostenible",
+                                     fuente="PUCP", descripcion="Seminario gratuito de gestión de la calidad.")])
+        self.assertEqual(lista[0]["modalidad"], "Virtual")
+
+    def _pipeline(self, crudos):
+        ahora = datetime.now(LIMA)
+        for c in crudos:
+            c["inicio"] = c["inicio"] or (ahora + timedelta(days=3)).isoformat(timespec="minutes")
+            c["fin"] = c["fin"] or c["inicio"]
+        viejo = (eventos.FUENTES, eventos.enriquecer)
+        try:
+            eventos.FUENTES = {"Prueba": lambda lim: [dict(x) for x in crudos]}
+            eventos.enriquecer = lambda e: e
+            lista, archivo, _, _ = eventos.recolectar(60, None)
+            return lista, archivo
+        finally:
+            eventos.FUENTES, eventos.enriquecer = viejo
+
+
+class ReintentoYCache(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.viejo = fuentes_extra.CACHE
+        fuentes_extra.CACHE = Path(self.tmp.name)
+        fuentes_extra.CACHE_USADO.clear()
+        self.url = "https://opportunitiesforyouth.org/category/volunteering/feed/"
+
+    def tearDown(self):
+        fuentes_extra.CACHE = self.viejo
+        fuentes_extra.CACHE_USADO.clear()
+        self.tmp.cleanup()
+
+    def test_429_reintenta_con_espera_y_luego_responde(self):
+        respuestas, esperas = [Respuesta(429, headers={"Retry-After": "7"}), Respuesta(200, b"<rss/>")], []
+        out = fuentes_extra.descargar(self.url, lambda u, **k: respuestas.pop(0), dormir=esperas.append)
+        self.assertEqual(out, b"<rss/>")
+        self.assertEqual(esperas, [7])  # respeta Retry-After
+        self.assertTrue(fuentes_extra._cache_de(self.url).exists())  # guarda la respuesta buena
+
+    def test_429_persistente_usa_la_ultima_respuesta_buena(self):
+        fuentes_extra.descargar(self.url, lambda u, **k: Respuesta(200, b"<rss>bueno</rss>"), dormir=lambda s: None)
+        out = fuentes_extra.descargar(self.url, lambda u, **k: Respuesta(429), dormir=lambda s: None)
+        self.assertEqual(out, b"<rss>bueno</rss>")
+        self.assertIn(self.url, fuentes_extra.CACHE_USADO)
+
+    def test_sin_cache_el_error_se_reporta(self):
+        with self.assertRaises(RuntimeError):
+            fuentes_extra.descargar(self.url, lambda u, **k: Respuesta(429), dormir=lambda s: None)
+
+
 if __name__ == "__main__":
     unittest.main()
