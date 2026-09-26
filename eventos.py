@@ -16,6 +16,7 @@ Uso:
   python eventos.py --abrir      además la abre en el navegador
   python eventos.py --dias 90    horizonte (def. 60 días)
   python eventos.py --solo-html  regenera la página con el JSON existente
+  python eventos.py --puente-eventbrite  (PC de JP) solo Eventbrite -> eventbrite.json
 """
 import argparse
 from concurrent.futures import ThreadPoolExecutor
@@ -230,7 +231,26 @@ def _server_data(t):
     return json.JSONDecoder().raw_decode(t[t.find("{", i):])[0]
 
 
+PUENTE_EB = RAIZ / "eventbrite.json"  # lo sube la PC de JP (Eventbrite bloquea IPs de GitHub con 405)
+
+
 def eventbrite(limite):
+    """En vivo; si Eventbrite bloquea (GitHub), usa lo último que subió la PC de JP (<48 h)."""
+    try:
+        return eventbrite_vivo(limite)
+    except Exception as e:
+        try:
+            p = json.loads(PUENTE_EB.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            raise e
+        edad = datetime.now(LIMA) - datetime.fromisoformat(p["actualizado"])
+        if edad > timedelta(hours=48) or not p.get("eventos"):
+            raise RuntimeError(f"{e} · puente de la PC viejo ({edad.total_seconds() / 3600:.0f} h)")
+        print(f"[radar] Eventbrite vía puente de la PC ({edad.total_seconds() / 3600:.1f} h)")
+        return p["eventos"]
+
+
+def eventbrite_vivo(limite):
     rutas = ["science-and-tech--events", "all-events", "conferencia", "taller",
              "seminario", "free--events", "events--next-month", "hackathon", "networking"]
     out, diag = {}, set()
@@ -627,7 +647,14 @@ def main():
     ap.add_argument("--dias", type=int, default=60)
     ap.add_argument("--abrir", action="store_true")
     ap.add_argument("--solo-html", action="store_true")
+    ap.add_argument("--puente-eventbrite", action="store_true")
     a = ap.parse_args()
+    if a.puente_eventbrite:
+        lote = eventbrite_vivo(datetime.now(LIMA) + timedelta(days=a.dias))
+        PUENTE_EB.write_text(json.dumps({"actualizado": datetime.now(LIMA).isoformat(timespec="minutes"),
+                                         "eventos": lote}, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"[radar] puente Eventbrite: {len(lote)} eventos -> {PUENTE_EB.name}")
+        return
     if a.solo_html:
         datos = json.loads(DATOS.read_text(encoding="utf-8"))
     else:
