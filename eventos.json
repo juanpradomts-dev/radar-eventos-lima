@@ -1,14 +1,13 @@
 {
- "actualizado": "2026-09-26T01:59-05:00",
+ "actualizado": "2026-09-26T02:02-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
    "n": 68
   },
   "Eventbrite": {
-   "ok": false,
-   "n": 0,
-   "error": "0 resultados: 405/2KB/sin-sd"
+   "ok": true,
+   "n": 43
   },
   "Meetup": {
    "ok": true,
@@ -23,8 +22,30 @@
    "n": 0
   }
  },
- "revisados": 126,
+ "revisados": 169,
  "eventos": [
+  {
+   "id": "eb:1997093130313",
+   "titulo": "KUBEFEST #02",
+   "inicio": "2026-09-26T09:00-05:00",
+   "fin": "2026-09-26T13:00-05:00",
+   "lugar": "UNIVERSIDAD ESAN, 1652 Jirón Alonso de Molina",
+   "distrito": "Santiago de Surco",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "TECNOLOGÍAS CLOUD NATIVE QUE ESTÁN TRANSFORMANDO EL MUNDO",
+   "gratis": null,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190517074%2F442849417140%2F1%2Foriginal.20260807-030549?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=72ccbfa807e376196a830459ae26e5ab",
+   "inscripcion": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "puntaje": 0,
+   "visto_desde": "2026-09-24T21:06-05:00"
+  },
   {
    "id": "meetup:316699296",
    "titulo": "Fabric User Group Lima Perú– Kickoff 2026",
@@ -48,28 +69,6 @@
     "Investigación y ciencia"
    ],
    "puntaje": 8,
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "eb:1997093130313",
-   "titulo": "KUBEFEST #02",
-   "inicio": "2026-09-26T09:00-05:00",
-   "fin": "2026-09-26T13:00-05:00",
-   "lugar": "UNIVERSIDAD ESAN, 1652 Jirón Alonso de Molina",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "TECNOLOGÍAS CLOUD NATIVE QUE ESTÁN TRANSFORMANDO EL MUNDO",
-   "gratis": null,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190517074%2F442849417140%2F1%2Foriginal.20260807-030549?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=72ccbfa807e376196a830459ae26e5ab",
-   "inscripcion": "https://www.eventbrite.co/e/kubefest-02-tickets-1997093130313",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "puntaje": 0,
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
@@ -731,7 +730,7 @@
    "organizador": "",
    "descripcion": "",
    "gratis": null,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192328906%2F3012475766147%2F1%2Foriginal.20260901-010024?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7bed9b2234515374328275250f8b90dd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192328906%2F3012475766147%2F1%2Foriginal.20260901-010024?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=950f81d05fae2372d21f8c9ed7520294",
    "inscripcion": "https://www.eventbrite.com/e/aws-community-day-peru-2026-tickets-1999328032967",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
@@ -1394,7 +1393,7 @@
    "organizador": "",
    "descripcion": "¡Impulsa tu futuro profesional con una maestría en Derecho o Negocios en Estados Unidos!",
    "gratis": null,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188626220%2F229423681153%2F1%2Foriginal.20260710-173651?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=050e51a9a3d8c1425ef8090c0ed82295",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188626220%2F229423681153%2F1%2Foriginal.20260710-173651?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2fb95d0179ef2403d511731527997281",
    "inscripcion": "https://www.eventbrite.co/e/feria-educationusa-llm-mba-2026-lima-tickets-1993705212961",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
@@ -1416,7 +1415,7 @@
    "organizador": "",
    "descripcion": "Meet top MBA schools in Zurich and get personalized admissions, career, networking, and funding guidance—all in one afternoon.",
    "gratis": null,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191936685%2F185222602399%2F1%2Foriginal.20260826-120315?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.593&s=feaffaa76e797dacce6409405b984c8f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191936685%2F185222602399%2F1%2Foriginal.20260826-120315?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.593&s=eda720bd2f73617d987399ec864a3701",
    "inscripcion": "https://www.eventbrite.co.uk/e/explore-global-mba-opportunities-access-mba-lima-tickets-1998953963114",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
@@ -1484,7 +1483,7 @@
    "gratis": null,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191938474%2F185222602399%2F1%2Foriginal.20260826-123707?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.023&fp-y=0.55&s=877755a2a5f027ff0abc7ef65f920fb5",
    "inscripcion": "https://www.eventbrite.co.uk/e/discover-the-right-masters-for-your-career-at-access-masters-lima-event-tickets-1998955190786",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/events--next-month/",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/hackathon/",
    "categorias": [
     "Habilidades y liderazgo"
    ],
@@ -1536,28 +1535,6 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
-   "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
-   "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS",
-   "inicio": "2026-10-21T09:00-05:00",
-   "fin": "2026-10-23T21:00-05:00",
-   "lugar": "Facultad de Arquitectura y Urbanismo (Pabellón T)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Arquitectura PUCP y Arquitectura UC presentan el Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS, que se proyecta como una plataforma académica desde el Sur Global, orientada a compartir experiencias y desafíos en la enseñanza y aprendizaje en arquitectura y urbanismo. El Congreso se realizará del 21 al 23 de octubre de 2026 en el Campus PUCP en Lima, Perú.\nDurante estos tres días, se desarrollarán conferencias magistrales, presentaciones de ponencias y afiches, mesas de discusión, y acciones pedagógicas. A través de estos espacios de conversación ampliada se busca mirar hacia el futuro con la elaboración de un manifiesto conjunto y una publicac",
-   "gratis": false,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Plantillas_Thumbs_aca0d9475a.png",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=048&i=353",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "puntaje": 6,
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
    "id": "eb:1976583565653",
    "titulo": "Certificación para Equipos y Grupos con LEGO® SERIOUS PLAY® Lima",
    "inicio": "2026-10-21T09:00-05:00",
@@ -1578,6 +1555,28 @@
    ],
    "puntaje": 0,
    "visto_desde": "2026-09-24T21:23-05:00"
+  },
+  {
+   "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
+   "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS",
+   "inicio": "2026-10-21T09:00-05:00",
+   "fin": "2026-10-23T21:00-05:00",
+   "lugar": "Facultad de Arquitectura y Urbanismo (Pabellón T)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Arquitectura PUCP y Arquitectura UC presentan el Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS, que se proyecta como una plataforma académica desde el Sur Global, orientada a compartir experiencias y desafíos en la enseñanza y aprendizaje en arquitectura y urbanismo. El Congreso se realizará del 21 al 23 de octubre de 2026 en el Campus PUCP en Lima, Perú.\nDurante estos tres días, se desarrollarán conferencias magistrales, presentaciones de ponencias y afiches, mesas de discusión, y acciones pedagógicas. A través de estos espacios de conversación ampliada se busca mirar hacia el futuro con la elaboración de un manifiesto conjunto y una publicac",
+   "gratis": false,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Plantillas_Thumbs_aca0d9475a.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=048&i=353",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "puntaje": 6,
+   "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
    "id": "pucp:seminario-de-matematica-una-introduccion-a-las-foliaciones-lineales-en-toros-reales-y-complejos-25092026060119",
