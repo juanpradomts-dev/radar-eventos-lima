@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-25T18:45-05:00",
+ "actualizado": "2026-09-25T22:05-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 70
+   "n": 68
   },
   "Eventbrite": {
    "ok": false,
@@ -12,7 +12,7 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 16
+   "n": 15
   },
   "PUCP": {
    "ok": true,
@@ -23,97 +23,8 @@
    "n": 0
   }
  },
- "revisados": 129,
+ "revisados": 126,
  "eventos": [
-  {
-   "id": "luma:evt-m7VmnNKFBBERFF7",
-   "titulo": "Build with Claude Lima pt.2",
-   "inicio": "2026-09-25T14:00-05:00",
-   "fin": "2026-09-25T20:00-05:00",
-   "lugar": "Av. Túpac Amaru 210, Rímac",
-   "distrito": "Rímac",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/s2wr8stn",
-   "fuente": "Luma",
-   "organizador": "IA Labs Sessions",
-   "descripcion": "Únete a la comunidad\n👉 Ingresa al grupo de WhatsApp\nBuild with Claude Lima - Edición 2\nLa comunidad vuelve a encontrarse para una nueva edición de Build with Claude Lima: un espacio para aprender, construir y conectar alrededor de Claude y la inteligencia artificial.\nMás que un evento, queremos seguir construyendo una comunidad de personas que aprenden haciendo y comparten lo que construyen.\nAgenda\n2:00 – 2:15 PM👋 Bienvenida a Build with Claude Lima\n2:15 – 2:55 PM🎤 Charla 1: El modelo que sospecha, el flujo que no necesita que confíes\n2:55 – 3:35 PM🎤 Charla 2: De $9 a $200: El precio real de un Claude que funciona\n3:35 – 4:15 PM🎤 Charla 3: Automatiza tu onboarding con IA (Claude)\n4:15 – 4:45",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/3r/f7becea1-554a-4456-9f44-7c9f7884e90d.jpg",
-   "inscripcion": "https://lu.ma/s2wr8stn",
-   "fuente_url": "https://lu.ma/lima",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "puntaje": 5,
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "luma:evt-EsTLj2WutCj8Aeq",
-   "titulo": "Hablemos de Red Team",
-   "inicio": "2026-09-25T16:30-05:00",
-   "fin": "2026-09-25T19:00-05:00",
-   "lugar": "Jr. Medrano Silva 165, Barranco",
-   "distrito": "Barranco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/jd40wkzp",
-   "fuente": "Luma",
-   "organizador": "CSH, Diego Godoy",
-   "descripcion": "Hablemos de Red Team es una charla organizada por CSH UTEC en colaboración con Equifax, con José Ureña Gutierrez, Red Team Operator en Equifax y speaker en DEFCON.\nSobre el ponente:\nRed Team Operator en Equifax\n\nLíder Técnico en el Equipo de Vulnerabilidades, Equifax\n\nLíder Técnico del equipo HackerOne, Equifax\n\nConsultor de Soluciones Técnicas, HP\n\nDesarrollador de Seguridad en Deloitte\n\nIngeniero en Ciencias de la Computación e Informática, Universidad de Costa Rica\n\n📅 25 de septiembre, 5:00pm\n📍 UTEC – Concept Lab (L108)",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/ii/4b17fc03-7f82-488e-a6ad-e6ac11b3e742.png",
-   "inscripcion": "https://lu.ma/jd40wkzp",
-   "fuente_url": "https://lu.ma/lima",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "puntaje": 0,
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "luma:evt-Xx9u94VcrO2tDQY",
-   "titulo": "Meetup #8 (AI Dev Peru)",
-   "inicio": "2026-09-25T19:00-05:00",
-   "fin": "2026-09-25T21:30-05:00",
-   "lugar": "Av. Javier Prado Este 3190, San Borja",
-   "distrito": "San Borja",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/6osjnisy",
-   "fuente": "Luma",
-   "organizador": "AI Dev Peru",
-   "descripcion": "¡Bienvenidos al meetup 8 de la comunidad AI Dev Peru!\nSerá un espacio donde nos pondremos al día con las últimas novedades y aprenderemos nuevas formas de trabajar de la mano de la IA.\n🗓️ Agenda\n🎤 \"De la Ilusión del Vibe Coding al Rigor de los Contratos: Evolución de las Arquitecturas Agénticas y Spec-Driven Development\". Anthony Alarcon - Lider AI @ Valtx, Ricardo Alarcon Cardenas - Tech Lead @ Valtx\n🎤 \"Markdown como dependencias\". Guillermo Cava, Programmer @ Tighten\nRecomendaciones:\nAforo limitado (40 personas), entrada por orden de llegada.\n\nEl local no cuenta con estacionamiento, planifica tu viaje.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/h3/9ad6017d-7111-47f9-bc5b-0688191ec943.png",
-   "inscripcion": "https://lu.ma/6osjnisy",
-   "fuente_url": "https://lu.ma/lima",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "puntaje": 6,
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "meetup:316628931",
-   "titulo": "Cloud Night en la PUCP: IA, datos y comunidad",
-   "inicio": "2026-09-25T19:00-05:00",
-   "fin": "2026-09-25T22:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/awsperu/events/316628931/",
-   "fuente": "Meetup",
-   "organizador": "AWS User Group Peru",
-   "descripcion": "📅 Fecha: Viernes 25 de septiembre de 2026\n🕐 Hora: 7:00 p.m. a 10:00 p.m.\n📍 Lugar: Laboratorio V201, Pabellón V\nAv. Universitaria 1801, San Miguel, Lima\nPUCP (Ingeniería Informática)\n\n🎟️ Evento gratuito | Cupos limitados\n\n✨ Sobre este evento\nEste es un espacio de todos y para todos. No importa si recién estás empezando en la nube o si ya llevas años en producción; aquí venimos a aprender, compartir y crecer juntos. Tendremos charlas técnicas con speakers de la comunidad, networking para conocer a gente que está construyendo cosas en el Perú, sorteos y un coffee break al cierre para seguir la conversación con calma. Ven con preguntas, con ganas de compartir lo que sabes y trae a un amigo que q",
-   "gratis": true,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/awsperu/events/316628931/",
-   "fuente_url": "https://www.meetup.com/awsperu/events/ical/",
-   "categorias": [
-    "Tecnología e IA",
-    "Datos y analítica"
-   ],
-   "puntaje": 15,
-   "visto_desde": "2026-09-24T22:14-05:00"
-  },
   {
    "id": "meetup:316699296",
    "titulo": "Fabric User Group Lima Perú– Kickoff 2026",
@@ -1316,6 +1227,28 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
+   "id": "luma:evt-1zKu7TcMGNoYcWJ",
+   "titulo": "Conversatorio + Demo Day: Foodtech & Innovation",
+   "inicio": "2026-10-15T10:30-05:00",
+   "fin": "2026-10-15T12:30-05:00",
+   "lugar": "Miraflores, Perú",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/ktf9kqet",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Un espacio de encuentro para fundadores, inversionistas, operadores gastronómicos y apasionados de la innovación alimentaria. Nos reunimos en el marco de la Perú Tech Week para debatir sobre el futuro de la industria y conocer soluciones tecnológicas en vivo.\n📌 ¿Qué esperar del evento?\nConversatorio: Panel con referentes del sector analizando tendencias, retos y oportunidades en la digitalización para la gestión y mejora continua de modelos de negocio en la industria del Foodtech y la gastronomía.\n\nDemo Day: Presentación en vivo de soluciones tecnológicas e iniciativas innovadoras que están transformando la experiencia gastronómica y de consumo.\n\nNetworking: Conecta con líderes del ecosistem",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/k6/7520cb75-f5a5-4d4b-b74e-bc6d3b351aa1.png",
+   "inscripcion": "https://lu.ma/ktf9kqet",
+   "fuente_url": "https://lu.ma/lima",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "puntaje": 3,
+   "visto_desde": "2026-09-25T22:05-05:00"
+  },
+  {
    "id": "luma:evt-TzbnWaXhOAjDNYI",
    "titulo": "Retos y oportunidades de las stablecoins en la banca peruana",
    "inicio": "2026-10-15T17:00-05:00",
@@ -1916,9 +1849,6 @@
   }
  ],
  "primera_vez": {
-  "luma:evt-m7VmnNKFBBERFF7": "2026-09-24T21:06-05:00",
-  "luma:evt-EsTLj2WutCj8Aeq": "2026-09-24T21:06-05:00",
-  "luma:evt-Xx9u94VcrO2tDQY": "2026-09-24T21:06-05:00",
   "eb:1997093130313": "2026-09-24T21:06-05:00",
   "meetup:316699296": "2026-09-24T21:06-05:00",
   "luma:evt-fxunEJe0j4oVJ9h": "2026-09-24T21:06-05:00",
@@ -1987,7 +1917,6 @@
   "eb:1998955190786": "2026-09-24T21:23-05:00",
   "eb:1976583565653": "2026-09-24T21:23-05:00",
   "eb:1982108679417": "2026-09-24T21:23-05:00",
-  "meetup:316628931": "2026-09-24T22:14-05:00",
   "meetup:ppkhbvyjcnbwb": "2026-09-24T22:14-05:00",
   "meetup:ljgqztyjcnbgc": "2026-09-24T22:14-05:00",
   "meetup:315593613": "2026-09-24T22:14-05:00",
@@ -2000,6 +1929,7 @@
   "luma:evt-JwsF76ozgbSq1QP": "2026-09-25T18:45-05:00",
   "luma:evt-Baf4UVf5QoQEKyh": "2026-09-25T18:45-05:00",
   "pucp:visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727": "2026-09-25T18:45-05:00",
-  "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00"
+  "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
+  "luma:evt-1zKu7TcMGNoYcWJ": "2026-09-25T22:05-05:00"
  }
 }
