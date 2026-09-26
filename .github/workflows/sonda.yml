@@ -1,0 +1,8 @@
+name: sonda eventbrite
+on: workflow_dispatch
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests && python sonda_eb.py
