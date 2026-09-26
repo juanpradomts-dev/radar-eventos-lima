@@ -233,10 +233,11 @@ def _server_data(t):
 def eventbrite(limite):
     rutas = ["science-and-tech--events", "all-events", "conferencia", "taller",
              "seminario", "free--events", "events--next-month", "hackathon", "networking"]
-    out = {}
+    out, diag = {}, set()
     for ruta in rutas:
         for pagina in (1, 2, 3):
             r = get(f"https://www.eventbrite.com.pe/d/peru--lima/{ruta}/?page={pagina}", timeout=25)
+            diag.add(f"{r.status_code}/{len(r.text) // 1000}KB/{'sd' if '__SERVER_DATA__' in r.text else 'sin-sd'}")
             if not r.ok:
                 break
             res = (_server_data(r.text).get("search_data") or {}).get("events") or {}
@@ -266,8 +267,11 @@ def eventbrite(limite):
                     "fuente_url": f"https://www.eventbrite.com.pe/d/peru--lima/{ruta}/",
                 }
             pag = res.get("pagination") or {}
-            if len(lista) < 20 or pagina >= (pag.get("page_count") or 1):
+            # la página trae 19 aunque page_size sea 20: cortar por page_count, no por tamaño
+            if not lista or pagina >= (pag.get("page_count") or 1):
                 break
+    if not out:  # dejar rastro de qué devolvió Eventbrite (bloqueo, captcha, HTML nuevo)
+        raise RuntimeError("0 resultados: " + ", ".join(sorted(diag))[:140])
     return list(out.values())
 
 
