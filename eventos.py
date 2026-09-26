@@ -16,13 +16,13 @@ Uso:
   python eventos.py --abrir      además la abre en el navegador
   python eventos.py --dias 90    horizonte (def. 60 días)
   python eventos.py --solo-html  regenera la página con el JSON existente
-  python eventos.py --puente-eventbrite  (PC de JP) solo Eventbrite -> eventbrite.json
 """
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import html
 import json
 import re
+import secrets
 import unicodedata
 from threading import Lock
 from urllib import robotparser
@@ -224,43 +224,37 @@ def luma(limite):
     return out
 
 
-def _server_data(t):
-    i = t.find("__SERVER_DATA__")
-    if i < 0:
-        return {}
-    return json.JSONDecoder().raw_decode(t[t.find("{", i):])[0]
-
-
-PUENTE_EB = RAIZ / "eventbrite.json"  # lo sube la PC de JP (Eventbrite bloquea IPs de GitHub con 405)
+EB_API = "https://www.eventbrite.com.pe/api/v3/destination/search/"
+EB_LIMA = "890442199"  # place id que usa la web de Eventbrite para /d/peru--lima/
 
 
 def eventbrite(limite):
-    """En vivo; si Eventbrite bloquea (GitHub), usa lo último que subió la PC de JP (<48 h)."""
-    try:
-        return eventbrite_vivo(limite)
-    except Exception as e:
-        try:
-            p = json.loads(PUENTE_EB.read_text(encoding="utf-8"))
-        except (OSError, ValueError):
-            raise e
-        edad = datetime.now(LIMA) - datetime.fromisoformat(p["actualizado"])
-        if edad > timedelta(hours=48) or not p.get("eventos"):
-            raise RuntimeError(f"{e} · puente de la PC viejo ({edad.total_seconds() / 3600:.0f} h)")
-        print(f"[radar] Eventbrite vía puente de la PC ({edad.total_seconds() / 3600:.1f} h)")
-        return p["eventos"]
+    """API interna de búsqueda de Eventbrite (la que usa su propia web).
 
-
-def eventbrite_vivo(limite):
-    rutas = ["science-and-tech--events", "all-events", "conferencia", "taller",
-             "seminario", "free--events", "events--next-month", "hackathon", "networking"]
+    Las páginas /d/peru--lima/ devuelven 405 a las IPs de GitHub, pero esta API no:
+    solo pide el patrón CSRF de Django (cookie csrftoken == cabecera X-CSRFToken).
+    """
+    tok = secrets.token_hex(16)
+    cab = {**UA, "Content-Type": "application/json", "X-CSRFToken": tok,
+           "Referer": "https://www.eventbrite.com.pe/d/peru--lima/all-events/"}
+    if not permitido(EB_API):
+        raise PermissionError(f"robots.txt no permite {EB_API}")
+    busquedas = [{}, {"tags": ["EventbriteCategory/102"]}] + [
+        {"q": q} for q in ("conferencia", "taller", "seminario", "hackathon", "networking",
+                           "tecnologia", "datos", "ingenieria", "emprendimiento", "liderazgo")]
     out, diag = {}, set()
-    for ruta in rutas:
-        for pagina in (1, 2, 3):
-            r = get(f"https://www.eventbrite.com.pe/d/peru--lima/{ruta}/?page={pagina}", timeout=25)
-            diag.add(f"{r.status_code}/{len(r.text) // 1000}KB/{'sd' if '__SERVER_DATA__' in r.text else 'sin-sd'}")
+    for extra in busquedas:
+        for pagina in range(1, 6):
+            cuerpo = {"event_search": {"places": [EB_LIMA], "dates": "current_future", "dedup": True, "page": pagina,
+                                       "page_size": 50, **extra},
+                      "browse_surface": "search",  # sin esto la API ignora "q"
+                      "expand.destination_event": ["primary_venue", "image", "ticket_availability",
+                                                   "primary_organizer"]}
+            r = requests.post(EB_API, headers=cab, cookies={"csrftoken": tok}, data=json.dumps(cuerpo), timeout=25)
+            diag.add(str(r.status_code))
             if not r.ok:
                 break
-            res = (_server_data(r.text).get("search_data") or {}).get("events") or {}
+            res = r.json().get("events") or {}
             lista = res.get("results") or []
             for e in lista:
                 if e.get("is_cancelled"):
@@ -269,6 +263,7 @@ def eventbrite_vivo(limite):
                 fin = _parse(f"{e.get('end_date')}T{e.get('end_time') or '00:00'}")
                 v = e.get("primary_venue") or {}
                 a = v.get("address") or {}
+                t = e.get("ticket_availability") or {}
                 out[e.get("id")] = {
                     "id": "eb:" + str(e.get("id")),
                     "titulo": (e.get("name") or "").strip(),
@@ -278,20 +273,18 @@ def eventbrite_vivo(limite):
                     "modalidad": "Virtual" if e.get("is_online_event") else "Presencial",
                     "url": e.get("url", ""),
                     "fuente": "Eventbrite",
-                    "organizador": "",
+                    "organizador": (e.get("primary_organizer") or {}).get("name", "") or "",
                     "descripcion": e.get("summary") or "",
-                    "etiquetas": [t.get("display_name", "") for t in e.get("tags") or []],
-                    "gratis": None,
+                    "etiquetas": [x.get("display_name", "") for x in e.get("tags") or []],
+                    "gratis": t.get("is_free"),
                     "imagen": (e.get("image") or {}).get("url", ""),
                     "inscripcion": e.get("url", ""),
-                    "fuente_url": f"https://www.eventbrite.com.pe/d/peru--lima/{ruta}/",
+                    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
                 }
-            pag = res.get("pagination") or {}
-            # la página trae 19 aunque page_size sea 20: cortar por page_count, no por tamaño
-            if not lista or pagina >= (pag.get("page_count") or 1):
+            if not lista or pagina >= ((res.get("pagination") or {}).get("page_count") or 1):
                 break
-    if not out:  # dejar rastro de qué devolvió Eventbrite (bloqueo, captcha, HTML nuevo)
-        raise RuntimeError("0 resultados: " + ", ".join(sorted(diag))[:140])
+    if not out:
+        raise RuntimeError("0 resultados: HTTP " + ",".join(sorted(diag)))
     return list(out.values())
 
 
@@ -647,14 +640,7 @@ def main():
     ap.add_argument("--dias", type=int, default=60)
     ap.add_argument("--abrir", action="store_true")
     ap.add_argument("--solo-html", action="store_true")
-    ap.add_argument("--puente-eventbrite", action="store_true")
     a = ap.parse_args()
-    if a.puente_eventbrite:
-        lote = eventbrite_vivo(datetime.now(LIMA) + timedelta(days=a.dias))
-        PUENTE_EB.write_text(json.dumps({"actualizado": datetime.now(LIMA).isoformat(timespec="minutes"),
-                                         "eventos": lote}, ensure_ascii=False, indent=1), encoding="utf-8")
-        print(f"[radar] puente Eventbrite: {len(lote)} eventos -> {PUENTE_EB.name}")
-        return
     if a.solo_html:
         datos = json.loads(DATOS.read_text(encoding="utf-8"))
     else:
