@@ -175,6 +175,29 @@ def _publicado(s):
         return datetime.now(LIMA)
 
 
+# Posts que no son convocatorias (consejos, guías, listas, inversiones) y convocatorias cerradas a otra región.
+NO_CONVOCATORIA = re.compile(r"^\s*(\d+\s+(ways|tips|reasons|things|steps|best|mistakes|habits)\b|how to\b|tips\b|"
+                             r"why\b|what is\b|guide\b|guía\b|cómo\b)|\b(ways to|tips (for|to)|how to|step-by-step|"
+                             r"invest(ing|ment)? (in|tips)|stock market|passive income|make money|side hustle)\b", re.I)
+REGION = re.compile(r"\b(africa\w*|nigeria\w*|kenya\w*|ghana\w*|uganda\w*|rwanda\w*|zambia\w*|india\w*|pakistan\w*|"
+                    r"bangladesh\w*|nepal\w*|asia\w*|asean|caribbean|pacific islands?|arab\w*|mena|middle east|"
+                    r"eu citizens|european (citizens|residents|students)|uk (residents|students|citizens)|"
+                    r"u\.?s\.? (citizens|residents|students)|usa\b|american students|unicef usa|canadian|australian)\b",
+                    re.I)
+ABIERTO = re.compile(r"\b(global|worldwide|international|internacional|latin\w* america|latam|latinoam\w*|peru|"
+                     r"all countries|any country|developing countries)\b", re.I)
+
+
+def motivo_ruido(titulo, texto=""):
+    """Por qué un post de un agregador de oportunidades NO debe ir a la lista, o None."""
+    if NO_CONVOCATORIA.search(titulo):
+        return "no es una convocatoria (artículo o consejos)"
+    m = REGION.search(titulo)
+    if m and not ABIERTO.search(titulo):
+        return f"restringido a otro país o región ({m.group(0)})"
+    return None
+
+
 def _convocatorias(feed, fuente, fuente_url, tipo, cats, get):
     ahora = datetime.now(LIMA)
     out = []
@@ -186,8 +209,10 @@ def _convocatorias(feed, fuente, fuente_url, tipo, cats, get):
         cierre = extraer_cierre(texto, pub)
         # Muchos feeds solo traen un resumen sin el plazo: si la publicación es reciente se muestra igual
         # ("plazo: ver en la fuente"); si es antigua y sin plazo, lo más probable es que ya cerró.
-        motivo = None
-        if cierre and cierre < ahora:
+        motivo = motivo_ruido(p["titulo"], texto)
+        if motivo:
+            pass
+        elif cierre and cierre < ahora:
             motivo = "plazo vencido"
         elif not cierre and ahora - pub > timedelta(days=45):
             motivo = "publicación antigua sin fecha límite"

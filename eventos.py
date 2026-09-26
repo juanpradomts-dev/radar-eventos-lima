@@ -35,6 +35,8 @@ from pathlib import Path
 import requests
 
 import fuentes_extra
+import institucionales
+import puntaje
 
 RAIZ = Path(__file__).resolve().parent
 CARPETA = RAIZ / "site"
@@ -88,44 +90,10 @@ def norm(s):
 
 # ---------------------------------------------------------------- clasificación
 # Palabras sin tildes (se compara contra norm()). "\b" evita que "ia" pegue en "familia".
-CATEGORIAS = {
-    "Tecnología e IA": r"\b(ia|ai|inteligencia artificial|machine learning|llm|genai|gpt|claude|"
-                       r"agentes?|agents?|python|javascript|programacion|developer|dev|devs|software|cloud|aws|"
-                       r"azure|google cloud|kubernetes|kubefest|ciberseguridad|seguridad informatica|pentest|"
-                       r"red team|hacking|blockchain|web3|n8n|automatiza\w*|no-?code|notion|replit|"
-                       r"robot\w*|arduino|iot|ccna|cisco|redes|tech|tecnolog\w+|open source|linux|github)\b",
-    "Datos y analítica": r"\b(datos|data|analytics|analitica|power bi|tableau|sql|big data|"
-                         r"ciencia de datos|data science|estadistica|dashboard|excel|bi)\b",
-    "Ingeniería y operaciones": r"\b(ingenieria|ingeniero|industrial|supply chain|cadena de suministro|"
-                                r"logistica|operaciones|lean|six sigma|kaizen|procurement|compras|"
-                                r"manufactura|mantenimiento|calidad|iso \d+|bim|proyectos de inversion|"
-                                r"energia|mineria|sostenib\w+|mecanic\w+|electric\w+|pmp|project management|"
-                                r"gestion de proyectos|scrum|agile)\b",
-    "Negocios y emprendimiento": r"\b(emprend\w+|startup\w*|founders?|vc|venture|inversion|finanzas|"
-                                 r"fintech|banca|banking|negocio\w*|pymes?|marketing|ventas|growth|"
-                                 r"innovacion|business|e-?commerce|economia|pitch|incubadora|aceleradora|"
-                                 r"networking|negociacion)\b",
-    "Investigación y ciencia": r"\b(investigacion|research|paper|cientific\w+|ciencia|scopus|tesis|"
-                               r"publicacion|academic\w*|congreso|simposio|concytec|laboratorio|"
-                               r"biotecnolog\w+|fisica|quimica|matematica\w*)\b",
-    "Habilidades y liderazgo": r"\b(liderazgo|lider\w*|oratoria|comunicacion efectiva|soft skills|"
-                               r"habilidades|productividad|mentoring|mentoria|carrera|empleabilidad|"
-                               r"cv|linkedin|entrevista|career|talento|coaching ejecutivo|debate|"
-                               r"toastmasters|pensamiento critico)\b",
-    "Idiomas, becas e internacional": r"\b(beca\w*|scholarship|educationusa|fulbright|chevening|"
-                                      r"daad|intercambio|estudiar en el extranjero|study abroad|mba|"
-                                      r"maestria|posgrado|ll\.?m|toefl|ielts|ingles|english|"
-                                      r"expoestudios|feria educativa|admision)\b",
-    "Competencias y hackathons": r"\b(hackathon|hackaton|datathon|datafest|game jam|ideathon|"
-                                 r"concurso|competencia|challenge|olimpiada|reto|premiacion|demo ?day|"
-                                 r"showcase)\b",
-    "Voluntariado e impacto social": r"\b(voluntari\w+|volunteer\w*|impacto social|ods|sdg\w*|ong|ngo|"
-                                     r"comunidad\w*|social impact|humanitari\w+|youth advisory)\b",
-}
-FORMATO = r"\b(taller|workshop|conferencia|charla|seminario|meetup|summit|congreso|foro|panel|" \
-          r"conversatorio|bootcamp|curso|clase modelo|masterclass|webinar|simposio|keynote|" \
-          r"hackathon|feria|jornada|open lab|kickoff|tech week|fest)\b"
-# Lo que NO suma como estudiante: ocio, venta, espiritualidad, fiestas.
+FORMATO = r"\b(taller|workshop|conferencia|charla|seminario|meetup|summit|cumbre|congreso|foro|panel|" \
+          r"conversatorio|bootcamp|curso|clase modelo|masterclass|webinar|simposio|keynote|hackathon|feria|" \
+          r"jornada|open lab|kickoff|tech week|fest|expo|encuentro|convencion)\b"
+# Lo que NO suma como estudiante: ocio, venta, espiritualidad, fiestas (va al Archivo, no se borra).
 EXCLUIR = r"\b(concierto|fiesta|party|dj|rave|reggaeton|salsa|karaoke|stand ?up|comedia|" \
           r"closet sale|bazar|mercadillo|feria gastronomica|degustacion|cata|wine|cerveza|beer|" \
           r"brunch|dinner|cena|coctel\w*|cocktail|drinks|happy hour|cocina|chef|amigurumi\w*|crochet|manualidades|padel|running|carrera \d+k|\d+k\b|" \
@@ -134,49 +102,17 @@ EXCLUIR = r"\b(concierto|fiesta|party|dj|rave|reggaeton|salsa|karaoke|stand ?up|
           r"botanicals|cashflow|trading de|forex|cripto ?trading|multinivel|halloween|pijamada|" \
           r"kawaii|cosplay|anime|drag|speed ?dating|citas|singles|lanzamiento de|pop ?up|" \
           r"recorrido|tour|exposicion de arte|galeria|teatro|cine|danza|baile|esgrima)\b"
-# Afinidad con JP: Ing. Industrial, datos/ML (BCP Datafest), supply chain, investigación, IA.
-PERFIL = {
-    r"\b(industrial|supply chain|cadena de suministro|logistica|almacen|lean|six sigma|operaciones|procurement)\b": 4,
-    r"\b(data|datos|machine learning|ml|analytics|python|sql|power bi|estadistica|datafest|datathon)\b": 4,
-    r"\b(ia|ai|inteligencia artificial|llm|agentes?|claude|genai)\b": 3,
-    r"\b(hackathon|hackaton|competencia|concurso|challenge)\b": 3,
-    r"\b(investigacion|research|scopus|paper|congreso|simposio)\b": 3,
-    r"\b(beca\w*|educationusa|fulbright|mba|posgrado|intercambio|toefl|ielts)\b": 3,
-    r"\b(liderazgo|oratoria|negociacion|mentoring|mentoria)\b": 2,
-    r"\b(emprend\w+|startup\w*|founders?|innovacion|fintech|banca)\b": 2,
-    r"\b(universidad|pucp|uni|upc|ucsur|ulima|esan|utec|usil|unmsm|san marcos)\b": 1,
-    r"\b(gratis|gratuito|free|libre)\b": 1,
-}
+# Afinidad personal: perfil.json (editable). Sin ese archivo, solo cuenta el valor general.
+PERFIL_JSON = RAIZ / "perfil.json"
+INSTITUCIONALES_JSON = RAIZ / "institucionales.json"
+TOP = 55           # puntaje (0-100) desde el que algo es "Para ti" (valor general + afinidad del perfil)
+TOP_SIN_PERFIL = 40  # sin perfil.json solo hay valor general (0-60): "Destacado" desde 40
 
 
-TOP = 8  # puntaje desde el que un evento es "Top para ti"
-
-
-def _puntaje(titulo, texto):
-    puntos = sum(p for rx, p in PERFIL.items() if re.search(rx, texto))
-    puntos += 2 * sum(1 for rx in PERFIL if re.search(rx, titulo))  # afinidad en el título pesa más
-    if re.search(FORMATO, titulo):
-        puntos += 1
-    return puntos
-
-
-def clasificar(ev):
-    """Devuelve (categorías, puntaje, motivo). Si no suma, categorías = [] y `motivo` dice por qué
-    (el evento va al Archivo, no se borra)."""
-    titulo = norm(ev["titulo"])
-    texto = f"{titulo} {norm(ev.get('descripcion', ''))[:1500]} {norm(' '.join(ev.get('etiquetas', [])))}"
-    # El título manda para excluir: una charla de IA que menciona "coffee break" no se descarta.
-    m = re.search(EXCLUIR, titulo)
-    if m:
-        return [], _puntaje(titulo, texto), f"recreativo o de venta ({m.group(0)})"
-    cats = [c for c, rx in CATEGORIAS.items() if re.search(rx, titulo)]
-    if not cats and ev.get("cats_fuente"):  # la fuente ya trae área temática confiable (PUCP, Devpost…)
-        cats = ev["cats_fuente"]
-    if not cats:  # respaldo: descripción, pero exigiendo formato formativo en el título o texto
-        cats = [c for c, rx in CATEGORIAS.items() if len(re.findall(rx, texto)) >= 2]
-        if not cats or not re.search(FORMATO, texto):
-            return [], _puntaje(titulo, texto), "no encaja en ningún área formativa"
-    return cats, _puntaje(titulo, texto), None
+def motivo_recreativo(ev):
+    """El título manda para excluir: una charla de IA que menciona "coffee break" no se archiva."""
+    m = re.search(EXCLUIR, norm(ev["titulo"]))
+    return f"recreativo o de venta ({m.group(0)})" if m else None
 
 
 # ---------------------------------------------------------------- fuentes
@@ -523,7 +459,20 @@ def manuales(limite):
 
 
 FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Meetup": meetup, "PUCP": pucp,
-           **fuentes_extra.fuentes(get), "Redes (manual)": manuales}
+           **fuentes_extra.fuentes(get), "Institucionales": lambda lim: _institucionales(lim),
+           "Redes (manual)": manuales}
+_ESTADO_INST = {}
+
+
+def _institucionales(limite):
+    # Las cumbres y ferias se anuncian con meses de anticipación: horizonte largo, como las convocatorias.
+    lote, estado = institucionales.recolectar(get, INSTITUCIONALES_JSON,
+                                              datetime.now(LIMA) + timedelta(days=DIAS_CONVOCATORIAS))
+    _ESTADO_INST.clear()
+    _ESTADO_INST.update(estado)
+    if estado and all(isinstance(v, str) for v in estado.values()):
+        raise RuntimeError("todas las páginas institucionales fallaron")
+    return lote
 # Convocatorias, becas y calls for papers se anuncian con meses de anticipación: horizonte más largo.
 TIPOS_CON_PLAZO = {"convocatoria", "voluntariado"}
 DIAS_CONVOCATORIAS = 365
@@ -538,7 +487,7 @@ def _limpiar_desc(ev, largo):
     return ev
 
 
-def recolectar(dias):
+def recolectar(dias, perfil=None):
     """Devuelve (eventos, archivo, estado, revisados). Nada se descarta: lo que no pasa el filtro
     va al archivo con su `motivo`. Solo quedan fuera los duplicados (ya están una vez) y lo que
     todavía está más allá del horizonte (aparecerá cuando se acerque)."""
@@ -552,12 +501,12 @@ def recolectar(dias):
             crudos += lote
             # 0 resultados en una fuente automática = casi siempre bloqueo (p. ej. Eventbrite
             # ante IPs de GitHub): se trata como caída para conservar sus eventos previos.
-            if not lote and nombre != "Redes (manual)":
+            if not lote and nombre not in ("Redes (manual)", "Institucionales"):
                 raise RuntimeError("0 resultados (posible bloqueo)")
             estado[nombre] = {"ok": True, "n": len(lote)}
         except Exception as e:  # una fuente caída no tumba el radar
             estado[nombre] = {"ok": False, "n": 0, "error": str(e)[:160]}
-    vistos, eventos, archivo = set(), [], []
+    vistos, candidatos, archivo = set(), [], []
     for ev in crudos:
         if not ev.get("titulo"):
             continue
@@ -577,24 +526,38 @@ def recolectar(dias):
                 motivo = "ya pasó"
         # Más allá del horizonte todavía no toca mostrarlo (no es un descarte: aparecerá luego).
         referencia = cierre if tipo in TIPOS_CON_PLAZO else ini
-        tope = limite if tipo == "evento" else limite_largo
+        tope = limite if tipo == "evento" and not ev.get("institucional") else limite_largo
         if not motivo and referencia and referencia > tope:
             continue
-        cats, puntos, motivo_clasif = clasificar(ev)
-        if not cats and ev.get("_manual"):
-            cats, motivo_clasif = ev["cats_fuente"], None
-        motivo = motivo or motivo_clasif
         vistos.add(clave)
-        ev["categorias"], ev["puntaje"] = cats, puntos
-        if motivo:
-            ev["motivo"] = motivo
-            archivo.append(ev)
-        else:
-            eventos.append(ev)
+        ev["motivo"] = motivo or motivo_recreativo(ev)
+        (archivo if ev["motivo"] else candidatos).append(ev)
+    # detalle completo (descripción, precio real) solo de lo que puede ir a la lista
     with ThreadPoolExecutor(8) as pool:
-        eventos = list(pool.map(enriquecer, eventos))
+        candidatos = list(pool.map(enriquecer, candidatos))
+    eventos = []
+    for ev in candidatos:
+        ev["gratis"] = puntaje.es_gratis(ev)  # el precio en el texto gana a la bandera de la fuente
+        cats, coincidencias = puntaje.categorias(ev)
+        if ev.get("_manual") and not cats:
+            cats = ev["cats_fuente"]
+        ev["categorias"] = cats
+        puntaje.puntuar(ev, perfil)
+        if not cats or (not coincidencias and not ev.get("cats_fuente") and not re.search(FORMATO, norm(
+                ev["titulo"] + " " + ev.get("descripcion", "")))):
+            ev["motivo"] = "no encaja en ningún área formativa"
+        elif ev["tipo"] in TIPOS_CON_PLAZO and not coincidencias and not ev.get("afinidad"):
+            ev["motivo"] = "sin afinidad"  # la convocatoria no toca ninguna área (ni del perfil)
+        (archivo if ev.get("motivo") else eventos).append(ev)
+    for ev in archivo:  # el archivo también muestra categoría y puntaje (sin pedir el detalle)
+        if "puntaje" not in ev:
+            ev["gratis"] = puntaje.es_gratis(ev)
+            ev["categorias"] = puntaje.categorias(ev)[0]
+            puntaje.puntuar(ev, perfil)
     eventos = [_limpiar_desc(ev, 700) for ev in eventos]
     archivo = [_limpiar_desc(ev, 300) for ev in archivo]  # más corto: el archivo es para consultar
+    for ev in eventos:
+        ev.pop("motivo", None)
     eventos.sort(key=lambda e: e["cierre"] or e["inicio"])
     archivo.sort(key=lambda e: (e["motivo"], e["inicio"]))
     return eventos, archivo, estado, len(crudos)
@@ -608,7 +571,7 @@ def _vigente(e, hoy):
     return (e.get("cierre") or e.get("fin") or e["inicio"]) >= hoy
 
 
-def guardar(eventos, archivo, estado, total):
+def guardar(eventos, archivo, estado, total, extras=None):
     previo = {}
     try:
         previo = json.loads(DATOS.read_text(encoding="utf-8"))
@@ -632,8 +595,15 @@ def guardar(eventos, archivo, estado, total):
     # olvida ids viejos para que el archivo no crezca sin fin
     vivos = {e["id"] for e in eventos}
     primera_vez = {k: v for k, v in primera_vez.items() if k in vivos}
-    datos = {"actualizado": ahora, "fuentes": estado, "revisados": total,
-             "eventos": eventos, "archivo": archivo, "primera_vez": primera_vez}
+    # Historial de eventos institucionales por año: alimenta "Se viene" cuando un evento se repite.
+    historial = previo.get("historial_institucional") or {}
+    for e in eventos + archivo:
+        if e.get("institucional"):
+            nombre = re.sub(r"\s+20\d\d$", "", e["titulo"]).strip()
+            historial.setdefault(nombre, {})[e["inicio"][:4]] = e["inicio"][:10]
+    datos = {"actualizado": ahora, "fuentes": estado, "revisados": total, "top": TOP,
+             "eventos": eventos, "archivo": archivo, **(extras or {}),
+             "historial_institucional": historial, "primera_vez": primera_vez}
     DATOS.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
     return datos
 
@@ -682,11 +652,11 @@ def generar_ics(eventos, nombre, ruta):
 def generar_html(datos):
     CARPETA.mkdir(exist_ok=True)
     plantilla = (RAIZ / "plantilla.html").read_text(encoding="utf-8")
-    publico = {k: v for k, v in datos.items() if k != "primera_vez"}
+    publico = {k: v for k, v in datos.items() if k not in ("primera_vez", "historial_institucional")}
     js = json.dumps(publico, ensure_ascii=False).replace("</", "<\\/")
     PAGINA.write_text(plantilla.replace("/*__DATOS__*/null", js), encoding="utf-8")
     generar_ics(datos["eventos"], "Radar de Oportunidades · todo", CARPETA / "eventos.ics")
-    generar_ics([e for e in datos["eventos"] if e["puntaje"] >= TOP],
+    generar_ics([e for e in datos["eventos"] if e["puntaje"] >= datos.get("top", TOP)],
                 "Radar de Oportunidades · Para ti", CARPETA / "top.ics")
     (CARPETA / "eventos.json").write_text(js, encoding="utf-8")
     return PAGINA
@@ -697,15 +667,36 @@ def main():
     ap.add_argument("--dias", type=int, default=60)
     ap.add_argument("--abrir", action="store_true")
     ap.add_argument("--solo-html", action="store_true")
+    ap.add_argument("--perfil", default=str(PERFIL_JSON), help="perfil.json de afinidad ('' = sin perfil)")
     a = ap.parse_args()
     if a.solo_html:
         datos = json.loads(DATOS.read_text(encoding="utf-8"))
     else:
-        eventos, archivo, estado, total = recolectar(a.dias)
-        datos = guardar(eventos, archivo, estado, total)
+        perfil = puntaje.cargar_perfil(a.perfil) if a.perfil else None
+        eventos, archivo, estado, total = recolectar(a.dias, perfil)
+        ahora = datetime.now(LIMA)
+        previo = {}
+        try:
+            previo = json.loads(DATOS.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            pass
+        extras = {
+            "perfil": bool(perfil), "top": TOP if perfil else TOP_SIN_PERFIL,
+            "recomendados": puntaje.recomendados(eventos, ahora),
+            "institucionales": _ESTADO_INST.copy(),
+            "se_viene": institucionales.se_viene(INSTITUCIONALES_JSON, previo.get("historial_institucional"), eventos),
+        }
+        try:
+            extras["por_confirmar"] = institucionales.descubrir(get, INSTITUCIONALES_JSON,
+                                                                [e["titulo"] for e in eventos])
+        except Exception as e:  # el descubrimiento es un extra: si falla, el radar sigue
+            extras["por_confirmar"], estado["Descubrimiento"] = [], {"ok": False, "n": 0, "error": str(e)[:160]}
+        datos = guardar(eventos, archivo, estado, total, extras)
         fuentes = ", ".join(f"{k} {v['n']}" + ("" if v["ok"] else " (FALLÓ)") for k, v in estado.items())
         print(f"[radar] {len(datos['eventos'])} en la lista · {len(datos['archivo'])} en el Archivo "
               f"(de {total} revisados) · {fuentes}")
+        print(f"[radar] perfil: {'sí' if perfil else 'no'} · recomendados: {len(extras['recomendados'])} · "
+              f"por confirmar: {len(extras['por_confirmar'])} · se viene: {len(extras['se_viene'])}")
     ruta = generar_html(datos)
     print(ruta)
     if a.abrir:
