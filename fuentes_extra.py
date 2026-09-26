@@ -160,6 +160,18 @@ def _cache_de(url):
     return CACHE / (re.sub(r"[^a-z0-9]+", "_", url.lower()).strip("_")[-90:] + ".xml")
 
 
+def _fechas_cache(guardar=None):
+    ruta = CACHE / "fechas.json"
+    try:
+        fechas = json.loads(ruta.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        fechas = {}
+    if guardar:
+        fechas.update(guardar)
+        ruta.write_text(json.dumps(fechas, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    return fechas
+
+
 def descargar(url, get, esperas=ESPERAS, dormir=time.sleep):
     """Contenido de `url`. Ante 429 reintenta con espera (respeta Retry-After, máx. 60 s). Si igual falla, usa la
     última respuesta buena guardada en cache/ (≤ DIAS_CACHE días) para no perder la fuente."""
@@ -174,6 +186,7 @@ def descargar(url, get, esperas=ESPERAS, dormir=time.sleep):
             r.raise_for_status()
             CACHE.mkdir(exist_ok=True)
             _cache_de(url).write_bytes(r.content)
+            _fechas_cache(guardar={_cache_de(url).name: datetime.now(LIMA).isoformat(timespec="minutes")})
             CACHE_USADO.pop(url, None)
             return r.content
         except PermissionError:
@@ -182,8 +195,10 @@ def descargar(url, get, esperas=ESPERAS, dormir=time.sleep):
             ultimo = e
             break
     copia = _cache_de(url)
-    if copia.exists() and time.time() - copia.stat().st_mtime <= DIAS_CACHE * 86400:
-        CACHE_USADO[url] = datetime.fromtimestamp(copia.stat().st_mtime, LIMA).isoformat(timespec="minutes")
+    # la fecha real de la descarga (en GitHub la del archivo es la del checkout, no sirve)
+    fecha = _fechas_cache().get(copia.name)
+    if copia.exists() and fecha and datetime.now(LIMA) - datetime.fromisoformat(fecha) <= timedelta(days=DIAS_CACHE):
+        CACHE_USADO[url] = fecha
         return copia.read_bytes()
     raise ultimo or RuntimeError(f"sin respuesta de {url}")
 
