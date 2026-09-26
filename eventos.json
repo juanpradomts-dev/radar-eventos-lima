@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-26T15:34-05:00",
+ "actualizado": "2026-09-26T18:22-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 39
+   "n": 38
   },
   "Meetup": {
    "ok": true,
@@ -46,7 +46,7 @@
    "n": 0
   }
  },
- "revisados": 351,
+ "revisados": 350,
  "top": 55,
  "eventos": [
   {
@@ -337,34 +337,6 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
-   "id": "devpost:31098",
-   "titulo": "Graphiques Innovation Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-08-21T00:00-05:00",
-   "fin": "2026-09-26T23:59-05:00",
-   "cierre": "2026-09-26T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://graphiques-challenge.devpost.com/",
-   "inscripcion": "https://graphiques-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "eb:2001277781718",
    "titulo": "ATECH ZONE - Tecnología que conecta contigo",
    "inicio": "2026-09-27T10:00-05:00",
@@ -473,6 +445,34 @@
    "afinidad": 6,
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31098",
+   "titulo": "Graphiques Innovation Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-08-21T00:00-05:00",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://graphiques-challenge.devpost.com/",
+   "inscripcion": "https://graphiques-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack Club",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 19,
+   "afinidad": 13,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -897,6 +897,34 @@
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "devpost:31471",
+   "titulo": "Jāgriti Hacks",
+   "tipo": "hackathon",
+   "inicio": "2026-09-25T00:00-05:00",
+   "fin": "2026-09-29T23:59-05:00",
+   "cierre": "2026-09-29T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://jagriti-hacks1.devpost.com/",
+   "inscripcion": "https://jagriti-hacks1.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Jāgriti Technologies PVT LTD ",
+   "descripcion": "Hackathon online. Temas: Cybersecurity, DevOps, Machine Learning/AI. Premios: $850.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/100/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T18:22-05:00"
   },
   {
    "id": "eb:1998657030982",
@@ -2582,8 +2610,8 @@
    "url": "https://lu.ma/ek0skxyp",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "Construir producto con LLMs no se parece a nada de antes.\nBlueprint 01 es un espacio abierto para conectar, comer piqueos y conversar junto a:- Omar Flórez lidera el pre-entrenamiento de LatamGPT, el primer modelo de 70B parámetros entrenado en Latinoamérica, y antes entrenó modelos a escala en Twitter Cortex y Capital One.- Víctor Cadenas es Sr. Product Manager de IA conversacional en Apple, donde definió cómo evaluar si un producto basado en LLMs está listo para usuarios reales.- Julio Canares es founder y CTO de Riqra, también, fundador de Ciro y Nutrifit, previamente ML Engineer de Lumos y AmigoCloud.Dirigido a: founders técnicos, CTOs, ML engineers y PMs que ya están construyendo produc",
-   "gratis": true,
+   "descripcion": "Construir producto con LLMs no se parece a nada de antes.\nBlueprint 01 es un espacio abierto para conectar, comer piqueos y conversar junto a:- Omar Flórez lidera el pre-entrenamiento de LatamGPT, el primer modelo de 70B parámetros entrenado en Latinoamérica, y antes entrenó modelos a escala en Twitter Cortex y Capital One.- Víctor Cadenas es Sr. Product Manager de IA conversacional en Apple, donde definió cómo evaluar si un producto basado en LLMs está listo para usuarios reales.- Julio Canares es co-founder y CTO de Riqra, la plataforma de ecommerce para distribuidores que vende por WhatsApp con agentes de IA. También fundó Ciro (inteligencia de retail) y Nutrifit, y es Senior ML Engineer ",
+   "gratis": false,
    "imagen": "https://images.lumacdn.com/uploads/xv/b0f22d8c-5bf0-4946-84f1-8db342b7b0a7.png",
    "inscripcion": "https://lu.ma/ek0skxyp",
    "fuente_url": "https://lu.ma/lima",
@@ -2593,10 +2621,10 @@
     "Tecnología e IA",
     "Negocios y emprendimiento"
    ],
-   "valor": 24,
+   "valor": 8,
    "afinidad": 24,
-   "puntaje": 48,
-   "por_que": "Afín: Datos y machine learning · Networking · Presencial en Lima · Afín: Inteligencia artificial",
+   "puntaje": 32,
+   "por_que": "Afín: Datos y machine learning · Networking · Presencial en Lima · Afín: Inteligencia artificial · (Parece venta)",
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
@@ -4655,6 +4683,34 @@
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-09-26-mentora-scholars-fellowship-2027-",
+   "titulo": "Mentora Scholars Fellowship 2027 (Fully-funded)",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-08T23:59-05:00",
+   "fin": "2026-11-08T23:59-05:00",
+   "cierre": "2026-11-08T23:59-05:00",
+   "publicado": "2026-09-26T15:38-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/09/26/mentora-scholars-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/09/26/mentora-scholars-fellowship-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 8, 2026 Applications are open for the Mentora Scholars Fellowship 2027. The Mentora Scholars is a fully-funded fellowship that prepares college students to become exemplary changemakers in their careers and communities. Inspired by history’s great leaders—from Lincoln and Mother Teresa to Gandhi—the program endeavors to identify, develop, and support the next generation of [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-09-26T18:22-05:00"
+  },
+  {
    "id": "tedx:70101",
    "titulo": "TEDxUPC",
    "tipo": "evento",
@@ -5215,6 +5271,35 @@
    "puntaje": 40,
    "por_que": "Formativo · Afín: Becas y posgrado · Universidad · Plazo claro",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "opportunitydesk:k-org-2026-09-26-ihs-ai-workforce-faculty-research-grant-program-2027-",
+   "titulo": "IHS AI Workforce Faculty Research Grant Program 2027 (up to $20,000)",
+   "tipo": "convocatoria",
+   "inicio": "2026-12-15T23:59-05:00",
+   "fin": "2026-12-15T23:59-05:00",
+   "cierre": "2026-12-15T23:59-05:00",
+   "publicado": "2026-09-26T16:45-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/09/26/ihs-ai-workforce-faculty-research-grant-program-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/09/26/ihs-ai-workforce-faculty-research-grant-program-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: December 15, 2026 Applications are open for the IHS AI Workforce Faculty Research Grant Program 2027. There is significant debate about the effect the adoption of artificial intelligence will have on work. However, more long-term research and data on this question is needed. This request for proposals aims to fill that gap. Institute for [...]",
+   "gratis": false,
+   "imagen": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Tecnología e IA"
+   ],
+   "valor": 20,
+   "afinidad": 40,
+   "puntaje": 60,
+   "por_que": "Abre puertas (beca/programa) · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Investigación",
+   "visto_desde": "2026-09-26T18:22-05:00"
   },
   {
    "id": "devpost:31108",
@@ -8164,35 +8249,6 @@
    "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea"
   },
   {
-   "id": "opportunitydesk:e-ways-to-increase-your-chances-of-winning-a-fully-funded-scholarship-",
-   "titulo": "10 Ways to Increase Your Chances of Winning a Fully Funded Scholarship",
-   "tipo": "convocatoria",
-   "inicio": "2026-09-24T18:10-05:00",
-   "fin": "2026-09-24T18:10-05:00",
-   "cierre": "",
-   "publicado": "2026-09-24T18:10-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/24/10-more-ways-to-increase-your-chances-of-winning-a-fully-funded-scholarship/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/24/10-more-ways-to-increase-your-chances-of-winning-a-fully-funded-scholarship/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Winning a fully funded scholarship does not begin on the day the application portal opens. In many cases, the strongest application is built months or even years before submission. Your academic performance, leadership experience, community involvement, professional development and the decisions you",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "no es una convocatoria (artículo o consejos)",
-   "categorias": [
-    "Idiomas, becas e internacional",
-    "Investigación y ciencia"
-   ],
-   "valor": 16,
-   "afinidad": 12,
-   "puntaje": 28,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Se postula en línea"
-  },
-  {
    "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
    "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
    "tipo": "voluntariado",
@@ -8331,33 +8387,6 @@
    "afinidad": 33,
    "puntaje": 49,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31301",
-   "titulo": "Bharat Innovation Challenge 2.0",
-   "tipo": "hackathon",
-   "inicio": "2026-09-18T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "Lovely Professional University",
-   "distrito": "Lovely Professional University",
-   "modalidad": "Presencial",
-   "url": "https://bic.devpost.com/",
-   "inscripcion": "https://bic.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Lovely Professional University",
-   "descripcion": "Hackathon presencial en Lovely Professional University. Temas: Beginner Friendly, Communication, Education. Premios: $10,600.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/288/676/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 9,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31484",
@@ -8579,6 +8608,33 @@
    "por_que": "Formativo · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:26125",
+   "titulo": "Shower Hacks",
+   "tipo": "hackathon",
+   "inicio": "2026-09-26T00:00-05:00",
+   "fin": "2026-09-26T23:59-05:00",
+   "cierre": "2026-09-26T23:59-05:00",
+   "lugar": "Bay Area",
+   "distrito": "Bay Area",
+   "modalidad": "Presencial",
+   "url": "https://showerhacks.devpost.com/",
+   "inscripcion": "https://showerhacks.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Shower Hacks",
+   "descripcion": "Hackathon presencial en Bay Area. Temas: Open Ended, Lifehacks, Social Good. Premios: $9,550.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/698/219/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:30998",
    "titulo": "HelloHacks",
    "tipo": "hackathon",
@@ -8604,33 +8660,6 @@
    "afinidad": 6,
    "puntaje": 29,
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:26125",
-   "titulo": "Shower Hacks",
-   "tipo": "hackathon",
-   "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "Bay Area",
-   "distrito": "Bay Area",
-   "modalidad": "Presencial",
-   "url": "https://showerhacks.devpost.com/",
-   "inscripcion": "https://showerhacks.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Shower Hacks",
-   "descripcion": "Hackathon presencial en Bay Area. Temas: Open Ended, Lifehacks, Social Good. Premios: $9,550.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/698/219/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30717",
@@ -9006,31 +9035,6 @@
    "por_que": "Formativo · Presencial en Lima"
   },
   {
-   "id": "eb:2001671827319",
-   "titulo": "Lanzamiento de Sacrato Estudio",
-   "inicio": "2026-09-26T11:00-05:00",
-   "fin": "2026-09-26T17:00-05:00",
-   "lugar": "Av. Giuseppe Garibaldi 396, 396 Avenida Giuseppe Garibaldi",
-   "distrito": "Jesús María",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/lanzamiento-de-sacrato-estudio-tickets-2001671827319",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "Te invitamos al lanzamiento de Sacrato Estudio, una firma especializada en branding integral para bodas y eventos.",
-   "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193877932%2F3014682214924%2F1%2Foriginal.20260918-225503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=887be82cce01f9d1148f51b55bcaa8e2",
-   "inscripcion": "https://www.eventbrite.com/e/lanzamiento-de-sacrato-estudio-tickets-2001671827319",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (lanzamiento de)",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Evento sin formato claro"
-  },
-  {
    "id": "pucp:oracion-de-la-comunidad-sant-egidio-24082026105339",
    "titulo": "Oración de la Comunidad Sant'Egidio",
    "inicio": "2026-10-02T17:30-05:00",
@@ -9353,34 +9357,6 @@
    "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
   },
   {
-   "id": "opportunitydesk:ortunitydesk-org-2026-09-25-cite-investigative-journalism-grants-2026-",
-   "titulo": "CITE Investigative Journalism Grants 2026",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-02T23:59-05:00",
-   "fin": "2026-10-02T23:59-05:00",
-   "cierre": "2026-10-02T23:59-05:00",
-   "publicado": "2026-09-25T06:16-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/25/cite-investigative-journalism-grants-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/25/cite-investigative-journalism-grants-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 2, 2026 Applications are open for the CITE Investigative Journalism Grants 2026. CITE invites journalists nationwide to submit investigative story proposals on issues affecting communities across Zimbabwe. Proposals may be submitted by journalists reporting independently or in coll",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "sin afinidad",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 0,
-   "puntaje": 20,
-   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea"
-  },
-  {
    "id": "opportunitydesk:pportunitydesk-org-2026-09-26-commonwealth-foundation-grant-2026-2027-",
    "titulo": "Commonwealth Foundation Grant 2026-2027 (up to £15,000)",
    "tipo": "convocatoria",
@@ -9463,33 +9439,6 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30308",
-   "titulo": "DivHacks 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "Columbia University - Alfred Lerner Hall",
-   "distrito": "Columbia University - Alfred Lerner Hall",
-   "modalidad": "Presencial",
-   "url": "https://divhacks-2026.devpost.com/",
-   "inscripcion": "https://divhacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Columbia University WiCS",
-   "descripcion": "Hackathon presencial en Columbia University - Alfred Lerner Hall. Temas: Beginner Friendly, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/122/678/datas/medium_square.jpg",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 6,
-   "puntaje": 29,
-   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31509",
    "titulo": "Bitrig Hacks iPhone Duo Edition",
    "tipo": "hackathon",
@@ -9515,6 +9464,33 @@
    "afinidad": 6,
    "puntaje": 22,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:30308",
+   "titulo": "DivHacks 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-26T00:00-05:00",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "Columbia University - Alfred Lerner Hall",
+   "distrito": "Columbia University - Alfred Lerner Hall",
+   "modalidad": "Presencial",
+   "url": "https://divhacks-2026.devpost.com/",
+   "inscripcion": "https://divhacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Columbia University WiCS",
+   "descripcion": "Hackathon presencial en Columbia University - Alfred Lerner Hall. Temas: Beginner Friendly, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/122/678/datas/medium_square.jpg",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 6,
+   "puntaje": 29,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:cine-ccpucp-iv-ciclo-de-cine-japones-15092026194330",
@@ -9702,6 +9678,14 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "Destacada participación de Cuba en Feria de Turismo en Perú",
+   "url": "https://www.prensa-latina.cu/2026/09/26/destacada-participacion-de-cuba-en-feria-de-turismo-en-peru/",
+   "medio": "Prensa Latina",
+   "publicado": "Sat, 26 Sep 2026 11:09:00 GMT",
+   "resumen": "Lima, 26 sep (Prensa Latina) La Embajada de Cuba en Perú tuvo una destacada participación en la Feria Internacional de Cultura, Turismo y Educación, realizada en el distrito limeño de Miraflores, anim ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "FIL Lima 2026: Todo lo que debes saber sobre la última semana de la feria",
    "url": "https://peru21.pe/cultura/fil-lima-2026-todo-lo-que-debes-saber-sobre-la-ultima-semana/",
    "medio": "Peru21",
@@ -9715,6 +9699,14 @@
    "medio": "andina.pe",
    "publicado": "Wed, 17 Jun 2026 17:00:00 GMT",
    "resumen": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000 En beneficio de artesanos de nueve regiones del país Ministro de Comercio Exterior y Turismo, Berthin Gómez. ANDINA/Difusión 22 ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Expomina Perú 2026: Lima será epicentro de la minería mundial en setiembre",
+   "url": "https://www.expreso.com.pe/actualidad/expomina-peru-2026-lima-sera-epicentro-de-la-mineria-mundial-en-setiembre-noticia/1310398/",
+   "medio": "Expreso Interactivo",
+   "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
+   "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
    "fecha_mencionada": ""
   },
   {
@@ -9981,6 +9973,9 @@
   "luma:evt-WXo4ob5dba49nVk": "2026-09-26T15:34-05:00",
   "opportunitydesk:desk-org-2026-09-26-rare-disease-reporting-fellowship-and-grants-2026-": "2026-09-26T15:34-05:00",
   "opportunitydesk:ydesk-org-2026-09-26-royal-society-career-development-fellowship-2027-": "2026-09-26T15:34-05:00",
-  "opportunitydesk:sk-org-2026-09-26-bevisioneers-the-mercedes-benz-fellowship-2027-2028-": "2026-09-26T15:34-05:00"
+  "opportunitydesk:sk-org-2026-09-26-bevisioneers-the-mercedes-benz-fellowship-2027-2028-": "2026-09-26T15:34-05:00",
+  "devpost:31471": "2026-09-26T18:22-05:00",
+  "opportunitydesk:https-opportunitydesk-org-2026-09-26-mentora-scholars-fellowship-2027-": "2026-09-26T18:22-05:00",
+  "opportunitydesk:k-org-2026-09-26-ihs-ai-workforce-faculty-research-grant-program-2027-": "2026-09-26T18:22-05:00"
  }
 }
