@@ -602,7 +602,9 @@ def recolectar(dias):
 
 def _vigente(e, hoy):
     if e.get("tipo") in TIPOS_CON_PLAZO and not e.get("cierre"):
-        return True
+        # sin fecha límite: se conserva mientras la publicación sea reciente (misma regla que al recolectar)
+        pub = _parse(e.get("publicado"))
+        return bool(pub) and datetime.now(LIMA) - pub <= timedelta(days=45)
     return (e.get("cierre") or e.get("fin") or e["inicio"]) >= hoy
 
 
