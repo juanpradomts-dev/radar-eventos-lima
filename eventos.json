@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-26T08:43-05:00",
+ "actualizado": "2026-09-26T08:45-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -30,8 +30,9 @@
    "n": 10
   },
   "Opportunities for Youth": {
-   "ok": true,
-   "n": 10
+   "ok": false,
+   "n": 0,
+   "error": "429 Client Error: Too Many Requests for url: https://opportunitiesforyouth.org/category/volunteering/feed/"
   },
   "TEDx": {
    "ok": true,
@@ -42,7 +43,7 @@
    "n": 0
   }
  },
- "revisados": 343,
+ "revisados": 333,
  "eventos": [
   {
    "id": "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-",
@@ -6923,106 +6924,6 @@
    "motivo": "no encaja en ningún área formativa"
   },
   {
-   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-08-20-fao-regular-volunteer-",
-   "titulo": "FAO Regular Volunteer Programme for Africa 2026: Applications Open for the United Nations Volunteer Opportunity",
-   "tipo": "voluntariado",
-   "inicio": "2026-08-26T23:59-05:00",
-   "fin": "2026-08-26T23:59-05:00",
-   "cierre": "2026-08-26T23:59-05:00",
-   "publicado": "2026-08-20T03:37-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The Food and Agriculture Organization of the United Nations (FAO) is inviting eligible applicants to submit expressions of interest for the FAO Regular Volunteer Programme for Africa (RAF) 2026. This international volunteer opportunity gives individuals an avenue to contribute their knowledge, exper",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "puntaje": 3,
-   "motivo": "plazo vencido"
-  },
-  {
-   "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
-   "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-04T23:59-05:00",
-   "fin": "2026-09-04T23:59-05:00",
-   "cierre": "2026-09-04T23:59-05:00",
-   "publicado": "2026-08-21T22:07-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The United Nations Development Programme (UNDP) is inviting applications for Agenda 2063 in Power Spaces – Cohort 3, a seven-week online learning and volunteer opportunity designed to help participants strengthen their leadership capacity and identify how they can contribute to achieving Agenda 2063",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "puntaje": 0,
-   "motivo": "plazo vencido"
-  },
-  {
-   "id": "opportunitiesforyouth:rd-of-directors-2026-call-for-expressions-of-interest-and-nominations-",
-   "titulo": "Caribbean Biodiversity Fund Board of Directors 2026: Call for Expressions of Interest and Nominations",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-07T23:59-05:00",
-   "fin": "2026-09-07T23:59-05:00",
-   "cierre": "2026-09-07T23:59-05:00",
-   "publicado": "2026-08-29T08:49-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The Caribbean Biodiversity Fund (CBF) is inviting expressions of interest and nominations from suitably qualified individuals who may be considered for appointment to its Board of Directors. The opportunity provides individuals with an interest and experience in conservation, biodiversity protection",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "puntaje": 0,
-   "motivo": "plazo vencido"
-  },
-  {
-   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
-   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-12T23:59-05:00",
-   "fin": "2026-09-12T23:59-05:00",
-   "cierre": "2026-09-12T23:59-05:00",
-   "publicado": "2026-09-04T14:38-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "puntaje": 8,
-   "motivo": "plazo vencido"
-  },
-  {
    "id": "devpost:30539",
    "titulo": "HTCJ × PROOF Aviation Futures Challenge",
    "tipo": "hackathon",
@@ -8074,6 +7975,106 @@
    "categorias": [],
    "puntaje": 0,
    "motivo": "tipo de evento no formativo (Misa)"
+  },
+  {
+   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-08-20-fao-regular-volunteer-",
+   "titulo": "FAO Regular Volunteer Programme for Africa 2026: Applications Open for the United Nations Volunteer Opportunity",
+   "tipo": "voluntariado",
+   "inicio": "2026-08-26T23:59-05:00",
+   "fin": "2026-08-26T23:59-05:00",
+   "cierre": "2026-08-26T23:59-05:00",
+   "publicado": "2026-08-20T03:37-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The Food and Agriculture Organization of the United Nations (FAO) is inviting eligible applicants to submit expressions of interest for the FAO Regular Volunteer Programme for Africa (RAF) 2026. This international volunteer opportunity gives individuals an avenue to contribute their knowledge, exper",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "puntaje": 3,
+   "motivo": "plazo vencido"
+  },
+  {
+   "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
+   "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-04T23:59-05:00",
+   "fin": "2026-09-04T23:59-05:00",
+   "cierre": "2026-09-04T23:59-05:00",
+   "publicado": "2026-08-21T22:07-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The United Nations Development Programme (UNDP) is inviting applications for Agenda 2063 in Power Spaces – Cohort 3, a seven-week online learning and volunteer opportunity designed to help participants strengthen their leadership capacity and identify how they can contribute to achieving Agenda 2063",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "puntaje": 0,
+   "motivo": "plazo vencido"
+  },
+  {
+   "id": "opportunitiesforyouth:rd-of-directors-2026-call-for-expressions-of-interest-and-nominations-",
+   "titulo": "Caribbean Biodiversity Fund Board of Directors 2026: Call for Expressions of Interest and Nominations",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-07T23:59-05:00",
+   "fin": "2026-09-07T23:59-05:00",
+   "cierre": "2026-09-07T23:59-05:00",
+   "publicado": "2026-08-29T08:49-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The Caribbean Biodiversity Fund (CBF) is inviting expressions of interest and nominations from suitably qualified individuals who may be considered for appointment to its Board of Directors. The opportunity provides individuals with an interest and experience in conservation, biodiversity protection",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "puntaje": 0,
+   "motivo": "plazo vencido"
+  },
+  {
+   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
+   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-12T23:59-05:00",
+   "fin": "2026-09-12T23:59-05:00",
+   "cierre": "2026-09-12T23:59-05:00",
+   "publicado": "2026-09-04T14:38-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "puntaje": 8,
+   "motivo": "plazo vencido"
   }
  ],
  "primera_vez": {
