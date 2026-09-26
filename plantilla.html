@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
 <meta http-equiv="refresh" content="1800">
-<title>Radar Lima</title>
-<meta name="description" content="Charlas, talleres, hackathons, meetups y becas en Lima para crecer como estudiante. Se actualiza solo cada 3 horas.">
+<title>Radar de Oportunidades</title>
+<meta name="description" content="Eventos en Lima, hackathons, becas, calls for papers y voluntariados para crecer como estudiante. Se actualiza solo cada 3 horas.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -124,6 +124,19 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 .origen button:hover{color:var(--texto);text-decoration:underline}
 .vacio{text-align:center;color:var(--gris);padding:60px 16px;background:#fff;border-radius:18px;border:1px dashed var(--linea)}
 .vacio b{display:block;font-size:40px;margin-bottom:6px}
+.fecha.cierre span{color:#B42318}
+.cat.tipo{background:#FFF7E6;color:#9A5B00}
+
+/* ---------- archivo */
+.aviso-archivo{background:#fff;border:1px solid var(--linea);border-radius:14px;padding:14px 16px;font-size:14.5px;color:#34435A;margin-top:24px}
+details.grupo{background:#fff;border:1px solid var(--linea);border-radius:14px;margin-top:12px;overflow:hidden}
+details.grupo summary{cursor:pointer;padding:12px 16px;font-weight:800;color:var(--azul);display:flex;justify-content:space-between;gap:10px}
+details.grupo summary .n{color:var(--gris);font-weight:700}
+.fila-arch{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:10px 16px;border-top:1px solid var(--linea);font-size:14px}
+.fila-arch a{color:var(--texto);font-weight:700;text-decoration:none}
+.fila-arch a:hover{color:var(--azul);text-decoration:underline}
+.fila-arch .meta{color:var(--gris);font-size:13px;grid-column:1/-1}
+.fila-arch .f{color:var(--gris);font-size:13px;white-space:nowrap}
 
 /* ---------- pie: de dónde sale la info */
 .fuentes{background:#fff;border-top:1px solid var(--linea);margin-top:48px;padding:32px 0 40px}
@@ -149,11 +162,11 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 <header class="hero">
   <div class="contenedor">
     <span class="pastilla"><span class="punto"></span><span id="estado-act">Se actualiza solo cada 3 horas</span></span>
-    <h1>Eventos en Lima que <span>te hacen crecer</span></h1>
-    <p>Charlas, talleres, hackathons, meetups, congresos y becas para estudiantes. Sin conciertos ni fiestas: solo lo que suma a tu carrera.</p>
+    <h1>Radar de Oportunidades: <span>lo que te hace crecer</span></h1>
+    <p>Eventos en Lima (charlas, talleres, meetups, congresos) y convocatorias abiertas: hackathons, becas, calls for papers y voluntariados. Lo recreativo no se borra: queda en el Archivo con su motivo.</p>
     <label class="buscador">
       <span class="lupa" aria-hidden="true">🔎</span>
-      <input type="search" id="q" placeholder="Busca: supply chain, Python, becas, PUCP…" aria-label="Buscar eventos">
+      <input type="search" id="q" placeholder="Busca: supply chain, Python, becas, hackathon…" aria-label="Buscar oportunidades">
     </label>
     <div class="cifras" id="cifras"></div>
   </div>
@@ -174,7 +187,7 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 <footer class="fuentes">
   <div class="contenedor">
     <h2 class="seccion">¿De dónde sale esta información?</h2>
-    <p class="como">Cada 3 horas un programa revisa estas plataformas públicas, se queda solo con los eventos de Lima (o virtuales de organizadores peruanos) y descarta lo recreativo: conciertos, fiestas, cócteles, carreras y ventas. Cada tarjeta enlaza a la página original, donde está la información oficial y la inscripción.</p>
+    <p class="como">Cada 3 horas un programa revisa estas plataformas públicas (sin iniciar sesión y respetando sus reglas para robots). En la lista principal quedan los eventos de Lima o virtuales de organizadores peruanos, y las convocatorias abiertas (hackathons en línea, becas, calls for papers, voluntariados). <b>Nada se descarta:</b> lo recreativo (conciertos, fiestas, cócteles, ventas), lo vencido o lo presencial fuera del Perú pasa al <b>Archivo</b> con el motivo, por si quieres revisarlo. Cada tarjeta enlaza a la página original, donde está la información oficial y la inscripción.</p>
     <div class="lista-fuentes" id="lista-fuentes"></div>
     <p class="como"><b>¿Viste un evento en Instagram o LinkedIn que no aparece?</b> Esas redes exigen iniciar sesión y prohíben la lectura automática, así que se agregan a mano en <code>manuales.json</code> y salen aquí con la etiqueta de la red.</p>
     <p class="como"><b>“Para ti”</b> marca los eventos más afines a Ingeniería Industrial: supply chain, operaciones, datos y ML, IA, investigación, hackathons y becas.</p>
@@ -199,16 +212,29 @@ const CATS = {
   "Habilidades y liderazgo": {ico: "🎤", col: "#7C3AED"},
   "Idiomas, becas e internacional": {ico: "🌎", col: "#0E7490"},
   "Competencias y hackathons": {ico: "🏆", col: "#B45309"},
+  "Voluntariado e impacto social": {ico: "🤝", col: "#BE185D"},
 };
 const FUENTES_INFO = {
   "Luma": {url: "https://lu.ma/lima", txt: "Comunidades tech, startups e IA en Lima."},
   "Eventbrite": {url: "https://www.eventbrite.com.pe/d/peru--lima/all-events/", txt: "Conferencias, talleres y seminarios."},
   "Meetup": {url: "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS", txt: "Grupos de estudio, cloud, datos e idiomas."},
   "PUCP": {url: "https://agenda.pucp.edu.pe/", txt: "Agenda oficial de la PUCP: congresos, charlas y ferias."},
+  "Devpost": {url: "https://devpost.com/hackathons", txt: "Hackathons en línea abiertos a cualquiera, con premios."},
+  "WikiCFP": {url: "http://www.wikicfp.com/cfp/", txt: "Calls for papers de ingeniería industrial, investigación de operaciones y supply chain."},
+  "Opportunity Desk": {url: "https://opportunitydesk.org/", txt: "Becas, fellowships y programas internacionales para jóvenes."},
+  "Opportunities for Youth": {url: "https://opportunitiesforyouth.org/category/volunteering/", txt: "Voluntariados y programas de liderazgo juvenil."},
+  "TEDx": {url: "https://www.ted.com/tedx/events", txt: "Eventos TEDx organizados en el Perú."},
   "Redes (manual)": {txt: "Eventos vistos en Instagram, LinkedIn o WhatsApp y agregados a mano: esas redes no permiten lectura automática."},
 };
 
 const eventos = (DATOS && DATOS.eventos) || [];
+const archivo = (DATOS && DATOS.archivo) || [];
+const TIPOS = {hackathon: "🏆 Hackathon", convocatoria: "📣 Convocatoria", voluntariado: "🤝 Voluntariado",
+               "call for papers": "📝 Call for papers"};
+const conPlazo = e => e.tipo === "convocatoria" || e.tipo === "voluntariado";
+// Fecha que ordena y filtra: el cierre para lo que tiene plazo; el inicio para eventos y congresos.
+// null = convocatoria sin fecha límite publicada (se lista al final, "ver plazo en la fuente").
+const clave = e => e.cierre ? new Date(e.cierre) : conPlazo(e) ? null : new Date(e.inicio);
 const act = DATOS ? new Date(DATOS.actualizado) : new Date();
 const ahora = new Date();
 const F = (o) => new Intl.DateTimeFormat("es-PE", o);
@@ -217,7 +243,7 @@ const fDia = F({weekday: "long", day: "numeric", month: "long"}), fHora = F({hou
 
 const st = Object.assign({cuando: "30", cats: [], top: false, gratis: false, presencial: false, guardados: false},
   leer("radar-filtros-v2", {}));
-st.q = "";
+st.q = ""; st.archivo = false;
 const favs = new Set(leer("radar-favs", []));
 const ocultos = new Set(leer("radar-ocultos", []));
 const TOP = 8;
@@ -240,20 +266,28 @@ function relativo(d) {
 }
 function gcal(e) {
   const f = d => new Date(d).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
-  const fin = e.fin || new Date(new Date(e.inicio).getTime() + 2 * 3600e3).toISOString();
+  let texto = e.titulo, ini = e.inicio, fin = e.fin || new Date(new Date(e.inicio).getTime() + 2 * 3600e3).toISOString();
+  if (e.cierre) {  // lo que se agenda de una convocatoria es su cierre
+    texto = "Cierra: " + e.titulo; fin = e.cierre; ini = new Date(new Date(e.cierre).getTime() - 3600e3).toISOString();
+  }
   return "https://calendar.google.com/calendar/render?" + new URLSearchParams({action: "TEMPLATE",
-    text: e.titulo, dates: f(e.inicio) + "/" + f(fin), location: e.lugar || e.modalidad,
+    text: texto, dates: f(ini) + "/" + f(fin), location: e.lugar || e.modalidad,
     details: (e.descripcion || "").slice(0, 300) + "\n\nInscripción: " + (e.inscripcion || e.url)});
 }
-const lugarCorto = e => e.modalidad === "Virtual" ? "Virtual" : (e.distrito || "Lima");
+const lugarCorto = e => e.modalidad === "Virtual" ? "Virtual" : e.modalidad === "Internacional" ? "Internacional" : (e.distrito || "Lima");
+const porClave = (a, b) => {
+  const x = clave(a), y = clave(b);
+  return x === null ? (y === null ? 0 : 1) : y === null ? -1 : x - y;
+};
 
 // ---------- filtros
 function filtrar(ignorarCat) {
   const lim = st.cuando === "todo" ? Infinity : +st.cuando * 864e5;
   const q = sinTildes(st.q.trim());
   return eventos.filter(e => {
-    const ini = new Date(e.inicio);
-    if (st.cuando === "0" ? ini.toDateString() !== ahora.toDateString() && ini > ahora : ini - ahora > lim) return false;
+    const ini = clave(e);
+    if (ini === null) { if (st.cuando === "0" || st.cuando === "7") return false; }
+    else if (st.cuando === "0" ? ini.toDateString() !== ahora.toDateString() && ini > ahora : ini - ahora > lim) return false;
     if (ocultos.has(e.id)) return false;
     if (st.guardados && !favs.has(e.id)) return false;
     if (st.top && !esTop(e)) return false;
@@ -265,7 +299,7 @@ function filtrar(ignorarCat) {
       if (!q.split(/\s+/).every(w => t.includes(w))) return false;
     }
     return true;
-  });
+  }).sort(porClave);
 }
 function chip(cont, html, on, fn, extra = "") {
   const b = document.createElement("button");
@@ -282,10 +316,13 @@ function pintarFiltros() {
   chip(c1, "📍 Presencial", st.presencial, () => { st.presencial = !st.presencial; render(); }, "naranja");
   chip(c1, `🔖 Guardados<span class="n">${favs.size}</span>`, st.guardados, () => { st.guardados = !st.guardados; render(); }, "naranja");
   if (ocultos.size) chip(c1, `Restaurar ocultos (${ocultos.size})`, false, () => { ocultos.clear(); guardar("radar-ocultos", []); render(); });
+  c1.insertAdjacentHTML("beforeend", '<span class="separador"></span>');
+  chip(c1, `🗄️ Archivo<span class="n">${archivo.length}</span>`, st.archivo, () => { st.archivo = !st.archivo; render(); window.scrollTo({top: 0}); });
 
+  const c2 = $("#f-cat"); c2.innerHTML = "";
+  if (st.archivo) return;  // en el Archivo no aplican las áreas
   const cont = {};
   filtrar(true).forEach(e => e.categorias.forEach(c => cont[c] = (cont[c] || 0) + 1));
-  const c2 = $("#f-cat"); c2.innerHTML = "";
   chip(c2, "Todas las áreas", !st.cats.length, () => { st.cats = []; render(); });
   Object.keys(CATS).filter(c => cont[c]).forEach(c =>
     chip(c2, `${CATS[c].ico} ${c}<span class="n">${cont[c]}</span>`, st.cats.includes(c), () => {
@@ -296,32 +333,58 @@ function pintarFiltros() {
 // ---------- recomendados de la semana
 function pintarRecomendados() {
   const cont = $("#recomendados");
-  const filtrando = st.q || st.cats.length || st.top || st.guardados || st.gratis || st.presencial;
-  const sel = eventos.filter(e => esTop(e) && !ocultos.has(e.id) && new Date(e.inicio) - ahora < 10 * 864e5)
+  const filtrando = st.q || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.archivo;
+  const sel = eventos.filter(e => { const d = clave(e); return esTop(e) && !ocultos.has(e.id) && d && d - ahora < 10 * 864e5; })
     .sort((a, b) => b.puntaje - a.puntaje).slice(0, 8);
   if (filtrando || !sel.length) { cont.innerHTML = ""; return; }
   cont.innerHTML = `<h2 class="seccion">⭐ Recomendados para ti <small>los más afines a tu carrera, próximos 10 días</small></h2>
     <div class="carrusel">` + sel.map(e => {
-      const d = new Date(e.inicio);
+      const d = clave(e);
+      const cuando = e.cierre ? `Cierra ${fDiaCorto.format(d)}` : `${fDiaCorto.format(d)} · ${fHora.format(d)}`;
       return `<a class="reco" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">
         <div class="img">${imagen(e)}</div>
         <div class="cuerpo"><b>${esc(e.titulo)}</b>
-        <span>${fDiaCorto.format(d)} · ${fHora.format(d)} · ${esc(lugarCorto(e))}</span></div></a>`;
+        <span>${cuando} · ${esc(lugarCorto(e))}</span></div></a>`;
     }).join("") + `</div>`;
 }
 
 // ---------- tarjeta
-function tarjeta(e) {
+function cuandoTexto(e) {
   const d = new Date(e.inicio);
+  if (e.cierre) {
+    const c = new Date(e.cierre);
+    const periodo = e.tipo === "hackathon" && e.inicio ? `<div><span class="ic">🗓️</span><span>Periodo: ${fDiaCorto.format(d)} – ${fDiaCorto.format(c)}</span></div>` : "";
+    return `<div><span class="ic">⏳</span><span><b>Postula hasta el ${fDia.format(c)}</b></span></div>` + periodo;
+  }
+  if (conPlazo(e))
+    return `<div><span class="ic">⏳</span><span>Plazo: revísalo en la fuente${e.publicado ? ` · publicada el ${fDiaCorto.format(new Date(e.publicado))}` : ""}</span></div>`;
+  if (e.tipo === "call for papers") {
+    const fin = e.fin && e.fin !== e.inicio ? " – " + fDiaCorto.format(new Date(e.fin)) : "";
+    return `<div><span class="ic">🗓️</span><span>Congreso: ${fDiaCorto.format(d)}${fin}</span></div>`;
+  }
   const fin = e.fin && new Date(e.fin).toDateString() === d.toDateString() ? " – " + fHora.format(new Date(e.fin)) : "";
+  return `<div><span class="ic">🕒</span><span>${fDia.format(d)}, ${fHora.format(d)}${fin}</span></div>`;
+}
+function dondeTexto(e) {
+  if (e.modalidad === "Virtual") return `<div><span class="ic">💻</span><span>Virtual</span></div>`;
+  if (e.modalidad === "Internacional") return `<div><span class="ic">🌎</span><span>Internacional · se postula en línea</span></div>`;
+  const lugar = [e.lugar, e.distrito].filter(Boolean).filter((x, i, a) => a.indexOf(x) === i).join(" · ") || "Lima";
+  return `<div><span class="ic">📍</span><span>${esc(lugar)}</span></div>`;
+}
+function tarjeta(e) {
+  const d = clave(e);
   const fav = favs.has(e.id);
-  const cats = e.categorias.map(c => `<span class="cat">${(CATS[c] || {}).ico || ""} ${esc(c)}</span>`).join("")
+  const cats = (TIPOS[e.tipo] ? `<span class="cat tipo">${TIPOS[e.tipo]}</span>` : "")
+    + e.categorias.map(c => `<span class="cat">${(CATS[c] || {}).ico || ""} ${esc(c)}</span>`).join("")
     + (e.gratis === true ? `<span class="cat gratis">Gratis</span>` : "")
     + (esNuevo(e) ? `<span class="cat nuevo">Nuevo</span>` : "");
   const desc = (e.descripcion || "").trim();
+  const insignia = d ? `<div class="fecha ${e.cierre ? "cierre" : ""}"><b>${d.getDate()}</b><span>${e.cierre ? "cierra " : ""}${fMes.format(d).replace(".", "")}</span></div>`
+                     : `<div class="fecha"><b>?</b><span>plazo</span></div>`;
+  const accion = e.tipo === "evento" || !e.tipo ? "Inscribirme ↗" : e.tipo === "call for papers" ? "Ver convocatoria ↗" : "Postular ↗";
   return `<article class="card" data-id="${esc(e.id)}">
     <div class="img">${imagen(e)}
-      <div class="fecha"><b>${d.getDate()}</b><span>${fMes.format(d).replace(".", "")}</span></div>
+      ${insignia}
       <span class="fuente">${esc(e.fuente)}</span>
       ${esTop(e) ? `<span class="top">⭐ Para ti</span>` : ""}
     </div>
@@ -329,14 +392,14 @@ function tarjeta(e) {
       <div class="cats">${cats}</div>
       <h3>${esc(e.titulo)}</h3>
       <div class="datos">
-        <div><span class="ic">🕒</span><span>${fDia.format(d)}, ${fHora.format(d)}${fin}</span></div>
-        <div><span class="ic">${e.modalidad === "Virtual" ? "💻" : "📍"}</span><span>${esc(e.modalidad === "Virtual" ? "Virtual" : [e.lugar, e.distrito].filter(Boolean).filter((x, i, a) => a.indexOf(x) === i).join(" · ") || "Lima")}</span></div>
+        ${cuandoTexto(e)}
+        ${dondeTexto(e)}
         ${e.organizador ? `<div><span class="ic">👥</span><span>${esc(e.organizador)}</span></div>` : ""}
       </div>
       ${desc ? `<p class="desc">${esc(desc)}</p>${desc.length > 220 ? `<button class="mas" data-a="mas">Leer más</button>` : ""}` : ""}
       <div class="acciones">
-        <a class="btn inscribir" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">Inscribirme ↗</a>
-        <a class="btn sec" href="${gcal(e)}" target="_blank" rel="noopener" title="Agregar a Google Calendar">📅 Agendar</a>
+        <a class="btn inscribir" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">${accion}</a>
+        ${d ? `<a class="btn sec" href="${gcal(e)}" target="_blank" rel="noopener" title="Agregar a Google Calendar">📅 Agendar</a>` : ""}
         <button class="btn sec icono ${fav ? "on" : ""}" data-a="fav" title="${fav ? "Quitar de guardados" : "Guardar"}" aria-label="Guardar">${fav ? "🔖" : "🏷️"}</button>
       </div>
       <div class="origen">
@@ -347,19 +410,48 @@ function tarjeta(e) {
   </article>`;
 }
 
+// ---------- Archivo: lo que no pasó el filtro, agrupado por motivo (nada se borra)
+function pintarArchivo(cont) {
+  const q = sinTildes(st.q.trim());
+  const lista = archivo.filter(e => !q || q.split(/\s+/).every(w =>
+    sinTildes([e.titulo, e.descripcion, e.fuente, e.motivo, e.organizador].join(" ")).includes(w)));
+  const grupos = {};
+  lista.forEach(e => (grupos[e.motivo.replace(/\s*\(.*\)$/, "")] ||= []).push(e));
+  const orden = Object.entries(grupos).sort((a, b) => b[1].length - a[1].length);
+  let html = `<h2 class="seccion">🗄️ Archivo <small>${lista.length} que no pasaron el filtro</small></h2>
+    <div class="aviso-archivo">Aquí queda todo lo que el radar encontró pero no puso en la lista principal, con el motivo. Nada se borra: si algo te interesa, entra al enlace. <a href="#" data-a="salir-archivo">← Volver a la lista</a></div>`;
+  if (!lista.length) html += `<div class="vacio" style="margin-top:14px"><b>🔍</b>Nada en el Archivo con esa búsqueda.</div>`;
+  for (const [motivo, items] of orden) {
+    html += `<details class="grupo" ${q || orden.length === 1 ? "open" : ""}><summary><span>${esc(motivo.replace(/^./, c => c.toUpperCase()))}</span><span class="n">${items.length}</span></summary>`
+      + items.map(e => {
+        const d = e.inicio ? new Date(e.inicio) : null;
+        return `<div class="fila-arch"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.titulo)}</a>
+          <span class="f">${esc(e.fuente)}</span>
+          <span class="meta">${d ? fDiaCorto.format(d) + " · " : ""}${esc(e.motivo)}${e.organizador ? " · " + esc(e.organizador) : ""}</span></div>`;
+      }).join("") + `</details>`;
+  }
+  cont.innerHTML = html;
+}
+
 function render() {
-  const {q, ...resto} = st; guardar("radar-filtros-v2", resto);
+  const {q, archivo: _a, ...resto} = st; guardar("radar-filtros-v2", resto);
   pintarFiltros(); pintarRecomendados();
-  const lista = filtrar(false), cont = $("#lista");
+  const cont = $("#lista");
   if (!DATOS) { cont.innerHTML = `<div class="vacio"><b>⏳</b>Todavía no hay datos. Vuelve en unos minutos.</div>`; return; }
-  if (!lista.length) { cont.innerHTML = `<h2 class="seccion">Eventos</h2><div class="vacio"><b>🔍</b>No hay eventos con esos filtros. Prueba con “Todo” o quita alguna área.</div>`; return; }
-  let html = `<h2 class="seccion">Todos los eventos <small>${lista.length} encontrados</small></h2>`, dia = "", abierto = false;
+  if (st.archivo) { pintarArchivo(cont); return; }
+  const lista = filtrar(false);
+  if (!lista.length) { cont.innerHTML = `<h2 class="seccion">Oportunidades</h2><div class="vacio"><b>🔍</b>No hay nada con esos filtros. Prueba con “Todo”, quita alguna área o mira el Archivo.</div>`; return; }
+  let html = `<h2 class="seccion">Todas las oportunidades <small>${lista.length} encontradas</small></h2>`, dia = "", abierto = false;
   for (const e of lista) {
-    const d = new Date(e.inicio), k = d.toDateString();
+    const d = clave(e), k = d ? d.toDateString() : "sin-plazo";
     if (k !== dia) {
       if (abierto) html += `</div>`;
-      const r = relativo(d);
-      html += `<div class="dia">${fDia.format(d).replace(/^./, c => c.toUpperCase())}${r ? `<span class="rel">${r}</span>` : ""}</div><div class="grid">`;
+      if (d) {
+        const r = relativo(d);
+        html += `<div class="dia">${fDia.format(d).replace(/^./, c => c.toUpperCase())}${r ? `<span class="rel">${r}</span>` : ""}</div><div class="grid">`;
+      } else {
+        html += `<div class="dia">Convocatorias abiertas sin fecha límite publicada<span class="rel">revisa el plazo en la fuente</span></div><div class="grid">`;
+      }
       dia = k; abierto = true;
     }
     html += tarjeta(e);
@@ -371,15 +463,15 @@ function render() {
 if (DATOS) {
   const min = Math.round((ahora - act) / 6e4);
   $("#estado-act").textContent = "Actualizado " + (min < 60 ? `hace ${Math.max(min, 1)} min` : `hace ${Math.round(min / 60)} h`) + " · se renueva cada 3 h";
-  const semana = eventos.filter(e => new Date(e.inicio) - ahora < 7 * 864e5).length;
-  const gratis = eventos.filter(e => e.gratis === true).length;
-  $("#cifras").innerHTML = `<div><b>${eventos.length}</b>eventos próximos</div><div><b>${semana}</b>esta semana</div>
-    <div><b>${eventos.filter(esTop).length}</b>para ti</div><div><b>${gratis}</b>gratis confirmados</div>`;
+  const semana = eventos.filter(e => { const d = clave(e); return d && d - ahora < 7 * 864e5; }).length;
+  const convocatorias = eventos.filter(e => e.tipo && e.tipo !== "evento").length;
+  $("#cifras").innerHTML = `<div><b>${eventos.length - convocatorias}</b>eventos</div><div><b>${convocatorias}</b>convocatorias abiertas</div>
+    <div><b>${semana}</b>esta semana</div><div><b>${eventos.filter(esTop).length}</b>para ti</div><div><b>${archivo.length}</b>en el Archivo</div>`;
   const f = DATOS.fuentes || {};
   $("#lista-fuentes").innerHTML = Object.entries(f).map(([k, v]) => {
     const i = FUENTES_INFO[k] || {};
-    const n = eventos.filter(e => e.fuente === k).length;
-    return `<div class="f-item"><b>${esc(k)} <span class="estado ${v.ok ? "" : "caida"}">${v.ok ? n + " eventos" : "sin respuesta"}</span></b>
+    const n = eventos.filter(e => e.fuente === k).length, na = archivo.filter(e => e.fuente === k).length;
+    return `<div class="f-item"><b>${esc(k)} <span class="estado ${v.ok ? "" : "caida"}">${v.ok ? n + " en lista" + (na ? ` · ${na} arch.` : "") : "sin respuesta"}</span></b>
       <p>${esc(i.txt || "")}</p>${i.url ? `<a href="${i.url}" target="_blank" rel="noopener">Ver en ${esc(k)} ↗</a>` : ""}</div>`;
   }).join("");
 }
@@ -392,6 +484,7 @@ if (location.protocol.startsWith("http")) {
 
 $("#lista").addEventListener("click", ev => {
   const b = ev.target.closest("[data-a]"); if (!b) return;
+  if (b.dataset.a === "salir-archivo") { ev.preventDefault(); st.archivo = false; render(); return; }
   const card = b.closest(".card"), id = card.dataset.id;
   if (b.dataset.a === "mas") {
     const p = card.querySelector(".desc"); p.classList.toggle("abierta");

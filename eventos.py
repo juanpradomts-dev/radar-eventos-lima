@@ -1,11 +1,13 @@
-"""eventos.py — Radar de eventos en Lima que SUMAN (no conciertos ni fiestas).
+"""eventos.py — Radar de Oportunidades: eventos en Lima y convocatorias que SUMAN (no conciertos ni fiestas).
 
-Recolecta eventos de Luma, Eventbrite, Meetup (iCal por grupo) y PUCP (fuentes públicas,
-sin login, respetando robots.txt),
-los clasifica por categoría (Tecnología/IA, Datos, Ingeniería y operaciones,
-Negocios, Investigación, Habilidades, Idiomas y becas, Competencias), descarta
-lo recreativo y puntúa cada uno según el perfil de JP. Genera:
-  eventos.json      datos normalizados + historial de "vistos"
+Recolecta de Luma, Eventbrite, Meetup (iCal por grupo), PUCP y, desde fuentes_extra.py, Devpost
+(hackathons), WikiCFP (calls for papers), Opportunity Desk (becas y programas), Opportunities for
+Youth (voluntariado) y TEDx. Todas públicas, sin login y respetando robots.txt.
+Clasifica por categoría (Tecnología/IA, Datos, Ingeniería y operaciones, Negocios, Investigación,
+Habilidades, Idiomas y becas, Competencias, Voluntariado) y puntúa según el perfil de JP.
+NADA SE DESCARTA: lo que no pasa el filtro (recreativo, vencido, fuera del Perú…) va al Archivo
+de la página con su motivo. Genera:
+  eventos.json      datos normalizados + Archivo + historial de "vistos"
   site/index.html   página autocontenida
 
 La página se recarga sola cada 15 min; el refresco lo hace la GitHub Action
@@ -31,6 +33,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
+
+import fuentes_extra
 
 RAIZ = Path(__file__).resolve().parent
 CARPETA = RAIZ / "site"
@@ -115,6 +119,8 @@ CATEGORIAS = {
     "Competencias y hackathons": r"\b(hackathon|hackaton|datathon|datafest|game jam|ideathon|"
                                  r"concurso|competencia|challenge|olimpiada|reto|premiacion|demo ?day|"
                                  r"showcase)\b",
+    "Voluntariado e impacto social": r"\b(voluntari\w+|volunteer\w*|impacto social|ods|sdg\w*|ong|ngo|"
+                                     r"comunidad\w*|social impact|humanitari\w+|youth advisory)\b",
 }
 FORMATO = r"\b(taller|workshop|conferencia|charla|seminario|meetup|summit|congreso|foro|panel|" \
           r"conversatorio|bootcamp|curso|clase modelo|masterclass|webinar|simposio|keynote|" \
@@ -146,25 +152,31 @@ PERFIL = {
 TOP = 8  # puntaje desde el que un evento es "Top para ti"
 
 
-def clasificar(ev):
-    """Devuelve (categorías, puntaje) o (None, 0) si el evento no suma."""
-    titulo = norm(ev["titulo"])
-    texto = f"{titulo} {norm(ev.get('descripcion', ''))[:1500]} {norm(' '.join(ev.get('etiquetas', [])))}"
-    # El título manda para excluir: una charla de IA que menciona "coffee break" no se descarta.
-    if re.search(EXCLUIR, titulo):
-        return None, 0
-    cats = [c for c, rx in CATEGORIAS.items() if re.search(rx, titulo)]
-    if not cats and ev.get("cats_fuente"):  # la fuente ya trae área temática confiable (PUCP)
-        cats = ev["cats_fuente"]
-    if not cats:  # respaldo: descripción, pero exigiendo formato formativo en el título o texto
-        cats = [c for c, rx in CATEGORIAS.items() if len(re.findall(rx, texto)) >= 2]
-        if not cats or not re.search(FORMATO, texto):
-            return None, 0
+def _puntaje(titulo, texto):
     puntos = sum(p for rx, p in PERFIL.items() if re.search(rx, texto))
     puntos += 2 * sum(1 for rx in PERFIL if re.search(rx, titulo))  # afinidad en el título pesa más
     if re.search(FORMATO, titulo):
         puntos += 1
-    return cats, puntos
+    return puntos
+
+
+def clasificar(ev):
+    """Devuelve (categorías, puntaje, motivo). Si no suma, categorías = [] y `motivo` dice por qué
+    (el evento va al Archivo, no se borra)."""
+    titulo = norm(ev["titulo"])
+    texto = f"{titulo} {norm(ev.get('descripcion', ''))[:1500]} {norm(' '.join(ev.get('etiquetas', [])))}"
+    # El título manda para excluir: una charla de IA que menciona "coffee break" no se descarta.
+    m = re.search(EXCLUIR, titulo)
+    if m:
+        return [], _puntaje(titulo, texto), f"recreativo o de venta ({m.group(0)})"
+    cats = [c for c, rx in CATEGORIAS.items() if re.search(rx, titulo)]
+    if not cats and ev.get("cats_fuente"):  # la fuente ya trae área temática confiable (PUCP, Devpost…)
+        cats = ev["cats_fuente"]
+    if not cats:  # respaldo: descripción, pero exigiendo formato formativo en el título o texto
+        cats = [c for c, rx in CATEGORIAS.items() if len(re.findall(rx, texto)) >= 2]
+        if not cats or not re.search(FORMATO, texto):
+            return [], _puntaje(titulo, texto), "no encaja en ningún área formativa"
+    return cats, _puntaje(titulo, texto), None
 
 
 # ---------------------------------------------------------------- fuentes
@@ -195,8 +207,7 @@ def luma(limite):
         for e in j.get("entries", []):
             ev = e.get("event", {})
             g = ev.get("geo_address_info") or {}
-            if g.get("country_code") not in (None, "PE"):
-                continue
+            fuera = g.get("country_code") not in (None, "PE")
             ini = _parse(ev.get("start_at"))
             tickets = e.get("ticket_info") or {}
             out.append({
@@ -215,6 +226,7 @@ def luma(limite):
                 "inscripcion": "https://lu.ma/" + ev.get("url", ""),
                 "fuente_url": "https://lu.ma/lima",
                 "_luma_id": ev.get("api_id", ""),
+                "_motivo": f"fuera del Perú ({g.get('country') or g.get('country_code')})" if fuera else None,
             })
             if ini and ini > limite:
                 return out
@@ -346,9 +358,8 @@ def meetup(limite):
                 desc = desc[len(grupo):].lstrip("\n ")
             lugar = str(ve.get("LOCATION", "") or "")
             online = not lugar and bool(re.search(VIRTUAL, norm(titulo + " " + desc[:600])))
-            # un online solo entra si está en español o cita Perú (misma regla que antes)
-            if online and not _local(titulo + " " + desc[:400]):
-                continue
+            # un online solo va a la lista si está en español o cita Perú; si no, al Archivo
+            fuera = online and not _local(titulo + " " + desc[:400])
             url = str(ve.get("URL", "") or "")
             uid = str(ve.get("UID", "")) or f"{g}:{titulo}:{ini.isoformat()}"
             out[uid] = {
@@ -366,6 +377,7 @@ def meetup(limite):
                 "imagen": "",
                 "inscripcion": url,
                 "fuente_url": url_cal,
+                "_motivo": "virtual en otro idioma y sin relación con el Perú" if fuera else None,
             }
     if errores and len(errores) == len(GRUPOS_MEETUP):
         raise RuntimeError("todos los grupos fallaron: " + "; ".join(errores)[:120])
@@ -390,8 +402,6 @@ def pucp(limite):
     for edge in r.json()["result"]["data"]["allApiExternaEventosNext"]["edges"]:
         n = edge["node"]
         tipo = (n.get("tipo_evento") or {}).get("Nombre", "")
-        if tipo in TIPOS_FUERA_PUCP:
-            continue
         # Próxima ocurrencia: días específicos (Fecha + hora local) o rangos cortos.
         # Rangos largos (exposiciones, podcasts de meses) no son "un evento al que ir".
         ocurrencias = []
@@ -434,6 +444,7 @@ def pucp(limite):
             "inscripcion": "https://agenda.pucp.edu.pe/evento/" + n["slug"] + "/",
             "fuente_url": "https://agenda.pucp.edu.pe/",
             "_pucp_slug": n["slug"],
+            "_motivo": f"tipo de evento no formativo ({tipo})" if tipo in TIPOS_FUERA_PUCP else None,
         })
     return out
 
@@ -511,13 +522,29 @@ def manuales(limite):
     return out
 
 
-FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Meetup": meetup, "PUCP": pucp, "Redes (manual)": manuales}
+FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Meetup": meetup, "PUCP": pucp,
+           **fuentes_extra.fuentes(get), "Redes (manual)": manuales}
+# Convocatorias, becas y calls for papers se anuncian con meses de anticipación: horizonte más largo.
+TIPOS_CON_PLAZO = {"convocatoria", "voluntariado"}
+DIAS_CONVOCATORIAS = 365
 
 
 # ---------------------------------------------------------------- pipeline
+def _limpiar_desc(ev, largo):
+    ev["descripcion"] = re.sub(r"[*_#`\\]+", "", ev.get("descripcion") or "")
+    ev["descripcion"] = re.sub(r"\n{3,}", "\n\n", ev["descripcion"]).strip()[:largo]
+    for k in [k for k in ev if k.startswith("_") or k in ("etiquetas", "cats_fuente")]:
+        ev.pop(k)
+    return ev
+
+
 def recolectar(dias):
+    """Devuelve (eventos, archivo, estado, revisados). Nada se descarta: lo que no pasa el filtro
+    va al archivo con su `motivo`. Solo quedan fuera los duplicados (ya están una vez) y lo que
+    todavía está más allá del horizonte (aparecerá cuando se acerque)."""
     ahora = datetime.now(LIMA)
     limite = ahora + timedelta(days=dias)
+    limite_largo = ahora + timedelta(days=max(dias, DIAS_CONVOCATORIAS))
     crudos, estado = [], {}
     for nombre, f in FUENTES.items():
         try:
@@ -530,37 +557,56 @@ def recolectar(dias):
             estado[nombre] = {"ok": True, "n": len(lote)}
         except Exception as e:  # una fuente caída no tumba el radar
             estado[nombre] = {"ok": False, "n": 0, "error": str(e)[:160]}
-    vistos, eventos = set(), []
+    vistos, eventos, archivo = set(), [], []
     for ev in crudos:
+        if not ev.get("titulo"):
+            continue
+        tipo = ev.setdefault("tipo", "evento")
+        ev.setdefault("cierre", "")
         ini = _parse(ev["inicio"])
         fin = _parse(ev["fin"]) or ini
-        if not ini or fin < ahora or ini > limite or not ev["titulo"]:
-            continue
+        cierre = _parse(ev["cierre"])
         clave = (re.sub(r"[^a-z0-9]", "", norm(ev["titulo"]))[:40], ev["inicio"][:10])
         if clave in vistos:
             continue
-        cats, puntos = clasificar(ev)
-        if not cats and ev.get("_manual"):
-            cats, puntos = ev["cats_fuente"], clasificar(dict(ev, cats_fuente=["_"]))[1]
-        if not cats:
+        motivo = ev.get("_motivo")
+        if not motivo and tipo not in TIPOS_CON_PLAZO:
+            if not ini:
+                motivo = "sin fecha"
+            elif fin < ahora:
+                motivo = "ya pasó"
+        # Más allá del horizonte todavía no toca mostrarlo (no es un descarte: aparecerá luego).
+        referencia = cierre if tipo in TIPOS_CON_PLAZO else ini
+        tope = limite if tipo == "evento" else limite_largo
+        if not motivo and referencia and referencia > tope:
             continue
+        cats, puntos, motivo_clasif = clasificar(ev)
+        if not cats and ev.get("_manual"):
+            cats, motivo_clasif = ev["cats_fuente"], None
+        motivo = motivo or motivo_clasif
         vistos.add(clave)
         ev["categorias"], ev["puntaje"] = cats, puntos
-        ev.pop("etiquetas", None)
-        ev.pop("cats_fuente", None)
-        eventos.append(ev)
+        if motivo:
+            ev["motivo"] = motivo
+            archivo.append(ev)
+        else:
+            eventos.append(ev)
     with ThreadPoolExecutor(8) as pool:
         eventos = list(pool.map(enriquecer, eventos))
-    for ev in eventos:
-        ev["descripcion"] = re.sub(r"[*_#`\\]+", "", ev["descripcion"])
-        ev["descripcion"] = re.sub(r"\n{3,}", "\n\n", ev["descripcion"]).strip()[:700]
-        for k in [k for k in ev if k.startswith("_")]:
-            ev.pop(k)
-    eventos.sort(key=lambda e: e["inicio"])
-    return eventos, estado, len(crudos)
+    eventos = [_limpiar_desc(ev, 700) for ev in eventos]
+    archivo = [_limpiar_desc(ev, 300) for ev in archivo]  # más corto: el archivo es para consultar
+    eventos.sort(key=lambda e: e["cierre"] or e["inicio"])
+    archivo.sort(key=lambda e: (e["motivo"], e["inicio"]))
+    return eventos, archivo, estado, len(crudos)
 
 
-def guardar(eventos, estado, total):
+def _vigente(e, hoy):
+    if e.get("tipo") in TIPOS_CON_PLAZO and not e.get("cierre"):
+        return True
+    return (e.get("cierre") or e.get("fin") or e["inicio"]) >= hoy
+
+
+def guardar(eventos, archivo, estado, total):
     previo = {}
     try:
         previo = json.loads(DATOS.read_text(encoding="utf-8"))
@@ -574,8 +620,10 @@ def guardar(eventos, estado, total):
     if caidas:
         ids = {e["id"] for e in eventos}
         eventos += [e for e in previo.get("eventos", []) if e["fuente"] in caidas
-                    and e["id"] not in ids and e["inicio"] >= ahora[:10]]
-        eventos.sort(key=lambda e: e["inicio"])
+                    and e["id"] not in ids and _vigente(e, ahora[:10])]
+        eventos.sort(key=lambda e: e.get("cierre") or e["inicio"])
+        ids_arch = {e["id"] for e in archivo}
+        archivo += [e for e in previo.get("archivo", []) if e["fuente"] in caidas and e["id"] not in ids_arch]
     for ev in eventos:
         primera_vez.setdefault(ev["id"], ahora)
         ev["visto_desde"] = primera_vez[ev["id"]]
@@ -583,7 +631,7 @@ def guardar(eventos, estado, total):
     vivos = {e["id"] for e in eventos}
     primera_vez = {k: v for k, v in primera_vez.items() if k in vivos}
     datos = {"actualizado": ahora, "fuentes": estado, "revisados": total,
-             "eventos": eventos, "primera_vez": primera_vez}
+             "eventos": eventos, "archivo": archivo, "primera_vez": primera_vez}
     DATOS.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
     return datos
 
@@ -601,10 +649,17 @@ def generar_ics(eventos, nombre, ruta):
               "X-WR-TIMEZONE:America/Lima", "REFRESH-INTERVAL;VALUE=DURATION:PT3H",
               "X-PUBLISHED-TTL:PT3H"]
     for e in eventos:
-        fin = e["fin"] or _iso(_parse(e["inicio"]) + timedelta(hours=2))
+        titulo, ini, fin = e["titulo"], e["inicio"], e["fin"] or _iso(_parse(e["inicio"]) + timedelta(hours=2))
+        if e.get("cierre"):  # convocatorias y hackathons: en el calendario va el cierre, no un bloque de semanas
+            titulo, ini, fin = "Cierra: " + titulo, _iso(_parse(e["cierre"]) - timedelta(hours=1)), e["cierre"]
+        elif e.get("tipo") in TIPOS_CON_PLAZO:
+            continue  # sin fecha límite publicada no hay nada que agendar
+        elif e.get("tipo") == "call for papers":
+            titulo = "Congreso (CFP): " + titulo
+        # UID con el sufijo de siempre: así los calendarios ya suscritos no duplican eventos.
         lineas += ["BEGIN:VEVENT", f"UID:{re.sub(r'[^A-Za-z0-9:_-]', '', e['id'])}@radar-eventos-lima",
-                   f"DTSTAMP:{sello}", f"DTSTART:{utc(e['inicio'])}", f"DTEND:{utc(fin)}",
-                   f"SUMMARY:{_ics_texto(e['titulo'])}",
+                   f"DTSTAMP:{sello}", f"DTSTART:{utc(ini)}", f"DTEND:{utc(fin)}",
+                   f"SUMMARY:{_ics_texto(titulo)}",
                    f"LOCATION:{_ics_texto(e['lugar'] or e['modalidad'])}",
                    f"DESCRIPTION:{_ics_texto(' · '.join(e['categorias']) + chr(10) + e['url'])}",
                    f"URL:{e['url']}", "END:VEVENT"]
@@ -628,15 +683,15 @@ def generar_html(datos):
     publico = {k: v for k, v in datos.items() if k != "primera_vez"}
     js = json.dumps(publico, ensure_ascii=False).replace("</", "<\\/")
     PAGINA.write_text(plantilla.replace("/*__DATOS__*/null", js), encoding="utf-8")
-    generar_ics(datos["eventos"], "Radar Lima · todos", CARPETA / "eventos.ics")
+    generar_ics(datos["eventos"], "Radar de Oportunidades · todo", CARPETA / "eventos.ics")
     generar_ics([e for e in datos["eventos"] if e["puntaje"] >= TOP],
-                "Radar Lima · Top para ti", CARPETA / "top.ics")
+                "Radar de Oportunidades · Para ti", CARPETA / "top.ics")
     (CARPETA / "eventos.json").write_text(js, encoding="utf-8")
     return PAGINA
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Radar de eventos formativos en Lima")
+    ap = argparse.ArgumentParser(description="Radar de Oportunidades: eventos en Lima y convocatorias que suman")
     ap.add_argument("--dias", type=int, default=60)
     ap.add_argument("--abrir", action="store_true")
     ap.add_argument("--solo-html", action="store_true")
@@ -644,10 +699,11 @@ def main():
     if a.solo_html:
         datos = json.loads(DATOS.read_text(encoding="utf-8"))
     else:
-        eventos, estado, total = recolectar(a.dias)
-        datos = guardar(eventos, estado, total)
+        eventos, archivo, estado, total = recolectar(a.dias)
+        datos = guardar(eventos, archivo, estado, total)
         fuentes = ", ".join(f"{k} {v['n']}" + ("" if v["ok"] else " (FALLÓ)") for k, v in estado.items())
-        print(f"[radar] {len(datos['eventos'])} eventos que suman (de {total} revisados) · {fuentes}")
+        print(f"[radar] {len(datos['eventos'])} en la lista · {len(datos['archivo'])} en el Archivo "
+              f"(de {total} revisados) · {fuentes}")
     ruta = generar_html(datos)
     print(ruta)
     if a.abrir:
