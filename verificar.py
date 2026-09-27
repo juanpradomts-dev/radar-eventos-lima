@@ -129,8 +129,13 @@ def revisar_evento(e, ahora):
         corrige("fin", "", "la hora de término era anterior al inicio")
         fin = None
     todo_el_dia = ini and ini.hour == 0 and ini.minute == 0
-    if ini and fin and fin.date() == ini.date() and fin - ini > timedelta(hours=12) and not todo_el_dia:
-        corrige("fin", "", f"hora de término no creíble ({ini:%H:%M}–{fin:%H:%M})")
+    if ini and fin and fin.date() == ini.date() and not todo_el_dia:
+        fin_local = fin.astimezone(LIMA)
+        if fin - ini > timedelta(hours=12):
+            corrige("fin", "", f"hora de término no creíble ({ini:%H:%M}–{fin:%H:%M})")
+        elif fin_local.hour == 23 and fin_local.minute >= 45:
+            # SNI y otras webs rellenan el término con 23:50/23:59 cuando no lo saben
+            corrige("fin", "", f"hora de término de relleno ({fin_local:%H:%M})")
     if ini and not cierre and tipo not in CON_PLAZO and not todo_el_dia:
         loc = ini.astimezone(LIMA)
         if loc.minute % 5:

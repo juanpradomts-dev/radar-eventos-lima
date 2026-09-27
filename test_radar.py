@@ -344,6 +344,13 @@ class Verificacion(unittest.TestCase):
         self.assertEqual(e["original"]["fin"], "2026-09-29T23:50-05:00")
         self.assertEqual(e["modalidad"], "Virtual")  # "webinar" en el título
         self.assertTrue(any(n == "corregido" for n, _ in notas))
+        # 16:00–23:50 no pasa de 12 h, pero 23:50 es el relleno de SNI: tampoco se muestra
+        tarde = ev("Webinar: Gestión de sustancias químicas", inicio="2026-09-29T16:00-05:00", fin="2026-09-29T23:50-05:00")
+        verificar.revisar_evento(tarde, self.AHORA)
+        self.assertEqual(tarde["fin"], "")
+        normal = ev("Meetup de datos", inicio="2026-09-29T19:00-05:00", fin="2026-09-29T21:30-05:00")
+        verificar.revisar_evento(normal, self.AHORA)
+        self.assertEqual(normal["fin"], "2026-09-29T21:30-05:00")  # un término real no se toca
 
     def test_hora_poco_probable_queda_por_confirmar(self):
         e = ev("INFOPUCP Semana Modo IA", inicio="2026-09-28T10:18-05:00")
