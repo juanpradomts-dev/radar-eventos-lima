@@ -42,6 +42,8 @@ a{color:inherit}
   box-shadow:0 8px 24px rgba(0,0,0,.18);max-width:640px}
 .buscador input{flex:1;min-width:0;border:0;outline:0;font:inherit;padding:10px 12px;color:var(--texto);background:transparent}
 .buscador .lupa{padding:10px 6px 10px 10px;color:var(--gris)}
+.estado-mini{display:flex;align-items:center;gap:8px;margin:14px 0 0;font-size:13.5px;opacity:.85}
+.estado-mini .punto{width:8px;height:8px;border-radius:50%;background:#5BE3A8;box-shadow:0 0 0 3px rgba(91,227,168,.25)}
 .cifras{display:flex;gap:22px;flex-wrap:wrap;margin-top:18px;font-size:14px}
 .cifras b{font-size:22px;display:block;line-height:1.1}
 
@@ -61,7 +63,7 @@ a{color:inherit}
 .separador{flex:0 0 1px;background:var(--linea);margin:4px 4px}
 
 /* ---------- secciones */
-h2.seccion{font-size:20px;margin:30px 0 14px;color:var(--azul);font-weight:800;display:flex;align-items:baseline;gap:10px}
+h2.seccion{font-size:20px;margin:30px 0 14px;color:var(--azul);font-weight:800;display:flex;align-items:baseline;gap:2px 10px;flex-wrap:wrap}
 h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 .dia{font-size:15px;font-weight:800;color:var(--azul);margin:30px 0 12px;display:flex;align-items:center;gap:10px}
 .dia .rel{background:var(--naranja-suave);color:var(--naranja);border-radius:999px;padding:2px 10px;font-size:13px}
@@ -124,7 +126,7 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 .origen button:hover{color:var(--texto);text-decoration:underline}
 .vacio{text-align:center;color:var(--gris);padding:60px 16px;background:#fff;border-radius:18px;border:1px dashed var(--linea)}
 .vacio b{display:block;font-size:40px;margin-bottom:6px}
-.porque{font-size:12.5px;color:#6B4E00;background:#FFF8E6;border-radius:8px;padding:5px 9px;margin:0 0 10px;line-height:1.4}
+.porque{font-size:12.5px;color:var(--gris);margin:-4px 0 10px;line-height:1.4}
 .cargar{display:block;margin:22px auto 0;min-width:220px}
 .mini{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
 .mini a,.mini div.m{display:block;background:#fff;border:1px solid var(--linea);border-radius:14px;padding:12px 14px;
@@ -132,6 +134,10 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 .mini a:hover{border-color:var(--azul)}
 .mini b{display:block;font-size:15px;line-height:1.3;margin-bottom:4px}
 .mini span{color:var(--gris);font-size:13px}
+details.acerca{margin:0 0 20px}
+details.acerca summary{cursor:pointer;font-weight:800;color:var(--azul);font-size:16px;padding:6px 0}
+#mas-filtros{margin-top:6px}
+.chip.filtros-mas{border-style:dashed;font-weight:800}
 .aviso-seccion{font-size:13.5px;color:var(--gris);margin:-6px 0 12px}
 .fecha.cierre span{color:#B42318}
 .cat.tipo{background:#FFF7E6;color:#9A5B00}
@@ -170,38 +176,42 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
 
 <header class="hero">
   <div class="contenedor">
-    <span class="pastilla"><span class="punto"></span><span id="estado-act">Se actualiza solo cada 3 horas</span></span>
-    <h1>Radar de Oportunidades: <span>lo que te hace crecer</span></h1>
-    <p>Eventos en Lima (charlas, talleres, meetups, congresos) y convocatorias abiertas: hackathons, becas, calls for papers y voluntariados. Lo recreativo no se borra: queda en el Archivo con su motivo.</p>
+    <h1>Eventos y becas para <span>crecer como estudiante</span></h1>
+    <p>Charlas, talleres, hackathons y convocatorias en Lima, elegidos y actualizados solos. Elige uno y toca <b>Inscribirme</b>.</p>
     <label class="buscador">
       <span class="lupa" aria-hidden="true">🔎</span>
-      <input type="search" id="q" placeholder="Busca: supply chain, Python, becas, hackathon…" aria-label="Buscar oportunidades">
+      <input type="search" id="q" placeholder="¿Qué te interesa? Python, becas, logística…" aria-label="Buscar oportunidades">
     </label>
-    <div class="cifras" id="cifras"></div>
+    <p class="estado-mini"><span class="punto"></span><span id="estado-act">Se actualiza cada 3 horas</span></p>
   </div>
 </header>
 
 <nav class="filtros" aria-label="Filtros">
   <div class="contenedor">
     <div class="fila" id="f-cuando"></div>
-    <div class="fila" id="f-cat"></div>
+    <div id="mas-filtros" hidden>
+      <div class="fila" id="f-extra"></div>
+      <div class="fila" id="f-cat"></div>
+    </div>
   </div>
 </nav>
 
 <main class="contenedor">
   <section id="recomendados"></section>
+  <section id="lista"></section>
   <section id="se-viene"></section>
   <section id="por-confirmar"></section>
-  <section id="lista"></section>
 </main>
 
 <footer class="fuentes">
   <div class="contenedor">
-    <h2 class="seccion">¿De dónde sale esta información?</h2>
+    <details class="acerca"><summary>¿De dónde sale esta información y cómo se ordena?</summary>
     <p class="como">Cada 3 horas un programa revisa estas plataformas públicas (sin iniciar sesión y respetando sus reglas para robots). En la lista principal quedan los eventos de Lima o virtuales de organizadores peruanos, y las convocatorias abiertas (hackathons en línea, becas, calls for papers, voluntariados). <b>Nada se descarta:</b> lo recreativo (conciertos, fiestas, cócteles, ventas), lo vencido o lo presencial fuera del Perú pasa al <b>Archivo</b> con el motivo, por si quieres revisarlo. Cada tarjeta enlaza a la página original, donde está la información oficial y la inscripción.</p>
     <div class="lista-fuentes" id="lista-fuentes"></div>
     <p class="como"><b>¿Viste un evento en Instagram o LinkedIn que no aparece?</b> Esas redes exigen iniciar sesión y prohíben la lectura automática, así que se agregan a mano en <code>manuales.json</code> y salen aquí con la etiqueta de la red.</p>
     <p class="como"><b>¿Cómo se ordena?</b> Cada oportunidad suma un <b>valor general</b>, igual para cualquier estudiante: formativo > networking > recreativo, más puntos si es presencial en Lima, gratis, con certificado o premio, organizada por una universidad, gremio o empresa reconocida, o con plazo claro; resta si parece venta o trae poca información. Encima se suma la <b>afinidad personal</b> de <code>perfil.json</code> (editable). La línea ✨ de cada tarjeta dice por qué aparece.</p>
+    </details>
+    <h2 class="seccion">📅 Llévalo a tu calendario</h2>
     <div class="suscribir" id="suscribir"></div>
   </div>
 </footer>
@@ -254,13 +264,14 @@ const fDia = F({weekday: "long", day: "numeric", month: "long"}), fHora = F({hou
 
 const st = Object.assign({cuando: "30", cats: [], top: false, gratis: false, presencial: false, guardados: false},
   leer("radar-filtros-v2", {}));
-st.q = ""; st.archivo = false;
+st.q = ""; st.archivo = false; st.mas = !!(st.cats && st.cats.length) || st.cuando === "0" || !!st.top;
 const PAGINA = 20; let limite = PAGINA;
 const favs = new Set(leer("radar-favs", []));
 const ocultos = new Set(leer("radar-ocultos", []));
 const TOP = (DATOS && DATOS.top) || 55;
 const CON_PERFIL = !DATOS || DATOS.perfil !== false;
-const ETQ_TOP = CON_PERFIL ? "⭐ Para ti" : "⭐ Destacado";
+// La página es pública: "Para ti" confunde a quien no es el dueño del perfil.
+const ETQ_TOP = "⭐ Destacado";
 const esTop = e => e.puntaje >= TOP;
 const primera = eventos.reduce((m, e) => e.visto_desde < m ? e.visto_desde : m, "9999");
 const esNuevo = e => e.visto_desde > primera && (act - new Date(e.visto_desde)) < 36 * 3600e3;
@@ -321,19 +332,26 @@ function chip(cont, html, on, fn, extra = "") {
   cont.appendChild(b);
 }
 function pintarFiltros() {
+  // Fila principal: solo lo que un visitante nuevo entiende al instante. El resto, en "Más filtros".
   const c1 = $("#f-cuando"); c1.innerHTML = "";
-  [["0", "Hoy"], ["7", "Esta semana"], ["30", "Este mes"], ["todo", "Todo"]].forEach(([v, l]) =>
+  const activos = (st.cuando === "0") + !!st.top + st.cats.length + !!st.archivo;
+  chip(c1, `⚙️ Filtros${activos ? `<span class="n">${activos}</span>` : ""} ${st.mas ? "▴" : "▾"}`, st.mas,
+       () => { st.mas = !st.mas; render(); }, "filtros-mas");
+  [["7", "Esta semana"], ["30", "Este mes"], ["todo", "Todo"]].forEach(([v, l]) =>
     chip(c1, l, st.cuando === v, () => { st.cuando = v; render(); }));
   c1.insertAdjacentHTML("beforeend", '<span class="separador"></span>');
-  chip(c1, ETQ_TOP, st.top, () => { st.top = !st.top; render(); }, "naranja");
   chip(c1, "🆓 Gratis", st.gratis, () => { st.gratis = !st.gratis; render(); }, "naranja");
   chip(c1, "📍 Presencial", st.presencial, () => { st.presencial = !st.presencial; render(); }, "naranja");
   chip(c1, `🔖 Guardados<span class="n">${favs.size}</span>`, st.guardados, () => { st.guardados = !st.guardados; render(); }, "naranja");
-  if (ocultos.size) chip(c1, `Restaurar ocultos (${ocultos.size})`, false, () => { ocultos.clear(); guardar("radar-ocultos", []); render(); });
-  c1.insertAdjacentHTML("beforeend", '<span class="separador"></span>');
-  chip(c1, `🗄️ Archivo<span class="n">${archivo.length}</span>`, st.archivo, () => { st.archivo = !st.archivo; render(); window.scrollTo({top: 0}); });
 
+  $("#mas-filtros").hidden = !st.mas;
+  const cx = $("#f-extra"); cx.innerHTML = "";
   const c2 = $("#f-cat"); c2.innerHTML = "";
+  if (!st.mas) return;
+  chip(cx, "Hoy", st.cuando === "0", () => { st.cuando = st.cuando === "0" ? "30" : "0"; render(); });
+  chip(cx, ETQ_TOP, st.top, () => { st.top = !st.top; render(); }, "naranja");
+  chip(cx, `🗄️ Lo descartado (Archivo)<span class="n">${archivo.length}</span>`, st.archivo, () => { st.archivo = !st.archivo; render(); window.scrollTo({top: 0}); });
+  if (ocultos.size) chip(cx, `Restaurar ocultos (${ocultos.size})`, false, () => { ocultos.clear(); guardar("radar-ocultos", []); render(); });
   if (st.archivo) return;  // en el Archivo no aplican las áreas
   const cont = {};
   filtrar(true).forEach(e => e.categorias.forEach(c => cont[c] = (cont[c] || 0) + 1));
@@ -351,7 +369,7 @@ function pintarRecomendados() {
   const porId = Object.fromEntries(eventos.map(e => [e.id, e]));
   const sel = ((DATOS && DATOS.recomendados) || []).map(i => porId[i]).filter(e => e && !ocultos.has(e.id));
   if (filtrando || !sel.length) { cont.innerHTML = ""; return; }
-  cont.innerHTML = `<h2 class="seccion">⭐ Recomendados <small>lo que más aporta, balanceado: máx. 3 por tipo y eventos presenciales en Lima</small></h2>
+  cont.innerHTML = `<h2 class="seccion">⭐ Lo más recomendado <small>lo que más te suma en los próximos días</small></h2>
     <div class="carrusel">` + sel.map(e => {
       const d = clave(e);
       const cuando = e.cierre ? `Cierra ${fDiaCorto.format(d)}` : `${fDiaCorto.format(d)} · ${fHora.format(d)}`;
@@ -368,13 +386,13 @@ function pintarExtras() {
   const filtrando = st.q || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.archivo;
   const sv = (DATOS && DATOS.se_viene) || [], pc = (DATOS && DATOS.por_confirmar) || [];
   $("#se-viene").innerHTML = filtrando || !sv.length ? "" :
-    `<h2 class="seccion">🗓️ Se viene <small>eventos anuales cuya fecha aún no se publica</small></h2>
+    `<h2 class="seccion">🗓️ Se viene <small>grandes eventos anuales que se acercan</small></h2>
      <div class="mini">` + sv.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.nombre)}</b>
        <span>${esc(x.texto)} · ${esc(x.ciudad)}${x.dato ? " · " + esc(x.dato) : ""}</span></a>`).join("") + `</div>`;
   $("#por-confirmar").innerHTML = filtrando || !pc.length ? "" :
-    `<h2 class="seccion">🔎 Por confirmar <small>encontrado en noticias; revisa la fuente antes de agendar</small></h2>
+    `<details class="acerca"><summary>🔎 Visto en noticias, por confirmar (${pc.length})</summary>
      <div class="mini">` + pc.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow"><b>${esc(x.titulo)}</b>
-       <span>${esc(x.medio)}${x.fecha_mencionada ? " · menciona el " + fDiaCorto.format(new Date(x.fecha_mencionada)) : ""}</span></a>`).join("") + `</div>`;
+       <span>${esc(x.medio)}${x.fecha_mencionada ? " · menciona el " + fDiaCorto.format(new Date(x.fecha_mencionada)) : ""}</span></a>`).join("") + `</div></details>`;
 }
 
 // ---------- tarjeta
@@ -404,7 +422,7 @@ function tarjeta(e) {
   const d = clave(e);
   const fav = favs.has(e.id);
   const cats = (TIPOS[e.tipo] ? `<span class="cat tipo">${TIPOS[e.tipo]}</span>` : "")
-    + e.categorias.map(c => `<span class="cat">${(CATS[c] || {}).ico || ""} ${esc(c)}</span>`).join("")
+    + e.categorias.slice(0, 1).map(c => `<span class="cat">${(CATS[c] || {}).ico || ""} ${esc(c)}</span>`).join("")
     + (e.gratis === true ? `<span class="cat gratis">Gratis</span>` : "")
     + (esNuevo(e) ? `<span class="cat nuevo">Nuevo</span>` : "");
   const desc = (e.descripcion || "").trim();
@@ -420,7 +438,7 @@ function tarjeta(e) {
     <div class="cuerpo">
       <div class="cats">${cats}</div>
       <h3>${esc(e.titulo)}</h3>
-      ${e.por_que ? `<p class="porque" title="Por qué aparece aquí">✨ ${esc(e.por_que)}</p>` : ""}
+      ${e.por_que ? `<p class="porque" title="Por qué aparece aquí">✨ ${esc(e.por_que.split(" · ").slice(0, 3).join(" · "))}</p>` : ""}
       <div class="datos">
         ${cuandoTexto(e)}
         ${dondeTexto(e)}
@@ -467,14 +485,14 @@ function render() {
   if (render.firma !== JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.guardados, st.q, st.archivo])) {
     render.firma = JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.guardados, st.q, st.archivo]); limite = PAGINA;
   }
-  const {q, archivo: _a, ...resto} = st; guardar("radar-filtros-v2", resto);
+  const {q, archivo: _a, mas: _m, ...resto} = st; guardar("radar-filtros-v2", resto);
   pintarFiltros(); pintarRecomendados(); pintarExtras();
   const cont = $("#lista");
   if (!DATOS) { cont.innerHTML = `<div class="vacio"><b>⏳</b>Todavía no hay datos. Vuelve en unos minutos.</div>`; return; }
   if (st.archivo) { pintarArchivo(cont); return; }
   const lista = filtrar(false);
   if (!lista.length) { cont.innerHTML = `<h2 class="seccion">Oportunidades</h2><div class="vacio"><b>🔍</b>No hay nada con esos filtros. Prueba con “Todo”, quita alguna área o mira el Archivo.</div>`; return; }
-  let html = `<h2 class="seccion">Todas las oportunidades <small>${lista.length} encontradas</small></h2>`, dia = "", abierto = false;
+  let html = `<h2 class="seccion">Todas las oportunidades <small>${lista.length}, ordenadas por fecha</small></h2>`, dia = "", abierto = false;
   for (const e of lista.slice(0, limite)) {
     const d = clave(e), k = d ? d.toDateString() : "sin-plazo";
     if (k !== dia) {
@@ -498,11 +516,7 @@ function render() {
 // ---------- cabecera y pie
 if (DATOS) {
   const min = Math.round((ahora - act) / 6e4);
-  $("#estado-act").textContent = "Actualizado " + (min < 60 ? `hace ${Math.max(min, 1)} min` : `hace ${Math.round(min / 60)} h`) + " · se renueva cada 3 h";
-  const semana = eventos.filter(e => { const d = clave(e); return d && d - ahora < 7 * 864e5; }).length;
-  const convocatorias = eventos.filter(e => e.tipo && e.tipo !== "evento").length;
-  $("#cifras").innerHTML = `<div><b>${eventos.length - convocatorias}</b>eventos</div><div><b>${convocatorias}</b>convocatorias abiertas</div>
-    <div><b>${semana}</b>esta semana</div><div><b>${eventos.filter(esTop).length}</b>${CON_PERFIL ? "para ti" : "destacados"}</div><div><b>${archivo.length}</b>en el Archivo</div>`;
+  $("#estado-act").textContent = `${eventos.length} oportunidades · actualizado ` + (min < 60 ? `hace ${Math.max(min, 1)} min` : `hace ${Math.round(min / 60)} h`);
   const f = DATOS.fuentes || {};
   $("#lista-fuentes").innerHTML = Object.entries(f).map(([k, v]) => {
     const i = FUENTES_INFO[k] || {};
