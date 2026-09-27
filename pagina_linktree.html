@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
 <meta name="robots" content="noindex, nofollow">
-<title>Radar Lima · Linktree</title>
+<title>Radar Lima · Panel</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
@@ -35,6 +35,7 @@ main{max-width:760px;margin:-28px auto 40px;padding:0 16px}
 .btn-grande[disabled] .giro{display:block}
 @keyframes girar{to{transform:rotate(360deg)}}
 .pasos{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:6px}
+.pasos[hidden]{display:none}
 .pasos li{display:flex;gap:10px;align-items:center;font-size:15px;color:var(--gris);transition:color .3s var(--natural)}
 .pasos li::before{content:"";flex:0 0 12px;height:12px;border-radius:50%;border:2px solid var(--linea);transition:background-color .3s,border-color .3s}
 .pasos li.activo{color:var(--azul);font-weight:700}
@@ -71,6 +72,20 @@ li.item small{display:block;color:var(--gris);font-size:12.5px}
 .lt:last-child{border-bottom:0}
 .lt small{color:var(--gris)}
 .vacio{color:var(--gris);font-size:14.5px}
+.formulario{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin-top:10px}
+.formulario .ancho{grid-column:1/-1}
+.formulario label{display:flex;flex-direction:column;gap:5px;font-size:14px;font-weight:700;color:var(--texto)}
+.formulario label small{font-weight:500;color:var(--gris)}
+.formulario input,.formulario select,.formulario textarea{border:1.5px solid var(--linea);border-radius:12px;padding:11px 13px;font:inherit;
+  font-weight:500;outline:0;background:#fff;transition:border-color .25s var(--natural),box-shadow .25s var(--natural)}
+.formulario input:focus,.formulario select:focus,.formulario textarea:focus{border-color:var(--azul);box-shadow:0 0 0 3px var(--azul-suave)}
+.formulario textarea{resize:vertical}
+.opciones{border:0;padding:0;margin:0;display:flex;gap:10px;flex-wrap:wrap}
+.opciones legend{font-size:14px;font-weight:700;margin-bottom:6px}
+.opciones label{flex-direction:row;align-items:center;gap:8px;border:1.5px solid var(--linea);border-radius:12px;padding:9px 14px;cursor:pointer;
+  font-weight:600;transition:border-color .25s var(--natural),background-color .25s var(--natural)}
+.opciones label:has(input:checked){border-color:var(--azul);background:var(--azul-suave);color:var(--azul)}
+@media (max-width:560px){.formulario{grid-template-columns:1fr}}
 ol.guia{margin:0 0 14px;padding-left:22px;display:grid;gap:6px}
 ol.guia a{color:var(--azul);font-weight:700}
 code{background:var(--azul-suave);color:var(--azul);border-radius:6px;padding:1px 6px;font-size:14px}
@@ -82,8 +97,8 @@ footer a,footer button{color:var(--azul);font-weight:700;background:none;border:
 </head>
 <body>
 <header class="hero">
-  <h1>Radar Lima · <span>Linktree</span></h1>
-  <p>Trae al radar las inscripciones nuevas de los Linktree de universidades y organizaciones. Solo corre cuando presionas el botón.</p>
+  <h1>Radar Lima · <span>Panel</span></h1>
+  <p>Trae las inscripciones nuevas de los Linktree y añade eventos a mano. Solo corre cuando presionas un botón, y solo con tu llave.</p>
 </header>
 <main>
   <!-- conectar (una sola vez por navegador) -->
@@ -122,6 +137,35 @@ footer a,footer button{color:var(--azul);font-weight:700;background:none;border:
     <h2>🤔 Por decidir</h2>
     <p class="vacio">No sé si estos enlaces son eventos. Los que agregues entran al radar; los que no, no te los vuelvo a preguntar.</p>
     <ul id="pendientes"></ul>
+  </section>
+
+  <section class="tarjeta" id="evento" hidden>
+    <h2>➕ Añadir un evento a mano</h2>
+    <p class="vacio">Para lo que viste en Instagram, LinkedIn, WhatsApp o un cartel y no salió solo en el radar.
+      Pasa por el mismo control de calidad que todo lo demás.</p>
+    <form id="form-evento" class="formulario" novalidate>
+      <label class="ancho">Nombre del evento *<input name="titulo" maxlength="160" placeholder="Ej.: Científica Sprint 2026" required></label>
+      <label>Fecha *<input name="fecha" type="date" required></label>
+      <label><span>Hora <small>(si la sabes)</small></span><input name="hora" type="time"></label>
+      <label class="ancho"><span>Enlace * <small>(post, página o formulario de inscripción)</small></span><input name="url" type="url" placeholder="https://…" required></label>
+      <fieldset class="ancho opciones"><legend>Modalidad</legend>
+        <label><input type="radio" name="modalidad" value="Presencial" checked> 📍 Presencial</label>
+        <label><input type="radio" name="modalidad" value="Virtual"> 💻 Virtual</label>
+      </fieldset>
+      <label class="ancho" id="campo-lugar">Lugar<input name="lugar" maxlength="150" placeholder="Ej.: Auditorio, Campus Villa, UCSUR"></label>
+      <label>Organizador<input name="organizador" maxlength="120" placeholder="Ej.: Universidad Científica del Sur"></label>
+      <label>¿Es gratis?<select name="gratis"><option value="">No sé</option><option value="si">Sí</option><option value="no">No</option></select></label>
+      <label class="ancho">Descripción corta<textarea name="descripcion" rows="3" maxlength="900" placeholder="De qué trata, para quién es…"></textarea></label>
+      <button class="btn-grande ancho" id="enviar-evento" type="submit"><span class="giro" aria-hidden="true"></span><span id="txt-enviar">➕ Añadir al radar</span></button>
+    </form>
+    <ul class="pasos" id="pasos-manual" hidden>
+      <li data-p="orden">Enviando la orden a GitHub</li>
+      <li data-p="cola">En cola</li>
+      <li data-p="lectura">Revisando y guardando el evento</li>
+      <li data-p="radar">Publicando el radar</li>
+    </ul>
+    <p class="nota" id="nota-manual"></p>
+    <div id="manuales"></div>
   </section>
 
   <section class="tarjeta" id="registrados" hidden>
@@ -194,13 +238,10 @@ async function refrescar() {
 }
 
 // ---------- disparar el proceso en GitHub y seguirlo paso a paso
-function paso(nombre, estado) {
-  const li = document.querySelector(`#pasos [data-p="${nombre}"]`);
-  li.classList.remove("activo", "hecho", "fallo"); if (estado) li.classList.add(estado);
-}
 function bloquear(si) {
   ocupado = si;
   $("#actualizar").disabled = si; $("#txt-btn").textContent = si ? "Trabajando…" : "🔄 Actualizar Linktree";
+  $("#enviar-evento").disabled = si; $("#txt-enviar").textContent = si ? "Trabajando…" : "➕ Añadir al radar";
   document.querySelectorAll("#agregar, #pendientes .btn").forEach(b => b.disabled = si);
 }
 async function esperarCorrida(flujo, desde, alCambiar) {
@@ -218,27 +259,45 @@ async function esperarCorrida(flujo, desde, alCambiar) {
   }
   return corrida;
 }
-async function ejecutar(entradas) {
+// Dispara un proceso de GitHub y lo sigue paso a paso: sirve para Linktree (linktree.yml) y eventos a mano (agregar.yml)
+async function ejecutar(entradas, o = {}) {
+  const flujo = o.flujo || "linktree.yml", P = o.pasos || "#pasos", N = o.nota || "#nota", alTerminar = o.alTerminar || refrescar;
   if (ocupado) return;
-  bloquear(true); $("#pasos").hidden = false;
+  const paso = (n, e) => { const li = document.querySelector(`${P} [data-p="${n}"]`); li.classList.remove("activo", "hecho", "fallo"); if (e) li.classList.add(e); };
+  bloquear(true); $(P).hidden = false; $(N).textContent = "Tarda unos 3 minutos. Puedes cerrar la página: el proceso sigue en GitHub.";
   ["orden", "cola", "lectura", "radar"].forEach(p => paso(p, ""));
   const desde = new Date(Date.now() - 5000);
   try {
     paso("orden", "activo");
-    await gh("/actions/workflows/linktree.yml/dispatches", {method: "POST", body: JSON.stringify({ref: "main", inputs: entradas})});
+    await gh(`/actions/workflows/${flujo}/dispatches`, {method: "POST", body: JSON.stringify({ref: "main", inputs: entradas})});
     paso("orden", "hecho"); paso("cola", "activo");
-    const c = await esperarCorrida("linktree.yml", desde, s => { if (s === "in_progress") { paso("cola", "hecho"); paso("lectura", "activo"); } });
+    const c = await esperarCorrida(flujo, desde, s => { if (s === "in_progress") { paso("cola", "hecho"); paso("lectura", "activo"); } });
     paso("cola", "hecho");
     if (c.conclusion !== "success") { paso("lectura", "fallo"); throw new Error(`el proceso falló (ver detalle: ${c.html_url})`); }
-    paso("lectura", "hecho"); await refrescar();
+    paso("lectura", "hecho");
+    const ok = await alTerminar();
+    if (ok === false) { $(N).textContent = "⚠ Revisa el mensaje de arriba: no se añadió nada."; bloquear(false); return; }
     paso("radar", "activo");
     const r = await esperarCorrida("actualizar.yml", new Date(new Date(c.updated_at).getTime() - 90000), () => {});
     paso("radar", r.conclusion === "success" ? "hecho" : "fallo");
-    $("#nota").innerHTML = r.conclusion === "success" ? "✔ Listo: el radar ya está publicado con lo nuevo." : `⚠ El radar no se pudo publicar: <a href="${esc(r.html_url)}" target="_blank" rel="noopener">ver detalle</a>`;
+    $(N).innerHTML = r.conclusion === "success" ? "✔ Listo: el radar ya está publicado con lo nuevo." : `⚠ El radar no se pudo publicar: <a href="${esc(r.html_url)}" target="_blank" rel="noopener">ver detalle</a>`;
   } catch (e) {
-    $("#nota").textContent = e.message.startsWith("el proceso") || e.message.startsWith("GitHub no") ? "⚠ " + e.message : "⚠ " + explicar(e);
+    $(N).textContent = e.message.startsWith("el proceso") || e.message.startsWith("GitHub no") ? "⚠ " + e.message : "⚠ " + explicar(e);
   }
   bloquear(false);
+}
+
+// ---------- eventos añadidos a mano (manuales.json)
+async function cargarManuales() {
+  const r = await fetch(API + "/contents/manuales.json?ref=main", {headers: {"Accept": "application/vnd.github.raw+json",
+    ...(llave ? {"Authorization": "Bearer " + llave} : {})}, cache: "no-store"});
+  if (!r.ok) return null;
+  const d = await r.json(), u = d.ultimo, ev = (d.eventos || []).slice(-6).reverse();
+  const fecha = s => new Date(s + "-05:00").toLocaleDateString("es-PE", {weekday: "short", day: "numeric", month: "short"});
+  $("#manuales").innerHTML = (u ? `<div class="aviso ${u.ok ? "ok" : "mal"}">${u.ok ? "✔" : "⚠"} ${esc(u.titulo)} — ${esc(u.mensaje)}</div>` : "") +
+    (ev.length ? `<h3>Añadidos a mano</h3><ul>${ev.map(e => `<li class="item"><div><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.titulo)}</a>
+      <small>${esc(fecha(e.inicio))} · ${esc(e.modalidad || "")} · ${esc(e.red)}</small></div></li>`).join("")}</ul>` : "");
+  return d;
 }
 
 // ---------- eventos de la página
@@ -263,12 +322,36 @@ $("#guardar-llave").onclick = async () => {
   }
 };
 $("#olvidar").onclick = () => { guardarLlave(""); llave = ""; mostrar(); };
+// formulario de evento a mano: validación rápida aquí; la de verdad la hace GitHub (agregar_manual.py)
+$("#form-evento").fecha.min = new Date(Date.now() - 5 * 3600e3).toISOString().slice(0, 10);
+$("#form-evento").addEventListener("change", ev => {
+  if (ev.target.name === "modalidad") $("#campo-lugar").hidden = ev.target.value === "Virtual";
+});
+$("#form-evento").onsubmit = ev => {
+  ev.preventDefault();
+  const f = ev.target, d = Object.fromEntries(new FormData(f).entries());
+  if (d.titulo.trim().length < 4 || !d.fecha || !/^https?:\/\//.test(d.url.trim())) {
+    $("#nota-manual").textContent = "⚠ Completa el nombre, la fecha y un enlace que empiece con https://"; return;
+  }
+  const antes = new Date();
+  ejecutar({datos: JSON.stringify(d)}, {flujo: "agregar.yml", pasos: "#pasos-manual", nota: "#nota-manual", alTerminar: async () => {
+    const m = await cargarManuales();
+    const u = m && m.ultimo;
+    if (u && u.ok && new Date(u.fecha) >= new Date(antes.getTime() - 120000)) { f.reset(); $("#campo-lugar").hidden = false; return true; }
+    return u && u.ok ? true : false;
+  }});
+};
 function mostrar() {
   const con = !!llave;
   $("#conectar").hidden = con; $("#principal").hidden = !con; $("#registrados").hidden = !con; $("#pie-llave").hidden = !con;
-  if (!con) { $("#pendientes-caja").hidden = true; $("#resultado").innerHTML = ""; } else refrescar();
+  $("#evento").hidden = !con;
+  if (!con) { $("#pendientes-caja").hidden = true; $("#resultado").innerHTML = ""; } else { refrescar(); cargarManuales(); }
 }
 mostrar();
+if (location.hash === "#evento" && llave) {  // llegó desde el botón "Añadir un evento" del radar
+  $("#evento").scrollIntoView({behavior: "smooth", block: "start"});
+  setTimeout(() => $("#form-evento").titulo.focus({preventScroll: true}), 600);
+}
 </script>
 </body>
 </html>

@@ -29,6 +29,9 @@ Publicado en https://juanpradomts-dev.github.io/radar-eventos-lima/ · se actual
 - **IEEE Perú** (`ieee_peru` en `eventos.py`): eventos de las ramas estudiantiles IEEE del Perú (UNI, San Marcos, PUCP, UPC, Callao…), tomados de la API pública de IEEE vTools.
   - Su `robots.txt` pide 60 s entre peticiones y la API no filtra por país. Por eso se hace **una** consulta al día como máximo, guardada en `cache/vtools_peru.json`, y se queda solo la Sección Perú (`R90721`).
   - Quedan fuera las reuniones internas (ExCom, officers).
+- **Añadidos a mano** (`agregar_manual.py` + `.github/workflows/agregar.yml`): el panel (`/linktree/`) tiene un formulario **"➕ Añadir un evento"** para lo visto en Instagram, LinkedIn, WhatsApp o un cartel.
+  - El formulario dispara el workflow "Agregar evento". Ese workflow valida, detecta la red, evita duplicados y guarda el evento en `manuales.json` (nunca borra). Luego pasa los tests y publica.
+  - Al final del radar aparecen los botones del dueño ("➕ Añadir un evento", "🔗 Actualizar Linktree"), solo en el navegador donde está conectada su llave.
 - **Inscripciones (Linktree)** (`inscripciones.py` + `inscripciones.json`): muchas organizaciones anuncian en Instagram y ponen el enlace de inscripción en su Linktree.
   - Linktree prohíbe robots (`User-agent: *` → `Disallow: /`), así que el radar no lo recorre. Cuando alguien comparte un Linktree, JARVIS lo abre a pedido y copia sus enlaces de inscripción a `inscripciones.json`.
   - En cada corrida, el radar lee solo el **destino** de cada enlace y revisa `robots.txt` en cada salto: un bit.ly puede llevar a un sitio que lo prohíbe.

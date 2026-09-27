@@ -10,6 +10,7 @@ import unittest
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import agregar_manual
 import eventos
 import fuentes_extra
 import inscripciones
@@ -558,6 +559,58 @@ class IEEEPeru(unittest.TestCase):
         self.assertTrue(out[0]["gratis"])
         self.assertEqual(len(pedidos), 1)  # la segunda vez, el mismo día, sale de lo guardado
         self.assertEqual(out2, out)
+
+
+class AgregarManual(unittest.TestCase):
+    """Formulario 'Añadir un evento': valida, detecta la red, no duplica y nunca borra."""
+    AHORA = datetime(2026, 9, 27, 12, 0, tzinfo=LIMA)
+
+    def test_valida_guarda_y_no_duplica(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ruta = Path(tmp) / "manuales.json"
+            ruta.write_text(json.dumps({"_instrucciones": "x", "eventos": [{"titulo": "Viejo", "inicio": "2026-01-01T10:00",
+                                                                           "red": "Instagram", "url": "https://i"}]}), encoding="utf-8")
+            d = {"titulo": "  Científica   Sprint 2026 ", "fecha": "2026-10-10", "hora": "18:30",
+                 "url": "https://www.instagram.com/p/abc/", "modalidad": "Presencial", "lugar": "Campus Villa",
+                 "gratis": "si", "descripcion": "Reto de innovación"}
+            r = agregar_manual.agregar(d, ruta, self.AHORA)
+            self.assertTrue(r["ok"])
+            conf = json.loads(ruta.read_text(encoding="utf-8"))
+            nuevo = conf["eventos"][-1]
+            self.assertEqual(len(conf["eventos"]), 2)  # el viejo sigue ahí: nunca se borra
+            self.assertEqual(nuevo["titulo"], "Científica Sprint 2026")
+            self.assertEqual(nuevo["inicio"], "2026-10-10T18:30")
+            self.assertEqual(nuevo["red"], "Instagram")
+            self.assertIs(nuevo["gratis"], True)
+            self.assertEqual(conf["_instrucciones"], "x")
+            r2 = agregar_manual.agregar(d, ruta, self.AHORA)  # el mismo evento otra vez
+            self.assertFalse(r2["ok"])
+            self.assertIn("ya estaba", r2["mensaje"])
+            self.assertEqual(len(json.loads(ruta.read_text(encoding="utf-8"))["eventos"]), 2)
+
+    def test_errores_en_lenguaje_simple(self):
+        v = lambda **k: agregar_manual.validar({"titulo": "Taller de datos", "fecha": "2026-10-10",
+                                                "url": "https://x.pe", **k}, self.AHORA)
+        self.assertIn("nombre", v(titulo="")[1])
+        self.assertIn("enlace", v(url="www.sin-http.pe")[1])
+        self.assertIn("ya pasó", v(fecha="2026-09-01")[1])
+        ev, _ = v(modalidad="Virtual", lugar="No debería quedar")
+        self.assertEqual(ev["modalidad"], "Virtual")
+        self.assertNotIn("lugar", ev)
+        self.assertEqual(v()[0]["red"], "Añadido a mano")
+
+    def test_el_radar_lo_lee(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            viejo = eventos.RAIZ
+            eventos.RAIZ = Path(tmp)
+            try:
+                agregar_manual.agregar({"titulo": "Charla de supply chain", "fecha": "2026-10-10", "hora": "19:00",
+                                        "url": "https://lnkd.in/x"}, Path(tmp) / "manuales.json", self.AHORA)
+                out = eventos.manuales(None)
+            finally:
+                eventos.RAIZ = viejo
+        self.assertEqual(out[0]["titulo"], "Charla de supply chain")
+        self.assertEqual(out[0]["inicio"], "2026-10-10T19:00-05:00")
 
 
 class LectorLinktree(unittest.TestCase):

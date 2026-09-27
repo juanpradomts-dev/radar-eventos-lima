@@ -218,6 +218,8 @@ details.grupo summary .n{color:var(--gris);font-weight:700;margin-left:auto}
 .f-item a{color:var(--azul);font-weight:700;font-size:13.5px}
 .como{font-size:14.5px;color:#34435A;max-width:820px}
 .suscribir{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.dueno{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px;padding-top:20px;border-top:1px dashed var(--linea)}
+.dueno .btn{flex:0 0 auto}
 /* ---------- control de calidad */
 .verificadas{color:#9EF0CB;font-weight:700;text-decoration:none;border-bottom:1px dashed rgba(158,240,203,.6)}
 .verificadas:hover{color:#fff}
@@ -455,6 +457,7 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
     </details>
     <h2 class="seccion">📅 Llévalo a tu calendario</h2>
     <div class="suscribir" id="suscribir"></div>
+    <div class="dueno" id="dueno" hidden></div>
   </div>
 </footer>
 
@@ -1005,6 +1008,17 @@ if (DATOS) {
       <p>${esc(i.txt || "")}${v.revisar ? `<br><em>En observación: ${esc(v.revisar)}</em>` : ""}</p>${i.url ? `<a href="${i.url}" target="_blank" rel="noopener">Ver en ${esc(k)} ↗</a>` : ""}</div>`;
   }).join("");
 }
+// ---------- botones del dueño: solo aparecen donde está conectada su llave de GitHub (la guarda el panel,
+// mismo sitio). Un visitante no los ve; aunque los viera, sin la llave no podría hacer nada.
+(() => {
+  let llave = "";
+  try { llave = localStorage.getItem("radar-linktree-llave") || ""; } catch {}
+  if (!llave || !location.protocol.startsWith("http")) return;
+  $("#dueno").hidden = false;
+  $("#dueno").innerHTML = `<a class="btn inscribir" href="linktree/#evento">➕ Añadir un evento</a>
+    <a class="btn sec" href="linktree/">🔗 Actualizar Linktree</a>`;
+})();
+
 // ---------- control de calidad: qué se revisó y qué se corrigió en la última actualización
 if (DATOS && DATOS.calidad) {
   const c = DATOS.calidad, en = c.enlaces || {};
