@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-27T14:16-05:00",
+ "actualizado": "2026-09-27T14:33-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 60
+   "n": 61
   },
   "Eventbrite": {
    "ok": true,
@@ -31,8 +31,7 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-09-27T14:07-05:00"
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -42,12 +41,16 @@
    "ok": true,
    "n": 12
   },
+  "Inscripciones (Linktree)": {
+   "ok": true,
+   "n": 2
+  },
   "Redes (manual)": {
    "ok": true,
    "n": 0
   }
  },
- "revisados": 335,
+ "revisados": 338,
  "top": 55,
  "eventos": [
   {
@@ -331,6 +334,36 @@
    "puntaje": 59,
    "por_que": "Formativo · Afín: Datos y machine learning · Presencial en Lima · Afín: Investigación",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "insc:0544fff63cb2",
+   "titulo": "VI Congreso Voces Escénicas del Sur",
+   "tipo": "evento",
+   "inicio": "2026-09-28T16:15-05:00",
+   "fin": "2026-10-03T23:59-05:00",
+   "cierre": "",
+   "lugar": "Teatro La Plaza",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLnfqX19D7gvumbrlZfKN1rH2ddjNDeexsoHaakr0ianrcrQ/viewform?usp=send_form",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSdLnfqX19D7gvumbrlZfKN1rH2ddjNDeexsoHaakr0ianrcrQ/viewform?usp=send_form",
+   "fuente": "Inscripciones (Linktree)",
+   "fuente_url": "https://linktr.ee/u.cientificadelsur",
+   "organizador": "Universidad Científica del Sur",
+   "descripcion": "LUNES, 28 DE SEPTIEMBRE \n\nCONFERENCIA MAGISTRAL\nRemirar para crear: entre la práctica y la investigación\n\nTeatro La Plaza\n4:15 p. m. – 5:30 p. m. \n\nParticipa: Dra. Nae Hanashiro (Universidad de Toronto) \n\nCONFERENCIA MAGISTRAL INTERNACIONAL\nEntre el cuerpo y la dramaturgia, la memoria y la ficción: Aproximación a Súbita Companhia\n\nTeatro La Plaza\n7:00 p. m. – 8:30 p. m. \n\nParticipa: Maira Lour (Pontificia Universidad Católica de Paraná) \n\nLas inscripciones para estos eventos se realizan a través de https://laplaza.com.pe/encuentro-de-dramaturgia-2026/\n\nMARTES, 29 DE SEPTIEMBRE \n\nCONFERENCIA MAGISTRAL INTERNACIONAL \nLo real como laboratorio poético: Entorno urbano, ficción y acontecimiento\n\nA",
+   "gratis": null,
+   "imagen": "https://lh6.googleusercontent.com/kNWBqpq9BEkvg9URtFdT9R_TVcHJBPReog5pe1N7zXvtsWR2_ZRjFlv5YgvlSFnMsZ_7vw504TUfz4Y=w1200-h630-p",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 29,
+   "afinidad": 12,
+   "puntaje": 41,
+   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad",
+   "original": {
+    "titulo": "VI CONGRESO VOCES ESCÉNICAS DEL SUR"
+   },
+   "visto_desde": "2026-09-27T14:33-05:00"
   },
   {
    "id": "luma:evt-sOtWCdNCwGR2WYq",
@@ -1664,6 +1697,34 @@
    "puntaje": 23,
    "por_que": "Presencial en Lima · Gratis · Empresa reconocida · Evento sin formato claro",
    "visto_desde": "2026-09-24T21:23-05:00"
+  },
+  {
+   "id": "luma:evt-IzEbEx4W6ASJfS3",
+   "titulo": "Canva Day Vol.2 - Full day presencial UPN",
+   "inicio": "2026-10-03T09:30-05:00",
+   "fin": "2026-10-03T18:30-05:00",
+   "lugar": "Av. Tingo María 1122, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/5erqd11p",
+   "fuente": "Luma",
+   "organizador": "Yoselyn Solano",
+   "descripcion": "Canva Day vol.2 es un evento creado para celebrar la creatividad en acción. Un espacio donde no solo hablamos de ideas, sino donde las llevamos a la práctica junto a una comunidad que cree en el poder de crear con intención.\nDurante esta jornada, exploraremos distintas formas de usar Canva en proyectos a través de ponencias, talleres y espacios de conexión. Será un día para aprender, inspirarte y rodearte de personas que, como tú, están construyendo a través de la creatividad.\nEste evento está dirigido a emprendedores, estudiantes, docentes, profesionales y freelancers que utilizan Canva en su día a día, sin importar su nivel de experiencia. Si quieres seguir descubriendo nuevas formas de cr",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/sj/741f293e-e1eb-4503-b0ee-d55c1cbd4219.png",
+   "inscripcion": "https://lu.ma/5erqd11p",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis",
+   "visto_desde": "2026-09-27T14:33-05:00"
   },
   {
    "id": "pucp:sonqo-un-solo-corazon-con-dios-08092026113650",
@@ -9235,6 +9296,33 @@
    "afinidad": 0,
    "puntaje": 19,
    "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
+  },
+  {
+   "id": "insc:1bf51d4dc641",
+   "titulo": "Día Cultural Aramburú | Taller de Arte Andino: Pinta tu torito de Pucará",
+   "tipo": "evento",
+   "inicio": "2026-09-25T15:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Aula A-403 Campus Aramburú",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLScQmHadcBYlrq-PuBflavfqpFMdGycG448Klzq4DSFHuTAr5Q/viewform?usp=send_form",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLScQmHadcBYlrq-PuBflavfqpFMdGycG448Klzq4DSFHuTAr5Q/viewform?usp=send_form",
+   "fuente": "Inscripciones (Linktree)",
+   "fuente_url": "https://linktr.ee/u.cientificadelsur",
+   "organizador": "Universidad Científica del Sur",
+   "descripcion": "👨‍🎨🎨 Victor Hugo Cáceres, \"Qolla\", (instagram.com/qollaart/) es un artista plástico dedicado a la ilustración, pintura y muralismo. En su obra paisajística, inspirada en el Cuzco, explora los colores y perspectivas de la región. Sus ilustraciones tienen como protagonista al Qolla, personaje del alti",
+   "gratis": null,
+   "imagen": "https://lh4.googleusercontent.com/zWLrzwXI9cp2_eH-mhhc3CLIIYBPT-_OihQvZFoSmiDmtPPR3fnl99cY6A1dwBibk90M8CDagSoosJ4=w1200-h630-p",
+   "motivo": "ya pasó",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Formativo · Presencial en Lima · Universidad"
   }
  ],
  "perfil": true,
@@ -9269,9 +9357,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-27T14:16-05:00",
-  "revisados": 206,
-  "corregidos": 13,
+  "fecha": "2026-09-27T14:33-05:00",
+  "revisados": 208,
+  "corregidos": 14,
   "avisos": 4,
   "archivados": 0,
   "problemas": [
@@ -9282,6 +9370,14 @@
     "nivel": "aviso",
     "detalle": "hora poco probable (10:18): se muestra 'por confirmar'",
     "url": "https://agenda.pucp.edu.pe/evento/infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518/"
+   },
+   {
+    "id": "insc:0544fff63cb2",
+    "titulo": "VI Congreso Voces Escénicas del Sur",
+    "fuente": "Inscripciones (Linktree)",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLnfqX19D7gvumbrlZfKN1rH2ddjNDeexsoHaakr0ianrcrQ/viewform?usp=send_form"
    },
    {
     "id": "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29",
@@ -9421,6 +9517,55 @@
  },
  "por_confirmar": [
   {
+   "titulo": "Científica Sprint",
+   "url": "https://forms.cloud.microsoft/r/Rm4jDrBCFQ",
+   "medio": "Linktree de Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "forms.cloud.microsoft no permite robots"
+  },
+  {
+   "titulo": "Científica MUN: integra uno de sus 6 comités",
+   "url": "https://forms.gle/YUY8HgpgVCGXggfp8",
+   "medio": "Linktree de Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "pide iniciar sesión (formulario solo para cuentas de la organización)"
+  },
+  {
+   "titulo": "Semana Internacional",
+   "url": "https://bit.ly/3SLv3En",
+   "medio": "Linktree de Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "forms.cloud.microsoft no permite robots"
+  },
+  {
+   "titulo": "Prácticas Que Marcan (Universia)",
+   "url": "https://www.universia.net/pe/evento-empleabilidad/practicas-que-marcan",
+   "medio": "Linktree de Universia y Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "sin fecha legible en la inscripción"
+  },
+  {
+   "titulo": "Charlas informativas del Disney Academic Exchange Program",
+   "url": "https://forms.office.com/pages/responsepage.aspx?id=EM3epWWRNkamTHlYAEIV-vzsH05dt_ZKjvhTeeAxkAZUN0lDU1I3Q01DNUJWVDlCWkxSTTcyOEFWWi4u&origin=lprLink&route=shorturl",
+   "medio": "Linktree de Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "forms.office.com no permite robots"
+  },
+  {
+   "titulo": "Intercambio académico en Disney",
+   "url": "https://bit.ly/3XWFVy4",
+   "medio": "Linktree de Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "forms.office.com no permite robots"
+  },
+  {
+   "titulo": "Voluntariado del Caballo Peruano de Paso",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfzHwiZmyIDYj_wnRC844e61_7amy8GgMrkUc63A13oExie1A/viewform",
+   "medio": "Linktree de Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "pide iniciar sesión (formulario solo para cuentas de la organización)"
+  },
+  {
    "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
    "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
    "medio": "Agencia de Noticias Órbita",
@@ -9461,19 +9606,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "(Multimedia) Feria peruana Expoalimentaria generó negocios por 1.100 millones de dólares",
-   "url": "https://spanish.news.cn/20260928/d52a30b2d5964dba85f33de0c7063f82/c.html",
-   "medio": "Xinhua Español",
-   "publicado": "Sun, 27 Sep 2026 04:50:00 GMT",
-   "resumen": "Imagen del 23 de septiembre de 2026 de trabajadores esperando por clientes en un estand en la feria Expoalimentaria 2026 en el Centro de Exposiciones Jockey, en Lima, Perú. (Xinhua/Mariana Bazo) LIMA, ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
    "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
    "medio": "RPP",
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "(Multimedia) Feria peruana Expoalimentaria generó negocios por 1.100 millones de dólares",
+   "url": "https://spanish.news.cn/20260928/d52a30b2d5964dba85f33de0c7063f82/c.html",
+   "medio": "Xinhua Español",
+   "publicado": "Sun, 27 Sep 2026 04:50:00 GMT",
+   "resumen": "Imagen del 23 de septiembre de 2026 de trabajadores esperando por clientes en un estand en la feria Expoalimentaria 2026 en el Centro de Exposiciones Jockey, en Lima, Perú. (Xinhua/Mariana Bazo) LIMA, ...",
    "fecha_mencionada": ""
   },
   {
@@ -9757,6 +9902,8 @@
   "devpost:30588": "2026-09-27T11:15-05:00",
   "devpost:30858": "2026-09-27T13:29-05:00",
   "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13": "2026-09-27T13:39-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-27T13:39-05:00"
+  "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-27T13:39-05:00",
+  "insc:0544fff63cb2": "2026-09-27T14:33-05:00",
+  "luma:evt-IzEbEx4W6ASJfS3": "2026-09-27T14:33-05:00"
  }
 }
