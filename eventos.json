@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T11:15-05:00",
+ "actualizado": "2026-09-27T12:37-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7548,20 +7548,20 @@
    "por_que": "Networking · Presencial en Lima · Gratis"
   },
   {
-   "id": "eb:1999932167951",
+   "id": "eb:1999932168954",
    "titulo": "Bautismo cdv Miraflores",
-   "inicio": "2026-09-27T11:30-05:00",
-   "fin": "2026-09-27T12:00-05:00",
+   "inicio": "2026-09-27T13:30-05:00",
+   "fin": "2026-09-27T14:00-05:00",
    "lugar": "Mal. de la Reserva 535, 535 Malecón de la Reserva",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-1999932167951",
+   "url": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-1999932168954",
    "fuente": "Eventbrite",
    "organizador": "caminodevida",
    "descripcion": "Bautismo cdv",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184629970%2F319397189657%2F1%2Foriginal.20220313-180751?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C60%2C1920%2C960&s=b374aec580ee7019be45a60257f932d1",
-   "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-1999932167951",
+   "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-1999932168954",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8195,6 +8195,33 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31124",
+   "titulo": "SVYCA Youth for Earth (Y4E) Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-09-20T00:00-05:00",
+   "fin": "2026-10-18T23:59-05:00",
+   "cierre": "2026-10-18T23:59-05:00",
+   "lugar": "Stanford University",
+   "distrito": "Stanford University",
+   "modalidad": "Presencial",
+   "url": "https://svycay4e.devpost.com/",
+   "inscripcion": "https://svycay4e.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Silicon Valley Youth Climate Action",
+   "descripcion": "Hackathon presencial en Stanford University. Temas: Social Good. Premios: $2,700.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/428/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 9,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31484",
    "titulo": "2026-2027 Fall ESE Senior Design",
    "tipo": "hackathon",
@@ -8251,34 +8278,6 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31137",
-   "titulo": "HackWashU Fall AI Build Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "Washington University in St. Louis",
-   "distrito": "Washington University in St. Louis",
-   "modalidad": "Presencial",
-   "url": "https://hackwashu-fall-ai-2026.devpost.com/",
-   "inscripcion": "https://hackwashu-fall-ai-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HackWashU",
-   "descripcion": "Hackathon presencial en Washington University in St. Louis. Temas: Beginner Friendly, Education, Machine Learning/AI. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/295/266/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 33,
-   "puntaje": 56,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:30993",
    "titulo": "Houston Hackathon 2026",
    "tipo": "hackathon",
@@ -8331,34 +8330,6 @@
    "afinidad": 9,
    "puntaje": 25,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31428",
-   "titulo": "JacHacks a2Tech",
-   "tipo": "hackathon",
-   "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "UMich - Leinweber CS Building",
-   "distrito": "UMich - Leinweber CS Building",
-   "modalidad": "Presencial",
-   "url": "https://jachacks-a2tech.devpost.com/",
-   "inscripcion": "https://jachacks-a2tech.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Jaseci Labs",
-   "descripcion": "Hackathon presencial en UMich - Leinweber CS Building. Temas: DevOps, Machine Learning/AI, Open Ended. Premios: $3,400.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/376/600/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30998",
@@ -9140,6 +9111,34 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31180",
+   "titulo": "AI Lodge Hackathon 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-22T00:00-05:00",
+   "fin": "2026-10-19T23:59-05:00",
+   "cierre": "2026-10-19T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://ai-lodge-hackathon-2026.devpost.com/",
+   "inscripcion": "https://ai-lodge-hackathon-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "SMU Business Intelligence & Analytics",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/362/031/datas/medium_square.jpg",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 33,
+   "puntaje": 52,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31397",
    "titulo": "Origin Weekend Fall 2026 (x Replit)",
    "tipo": "hackathon",
@@ -9318,14 +9317,6 @@
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
    "fecha_mencionada": "2026-09-25T00:00-05:00"
-  },
-  {
-   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
-   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
-   "medio": "autotv",
-   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
-   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
-   "fecha_mencionada": ""
   },
   {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
