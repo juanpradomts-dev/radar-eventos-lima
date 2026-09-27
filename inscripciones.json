@@ -1,34 +1,99 @@
 {
  "_nota": "Enlaces de inscripción copiados de Linktree por JARVIS cuando alguien comparte uno (Linktree prohíbe robots). El radar lee solo el DESTINO de cada enlace, respetando robots.txt. Para actualizar: compartir de nuevo el Linktree con JARVIS.",
  "linktrees": {
-  "https://linktr.ee/u.cientificadelsur": {"organizador": "Universidad Científica del Sur", "revisado": "2026-09-27",
-   "omitidos": "6 grupos de WhatsApp de clubes, admisión, carreras, contacto y redes sociales (no son eventos)"}
+  "https://linktr.ee/u.cientificadelsur": {
+   "organizador": "Universidad Científica del Sur",
+   "revisado": "2026-09-27",
+   "omitidos": "6 grupos de WhatsApp de clubes, admisión, carreras, contacto y redes sociales (no son eventos)"
+  }
  },
  "enlaces": [
-  {"url": "https://forms.gle/C2z3ozfgXyXpxJi99", "titulo": "Inscripción - VI Congreso Voces Escénicas del Sur",
-   "organizador": "Universidad Científica del Sur", "tipo_org": "universidad", "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"},
-  {"url": "https://forms.cloud.microsoft/r/Rm4jDrBCFQ", "titulo": "Científica Sprint",
-   "organizador": "Universidad Científica del Sur", "tipo_org": "universidad", "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"},
-  {"url": "https://forms.gle/YUY8HgpgVCGXggfp8", "titulo": "Científica MUN: integra uno de sus 6 comités",
-   "organizador": "Universidad Científica del Sur", "tipo_org": "universidad", "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"},
-  {"url": "https://bit.ly/3SLv3En", "titulo": "Semana Internacional",
-   "organizador": "Universidad Científica del Sur", "tipo_org": "universidad", "categorias": ["Idiomas, becas e internacional"],
-   "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"},
-  {"url": "https://forms.gle/nXKBM5kaeH6UvD1h8", "titulo": "Día Cultural Aramburú: Taller de Arte Andino | 25/09",
-   "organizador": "Universidad Científica del Sur", "tipo_org": "universidad", "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"},
-  {"url": "https://www.universia.net/pe/evento-empleabilidad/practicas-que-marcan", "titulo": "Prácticas Que Marcan (Universia)",
-   "organizador": "Universia y Universidad Científica del Sur", "tipo_org": "universidad", "categorias": ["Habilidades y liderazgo"],
-   "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"},
-  {"url": "https://forms.office.com/pages/responsepage.aspx?id=EM3epWWRNkamTHlYAEIV-vzsH05dt_ZKjvhTeeAxkAZUN0lDU1I3Q01DNUJWVDlCWkxSTTcyOEFWWi4u&origin=lprLink&route=shorturl",
+  {
+   "url": "https://forms.gle/C2z3ozfgXyXpxJi99",
+   "titulo": "Inscripción - VI Congreso Voces Escénicas del Sur",
+   "organizador": "Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://forms.cloud.microsoft/r/Rm4jDrBCFQ",
+   "titulo": "Científica Sprint",
+   "organizador": "Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://forms.gle/YUY8HgpgVCGXggfp8",
+   "titulo": "Científica MUN: integra uno de sus 6 comités",
+   "organizador": "Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://bit.ly/3SLv3En",
+   "titulo": "Semana Internacional",
+   "organizador": "Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://forms.gle/nXKBM5kaeH6UvD1h8",
+   "titulo": "Día Cultural Aramburú: Taller de Arte Andino | 25/09",
+   "organizador": "Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://www.universia.net/pe/evento-empleabilidad/practicas-que-marcan",
+   "titulo": "Prácticas Que Marcan (Universia)",
+   "organizador": "Universia y Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "categorias": [
+    "Habilidades y liderazgo"
+   ],
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://forms.office.com/pages/responsepage.aspx?id=EM3epWWRNkamTHlYAEIV-vzsH05dt_ZKjvhTeeAxkAZUN0lDU1I3Q01DNUJWVDlCWkxSTTcyOEFWWi4u&origin=lprLink&route=shorturl",
    "titulo": "Charlas informativas del Disney Academic Exchange Program",
-   "organizador": "Universidad Científica del Sur", "tipo_org": "universidad", "categorias": ["Idiomas, becas e internacional"],
-   "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"},
-  {"url": "https://bit.ly/3XWFVy4", "titulo": "Intercambio académico en Disney",
-   "organizador": "Universidad Científica del Sur", "tipo_org": "universidad", "categorias": ["Idiomas, becas e internacional"],
-   "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"},
-  {"url": "https://docs.google.com/forms/d/e/1FAIpQLSfzHwiZmyIDYj_wnRC844e61_7amy8GgMrkUc63A13oExie1A/viewform",
+   "organizador": "Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://bit.ly/3XWFVy4",
+   "titulo": "Intercambio académico en Disney",
+   "organizador": "Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfzHwiZmyIDYj_wnRC844e61_7amy8GgMrkUc63A13oExie1A/viewform",
    "titulo": "Voluntariado del Caballo Peruano de Paso",
-   "organizador": "Universidad Científica del Sur", "tipo_org": "universidad", "categorias": ["Voluntariado e impacto social"],
-   "origen": "https://linktr.ee/u.cientificadelsur", "agregado": "2026-09-27"}
+   "organizador": "Universidad Científica del Sur",
+   "tipo_org": "universidad",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "origen": "https://linktr.ee/u.cientificadelsur",
+   "agregado": "2026-09-27"
+  }
  ]
 }
