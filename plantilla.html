@@ -91,6 +91,14 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 .reco .cuerpo{padding:10px 14px 14px}
 .reco b{display:block;font-size:15px;line-height:1.3;margin-bottom:4px}
 .reco span{font-size:13px;color:var(--gris)}
+.carrusel-caja{position:relative}
+.flecha{position:absolute;top:52px;z-index:2;width:44px;height:44px;border-radius:50%;border:0;background:#fff;
+  color:var(--azul);box-shadow:0 4px 16px rgba(13,41,96,.28);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;padding:0;transition:.15s}
+.flecha:hover{background:var(--naranja);color:#fff}
+.flecha.izq{left:-12px}
+.flecha.der{right:-12px}
+.flecha[hidden]{display:none}
 
 /* ---------- tarjetas */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
@@ -198,6 +206,9 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
     font-size:12.5px;line-height:1.2;border-radius:12px}
   .tipo-btn .ico{font-size:20px;line-height:1}
   .tipo-btn .n{font-size:11.5px}
+  .flecha{width:38px;height:38px;top:46px}
+  .flecha.izq{left:-8px}
+  .flecha.der{right:-8px}
 }
 </style>
 </head>
@@ -440,11 +451,7 @@ function pintarTipos() {
     const b = document.createElement("button");
     b.className = "tipo-btn" + (n ? "" : " vacio-t"); b.setAttribute("aria-pressed", st.tipo === v);
     b.innerHTML = `<span class="ico" aria-hidden="true">${ico}</span><span>${txt} <span class="n">${n}</span></span>`;
-    b.onclick = () => {
-      elegirTipo(v); st.archivo = false; render();
-      const nav = $(".filtros");  // lleva a los resultados sin que el visitante tenga que buscarlos
-      if (nav.getBoundingClientRect().top > innerHeight * .45) nav.scrollIntoView({behavior: "smooth"});
-    };
+    b.onclick = () => { elegirTipo(v); st.archivo = false; render(); };  // la pantalla no se mueve sola (pedido de JP)
     t.appendChild(b);
   });
 }
@@ -456,7 +463,11 @@ function pintarRecomendados() {
   const porId = Object.fromEntries(eventos.map(e => [e.id, e]));
   const sel = ((DATOS && DATOS.recomendados) || []).map(i => porId[i]).filter(e => e && !ocultos.has(e.id));
   if (filtrando || !sel.length) { cont.innerHTML = ""; return; }
+  const antes = cont.querySelector(".carrusel")?.scrollLeft || 0;  // guardar/ocultar no devuelve el carrusel al inicio
   cont.innerHTML = `<h2 class="seccion">⭐ Lo más recomendado <small>lo que más te suma en los próximos días</small></h2>
+    <div class="carrusel-caja">
+    <button class="flecha izq" data-dir="-1" aria-label="Recomendado anterior" hidden><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button class="flecha der" data-dir="1" aria-label="Siguiente recomendado"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
     <div class="carrusel">` + sel.map(e => {
       const d = clave(e);
       const cuando = e.cierre ? `Cierra ${fDiaCorto.format(d)}` : `${fDiaCorto.format(d)} · ${fHora.format(d)}`;
@@ -464,8 +475,25 @@ function pintarRecomendados() {
         <div class="img">${imagen(e)}</div>
         <div class="cuerpo"><b>${esc(e.titulo)}</b>
         <span>${cuando} · ${esc(lugarCorto(e))}</span></div></a>`;
-    }).join("") + `</div>`;
+    }).join("") + `</div></div>`;
+  const c = cont.querySelector(".carrusel");
+  c.scrollLeft = antes;
+  ["scroll", "scrollend"].forEach(ev => c.addEventListener(ev, () => flechas(c), {passive: true}));
+  flechas(c);
 }
+// Flechas del carrusel: pasan de un recomendado al siguiente y se esconden en los extremos
+function flechas(c) {
+  const caja = c.parentElement;
+  caja.querySelector(".izq").hidden = c.scrollLeft < 8;
+  caja.querySelector(".der").hidden = c.scrollLeft + c.clientWidth >= c.scrollWidth - 8;
+}
+$("#recomendados").addEventListener("click", ev => {
+  const b = ev.target.closest(".flecha"); if (!b) return;
+  const c = b.parentElement.querySelector(".carrusel"), paso = c.querySelector(".reco").offsetWidth + 14;
+  c.scrollBy({left: +b.dataset.dir * paso, behavior: "smooth"});
+  setTimeout(() => flechas(c), 600);  // por si el navegador no avisa el final del desplazamiento
+});
+addEventListener("resize", () => { const c = $("#recomendados .carrusel"); if (c) flechas(c); });
 
 // ---------- Se viene (anuales sin fecha publicada) y Por confirmar (descubrimiento en noticias)
 const MESES_TXT = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"];
