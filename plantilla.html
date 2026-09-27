@@ -46,6 +46,18 @@ a{color:inherit}
 .estado-mini .punto{width:8px;height:8px;border-radius:50%;background:#5BE3A8;box-shadow:0 0 0 3px rgba(91,227,168,.25)}
 .cifras{display:flex;gap:22px;flex-wrap:wrap;margin-top:18px;font-size:14px}
 .cifras b{font-size:22px;display:block;line-height:1.1}
+/* "¿Qué buscas?": la puerta de entrada más obvia para quien llega por primera vez */
+.que-buscas{margin-top:18px}
+.que-buscas>span{display:block;font-size:13.5px;font-weight:700;opacity:.85;margin-bottom:8px}
+.tipos{display:flex;gap:8px;flex-wrap:wrap}
+.tipo-btn{flex:0 0 auto;display:flex;align-items:center;gap:7px;border:1.5px solid rgba(255,255,255,.28);
+  background:rgba(255,255,255,.1);color:#fff;border-radius:14px;padding:8px 13px;font:inherit;font-size:14.5px;
+  font-weight:700;cursor:pointer;transition:.15s}
+.tipo-btn:hover{background:rgba(255,255,255,.2)}
+.tipo-btn[aria-pressed=true]{background:#fff;color:var(--azul);border-color:#fff}
+.tipo-btn .n{font-size:12.5px;opacity:.7;font-weight:700}
+.tipo-btn.vacio-t{opacity:.5}
+.que-buscas + .estado-mini{margin-top:16px}
 
 /* ---------- filtros */
 .filtros{background:#fff;border-bottom:1px solid var(--linea);position:sticky;top:0;z-index:10}
@@ -140,7 +152,13 @@ details.acerca summary{cursor:pointer;font-weight:800;color:var(--azul);font-siz
 .chip.filtros-mas{border-style:dashed;font-weight:800}
 .aviso-seccion{font-size:13.5px;color:var(--gris);margin:-6px 0 12px}
 .fecha.cierre span{color:#B42318}
+.fecha .pre{display:block;font-size:9.5px;letter-spacing:.06em;color:#B42318;margin-bottom:1px}
 .cat.tipo{background:#FFF7E6;color:#9A5B00}
+.cat.urgente{background:#FDECEC;color:#B42318}
+.origen .der{display:flex;gap:14px}
+.vacio .btn{margin-top:14px}
+/* pista de "hay más a la derecha" en la fila de filtros cuando no cabe */
+.fila.corta{-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}
 
 /* ---------- archivo */
 .aviso-archivo{background:#fff;border:1px solid var(--linea);border-radius:14px;padding:14px 16px;font-size:14.5px;color:#34435A;margin-top:24px}
@@ -169,6 +187,17 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
   .hero{padding:26px 0 24px}
   .cifras{gap:16px}
   .grid{grid-template-columns:1fr}
+  /* tarjeta más compacta en el celular: menos scroll para ver la siguiente */
+  .card .img{aspect-ratio:2/1}
+  .card h3{font-size:17px}
+  .desc{-webkit-line-clamp:2}
+  .cuerpo{padding:12px 14px 14px}
+  /* en el celular, cuadrícula 3×2 tipo app: todo a la vista sin scroll lateral */
+  .tipos{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+  .tipo-btn{flex-direction:column;justify-content:center;text-align:center;gap:3px;padding:8px 4px;
+    font-size:12.5px;line-height:1.2;border-radius:12px}
+  .tipo-btn .ico{font-size:20px;line-height:1}
+  .tipo-btn .n{font-size:11.5px}
 }
 </style>
 </head>
@@ -182,6 +211,7 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
       <span class="lupa" aria-hidden="true">🔎</span>
       <input type="search" id="q" placeholder="¿Qué te interesa? Python, becas, logística…" aria-label="Buscar oportunidades">
     </label>
+    <div class="que-buscas"><span>¿Qué buscas?</span><div class="tipos" id="tipos"></div></div>
     <p class="estado-mini"><span class="punto"></span><span id="estado-act">Se actualiza cada 3 horas</span></p>
   </div>
 </header>
@@ -252,6 +282,26 @@ const eventos = (DATOS && DATOS.eventos) || [];
 const archivo = (DATOS && DATOS.archivo) || [];
 const TIPOS = {hackathon: "🏆 Hackathon", convocatoria: "📣 Convocatoria", voluntariado: "🤝 Voluntariado",
                "call for papers": "📝 Call for papers"};
+// "¿Qué buscas?": los tipos en palabras de estudiante, no de la base de datos
+const GRUPOS = [["evento", "🎤", "Charlas y talleres"], ["hackathon", "🏆", "Hackathons"],
+                ["convocatoria", "🎓", "Becas y programas"], ["voluntariado", "🤝", "Voluntariado"],
+                ["call for papers", "📝", "Presenta tu investigación"]];
+const grupo = e => e.tipo || "evento";
+// Becas, retos y papers se preparan con meses: al elegirlos se ven todos, no solo los que cierran este mes
+const deLargoPlazo = v => !!v && v !== "evento";
+const CORAZON = on => `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="${on ? "#E0245E" : "none"}"
+  stroke="${on ? "#E0245E" : "currentColor"}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:block">
+  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>`;
+// Razones del puntaje traducidas a lo que le importa a quien lee; lo que ya dice la tarjeta
+// (gratis, lugar, afinidad con un perfil ajeno, penalizaciones) no se repite.
+const RAZONES = [["Grande, gratis y en Lima", "🌟 Gran evento gratis en Lima"], ["Evento institucional", "🏛️ Gran evento institucional"],
+                 ["Abre puertas (beca/programa)", "🚪 Te abre puertas"], ["Con premio", "🏅 Con premios"],
+                 ["Con certificado", "📜 Con certificado"], ["Universidad", "🎓 Con una universidad"],
+                 ["Gremio o institución", "🏛️ Con un gremio o institución"], ["Empresa reconocida", "🏢 Con una empresa reconocida"],
+                 ["Formativo", "📚 Para aprender"], ["Networking", "🤝 Para hacer contactos"]];
+const razones = e => { let r = (e.por_que || "").split(" · ");
+  if (r.includes("Grande, gratis y en Lima")) r = r.filter(x => x !== "Evento institucional");  // no decirlo dos veces
+  return RAZONES.filter(([k]) => r.includes(k)).map(([, v]) => v).slice(0, 2).join(" · "); };
 const conPlazo = e => e.tipo === "convocatoria" || e.tipo === "voluntariado";
 // Fecha que ordena y filtra: el cierre para lo que tiene plazo; el inicio para eventos y congresos.
 // null = convocatoria sin fecha límite publicada (se lista al final, "ver plazo en la fuente").
@@ -264,7 +314,7 @@ const fDia = F({weekday: "long", day: "numeric", month: "long"}), fHora = F({hou
 
 const st = Object.assign({cuando: "30", cats: [], top: false, gratis: false, presencial: false, guardados: false},
   leer("radar-filtros-v2", {}));
-st.q = ""; st.archivo = false; st.mas = !!(st.cats && st.cats.length) || st.cuando === "0" || !!st.top;
+st.q = ""; st.archivo = false; st.tipo = ""; st.mas = !!(st.cats && st.cats.length) || st.cuando === "0" || !!st.top;
 const PAGINA = 20; let limite = PAGINA;
 const favs = new Set(leer("radar-favs", []));
 const ocultos = new Set(leer("radar-ocultos", []));
@@ -283,10 +333,13 @@ function imagen(e) {
   if (!e.imagen) return ph;
   return ph + `<img src="${esc(e.imagen)}" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">`;
 }
-function relativo(d) {
+function diasHasta(d) {
   const a = new Date(ahora); a.setHours(0,0,0,0);
   const b = new Date(d); b.setHours(0,0,0,0);
-  const n = Math.round((b - a) / 864e5);
+  return Math.round((b - a) / 864e5);
+}
+function relativo(d) {
+  const n = diasHasta(d);
   return n === 0 ? "Hoy" : n === 1 ? "Mañana" : n > 1 && n < 7 ? `En ${n} días` : "";
 }
 function gcal(e) {
@@ -306,19 +359,20 @@ const porClave = (a, b) => {
 };
 
 // ---------- filtros
-function filtrar(ignorarCat) {
-  const lim = st.cuando === "todo" ? Infinity : +st.cuando * 864e5;
+function filtrar(ignorarCat, ignorarTipo, cuando = st.cuando) {
+  const lim = cuando === "todo" ? Infinity : +cuando * 864e5;
   const q = sinTildes(st.q.trim());
   return eventos.filter(e => {
     const ini = clave(e);
-    if (ini === null) { if (st.cuando === "0" || st.cuando === "7") return false; }
-    else if (st.cuando === "0" ? ini.toDateString() !== ahora.toDateString() && ini > ahora : ini - ahora > lim) return false;
+    if (ini === null) { if (cuando === "0" || cuando === "7") return false; }
+    else if (cuando === "0" ? ini.toDateString() !== ahora.toDateString() && ini > ahora : ini - ahora > lim) return false;
     if (ocultos.has(e.id)) return false;
     if (st.guardados && !favs.has(e.id)) return false;
     if (st.top && !esTop(e)) return false;
     if (st.gratis && e.gratis !== true) return false;
     if (st.presencial && e.modalidad !== "Presencial") return false;
     if (!ignorarCat && st.cats.length && !e.categorias.some(c => st.cats.includes(c))) return false;
+    if (!ignorarTipo && st.tipo && grupo(e) !== st.tipo) return false;
     if (q) {
       const t = sinTildes([e.titulo, e.descripcion, e.lugar, e.distrito, e.organizador, e.fuente, ...e.categorias].join(" "));
       if (!q.split(/\s+/).every(w => t.includes(w))) return false;
@@ -338,11 +392,18 @@ function pintarFiltros() {
   chip(c1, `⚙️ Filtros${activos ? `<span class="n">${activos}</span>` : ""} ${st.mas ? "▴" : "▾"}`, st.mas,
        () => { st.mas = !st.mas; render(); }, "filtros-mas");
   [["7", "Esta semana"], ["30", "Este mes"], ["todo", "Todo"]].forEach(([v, l]) =>
-    chip(c1, l, st.cuando === v, () => { st.cuando = v; render(); }));
+    chip(c1, l, st.cuando === v, () => { st.cuando = v; elegirTipo.previo = null; render(); }));
   c1.insertAdjacentHTML("beforeend", '<span class="separador"></span>');
   chip(c1, "🆓 Gratis", st.gratis, () => { st.gratis = !st.gratis; render(); }, "naranja");
   chip(c1, "📍 Presencial", st.presencial, () => { st.presencial = !st.presencial; render(); }, "naranja");
-  chip(c1, `🔖 Guardados<span class="n">${favs.size}</span>`, st.guardados, () => { st.guardados = !st.guardados; render(); }, "naranja");
+  chip(c1, `❤️ Guardados${favs.size ? `<span class="n">${favs.size}</span>` : ""}`, st.guardados, () => { st.guardados = !st.guardados; render(); }, "naranja");
+  // Al bajar, el "¿Qué buscas?" queda arriba: el tipo elegido sigue visible aquí y se quita con un toque
+  const g = GRUPOS.find(([v]) => v === st.tipo);
+  if (g) {
+    chip(c1, `${g[1]} ${g[2]} ✕`, true, () => { elegirTipo(""); render(); }, "naranja");
+    c1.prepend(c1.lastChild);
+  }
+  c1.classList.toggle("corta", c1.scrollWidth - c1.scrollLeft - c1.clientWidth > 8);
 
   $("#mas-filtros").hidden = !st.mas;
   const cx = $("#f-extra"); cx.innerHTML = "";
@@ -362,10 +423,36 @@ function pintarFiltros() {
     }));
 }
 
+// Al elegir becas/retos/papers se pasa a "Todo"; al volver a eventos se recupera el rango que había
+function elegirTipo(v) {
+  if (deLargoPlazo(v) && st.cuando !== "todo") { elegirTipo.previo = st.cuando; st.cuando = "todo"; }
+  else if (!deLargoPlazo(v) && elegirTipo.previo) { if (st.cuando === "todo") st.cuando = elegirTipo.previo; elegirTipo.previo = null; }
+  st.tipo = v;
+}
+function pintarTipos() {
+  const cuenta = lista => lista.reduce((c, e) => (c[grupo(e)] = (c[grupo(e)] || 0) + 1, c), {});
+  const ahoraN = cuenta(filtrar(false, true)), todoN = cuenta(filtrar(false, true, "todo"));
+  const t = $("#tipos"); t.innerHTML = "";
+  [["", "✨", "Todo"], ...GRUPOS].forEach(([v, ico, txt]) => {
+    // el número es lo que verás al tocarlo
+    const n = !v ? Object.values(ahoraN).reduce((a, b) => a + b, 0)
+      : (deLargoPlazo(v) && st.tipo !== v ? todoN : ahoraN)[v] || 0;
+    const b = document.createElement("button");
+    b.className = "tipo-btn" + (n ? "" : " vacio-t"); b.setAttribute("aria-pressed", st.tipo === v);
+    b.innerHTML = `<span class="ico" aria-hidden="true">${ico}</span><span>${txt} <span class="n">${n}</span></span>`;
+    b.onclick = () => {
+      elegirTipo(v); st.archivo = false; render();
+      const nav = $(".filtros");  // lleva a los resultados sin que el visitante tenga que buscarlos
+      if (nav.getBoundingClientRect().top > innerHeight * .45) nav.scrollIntoView({behavior: "smooth"});
+    };
+    t.appendChild(b);
+  });
+}
+
 // ---------- recomendados de la semana
 function pintarRecomendados() {
   const cont = $("#recomendados");
-  const filtrando = st.q || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.archivo;
+  const filtrando = st.q || st.tipo || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.archivo;
   const porId = Object.fromEntries(eventos.map(e => [e.id, e]));
   const sel = ((DATOS && DATOS.recomendados) || []).map(i => porId[i]).filter(e => e && !ocultos.has(e.id));
   if (filtrando || !sel.length) { cont.innerHTML = ""; return; }
@@ -383,7 +470,7 @@ function pintarRecomendados() {
 // ---------- Se viene (anuales sin fecha publicada) y Por confirmar (descubrimiento en noticias)
 const MESES_TXT = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"];
 function pintarExtras() {
-  const filtrando = st.q || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.archivo;
+  const filtrando = st.q || st.tipo || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.archivo;
   const sv = (DATOS && DATOS.se_viene) || [], pc = (DATOS && DATOS.por_confirmar) || [];
   $("#se-viene").innerHTML = filtrando || !sv.length ? "" :
     `<h2 class="seccion">🗓️ Se viene <small>grandes eventos anuales que se acercan</small></h2>
@@ -409,8 +496,12 @@ function cuandoTexto(e) {
     const fin = e.fin && e.fin !== e.inicio ? " – " + fDiaCorto.format(new Date(e.fin)) : "";
     return `<div><span class="ic">🗓️</span><span>Congreso: ${fDiaCorto.format(d)}${fin}</span></div>`;
   }
-  const fin = e.fin && new Date(e.fin).toDateString() === d.toDateString() ? " – " + fHora.format(new Date(e.fin)) : "";
-  return `<div><span class="ic">🕒</span><span>${fDia.format(d)}, ${fHora.format(d)}${fin}</span></div>`;
+  // El día ya lo dice el encabezado del grupo: aquí basta la hora (y hasta cuándo, si dura varios días)
+  const f = e.fin ? new Date(e.fin) : null;
+  const varios = f && f.toDateString() !== d.toDateString() && f > d ? `hasta el ${fDiaCorto.format(f)}` : "";
+  const sinHora = !d.getHours() && !d.getMinutes();
+  const hora = sinHora ? "" : fHora.format(d) + (f && !varios ? " – " + fHora.format(f) : "");
+  return `<div><span class="ic">🕒</span><span>${([hora, varios].filter(Boolean).join(" · ") || "Horario: revísalo en la fuente").replace(/^./, c => c.toUpperCase())}</span></div>`;
 }
 function dondeTexto(e) {
   if (e.modalidad === "Virtual") return `<div><span class="ic">💻</span><span>Virtual</span></div>`;
@@ -425,8 +516,12 @@ function tarjeta(e) {
     + e.categorias.slice(0, 1).map(c => `<span class="cat">${(CATS[c] || {}).ico || ""} ${esc(c)}</span>`).join("")
     + (e.gratis === true ? `<span class="cat gratis">Gratis</span>` : "")
     + (esNuevo(e) ? `<span class="cat nuevo">Nuevo</span>` : "");
+  const quedan = e.cierre ? diasHasta(d) : -1;
+  const urgente = quedan >= 0 && quedan <= 7
+    ? `<span class="cat urgente">⏳ Cierra ${quedan === 0 ? "hoy" : quedan === 1 ? "mañana" : `en ${quedan} días`}</span>` : "";
+  const porque = razones(e);
   const desc = (e.descripcion || "").trim();
-  const insignia = d ? `<div class="fecha ${e.cierre ? "cierre" : ""}"><b>${d.getDate()}</b><span>${e.cierre ? "cierra " : ""}${fMes.format(d).replace(".", "")}</span></div>`
+  const insignia = d ? `<div class="fecha ${e.cierre ? "cierre" : ""}">${e.cierre ? `<span class="pre">cierra</span>` : ""}<b>${d.getDate()}</b><span>${fMes.format(d).replace(".", "")}</span></div>`
                      : `<div class="fecha"><b>?</b><span>plazo</span></div>`;
   const accion = e.tipo === "evento" || !e.tipo ? "Inscribirme ↗" : e.tipo === "call for papers" ? "Ver convocatoria ↗" : "Postular ↗";
   return `<article class="card" data-id="${esc(e.id)}">
@@ -436,9 +531,9 @@ function tarjeta(e) {
       ${esTop(e) ? `<span class="top">${ETQ_TOP}</span>` : ""}
     </div>
     <div class="cuerpo">
-      <div class="cats">${cats}</div>
+      <div class="cats">${urgente}${cats}</div>
       <h3>${esc(e.titulo)}</h3>
-      ${e.por_que ? `<p class="porque" title="Por qué aparece aquí">✨ ${esc(e.por_que.split(" · ").slice(0, 3).join(" · "))}</p>` : ""}
+      ${porque ? `<p class="porque" title="Por qué vale la pena">${esc(porque)}</p>` : ""}
       <div class="datos">
         ${cuandoTexto(e)}
         ${dondeTexto(e)}
@@ -448,11 +543,11 @@ function tarjeta(e) {
       <div class="acciones">
         <a class="btn inscribir" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">${accion}</a>
         ${d ? `<a class="btn sec" href="${gcal(e)}" target="_blank" rel="noopener" title="Agregar a Google Calendar">📅 Agendar</a>` : ""}
-        <button class="btn sec icono ${fav ? "on" : ""}" data-a="fav" title="${fav ? "Quitar de guardados" : "Guardar"}" aria-label="Guardar">${fav ? "🔖" : "🏷️"}</button>
+        <button class="btn sec icono ${fav ? "on" : ""}" data-a="fav" title="${fav ? "Quitar de guardados" : "Guardar para después"}" aria-label="${fav ? "Quitar de guardados" : "Guardar"}" aria-pressed="${fav}">${CORAZON(fav)}</button>
       </div>
       <div class="origen">
         <span>Fuente: <a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.fuente)} ↗</a></span>
-        <button data-a="ocultar">No me interesa</button>
+        <span class="der"><button data-a="compartir">Compartir</button><button data-a="ocultar">No me interesa</button></span>
       </div>
     </div>
   </article>`;
@@ -482,17 +577,23 @@ function pintarArchivo(cont) {
 }
 
 function render() {
-  if (render.firma !== JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.guardados, st.q, st.archivo])) {
-    render.firma = JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.guardados, st.q, st.archivo]); limite = PAGINA;
-  }
-  const {q, archivo: _a, mas: _m, ...resto} = st; guardar("radar-filtros-v2", resto);
-  pintarFiltros(); pintarRecomendados(); pintarExtras();
+  const firma = JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.guardados, st.q, st.archivo, st.tipo]);
+  if (render.firma !== firma) { render.firma = firma; limite = PAGINA; }
+  const {q, archivo: _a, mas: _m, tipo: _t, ...resto} = st; guardar("radar-filtros-v2", resto);
+  pintarTipos(); pintarFiltros(); pintarRecomendados(); pintarExtras();
   const cont = $("#lista");
   if (!DATOS) { cont.innerHTML = `<div class="vacio"><b>⏳</b>Todavía no hay datos. Vuelve en unos minutos.</div>`; return; }
   if (st.archivo) { pintarArchivo(cont); return; }
   const lista = filtrar(false);
-  if (!lista.length) { cont.innerHTML = `<h2 class="seccion">Oportunidades</h2><div class="vacio"><b>🔍</b>No hay nada con esos filtros. Prueba con “Todo”, quita alguna área o mira el Archivo.</div>`; return; }
-  let html = `<h2 class="seccion">Todas las oportunidades <small>${lista.length}, ordenadas por fecha</small></h2>`, dia = "", abierto = false;
+  const g = GRUPOS.find(([v]) => v === st.tipo);
+  const titulo = g ? `${g[1]} ${g[2]}` : "Todas las oportunidades";
+  if (!lista.length) {
+    cont.innerHTML = `<h2 class="seccion">${titulo}</h2><div class="vacio"><b>🔍</b>${st.guardados && !favs.size
+      ? "Aún no guardas nada. Toca el corazón de una oportunidad para tenerla aquí."
+      : "No encontramos nada con esos filtros."}<br><button class="btn sec" data-a="limpiar">Ver todas las oportunidades</button></div>`;
+    return;
+  }
+  let html = `<h2 class="seccion">${titulo} <small>${lista.length}, ordenadas por fecha</small></h2>`, dia = "", abierto = false;
   for (const e of lista.slice(0, limite)) {
     const d = clave(e), k = d ? d.toDateString() : "sin-plazo";
     if (k !== dia) {
@@ -528,7 +629,7 @@ if (DATOS) {
 if (location.protocol.startsWith("http")) {
   const base = location.href.replace(/[?#].*$/, "").replace(/[^/]*$/, "");
   const sub = f => "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(base.replace(/^https?:/, "webcal:") + f);
-  $("#suscribir").innerHTML = `<a class="btn inscribir" style="flex:0 0 auto" href="${sub("top.ics")}" target="_blank" rel="noopener">📅 Suscribirme a “Para ti” en Google Calendar</a>
+  $("#suscribir").innerHTML = `<a class="btn inscribir" style="flex:0 0 auto" href="${sub("top.ics")}" target="_blank" rel="noopener">📅 Suscribirme a los destacados en Google Calendar</a>
     <a class="btn sec" href="${sub("eventos.ics")}" target="_blank" rel="noopener">Suscribirme a todos</a>`;
 }
 
@@ -536,7 +637,21 @@ $("#lista").addEventListener("click", ev => {
   const b = ev.target.closest("[data-a]"); if (!b) return;
   if (b.dataset.a === "salir-archivo") { ev.preventDefault(); st.archivo = false; render(); return; }
   if (b.dataset.a === "cargar") { limite += PAGINA; render(); return; }
+  if (b.dataset.a === "limpiar") {
+    Object.assign(st, {cuando: "30", cats: [], top: false, gratis: false, presencial: false, guardados: false, tipo: "", q: ""});
+    elegirTipo.previo = null; $("#q").value = ""; render(); return;
+  }
   const card = b.closest(".card"), id = card.dataset.id;
+  if (b.dataset.a === "compartir") {
+    // Lo abre quien visita, con su propio WhatsApp o menú de compartir: la página no envía nada sola
+    const e = eventos.find(x => x.id === id), url = e.inscripcion || e.url, d = clave(e);
+    const cuando = !d ? "" : e.cierre ? `Postula hasta el ${fDiaCorto.format(d)}` : `${fDiaCorto.format(d)}, ${fHora.format(d)}`;
+    const pagina = location.protocol.startsWith("http") ? "\n\nMás oportunidades así: " + location.href.replace(/[?#].*$/, "") : "";
+    const texto = [e.titulo, cuando].filter(Boolean).join("\n");
+    if (navigator.share) navigator.share({title: e.titulo, text: texto + pagina, url}).catch(() => {});
+    else window.open("https://wa.me/?text=" + encodeURIComponent(`${texto}\n${url}${pagina}`), "_blank", "noopener");
+    return;
+  }
   if (b.dataset.a === "mas") {
     const p = card.querySelector(".desc"); p.classList.toggle("abierta");
     b.textContent = p.classList.contains("abierta") ? "Leer menos" : "Leer más"; return;
@@ -546,6 +661,9 @@ $("#lista").addEventListener("click", ev => {
   render();
 });
 $("#q").addEventListener("input", e => { st.q = e.target.value; render(); });
+$("#f-cuando").addEventListener("scroll", e => {
+  const c = e.currentTarget; c.classList.toggle("corta", c.scrollWidth - c.scrollLeft - c.clientWidth > 8);
+}, {passive: true});
 render();
 </script>
 </body>
