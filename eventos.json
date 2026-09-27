@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T14:01-05:00",
+ "actualizado": "2026-09-27T14:03-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 35
+   "n": 34
   },
   "Meetup": {
    "ok": true,
@@ -31,8 +31,7 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-09-27T13:55-05:00"
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -40,15 +39,14 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 12,
-   "revisar": "62% de sus eventos con problemas"
+   "n": 12
   },
   "Redes (manual)": {
    "ok": true,
    "n": 0
   }
  },
- "revisados": 336,
+ "revisados": 335,
  "top": 55,
  "eventos": [
   {
@@ -4563,7 +4561,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Expotextil Runways: living platforms where design, tech & sustainability meet. Showcasing the best of Peruvian & global fashion to the world",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2d492065ed8914904f3dc6296a0ede4b",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0c84b16c9ad9ab32b2a8d71580005d41",
    "inscripcion": "https://www.eventbrite.com/e/pasarelas-expotextil-tickets-1988046593879",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7594,31 +7592,6 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "eb:1999932168954",
-   "titulo": "Bautismo cdv Miraflores",
-   "inicio": "2026-09-27T13:30-05:00",
-   "fin": "2026-09-27T14:00-05:00",
-   "lugar": "Mal. de la Reserva 535, 535 Malecón de la Reserva",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-1999932168954",
-   "fuente": "Eventbrite",
-   "organizador": "caminodevida",
-   "descripcion": "Bautismo cdv",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184629970%2F319397189657%2F1%2Foriginal.20220313-180751?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C60%2C1920%2C960&s=b374aec580ee7019be45a60257f932d1",
-   "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-1999932168954",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "eb:1982892086609",
    "titulo": "Solo travellers: casual hangout in Lima (4pm)",
    "inicio": "2026-09-27T16:00-05:00",
@@ -9295,10 +9268,10 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-27T14:01-05:00",
+  "fecha": "2026-09-27T14:03-05:00",
   "revisados": 206,
   "corregidos": 13,
-  "avisos": 3,
+  "avisos": 4,
   "archivados": 0,
   "problemas": [
    {
@@ -9428,19 +9401,22 @@
     "nivel": "aviso",
     "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
     "url": "https://agenda.pucp.edu.pe/evento/taller-preparacion-efectiva-para-parciales/"
+   },
+   {
+    "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
+    "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISE",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/"
    }
   ],
   "enlaces": {
    "comprobados": 40,
-   "rotos": 1,
+   "rotos": 2,
    "sin_comprobar": 2
   },
-  "fuentes_a_revisar": [
-   {
-    "fuente": "Institucional",
-    "detalle": "62% de sus eventos con problemas"
-   }
-  ]
+  "fuentes_a_revisar": []
  },
  "por_confirmar": [
   {
