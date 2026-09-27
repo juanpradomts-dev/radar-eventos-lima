@@ -27,6 +27,7 @@ jobs:
       - run: pip install requests icalendar
       - run: python -m unittest test_radar
       - name: Validar y guardar el evento
+        id: guardar
         env:  # la entrada va por variable de entorno, nunca pegada en el script
           DATOS: ${{ inputs.datos }}
         run: python agregar_manual.py
@@ -45,5 +46,6 @@ jobs:
               sleep 5
             done
           fi
-          # un push hecho con el token del workflow no dispara otros workflows: se pide la publicación explícitamente
-          gh workflow run actualizar.yml --ref main
+          # un push hecho con el token del workflow no dispara otros workflows: se pide la publicación explícitamente,
+          # y solo si el evento se agregó (si se rechazó, solo se guarda el mensaje para el panel)
+          if [ "${{ steps.guardar.outputs.agregado }}" = "true" ]; then gh workflow run actualizar.yml --ref main; fi

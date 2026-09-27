@@ -103,6 +103,9 @@ if __name__ == "__main__":
         datos = {}
     r = agregar(datos if isinstance(datos, dict) else {})
     print(("✔ " if r["ok"] else "✗ ") + r["mensaje"] + " · " + r["titulo"])
+    if os.environ.get("GITHUB_OUTPUT"):  # el workflow solo republica el radar si de verdad se agregó algo
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as s:
+            s.write(f"agregado={'true' if r['ok'] else 'false'}\n")
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as s:
             s.write(f"## ➕ Evento añadido a mano\n\n{'✔' if r['ok'] else '✗'} **{r['titulo']}** — {r['mensaje']}\n")
