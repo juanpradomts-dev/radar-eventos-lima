@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T13:03-05:00",
+ "actualizado": "2026-09-27T13:16-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -219,34 +219,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "devpost:31098",
-   "titulo": "Graphiques Innovation Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-08-21T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://graphiques-challenge.devpost.com/",
-   "inscripcion": "https://graphiques-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "devpost:30298",
    "titulo": "Lake Oswego Hacks",
    "tipo": "hackathon",
@@ -412,6 +384,34 @@
    "puntaje": 33,
    "por_que": "Presencial en Lima · Afín: Investigación · Universidad · Gratis",
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "devpost:31098",
+   "titulo": "Graphiques Innovation Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-08-21T00:00-05:00",
+   "fin": "2026-09-28T23:59-05:00",
+   "cierre": "2026-09-28T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://graphiques-challenge.devpost.com/",
+   "inscripcion": "https://graphiques-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack Club",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 19,
+   "afinidad": 13,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "devpost:30559",
@@ -2085,34 +2085,6 @@
    "puntaje": 30,
    "por_que": "Presencial en Lima · Afín: Inteligencia artificial · Gratis · Evento sin formato claro",
    "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "devpost:30858",
-   "titulo": "ForgeHacks Online 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://forgehacks-2026.devpost.com/",
-   "inscripcion": "https://forgehacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $469,531.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 26,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-27T13:03-05:00"
   },
   {
    "id": "luma:evt-g4nJ9CwZ8xLZUEz",
@@ -8335,6 +8307,33 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:30998",
+   "titulo": "HelloHacks",
+   "tipo": "hackathon",
+   "inicio": "2026-09-26T00:00-05:00",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "University of British Columbia (UBC)",
+   "distrito": "University of British Columbia (UBC)",
+   "modalidad": "Presencial",
+   "url": "https://hellohacks-2026.devpost.com/",
+   "inscripcion": "https://hellohacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "UBC BizTech",
+   "descripcion": "Hackathon presencial en University of British Columbia (UBC). Temas: Beginner Friendly, Open Ended. Premios: $CAD 450.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/088/130/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 6,
+   "puntaje": 29,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:30236",
    "titulo": "Hack Atlantic",
    "tipo": "hackathon",
@@ -9269,14 +9268,6 @@
    "fecha_mencionada": "2026-09-25T00:00-05:00"
   },
   {
-   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
-   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
-   "medio": "autotv",
-   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
-   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
    "url": "https://itusers.today/pronto-webinar-smart-4-life-summit-2026-de-panduit-it-users-magazine/",
    "medio": "itusers",
@@ -9585,7 +9576,6 @@
   "devpost:31515": "2026-09-27T11:15-05:00",
   "devpost:31493": "2026-09-27T11:15-05:00",
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
-  "devpost:30588": "2026-09-27T11:15-05:00",
-  "devpost:30858": "2026-09-27T13:03-05:00"
+  "devpost:30588": "2026-09-27T11:15-05:00"
  }
 }
