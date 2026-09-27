@@ -160,7 +160,7 @@ class SinPerfil(unittest.TestCase):
                 pagina = eventos.generar_html(datos)
                 self.assertEqual([e["titulo"] for e in lista], ["Taller de Power BI para operaciones"])
                 self.assertEqual({e["motivo"].split(" (")[0] for e in archivo}, {"recreativo o de venta", "ya pasó"})
-                self.assertIn("Radar de Oportunidades", pagina.read_text(encoding="utf-8"))
+                self.assertIn("Radar <b>Lima</b>", pagina.read_text(encoding="utf-8"))
             finally:
                 eventos.FUENTES, eventos.enriquecer, eventos.DATOS, eventos.CARPETA, eventos.PAGINA = viejo
 
