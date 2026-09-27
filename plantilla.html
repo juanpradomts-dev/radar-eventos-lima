@@ -51,12 +51,13 @@ a{color:inherit}
 .que-buscas>span{display:block;font-size:13.5px;font-weight:700;opacity:.85;margin-bottom:8px}
 .tipos{display:flex;gap:8px;flex-wrap:wrap}
 .tipo-btn{flex:0 0 auto;display:flex;align-items:center;gap:7px;border:1.5px solid rgba(255,255,255,.28);
-  background:rgba(255,255,255,.1);color:#fff;border-radius:14px;padding:9px 14px;font:inherit;font-size:14.5px;
+  background:rgba(255,255,255,.1);color:#fff;border-radius:14px;padding:8px 13px;font:inherit;font-size:14.5px;
   font-weight:700;cursor:pointer;transition:.15s}
 .tipo-btn:hover{background:rgba(255,255,255,.2)}
 .tipo-btn[aria-pressed=true]{background:#fff;color:var(--azul);border-color:#fff}
 .tipo-btn .n{font-size:12.5px;opacity:.7;font-weight:700}
 .tipo-btn.vacio-t{opacity:.5}
+.que-buscas + .estado-mini{margin-top:16px}
 
 /* ---------- filtros */
 .filtros{background:#fff;border-bottom:1px solid var(--linea);position:sticky;top:0;z-index:10}
@@ -282,7 +283,7 @@ const archivo = (DATOS && DATOS.archivo) || [];
 const TIPOS = {hackathon: "🏆 Hackathon", convocatoria: "📣 Convocatoria", voluntariado: "🤝 Voluntariado",
                "call for papers": "📝 Call for papers"};
 // "¿Qué buscas?": los tipos en palabras de estudiante, no de la base de datos
-const GRUPOS = [["evento", "🎤", "Charlas y talleres"], ["hackathon", "🏆", "Hackathons y retos"],
+const GRUPOS = [["evento", "🎤", "Charlas y talleres"], ["hackathon", "🏆", "Hackathons"],
                 ["convocatoria", "🎓", "Becas y programas"], ["voluntariado", "🤝", "Voluntariado"],
                 ["call for papers", "📝", "Presenta tu investigación"]];
 const grupo = e => e.tipo || "evento";
