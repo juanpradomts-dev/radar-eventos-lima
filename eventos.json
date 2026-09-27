@@ -1,21 +1,21 @@
 {
- "actualizado": "2026-09-26T18:22-05:00",
+ "actualizado": "2026-09-26T22:13-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 65
+   "n": 63
   },
   "Eventbrite": {
    "ok": true,
-   "n": 38
+   "n": 35
   },
   "Meetup": {
    "ok": true,
-   "n": 14
+   "n": 11
   },
   "PUCP": {
    "ok": true,
-   "n": 46
+   "n": 45
   },
   "Devpost": {
    "ok": true,
@@ -46,7 +46,7 @@
    "n": 0
   }
  },
- "revisados": 350,
+ "revisados": 341,
  "top": 55,
  "eventos": [
   {
@@ -198,143 +198,6 @@
    "puntaje": 33,
    "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
    "visto_desde": "2026-09-26T09:26-05:00"
-  },
-  {
-   "id": "luma:evt-UpPDgQfV4YE7zCu",
-   "titulo": "CEREMONIA DE PREMIACIÓN + SHOWCASE — TAKERNAL GAME JAM",
-   "inicio": "2026-09-26T12:50-05:00",
-   "fin": "2026-09-26T19:00-05:00",
-   "lugar": "Av. Primavera 2390, Santiago de Surco",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/dk3yycu6",
-   "fuente": "Luma",
-   "organizador": "Takernal Community",
-   "descripcion": "Ceremonia de Premiación de Takernal Game Jam 2026\nEn la ceremonia de premiación de Takernal Game Jam 2026 se darán a conocer los ganadores de las cinco categorías de los videojuegos desarrollados durante la Game Jam.\nLuego de nueve días de desarrollo, nos reuniremos para reconocer y celebrar a los equipos y proyectos ganadores de esta edición.\nLa jornada contará con la ceremonia de premiación, un show en vivo, un showcase de proyectos y un espacio final de coffee break y networking, donde participantes, desarrolladores y miembros de distintas comunidades de GameDev podrán compartir y celebrar juntos el cierre de la competencia.\n📍 Lugar: Aula Magna – UPC Sede Monterrico🕒 Horario: 12:50 a. m. ",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/os/aa45c239-5ca5-4976-a1b7-ab954c2f0b81.png",
-   "inscripcion": "https://lu.ma/dk3yycu6",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 37,
-   "afinidad": 6,
-   "puntaje": 43,
-   "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "luma:evt-acUPJEw5CCK1RVr",
-   "titulo": "Python Meetup Vol. 4 + PyCafé #1",
-   "inicio": "2026-09-26T14:00-05:00",
-   "fin": "2026-09-26T18:30-05:00",
-   "lugar": "Av. Primavera 2390, Santiago de Surco",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/e5fy98r4",
-   "fuente": "Luma",
-   "organizador": "Python Lima Perú",
-   "descripcion": "⚠️⚠️⚠️ ¡CUPOS AGOTADOS! ⚠️⚠️⚠️\nPython Meetup Vol. 4 + PyCafé 1 llega como la primera edición presencial de Python Lima 🐍🇵🇪, reuniendo a nuestra comunidad para una tarde de tecnología, aprendizaje, experiencias y networking.\nEste sábado 26 de septiembre nos encontraremos en la UPC Campus Monterrico, Aula Magna 2, junto a estudiantes, desarrolladores, docentes y profesionales interesados en Python, inteligencia artificial, ciencia de datos, desarrollo de software y otras áreas del ecosistema tecnológico.\nDurante el Python Meetup Vol. 4 tendremos tres charlas presenciales a cargo de profesionales de la industria, abordando temas actuales desde diferentes perspectivas:\n🔹 Sistemas de Recomendació",
-   "gratis": false,
-   "imagen": "https://images.lumacdn.com/uploads/tx/ce30eb04-6aa4-4807-b478-214b49fb185e.png",
-   "inscripcion": "https://lu.ma/e5fy98r4",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Datos y analítica"
-   ],
-   "valor": 21,
-   "afinidad": 34,
-   "puntaje": 55,
-   "por_que": "Afín: Datos y machine learning · Abre puertas (beca/programa) · Presencial en Lima · Afín: Inteligencia artificial · (Parece venta)",
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "meetup:316449593",
-   "titulo": "Speak Up - Conversation Club",
-   "inicio": "2026-09-26T17:00-05:00",
-   "fin": "2026-09-26T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/speak-up-conversation-club/events/316449593/",
-   "fuente": "Meetup",
-   "organizador": "Speak Up - Conversation Club",
-   "descripcion": "Welcome to Speak Up Conversation Club! 🇬🇧☕\n\nLooking for a fun way to practice English and meet new people in Lima?\n\nJoin Speak Up Conversation Club, where you'll improve your speaking skills in a relaxed and friendly environment while connecting with locals, expats, travelers, and English learners from different backgrounds.\n\nWho is this event for?\n✅ Adults (18+)\n✅ All English levels are welcome (Beginner, Intermediate, and Advanced)\n✅ Anyone who enjoys meeting new people, practicing English, and having meaningful conversations\n\nWhat can you expect?\n✅ Icebreaker activities\n✅ Fun games and trivia\n✅ Guided conversation tables\n✅ Coffee break with beverages and a variety of snacks\n✅ Karaoke and ",
-   "gratis": false,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/speak-up-conversation-club/events/316449593/",
-   "fuente_url": "https://www.meetup.com/speak-up-conversation-club/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Networking · Presencial en Lima",
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "meetup:316649907",
-   "titulo": "Saturday - Let's practice English (Rustica - First Floor Terrace)",
-   "inicio": "2026-09-26T18:00-05:00",
-   "fin": "2026-09-26T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/practice-english-saturday/events/316649907/",
-   "fuente": "Meetup",
-   "organizador": "Let’s Practice English (Saturdays)",
-   "descripcion": "Join us this Saturday to practice English at Rustica in Miraflores (Next to Kennedy Park)!\nPlease note: There are two Rustica locations on Calle de las Pizzas. We'll be at the one on Pasaje Figari.\n\nWe'll be meeting to practice English/Spanish, talk, meet new people, and share cultures. Intermediate and advanced English levels are welcome — Spanish is not a must if you can speak English! Free admission, but you must order at least a soft drink since we're meeting at a café. 😎😊\n\nAnd don't rush home after the meetup! Afterward, a group of us usually goes for a casual, inexpensive dinner somewhere nearby. It's a great chance to keep chatting, get to know everyone better, and continue the evenin",
-   "gratis": true,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/practice-english-saturday/events/316649907/",
-   "fuente_url": "https://www.meetup.com/practice-english-saturday/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis",
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "meetup:316639358",
-   "titulo": "Kiro sin miedo: Guía para estudiantes",
-   "inicio": "2026-09-26T18:30-05:00",
-   "fin": "2026-09-26T19:30-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/aws-sbg-at-technological-university-of-peru/events/316639358/",
-   "fuente": "Meetup",
-   "organizador": "AWS SBG at Technological University of Peru",
-   "descripcion": "¿Has escuchado hablar de Kiro, pero términos como specs y hooks todavía te resultan confusos? ¿O simplemente quieres descubrir cómo puede ayudarte a desarrollar proyectos de una manera diferente?\nEn esta sesión conocerás Kiro desde cero, entendiendo qué es, cómo funciona y cuáles son algunos de sus conceptos principales. Veremos de forma sencilla qué significan los specs y hooks, para qué sirven y cómo pueden utilizarse en la práctica . 💻✨\n\n✅ Descubre qué es Kiro y cómo puede ayudarte en el desarrollo de software\n✅ Comprende conceptos fundamentales como specs y hooks\n✅ Aprende cómo llevar estos conceptos a un flujo de trabajo práctico\n✅ Conoce una forma diferente de organizar y desarrollar t",
-   "gratis": null,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/aws-sbg-at-technological-university-of-peru/events/316639358/",
-   "fuente_url": "https://www.meetup.com/aws-sbg-at-technological-university-of-peru/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 29,
-   "afinidad": 8,
-   "puntaje": 37,
-   "por_que": "Formativo · Presencial en Lima · Afín: Inteligencia artificial · Universidad",
-   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "eb:2001277781718",
@@ -503,6 +366,33 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "devpost:31155",
+   "titulo": "TigerHacks 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-25T00:00-05:00",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://tigerhacks-2026.devpost.com/",
+   "inscripcion": "https://tigerhacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Mizzou Computing Association",
+   "descripcion": "Hackathon online. Temas: Health, Open Ended, Social Good. Premios: $5,200.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/221/927/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
    "id": "devpost:30298",
    "titulo": "Lake Oswego Hacks",
    "tipo": "hackathon",
@@ -529,33 +419,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T15:34-05:00"
-  },
-  {
-   "id": "devpost:31155",
-   "titulo": "TigerHacks 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://tigerhacks-2026.devpost.com/",
-   "inscripcion": "https://tigerhacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Mizzou Computing Association",
-   "descripcion": "Hackathon online. Temas: Health, Open Ended, Social Good. Premios: $5,200.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/221/927/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "pucp:infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518",
@@ -1322,33 +1185,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "devpost:31095",
-   "titulo": "Hyperbloom September - Beginer Freindly",
-   "tipo": "hackathon",
-   "inicio": "2026-09-14T00:00-05:00",
-   "fin": "2026-09-30T23:59-05:00",
-   "cierre": "2026-09-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://hyperbloom-september2.devpost.com/",
-   "inscripcion": "https://hyperbloom-september2.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "hyperbloom hacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Low/No Code. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/371/897/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "devpost:31399",
    "titulo": "305 HackShells Edition September 2026",
    "tipo": "hackathon",
@@ -1366,6 +1202,33 @@
    "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Education. Premios: $0.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/328/579/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31095",
+   "titulo": "Hyperbloom September - Beginer Freindly",
+   "tipo": "hackathon",
+   "inicio": "2026-09-14T00:00-05:00",
+   "fin": "2026-09-30T23:59-05:00",
+   "cierre": "2026-09-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://hyperbloom-september2.devpost.com/",
+   "inscripcion": "https://hyperbloom-september2.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "hyperbloom hacks",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Low/No Code. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/371/897/datas/medium_square.png",
    "categorias": [
     "Competencias y hackathons"
    ],
@@ -1875,7 +1738,7 @@
   },
   {
    "id": "luma:evt-IzEbEx4W6ASJfS3",
-   "titulo": "Canva Day - Full day presencial",
+   "titulo": "Canva Day Vol.2 - Full day presencial UPN",
    "inicio": "2026-10-03T10:00-05:00",
    "fin": "2026-10-03T18:00-05:00",
    "lugar": "Av. Tingo María 1122, Lima",
@@ -2313,34 +2176,6 @@
    "puntaje": 30,
    "por_que": "Presencial en Lima · Afín: Inteligencia artificial · Gratis · Evento sin formato claro",
    "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "devpost:31396",
-   "titulo": "Creator Colosseum: The Startup Showdown",
-   "tipo": "hackathon",
-   "inicio": "2026-09-20T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://creatorcolosseumshowdown.devpost.com/",
-   "inscripcion": "https://creatorcolosseumshowdown.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Creator Colosseum",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Social Good. Premios: $29,900.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/332/009/datas/medium_square.jpg",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 12,
-   "puntaje": 31,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Afín: Emprendimiento y finanzas · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "luma:evt-g4nJ9CwZ8xLZUEz",
@@ -2853,6 +2688,34 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "luma:evt-ArfuCapJSpFKxdm",
+   "titulo": "Co-Working Day - Visita la Tech House by UTEC Ventures & ADN",
+   "inicio": "2026-10-14T08:00-05:00",
+   "fin": "2026-10-14T12:30-05:00",
+   "lugar": "Miraflores, Perú",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/1aalx3x8",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Tech House Coworking Day by UTEC Ventures & ADN: café, wifi y buena compañía.\nUn espacio de coworking de acceso limitado en la Tech House ADN x UV (Miraflores), para founders, inversionistas y builders del ecosistema que quieran trabajar rodeados de gente relevante en la mañana, con café de especialidad de Neira Café Lab como coffee partner del día.\nBig thanks a nuestro coffee partners:☕ Neira Café Lab – Café peruano de especialidad. Neira es dedicación, es esfuerzo y mucha pasión. Un espacio de amabilidad y mucha creatividad. Es el lugar en donde lo más importante es el café peruano y que el mundo se enamore de él. Neira Café Lab es cercano, amable, cálido y donde siempre te sentirás como u",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/js/cbaae7b7-33ae-4dfb-817d-23ab28210e5c.png",
+   "inscripcion": "https://lu.ma/1aalx3x8",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 35,
+   "afinidad": 4,
+   "puntaje": 39,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-09-26T22:13-05:00"
+  },
+  {
    "id": "luma:evt-iQcElAPhAZ5Ew2F",
    "titulo": "O&M impulsado por Agentes IA: El Nuevo Estándar en Continuidad de Operación",
    "inicio": "2026-10-14T10:00-05:00",
@@ -3267,34 +3130,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "luma:evt-F3NofDPtu2HDke3",
-   "titulo": "Fundraising Startup Summit",
-   "inicio": "2026-10-16T02:00-05:00",
-   "fin": "2026-10-16T07:00-05:00",
-   "lugar": "Av. José Larco 770, Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/7anmtnee",
-   "fuente": "Luma",
-   "organizador": "Gostartups",
-   "descripcion": "🚀 Fundraising Startup Summit\nConstruyendo el camino al éxito: hoja de ruta para levantar capital\nEn el marco de Perú Tech Week 2026, acompáñanos a conocer las claves para construir una estrategia de fundraising y entender el camino que una startup debe recorrer para prepararse y levantar capital. 💰🚀\nConecta con el ecosistema emprendedor, conoce nuevas perspectivas y comparte con startups, inversionistas, mentores y actores del ecosistema de innovación en un espacio pensado para aprender, conectar y generar nuevas oportunidades. 🤝💡\n¿QUÉ VIVIRÁS? 😱\n🚀 Fundraising Startup Summit\n💡 Claves para prepararte para levantar capital\n📈 Hoja de ruta para el crecimiento de tu startup\n🤝 Networking con actor",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/2v/8e0f66a9-667e-45ff-aa99-107af339380c.jpg",
-   "inscripcion": "https://lu.ma/7anmtnee",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
-   ],
-   "valor": 24,
-   "afinidad": 6,
-   "puntaje": 30,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
-   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "luma:evt-BnQBZFPDS75yDGQ",
@@ -4434,6 +4269,34 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "devpost:31396",
+   "titulo": "Creator Colosseum: The Startup Showdown",
+   "tipo": "hackathon",
+   "inicio": "2026-09-20T00:00-05:00",
+   "fin": "2026-11-01T23:59-05:00",
+   "cierre": "2026-11-01T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://creatorcolosseumshowdown.devpost.com/",
+   "inscripcion": "https://creatorcolosseumshowdown.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Creator Colosseum",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Social Good. Premios: $29,900.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/332/009/datas/medium_square.jpg",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 12,
+   "puntaje": 31,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Afín: Emprendimiento y finanzas · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
    "id": "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233",
    "titulo": "Congreso Latinoamericano de Evaluación y Medición Psicológica",
    "inicio": "2026-11-03T08:00-05:00",
@@ -4668,7 +4531,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Expotextil Runways: living platforms where design, tech & sustainability meet. Showcasing the best of Peruvian & global fashion to the world",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d91d65054b343c3fea18439ebd9dea19",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2d492065ed8914904f3dc6296a0ede4b",
    "inscripcion": "https://www.eventbrite.com/e/pasarelas-expotextil-tickets-1988046593879",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7696,81 +7559,6 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "eb:1860876243939",
-   "titulo": "Crowned 2026: Profundo",
-   "inicio": "2026-09-26T16:00-05:00",
-   "fin": "2026-09-26T19:00-05:00",
-   "lugar": "Edificio El Almirante, 1775 Avenida Petit Thouars",
-   "distrito": "Lince",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.es/e/crowned-2026-profundo-tickets-1860876243939",
-   "fuente": "Eventbrite",
-   "organizador": "Iglesia Legado",
-   "descripcion": "Hay cosas que solo se encuentran cuando decides ir más profundo. ✨\n\nPROFUNDO es una conferencia para mujeres que desean dejar la superficie,",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193564550%2F259078013518%2F1%2Foriginal.20260915-152454?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eed7d981b48b54a561048603ad9ffda9",
-   "inscripcion": "https://www.eventbrite.es/e/crowned-2026-profundo-tickets-1860876243939",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 28,
-   "afinidad": 0,
-   "puntaje": 28,
-   "por_que": "Formativo · Presencial en Lima · Gratis"
-  },
-  {
-   "id": "eb:2001093573747",
-   "titulo": "GRAN PREMIER | The Chosen Temporada 6",
-   "inicio": "2026-09-26T19:00-05:00",
-   "fin": "2026-09-26T22:00-05:00",
-   "lugar": "IDP LOS ROSALES, Avenida los Próceres de Huandoy",
-   "distrito": "Los Olivos",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/gran-premier-the-chosen-temporada-6-tickets-2001093573747",
-   "fuente": "Eventbrite",
-   "organizador": "IDP Los Rosales",
-   "descripcion": "Únete a nosotros en esta experiencia\nespecial de acceso anticipado para ver el\nEpisodio 1 de la Temporada 6 de The Chosen.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193602720%2F3014264210231%2F1%2Foriginal.20260915-220116?w=355&auto=format%2Ccompress&q=75&sharp=10&s=d290e41f700125baf0997e0766ebf282",
-   "inscripcion": "https://www.eventbrite.com/e/gran-premier-the-chosen-temporada-6-tickets-2001093573747",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
-   "id": "eb:2002153635420",
-   "titulo": "Bautismo central cdv",
-   "inicio": "2026-09-26T19:00-05:00",
-   "fin": "2026-09-26T19:30-05:00",
-   "lugar": "Buen Retiro 100, 100 Buen Retiro",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/bautismo-central-cdv-registration-2002153635420",
-   "fuente": "Eventbrite",
-   "organizador": "caminodevida",
-   "descripcion": "Bautismo central cdv",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176063702%2F319397189657%2F1%2Foriginal.20260128-155133?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1920%2C960&s=dda2548a7073106c3925333f66da94a5",
-   "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-central-cdv-registration-2002153635420",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "luma:evt-GoPjqyNlG8G4VIh",
    "titulo": "Encuentro de Lectura",
    "inicio": "2026-09-27T11:00-05:00",
@@ -8389,6 +8177,33 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31301",
+   "titulo": "Bharat Innovation Challenge 2.0",
+   "tipo": "hackathon",
+   "inicio": "2026-09-18T00:00-05:00",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "Lovely Professional University",
+   "distrito": "Lovely Professional University",
+   "modalidad": "Presencial",
+   "url": "https://bic.devpost.com/",
+   "inscripcion": "https://bic.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Lovely Professional University",
+   "descripcion": "Hackathon presencial en Lovely Professional University. Temas: Beginner Friendly, Communication, Education. Premios: $10,600.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/288/676/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 9,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31484",
    "titulo": "2026-2027 Fall ESE Senior Design",
    "tipo": "hackathon",
@@ -8471,6 +8286,33 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31337",
+   "titulo": "Hack the Hill III",
+   "tipo": "hackathon",
+   "inicio": "2026-09-25T00:00-05:00",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "Learning Crossroads (CRX) - uOttawa",
+   "distrito": "Learning Crossroads (CRX) - uOttawa",
+   "modalidad": "Presencial",
+   "url": "https://hack-the-hill-iii.devpost.com/",
+   "inscripcion": "https://hack-the-hill-iii.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Capital Technology Network",
+   "descripcion": "Hackathon presencial en Learning Crossroads (CRX) - uOttawa. Temas: Social Good, Web. Premios: $CAD 9,800.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/314/763/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31137",
    "titulo": "HackWashU Fall AI Build Challenge",
    "tipo": "hackathon",
@@ -8497,33 +8339,6 @@
    "afinidad": 33,
    "puntaje": 56,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31337",
-   "titulo": "Hack the Hill III",
-   "tipo": "hackathon",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "Learning Crossroads (CRX) - uOttawa",
-   "distrito": "Learning Crossroads (CRX) - uOttawa",
-   "modalidad": "Presencial",
-   "url": "https://hack-the-hill-iii.devpost.com/",
-   "inscripcion": "https://hack-the-hill-iii.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Capital Technology Network",
-   "descripcion": "Hackathon presencial en Learning Crossroads (CRX) - uOttawa. Temas: Social Good, Web. Premios: $CAD 0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/314/763/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30993",
@@ -8608,31 +8423,32 @@
    "por_que": "Formativo · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:26125",
-   "titulo": "Shower Hacks",
+   "id": "devpost:30717",
+   "titulo": "&HACKS XII",
    "tipo": "hackathon",
    "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-26T23:59-05:00",
-   "cierre": "2026-09-26T23:59-05:00",
-   "lugar": "Bay Area",
-   "distrito": "Bay Area",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "William and Mary - ISC4",
+   "distrito": "William and Mary - ISC4",
    "modalidad": "Presencial",
-   "url": "https://showerhacks.devpost.com/",
-   "inscripcion": "https://showerhacks.devpost.com/",
+   "url": "https://hacks-xii.devpost.com/",
+   "inscripcion": "https://hacks-xii.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Shower Hacks",
-   "descripcion": "Hackathon presencial en Bay Area. Temas: Open Ended, Lifehacks, Social Good. Premios: $9,550.",
+   "organizador": "W&M ACM",
+   "descripcion": "Hackathon presencial en William and Mary - ISC4. Temas: Beginner Friendly, Open Ended, Machine Learning/AI. Premios: $800.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/698/219/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/894/232/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
+    "Tecnología e IA",
     "Competencias y hackathons"
    ],
    "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+   "afinidad": 26,
+   "puntaje": 42,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30998",
@@ -8662,32 +8478,32 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30717",
-   "titulo": "&HACKS XII",
+   "id": "devpost:31440",
+   "titulo": "OwlHacks 2026",
    "tipo": "hackathon",
    "inicio": "2026-09-26T00:00-05:00",
    "fin": "2026-09-27T23:59-05:00",
    "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "William and Mary - ISC4",
-   "distrito": "William and Mary - ISC4",
+   "lugar": "Temple University - SERC",
+   "distrito": "Temple University - SERC",
    "modalidad": "Presencial",
-   "url": "https://hacks-xii.devpost.com/",
-   "inscripcion": "https://hacks-xii.devpost.com/",
+   "url": "https://owlhacks-2026.devpost.com/",
+   "inscripcion": "https://owlhacks-2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "W&M ACM",
-   "descripcion": "Hackathon presencial en William and Mary - ISC4. Temas: Beginner Friendly, Open Ended, Machine Learning/AI. Premios: $800.",
+   "organizador": "Major League Hacking",
+   "descripcion": "Hackathon presencial en Temple University - SERC. Temas: Beginner Friendly, Design, Social Good. Premios: $0.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/894/232/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/341/390/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Tecnología e IA",
     "Competencias y hackathons"
    ],
-   "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+   "valor": 23,
+   "afinidad": 6,
+   "puntaje": 29,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "luma:evt-8uZ2OLH6zJhVUgo",
@@ -9439,33 +9255,6 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31509",
-   "titulo": "Bitrig Hacks iPhone Duo Edition",
-   "tipo": "hackathon",
-   "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-26T23:59-05:00",
-   "cierre": "2026-09-26T23:59-05:00",
-   "lugar": "YC San Francisco",
-   "distrito": "YC San Francisco",
-   "modalidad": "Presencial",
-   "url": "https://bitrig-hacks-duo-edition.devpost.com/",
-   "inscripcion": "https://bitrig-hacks-duo-edition.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Bitrig",
-   "descripcion": "Hackathon presencial en YC San Francisco. Temas: Mobile. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/378/351/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:30308",
    "titulo": "DivHacks 2026",
    "tipo": "hackathon",
@@ -9516,33 +9305,6 @@
    "afinidad": 0,
    "puntaje": 19,
    "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
-  },
-  {
-   "id": "pucp:cine-forum-uyariy-escuchar-21092026161826",
-   "titulo": "Cine Fórum Uyariy (Escuchar)",
-   "inicio": "2026-09-26T18:30-05:00",
-   "fin": "2026-09-26T21:00-05:00",
-   "lugar": "Virtual - Plataforma Zoom",
-   "distrito": "San Miguel",
-   "modalidad": "Virtual",
-   "url": "https://agenda.pucp.edu.pe/evento/cine-forum-uyariy-escuchar-21092026161826/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Cine · Educación y Humanidades · Teología · Departamento Académico de Teología",
-   "gratis": null,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Miniaturas_Agenda_PUCP_14_e07f8ff503.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/cine-forum-uyariy-escuchar-21092026161826/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "tipo de evento no formativo (Cine)",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 14,
-   "afinidad": 0,
-   "puntaje": 14,
-   "por_que": "Universidad · Evento sin formato claro · Virtual"
   },
   {
    "id": "pucp:feape-2026-17082026123755",
@@ -9606,7 +9368,7 @@
   "devpost:31052",
   "devpost:30790",
   "inst:per-sostenible-cumbre-per-sostenible-2026:2026-09-24",
-  "luma:evt-acUPJEw5CCK1RVr"
+  "luma:evt-sdiPKhxFMLobpJf"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 1,
@@ -9702,14 +9464,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Expomina Perú 2026: Lima será epicentro de la minería mundial en setiembre",
-   "url": "https://www.expreso.com.pe/actualidad/expomina-peru-2026-lima-sera-epicentro-de-la-mineria-mundial-en-setiembre-noticia/1310398/",
-   "medio": "Expreso Interactivo",
-   "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
-   "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Minem declaró de interés su participación en la feria Expomina Perú 2026",
    "url": "https://andina.pe/agencia/noticia-minem-declaro-interes-su-participacion-la-feria-expomina-peru-2026-1089120.aspx",
    "medio": "Agencia Peruana de Noticias | ANDINA",
@@ -9766,11 +9520,6 @@
   }
  },
  "primera_vez": {
-  "luma:evt-UpPDgQfV4YE7zCu": "2026-09-24T21:06-05:00",
-  "luma:evt-acUPJEw5CCK1RVr": "2026-09-24T21:06-05:00",
-  "meetup:316449593": "2026-09-24T21:06-05:00",
-  "meetup:316649907": "2026-09-24T21:06-05:00",
-  "meetup:316639358": "2026-09-24T21:06-05:00",
   "meetup:316630675": "2026-09-24T21:06-05:00",
   "luma:evt-sDUAopaoSHCWeTn": "2026-09-24T21:06-05:00",
   "luma:evt-zN2QJxZhCUr8UP7": "2026-09-24T21:06-05:00",
@@ -9792,7 +9541,6 @@
   "luma:evt-x1zNe4EIIqbQPhu": "2026-09-24T21:06-05:00",
   "luma:evt-CeicP1IqAcCe5yA": "2026-09-24T21:06-05:00",
   "luma:evt-VqRlm4GjFbH91hy": "2026-09-24T21:06-05:00",
-  "luma:evt-F3NofDPtu2HDke3": "2026-09-24T21:06-05:00",
   "luma:evt-BnQBZFPDS75yDGQ": "2026-09-24T21:06-05:00",
   "luma:evt-Ld11tjO2W3gYzj4": "2026-09-24T21:06-05:00",
   "luma:evt-h1XdBskPBSffJKx": "2026-09-24T21:06-05:00",
@@ -9976,6 +9724,7 @@
   "opportunitydesk:sk-org-2026-09-26-bevisioneers-the-mercedes-benz-fellowship-2027-2028-": "2026-09-26T15:34-05:00",
   "devpost:31471": "2026-09-26T18:22-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-09-26-mentora-scholars-fellowship-2027-": "2026-09-26T18:22-05:00",
-  "opportunitydesk:k-org-2026-09-26-ihs-ai-workforce-faculty-research-grant-program-2027-": "2026-09-26T18:22-05:00"
+  "opportunitydesk:k-org-2026-09-26-ihs-ai-workforce-faculty-research-grant-program-2027-": "2026-09-26T18:22-05:00",
+  "luma:evt-ArfuCapJSpFKxdm": "2026-09-26T22:13-05:00"
  }
 }
