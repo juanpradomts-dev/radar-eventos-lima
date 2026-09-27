@@ -26,11 +26,14 @@ Publicado en https://juanpradomts-dev.github.io/radar-eventos-lima/ · se actual
   - Negocios y habilidades entran solo si son de Latinoamérica y tienen formato de clase (webinar, taller, masterclass…).
   - Además: horario de 7:00 a 22:00 en Lima, fuera cripto, trámites y servicios locales de EE. UU. o España, y la hora se convierte a la de Lima.
   - Hasta 80 por corrida. Lo que no pasa el filtro no se recolecta.
+- **IEEE Perú** (`ieee_peru` en `eventos.py`): eventos de las ramas estudiantiles IEEE del Perú (UNI, San Marcos, PUCP, UPC, Callao…), tomados de la API pública de IEEE vTools.
+  - Su `robots.txt` pide 60 s entre peticiones y la API no filtra por país. Por eso se hace **una** consulta al día como máximo, guardada en `cache/vtools_peru.json`, y se queda solo la Sección Perú (`R90721`).
+  - Quedan fuera las reuniones internas (ExCom, officers).
 - **Inscripciones (Linktree)** (`inscripciones.py` + `inscripciones.json`): muchas organizaciones anuncian en Instagram y ponen el enlace de inscripción en su Linktree.
   - Linktree prohíbe robots (`User-agent: *` → `Disallow: /`), así que el radar no lo recorre. Cuando alguien comparte un Linktree, JARVIS lo abre a pedido y copia sus enlaces de inscripción a `inscripciones.json`.
   - En cada corrida, el radar lee solo el **destino** de cada enlace y revisa `robots.txt` en cada salto: un bit.ly puede llevar a un sitio que lo prohíbe.
   - De Google Forms saca el título, la fecha, la hora y el lugar desde la descripción. Si el formulario deja de aceptar respuestas, el evento pasa al Archivo como "inscripciones cerradas".
-  - No se pueden leer solos los formularios de Microsoft Forms (prohíbe robots) ni los que son solo para cuentas de la organización. Esos van a "Por confirmar" con su nombre, su enlace y el motivo.
+  - No se pueden leer solos los formularios de Microsoft Forms (prohíbe robots) ni los que son solo para cuentas de la organización. Esos se muestran arriba en la página, en la sección **"📝 Inscripciones abiertas"**, con su nombre y su enlace.
   - **Botón para actualizar** (solo a pedido; nunca con horario): la página https://juanpradomts-dev.github.io/radar-eventos-lima/linktree/ dispara el workflow `Actualizar Linktree` (`.github/workflows/linktree.yml`).
     - Ese workflow ejecuta `linktree_lector.py`, guarda `inscripciones.json` y pide publicar el radar.
     - El botón exige una llave de GitHub (fine-grained, Actions: Read and write sobre este repo) que el dueño pega una vez y queda solo en su navegador. Nunca está en el código.

@@ -260,6 +260,8 @@ details.grupo summary .n{color:var(--gris);font-weight:700;margin-left:auto}
   opacity:0;visibility:hidden;transition:opacity .35s var(--natural),visibility .35s,background-color .25s var(--natural)}
 .arriba.visible{opacity:1;visibility:visible}
 .arriba:hover{background:var(--naranja)}
+@keyframes saltar{0%{transform:none}35%{transform:translateY(-6px)}100%{transform:none}}
+.arriba.salta svg{animation:saltar .45s var(--asentar)}
 /* avisos breves */
 .avisos{position:fixed;left:16px;right:16px;bottom:20px;z-index:60;display:flex;justify-content:center;pointer-events:none}
 .aviso{pointer-events:auto;display:flex;gap:16px;align-items:center;background:var(--azul-oscuro);color:#fff;border-radius:14px;
@@ -434,6 +436,7 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
 
 <main class="contenedor">
   <section id="recomendados"></section>
+  <section id="inscripciones"></section>
   <section id="lista"></section>
   <section id="se-viene"></section>
   <section id="por-confirmar"></section>
@@ -491,6 +494,7 @@ const FUENTES_INFO = {
   "Opportunities for Youth": {url: "https://opportunitiesforyouth.org/category/volunteering/", txt: "Voluntariados y programas de liderazgo juvenil."},
   "TEDx": {url: "https://www.ted.com/tedx/events", txt: "Eventos TEDx organizados en el Perú."},
   "Inscripciones (Linktree)": {txt: "Formularios de inscripción de los Linktree de universidades y organizaciones. Linktree no permite robots: los enlaces se copian cuando alguien comparte un Linktree, y cada formulario se lee y vigila solo (fecha, lugar y si sigue abierto)."},
+  "IEEE Perú": {url: "https://events.vtools.ieee.org/", txt: "Eventos de las ramas estudiantiles IEEE del Perú (UNI, San Marcos, PUCP, UPC, Callao…), desde el sistema público de IEEE. Se consulta una vez al día."},
   "Redes (manual)": {txt: "Eventos vistos en Instagram, LinkedIn o WhatsApp y agregados a mano: esas redes no permiten lectura automática."},
 };
 
@@ -787,6 +791,25 @@ function pintarPuntos(c) {
   p.innerHTML = pos.length < 2 ? "" : pos.map((x, i) => `<button data-pos="${x}" aria-label="Ir al tramo ${i + 1} de ${pos.length}"></button>`).join("");
 }
 
+// ---------- Inscripciones abiertas (Linktree) cuya fecha no se puede leer sola: arriba y a la vista
+function notaInscripcion(n) {
+  n = n || "";
+  if (/robots/.test(n)) return "fecha y detalles en el formulario";
+  if (/iniciar sesión/.test(n)) return "formulario solo para su comunidad";
+  return "sin fecha publicada todavía";
+}
+function pintarInscripciones() {
+  const cont = $("#inscripciones");
+  const lista = (DATOS && DATOS.inscripciones_abiertas) || [];
+  const filtrando = st.tipo || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.virtual || st.archivo;
+  const q = sinTildes(st.q.trim());
+  const vis = filtrando ? [] : lista.filter(x => !q || q.split(/\s+/).every(w => sinTildes(x.titulo + " " + x.medio).includes(w)));
+  cont.innerHTML = !vis.length ? "" :
+    `<h2 class="seccion">📝 Inscripciones abiertas <small>de los Linktree de organizaciones · la fecha está en su formulario</small></h2>
+     <div class="mini">` + vis.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.titulo)}</b>
+       <span>${esc(x.medio.replace(/^Linktree de /, ""))} · ${esc(notaInscripcion(x.nota))}</span></a>`).join("") + `</div>`;
+}
+
 // ---------- Se viene (anuales sin fecha publicada) y Por confirmar (descubrimiento en noticias)
 const MESES_TXT = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"];
 function pintarExtras() {
@@ -798,7 +821,7 @@ function pintarExtras() {
        <span>${esc(x.texto)} · ${esc(x.ciudad)}${x.dato ? " · " + esc(x.dato) : ""}</span></a>`).join("") + `</div>`;
   const abierto = $("#por-confirmar details")?.open;  // no cerrarlo al guardar u ocultar algo
   $("#por-confirmar").innerHTML = filtrando || !pc.length ? "" :
-    `<details class="acerca"${abierto ? " open" : ""}><summary>🔎 Por confirmar: visto en noticias y en Linktree (${pc.length})</summary>
+    `<details class="acerca"${abierto ? " open" : ""}><summary>🔎 Visto en noticias, por confirmar (${pc.length})</summary>
      <div class="mini">` + pc.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow"><b>${esc(x.titulo)}</b>
        <span>${esc(x.medio)}${x.fecha_mencionada ? " · menciona el " + fDiaCorto.format(new Date(x.fecha_mencionada)) : ""}${x.nota ? " · " + esc(x.nota) : ""}</span></a>`).join("") + `</div></details>`;
 }
@@ -912,7 +935,7 @@ function render() {
   const desde = cambio ? 0 : render.desde ?? Infinity;  // índice desde el que las tarjetas son nuevas
   render.desde = undefined;
   const {q, archivo: _a, mas: _m, tipo: _t, ...resto} = st; guardar("radar-filtros-v2", resto);
-  pintarTipos(); pintarFiltros(); pintarRecomendados(); pintarExtras();
+  pintarTipos(); pintarFiltros(); pintarRecomendados(); pintarInscripciones(); pintarExtras();
   const cont = $("#lista");
   const animarTodo = () => { if (cambio) [...cont.children].slice(0, 9).forEach((n, i) => { n.classList.add("aparece"); n.style.setProperty("--i", i); }); };
   if (!DATOS) { cont.innerHTML = `<div class="vacio"><b>⏳</b>Todavía no hay datos. Vuelve en unos minutos.</div>`; return; }
@@ -1175,7 +1198,26 @@ if ("IntersectionObserver" in window) new IntersectionObserver(([x]) => {
   $(".filtros").classList.toggle("pegada", !x.isIntersecting);
   $(".arriba").classList.toggle("visible", !x.isIntersecting);
 }).observe($(".hero"));
-$(".arriba").addEventListener("click", () => scrollTo({top: 0, behavior: "smooth"}));
+// Subir con movimiento propio: acelera, se desliza y frena suave. No depende del "smooth" del navegador
+// (con las animaciones de Windows apagadas, el navegador salta de golpe). Si la persona hace scroll, manda ella.
+function subir() {
+  const b = $(".arriba");
+  b.classList.remove("salta"); void b.offsetWidth; b.classList.add("salta");  // la flecha da un saltito
+  const y0 = scrollY; if (y0 < 2) return;
+  const dur = Math.min(950, 420 + y0 * 0.06), t0 = performance.now();
+  const curva = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+  let cancelado = false;
+  const parar = () => { cancelado = true; };
+  ["wheel", "touchstart", "keydown"].forEach(ev => addEventListener(ev, parar, {once: true, passive: true}));
+  const paso = t => {
+    if (cancelado) return;
+    const p = Math.min(1, (t - t0) / dur);
+    scrollTo({top: Math.round(y0 * (1 - curva(p))), behavior: "instant"});
+    if (p < 1) requestAnimationFrame(paso);
+  };
+  requestAnimationFrame(paso);
+}
+$(".arriba").addEventListener("click", subir);
 
 // ---------- el carrusel avanza solo cada 6 s: se pausa con el mouse encima, al enfocarlo o si no
 // está a la vista, y se detiene del todo en cuanto la persona lo maneja (flechas, puntos o arrastre)
