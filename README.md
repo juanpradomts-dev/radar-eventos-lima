@@ -20,6 +20,12 @@ Publicado en https://juanpradomts-dev.github.io/radar-eventos-lima/ · se actual
   - **Por confirmar**: titulares de Bing News (cumbre, foro, congreso, summit o feria, más Lima y el año) que aún no están en el radar. El RSS de Google News lo prohíbe su `robots.txt`.
   - **Se viene** (`recurrentes.json`): eventos anuales o bienales (CADE, Cumbre Perú Sostenible, PERUMIN, Expoalimentaria, Expomina…) con su mes habitual y ediciones verificadas en prensa; aparecen ~2 meses antes aunque su web aún no publique fechas. IPAE bloquea a los servidores de GitHub, así que CADE vive aquí y no se raspa.
   - Las webs que no tienen una agenda legible quedan en `institucionales.json → descartadas` con la nota del porqué.
+- **Eventbrite online** (`eventbrite_online` en `eventos.py`): lo virtual no tiene ciudad, así que se busca por tema.
+  - La API ya filtra: solo gratis y en español.
+  - Entran tecnología, datos, ingeniería e investigación de cualquier país, y lo que organizan universidades y escuelas de negocios.
+  - Negocios y habilidades entran solo si son de Latinoamérica y tienen formato de clase (webinar, taller, masterclass…).
+  - Además: horario de 7:00 a 22:00 en Lima, fuera cripto, trámites y servicios locales de EE. UU. o España, y la hora se convierte a la de Lima.
+  - Hasta 80 por corrida. Lo que no pasa el filtro no se recolecta.
 - **Inscripciones (Linktree)** (`inscripciones.py` + `inscripciones.json`): muchas organizaciones anuncian en Instagram y ponen el enlace de inscripción en su Linktree.
   - Linktree prohíbe robots (`User-agent: *` → `Disallow: /`), así que el radar no lo recorre. Cuando alguien comparte un Linktree, JARVIS lo abre a pedido y copia sus enlaces de inscripción a `inscripciones.json`.
   - En cada corrida, el radar lee solo el **destino** de cada enlace y revisa `robots.txt` en cada salto: un bit.ly puede llevar a un sitio que lo prohíbe.

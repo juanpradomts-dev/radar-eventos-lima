@@ -482,6 +482,7 @@ const CATS = {
 const FUENTES_INFO = {
   "Luma": {url: "https://lu.ma/lima", txt: "Comunidades tech, startups e IA en Lima."},
   "Eventbrite": {url: "https://www.eventbrite.com.pe/d/peru--lima/all-events/", txt: "Conferencias, talleres y seminarios."},
+  "Eventbrite online": {url: "https://www.eventbrite.com.pe/d/online/all-events/", txt: "Webinars y talleres virtuales gratis en español: tecnología, datos, ingeniería e investigación de cualquier país; negocios y habilidades solo de Latinoamérica. Hora convertida a la de Lima."},
   "Meetup": {url: "https://www.meetup.com/find/?location=pe--Lima&source=EVENTS", txt: "Grupos de estudio, cloud, datos e idiomas."},
   "PUCP": {url: "https://agenda.pucp.edu.pe/", txt: "Agenda oficial de la PUCP: congresos, charlas y ferias."},
   "Devpost": {url: "https://devpost.com/hackathons", txt: "Hackathons en línea abiertos a cualquiera, con premios."},
@@ -525,7 +526,7 @@ const F = (o) => new Intl.DateTimeFormat("es-PE", o);
 const fDia = F({weekday: "long", day: "numeric", month: "long"}), fHora = F({hour: "numeric", minute: "2-digit"}),
       fMes = F({month: "short"}), fDiaCorto = F({weekday: "short", day: "numeric", month: "short"});
 
-const st = Object.assign({cuando: "30", cats: [], top: false, gratis: false, presencial: false, guardados: false},
+const st = Object.assign({cuando: "30", cats: [], top: false, gratis: false, presencial: false, virtual: false, guardados: false},
   leer("radar-filtros-v2", {}));
 st.q = ""; st.archivo = false; st.tipo = ""; st.mas = !!(st.cats && st.cats.length) || st.cuando === "0" || !!st.top;
 const PAGINA = 20; let limite = PAGINA;
@@ -587,6 +588,7 @@ function filtrar(ignorarCat, ignorarTipo, cuando = st.cuando) {
     if (st.top && !esTop(e)) return false;
     if (st.gratis && e.gratis !== true) return false;
     if (st.presencial && e.modalidad !== "Presencial") return false;
+    if (st.virtual && e.modalidad !== "Virtual") return false;
     if (!ignorarCat && st.cats.length && !e.categorias.some(c => st.cats.includes(c))) return false;
     if (!ignorarTipo && st.tipo && grupo(e) !== st.tipo) return false;
     if (q) {
@@ -635,7 +637,8 @@ function pintarFiltros() {
     chip(c1, l, st.cuando === v, () => { st.cuando = v; render(); }));
   c1.insertAdjacentHTML("beforeend", '<span class="separador"></span>');
   chip(c1, "🆓 Gratis", st.gratis, () => { st.gratis = !st.gratis; render(); }, "naranja");
-  chip(c1, "📍 Presencial", st.presencial, () => { st.presencial = !st.presencial; render(); }, "naranja");
+  chip(c1, "📍 Presencial", st.presencial, () => { st.presencial = !st.presencial; if (st.presencial) st.virtual = false; render(); }, "naranja");
+  chip(c1, "💻 Virtual", st.virtual, () => { st.virtual = !st.virtual; if (st.virtual) st.presencial = false; render(); }, "naranja");
   chip(c1, `❤️ Guardados${favs.size ? `<span class="n">${favs.size}</span>` : ""}`, st.guardados, () => { st.guardados = !st.guardados; render(); }, "naranja");
   // Al bajar, el "¿Qué buscas?" queda arriba: el tipo elegido sigue visible aquí y se quita con un toque
   const g = GRUPOS.find(([v]) => v === st.tipo);
@@ -687,7 +690,7 @@ function pintarTipos() {
 // ---------- recomendados de la semana
 function pintarRecomendados() {
   const cont = $("#recomendados");
-  const filtrando = st.q || st.tipo || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.archivo;
+  const filtrando = st.q || st.tipo || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.virtual || st.archivo;
   const porId = Object.fromEntries(eventos.map(e => [e.id, e]));
   const sel = ((DATOS && DATOS.recomendados) || []).map(i => porId[i]).filter(e => e && !ocultos.has(e.id));
   if (filtrando || !sel.length) { cont.innerHTML = ""; return; }
@@ -787,7 +790,7 @@ function pintarPuntos(c) {
 // ---------- Se viene (anuales sin fecha publicada) y Por confirmar (descubrimiento en noticias)
 const MESES_TXT = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"];
 function pintarExtras() {
-  const filtrando = st.q || st.tipo || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.archivo;
+  const filtrando = st.q || st.tipo || st.cats.length || st.top || st.guardados || st.gratis || st.presencial || st.virtual || st.archivo;
   const sv = (DATOS && DATOS.se_viene) || [], pc = (DATOS && DATOS.por_confirmar) || [];
   $("#se-viene").innerHTML = filtrando || !sv.length ? "" :
     `<h2 class="seccion">🗓️ Se viene <small>grandes eventos anuales que se acercan</small></h2>
@@ -903,7 +906,7 @@ const entra = i => i == null || !revelador ? "" : " revelar";
 const revela = () => entra(0);
 const RANGO = {"0": "para hoy", "7": "para esta semana", "30": "para este mes"};
 function render() {
-  const firma = JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.guardados, st.q, st.archivo, st.tipo]);
+  const firma = JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.virtual, st.guardados, st.q, st.archivo, st.tipo]);
   const cambio = render.firma !== firma;
   if (cambio) { render.firma = firma; limite = PAGINA; }
   const desde = cambio ? 0 : render.desde ?? Infinity;  // índice desde el que las tarjetas son nuevas
@@ -1059,7 +1062,7 @@ function acciones(ev) {
   if (b.dataset.a === "todas-fechas") { st.cuando = "todo"; render(); return; }  // solo cambia la fecha, el resto se mantiene
   if (b.dataset.a === "cargar") { render.desde = limite; limite += PAGINA; render(); return; }
   if (b.dataset.a === "limpiar") {
-    Object.assign(st, {cuando: "30", cats: [], top: false, gratis: false, presencial: false, guardados: false, tipo: "", q: ""});
+    Object.assign(st, {cuando: "30", cats: [], top: false, gratis: false, presencial: false, virtual: false, guardados: false, tipo: "", q: ""});
     $("#q").value = ""; render(); return;
   }
   const card = b.closest(".card"), id = card.dataset.id;

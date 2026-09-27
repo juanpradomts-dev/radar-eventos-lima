@@ -484,6 +484,47 @@ class Inscripciones(unittest.TestCase):
         self.assertEqual(eventos_ok[0]["_motivo"], "inscripciones cerradas")
 
 
+class EventbriteOnline(unittest.TestCase):
+    """Virtuales: gratis y en español; tech/datos/ingeniería de cualquier lugar, negocios solo de Latinoamérica."""
+
+    def _correr(self, eventos_api):
+        def post(url, **k):
+            return type("R", (), {"ok": True, "status_code": 200, "json": lambda self: {"events": {"results": eventos_api}}})()
+        viejo = eventos.permitido
+        eventos.permitido = lambda u: True
+        try:
+            return eventos.eventbrite_online(datetime.now(LIMA) + timedelta(days=60), post=post)
+        finally:
+            eventos.permitido = viejo
+
+    def _e(self, i, nombre, zona, hora, dias=5, org="Org", resumen=""):
+        f = (datetime.now(LIMA) + timedelta(days=dias)).strftime("%Y-%m-%d")
+        return {"id": i, "name": nombre, "timezone": zona, "start_date": f, "start_time": hora, "end_date": f,
+                "end_time": "23:00", "is_online_event": True, "summary": resumen, "url": f"https://eb/{i}",
+                "primary_organizer": {"name": org}, "ticket_availability": {"is_free": True}}
+
+    def test_filtra_y_convierte_la_hora_a_lima(self):
+        api = [
+            self._e(1, "Webinar: Agentes de inteligencia artificial para empresas", "Europe/Madrid", "18:00"),  # tech de España, 11:00 Lima
+            self._e(2, "Taller de emprendimiento: valida tu modelo de negocio", "America/Bogota", "19:00"),     # negocios LatAm
+            self._e(3, "Webinar: valida tu modelo de negocio", "Europe/Madrid", "18:00"),                        # negocios de España: no
+            self._e(4, "Taller GRATIS de Trading desde cero", "America/Mexico_City", "19:00"),                   # dinero milagroso: no
+            self._e(5, "Desarrollar sus operaciones de negocio", "America/New_York", "16:00", org="NYC Department of Small Business"),
+            self._e(6, "Webinar de ciberseguridad y datos", "Europe/Madrid", "09:00"),                           # 2:00 Lima: no
+            self._e(7, "Charla abierta de innovación tecnológica", "America/Argentina/Buenos_Aires", "10:00",
+                    org="Universidad Blas Pascal"),
+        ]
+        out = {e["id"]: e for e in self._correr(api)}
+        self.assertEqual(sorted(out), ["eb:1", "eb:2", "eb:7"])
+        # la hora se convierte con la zona del organizador (Madrid cambia de horario en verano: se calcula, no se fija)
+        from zoneinfo import ZoneInfo
+        dia = datetime.fromisoformat(out["eb:1"]["inicio"]).date()
+        esperado = datetime(dia.year, dia.month, dia.day, 18, 0, tzinfo=ZoneInfo("Europe/Madrid")).astimezone(LIMA)
+        self.assertEqual(out["eb:1"]["inicio"][11:16], esperado.strftime("%H:%M"))
+        self.assertEqual(out["eb:7"]["inicio"][11:16], "08:00")  # 10:00 Buenos Aires = 08:00 Lima (sin horario de verano)
+        self.assertTrue(all(e["modalidad"] == "Virtual" and e["fuente"] == "Eventbrite online" for e in out.values()))
+
+
 class LectorLinktree(unittest.TestCase):
     """Lógica compartida por el botón de GitHub, el botón local y /linktree (solo corre a pedido)."""
     PAGINA = {"props": {"pageProps": {"pageTitle": "Universidad X", "links": [
