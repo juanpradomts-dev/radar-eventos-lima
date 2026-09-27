@@ -33,7 +33,7 @@ Antes de publicar, cada evento pasa por un verificador. Nunca borra nada: todo l
 
 **Enlaces.** Se comprueban hasta 40 por corrida, cada uno como máximo una vez por semana y respetando `robots.txt`. El resultado se guarda en `cache/enlaces.json`. Los 403, 405, 429 y los timeouts suelen ser bloqueos a robots, así que no cuentan como rotos.
 
-**Monitoreo.** En `cache/verificacion.json` quedan las últimas 30 corridas. Una fuente pasa a "en observación" si ≥40 % de sus eventos tiene problemas, o si esa proporción sube 25 puntos respecto de la corrida anterior.
+**Monitoreo.** En `cache/verificacion.json` quedan las últimas 30 corridas. Una fuente pasa a "en observación" si ≥40 % de sus eventos tiene problemas que no se arreglan solos, o si la proporción de eventos con cualquier nota sube 25 puntos respecto de la corrida anterior (señal de que la fuente cambió su web).
 
 **Dónde se ve.** En la página: "✔ verificadas" y la sección "Control de calidad". En GitHub Actions, en el resumen de cada corrida.
 

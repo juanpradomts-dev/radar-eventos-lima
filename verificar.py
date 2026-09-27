@@ -218,13 +218,16 @@ def revisar(eventos, archivo, ahora=None, get=None, ruta_cache=None, ruta_histor
     ahora = ahora or datetime.now(LIMA)
     informe = {"fecha": ahora.isoformat(timespec="minutes"), "revisados": len(eventos), "corregidos": 0,
                "avisos": 0, "archivados": 0, "problemas": [], "enlaces": {}, "fuentes_a_revisar": []}
-    por_fuente = {}
+    por_fuente = {}      # eventos con cualquier nota (para detectar saltos bruscos)
+    sin_arreglo = {}     # eventos con notas que no se arreglan solas: aviso o archivado
     salen = {}
 
     def anotar(e, nivel, detalle):
         informe["problemas"].append({"id": e["id"], "titulo": e["titulo"][:90], "fuente": e.get("fuente", ""),
                                      "nivel": nivel, "detalle": detalle, "url": e.get("url", "")})
         por_fuente.setdefault(e.get("fuente", "?"), set()).add(e["id"])
+        if nivel != "corregido":
+            sin_arreglo.setdefault(e.get("fuente", "?"), set()).add(e["id"])
 
     for e in eventos:
         try:
@@ -272,6 +275,7 @@ def revisar(eventos, archivo, ahora=None, get=None, ruta_cache=None, ruta_histor
     for e in eventos + [x for x in archivo if x["id"] in salen]:
         totales[e.get("fuente", "?")] = totales.get(e.get("fuente", "?"), 0) + 1
     tasas = {f: round(len(por_fuente.get(f, ())) / n, 2) for f, n in totales.items()}
+    graves = {f: round(len(sin_arreglo.get(f, ())) / n, 2) for f, n in totales.items()}
     historial = []
     if ruta_historial:
         try:
@@ -280,8 +284,11 @@ def revisar(eventos, archivo, ahora=None, get=None, ruta_cache=None, ruta_histor
             historial = []
     previa = historial[-1]["tasas"] if historial else {}
     for f, tasa in tasas.items():
-        if totales[f] >= 3 and tasa >= .4:
-            informe["fuentes_a_revisar"].append({"fuente": f, "detalle": f"{round(tasa * 100)}% de sus eventos con problemas"})
+        # alerta fija: solo lo que NO se arregla solo (un error conocido y corregido cada vez no es una alarma);
+        # alerta de salto: cualquier nota, porque un cambio brusco suele ser que la fuente cambió su web
+        if totales[f] >= 3 and graves[f] >= .4:
+            informe["fuentes_a_revisar"].append({"fuente": f, "detalle": f"{round(graves[f] * 100)}% de sus eventos con "
+                                                 f"problemas que no se arreglan solos"})
         elif totales[f] >= 3 and tasa - previa.get(f, tasa) >= .25:
             informe["fuentes_a_revisar"].append({"fuente": f, "detalle": f"los problemas subieron de "
                                                  f"{round(previa[f] * 100)}% a {round(tasa * 100)}%"})
