@@ -15,6 +15,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
+  --natural:cubic-bezier(.22,.61,.36,1);   /* entradas y cambios de estado */
+  --asentar:cubic-bezier(.16,1,.3,1);      /* movimientos que "se posan" (elevar, aparecer) */
   /* Paleta UCSUR (tomada de cientifica.edu.pe): naranja #F56200 y azul #1D428A */
   --naranja:#F56200; --naranja-hover:#D95500; --naranja-suave:#FFF0E5;
   --azul:#1D428A; --azul-oscuro:#0D2960; --azul-suave:#E8EEF8;
@@ -96,7 +98,7 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 
 /* ---------- recomendados */
 .carrusel{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(260px,300px);gap:14px;
-  overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory}
+  overflow-x:auto;padding:10px 2px 14px;scroll-snap-type:x mandatory}
 .reco{scroll-snap-align:start;background:var(--tarjeta);border-radius:16px;overflow:hidden;
   box-shadow:var(--sombra);text-decoration:none;display:flex;flex-direction:column;border:2px solid transparent}
 .reco:hover{border-color:var(--naranja)}
@@ -213,7 +215,7 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
 .campo input{flex:1}
 .sugerencia{position:absolute;left:12px;right:8px;top:50%;transform:translateY(-50%);color:var(--gris);pointer-events:none;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:opacity .2s}
-.sugerencia b{display:inline-block;color:var(--azul);font-weight:800;transition:opacity .26s,transform .26s}
+.sugerencia b{display:inline-block;color:var(--azul);font-weight:800;transition:opacity .3s var(--natural),transform .35s var(--asentar)}
 .sugerencia b.fuera{opacity:0}
 .buscador.rotando input::placeholder{color:transparent}
 .buscador.rotando input:focus::placeholder{color:var(--gris)}
@@ -224,35 +226,46 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
 /* puntos del carrusel */
 .puntos{display:flex;justify-content:center;gap:2px;margin-top:0}
 .puntos button{box-sizing:content-box;width:8px;height:8px;padding:6px 3px;border:0;border-radius:99px;background:#C9D4E8;
-  background-clip:content-box;cursor:pointer;transition:width .35s cubic-bezier(.2,.7,.2,1),background-color .35s}
+  background-clip:content-box;cursor:pointer;transition:width .45s var(--asentar),background-color .35s var(--natural)}
 .puntos button[aria-current=true]{width:24px;background-color:var(--naranja)}
 /* barra de filtros con sombra al quedar pegada */
-.filtros{transition:box-shadow .25s}
+.filtros{transition:box-shadow .35s var(--natural)}
 .filtros.pegada{box-shadow:0 6px 18px rgba(13,41,96,.09)}
 /* volver arriba */
 .arriba{position:fixed;right:18px;bottom:18px;z-index:40;width:46px;height:46px;border-radius:50%;border:0;background:var(--azul);
   color:#fff;box-shadow:0 8px 22px rgba(13,41,96,.32);cursor:pointer;display:flex;align-items:center;justify-content:center;
-  opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s,background-color .2s}
+  opacity:0;visibility:hidden;transition:opacity .35s var(--natural),visibility .35s,background-color .25s var(--natural)}
 .arriba.visible{opacity:1;visibility:visible}
 .arriba:hover{background:var(--naranja)}
 /* avisos breves */
 .avisos{position:fixed;left:16px;right:16px;bottom:20px;z-index:60;display:flex;justify-content:center;pointer-events:none}
 .aviso{pointer-events:auto;display:flex;gap:16px;align-items:center;background:var(--azul-oscuro);color:#fff;border-radius:14px;
   padding:11px 18px;font-size:14.5px;font-weight:700;box-shadow:0 12px 32px rgba(0,0,0,.28);opacity:0;transform:translateY(10px);
-  transition:opacity .25s,transform .25s}
+  transition:opacity .35s var(--natural),transform .45s var(--asentar)}
 .aviso.visible{opacity:1;transform:none}
 .aviso button{background:none;border:0;padding:0;color:#FFB27F;font:inherit;font-weight:800;cursor:pointer}
 /* tarjetas que aparecen al bajar */
 .revelar{opacity:0}
-.revelar.visto{opacity:1;animation:aparecer .5s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0) * 60ms)}
+.revelar.visto{opacity:1;animation:aparecer .6s var(--asentar) backwards;animation-delay:calc(var(--i,0) * 60ms)}
 /* "No me interesa": la tarjeta se desvanece antes de irse */
-.card.saliendo{opacity:0;transition:opacity .22s ease}
+.card.saliendo{opacity:0;transition:opacity .22s var(--natural)}
 /* "Leer más": el evento al frente, el resto borroso detrás */
-dialog.foco{border:0;padding:0;border-radius:22px;width:min(680px,calc(100% - 24px));max-height:min(90vh,920px);overflow:auto;
+dialog.foco{border:0;padding:0;border-radius:24px;width:min(680px,calc(100% - 24px));max-height:none;overflow:hidden;
   background:#fff;color:var(--texto);box-shadow:0 30px 90px rgba(13,41,96,.4)}
+.foco-scroll{max-height:min(90vh,920px);overflow-y:auto;overscroll-behavior:contain}
+/* barra de desplazamiento amable: delgada, redondeada, sin flechas y alejada de las esquinas */
+.foco-scroll::-webkit-scrollbar{width:12px}
+.foco-scroll::-webkit-scrollbar-track{background:transparent;margin:22px 0}
+.foco-scroll::-webkit-scrollbar-thumb{background:#C9D4E8;border-radius:99px;border:4px solid transparent;background-clip:padding-box}
+.foco-scroll::-webkit-scrollbar-thumb:hover{background-color:#9FB1D1}
+.foco-scroll::-webkit-scrollbar-button{display:none;height:0}
+@supports not selector(::-webkit-scrollbar){.foco-scroll{scrollbar-width:thin;scrollbar-color:#C9D4E8 transparent}}
+/* mientras lees, las acciones quedan a mano abajo */
+.card.en-foco .acciones{position:sticky;bottom:0;z-index:2;margin:0 -22px;padding:22px 22px 14px;
+  background:linear-gradient(rgba(255,255,255,0),#fff 38%)}
 dialog.foco::backdrop{background:rgba(13,41,96,.32);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px)}
 body:has(dialog.foco[open]){overflow:hidden}
-.card.en-foco{border:0;box-shadow:none;border-radius:0;position:relative}
+.card.en-foco{border:0;box-shadow:none;border-radius:0;position:relative;overflow:visible;contain:none}  /* sin recorte propio: así la ✕ y las acciones quedan fijas al bajar */
 .card.en-foco:hover{box-shadow:none}
 .card.en-foco .img{aspect-ratio:2/1}
 .card.en-foco .cuerpo{padding:18px 22px 22px}
@@ -271,9 +284,13 @@ dialog.foco.cerrando,dialog.foco.cerrando::backdrop{animation:desaparecer .2s ea
    Dos niveles: los fundidos y cambios de color son para todos (no marean a nadie, incluso con
    "reducir movimiento" o las animaciones de Windows apagadas); los desplazamientos, el zoom y el giro
    del radar solo cuando el sistema no pide menos movimiento. */
-.chip,.tipo-btn,.btn,.flecha{transition:background-color .2s,color .2s,border-color .2s,box-shadow .2s,transform .12s,opacity .2s,visibility .2s}
-.card,.reco{transition:box-shadow .25s ease,border-color .25s ease}
-.card:hover,.reco:hover{box-shadow:var(--sombra-hover)}
+.chip,.tipo-btn,.btn,.flecha{transition:background-color .25s var(--natural),color .25s var(--natural),border-color .25s var(--natural),box-shadow .25s var(--natural),transform .18s var(--natural),opacity .25s var(--natural),visibility .25s}
+.card,.reco{transition:transform .45s var(--asentar),box-shadow .45s var(--asentar),border-color .3s var(--natural)}
+@media (hover:hover) and (pointer:fine){
+  .card:not(.en-foco):hover,.reco:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(13,41,96,.16),0 4px 10px rgba(13,41,96,.06)}
+  .card:not(.en-foco):hover{border-color:#C3D0E6}
+}
+body.desplazando .card,body.desplazando .reco{pointer-events:none}
 .buscador{transition:box-shadow .2s}
 .buscador:focus-within{box-shadow:0 8px 24px rgba(0,0,0,.18),0 0 0 3px rgba(255,178,127,.7)}
 @keyframes aparecer{from{opacity:0}}
@@ -289,7 +306,7 @@ dialog.foco.cerrando,dialog.foco.cerrando::backdrop{animation:desaparecer .2s ea
 @keyframes marcar-t{from{background-color:rgba(255,255,255,.1);color:#fff}}
 @keyframes desmarcar-t{from{background-color:rgba(255,255,255,.6);color:var(--azul)}}
 /* entrada de la portada, escalonada */
-.hero .saludo,.hero h1,.hero .lema,.buscador,.que-buscas,.estado-mini{animation:aparecer .6s cubic-bezier(.2,.7,.2,1) both}
+.hero .saludo,.hero h1,.hero .lema,.buscador,.que-buscas,.estado-mini{animation:aparecer .7s var(--asentar) backwards}
 .hero h1{animation-delay:.06s}
 .hero .lema{animation-delay:.12s}
 .buscador{animation-delay:.18s}
@@ -297,7 +314,7 @@ dialog.foco.cerrando,dialog.foco.cerrando::backdrop{animation:desaparecer .2s ea
 .estado-mini{animation-delay:.3s}
 .radar .blip{animation:blip-luz 2s ease-in-out infinite}
 /* lo que entra a la lista al filtrar o al cargar más */
-.aparece{animation:aparecer .45s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0) * 55ms)}
+.aparece{animation:aparecer .55s var(--asentar) backwards;animation-delay:calc(var(--i,0) * 55ms)}
 .chip.marcar{animation:marcar .25s ease-out}
 .chip.desmarcar{animation:desmarcar .3s ease-out}
 .tipo-btn.marcar{animation:marcar-t .25s ease-out}
@@ -317,12 +334,12 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
   .chip:active,.tipo-btn:active,.btn:active,.flecha:active{transform:scale(.96)}
   .revelar.visto{animation-name:subir}
   .sugerencia b.fuera{transform:translateY(-6px)}
-  .card.saliendo{transform:scale(.97);transition:opacity .22s ease,transform .22s ease}
+  .card.saliendo{transform:scale(.97);transition:opacity .22s var(--natural),transform .22s var(--natural)}
   @keyframes acercar{from{opacity:0;transform:translateY(14px) scale(.97)}}
   @keyframes alejar{to{opacity:0;transform:scale(.97)}}
-  dialog.foco[open]{animation-name:acercar;animation-duration:.3s;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
+  dialog.foco[open]{animation-name:acercar;animation-duration:.4s;animation-timing-function:var(--asentar)}
   dialog.foco.cerrando{animation-name:alejar}
-  .arriba{transform:translateY(8px);transition:opacity .25s,visibility .25s,transform .25s,background-color .2s}
+  .arriba{transform:translateY(8px);transition:opacity .35s var(--natural),visibility .35s,transform .45s var(--asentar),background-color .25s var(--natural)}
   .arriba.visible{transform:none}
 }
 @media (max-width:600px){
@@ -343,6 +360,7 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
   .flecha{width:38px;height:38px;top:46px}
   .avisos{bottom:74px}
   .card.en-foco .cuerpo{padding:16px 16px 18px}
+  .card.en-foco .acciones{margin:0 -16px;padding:22px 16px 12px}
   .flecha.izq{left:-8px}
   .flecha.der{right:-8px}
 }
@@ -671,7 +689,7 @@ function pintarRecomendados() {
   ["wheel", "touchstart", "pointerdown"].forEach(ev => c.addEventListener(ev, () => {
     auto.detenido = true;
     if (!c._raf) return;
-    cancelAnimationFrame(c._raf); c._raf = 0; c._destino = null; c.style.scrollSnapType = "";
+    cancelAnimationFrame(c._raf); c._raf = 0; c._v = 0; c._destino = null; c.style.scrollSnapType = "";
   }, {passive: true}));
   flechas(c);
 }
@@ -688,10 +706,12 @@ function flechas(c) {
   let cerca = 0; ps.forEach((b, i) => { if (Math.abs(+b.dataset.pos - x) < Math.abs(+ps[cerca].dataset.pos - x)) cerca = i; });
   ps.forEach((b, i) => b.setAttribute("aria-current", i === cerca));
 }
-// Deslizamiento propio: acelera y frena suave (el "smooth" del navegador + el imán del scroll-snap
-// arrancaba de golpe y daba un saltito al final: se veía robótico). Mientras se desliza, el imán se apaga.
-// Va siempre animado, aun con "reducir movimiento": es la respuesta directa a un clic, corta y de una tarjeta.
-const suave = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;  // ease-in-out cúbica
+// Deslizamiento propio con un resorte (amortiguado crítico, sin rebote): arranca y frena suave, y como
+// CONSERVA la velocidad entre clics, apretar seguido va ganando rapidez de forma continua, sin tirones
+// (pedidos de JP: "robótico", luego "que vaya más rápido al spamear", luego "que no sea tan violento").
+// Tope de velocidad para que nunca se vea brusco. Mientras se mueve, el imán del scroll-snap se apaga.
+// Va siempre animado, aun con "reducir movimiento": es la respuesta directa a un clic.
+const RESORTE = {k: 150, amort: 2 * Math.sqrt(150), vmax: 2600, amax: 10000};  // rigidez, amortiguación (crítica), px/s, px/s²
 // posiciones exactas en las que cada tarjeta queda alineada a la izquierda (sin repetir las del final)
 function posiciones(c) {
   const max = c.scrollWidth - c.clientWidth;
@@ -703,22 +723,22 @@ function deslizar(c, dir) {
   irA(c, dir > 0 ? pos.find(p => p > desde + 4) ?? max : [...pos].reverse().find(p => p < desde - 4) ?? 0);
 }
 function irA(c, destino) {
-  // Un clic suelto: acelera y frena suave. Clics seguidos (pedido de JP): como ya va en movimiento,
-  // sale rápido sin volver a acelerar desde cero, y cada clic extra acorta el viaje.
-  const enMarcha = !!c._raf, t0 = performance.now();
-  c._racha = enMarcha && t0 - (c._ultimo || 0) < 900 ? (c._racha || 0) + 1 : 0;
-  c._ultimo = t0;
-  cancelAnimationFrame(c._raf);
-  const ini = c.scrollLeft, dist = destino - ini;
-  const base = Math.min(800, 420 + Math.abs(dist) * .5);
-  const dur = enMarcha ? Math.max(180, base * .55 / (1 + c._racha * .35)) : base;
-  const curva = enMarcha ? p => 1 - Math.pow(1 - p, 3) : suave;
   c._destino = destino; c.style.scrollSnapType = "none";
+  if (c._raf) return;  // ya se está moviendo: solo cambia el destino y la velocidad sigue igual
+  c._x = c.scrollLeft; c._v = 0;
+  let previo = performance.now();
   const paso = ahora => {
-    const p = Math.min(1, (ahora - t0) / dur);
-    c.scrollLeft = ini + dist * curva(p);
-    if (p < 1) { c._raf = requestAnimationFrame(paso); return; }
-    c._raf = 0; c._destino = null; c.style.scrollSnapType = ""; flechas(c);
+    const dt = Math.min(.05, (ahora - previo) / 1000); previo = ahora;
+    const n = Math.max(1, Math.ceil(dt / .008));  // sub-pasos cortos: el resorte nunca se desestabiliza
+    for (let i = 0; i < n; i++) {
+      // la aceleración también tiene tope: el arranque es gradual, nunca un empujón
+      const a = Math.max(-RESORTE.amax, Math.min(RESORTE.amax, RESORTE.k * (c._destino - c._x) - RESORTE.amort * c._v));
+      c._v = Math.max(-RESORTE.vmax, Math.min(RESORTE.vmax, c._v + a * dt / n));
+      c._x += c._v * dt / n;
+    }
+    c.scrollLeft = c._x;
+    if (Math.abs(c._destino - c._x) > .5 || Math.abs(c._v) > 8) { c._raf = requestAnimationFrame(paso); return; }
+    c.scrollLeft = c._destino; c._raf = 0; c._v = 0; c._destino = null; c.style.scrollSnapType = ""; flechas(c);
   };
   c._raf = requestAnimationFrame(paso);
 }
@@ -810,7 +830,7 @@ function tarjeta(e, i, foco = false) {
         ${e.organizador ? `<div><span class="ic">👥</span><span>${esc(e.organizador)}</span></div>` : ""}
       </div>
       ${!desc ? "" : foco ? `<p class="desc completa">${esc(desc)}</p>`
-        : `<p class="desc">${esc(desc)}</p>${desc.length > 120 ? `<button class="mas" data-a="mas">Leer más</button>` : ""}`}
+        : `<p class="desc">${esc(desc)}</p><button class="mas" data-a="mas" hidden>Leer más</button>`}
       <div class="acciones">
         <a class="btn inscribir" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">${accion}</a>
         ${d ? `<a class="btn sec" href="${gcal(e)}" target="_blank" rel="noopener" title="Agregar a Google Calendar">📅 Agendar</a>` : ""}
@@ -895,9 +915,19 @@ function render() {
   if (lista.length > limite)
     html += `<button class="btn sec cargar" data-a="cargar">Cargar ${Math.min(PAGINA, lista.length - limite)} más (${lista.length - limite} restantes)</button>`;
   cont.innerHTML = html;
+  marcarLeerMas();
   observarNuevas();
   render.late = null;
 }
+// "Leer más" aparece en toda tarjeta cuya descripción no cabe entera (en celular caben menos líneas)
+function marcarLeerMas() {
+  document.querySelectorAll("#lista .card .desc").forEach(p => {
+    const b = p.nextElementSibling;
+    if (b && b.classList.contains("mas")) b.hidden = p.scrollHeight <= p.clientHeight + 2;
+  });
+}
+addEventListener("resize", () => { cancelAnimationFrame(marcarLeerMas.r); marcarLeerMas.r = requestAnimationFrame(marcarLeerMas); });
+if (document.fonts) document.fonts.ready.then(marcarLeerMas);  // la letra Nunito cambia dónde se corta el texto
 
 // ---------- cabecera y pie
 function hace() {
@@ -949,7 +979,10 @@ function acciones(ev) {
   if (b.dataset.a === "fav") {
     favs.has(id) ? favs.delete(id) : favs.add(id); guardar("radar-favs", [...favs]);
     if (favs.has(id)) { render.late = id; aviso("❤️ Guardado. Lo encuentras en Guardados"); }  // el corazón "late"
-    if (enFoco) dlg.innerHTML = tarjeta(eventos.find(x => x.id === id), null, true);
+    if (enFoco) {  // redibuja el corazón sin perder dónde iba leyendo
+      const s = dlg.querySelector(".foco-scroll"), y = s.scrollTop;
+      s.innerHTML = tarjeta(eventos.find(x => x.id === id), null, true); s.scrollTop = y;
+    }
     render(); return;
   }
   if (b.dataset.a === "ocultar" && enFoco) {
@@ -975,8 +1008,8 @@ $("#foco").addEventListener("click", acciones);
 // ---------- "Leer más": el evento pasa al frente y el resto queda borroso detrás
 function abrirFoco(id) {
   const e = eventos.find(x => x.id === id), dlg = $("#foco"); if (!e) return;
-  dlg.innerHTML = tarjeta(e, null, true);
-  dlg.showModal(); dlg.scrollTop = 0;
+  dlg.innerHTML = `<div class="foco-scroll">${tarjeta(e, null, true)}</div>`;
+  dlg.showModal(); dlg.firstChild.scrollTop = 0;
 }
 function cerrarFoco() {
   const dlg = $("#foco"); if (!dlg.open || dlg.classList.contains("cerrando")) return;
@@ -1061,6 +1094,10 @@ const auto = {detenido: false, pausa: false, visible: true};
 })();
 // espera a que la persona deje de teclear: la lista cambia (y se anima) una vez, no por cada letra
 $("#q").addEventListener("input", e => { clearTimeout(render.espera); render.espera = setTimeout(() => { st.q = e.target.value; render(); }, 220); });
+addEventListener("scroll", () => {
+  document.body.classList.add("desplazando");
+  clearTimeout(render.quieto); render.quieto = setTimeout(() => document.body.classList.remove("desplazando"), 140);
+}, {passive: true});
 $("#f-cuando").addEventListener("scroll", e => {
   const c = e.currentTarget; c.classList.toggle("corta", c.scrollWidth - c.scrollLeft - c.clientWidth > 8);
 }, {passive: true});
