@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T13:16-05:00",
+ "actualizado": "2026-09-27T13:29-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -31,7 +31,8 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10
+   "n": 10,
+   "cache": "2026-09-27T13:15-05:00"
   },
   "TEDx": {
    "ok": true,
@@ -39,14 +40,14 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 12
+   "n": 10
   },
   "Redes (manual)": {
    "ok": true,
    "n": 0
   }
  },
- "revisados": 336,
+ "revisados": 334,
  "top": 55,
  "eventos": [
   {
@@ -2087,6 +2088,34 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
+   "id": "devpost:30858",
+   "titulo": "ForgeHacks Online 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-10T23:59-05:00",
+   "cierre": "2026-10-10T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://forgehacks-2026.devpost.com/",
+   "inscripcion": "https://forgehacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ForgeHacks",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $469,531.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-27T13:29-05:00"
+  },
+  {
    "id": "luma:evt-g4nJ9CwZ8xLZUEz",
    "titulo": "AI Augmented Companies - El futuro de las empresas de Latam",
    "inicio": "2026-10-12T14:00-05:00",
@@ -2170,38 +2199,6 @@
    "puntaje": 39,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Plazo claro",
    "visto_desde": "2026-09-26T15:34-05:00"
-  },
-  {
-   "id": "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13",
-   "titulo": "Ciclo Sunafil: cumplimiento, bienestar y sostenibilidad",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-13T00:00-05:00",
-   "fin": "2026-10-13T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://amcham.org.pe/evento/ciclo-sunafil-cumplimiento-bienestar-y-sostenibilidad/",
-   "inscripcion": "https://amcham.org.pe/evento/ciclo-sunafil-cumplimiento-bienestar-y-sostenibilidad/",
-   "fuente": "Institucional",
-   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
-   "organizador": "Cámara de Comercio Americana del Perú",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/04/ciclo_sunafil.jpg",
-   "extraido_por": "sitemap + fecha en texto",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
    "id": "luma:evt-iWf78QCKrq9MgjZ",
@@ -4954,37 +4951,6 @@
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima",
    "visto_desde": "2026-09-24T22:14-05:00"
-  },
-  {
-   "id": "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23",
-   "titulo": "Sustainability Immersion Trip: Moving from Concept to Strategy",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-11-23T00:00-05:00",
-   "fin": "2026-11-27T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
-   "inscripcion": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
-   "fuente": "Institucional",
-   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
-   "organizador": "Cámara de Comercio Americana del Perú",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/08/1-1-scaled.jpg",
-   "extraido_por": "sitemap + fecha en texto",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
    "id": "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214",
@@ -8307,33 +8273,6 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30998",
-   "titulo": "HelloHacks",
-   "tipo": "hackathon",
-   "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "University of British Columbia (UBC)",
-   "distrito": "University of British Columbia (UBC)",
-   "modalidad": "Presencial",
-   "url": "https://hellohacks-2026.devpost.com/",
-   "inscripcion": "https://hellohacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "UBC BizTech",
-   "descripcion": "Hackathon presencial en University of British Columbia (UBC). Temas: Beginner Friendly, Open Ended. Premios: $CAD 450.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/088/130/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 6,
-   "puntaje": 29,
-   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:30236",
    "titulo": "Hack Atlantic",
    "tipo": "hackathon",
@@ -9236,7 +9175,7 @@
   "ESAN — eventos": 4,
   "PMI Lima": 1,
   "Sociedad Nacional de Industrias": 4,
-  "AmCham Perú": 2,
+  "AmCham Perú": 0,
   "ComexPerú": 0
  },
  "se_viene": [
@@ -9308,19 +9247,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000",
-   "url": "https://andina.pe/agencia/noticia-feria-artesanal-exhibe-peru-2026-lima-alcanzaria-ventas-s-80000-1080084.aspx",
-   "medio": "andina.pe",
-   "publicado": "Wed, 17 Jun 2026 17:00:00 GMT",
-   "resumen": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000 En beneficio de artesanos de nueve regiones del país Ministro de Comercio Exterior y Turismo, Berthin Gómez. ANDINA/Difusión 22 ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Expomina Perú 2026: Lima será epicentro de la minería mundial en setiembre",
    "url": "https://www.expreso.com.pe/actualidad/expomina-peru-2026-lima-sera-epicentro-de-la-mineria-mundial-en-setiembre-noticia/1310398/",
    "medio": "Expreso Interactivo",
    "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
    "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000",
+   "url": "https://andina.pe/agencia/noticia-feria-artesanal-exhibe-peru-2026-lima-alcanzaria-ventas-s-80000-1080084.aspx",
+   "medio": "andina.pe",
+   "publicado": "Wed, 17 Jun 2026 17:00:00 GMT",
+   "resumen": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000 En beneficio de artesanos de nueve regiones del país Ministro de Comercio Exterior y Turismo, Berthin Gómez. ANDINA/Difusión 22 ...",
    "fecha_mencionada": ""
   }
  ],
@@ -9557,9 +9496,7 @@
   "inst:sni-webinar-gesti-n-integral-de-sustancias-qu-micas-en-el-se:2026-09-29": "2026-09-26T10:21-05:00",
   "inst:sni-webinar-energ-a-como-ventaja-competitiva-c-mo-reducir-el:2026-09-30": "2026-09-26T10:21-05:00",
   "inst:sni-webinar-tributos-municipales-sin-sorpresas-calcula-verif:2026-09-30": "2026-09-26T10:21-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13": "2026-09-26T10:21-05:00",
   "luma:evt-VdivoEb6CyTNEOJ": "2026-09-26T10:21-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-26T10:21-05:00",
   "devpost:30298": "2026-09-26T15:34-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-09-26-cees-fellowship-program-2027-": "2026-09-26T15:34-05:00",
   "luma:evt-iWf78QCKrq9MgjZ": "2026-09-26T15:34-05:00",
@@ -9576,6 +9513,7 @@
   "devpost:31515": "2026-09-27T11:15-05:00",
   "devpost:31493": "2026-09-27T11:15-05:00",
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
-  "devpost:30588": "2026-09-27T11:15-05:00"
+  "devpost:30588": "2026-09-27T11:15-05:00",
+  "devpost:30858": "2026-09-27T13:29-05:00"
  }
 }
