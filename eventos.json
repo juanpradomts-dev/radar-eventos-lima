@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T13:39-05:00",
+ "actualizado": "2026-09-27T13:53-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -272,6 +272,7 @@
    "afinidad": 24,
    "puntaje": 54,
    "por_que": "Formativo · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad",
+   "hora_dudosa": true,
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
@@ -447,8 +448,8 @@
    "tipo": "evento",
    "institucional": true,
    "escala": "media",
-   "inicio": "2026-09-29T11:11-05:00",
-   "fin": "2026-09-29T23:23-05:00",
+   "inicio": "2026-09-29T11:00-05:00",
+   "fin": "",
    "cierre": "",
    "lugar": "Lima",
    "distrito": "Lima",
@@ -471,6 +472,9 @@
    "afinidad": 0,
    "puntaje": 27,
    "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-09-29T23:50-05:00"
+   },
    "visto_desde": "2026-09-26T10:21-05:00"
   },
   {
@@ -506,8 +510,8 @@
    "tipo": "evento",
    "institucional": true,
    "escala": "media",
-   "inicio": "2026-09-29T16:16-05:00",
-   "fin": "2026-09-29T23:23-05:00",
+   "inicio": "2026-09-29T16:00-05:00",
+   "fin": "2026-09-29T23:50-05:00",
    "cierre": "",
    "lugar": "Lima",
    "distrito": "Lima",
@@ -645,7 +649,7 @@
   },
   {
    "id": "eb:1998657030982",
-   "titulo": "30 ANIVERSARIO REDRILSA",
+   "titulo": "30 Aniversario Redrilsa",
    "inicio": "2026-09-30T07:30-05:00",
    "fin": "2026-09-30T14:00-05:00",
    "lugar": "Colegio de Ingenieros del Peru, 4947 Avenida Arequipa",
@@ -669,6 +673,9 @@
    "afinidad": 0,
    "puntaje": 10,
    "por_que": "Gratis · Evento sin formato claro",
+   "original": {
+    "titulo": "30 ANIVERSARIO REDRILSA"
+   },
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
@@ -759,8 +766,8 @@
    "tipo": "evento",
    "institucional": true,
    "escala": "media",
-   "inicio": "2026-09-30T12:12-05:00",
-   "fin": "2026-09-30T23:23-05:00",
+   "inicio": "2026-09-30T12:00-05:00",
+   "fin": "2026-09-30T23:50-05:00",
    "cierre": "",
    "lugar": "Lima",
    "distrito": "Lima",
@@ -846,8 +853,8 @@
    "tipo": "evento",
    "institucional": true,
    "escala": "media",
-   "inicio": "2026-09-30T17:17-05:00",
-   "fin": "2026-09-30T23:23-05:00",
+   "inicio": "2026-09-30T17:00-05:00",
+   "fin": "2026-09-30T23:50-05:00",
    "cierre": "",
    "lugar": "Lima",
    "distrito": "Lima",
@@ -1483,7 +1490,7 @@
   },
   {
    "id": "luma:evt-5zLvn61Vu2Wm1aR",
-   "titulo": "IV ROBOTMANÍA UPC",
+   "titulo": "IV Robotmanía UPC",
    "inicio": "2026-10-02T11:00-05:00",
    "fin": "2026-10-03T20:00-05:00",
    "lugar": "Av. Primavera 2390, Santiago de Surco",
@@ -1507,6 +1514,9 @@
    "afinidad": 10,
    "puntaje": 43,
    "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
+   "original": {
+    "titulo": "IV ROBOTMANÍA UPC"
+   },
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
@@ -1924,7 +1934,7 @@
   },
   {
    "id": "eb:2001674824283",
-   "titulo": "RIMAN CONTIGO | PERÚ '26",
+   "titulo": "Riman Contigo | Perú '26",
    "inicio": "2026-10-09T18:00-05:00",
    "fin": "2026-10-09T21:00-05:00",
    "lugar": "Sheraton Lima Historic Center, 170 Avenida Paseo de la República",
@@ -1947,6 +1957,9 @@
    "afinidad": 0,
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis",
+   "original": {
+    "titulo": "RIMAN CONTIGO | PERÚ '26"
+   },
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
@@ -2033,7 +2046,7 @@
   },
   {
    "id": "eb:1999310788388",
-   "titulo": "EXPOESTUDIOS LIMA 2026-2",
+   "titulo": "Expoestudios Lima 2026-2",
    "inicio": "2026-10-10T10:00-05:00",
    "fin": "2026-10-10T18:00-05:00",
    "lugar": "Hilton Lima Miraflores, 1099 Avenida la Paz",
@@ -2056,6 +2069,9 @@
    "afinidad": 0,
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis",
+   "original": {
+    "titulo": "EXPOESTUDIOS LIMA 2026-2"
+   },
    "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
@@ -2317,7 +2333,7 @@
   },
   {
    "id": "luma:evt-JwsF76ozgbSq1QP",
-   "titulo": "EXPERIENCIA EN CATAMARÁN: IA TALENT WAVE PTW 2026",
+   "titulo": "Experiencia en Catamarán: IA Talent Wave PTW 2026",
    "inicio": "2026-10-13T12:30-05:00",
    "fin": "2026-10-13T18:00-05:00",
    "lugar": "Av. Coronel Bolognesi 761, La Punta",
@@ -2341,6 +2357,9 @@
    "afinidad": 16,
    "puntaje": 41,
    "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Universidad",
+   "original": {
+    "titulo": "EXPERIENCIA EN CATAMARÁN: IA TALENT WAVE PTW 2026"
+   },
    "visto_desde": "2026-09-25T18:45-05:00"
   },
   {
@@ -2705,6 +2724,7 @@
    "afinidad": 0,
    "puntaje": 35,
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "hora_dudosa": true,
    "visto_desde": "2026-09-25T18:45-05:00"
   },
   {
@@ -2885,7 +2905,7 @@
    "url": "https://www.eventbrite.com/e/hackerx-lima-employer-ticket-1015-tickets-1982870759820",
    "fuente": "Eventbrite",
    "organizador": "HackerX",
-   "descripcion": "HackerX - Lima - Employer Ticket - 10/15",
+   "descripcion": "",
    "gratis": false,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173787393%2F84283668488%2F1%2Foriginal.20260101-040854?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=45ef8d7b3b59626a5d0356ba82eb524b",
    "inscripcion": "https://www.eventbrite.com/e/hackerx-lima-employer-ticket-1015-tickets-1982870759820",
@@ -2900,6 +2920,9 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima",
+   "original": {
+    "descripcion": "HackerX - Lima - Employer Ticket - 10/15"
+   },
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
@@ -4122,7 +4145,7 @@
   },
   {
    "id": "luma:evt-3Izz5QELco5iG9O",
-   "titulo": "LA DECANATRÓN UNMSM 2",
+   "titulo": "La Decanatrón UNMSM 2",
    "inicio": "2026-10-30T11:00-05:00",
    "fin": "2026-10-31T20:00-05:00",
    "lugar": "Lima",
@@ -4146,6 +4169,9 @@
    "afinidad": 10,
    "puntaje": 43,
    "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
+   "original": {
+    "titulo": "LA DECANATRÓN UNMSM 2"
+   },
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
@@ -4206,7 +4232,7 @@
   },
   {
    "id": "luma:evt-JEqjUEYW2lARMsE",
-   "titulo": "CSH CONFERENCE 2026",
+   "titulo": "CSH Conference 2026",
    "inicio": "2026-10-31T08:00-05:00",
    "fin": "2026-10-31T18:00-05:00",
    "lugar": "Jr. Medrano Silva 165, Barranco",
@@ -4230,6 +4256,9 @@
    "afinidad": 0,
    "puntaje": 39,
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "original": {
+    "titulo": "CSH CONFERENCE 2026"
+   },
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
@@ -4786,7 +4815,7 @@
   },
   {
    "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
-   "titulo": "XVIII CONGRESO INTERNACIONAL DE DIRECCIÓN DE PROYECTOS - FUTURE EXPERIENCE SUMMIT 2026",
+   "titulo": "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit 2026",
    "tipo": "evento",
    "institucional": true,
    "escala": "media",
@@ -4814,6 +4843,9 @@
    "afinidad": 18,
    "puntaje": 57,
    "por_que": "Formativo · Afín: Investigación · Evento institucional · Presencial en Lima",
+   "original": {
+    "titulo": "XVIII CONGRESO INTERNACIONAL DE DIRECCIÓN DE PROYECTOS - FUTURE EXPERIENCE SUMMIT 2026"
+   },
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
@@ -9251,6 +9283,125 @@
    "dato": "Foro empresarial más importante del país. 2026: 24–26 nov en Urubamba (Cusco)."
   }
  ],
+ "calidad": {
+  "fecha": "2026-09-27T13:53-05:00",
+  "revisados": 206,
+  "corregidos": 10,
+  "avisos": 3,
+  "archivados": 0,
+  "problemas": [
+   {
+    "id": "pucp:infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518",
+    "titulo": "INFOPUCP presenta una nueva edición de la Semana Modo IA - para el mundo educativo",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "hora poco probable (10:18): se muestra 'por confirmar'",
+    "url": "https://agenda.pucp.edu.pe/evento/infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518/"
+   },
+   {
+    "id": "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29",
+    "titulo": "Webinar: Microempresa: Conoce como puedes subsanar tu primera infracción – Ley 32335",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término no creíble (11:00–23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
+    "id": "eb:1998657030982",
+    "titulo": "30 Aniversario Redrilsa",
+    "fuente": "Eventbrite",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://www.eventbrite.com/e/30-aniversario-redrilsa-tickets-1998657030982"
+   },
+   {
+    "id": "luma:evt-5zLvn61Vu2Wm1aR",
+    "titulo": "IV Robotmanía UPC",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://lu.ma/t6kreqmq"
+   },
+   {
+    "id": "eb:2001674824283",
+    "titulo": "Riman Contigo | Perú '26",
+    "fuente": "Eventbrite",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://www.eventbrite.com.mx/e/riman-contigo-peru-26-tickets-2001674824283"
+   },
+   {
+    "id": "eb:1999310788388",
+    "titulo": "Expoestudios Lima 2026-2",
+    "fuente": "Eventbrite",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://www.eventbrite.co/e/expoestudios-lima-2026-2-tickets-1999310788388"
+   },
+   {
+    "id": "luma:evt-JwsF76ozgbSq1QP",
+    "titulo": "Experiencia en Catamarán: IA Talent Wave PTW 2026",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://lu.ma/bv2x7r84"
+   },
+   {
+    "id": "pucp:visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727",
+    "titulo": "Visita del profesor Camille Riquier (Institut Catholique de Paris)",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "hora poco probable (14:51): se muestra 'por confirmar'",
+    "url": "https://agenda.pucp.edu.pe/evento/visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727/"
+   },
+   {
+    "id": "eb:1982870759820",
+    "titulo": "HackerX - Lima - Employer Ticket - 10/15",
+    "fuente": "Eventbrite",
+    "nivel": "corregido",
+    "detalle": "la descripción solo repetía el título",
+    "url": "https://www.eventbrite.com/e/hackerx-lima-employer-ticket-1015-tickets-1982870759820"
+   },
+   {
+    "id": "luma:evt-3Izz5QELco5iG9O",
+    "titulo": "La Decanatrón UNMSM 2",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://lu.ma/h86j8avw"
+   },
+   {
+    "id": "luma:evt-JEqjUEYW2lARMsE",
+    "titulo": "CSH Conference 2026",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://lu.ma/uba0k6n2"
+   },
+   {
+    "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
+    "titulo": "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit 2026",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://pmi.org.pe/"
+   },
+   {
+    "id": "pucp:taller-preparacion-efectiva-para-parciales",
+    "titulo": "Taller Preparación efectiva para parciales",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/taller-preparacion-efectiva-para-parciales/"
+   }
+  ],
+  "enlaces": {
+   "comprobados": 40,
+   "rotos": 1,
+   "sin_comprobar": 0
+  },
+  "fuentes_a_revisar": []
+ },
  "por_confirmar": [
   {
    "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
@@ -9267,14 +9418,6 @@
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
    "fecha_mencionada": "2026-09-25T00:00-05:00"
-  },
-  {
-   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
-   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
-   "medio": "autotv",
-   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
-   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
-   "fecha_mencionada": ""
   },
   {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
@@ -9378,6 +9521,9 @@
   },
   "Sustainability Immersion Trip: Moving from Concept to Strategy": {
    "2026": "2026-11-23"
+  },
+  "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit": {
+   "2026": "2026-11-16"
   }
  },
  "primera_vez": {
