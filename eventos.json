@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T13:57-05:00",
+ "actualizado": "2026-09-27T14:01-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -27,13 +27,12 @@
   },
   "Opportunity Desk": {
    "ok": true,
-   "n": 10,
-   "revisar": "100% de sus eventos con problemas"
+   "n": 10
   },
   "Opportunities for Youth": {
    "ok": true,
    "n": 10,
-   "revisar": "los problemas subieron de 0% a 25%"
+   "cache": "2026-09-27T13:55-05:00"
   },
   "TEDx": {
    "ok": true,
@@ -1810,7 +1809,7 @@
    "titulo": "McKinsey Forward Program Fall 2026",
    "tipo": "convocatoria",
    "inicio": "2026-10-05T23:59-05:00",
-   "fin": "",
+   "fin": "2026-10-05T23:59-05:00",
    "cierre": "2026-10-05T23:59-05:00",
    "publicado": "2026-09-25T07:30-05:00",
    "lugar": "",
@@ -1831,9 +1830,6 @@
    "afinidad": 0,
    "puntaje": 25,
    "por_que": "Abre puertas (beca/programa) · Empresa reconocida · Plazo claro · Se postula en línea",
-   "original": {
-    "fin": "2026-10-05T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -2206,7 +2202,7 @@
    "titulo": "Center for Eastern European Studies (CEES) Fellowship Program 2027 (Funded)",
    "tipo": "convocatoria",
    "inicio": "2026-10-12T23:59-05:00",
-   "fin": "",
+   "fin": "2026-10-12T23:59-05:00",
    "cierre": "2026-10-12T23:59-05:00",
    "publicado": "2026-09-26T14:08-05:00",
    "lugar": "",
@@ -2228,9 +2224,6 @@
    "afinidad": 12,
    "puntaje": 39,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Plazo claro",
-   "original": {
-    "fin": "2026-10-12T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T15:34-05:00"
   },
   {
@@ -2637,7 +2630,7 @@
    "titulo": "Call for Application Readers for the 2027 Mandela Washington Fellowship (Honorarium available)",
    "tipo": "voluntariado",
    "inicio": "2026-10-13T23:59-05:00",
-   "fin": "",
+   "fin": "2026-10-13T23:59-05:00",
    "cierre": "2026-10-13T23:59-05:00",
    "publicado": "2026-09-26T05:03-05:00",
    "lugar": "",
@@ -2659,9 +2652,6 @@
    "afinidad": 12,
    "puntaje": 40,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Voluntariado · Plazo claro",
-   "original": {
-    "fin": "2026-10-13T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -3752,7 +3742,7 @@
    "titulo": "Rare Disease Reporting Fellowship and Grants 2026 (up to $2,000)",
    "tipo": "convocatoria",
    "inicio": "2026-10-22T23:59-05:00",
-   "fin": "",
+   "fin": "2026-10-22T23:59-05:00",
    "cierre": "2026-10-22T23:59-05:00",
    "publicado": "2026-09-26T14:19-05:00",
    "lugar": "",
@@ -3773,9 +3763,6 @@
    "afinidad": 12,
    "puntaje": 32,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "original": {
-    "fin": "2026-10-22T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T15:34-05:00"
   },
   {
@@ -4595,7 +4582,7 @@
    "titulo": "Mentora Scholars Fellowship 2027 (Fully-funded)",
    "tipo": "convocatoria",
    "inicio": "2026-11-08T23:59-05:00",
-   "fin": "",
+   "fin": "2026-11-08T23:59-05:00",
    "cierre": "2026-11-08T23:59-05:00",
    "publicado": "2026-09-26T15:38-05:00",
    "lugar": "",
@@ -4616,9 +4603,6 @@
    "afinidad": 12,
    "puntaje": 32,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "original": {
-    "fin": "2026-11-08T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T18:22-05:00"
   },
   {
@@ -4936,7 +4920,7 @@
    "titulo": "Royal Society Career Development Fellowship 2027 (Funded)",
    "tipo": "convocatoria",
    "inicio": "2026-11-18T23:59-05:00",
-   "fin": "",
+   "fin": "2026-11-18T23:59-05:00",
    "cierre": "2026-11-18T23:59-05:00",
    "publicado": "2026-09-26T13:37-05:00",
    "lugar": "",
@@ -4958,9 +4942,6 @@
    "afinidad": 20,
    "puntaje": 41,
    "por_que": "Formativo · Afín: Becas y posgrado · Afín: Investigación · Plazo claro",
-   "original": {
-    "fin": "2026-11-18T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T15:34-05:00"
   },
   {
@@ -5165,7 +5146,7 @@
    "titulo": "Jim Leech Mastercard Foundation Fellowship on Entrepreneurship 2027",
    "tipo": "convocatoria",
    "inicio": "2026-12-01T23:59-05:00",
-   "fin": "",
+   "fin": "2026-12-01T23:59-05:00",
    "cierre": "2026-12-01T23:59-05:00",
    "publicado": "2026-09-25T06:37-05:00",
    "lugar": "",
@@ -5187,9 +5168,6 @@
    "afinidad": 12,
    "puntaje": 40,
    "por_que": "Formativo · Afín: Becas y posgrado · Universidad · Plazo claro",
-   "original": {
-    "fin": "2026-12-01T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
@@ -5197,7 +5175,7 @@
    "titulo": "IHS AI Workforce Faculty Research Grant Program 2027 (up to $20,000)",
    "tipo": "convocatoria",
    "inicio": "2026-12-15T23:59-05:00",
-   "fin": "",
+   "fin": "2026-12-15T23:59-05:00",
    "cierre": "2026-12-15T23:59-05:00",
    "publicado": "2026-09-26T16:45-05:00",
    "lugar": "",
@@ -5219,9 +5197,6 @@
    "afinidad": 40,
    "puntaje": 60,
    "por_que": "Abre puertas (beca/programa) · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Investigación",
-   "original": {
-    "fin": "2026-12-15T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T18:22-05:00"
   },
   {
@@ -5396,7 +5371,7 @@
    "titulo": "beVisioneers: The Mercedes-Benz Fellowship 2027/2028",
    "tipo": "convocatoria",
    "inicio": "2027-01-31T23:59-05:00",
-   "fin": "",
+   "fin": "2027-01-31T23:59-05:00",
    "cierre": "2027-01-31T23:59-05:00",
    "publicado": "2026-09-26T14:39-05:00",
    "lugar": "",
@@ -5417,9 +5392,6 @@
    "afinidad": 12,
    "puntaje": 32,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "original": {
-    "fin": "2027-01-31T23:59-05:00"
-   },
    "visto_desde": "2026-09-26T15:34-05:00"
   },
   {
@@ -9323,9 +9295,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-27T13:56-05:00",
+  "fecha": "2026-09-27T14:01-05:00",
   "revisados": 206,
-  "corregidos": 22,
+  "corregidos": 13,
   "avisos": 3,
   "archivados": 0,
   "problemas": [
@@ -9386,14 +9358,6 @@
     "url": "https://lu.ma/t6kreqmq"
    },
    {
-    "id": "opportunitydesk:tps-opportunitydesk-org-2026-09-25-mckinsey-forward-program-fall-2026-",
-    "titulo": "McKinsey Forward Program Fall 2026",
-    "fuente": "Opportunity Desk",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitydesk.org/2026/09/25/mckinsey-forward-program-fall-2026/"
-   },
-   {
     "id": "eb:2001674824283",
     "titulo": "Riman Contigo | Perú '26",
     "fuente": "Eventbrite",
@@ -9410,28 +9374,12 @@
     "url": "https://www.eventbrite.co/e/expoestudios-lima-2026-2-tickets-1999310788388"
    },
    {
-    "id": "opportunitydesk:https-opportunitydesk-org-2026-09-26-cees-fellowship-program-2027-",
-    "titulo": "Center for Eastern European Studies (CEES) Fellowship Program 2027 (Funded)",
-    "fuente": "Opportunity Desk",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitydesk.org/2026/09/26/cees-fellowship-program-2027/"
-   },
-   {
     "id": "luma:evt-JwsF76ozgbSq1QP",
     "titulo": "Experiencia en Catamarán: IA Talent Wave PTW 2026",
     "fuente": "Luma",
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://lu.ma/bv2x7r84"
-   },
-   {
-    "id": "opportunitiesforyouth:eking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium-",
-    "titulo": "Call for Application Readers for the 2027 Mandela Washington Fellowship (Honorarium availa",
-    "fuente": "Opportunities for Youth",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitiesforyouth.org/2026/09/26/u-s-department-of-state-and-irex-seeking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium/"
    },
    {
     "id": "pucp:visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727",
@@ -9450,14 +9398,6 @@
     "url": "https://www.eventbrite.com/e/hackerx-lima-employer-ticket-1015-tickets-1982870759820"
    },
    {
-    "id": "opportunitydesk:desk-org-2026-09-26-rare-disease-reporting-fellowship-and-grants-2026-",
-    "titulo": "Rare Disease Reporting Fellowship and Grants 2026 (up to $2,000)",
-    "fuente": "Opportunity Desk",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitydesk.org/2026/09/26/rare-disease-reporting-fellowship-and-grants-2026/"
-   },
-   {
     "id": "luma:evt-3Izz5QELco5iG9O",
     "titulo": "La Decanatrón UNMSM 2",
     "fuente": "Luma",
@@ -9474,52 +9414,12 @@
     "url": "https://lu.ma/uba0k6n2"
    },
    {
-    "id": "opportunitydesk:https-opportunitydesk-org-2026-09-26-mentora-scholars-fellowship-2027-",
-    "titulo": "Mentora Scholars Fellowship 2027 (Fully-funded)",
-    "fuente": "Opportunity Desk",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitydesk.org/2026/09/26/mentora-scholars-fellowship-2027/"
-   },
-   {
     "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
     "titulo": "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit 2026",
     "fuente": "Institucional",
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://pmi.org.pe/"
-   },
-   {
-    "id": "opportunitydesk:ydesk-org-2026-09-26-royal-society-career-development-fellowship-2027-",
-    "titulo": "Royal Society Career Development Fellowship 2027 (Funded)",
-    "fuente": "Opportunity Desk",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitydesk.org/2026/09/26/royal-society-career-development-fellowship-2027/"
-   },
-   {
-    "id": "opportunitydesk:5-jim-leech-mastercard-foundation-fellowship-on-entrepreneurship-2027-",
-    "titulo": "Jim Leech Mastercard Foundation Fellowship on Entrepreneurship 2027",
-    "fuente": "Opportunity Desk",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitydesk.org/2026/09/25/jim-leech-mastercard-foundation-fellowship-on-entrepreneurship-2027/"
-   },
-   {
-    "id": "opportunitydesk:k-org-2026-09-26-ihs-ai-workforce-faculty-research-grant-program-2027-",
-    "titulo": "IHS AI Workforce Faculty Research Grant Program 2027 (up to $20,000)",
-    "fuente": "Opportunity Desk",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitydesk.org/2026/09/26/ihs-ai-workforce-faculty-research-grant-program-2027/"
-   },
-   {
-    "id": "opportunitydesk:sk-org-2026-09-26-bevisioneers-the-mercedes-benz-fellowship-2027-2028-",
-    "titulo": "beVisioneers: The Mercedes-Benz Fellowship 2027/2028",
-    "fuente": "Opportunity Desk",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:59)",
-    "url": "https://opportunitydesk.org/2026/09/26/bevisioneers-the-mercedes-benz-fellowship-2027-2028/"
    },
    {
     "id": "pucp:taller-preparacion-efectiva-para-parciales",
@@ -9537,16 +9437,8 @@
   },
   "fuentes_a_revisar": [
    {
-    "fuente": "Opportunities for Youth",
-    "detalle": "los problemas subieron de 0% a 25%"
-   },
-   {
     "fuente": "Institucional",
     "detalle": "62% de sus eventos con problemas"
-   },
-   {
-    "fuente": "Opportunity Desk",
-    "detalle": "100% de sus eventos con problemas"
    }
   ]
  },
@@ -9566,6 +9458,14 @@
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
    "fecha_mencionada": "2026-09-25T00:00-05:00"
+  },
+  {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
+   "fecha_mencionada": ""
   },
   {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
