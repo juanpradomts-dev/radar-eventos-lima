@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-26T22:13-05:00",
+ "actualizado": "2026-09-27T00:59-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 63
+   "n": 62
   },
   "Eventbrite": {
    "ok": true,
@@ -39,14 +39,14 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 14
+   "n": 12
   },
   "Redes (manual)": {
    "ok": true,
    "n": 0
   }
  },
- "revisados": 341,
+ "revisados": 338,
  "top": 55,
  "eventos": [
   {
@@ -134,70 +134,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Becas y posgrado · Voluntariado · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "inst:per-sostenible-cumbre-per-sostenible-2026:2026-09-24",
-   "titulo": "Cumbre Perú Sostenible 2026",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "grande",
-   "inicio": "2026-09-24T00:00-05:00",
-   "fin": "2026-09-26T23:59-05:00",
-   "cierre": "",
-   "lugar": "Parque de Exposiciones de Magdalena, Lima – Perú (Circuito de Playas)",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://cumbre.perusostenible.org/",
-   "inscripcion": "https://cumbre.perusostenible.org/",
-   "fuente": "Institucional",
-   "fuente_url": "https://cumbre.perusostenible.org/",
-   "organizador": "Perú Sostenible",
-   "descripcion": "La Cumbre reúne a líderes, empresas, academia, sociedad civil y ciudadanía para dialogar y sumar esfuerzos por un Perú más próspero, pacífico, democrático y justo.",
-   "gratis": true,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 55,
-   "afinidad": 0,
-   "puntaje": 55,
-   "por_que": "Grande, gratis y en Lima · Networking · Evento institucional · Presencial en Lima",
-   "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "inst:pmi-lima-per-chapter-think-digital-day-7ma-edici-n:2026-09-25",
-   "titulo": "Think Digital Day - 7ma Edición",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-09-26T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://pmi.org.pe/",
-   "inscripcion": "https://pmi.org.pe/",
-   "fuente": "Institucional",
-   "fuente_url": "https://pmi.org.pe/",
-   "organizador": "PMI Lima Perú Chapter",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 29,
-   "afinidad": 4,
-   "puntaje": 33,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-09-26T09:26-05:00"
   },
   {
    "id": "eb:2001277781718",
@@ -335,33 +271,6 @@
    "valor": 19,
    "afinidad": 13,
    "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:30801",
-   "titulo": "Acodemic X G.I.R.L.S. Global SDG Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-09-19T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://acodemic-hackathon.devpost.com/",
-   "inscripcion": "https://acodemic-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Education, Social Good, Beginner Friendly. Premios: $35.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/228/159/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 9,
-   "puntaje": 28,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
   },
@@ -1185,33 +1094,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "devpost:31399",
-   "titulo": "305 HackShells Edition September 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-09-15T00:00-05:00",
-   "fin": "2026-09-30T23:59-05:00",
-   "cierre": "2026-09-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://305hackshellssep2026.devpost.com/",
-   "inscripcion": "https://305hackshellssep2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Swift at FIU",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Education. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/328/579/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "devpost:31095",
    "titulo": "Hyperbloom September - Beginer Freindly",
    "tipo": "hackathon",
@@ -1229,6 +1111,33 @@
    "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Low/No Code. Premios: $0.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/371/897/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31399",
+   "titulo": "305 HackShells Edition September 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-15T00:00-05:00",
+   "fin": "2026-09-30T23:59-05:00",
+   "cierre": "2026-09-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://305hackshellssep2026.devpost.com/",
+   "inscripcion": "https://305hackshellssep2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Swift at FIU",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Education. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/328/579/datas/medium_square.png",
    "categorias": [
     "Competencias y hackathons"
    ],
@@ -1735,34 +1644,6 @@
    "puntaje": 23,
    "por_que": "Presencial en Lima · Gratis · Empresa reconocida · Evento sin formato claro",
    "visto_desde": "2026-09-24T21:23-05:00"
-  },
-  {
-   "id": "luma:evt-IzEbEx4W6ASJfS3",
-   "titulo": "Canva Day Vol.2 - Full day presencial UPN",
-   "inicio": "2026-10-03T10:00-05:00",
-   "fin": "2026-10-03T18:00-05:00",
-   "lugar": "Av. Tingo María 1122, Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/5erqd11p",
-   "fuente": "Luma",
-   "organizador": "Yoselyn Solano",
-   "descripcion": "¡pronto se irá aprobando tu registro para que obtengas tu entrada!\nCanva Day es un evento creado para celebrar la creatividad en acción. Un espacio donde no solo hablamos de ideas, sino donde las llevamos a la práctica junto a una comunidad que cree en el poder de crear con intención.\nDurante esta jornada, exploraremos distintas formas de usar Canva en proyectos a través de ponencias, talleres y espacios de conexión. Será un día para aprender, inspirarte y rodearte de personas que, como tú, están construyendo a través de la creatividad.\nEste evento está dirigido a emprendedores, estudiantes, docentes, profesionales y freelancers que utilizan Canva en su día a día, sin importar su nivel de ex",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/sj/741f293e-e1eb-4503-b0ee-d55c1cbd4219.png",
-   "inscripcion": "https://lu.ma/5erqd11p",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis",
-   "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
    "id": "pucp:sonqo-un-solo-corazon-con-dios-08092026113650",
@@ -8300,7 +8181,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "Capital Technology Network",
-   "descripcion": "Hackathon presencial en Learning Crossroads (CRX) - uOttawa. Temas: Social Good, Web. Premios: $CAD 9,800.",
+   "descripcion": "Hackathon presencial en Learning Crossroads (CRX) - uOttawa. Temas: Social Good, Beginner Friendly, Open Ended. Premios: $CAD 3,800.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/314/763/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
@@ -8437,7 +8318,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "W&M ACM",
-   "descripcion": "Hackathon presencial en William and Mary - ISC4. Temas: Beginner Friendly, Open Ended, Machine Learning/AI. Premios: $800.",
+   "descripcion": "Hackathon presencial en William and Mary - ISC4. Temas: Beginner Friendly, Open Ended, Machine Learning/AI. Premios: $3,985.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/894/232/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
@@ -8504,6 +8385,34 @@
    "afinidad": 6,
    "puntaje": 29,
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31486",
+   "titulo": "Carolina Data Challenge 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-26T00:00-05:00",
+   "fin": "2026-09-27T23:59-05:00",
+   "cierre": "2026-09-27T23:59-05:00",
+   "lugar": "UNC Chapel Hill - Sitterson Hall",
+   "distrito": "UNC Chapel Hill - Sitterson Hall",
+   "modalidad": "Presencial",
+   "url": "https://carolina-data-challenge-2026.devpost.com/",
+   "inscripcion": "https://carolina-data-challenge-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Carolina Analytics and Data Science",
+   "descripcion": "Hackathon presencial en UNC Chapel Hill - Sitterson Hall. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/369/055/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Datos y analítica",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 35,
+   "puntaje": 51,
+   "por_que": "Afín: Datos y machine learning · Competencia · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "luma:evt-8uZ2OLH6zJhVUgo",
@@ -9006,20 +8915,20 @@
    "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:1981186888315",
+   "id": "eb:1981186889318",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-09-26T23:00-05:00",
-   "fin": "2026-09-27T13:00-05:00",
+   "inicio": "2026-09-27T23:00-05:00",
+   "fin": "2026-09-28T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186888315",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186889318",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima, where you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186888315",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186889318",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -9367,14 +9276,14 @@
   "pucp:ici-pucp-2026-el-rol-de-la-inteligencia-artificial-en-la-transformacion-academica-04092026174417",
   "devpost:31052",
   "devpost:30790",
-  "inst:per-sostenible-cumbre-per-sostenible-2026:2026-09-24",
-  "luma:evt-sdiPKhxFMLobpJf"
+  "luma:evt-sdiPKhxFMLobpJf",
+  "devpost:29359"
  ],
  "institucionales": {
-  "Cumbre Perú Sostenible": 1,
+  "Cumbre Perú Sostenible": 0,
   "PERUMIN": 1,
   "ESAN — eventos": 4,
-  "PMI Lima": 2,
+  "PMI Lima": 1,
   "Sociedad Nacional de Industrias": 4,
   "AmCham Perú": 2,
   "ComexPerú": 0
@@ -9392,19 +9301,19 @@
  ],
  "por_confirmar": [
   {
-   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
-   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
-   "medio": "autotv",
-   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
-   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
    "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
    "medio": "Agencia de Noticias Órbita",
    "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
    "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
    "fecha_mencionada": ""
   },
   {
@@ -9440,35 +9349,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Destacada participación de Cuba en Feria de Turismo en Perú",
-   "url": "https://www.prensa-latina.cu/2026/09/26/destacada-participacion-de-cuba-en-feria-de-turismo-en-peru/",
-   "medio": "Prensa Latina",
-   "publicado": "Sat, 26 Sep 2026 11:09:00 GMT",
-   "resumen": "Lima, 26 sep (Prensa Latina) La Embajada de Cuba en Perú tuvo una destacada participación en la Feria Internacional de Cultura, Turismo y Educación, realizada en el distrito limeño de Miraflores, anim ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "FIL Lima 2026: Todo lo que debes saber sobre la última semana de la feria",
    "url": "https://peru21.pe/cultura/fil-lima-2026-todo-lo-que-debes-saber-sobre-la-ultima-semana/",
    "medio": "Peru21",
    "publicado": "Sun, 02 Aug 2026 01:01:00 GMT",
    "resumen": "Para el lunes 3, una de las presentaciones más destacadas será la de Los ojos del cielo, de Luis Fernando Cueto, ganador del Premio Novela Corta Julio Ramón Ribeyro 2026. Tendrá la participación del ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000",
-   "url": "https://andina.pe/agencia/noticia-feria-artesanal-exhibe-peru-2026-lima-alcanzaria-ventas-s-80000-1080084.aspx",
-   "medio": "andina.pe",
-   "publicado": "Wed, 17 Jun 2026 17:00:00 GMT",
-   "resumen": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000 En beneficio de artesanos de nueve regiones del país Ministro de Comercio Exterior y Turismo, Berthin Gómez. ANDINA/Difusión 22 ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Minem declaró de interés su participación en la feria Expomina Perú 2026",
-   "url": "https://andina.pe/agencia/noticia-minem-declaro-interes-su-participacion-la-feria-expomina-peru-2026-1089120.aspx",
-   "medio": "Agencia Peruana de Noticias | ANDINA",
-   "publicado": "Tue, 25 Aug 2026 16:59:00 GMT",
-   "resumen": "El Ministerio de Energía y Minas (Minem) declaró de interés su participación en el X Seminario Internacional de Equipos, Suministros, Servicios y Maquinaria Minera (Expomina Perú) 2026, reconocimiento ...",
    "fecha_mencionada": ""
   }
  ],
@@ -9595,7 +9480,6 @@
   "devpost:31098": "2026-09-26T08:43-05:00",
   "devpost:31018": "2026-09-26T08:43-05:00",
   "devpost:31101": "2026-09-26T08:43-05:00",
-  "devpost:30801": "2026-09-26T08:43-05:00",
   "devpost:31155": "2026-09-26T08:43-05:00",
   "devpost:30559": "2026-09-26T08:43-05:00",
   "luma:evt-Ew6EFoGvxsERFv4": "2026-09-26T08:43-05:00",
@@ -9667,7 +9551,6 @@
   "wikicfp:201407": "2026-09-26T08:43-05:00",
   "wikicfp:202890": "2026-09-26T08:43-05:00",
   "wikicfp:192921": "2026-09-26T08:43-05:00",
-  "inst:per-sostenible-cumbre-per-sostenible-2026:2026-09-24": "2026-09-26T09:22-05:00",
   "pucp:sonqo-un-solo-corazon-con-dios-08092026113650": "2026-09-26T09:22-05:00",
   "luma:evt-sOtWCdNCwGR2WYq": "2026-09-26T09:22-05:00",
   "pucp:ici-pucp-2026-presentacion-de-libro-el-volumen-en-bruto-04092026163552": "2026-09-26T09:22-05:00",
@@ -9678,7 +9561,6 @@
   "luma:evt-MbHdB3iH9V3NC68": "2026-09-26T09:22-05:00",
   "pucp:coloquios-hegelianos-conferencia-de-johannes-georg-schulein-25092026144507": "2026-09-26T09:22-05:00",
   "pucp:presentacion-del-libro-religion-en-clave-de-libertad-ensayos-sobre-filosofia-de-la-religion-22092026114358": "2026-09-26T09:22-05:00",
-  "luma:evt-IzEbEx4W6ASJfS3": "2026-09-26T09:22-05:00",
   "pucp:lab-de-ideas-disenar-nuevos-mapas-de-esperanza-desde-la-pucp": "2026-09-26T09:22-05:00",
   "eb:2001674824283": "2026-09-26T09:22-05:00",
   "luma:evt-HEUVJOiJdMd2xI7": "2026-09-26T09:22-05:00",
@@ -9705,7 +9587,6 @@
   "eb:2000906328692": "2026-09-26T09:22-05:00",
   "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16": "2026-09-26T09:22-05:00",
   "pucp:summit-alumni-pucp-2026-07082026154947": "2026-09-26T09:22-05:00",
-  "inst:pmi-lima-per-chapter-think-digital-day-7ma-edici-n:2026-09-25": "2026-09-26T09:26-05:00",
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-09-26T09:26-05:00",
   "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29": "2026-09-26T10:21-05:00",
   "inst:sni-webinar-gesti-n-integral-de-sustancias-qu-micas-en-el-se:2026-09-29": "2026-09-26T10:21-05:00",
