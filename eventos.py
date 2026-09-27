@@ -684,6 +684,11 @@ def generar_html(datos):
     generar_ics([e for e in datos["eventos"] if e["puntaje"] >= datos.get("top", TOP)],
                 "Radar Lima · destacados", CARPETA / "top.ics")
     (CARPETA / "eventos.json").write_text(js, encoding="utf-8")
+    # página del botón de Linktree (privada en la práctica: sin enlace desde el radar, noindex, y el botón exige
+    # la llave de GitHub de JP guardada en su navegador)
+    (CARPETA / "linktree").mkdir(exist_ok=True)
+    (CARPETA / "linktree" / "index.html").write_text((RAIZ / "pagina_linktree.html").read_text(encoding="utf-8"),
+                                                     encoding="utf-8")
     return PAGINA
 
 

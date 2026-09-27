@@ -1,0 +1,69 @@
+name: Actualizar Linktree
+
+# SOLO A PEDIDO: lo dispara el botón de la página /linktree/ (o "Run workflow" en GitHub).
+# Linktree prohíbe robots programados (robots.txt: User-agent: * → Disallow: /): NO agregar "schedule" aquí.
+on:
+  workflow_dispatch:
+    inputs:
+      accion:
+        description: "actualizar, agregar o decidir"
+        required: true
+        default: actualizar
+        type: choice
+        options: [actualizar, agregar, decidir]
+      url:
+        description: "Linktree nuevo (agregar) o enlace por decidir (decidir)"
+        required: false
+        default: ""
+      agregar:
+        description: "Para decidir: si = es evento, no = no es evento"
+        required: false
+        default: "no"
+
+permissions:
+  contents: write   # guardar inscripciones.json
+  actions: write    # pedir que se publique el radar
+
+concurrency:
+  group: linktree
+  cancel-in-progress: false
+
+jobs:
+  linktree:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests icalendar
+      - run: python -m unittest test_radar
+      - name: Leer los Linktree (a pedido)
+        env:  # las entradas van por variables de entorno, nunca pegadas en el script
+          ACCION: ${{ inputs.accion }}
+          URL_ENTRADA: ${{ inputs.url }}
+          AGREGAR: ${{ inputs.agregar }}
+        run: |
+          case "$ACCION" in
+            agregar) python linktree_lector.py agregar "$URL_ENTRADA" ;;
+            decidir) python linktree_lector.py decidir "$URL_ENTRADA" "$AGREGAR" ;;
+            *)       python linktree_lector.py actualizar ;;
+          esac
+      - run: python -m unittest test_radar   # lo recién agregado no puede romper el radar
+      - name: Guardar y publicar el radar
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ACCION: ${{ inputs.accion }}
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add inscripciones.json
+          if ! git diff --cached --quiet; then
+            git commit -m "linktree: $ACCION (a pedido)"
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break
+              sleep 5
+            done
+          fi
+          # un push hecho con el token del workflow no dispara otros workflows: se pide la publicación explícitamente
+          gh workflow run actualizar.yml --ref main

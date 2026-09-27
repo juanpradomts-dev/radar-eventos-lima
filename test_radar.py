@@ -14,6 +14,7 @@ import eventos
 import fuentes_extra
 import inscripciones
 import institucionales
+import linktree_lector
 import puntaje
 import verificar
 
@@ -481,6 +482,50 @@ class Inscripciones(unittest.TestCase):
                       "https://forms.gle/c": (404, "", None)}
         (eventos_ok, _, _), _ = self._correr(respuestas)
         self.assertEqual(eventos_ok[0]["_motivo"], "inscripciones cerradas")
+
+
+class LectorLinktree(unittest.TestCase):
+    """Lógica compartida por el botón de GitHub, el botón local y /linktree (solo corre a pedido)."""
+    PAGINA = {"props": {"pageProps": {"pageTitle": "Universidad X", "links": [
+        {"title": "Congreso", "url": "https://forms.gle/viejo"},
+        {"title": "Inscríbete en el Taller de Datos", "url": "https://forms.gle/nuevo?utm_source=ig&fbclid=abc"},
+        {"title": "¡Únete al Club de Tecnología!", "url": "https://chat.whatsapp.com/xyz"},
+        {"title": "Modalidades de admisión", "url": "https://x.pe/admision"},
+        {"title": "Descubre más", "url": "https://ejemplo.pe/algo"}]}}}
+
+    def _get(self, url):
+        html = '<script id="__NEXT_DATA__" type="application/json">' + json.dumps(self.PAGINA) + "</script>"
+        return type("R", (), {"status_code": 200, "text": html})
+
+    def test_separa_eventos_fuera_y_dudosos_sin_repetir(self):
+        conf = {"linktrees": {"https://linktr.ee/org": {"organizador": "", "revisado": ""}},
+                "enlaces": [{"url": "https://forms.gle/viejo", "titulo": "Congreso"}]}
+        resumen, total = linktree_lector.revisar(conf, self._get, "2026-09-27")
+        f = resumen[0]
+        self.assertEqual(total, 1)
+        self.assertEqual(f["nuevos"][0]["url"], "https://forms.gle/nuevo")  # sin parámetros de seguimiento
+        self.assertEqual(f["nuevos"][0]["tipo_org"], "universidad")
+        self.assertEqual([d["titulo"] for d in f["dudosos"]], ["Descubre más"])
+        self.assertEqual(f["fuera"], 2)  # WhatsApp y admisión
+        self.assertEqual(conf["linktrees"]["https://linktr.ee/org"]["revisado"], "2026-09-27")
+        ok, _ = linktree_lector.decidir(conf, "https://ejemplo.pe/algo", False)
+        self.assertTrue(ok)
+        _, total2 = linktree_lector.revisar(conf, self._get, "2026-09-28")
+        self.assertEqual(total2, 0)
+        self.assertFalse(conf.get("dudosos"))  # lo que se marcó "no es evento" no vuelve a preguntarse
+
+    def test_registrar_linktree(self):
+        conf = {"linktrees": {}}
+        self.assertEqual(linktree_lector.registrar_linktree(conf, "linktr.ee/u.cientificadelsur?utm_source=ig"),
+                         (True, "https://linktr.ee/u.cientificadelsur"))
+        self.assertFalse(linktree_lector.registrar_linktree(conf, "https://linktr.ee/u.cientificadelsur")[0])
+        self.assertFalse(linktree_lector.registrar_linktree(conf, "https://instagram.com/algo")[0])
+
+    def test_el_workflow_de_linktree_no_tiene_horario(self):
+        # Linktree prohíbe robots programados: el workflow solo puede correr a pedido
+        wf = (RAIZ / ".github" / "workflows" / "linktree.yml").read_text(encoding="utf-8")
+        self.assertIn("workflow_dispatch", wf)
+        self.assertNotIn("schedule", wf.split("jobs:")[0].replace("NO agregar \"schedule\"", ""))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="robots" content="noindex, nofollow">
+<title>Radar Lima · Linktree</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--naranja:#F56200;--azul:#1D428A;--azul-oscuro:#0D2960;--azul-suave:#E8EEF8;--fondo:#F6F8FC;--texto:#1E2A3B;
+  --gris:#5E6B7E;--linea:#E3E8F0;--verde:#0F8A5F;--verde-suave:#E3F5EE;--rojo:#B42318;--rojo-suave:#FDECEC;
+  --natural:cubic-bezier(.22,.61,.36,1);--asentar:cubic-bezier(.16,1,.3,1);
+  --titulos:"Outfit",system-ui,sans-serif;--texto-f:"DM Sans",system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--texto);font:16px/1.55 var(--texto-f)}
+h1,h2,h3,.btn-grande{font-family:var(--titulos)}
+.hero{background:linear-gradient(135deg,var(--azul),var(--azul-oscuro));color:#fff;padding:34px 16px 46px;text-align:center}
+.hero h1{font-size:clamp(28px,6vw,40px);margin:0 0 6px}
+.hero h1 span{color:#FFB27F}
+.hero p{margin:0 auto;max-width:560px;opacity:.9}
+main{max-width:760px;margin:-28px auto 40px;padding:0 16px}
+.tarjeta{background:#fff;border:1px solid var(--linea);border-radius:20px;padding:22px;box-shadow:0 6px 24px rgba(13,41,96,.08);margin-bottom:18px;
+  animation:aparecer .5s var(--asentar) backwards}
+@keyframes aparecer{from{opacity:0;transform:translateY(10px)}}
+.btn-grande{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;border:0;border-radius:16px;padding:20px;
+  font-size:22px;font-weight:800;color:#fff;background:var(--naranja);cursor:pointer;box-shadow:0 10px 26px rgba(245,98,0,.35);
+  transition:transform .18s var(--natural),background-color .25s var(--natural),box-shadow .3s var(--natural)}
+.btn-grande:hover{background:#D95500}
+.btn-grande:active{transform:scale(.98)}
+.btn-grande[disabled]{background:#F7A26B;cursor:wait;box-shadow:none}
+.giro{width:26px;height:26px;border:3px solid rgba(255,255,255,.45);border-top-color:#fff;border-radius:50%;display:none;animation:girar .8s linear infinite}
+.btn-grande[disabled] .giro{display:block}
+@keyframes girar{to{transform:rotate(360deg)}}
+.pasos{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:6px}
+.pasos li{display:flex;gap:10px;align-items:center;font-size:15px;color:var(--gris);transition:color .3s var(--natural)}
+.pasos li::before{content:"";flex:0 0 12px;height:12px;border-radius:50%;border:2px solid var(--linea);transition:background-color .3s,border-color .3s}
+.pasos li.activo{color:var(--azul);font-weight:700}
+.pasos li.activo::before{border-color:var(--naranja);animation:latir 1s ease-in-out infinite}
+.pasos li.hecho{color:var(--verde)}
+.pasos li.hecho::before{background:var(--verde);border-color:var(--verde)}
+.pasos li.fallo{color:var(--rojo)}
+.pasos li.fallo::before{background:var(--rojo);border-color:var(--rojo)}
+@keyframes latir{50%{box-shadow:0 0 0 5px rgba(245,98,0,.18)}}
+.nota{font-size:13.5px;color:var(--gris);text-align:center;margin:12px 0 0}
+.aviso{border-radius:14px;padding:12px 16px;font-weight:700;margin-bottom:12px}
+.aviso.ok{background:var(--verde-suave);color:var(--verde)}
+.aviso.mal{background:var(--rojo-suave);color:var(--rojo);font-weight:600}
+h2{font-size:19px;color:var(--azul);margin:0 0 12px}
+h3{font-size:16px;margin:16px 0 8px}
+.cifras{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}
+.cifras span{background:var(--fondo);border:1px solid var(--linea);border-radius:999px;padding:4px 12px;font-size:13.5px;font-weight:600}
+.cifras .nuevo{background:var(--verde-suave);border-color:transparent;color:var(--verde)}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+li.item{display:flex;align-items:center;gap:10px;justify-content:space-between;background:var(--fondo);border-radius:12px;padding:10px 14px}
+li.item a{color:var(--texto);font-weight:600;text-decoration:none}
+li.item a:hover{color:var(--azul);text-decoration:underline}
+li.item small{display:block;color:var(--gris);font-size:12.5px}
+.acciones{display:flex;gap:6px;flex:0 0 auto;flex-wrap:wrap;justify-content:flex-end}
+.btn{border:0;border-radius:10px;padding:9px 13px;font:inherit;font-size:14px;font-weight:700;cursor:pointer;transition:background-color .25s var(--natural),transform .18s var(--natural)}
+.btn:active{transform:scale(.96)}
+.btn[disabled]{opacity:.55;cursor:wait}
+.btn.si{background:var(--naranja);color:#fff}
+.btn.no{background:var(--azul-suave);color:var(--azul)}
+.fila{display:flex;gap:8px}
+.fila input{flex:1;min-width:0;border:1.5px solid var(--linea);border-radius:12px;padding:12px 14px;font:inherit;outline:0;transition:border-color .25s var(--natural)}
+.fila input:focus{border-color:var(--azul)}
+.lt{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--linea);font-size:15px}
+.lt:last-child{border-bottom:0}
+.lt small{color:var(--gris)}
+.vacio{color:var(--gris);font-size:14.5px}
+ol.guia{margin:0 0 14px;padding-left:22px;display:grid;gap:6px}
+ol.guia a{color:var(--azul);font-weight:700}
+code{background:var(--azul-suave);color:var(--azul);border-radius:6px;padding:1px 6px;font-size:14px}
+footer{text-align:center;font-size:13.5px;color:var(--gris)}
+footer a,footer button{color:var(--azul);font-weight:700;background:none;border:0;font:inherit;cursor:pointer;padding:0}
+@media (max-width:560px){li.item{flex-direction:column;align-items:stretch}.acciones{justify-content:flex-start}}
+@media (prefers-reduced-motion:reduce){.tarjeta{animation:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>Radar Lima · <span>Linktree</span></h1>
+  <p>Trae al radar las inscripciones nuevas de los Linktree de universidades y organizaciones. Solo corre cuando presionas el botón.</p>
+</header>
+<main>
+  <!-- conectar (una sola vez por navegador) -->
+  <section class="tarjeta" id="conectar" hidden>
+    <h2>🔑 Conecta tu GitHub (una sola vez)</h2>
+    <p class="vacio">El botón le pide a GitHub que corra la actualización. Para que solo tú puedas hacerlo, necesita una llave tuya.
+      Queda guardada <b>solo en este navegador</b>; en otro dispositivo (tu celular) repites este paso una vez.</p>
+    <ol class="guia">
+      <li>Abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">crear llave en GitHub ↗</a>.</li>
+      <li>Nombre: <code>Radar Lima - Linktree</code>. Vencimiento: 1 año.</li>
+      <li><b>Repository access</b> → <i>Only select repositories</i> → <code>radar-eventos-lima</code>.</li>
+      <li><b>Permissions</b> → <i>Repository permissions</i> → <b>Actions: Read and write</b> y <b>Contents: Read-only</b>.</li>
+      <li><b>Generate token</b>, cópialo y pégalo aquí:</li>
+    </ol>
+    <div class="fila">
+      <input id="llave" type="password" placeholder="github_pat_…" autocomplete="off" aria-label="Llave de GitHub">
+      <button class="btn si" id="guardar-llave">Conectar</button>
+    </div>
+    <div id="msg-llave"></div>
+  </section>
+
+  <section class="tarjeta" id="principal" hidden>
+    <button class="btn-grande" id="actualizar"><span class="giro" aria-hidden="true"></span><span id="txt-btn">🔄 Actualizar Linktree</span></button>
+    <ul class="pasos" id="pasos" hidden>
+      <li data-p="orden">Enviando la orden a GitHub</li>
+      <li data-p="cola">En cola</li>
+      <li data-p="lectura">Leyendo los Linktree y separando inscripciones</li>
+      <li data-p="radar">Publicando el radar</li>
+    </ul>
+    <p class="nota" id="nota">Tarda unos 3 minutos en total. Puedes cerrar la página: el proceso sigue en GitHub.</p>
+  </section>
+
+  <div id="resultado"></div>
+
+  <section class="tarjeta" id="pendientes-caja" hidden>
+    <h2>🤔 Por decidir</h2>
+    <p class="vacio">No sé si estos enlaces son eventos. Los que agregues entran al radar; los que no, no te los vuelvo a preguntar.</p>
+    <ul id="pendientes"></ul>
+  </section>
+
+  <section class="tarjeta" id="registrados" hidden>
+    <h2>🔗 Linktree registrados</h2>
+    <div id="lista"></div>
+    <h3>Agregar otro</h3>
+    <div class="fila">
+      <input id="nuevo" type="url" placeholder="Pega aquí un Linktree: linktr.ee/…" aria-label="Linktree nuevo">
+      <button class="btn si" id="agregar">Agregar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Ver el radar: <a href="../">juanpradomts-dev.github.io/radar-eventos-lima</a></p>
+    <p id="pie-llave" hidden><button id="olvidar">Olvidar la llave en este navegador</button></p>
+  </footer>
+</main>
+
+<script>
+const API = "https://api.github.com/repos/juanpradomts-dev/radar-eventos-lima";
+const CLAVE = "radar-linktree-llave";
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const dormir = ms => new Promise(r => setTimeout(r, ms));
+const leerLlave = () => { try { return localStorage.getItem(CLAVE) || ""; } catch { return ""; } };
+const guardarLlave = v => { try { v ? localStorage.setItem(CLAVE, v) : localStorage.removeItem(CLAVE); } catch {} };
+let llave = leerLlave(), ocupado = false;
+
+async function gh(ruta, opciones = {}) {
+  const r = await fetch(API + ruta, {...opciones, headers: {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28",
+    ...(llave ? {"Authorization": "Bearer " + llave} : {}), ...(opciones.headers || {})}});
+  if (r.status === 401) { throw new Error("llave"); }
+  if (r.status === 403 || r.status === 404) { throw new Error("permiso"); }
+  if (!r.ok) throw new Error("GitHub respondió " + r.status);
+  return r.status === 204 ? null : r.json();
+}
+function explicar(e) {
+  if (e.message === "llave") { guardarLlave(""); llave = ""; mostrar(); return "La llave no es válida o venció. Conéctala otra vez."; }
+  if (e.message === "permiso") return "La llave no tiene permiso: revisa que tenga Actions: Read and write sobre radar-eventos-lima.";
+  return "No se pudo hablar con GitHub (" + e.message + "). Revisa tu conexión e intenta otra vez.";
+}
+
+// ---------- datos: inscripciones.json del repo (vía API: siempre la versión más reciente)
+async function cargarDatos() {
+  const r = await fetch(API + "/contents/inscripciones.json?ref=main", {headers: {"Accept": "application/vnd.github.raw+json",
+    ...(llave ? {"Authorization": "Bearer " + llave} : {})}, cache: "no-store"});
+  if (!r.ok) throw new Error("no se pudo leer la lista (" + r.status + ")");
+  return r.json();
+}
+function item(d, conBotones) {
+  return `<li class="item"><div><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.titulo)}</a><small>${esc(d.organizador)}</small></div>
+    ${conBotones ? `<div class="acciones"><button class="btn si" data-si="${esc(d.url)}">Agregar</button><button class="btn no" data-no="${esc(d.url)}">No es evento</button></div>` : ""}</li>`;
+}
+function pintar(d) {
+  const u = d.ultimo;
+  $("#resultado").innerHTML = !u ? "" : `<section class="tarjeta"><div class="aviso ${u.ok ? "ok" : "mal"}">${u.ok ? "✔" : "⚠"} ${esc(u.mensaje)}
+      <small style="display:block;font-weight:500;opacity:.8">Última vez: ${esc(new Date(u.fecha).toLocaleString("es-PE", {dateStyle: "medium", timeStyle: "short"}))}</small></div>` +
+    (u.linktrees || []).map(f => `<h2>${esc(f.organizador || f.linktree)}</h2>` + (f.error ? `<div class="aviso mal">No se pudo abrir: ${esc(f.error)}</div>` :
+      `<div class="cifras"><span>${f.total} botones</span><span class="nuevo">${f.nuevos.length} nuevos</span><span>${f.dudosos.length} por decidir</span><span>${f.fuera} no son eventos</span></div>` +
+      (f.nuevos.length ? `<h3>✨ Entraron al radar</h3><ul>${f.nuevos.map(n => item(n)).join("")}</ul>` : ""))).join("") + `</section>`;
+  const lts = Object.entries(d.linktrees || {});
+  $("#lista").innerHTML = lts.length ? lts.map(([url, v]) => `<div class="lt"><span><b>${esc(v.organizador || url)}</b><br><small>${esc(url)}</small></span>
+    <small>${v.revisado ? "revisado el " + esc(v.revisado) : "sin revisar"}</small></div>`).join("") : `<p class="vacio">Aún no hay Linktree registrados.</p>`;
+  const dud = d.dudosos || [];
+  $("#pendientes-caja").hidden = !dud.length;
+  $("#pendientes").innerHTML = dud.map(x => item(x, true)).join("");
+}
+async function refrescar() {
+  try { pintar(await cargarDatos()); } catch (e) { $("#resultado").innerHTML = `<section class="tarjeta"><div class="aviso mal">${esc(e.message)}</div></section>`; }
+}
+
+// ---------- disparar el proceso en GitHub y seguirlo paso a paso
+function paso(nombre, estado) {
+  const li = document.querySelector(`#pasos [data-p="${nombre}"]`);
+  li.classList.remove("activo", "hecho", "fallo"); if (estado) li.classList.add(estado);
+}
+function bloquear(si) {
+  ocupado = si;
+  $("#actualizar").disabled = si; $("#txt-btn").textContent = si ? "Trabajando…" : "🔄 Actualizar Linktree";
+  document.querySelectorAll("#agregar, #pendientes .btn").forEach(b => b.disabled = si);
+}
+async function esperarCorrida(flujo, desde, alCambiar) {
+  let corrida = null;
+  for (let i = 0; i < 90 && !corrida; i++) {  // aparece en la lista unos segundos después de la orden
+    const r = await gh(`/actions/workflows/${flujo}/runs?per_page=5`);
+    corrida = r.workflow_runs.find(x => new Date(x.created_at) >= desde);
+    if (!corrida) await dormir(3000);
+  }
+  if (!corrida) throw new Error("GitHub no inició el proceso a tiempo");
+  while (corrida.status !== "completed") {
+    alCambiar(corrida.status);
+    await dormir(4000);
+    corrida = await gh(`/actions/runs/${corrida.id}`);
+  }
+  return corrida;
+}
+async function ejecutar(entradas) {
+  if (ocupado) return;
+  bloquear(true); $("#pasos").hidden = false;
+  ["orden", "cola", "lectura", "radar"].forEach(p => paso(p, ""));
+  const desde = new Date(Date.now() - 5000);
+  try {
+    paso("orden", "activo");
+    await gh("/actions/workflows/linktree.yml/dispatches", {method: "POST", body: JSON.stringify({ref: "main", inputs: entradas})});
+    paso("orden", "hecho"); paso("cola", "activo");
+    const c = await esperarCorrida("linktree.yml", desde, s => { if (s === "in_progress") { paso("cola", "hecho"); paso("lectura", "activo"); } });
+    paso("cola", "hecho");
+    if (c.conclusion !== "success") { paso("lectura", "fallo"); throw new Error(`el proceso falló (ver detalle: ${c.html_url})`); }
+    paso("lectura", "hecho"); await refrescar();
+    paso("radar", "activo");
+    const r = await esperarCorrida("actualizar.yml", new Date(new Date(c.updated_at).getTime() - 90000), () => {});
+    paso("radar", r.conclusion === "success" ? "hecho" : "fallo");
+    $("#nota").innerHTML = r.conclusion === "success" ? "✔ Listo: el radar ya está publicado con lo nuevo." : `⚠ El radar no se pudo publicar: <a href="${esc(r.html_url)}" target="_blank" rel="noopener">ver detalle</a>`;
+  } catch (e) {
+    $("#nota").textContent = e.message.startsWith("el proceso") || e.message.startsWith("GitHub no") ? "⚠ " + e.message : "⚠ " + explicar(e);
+  }
+  bloquear(false);
+}
+
+// ---------- eventos de la página
+$("#actualizar").onclick = () => ejecutar({accion: "actualizar", url: "", agregar: "no"});
+$("#agregar").onclick = () => {
+  const url = $("#nuevo").value.trim();
+  if (!/linktr\.ee\/[A-Za-z0-9._-]+/.test(url)) { $("#nota").textContent = "⚠ Eso no parece un Linktree (debe ser linktr.ee/…)."; return; }
+  $("#nuevo").value = ""; ejecutar({accion: "agregar", url, agregar: "no"});
+};
+$("#pendientes").onclick = ev => {
+  const b = ev.target.closest("[data-si],[data-no]"); if (!b) return;
+  ejecutar({accion: "decidir", url: b.dataset.si || b.dataset.no, agregar: b.dataset.si ? "si" : "no"});
+};
+$("#guardar-llave").onclick = async () => {
+  const v = $("#llave").value.trim(); if (!v) return;
+  llave = v;
+  try {
+    await gh("/actions/workflows");  // comprueba que la llave sirve y tiene permiso de Actions
+    guardarLlave(v); $("#llave").value = ""; $("#msg-llave").innerHTML = ""; mostrar();
+  } catch (e) {
+    llave = ""; $("#msg-llave").innerHTML = `<div class="aviso mal" style="margin-top:12px">${esc(explicar(e))}</div>`;
+  }
+};
+$("#olvidar").onclick = () => { guardarLlave(""); llave = ""; mostrar(); };
+function mostrar() {
+  const con = !!llave;
+  $("#conectar").hidden = con; $("#principal").hidden = !con; $("#registrados").hidden = !con; $("#pie-llave").hidden = !con;
+  if (!con) { $("#pendientes-caja").hidden = true; $("#resultado").innerHTML = ""; } else refrescar();
+}
+mostrar();
+</script>
+</body>
+</html>
