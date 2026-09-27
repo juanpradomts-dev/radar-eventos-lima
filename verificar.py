@@ -129,7 +129,8 @@ def revisar_evento(e, ahora):
         corrige("fin", "", "la hora de término era anterior al inicio")
         fin = None
     todo_el_dia = ini and ini.hour == 0 and ini.minute == 0
-    if ini and fin and fin.date() == ini.date() and not todo_el_dia:
+    # (solo eventos con hora: en convocatorias inicio = fin = cierre a las 23:59 es el plazo real, no un relleno)
+    if ini and fin and fin > ini and fin.date() == ini.date() and not todo_el_dia and not cierre and tipo not in CON_PLAZO:
         fin_local = fin.astimezone(LIMA)
         if fin - ini > timedelta(hours=12):
             corrige("fin", "", f"hora de término no creíble ({ini:%H:%M}–{fin:%H:%M})")

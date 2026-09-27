@@ -284,6 +284,9 @@ dialog.foco{border:0;padding:0;border-radius:24px;width:min(680px,calc(100% - 24
   background:linear-gradient(rgba(255,255,255,0),#fff 38%)}
 dialog.foco::backdrop{background:rgba(13,41,96,.32);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px)}
 body:has(dialog.foco[open]){overflow:hidden}
+.card:not(.en-foco) .img,.card:not(.en-foco) h3{cursor:pointer}
+.card:not(.en-foco) h3{transition:color .25s var(--natural)}
+.card:not(.en-foco) h3:hover{color:var(--azul)}
 .card.en-foco{border:0;box-shadow:none;border-radius:0;position:relative;overflow:visible;contain:none}  /* sin recorte propio: así la ✕ y las acciones quedan fijas al bajar */
 .card.en-foco:hover{box-shadow:none}
 .card.en-foco .img{aspect-ratio:2/1}
@@ -697,7 +700,8 @@ function pintarRecomendados() {
     <div class="carrusel">` + sel.map(e => {
       const d = clave(e);
       const cuando = e.cierre ? `Cierra ${fDiaCorto.format(d)}` : `${fDiaCorto.format(d)} · ${fHora.format(d)}`;
-      return `<a class="reco${ent()}" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">
+      return `<a class="reco${ent()}" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener"
+        data-foco="${esc(e.id)}" title="Ver detalles">
         <div class="img">${imagen(e)}</div>
         <div class="cuerpo"><b>${esc(e.titulo)}</b>
         <span>${cuando} · ${esc(lugarCorto(e))}</span></div></a>`;
@@ -765,6 +769,8 @@ function irA(c, destino) {
   c._raf = requestAnimationFrame(paso);
 }
 $("#recomendados").addEventListener("click", ev => {
+  const r = ev.target.closest("[data-foco]");
+  if (r && !(ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button)) { ev.preventDefault(); abrirFoco(r.dataset.foco); return; }
   const b = ev.target.closest(".flecha, .puntos button"); if (!b) return;
   auto.detenido = true;  // quien usa el carrusel manda: deja de avanzar solo
   const c = $("#recomendados .carrusel");
@@ -1010,6 +1016,8 @@ if (location.protocol.startsWith("http")) {
 function acciones(ev) {
   const dlg = $("#foco");
   if (ev.currentTarget === dlg && ev.target === dlg) { cerrarFoco(); return; }  // clic en el fondo borroso
+  const zona = ev.target.closest(".card:not(.en-foco) .img, .card:not(.en-foco) h3");
+  if (zona && !ev.target.closest("a, button")) { abrirFoco(zona.closest(".card").dataset.id); return; }
   const b = ev.target.closest("[data-a]"); if (!b) return;
   if (b.dataset.a === "cerrar") { cerrarFoco(); return; }
   if (b.dataset.a === "salir-archivo") { ev.preventDefault(); st.archivo = false; render(); return; }

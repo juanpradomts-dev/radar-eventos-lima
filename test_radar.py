@@ -351,6 +351,9 @@ class Verificacion(unittest.TestCase):
         normal = ev("Meetup de datos", inicio="2026-09-29T19:00-05:00", fin="2026-09-29T21:30-05:00")
         verificar.revisar_evento(normal, self.AHORA)
         self.assertEqual(normal["fin"], "2026-09-29T21:30-05:00")  # un término real no se toca
+        beca = ev("McKinsey Forward Program", tipo="convocatoria", inicio="2026-10-05T23:59-05:00",
+                  fin="2026-10-05T23:59-05:00", cierre="2026-10-05T23:59-05:00")
+        self.assertEqual(verificar.revisar_evento(beca, self.AHORA), [])  # 23:59 de una convocatoria es su plazo real
 
     def test_hora_poco_probable_queda_por_confirmar(self):
         e = ev("INFOPUCP Semana Modo IA", inicio="2026-09-28T10:18-05:00")
