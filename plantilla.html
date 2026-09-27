@@ -179,6 +179,10 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 .mini span{color:var(--gris);font-size:13px}
 details.acerca{margin:0 0 20px}
 details.acerca summary{cursor:pointer;font-weight:800;color:var(--azul);font-size:16px;padding:6px 0}
+details>summary{list-style:none;display:flex;align-items:center;gap:10px}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";flex:0 0 auto;width:7px;height:7px;border-right:2.5px solid currentColor;border-bottom:2.5px solid currentColor;transform:rotate(-45deg);margin:0 2px 0 1px;transition:transform .3s var(--natural)}
+details[open]:not(.cerrando)>summary::before{transform:rotate(45deg)}
 #mas-filtros{margin-top:6px}
 .chip.filtros-mas{border-style:dashed;font-weight:800}
 .aviso-seccion{font-size:13.5px;color:var(--gris);margin:-6px 0 12px}
@@ -194,8 +198,8 @@ details.acerca summary{cursor:pointer;font-weight:800;color:var(--azul);font-siz
 /* ---------- archivo */
 .aviso-archivo{background:#fff;border:1px solid var(--linea);border-radius:14px;padding:14px 16px;font-size:14.5px;color:#34435A;margin-top:24px}
 details.grupo{background:#fff;border:1px solid var(--linea);border-radius:14px;margin-top:12px;overflow:hidden}
-details.grupo summary{cursor:pointer;padding:12px 16px;font-weight:800;color:var(--azul);display:flex;justify-content:space-between;gap:10px}
-details.grupo summary .n{color:var(--gris);font-weight:700}
+details.grupo summary{cursor:pointer;padding:12px 16px;font-weight:800;color:var(--azul)}
+details.grupo summary .n{color:var(--gris);font-weight:700;margin-left:auto}
 .fila-arch{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:10px 16px;border-top:1px solid var(--linea);font-size:14px}
 .fila-arch a{color:var(--texto);font-weight:700;text-decoration:none}
 .fila-arch a:hover{color:var(--azul);text-decoration:underline}
@@ -1004,7 +1008,38 @@ if (DATOS && DATOS.calidad) {
 }
 document.addEventListener("click", ev => {
   if (!ev.target.closest("[data-a=ver-calidad]")) return;
-  ev.preventDefault(); $("#calidad").open = true; $("#calidad").scrollIntoView({behavior: "smooth", block: "start"});
+  ev.preventDefault(); if (!$("#calidad").open) plegar($("#calidad"), true);
+  $("#calidad").scrollIntoView({behavior: "smooth", block: "start"});
+});
+
+// ---------- secciones plegables: se abren y se cierran deslizándose (corto y suave), no de golpe
+function plegar(d, abrir) {
+  const s = d.querySelector(":scope > summary");
+  const desde = d.offsetHeight, bordes = d.offsetHeight - d.clientHeight;
+  if (d._anim) d._anim.cancel();
+  d._objetivo = abrir;
+  d.classList.toggle("cerrando", !abrir);
+  if (abrir) d.open = true;
+  const hasta = abrir ? d.scrollHeight + bordes : s.offsetHeight + bordes;
+  d.style.overflow = "hidden";
+  const dur = Math.min(420, 200 + Math.abs(hasta - desde) * .25);
+  const anim = d._anim = d.animate({height: [desde + "px", hasta + "px"]},
+                                   {duration: dur, easing: "cubic-bezier(.22,.61,.36,1)", fill: "forwards"});
+  const terminar = () => {
+    if (d._anim !== anim) return;  // ya lo reemplazó otro clic
+    clearTimeout(d._fin); d._anim = null; anim.cancel();
+    d.style.overflow = ""; d.classList.remove("cerrando");
+    if (!abrir) d.open = false;
+  };
+  anim.onfinish = terminar;
+  clearTimeout(d._fin); d._fin = setTimeout(terminar, dur + 60);  // por si el aviso de "terminó" no llega
+}
+document.addEventListener("click", ev => {
+  const s = ev.target.closest("details > summary"); if (!s) return;
+  const d = s.parentElement;
+  if (!d.animate) return;  // navegador sin animaciones: se abre como siempre
+  ev.preventDefault();
+  plegar(d, d._anim ? !d._objetivo : !d.open);  // a mitad de camino, un clic lo devuelve
 });
 if (location.protocol.startsWith("http")) {
   const base = location.href.replace(/[?#].*$/, "").replace(/[^/]*$/, "");
