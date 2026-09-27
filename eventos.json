@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T16:39-05:00",
+ "actualizado": "2026-09-27T16:59-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -8,6 +8,10 @@
   "Eventbrite": {
    "ok": true,
    "n": 34
+  },
+  "Eventbrite online": {
+   "ok": true,
+   "n": 22
   },
   "Meetup": {
    "ok": true,
@@ -31,8 +35,7 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-09-27T15:08-05:00"
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -51,7 +54,7 @@
    "n": 0
   }
  },
- "revisados": 338,
+ "revisados": 360,
  "top": 55,
  "eventos": [
   {
@@ -449,6 +452,60 @@
    "puntaje": 48,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "eb:2000015120063",
+   "titulo": "Webinar D5 Render: del modelo al impacto visual con IA",
+   "inicio": "2026-09-29T09:00-05:00",
+   "fin": "2026-09-29T10:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-webinar-d5-render-del-modelo-al-impacto-visual-con-ia-2000015120063",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-d5-render-del-modelo-al-impacto-visual-con-ia-2000015120063",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "icreatia.es",
+   "descripcion": "D5 Render es una plataforma de visualización arquitectónica en tiempo real que transforma modelos 3D en imágenes, vídeos y presentaciones.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192882579%2F95012362293%2F1%2Foriginal.20260907-133819?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.017&fp-y=0.618&s=a1a1da21ee27e796f20d91deda8628d2",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "eb:2001873234734",
+   "titulo": "Webinar: Desarrollo Tecnológico",
+   "inicio": "2026-09-29T09:30-05:00",
+   "fin": "2026-09-29T10:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-webinar-desarrollo-tecnologico-2001873234734",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-desarrollo-tecnologico-2001873234734",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Asociación mentorDay",
+   "descripcion": "Webinar incluido en la edición 112 del Programa de Aceleración de mentorDay dedicado al Desarrollo Tecnológico",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193992805%2F135597904219%2F1%2Foriginal.jpg?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=46144f0ae2ba10eeaf25513d20147cbb",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29",
@@ -862,6 +919,34 @@
    "visto_desde": "2026-09-25T14:05-05:00"
   },
   {
+   "id": "eb:2002334852445",
+   "titulo": "COACHING a un click: IA con CRITERIO",
+   "inicio": "2026-09-30T17:00-05:00",
+   "fin": "2026-09-30T18:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/coaching-a-un-click-ia-con-criterio-tickets-2002334852445",
+   "inscripcion": "https://www.eventbrite.com.ar/e/coaching-a-un-click-ia-con-criterio-tickets-2002334852445",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "GENERACION MAS - Escuela de Formacion Profesional",
+   "descripcion": "¿Qué inteligencia necesita el humano para usar la inteligencia artificial?",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194417035%2F248088603385%2F1%2Foriginal.20260926-133409?crop=focalpoint&fit=crop&w=434&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.081&fp-y=0.128&s=8c1d87cc128fb95c91228cb70bc46e86",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
    "id": "inst:sni-webinar-tributos-municipales-sin-sorpresas-calcula-verif:2026-09-30",
    "titulo": "Webinar: Tributos municipales sin sorpresas: calcula, verifica y optimiza con herramientas digitales",
    "tipo": "evento",
@@ -1228,6 +1313,62 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
+   "id": "eb:1999516514721",
+   "titulo": "Masterclass: del Customer Journey al Agent Journey",
+   "inicio": "2026-10-01T11:00-05:00",
+   "fin": "2026-10-01T12:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-masterclass-del-customer-journey-al-agent-journey-1999516514721",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-masterclass-del-customer-journey-al-agent-journey-1999516514721",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "IMSED",
+   "descripcion": "La nueva frontera del Marketing impulsada por Inteligencia Artificial y Comercio Agéntico.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192861055%2F930836732183%2F1%2Foriginal.20260907-074148?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.947&fp-y=0.468&s=beaa3f5259442b74ad5570c34037094e",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 8,
+   "puntaje": 31,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "eb:1434419520399",
+   "titulo": "MasterClass: El ejecutivo que la IA no puede reemplazar",
+   "inicio": "2026-10-01T11:00-05:00",
+   "fin": "2026-10-01T13:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/masterclass-el-ejecutivo-que-la-ia-no-puede-reemplazar-tickets-1434419520399",
+   "inscripcion": "https://www.eventbrite.es/e/masterclass-el-ejecutivo-que-la-ia-no-puede-reemplazar-tickets-1434419520399",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Escuela Europea de Gerencia",
+   "descripcion": "",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193750891%2F2229780069763%2F1%2Foriginal.20260917-142607?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.341&fp-y=0.467&s=8db2562ecc0b3b8a1653fd8a2f2307c4",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 23,
+   "afinidad": 17,
+   "puntaje": 40,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Afín: Liderazgo y oratoria",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
    "id": "pucp:development-and-validation-of-a-mobile-robotic-platform-for-fall-prevention-during-walking-25092026113126",
    "titulo": "Development and validation of a mobile robotic platform for fall prevention during walking",
    "inicio": "2026-10-01T11:00-05:00",
@@ -1506,6 +1647,62 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "eb:2002154151965",
+   "titulo": "*ULTIMA EDICION* Master en Deep Learning con IA Agéntica",
+   "inicio": "2026-10-02T09:00-05:00",
+   "fin": "2026-10-02T13:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-ultima-edicion-master-en-deep-learning-con-ia-agentica-2002154151965",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-ultima-edicion-master-en-deep-learning-con-ia-agentica-2002154151965",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Datamecum {Tu referencia en datos}",
+   "descripcion": "Si quieres trabajar con IA en modelos de imagen, texto, audio... no lo dejes pasar.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194207973%2F1311578890613%2F1%2Foriginal.20260923-163513?w=450&auto=format%2Ccompress&q=75&sharp=10&s=aa8baae8c7a7ab9482f73c06901865ee",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Datos y analítica"
+   ],
+   "valor": 23,
+   "afinidad": 24,
+   "puntaje": 47,
+   "por_que": "Formativo · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "eb:1998755641930",
+   "titulo": "Open Lab: ArtificialQA - Aprende a testear agentes de IA",
+   "inicio": "2026-10-02T09:00-05:00",
+   "fin": "2026-10-02T11:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/open-lab-artificialqa-aprende-a-testear-agentes-de-ia-tickets-1998755641930",
+   "inscripcion": "https://www.eventbrite.com/e/open-lab-artificialqa-aprende-a-testear-agentes-de-ia-tickets-1998755641930",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "QAlified",
+   "descripcion": "Descubre cómo asegurar la calidad de agentes de IA con pruebas automáticas y jueces inteligentes.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191755906%2F3000309571786%2F1%2Foriginal.20260824-134346?w=434&auto=format%2Ccompress&q=75&sharp=10&s=a0b36829a55afdfbd3c817f2d39ff742",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
    "id": "luma:evt-5zLvn61Vu2Wm1aR",
    "titulo": "IV Robotmanía UPC",
    "inicio": "2026-10-02T11:00-05:00",
@@ -1590,6 +1787,33 @@
    "puntaje": 65,
    "por_que": "Afín: Datos y machine learning · Formativo · Presencial en Lima · Afín: Inteligencia artificial",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "eb:2002134099989",
+   "titulo": "Curso de capacitación: \"EDUCACIÓN MUTUAL Y COOPERATIVA\"",
+   "inicio": "2026-10-02T17:00-05:00",
+   "fin": "2026-10-02T19:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/curso-de-capacitacion-educacion-mutual-y-cooperativa-tickets-2002134099989",
+   "inscripcion": "https://www.eventbrite.com.ar/e/curso-de-capacitacion-educacion-mutual-y-cooperativa-tickets-2002134099989",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Sociedad Italiana de Parana",
+   "descripcion": "Diseño de proyectos pedagógicos innovadores -Destinado a docentes de los Niveles Inicial, Primario y Secundario  - Orientado a la enseñanza",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179221831%2F2182194506303%2F1%2Foriginal.20260306-174210?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=73%2C0%2C2678%2C1339&s=71b295bd4e4348b2190e60e2c09304d2",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "pucp:presentacion-del-libro-religion-en-clave-de-libertad-ensayos-sobre-filosofia-de-la-religion-22092026114358",
@@ -1784,6 +2008,60 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "eb:2001604990408",
+   "titulo": "ONIET30 I Charla Abierta \"La innovación como filosofía en Aguas Cordobesas\"",
+   "inicio": "2026-10-05T08:00-05:00",
+   "fin": "2026-10-05T09:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/oniet30-i-charla-abierta-la-innovacion-como-filosofia-en-aguas-cordobesas-tickets-2001604990408",
+   "inscripcion": "https://www.eventbrite.com.ar/e/oniet30-i-charla-abierta-la-innovacion-como-filosofia-en-aguas-cordobesas-tickets-2001604990408",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Universidad Blas Pascal",
+   "descripcion": "¿Qué necesita una idea para transformarse en una solución?",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194232394%2F2995124040391%2F1%2Foriginal.20260923-210333?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e54888e58a365ad98cfe8207fef89d8d",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 30,
+   "afinidad": 6,
+   "puntaje": 36,
+   "por_que": "Formativo · Universidad · Gratis · Afín: Emprendimiento y finanzas",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "eb:2000303480557",
+   "titulo": "ONIET30 I Charla Abierta \"Tecnología y Triple Impacto\"",
+   "inicio": "2026-10-05T09:00-05:00",
+   "fin": "2026-10-05T10:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/oniet30-i-charla-abierta-tecnologia-y-triple-impacto-tickets-2000303480557",
+   "inscripcion": "https://www.eventbrite.com.ar/e/oniet30-i-charla-abierta-tecnologia-y-triple-impacto-tickets-2000303480557",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Universidad Blas Pascal",
+   "descripcion": "Sponsor: Circularis",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194232453%2F2995124040391%2F1%2Foriginal.20260923-210413?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ad8b8d09fd6eb4b53c5112db1fbfa576",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 30,
+   "afinidad": 0,
+   "puntaje": 30,
+   "por_que": "Formativo · Universidad · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
    "id": "devpost:29359",
    "titulo": "OneAquaHealth IEEE Global Hackathon",
    "tipo": "hackathon",
@@ -1865,6 +2143,34 @@
    "puntaje": 25,
    "por_que": "Abre puertas (beca/programa) · Empresa reconocida · Plazo claro · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "eb:2002229973750",
+   "titulo": "Webinar THE MISSING LINK  - Estrategia, Talento y Cultura",
+   "inicio": "2026-10-06T11:00-05:00",
+   "fin": "2026-10-06T12:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.mx/e/webinar-the-missing-link-estrategia-talento-y-cultura-tickets-2002229973750",
+   "inscripcion": "https://www.eventbrite.com.mx/e/webinar-the-missing-link-estrategia-talento-y-cultura-tickets-2002229973750",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "ON-STRATEGY",
+   "descripcion": "Acompaña a Walter Larrralde y Julieta Meza,, en este evento.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194380594%2F442291521014%2F1%2Foriginal.20260925-182933?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=501d8c9e806ba703e0a0e47400511f54",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "pucp:conferencia-exodo-liberacion-y-antijudaismo-gustavo-gutierrez-y-una-critica-pendiente-24092026104728",
@@ -1950,6 +2256,62 @@
    "visto_desde": "2026-09-27T06:14-05:00"
   },
   {
+   "id": "eb:1999999343876",
+   "titulo": "Círculo intuitivo para líderes: Entrena tu intuición estratégica",
+   "inicio": "2026-10-07T11:00-05:00",
+   "fin": "2026-10-07T12:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-circulo-intuitivo-para-lideres-entrena-tu-intuicion-estrategica-1999999343876",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-circulo-intuitivo-para-lideres-entrena-tu-intuicion-estrategica-1999999343876",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Marina Camins",
+   "descripcion": "En la era de la IA, los mejores líderes no tienen más datos. Tienen más intuición. Entrénala con nosotros.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182425788%2F215955905054%2F1%2Foriginal.20260417-174717?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=33de6abe997d8f23a930162ccfe0ab12",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo",
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 20,
+   "puntaje": 43,
+   "por_que": "Formativo · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "eb:1999808211193",
+   "titulo": "Tesorería Global: impulsa las operaciones internacionales de tu empresa",
+   "inicio": "2026-10-07T12:00-05:00",
+   "fin": "2026-10-07T13:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/tesoreria-global-impulsa-las-operaciones-internacionales-de-tu-empresa-tickets-1999808211193",
+   "inscripcion": "https://www.eventbrite.com/e/tesoreria-global-impulsa-las-operaciones-internacionales-de-tu-empresa-tickets-1999808211193",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "",
+   "descripcion": "En esta Masterclass aprenderás a gestionar la tesorería global y optimizar tus operaciones internacionales desde donde estés.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192995310%2F3012960737347%2F1%2Foriginal.20260908-183424?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8d263b627bed99ea3b4d29e38512f5e7",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
    "id": "pucp:webinar-claves-para-la-gestion-por-procesos-que-generan-valor-18092026144913",
    "titulo": "Webinar: Claves para la gestión por procesos que generan valor",
    "inicio": "2026-10-07T19:00-05:00",
@@ -1976,6 +2338,34 @@
    "puntaje": 30,
    "por_que": "Formativo · Universidad · Gratis · Virtual",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "eb:1996809633366",
+   "titulo": "Laboratorio de Salud Digital e Innovación | 1ª Edición",
+   "inicio": "2026-10-08T11:00-05:00",
+   "fin": "2026-10-08T12:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/entradas-laboratorio-de-salud-digital-e-innovacion-1a-edicion-1996809633366",
+   "inscripcion": "https://www.eventbrite.com/e/entradas-laboratorio-de-salud-digital-e-innovacion-1a-edicion-1996809633366",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "OBS Business School",
+   "descripcion": "El futuro de la salud se decide hoy: IA, innovación y las competencias que necesitarán los líderes de la transformación digital.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190374979%2F1316909042313%2F1%2Foriginal.20260805-143009?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.047&fp-y=0.47&s=1bf2e6d3c9dfa63847b0660feecfd62d",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Investigación y ciencia"
+   ],
+   "valor": 23,
+   "afinidad": 14,
+   "puntaje": 37,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Afín: Emprendimiento y finanzas",
+   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "eb:2001674824283",
@@ -2518,6 +2908,33 @@
    "puntaje": 42,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "eb:1990929116582",
+   "titulo": "Crea tu sitio web gratis en 10 minutos con Inteligencia Artificial",
+   "inicio": "2026-10-13T16:30-05:00",
+   "fin": "2026-10-13T18:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/crea-tu-sitio-web-gratis-en-10-minutos-con-inteligencia-artificial-tickets-1990929116582",
+   "inscripcion": "https://www.eventbrite.com.ar/e/crea-tu-sitio-web-gratis-en-10-minutos-con-inteligencia-artificial-tickets-1990929116582",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Maxi Costantinis",
+   "descripcion": "Sin saber programar, sin contratar a nadie y sin gastar dinero, te enseñamos el paso a paso de como desarrollar tu sitio web en 10 minutos.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193864781%2F93900046205%2F1%2Foriginal.20260918-192745?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.097&fp-y=0.284&s=2823b81c6d9c9d69111da467662c6425",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "luma:evt-anYnKsYBysA8NHK",
@@ -3276,6 +3693,33 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
+   "id": "eb:2001113857416",
+   "titulo": "Arma tu PC ideal con Elite PC Parts",
+   "inicio": "2026-10-16T19:00-05:00",
+   "fin": "2026-10-16T20:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/arma-tu-pc-ideal-con-elite-pc-parts-tickets-2001113857416",
+   "inscripcion": "https://www.eventbrite.com/e/arma-tu-pc-ideal-con-elite-pc-parts-tickets-2001113857416",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "",
+   "descripcion": "Descubre cómo elegir componentes compatibles y armar una PC según tu presupuesto para jugar, estudiar o trabajar.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193616950%2F3014280790486%2F1%2Foriginal.20260916-014543?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=504a3636fbe0de573ce9e1b4e4a984fc",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
    "id": "meetup:315593593",
    "titulo": "Sesión 02: Gobernando la Flota",
    "inicio": "2026-10-16T19:00-05:00",
@@ -3553,6 +3997,33 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
+   "id": "eb:1987132772615",
+   "titulo": "VIII CISSTO",
+   "inicio": "2026-10-20T08:00-05:00",
+   "fin": "2026-10-22T13:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-viii-cissto-1987132772615",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-viii-cissto-1987132772615",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Sociedad Iberoamericana de Sistemas Generales",
+   "descripcion": "OCTAVO CONGRESO IBEROAMERICANO DE SOLUCIONES SISTÉMICAS PARA LA TRANSFORMACIÓN DE LAS ORGANIZACIONES (VIII CISSTO) [Presencial y Online]",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190525597%2F966228754183%2F1%2Foriginal.20260807-074108?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7bb60e39dbf8e54e23a7d19d188b3d2a",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 23,
+   "afinidad": 8,
+   "puntaje": 31,
+   "por_que": "Formativo · Afín: Investigación · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
    "id": "pucp:go-arb-lima-2026-28082026110320",
    "titulo": "GoArb Lima 2026",
    "inicio": "2026-10-20T09:00-05:00",
@@ -3715,6 +4186,65 @@
    "puntaje": 35,
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "eb:2000250909315",
+   "titulo": "Sostenibilidad en el Sector Turístico: de la Teoría a la Rentabilidad",
+   "inicio": "2026-10-22T10:00-05:00",
+   "fin": "2026-10-22T11:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-sostenibilidad-en-el-sector-turistico-de-la-teoria-a-la-rentabilidad-2000250909315",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-sostenibilidad-en-el-sector-turistico-de-la-teoria-a-la-rentabilidad-2000250909315",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Belén Muñoz",
+   "descripcion": "Claves estratégicas y medidas prácticas para transformar tu alojamiento turístico en un negocio eficiente, responsable y competitivo",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193237311%2F443213693348%2F1%2Foriginal.20260911-074648?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d74e686603ae7ea261a0fe62ba41c107",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 22,
+   "afinidad": 0,
+   "puntaje": 22,
+   "por_que": "Abre puertas (beca/programa) · Gratis · Virtual",
+   "original": {
+    "titulo": "SOSTENIBILIDAD EN EL SECTOR TURÍSTICO: DE LA TEORÍA A LA RENTABILIDAD"
+   },
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "eb:2000262179023",
+   "titulo": "Webinar: \"El Modelo CX de Sabadell Seguros para la retención de clientes\"",
+   "inicio": "2026-10-22T10:30-05:00",
+   "fin": "2026-10-22T11:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-webinar-el-modelo-cx-de-sabadell-seguros-para-la-retencion-de-clientes-2000262179023",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-el-modelo-cx-de-sabadell-seguros-para-la-retencion-de-clientes-2000262179023",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "COMMUNITY OF INSURANCE",
+   "descripcion": "Sabadell Seguros combina tecnología y escucha para mejorar la experiencia del cliente, personalizar la atención y aumentar la retención.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193639605%2F137153727275%2F1%2Foriginal.20260916-103451?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=071f08b381a68f41544eb208f883e48f",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "pucp:seminario-de-matematica-una-introduccion-a-las-foliaciones-lineales-en-toros-reales-y-complejos-25092026060119",
@@ -4050,6 +4580,34 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "eb:2002203136479",
+   "titulo": "Beyond the Prompt: Intención y visión humana en la era de la automatización",
+   "inicio": "2026-10-27T13:00-05:00",
+   "fin": "2026-10-27T14:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-beyond-the-prompt-intencion-y-vision-humana-en-la-era-de-la-automatizacion-2002203136479",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-beyond-the-prompt-intencion-y-vision-humana-en-la-era-de-la-automatizacion-2002203136479",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "POSSO by Mr Marcel",
+   "descripcion": "Una conversación en directo sobre el futuro del diseño, la estrategia y el valor del talento en la era de la inteligencia.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6616e37ba48d62278cf4913e4b4e54b4",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 23,
+   "afinidad": 8,
+   "puntaje": 31,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
    "id": "devpost:30984",
    "titulo": "OpenCV AI Competition 2026, powered by AWS",
    "tipo": "hackathon",
@@ -4160,6 +4718,34 @@
    "puntaje": 37,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "eb:1998568503193",
+   "titulo": "Curso: RRHH Energetico - Mineria / Oil and Gas",
+   "inicio": "2026-10-29T17:30-05:00",
+   "fin": "2026-10-29T19:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/curso-rrhh-energetico-mineria-oil-and-gas-tickets-1998568503193",
+   "inscripcion": "https://www.eventbrite.com.ar/e/curso-rrhh-energetico-mineria-oil-and-gas-tickets-1998568503193",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Advise Consultores",
+   "descripcion": "Un programa práctico en vivo donde aprenderás a utilizar Claude para investigar, analizar información, crear contenido, automatizar tareas.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191618222%2F257811272973%2F1%2Foriginal.20260821-191405?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a4e4ed1af821006f2c62436ce350e0c6",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 8,
+   "puntaje": 31,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "wikicfp:191658",
@@ -4666,6 +5252,34 @@
    "puntaje": 32,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
    "visto_desde": "2026-09-26T18:22-05:00"
+  },
+  {
+   "id": "eb:1999731916995",
+   "titulo": "Curso: RRHH por Competencias · Curso en vivo (3 encuentros)",
+   "inicio": "2026-11-10T17:30-05:00",
+   "fin": "2026-11-10T19:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/curso-rrhh-por-competencias-curso-en-vivo-3-encuentros-tickets-1999731916995",
+   "inscripcion": "https://www.eventbrite.com.ar/e/curso-rrhh-por-competencias-curso-en-vivo-3-encuentros-tickets-1999731916995",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Advise Consultores",
+   "descripcion": "Tres martes en vivo para construir tu modelo de competencias: diccionario, perfiles, entrevistas con evidencia, evaluación y tablero.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b7546a25503ab554e2da14fd5311e5fe",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "tedx:70101",
@@ -9359,9 +9973,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-27T16:39-05:00",
-  "revisados": 208,
-  "corregidos": 14,
+  "fecha": "2026-09-27T16:59-05:00",
+  "revisados": 230,
+  "corregidos": 15,
   "avisos": 4,
   "archivados": 0,
   "problemas": [
@@ -9470,6 +10084,14 @@
     "url": "https://www.eventbrite.com/e/hackerx-lima-employer-ticket-1015-tickets-1982870759820"
    },
    {
+    "id": "eb:2000250909315",
+    "titulo": "Sostenibilidad en el Sector Turístico: de la Teoría a la Rentabilidad",
+    "fuente": "Eventbrite online",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://www.eventbrite.es/e/entradas-sostenibilidad-en-el-sector-turistico-de-la-teoria-a-la-rentabilidad-2000250909315"
+   },
+   {
     "id": "luma:evt-3Izz5QELco5iG9O",
     "titulo": "La Decanatrón UNMSM 2",
     "fuente": "Luma",
@@ -9511,7 +10133,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 1,
+   "comprobados": 22,
    "rotos": 2,
    "sin_comprobar": 2
   },
@@ -9608,14 +10230,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "LiGA Summit 2026, a Lima la prima giornata dedicata all’iGaming e alle nuove licenze di gioco in Perù",
-   "url": "https://www.agimeg.it/liga-summit-2026-lima-igaming-nuove-licenze-peru/",
-   "medio": "AGIMEG",
-   "publicado": "Fri, 18 Sep 2026 02:52:00 GMT",
-   "resumen": "Si è aperta a Lima la prima giornata del LiGA Summit 2026: panel su licenze, conformità degli affiliati e prospettive dell'iGaming in Perù e in America Latina.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
    "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
    "medio": "RPP",
@@ -9624,19 +10238,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "(Multimedia) Feria peruana Expoalimentaria generó negocios por 1.100 millones de dólares",
-   "url": "https://spanish.news.cn/20260928/d52a30b2d5964dba85f33de0c7063f82/c.html",
-   "medio": "Xinhua Español",
-   "publicado": "Sun, 27 Sep 2026 04:50:00 GMT",
-   "resumen": "Imagen del 23 de septiembre de 2026 de trabajadores esperando por clientes en un estand en la feria Expoalimentaria 2026 en el Centro de Exposiciones Jockey, en Lima, Perú. (Xinhua/Mariana Bazo) LIMA, ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "FIL Lima 2026: Todo lo que debes saber sobre la última semana de la feria",
    "url": "https://peru21.pe/cultura/fil-lima-2026-todo-lo-que-debes-saber-sobre-la-ultima-semana/",
    "medio": "Peru21",
    "publicado": "Sun, 02 Aug 2026 01:01:00 GMT",
    "resumen": "Para el lunes 3, una de las presentaciones más destacadas será la de Los ojos del cielo, de Luis Fernando Cueto, ganador del Premio Novela Corta Julio Ramón Ribeyro 2026. Tendrá la participación del ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "(Multimedia) Feria peruana Expoalimentaria generó negocios por 1.100 millones de dólares",
+   "url": "https://spanish.news.cn/20260928/d52a30b2d5964dba85f33de0c7063f82/c.html",
+   "medio": "Xinhua Español",
+   "publicado": "Sun, 27 Sep 2026 04:50:00 GMT",
+   "resumen": "Imagen del 23 de septiembre de 2026 de trabajadores esperando por clientes en un estand en la feria Expoalimentaria 2026 en el Centro de Exposiciones Jockey, en Lima, Perú. (Xinhua/Mariana Bazo) LIMA, ...",
    "fecha_mencionada": ""
   },
   {
@@ -9914,6 +10528,28 @@
   "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-27T13:39-05:00",
   "insc:0544fff63cb2": "2026-09-27T14:33-05:00",
   "luma:evt-IzEbEx4W6ASJfS3": "2026-09-27T14:33-05:00",
-  "devpost:29114": "2026-09-27T16:39-05:00"
+  "devpost:29114": "2026-09-27T16:39-05:00",
+  "eb:2000015120063": "2026-09-27T16:59-05:00",
+  "eb:2001873234734": "2026-09-27T16:59-05:00",
+  "eb:2002334852445": "2026-09-27T16:59-05:00",
+  "eb:1999516514721": "2026-09-27T16:59-05:00",
+  "eb:1434419520399": "2026-09-27T16:59-05:00",
+  "eb:2002154151965": "2026-09-27T16:59-05:00",
+  "eb:1998755641930": "2026-09-27T16:59-05:00",
+  "eb:2002134099989": "2026-09-27T16:59-05:00",
+  "eb:2001604990408": "2026-09-27T16:59-05:00",
+  "eb:2000303480557": "2026-09-27T16:59-05:00",
+  "eb:2002229973750": "2026-09-27T16:59-05:00",
+  "eb:1999999343876": "2026-09-27T16:59-05:00",
+  "eb:1999808211193": "2026-09-27T16:59-05:00",
+  "eb:1996809633366": "2026-09-27T16:59-05:00",
+  "eb:1990929116582": "2026-09-27T16:59-05:00",
+  "eb:2001113857416": "2026-09-27T16:59-05:00",
+  "eb:1987132772615": "2026-09-27T16:59-05:00",
+  "eb:2000250909315": "2026-09-27T16:59-05:00",
+  "eb:2000262179023": "2026-09-27T16:59-05:00",
+  "eb:2002203136479": "2026-09-27T16:59-05:00",
+  "eb:1998568503193": "2026-09-27T16:59-05:00",
+  "eb:1999731916995": "2026-09-27T16:59-05:00"
  }
 }
