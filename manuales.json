@@ -2,7 +2,7 @@
  "_instrucciones": "Eventos vistos en Instagram, LinkedIn, TikTok, WhatsApp o carteles, que no salen en las plataformas automáticas. Una entrada por evento. Campos obligatorios: titulo, inicio (YYYY-MM-DDTHH:MM, hora de Lima), red, url (link al post). Opcionales: fin, lugar, distrito, modalidad (Presencial/Virtual), inscripcion (link del formulario), imagen (URL), descripcion, organizador, gratis (true/false), categorias (lista con nombres de categoría del radar). Los eventos pasados se ignoran solos.",
  "eventos": [],
  "ultimo": {
-  "fecha": "2026-09-27T17:32-05:00",
+  "fecha": "2026-09-27T17:33-05:00",
   "ok": false,
   "titulo": "Prueba del sistema (no se añade)",
   "mensaje": "Esa fecha ya pasó."
