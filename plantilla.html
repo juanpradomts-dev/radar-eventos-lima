@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
 <meta http-equiv="refresh" content="1800">
-<title>Radar de Oportunidades</title>
+<title>Radar Lima · Eventos y becas para crecer como estudiante</title>
+<meta property="og:title" content="Radar Lima">
+<meta property="og:description" content="Eventos, talleres y becas en Lima para crecer como estudiante. Se actualiza solo cada 3 horas.">
+<meta property="og:type" content="website">
 <meta name="description" content="Eventos en Lima, hackathons, becas, calls for papers y voluntariados para crecer como estudiante. Se actualiza solo cada 3 horas.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,6 +41,16 @@ a{color:inherit}
 .hero h1{font-size:clamp(26px,4.5vw,40px);line-height:1.15;margin:12px 0 6px;font-weight:800}
 .hero h1 span{color:#FFB27F}
 .hero p{margin:0;max-width:640px;opacity:.9}
+/* marca: saludo + nombre con un radar que barre despacio */
+.hero .saludo{font-size:15px;font-weight:700;opacity:.85;margin:0}
+.hero h1.marca{display:flex;align-items:center;gap:12px;font-size:clamp(36px,6vw,54px);line-height:1.05;margin:4px 0 10px;letter-spacing:-.01em}
+.radar{width:clamp(38px,5.5vw,50px);height:auto;flex:0 0 auto}
+.radar .aguja{transform-origin:24px 24px}
+.radar .blip{transform-origin:33px 15px}
+.hero h1 .nombre{color:#fff}
+.hero h1 .nombre b{color:#FFB27F;font-weight:inherit}
+.hero .lema{font-size:17px;opacity:.92;max-width:600px}
+.hero .lema b:first-child{color:#FFD2B3}
 .buscador{margin-top:20px;display:flex;background:#fff;border-radius:14px;padding:6px;
   box-shadow:0 8px 24px rgba(0,0,0,.18);max-width:640px}
 .buscador input{flex:1;min-width:0;border:0;outline:0;font:inherit;padding:10px 12px;color:var(--texto);background:transparent}
@@ -98,7 +111,7 @@ h2.seccion small{font-size:14px;color:var(--gris);font-weight:600}
 .flecha:hover{background:var(--naranja);color:#fff}
 .flecha.izq{left:-12px}
 .flecha.der{right:-12px}
-.flecha[hidden]{display:none}
+.flecha[hidden]{display:flex;opacity:0;visibility:hidden;pointer-events:none}
 
 /* ---------- tarjetas */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
@@ -191,6 +204,48 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
 .f-item a{color:var(--azul);font-weight:700;font-size:13.5px}
 .como{font-size:14.5px;color:#34435A;max-width:820px}
 .suscribir{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+/* ---------- movimiento: suave, corto y sin exagerar. Las tarjetas NO se desplazan al pasar el mouse
+   (eso dejaba zonas en blanco al hacer scroll): solo cambian de sombra. */
+.chip,.tipo-btn,.btn,.flecha{transition:background-color .2s,color .2s,border-color .2s,box-shadow .2s,transform .12s,opacity .2s,visibility .2s}
+.card,.reco{transition:box-shadow .25s ease,border-color .25s ease}
+.card:hover,.reco:hover{box-shadow:var(--sombra-hover)}
+.buscador{transition:box-shadow .2s}
+.buscador:focus-within{box-shadow:0 8px 24px rgba(0,0,0,.18),0 0 0 3px rgba(255,178,127,.7)}
+@media (prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth}
+  @keyframes subir{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes bajar{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+  @keyframes fundir{from{opacity:.3}}
+  @keyframes latido{0%{transform:scale(1)}35%{transform:scale(1.35)}100%{transform:scale(1)}}
+  @keyframes barrer{to{transform:rotate(360deg)}}
+  @keyframes blip{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.15)}}
+  @keyframes marcar{from{background-color:#fff;color:var(--texto);border-color:var(--linea)}}
+  @keyframes desmarcar{from{background-color:var(--azul-suave)}}
+  @keyframes marcar-t{from{background-color:rgba(255,255,255,.1);color:#fff}}
+  /* entrada de la portada, escalonada */
+  .hero .saludo,.hero h1,.hero .lema,.buscador,.que-buscas,.estado-mini{animation:subir .6s cubic-bezier(.2,.7,.2,1) both}
+  .hero h1{animation-delay:.06s}
+  .hero .lema{animation-delay:.12s}
+  .buscador{animation-delay:.18s}
+  .que-buscas{animation-delay:.24s}
+  .estado-mini{animation-delay:.3s}
+  .radar .aguja{animation:barrer 4s linear infinite}
+  .radar .blip{animation:blip 2s ease-in-out infinite}
+  /* lo que entra a la lista al filtrar o al cargar más */
+  .aparece{animation:subir .45s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0) * 55ms)}
+  .chip.marcar{animation:marcar .25s ease-out}
+  .chip.desmarcar{animation:desmarcar .3s ease-out}
+  .tipo-btn.marcar{animation:marcar-t .25s ease-out}
+  .tipo-btn.desmarcar{animation:desmarcar-t .3s ease-out}
+  @keyframes desmarcar-t{from{background-color:rgba(255,255,255,.6);color:var(--azul)}}
+  #mas-filtros:not([hidden]){animation:bajar .25s ease-out}
+  .btn.icono.late svg{animation:latido .4s ease-out}
+  .desc.abierta{animation:fundir .3s ease-out}
+  .img img{opacity:0;transition:opacity .45s ease}
+  .img img.ok{opacity:1}
+  details[open]>:not(summary){animation:bajar .3s ease-out}
+  .chip:active,.tipo-btn:active,.btn:active,.flecha:active{transform:scale(.96)}
+}
 @media (max-width:600px){
   .hero{padding:26px 0 24px}
   .cifras{gap:16px}
@@ -216,11 +271,23 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
 
 <header class="hero">
   <div class="contenedor">
-    <h1>Eventos y becas para <span>crecer como estudiante</span></h1>
-    <p>Charlas, talleres, hackathons y convocatorias en Lima, elegidos y actualizados solos. Elige uno y toca <b>Inscribirme</b>.</p>
+    <p class="saludo">👋 Bienvenido a</p>
+    <h1 class="marca">
+      <svg class="radar" viewBox="0 0 48 48" aria-hidden="true">
+        <defs><linearGradient id="barrido" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#FFB27F" stop-opacity="0"/><stop offset="1" stop-color="#FFB27F" stop-opacity=".85"/></linearGradient></defs>
+        <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.45)" stroke-width="2"/>
+        <circle cx="24" cy="24" r="14" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="1.5"/>
+        <circle cx="24" cy="24" r="6" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="1.5"/>
+        <path class="aguja" d="M24 24 L24 2 A22 22 0 0 1 43 13 Z" fill="url(#barrido)"/>
+        <circle class="blip" cx="33" cy="15" r="2.6" fill="#FFB27F"/>
+      </svg>
+      <span class="nombre">Radar <b>Lima</b></span>
+    </h1>
+    <p class="lema">Eventos, talleres y becas para <b>crecer como estudiante</b>, elegidos y actualizados solos. Elige uno y toca <b>Inscribirme</b>.</p>
     <label class="buscador">
       <span class="lupa" aria-hidden="true">🔎</span>
-      <input type="search" id="q" placeholder="¿Qué te interesa? Python, becas, logística…" aria-label="Buscar oportunidades">
+      <input type="search" id="q" placeholder="Busca un tema: tecnología, negocios…" aria-label="Buscar oportunidades">
     </label>
     <div class="que-buscas"><span>¿Qué buscas?</span><div class="tipos" id="tipos"></div></div>
     <p class="estado-mini"><span class="punto"></span><span id="estado-act">Se actualiza cada 3 horas</span></p>
@@ -342,8 +409,11 @@ function imagen(e) {
   const c = CATS[e.categorias[0]] || {ico: "📌", col: "#1D428A"};
   const ph = `<div class="ph" style="background:linear-gradient(135deg,${c.col}22,${c.col}55)">${c.ico}</div>`;
   if (!e.imagen) return ph;
-  return ph + `<img src="${esc(e.imagen)}" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">`;
+  // la imagen aparece con un fundido al terminar de cargar; si ya cargó antes, sale directa (sin parpadeo al redibujar)
+  return ph + `<img src="${esc(e.imagen)}" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer"
+    class="${cargadas.has(e.imagen) ? "ok" : ""}" onload="this.classList.add('ok');cargadas.add(this.getAttribute('src'))" onerror="this.remove()">`;
 }
+const cargadas = new Set();
 function diasHasta(d) {
   const a = new Date(ahora); a.setHours(0,0,0,0);
   const b = new Date(d); b.setHours(0,0,0,0);
@@ -385,15 +455,39 @@ function filtrar(ignorarCat, ignorarTipo, cuando = st.cuando) {
     if (!ignorarCat && st.cats.length && !e.categorias.some(c => st.cats.includes(c))) return false;
     if (!ignorarTipo && st.tipo && grupo(e) !== st.tipo) return false;
     if (q) {
-      const t = sinTildes([e.titulo, e.descripcion, e.lugar, e.distrito, e.organizador, e.fuente, ...e.categorias].join(" "));
-      if (!q.split(/\s+/).every(w => t.includes(w))) return false;
+      const g = GRUPOS.find(([v]) => v === grupo(e));
+      const t = sinTildes([e.titulo, e.descripcion, e.lugar, e.distrito, e.organizador, e.fuente, ...e.categorias,
+        e.modalidad, g && g[0] !== "evento" && g[2], TIPOS[e.tipo], e.gratis === true ? "gratis gratuito" : ""].join(" "));
+      if (!q.split(/\s+/).every(w => coincide(t, w))) return false;
     }
     return true;
   }).sort(porClave);
 }
+// Búsqueda por temas generales: plurales ("talleres" → taller), palabras cortas enteras ("ia" no
+// encuentra "ingenieria") y unos pocos sinónimos que llevan a las áreas de la página.
+const SINONIMOS = {programacion: "tecnologia", software: "tecnologia", computacion: "tecnologia", codigo: "tecnologia",
+  startup: "emprendimiento", startups: "emprendimiento", empresa: "negocios", empresas: "negocios", marketing: "negocios",
+  finanzas: "negocios", ingles: "idiomas", idioma: "idiomas", oratoria: "liderazgo", ciencias: "ciencia",
+  investigar: "investigacion", concurso: "competencia", concursos: "competencia", voluntario: "voluntariado"};
+function coincide(t, w) {
+  return [w, SINONIMOS[w]].filter(Boolean).some(a => a.length <= 3
+    ? new RegExp(`(^|[^a-z0-9ñ])${a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^a-z0-9ñ])`).test(t)
+    : t.includes(a) || (a.length > 5 && a.endsWith("es") && t.includes(a.slice(0, -2)))
+      || (a.length > 4 && a.endsWith("s") && t.includes(a.slice(0, -1))));
+}
+// Los filtros se redibujan en cada cambio; para que el cambio de estado no sea un salto seco,
+// el que se acaba de activar/desactivar se anima desde su estado anterior.
+const estadoPrevio = new Map();
+const claveChip = html => html.replace(/<[^>]*>|\d+|[▴▾✕]/g, "").trim();
+function transicion(b, k, on, clase = "marcar") {
+  const antes = estadoPrevio.get(k);
+  if (antes !== undefined && antes !== on) b.classList.add(on ? clase : "desmarcar");
+  estadoPrevio.set(k, on);
+}
 function chip(cont, html, on, fn, extra = "") {
   const b = document.createElement("button");
   b.className = "chip " + extra; b.setAttribute("aria-pressed", on); b.innerHTML = html; b.onclick = fn;
+  transicion(b, cont.id + claveChip(html), !!on);
   cont.appendChild(b);
 }
 function pintarFiltros() {
@@ -450,6 +544,7 @@ function pintarTipos() {
       : (deLargoPlazo(v) && st.tipo !== v ? todoN : ahoraN)[v] || 0;
     const b = document.createElement("button");
     b.className = "tipo-btn" + (n ? "" : " vacio-t"); b.setAttribute("aria-pressed", st.tipo === v);
+    transicion(b, "tipo:" + v, st.tipo === v, "marcar");
     b.innerHTML = `<span class="ico" aria-hidden="true">${ico}</span><span>${txt} <span class="n">${n}</span></span>`;
     b.onclick = () => { elegirTipo(v); st.archivo = false; render(); };  // la pantalla no se mueve sola (pedido de JP)
     t.appendChild(b);
@@ -463,15 +558,17 @@ function pintarRecomendados() {
   const porId = Object.fromEntries(eventos.map(e => [e.id, e]));
   const sel = ((DATOS && DATOS.recomendados) || []).map(i => porId[i]).filter(e => e && !ocultos.has(e.id));
   if (filtrando || !sel.length) { cont.innerHTML = ""; return; }
-  const antes = cont.querySelector(".carrusel")?.scrollLeft || 0;  // guardar/ocultar no devuelve el carrusel al inicio
-  cont.innerHTML = `<h2 class="seccion">⭐ Lo más recomendado <small>lo que más te suma en los próximos días</small></h2>
+  const previo = cont.querySelector(".carrusel");
+  const antes = previo?.scrollLeft || 0;  // guardar/ocultar no devuelve el carrusel al inicio
+  let k = 0; const ent = () => previo ? "" : entra(k++);  // entra con animación solo cuando aparece
+  cont.innerHTML = `<h2 class="seccion${ent()}">⭐ Lo más recomendado <small>lo que más te suma en los próximos días</small></h2>
     <div class="carrusel-caja">
     <button class="flecha izq" data-dir="-1" aria-label="Recomendado anterior" hidden><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button class="flecha der" data-dir="1" aria-label="Siguiente recomendado"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
     <div class="carrusel">` + sel.map(e => {
       const d = clave(e);
       const cuando = e.cierre ? `Cierra ${fDiaCorto.format(d)}` : `${fDiaCorto.format(d)} · ${fHora.format(d)}`;
-      return `<a class="reco" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">
+      return `<a class="reco${ent()}" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">
         <div class="img">${imagen(e)}</div>
         <div class="cuerpo"><b>${esc(e.titulo)}</b>
         <span>${cuando} · ${esc(lugarCorto(e))}</span></div></a>`;
@@ -504,8 +601,9 @@ function pintarExtras() {
     `<h2 class="seccion">🗓️ Se viene <small>grandes eventos anuales que se acercan</small></h2>
      <div class="mini">` + sv.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.nombre)}</b>
        <span>${esc(x.texto)} · ${esc(x.ciudad)}${x.dato ? " · " + esc(x.dato) : ""}</span></a>`).join("") + `</div>`;
+  const abierto = $("#por-confirmar details")?.open;  // no cerrarlo al guardar u ocultar algo
   $("#por-confirmar").innerHTML = filtrando || !pc.length ? "" :
-    `<details class="acerca"><summary>🔎 Visto en noticias, por confirmar (${pc.length})</summary>
+    `<details class="acerca"${abierto ? " open" : ""}><summary>🔎 Visto en noticias, por confirmar (${pc.length})</summary>
      <div class="mini">` + pc.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow"><b>${esc(x.titulo)}</b>
        <span>${esc(x.medio)}${x.fecha_mencionada ? " · menciona el " + fDiaCorto.format(new Date(x.fecha_mencionada)) : ""}</span></a>`).join("") + `</div></details>`;
 }
@@ -537,7 +635,7 @@ function dondeTexto(e) {
   const lugar = [e.lugar, e.distrito].filter(Boolean).filter((x, i, a) => a.indexOf(x) === i).join(" · ") || "Lima";
   return `<div><span class="ic">📍</span><span>${esc(lugar)}</span></div>`;
 }
-function tarjeta(e) {
+function tarjeta(e, i) {
   const d = clave(e);
   const fav = favs.has(e.id);
   const cats = (TIPOS[e.tipo] ? `<span class="cat tipo">${TIPOS[e.tipo]}</span>` : "")
@@ -552,7 +650,7 @@ function tarjeta(e) {
   const insignia = d ? `<div class="fecha ${e.cierre ? "cierre" : ""}">${e.cierre ? `<span class="pre">cierra</span>` : ""}<b>${d.getDate()}</b><span>${fMes.format(d).replace(".", "")}</span></div>`
                      : `<div class="fecha"><b>?</b><span>plazo</span></div>`;
   const accion = e.tipo === "evento" || !e.tipo ? "Inscribirme ↗" : e.tipo === "call for papers" ? "Ver convocatoria ↗" : "Postular ↗";
-  return `<article class="card" data-id="${esc(e.id)}">
+  return `<article class="card${entra(i)}" data-id="${esc(e.id)}">
     <div class="img">${imagen(e)}
       ${insignia}
       <span class="fuente">${esc(e.fuente)}</span>
@@ -571,7 +669,7 @@ function tarjeta(e) {
       <div class="acciones">
         <a class="btn inscribir" href="${esc(e.inscripcion || e.url)}" target="_blank" rel="noopener">${accion}</a>
         ${d ? `<a class="btn sec" href="${gcal(e)}" target="_blank" rel="noopener" title="Agregar a Google Calendar">📅 Agendar</a>` : ""}
-        <button class="btn sec icono ${fav ? "on" : ""}" data-a="fav" title="${fav ? "Quitar de guardados" : "Guardar para después"}" aria-label="${fav ? "Quitar de guardados" : "Guardar"}" aria-pressed="${fav}">${CORAZON(fav)}</button>
+        <button class="btn sec icono ${fav ? "on" : ""} ${render.late === e.id ? "late" : ""}" data-a="fav" title="${fav ? "Quitar de guardados" : "Guardar para después"}" aria-label="${fav ? "Quitar de guardados" : "Guardar"}" aria-pressed="${fav}">${CORAZON(fav)}</button>
       </div>
       <div class="origen">
         <span>Fuente: <a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.fuente)} ↗</a></span>
@@ -604,14 +702,22 @@ function pintarArchivo(cont) {
   cont.innerHTML = html;
 }
 
+// Animación de entrada: solo para lo que de verdad es nuevo en pantalla (al filtrar o al cargar más),
+// nunca al guardar u ocultar, para que la lista no "parpadee". Escalonado corto: máx. 8 pasos.
+// Devuelve el resto del atributo class: `class="card${entra(3)}"` → `class="card aparece" style="--i:3"`.
+const entra = i => i == null ? "" : ` aparece" style="--i:${Math.min(i, 8)}`;
 function render() {
   const firma = JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.guardados, st.q, st.archivo, st.tipo]);
-  if (render.firma !== firma) { render.firma = firma; limite = PAGINA; }
+  const cambio = render.firma !== firma;
+  if (cambio) { render.firma = firma; limite = PAGINA; }
+  const desde = cambio ? 0 : render.desde ?? Infinity;  // índice desde el que las tarjetas son nuevas
+  render.desde = undefined;
   const {q, archivo: _a, mas: _m, tipo: _t, ...resto} = st; guardar("radar-filtros-v2", resto);
   pintarTipos(); pintarFiltros(); pintarRecomendados(); pintarExtras();
   const cont = $("#lista");
+  const animarTodo = () => { if (cambio) [...cont.children].slice(0, 9).forEach((n, i) => { n.classList.add("aparece"); n.style.setProperty("--i", i); }); };
   if (!DATOS) { cont.innerHTML = `<div class="vacio"><b>⏳</b>Todavía no hay datos. Vuelve en unos minutos.</div>`; return; }
-  if (st.archivo) { pintarArchivo(cont); return; }
+  if (st.archivo) { pintarArchivo(cont); animarTodo(); render.late = null; return; }
   const lista = filtrar(false);
   const g = GRUPOS.find(([v]) => v === st.tipo);
   const titulo = g ? `${g[1]} ${g[2]}` : "Todas las oportunidades";
@@ -619,27 +725,31 @@ function render() {
     cont.innerHTML = `<h2 class="seccion">${titulo}</h2><div class="vacio"><b>🔍</b>${st.guardados && !favs.size
       ? "Aún no guardas nada. Toca el corazón de una oportunidad para tenerla aquí."
       : "No encontramos nada con esos filtros."}<br><button class="btn sec" data-a="limpiar">Ver todas las oportunidades</button></div>`;
+    animarTodo(); render.late = null;
     return;
   }
-  let html = `<h2 class="seccion">${titulo} <small>${lista.length}, ordenadas por fecha</small></h2>`, dia = "", abierto = false;
-  for (const e of lista.slice(0, limite)) {
+  let html = `<h2 class="seccion${cambio ? " aparece" : ""}">${titulo} <small>${lista.length}, ordenadas por fecha</small></h2>`, dia = "", abierto = false;
+  lista.slice(0, limite).forEach((e, i) => {
     const d = clave(e), k = d ? d.toDateString() : "sin-plazo";
+    const n = i >= desde ? i - desde + 1 : null;  // posición en la tanda que entra
     if (k !== dia) {
       if (abierto) html += `</div>`;
+      const cls = `dia${entra(n)}`;
       if (d) {
         const r = relativo(d);
-        html += `<div class="dia">${fDia.format(d).replace(/^./, c => c.toUpperCase())}${r ? `<span class="rel">${r}</span>` : ""}</div><div class="grid">`;
+        html += `<div class="${cls}">${fDia.format(d).replace(/^./, c => c.toUpperCase())}${r ? `<span class="rel">${r}</span>` : ""}</div><div class="grid">`;
       } else {
-        html += `<div class="dia">Convocatorias abiertas sin fecha límite publicada<span class="rel">revisa el plazo en la fuente</span></div><div class="grid">`;
+        html += `<div class="${cls}">Convocatorias abiertas sin fecha límite publicada<span class="rel">revisa el plazo en la fuente</span></div><div class="grid">`;
       }
       dia = k; abierto = true;
     }
-    html += tarjeta(e);
-  }
+    html += tarjeta(e, n);
+  });
   html += abierto ? `</div>` : "";
   if (lista.length > limite)
     html += `<button class="btn sec cargar" data-a="cargar">Cargar ${Math.min(PAGINA, lista.length - limite)} más (${lista.length - limite} restantes)</button>`;
   cont.innerHTML = html;
+  render.late = null;
 }
 
 // ---------- cabecera y pie
@@ -664,7 +774,7 @@ if (location.protocol.startsWith("http")) {
 $("#lista").addEventListener("click", ev => {
   const b = ev.target.closest("[data-a]"); if (!b) return;
   if (b.dataset.a === "salir-archivo") { ev.preventDefault(); st.archivo = false; render(); return; }
-  if (b.dataset.a === "cargar") { limite += PAGINA; render(); return; }
+  if (b.dataset.a === "cargar") { render.desde = limite; limite += PAGINA; render(); return; }
   if (b.dataset.a === "limpiar") {
     Object.assign(st, {cuando: "30", cats: [], top: false, gratis: false, presencial: false, guardados: false, tipo: "", q: ""});
     elegirTipo.previo = null; $("#q").value = ""; render(); return;
@@ -684,11 +794,15 @@ $("#lista").addEventListener("click", ev => {
     const p = card.querySelector(".desc"); p.classList.toggle("abierta");
     b.textContent = p.classList.contains("abierta") ? "Leer menos" : "Leer más"; return;
   }
-  if (b.dataset.a === "fav") { favs.has(id) ? favs.delete(id) : favs.add(id); guardar("radar-favs", [...favs]); }
+  if (b.dataset.a === "fav") {
+    favs.has(id) ? favs.delete(id) : favs.add(id); guardar("radar-favs", [...favs]);
+    if (favs.has(id)) render.late = id;  // el corazón "late" al guardar
+  }
   if (b.dataset.a === "ocultar") { ocultos.add(id); guardar("radar-ocultos", [...ocultos]); }
   render();
 });
-$("#q").addEventListener("input", e => { st.q = e.target.value; render(); });
+// espera a que la persona deje de teclear: la lista cambia (y se anima) una vez, no por cada letra
+$("#q").addEventListener("input", e => { clearTimeout(render.espera); render.espera = setTimeout(() => { st.q = e.target.value; render(); }, 220); });
 $("#f-cuando").addEventListener("scroll", e => {
   const c = e.currentTarget; c.classList.toggle("corta", c.scrollWidth - c.scrollLeft - c.clientWidth > 8);
 }, {passive: true});

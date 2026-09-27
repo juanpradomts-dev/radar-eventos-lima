@@ -1,4 +1,4 @@
-"""eventos.py — Radar de Oportunidades: eventos en Lima y convocatorias que SUMAN (no conciertos ni fiestas).
+"""eventos.py — Radar Lima: eventos en Lima y convocatorias que SUMAN (no conciertos ni fiestas).
 
 Recolecta de Luma, Eventbrite, Meetup (iCal por grupo), PUCP y, desde fuentes_extra.py, Devpost
 (hackathons), WikiCFP (calls for papers), Opportunity Desk (becas y programas), Opportunities for
@@ -106,7 +106,7 @@ EXCLUIR = r"\b(concierto|fiesta|party|dj|rave|reggaeton|salsa|karaoke|stand ?up|
 PERFIL_JSON = RAIZ / "perfil.json"
 INSTITUCIONALES_JSON = RAIZ / "institucionales.json"
 RECURRENTES_JSON = RAIZ / "recurrentes.json"  # eventos anuales verificados → "Se viene"
-TOP = 55           # puntaje (0-100) desde el que algo es "Para ti" (valor general + afinidad del perfil)
+TOP = 55           # puntaje (0-100) desde el que algo es "Destacado" (valor general + afinidad del perfil)
 VIRTUAL_TITULO = r"\b(webinar|webinars|online|virtual|en linea|via zoom|por zoom)\b"
 TOP_SIN_PERFIL = 40  # sin perfil.json solo hay valor general (0-60): "Destacado" desde 40
 
@@ -669,15 +669,15 @@ def generar_html(datos):
     publico = {k: v for k, v in datos.items() if k not in ("primera_vez", "historial_institucional")}
     js = json.dumps(publico, ensure_ascii=False).replace("</", "<\\/")
     PAGINA.write_text(plantilla.replace("/*__DATOS__*/null", js), encoding="utf-8")
-    generar_ics(datos["eventos"], "Radar de Oportunidades · todo", CARPETA / "eventos.ics")
+    generar_ics(datos["eventos"], "Radar Lima · todo", CARPETA / "eventos.ics")
     generar_ics([e for e in datos["eventos"] if e["puntaje"] >= datos.get("top", TOP)],
-                "Radar de Oportunidades · Para ti", CARPETA / "top.ics")
+                "Radar Lima · destacados", CARPETA / "top.ics")
     (CARPETA / "eventos.json").write_text(js, encoding="utf-8")
     return PAGINA
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Radar de Oportunidades: eventos en Lima y convocatorias que suman")
+    ap = argparse.ArgumentParser(description="Radar Lima: eventos en Lima y convocatorias que suman")
     ap.add_argument("--dias", type=int, default=60)
     ap.add_argument("--abrir", action="store_true")
     ap.add_argument("--solo-html", action="store_true")

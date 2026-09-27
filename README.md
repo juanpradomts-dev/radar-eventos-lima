@@ -1,4 +1,6 @@
-# Radar de Oportunidades
+# Radar Lima
+
+(Antes "Radar de Oportunidades"; nombre visible cambiado el 2026-09-27. La URL no cambia.)
 
 Eventos en Lima que suman como estudiante (charlas, talleres, meetups técnicos, congresos, cumbres y ferias) y convocatorias abiertas (hackathons, becas y programas, calls for papers, voluntariados), sin conciertos ni fiestas. **Nada se descarta:** lo que no pasa el filtro (recreativo, vencido, fuera del Perú, artículos que no son convocatorias…) queda en la sección **Archivo** con su motivo.
 
