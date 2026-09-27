@@ -501,8 +501,6 @@ const GRUPOS = [["evento", "🎤", "Charlas y talleres"], ["hackathon", "🏆", 
                 ["convocatoria", "🎓", "Becas y programas"], ["voluntariado", "🤝", "Voluntariado"],
                 ["call for papers", "📝", "Presenta tu investigación"]];
 const grupo = e => e.tipo || "evento";
-// Becas, retos y papers se preparan con meses: al elegirlos se ven todos, no solo los que cierran este mes
-const deLargoPlazo = v => !!v && v !== "evento";
 const CORAZON = on => `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="${on ? "#E0245E" : "none"}"
   stroke="${on ? "#E0245E" : "currentColor"}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:block">
   <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>`;
@@ -633,7 +631,7 @@ function pintarFiltros() {
   chip(c1, `⚙️ Filtros${activos ? `<span class="n">${activos}</span>` : ""} ${st.mas ? "▴" : "▾"}`, st.mas,
        () => { st.mas = !st.mas; render(); }, "filtros-mas");
   [["7", "Esta semana"], ["30", "Este mes"], ["todo", "Todo"]].forEach(([v, l]) =>
-    chip(c1, l, st.cuando === v, () => { st.cuando = v; elegirTipo.previo = null; render(); }));
+    chip(c1, l, st.cuando === v, () => { st.cuando = v; render(); }));
   c1.insertAdjacentHTML("beforeend", '<span class="separador"></span>');
   chip(c1, "🆓 Gratis", st.gratis, () => { st.gratis = !st.gratis; render(); }, "naranja");
   chip(c1, "📍 Presencial", st.presencial, () => { st.presencial = !st.presencial; render(); }, "naranja");
@@ -664,20 +662,18 @@ function pintarFiltros() {
     }));
 }
 
-// Al elegir becas/retos/papers se pasa a "Todo"; al volver a eventos se recupera el rango que había
+// Elegir un tipo NUNCA toca el filtro de fechas: lo que la persona eligió se respeta (pedido de JP).
+// Si en ese rango no hay nada, la lista vacía ofrece "Ver en todas las fechas" y decide ella.
 function elegirTipo(v) {
-  if (deLargoPlazo(v) && st.cuando !== "todo") { elegirTipo.previo = st.cuando; st.cuando = "todo"; }
-  else if (!deLargoPlazo(v) && elegirTipo.previo) { if (st.cuando === "todo") st.cuando = elegirTipo.previo; elegirTipo.previo = null; }
   st.tipo = v;
 }
 function pintarTipos() {
   const cuenta = lista => lista.reduce((c, e) => (c[grupo(e)] = (c[grupo(e)] || 0) + 1, c), {});
-  const ahoraN = cuenta(filtrar(false, true)), todoN = cuenta(filtrar(false, true, "todo"));
+  const ahoraN = cuenta(filtrar(false, true));  // con el mismo rango de fechas que está elegido
   const t = $("#tipos"); t.innerHTML = "";
   [["", "✨", "Todo"], ...GRUPOS].forEach(([v, ico, txt]) => {
-    // el número es lo que verás al tocarlo
-    const n = !v ? Object.values(ahoraN).reduce((a, b) => a + b, 0)
-      : (deLargoPlazo(v) && st.tipo !== v ? todoN : ahoraN)[v] || 0;
+    // el número es exactamente lo que verás al tocarlo
+    const n = !v ? Object.values(ahoraN).reduce((a, b) => a + b, 0) : ahoraN[v] || 0;
     const b = document.createElement("button");
     b.className = "tipo-btn" + (n ? "" : " vacio-t"); b.setAttribute("aria-pressed", st.tipo === v);
     transicion(b, "tipo:" + v, st.tipo === v, "marcar");
@@ -904,6 +900,7 @@ function pintarArchivo(cont) {
 // Marca lo nuevo para que aparezca al llegar a la vista (el orden escalonado lo pone el observador).
 const entra = i => i == null || !revelador ? "" : " revelar";
 const revela = () => entra(0);
+const RANGO = {"0": "para hoy", "7": "para esta semana", "30": "para este mes"};
 function render() {
   const firma = JSON.stringify([st.cuando, st.cats, st.top, st.gratis, st.presencial, st.guardados, st.q, st.archivo, st.tipo]);
   const cambio = render.firma !== firma;
@@ -922,7 +919,9 @@ function render() {
   if (!lista.length) {
     cont.innerHTML = `<h2 class="seccion">${titulo}</h2><div class="vacio"><b>🔍</b>${st.guardados && !favs.size
       ? "Aún no guardas nada. Toca el corazón de una oportunidad para tenerla aquí."
-      : "No encontramos nada con esos filtros."}<br><button class="btn sec" data-a="limpiar">Ver todas las oportunidades</button></div>`;
+      : `No encontramos nada ${RANGO[st.cuando] || "con esos filtros"}.`}<br>
+      ${st.cuando !== "todo" && !st.guardados ? `<button class="btn inscribir" style="flex:0 0 auto" data-a="todas-fechas">Ver en todas las fechas</button> ` : ""}
+      <button class="btn sec" data-a="limpiar">Ver todas las oportunidades</button></div>`;
     animarTodo(); render.late = null;
     return;
   }
@@ -1056,10 +1055,11 @@ function acciones(ev) {
   const b = ev.target.closest("[data-a]"); if (!b) return;
   if (b.dataset.a === "cerrar") { cerrarFoco(); return; }
   if (b.dataset.a === "salir-archivo") { ev.preventDefault(); st.archivo = false; render(); return; }
+  if (b.dataset.a === "todas-fechas") { st.cuando = "todo"; render(); return; }  // solo cambia la fecha, el resto se mantiene
   if (b.dataset.a === "cargar") { render.desde = limite; limite += PAGINA; render(); return; }
   if (b.dataset.a === "limpiar") {
     Object.assign(st, {cuando: "30", cats: [], top: false, gratis: false, presencial: false, guardados: false, tipo: "", q: ""});
-    elegirTipo.previo = null; $("#q").value = ""; render(); return;
+    $("#q").value = ""; render(); return;
   }
   const card = b.closest(".card"), id = card.dataset.id;
   if (b.dataset.a === "compartir") {
