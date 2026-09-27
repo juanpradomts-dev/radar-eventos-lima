@@ -1,0 +1,49 @@
+name: Agregar evento
+
+# A pedido del dueño: lo dispara el formulario "Añadir un evento" del panel (/linktree/), con su llave de GitHub.
+on:
+  workflow_dispatch:
+    inputs:
+      datos:
+        description: 'Evento en JSON: {"titulo", "fecha" (AAAA-MM-DD), "hora" (HH:MM), "url", "modalidad", "lugar", "organizador", "gratis", "descripcion"}'
+        required: true
+
+permissions:
+  contents: write   # guardar manuales.json
+  actions: write    # pedir que se publique el radar
+
+concurrency:
+  group: manuales
+  cancel-in-progress: false
+
+jobs:
+  agregar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests icalendar
+      - run: python -m unittest test_radar
+      - name: Validar y guardar el evento
+        env:  # la entrada va por variable de entorno, nunca pegada en el script
+          DATOS: ${{ inputs.datos }}
+        run: python agregar_manual.py
+      - run: python -m unittest test_radar   # lo agregado no puede romper el radar
+      - name: Guardar y publicar el radar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add manuales.json
+          if ! git diff --cached --quiet; then
+            git commit -m "manual: evento añadido desde el panel"
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break
+              sleep 5
+            done
+          fi
+          # un push hecho con el token del workflow no dispara otros workflows: se pide la publicación explícitamente
+          gh workflow run actualizar.yml --ref main
