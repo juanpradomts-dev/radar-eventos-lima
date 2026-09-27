@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-27T12:52-05:00",
+ "actualizado": "2026-09-27T13:03-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 62
+   "n": 60
   },
   "Eventbrite": {
    "ok": true,
@@ -46,7 +46,7 @@
    "n": 0
   }
  },
- "revisados": 338,
+ "revisados": 336,
  "top": 55,
  "eventos": [
   {
@@ -2085,6 +2085,34 @@
    "puntaje": 30,
    "por_que": "Presencial en Lima · Afín: Inteligencia artificial · Gratis · Evento sin formato claro",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "devpost:30858",
+   "titulo": "ForgeHacks Online 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-10T23:59-05:00",
+   "cierre": "2026-10-10T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://forgehacks-2026.devpost.com/",
+   "inscripcion": "https://forgehacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ForgeHacks",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $469,531.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-27T13:03-05:00"
   },
   {
    "id": "luma:evt-g4nJ9CwZ8xLZUEz",
@@ -7523,31 +7551,6 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "luma:evt-GoPjqyNlG8G4VIh",
-   "titulo": "Encuentro de Lectura",
-   "inicio": "2026-09-27T11:00-05:00",
-   "fin": "2026-09-27T13:00-05:00",
-   "lugar": "C. José Sabogal, Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/z87h20yo",
-   "fuente": "Luma",
-   "organizador": "Latinas Lectoras",
-   "descripcion": "En Septiembre, mes de aniversario de Latinas Lectoras, queremos celebrar el poder de la lectura para transformarnos en la ciudad donde nació nuestro club de lectura.\nInvitamos a toas las lectoras, sean members del club o no, a llenar el parque del placer de la lectura.\nVen sola o haz de esto un plan",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/p7/b15ae2a6-2ed9-4c24-a58e-63b441134af7.png",
-   "inscripcion": "https://lu.ma/z87h20yo",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis"
-  },
-  {
    "id": "eb:1999932168954",
    "titulo": "Bautismo cdv Miraflores",
    "inicio": "2026-09-27T13:30-05:00",
@@ -8332,61 +8335,6 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30998",
-   "titulo": "HelloHacks",
-   "tipo": "hackathon",
-   "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "University of British Columbia (UBC)",
-   "distrito": "University of British Columbia (UBC)",
-   "modalidad": "Presencial",
-   "url": "https://hellohacks-2026.devpost.com/",
-   "inscripcion": "https://hellohacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "UBC BizTech",
-   "descripcion": "Hackathon presencial en University of British Columbia (UBC). Temas: Beginner Friendly, Open Ended. Premios: $CAD 450.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/088/130/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 6,
-   "puntaje": 29,
-   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31072",
-   "titulo": "Test Flight: Glasswing Ventures AI Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "Glasswing Ventures",
-   "distrito": "Glasswing Ventures",
-   "modalidad": "Presencial",
-   "url": "https://test-flight-glasswing.devpost.com/",
-   "inscripcion": "https://test-flight-glasswing.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Glasswing Ventures",
-   "descripcion": "Hackathon presencial en Glasswing Ventures. Temas: Enterprise, Machine Learning/AI, DevOps. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/145/690/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 33,
-   "puntaje": 49,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:30236",
    "titulo": "Hack Atlantic",
    "tipo": "hackathon",
@@ -8810,31 +8758,6 @@
    "por_que": "Networking · Presencial en Lima · Gratis"
   },
   {
-   "id": "luma:evt-xM9RInhgTTIKzfn",
-   "titulo": "RECORRIDO CENTRO DE LIMA - ENTRE MUROS",
-   "inicio": "2026-09-27T09:30-05:00",
-   "fin": "2026-09-27T13:00-05:00",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/ldsg9yd6",
-   "fuente": "Luma",
-   "organizador": "ENTRE MUROS",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/n8/1ff8750f-8cfd-495b-9a15-2b01f42afd34.jpg",
-   "inscripcion": "https://lu.ma/ldsg9yd6",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (recorrido)",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "luma:evt-AE1UpSmxnSErCX2",
    "titulo": "UV Running Club 5K + Brunch by UTEC Ventures & adn.vc",
    "inicio": "2026-10-16T08:00-05:00",
@@ -9111,6 +9034,33 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31049",
+   "titulo": "HackIT 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-14T00:00-05:00",
+   "fin": "2026-10-20T23:59-05:00",
+   "cierre": "2026-10-20T23:59-05:00",
+   "lugar": "Ngee Ann Polytechnic School of ICT",
+   "distrito": "Ngee Ann Polytechnic School of ICT",
+   "modalidad": "Presencial",
+   "url": "https://hackit-2026.devpost.com/",
+   "inscripcion": "https://hackit-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "NP Overflow",
+   "descripcion": "Hackathon presencial en Ngee Ann Polytechnic School of ICT. Temas: Beginner Friendly, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/127/509/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31180",
    "titulo": "AI Lodge Hackathon 2026",
    "tipo": "hackathon",
@@ -9319,6 +9269,14 @@
    "fecha_mencionada": "2026-09-25T00:00-05:00"
   },
   {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
    "url": "https://itusers.today/pronto-webinar-smart-4-life-summit-2026-de-panduit-it-users-magazine/",
    "medio": "itusers",
@@ -9332,6 +9290,14 @@
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
    "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "(Multimedia) Feria peruana Expoalimentaria generó negocios por 1.100 millones de dólares",
+   "url": "https://spanish.news.cn/20260928/d52a30b2d5964dba85f33de0c7063f82/c.html",
+   "medio": "Xinhua Español",
+   "publicado": "Sun, 27 Sep 2026 04:50:00 GMT",
+   "resumen": "Imagen del 23 de septiembre de 2026 de trabajadores esperando por clientes en un estand en la feria Expoalimentaria 2026 en el Centro de Exposiciones Jockey, en Lima, Perú. (Xinhua/Mariana Bazo) LIMA, ...",
    "fecha_mencionada": ""
   },
   {
@@ -9364,14 +9330,6 @@
    "medio": "Expreso Interactivo",
    "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
    "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Expocafé Villa Rica 2026 regalará 3 mil vasos de café y 400 plantas en Lima",
-   "url": "https://diariocorreo.pe/edicion/lima/expocafe-villa-rica-2026-regalara-3-mil-vasos-de-cafe-y-400-plantas-en-lima-noticia/",
-   "medio": "Diario Correo",
-   "publicado": "Sun, 23 Aug 2026 05:48:00 GMT",
-   "resumen": "Más de 50 productores y emprendedores participarán en la feria en el Parque de la Exposición. Habrá degustaciones, productos regionales, charlas ambientales, danzas y actividades para niños.",
    "fecha_mencionada": ""
   }
  ],
@@ -9627,6 +9585,7 @@
   "devpost:31515": "2026-09-27T11:15-05:00",
   "devpost:31493": "2026-09-27T11:15-05:00",
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
-  "devpost:30588": "2026-09-27T11:15-05:00"
+  "devpost:30588": "2026-09-27T11:15-05:00",
+  "devpost:30858": "2026-09-27T13:03-05:00"
  }
 }
