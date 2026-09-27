@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T17:35-05:00",
+ "actualizado": "2026-09-27T18:35-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 34
+   "n": 33
   },
   "Eventbrite online": {
    "ok": true,
@@ -40,7 +40,7 @@
   "Opportunities for Youth": {
    "ok": true,
    "n": 10,
-   "cache": "2026-09-27T17:30-05:00"
+   "cache": "2026-09-27T17:35-05:00"
   },
   "TEDx": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 365,
+ "revisados": 364,
  "top": 55,
  "eventos": [
   {
@@ -147,34 +147,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Becas y posgrado · Voluntariado · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "eb:2001277781718",
-   "titulo": "ATECH ZONE - Tecnología que conecta contigo",
-   "inicio": "2026-09-27T10:00-05:00",
-   "fin": "2026-09-27T18:00-05:00",
-   "lugar": "Centro Comercial Plaza Camacho, 5193 Avenida Javier Prado Este",
-   "distrito": "La Molina",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/atech-zone-tecnologia-que-conecta-contigo-tickets-2001277781718",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "ATECH ZONE conecta gente y tecnología en un evento único para vivir la innovación de cerca. ¡No te lo pierdas!",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193712952%2F3014416757640%2F1%2Foriginal.20260917-014856?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=864987258228717c090b426cdb3f042a",
-   "inscripcion": "https://www.eventbrite.com.pe/e/atech-zone-tecnologia-que-conecta-contigo-tickets-2001277781718",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 18,
-   "afinidad": 4,
-   "puntaje": 22,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · Afín: Emprendimiento y finanzas",
-   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "meetup:316630675",
@@ -8418,31 +8390,6 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "eb:1982892086609",
-   "titulo": "Solo travellers: casual hangout in Lima (4pm)",
-   "inicio": "2026-09-27T16:00-05:00",
-   "fin": "2026-09-27T18:00-05:00",
-   "lugar": "Las Tradiciones Park, 821 Avenida Ricardo Palma",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892086609",
-   "fuente": "Eventbrite",
-   "organizador": "Curious to Change",
-   "descripcion": "No pressure, no plan. Just new friends. Weekly get together to meet, chat, and create connections with other curious peeps.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177291423%2F2830687274421%2F1%2Foriginal.20260211-165217?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C133%2C1920%2C960&s=de00a65eb372d3977b16b62dbb8796e2",
-   "inscripcion": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892086609",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "eb:2000908636595",
    "titulo": "Bautismo punto cdv",
    "inicio": "2026-09-27T19:00-05:00",
@@ -8566,6 +8513,31 @@
    "afinidad": 0,
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
+  },
+  {
+   "id": "eb:1982892087612",
+   "titulo": "Solo travellers: casual hangout in Lima (4pm)",
+   "inicio": "2026-10-04T16:00-05:00",
+   "fin": "2026-10-04T18:00-05:00",
+   "lugar": "Las Tradiciones Park, 821 Avenida Ricardo Palma",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892087612",
+   "fuente": "Eventbrite",
+   "organizador": "Curious to Change",
+   "descripcion": "No pressure, no plan. Just new friends. Weekly get together to meet, chat, and create connections with other curious peeps.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177291423%2F2830687274421%2F1%2Foriginal.20260211-165217?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C133%2C1920%2C960&s=de00a65eb372d3977b16b62dbb8796e2",
+   "inscripcion": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892087612",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
    "id": "luma:evt-x8hN8xnVNgFJeM7",
@@ -8730,7 +8702,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61d4d0a20688a44f11b8895fa422b992",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254435458",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10121,8 +10093,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-27T17:35-05:00",
-  "revisados": 235,
+  "fecha": "2026-09-27T18:35-05:00",
+  "revisados": 234,
   "corregidos": 16,
   "avisos": 4,
   "archivados": 0,
@@ -10311,6 +10283,14 @@
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
    "fecha_mencionada": "2026-09-25T00:00-05:00"
+  },
+  {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
+   "fecha_mencionada": ""
   },
   {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
@@ -10518,7 +10498,6 @@
   "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037": "2026-09-24T21:10-05:00",
   "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233": "2026-09-24T21:10-05:00",
   "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
-  "eb:2001277781718": "2026-09-24T21:23-05:00",
   "eb:1999328032967": "2026-09-24T21:23-05:00",
   "eb:1999310788388": "2026-09-24T21:23-05:00",
   "eb:1993705212961": "2026-09-24T21:23-05:00",
