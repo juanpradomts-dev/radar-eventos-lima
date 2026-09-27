@@ -365,7 +365,10 @@ def _local(texto):
 # se siguen los grupos de Lima que publican cosas que suman.
 GRUPOS_MEETUP = ["awsperu", "aws-sbg-at-national-university-of-engineering",
                  "aws-sbg-at-technological-university-of-peru", "bi-expert", "msperu",
-                 "speak-up-conversation-club", "practice-english-saturday", "lince-english-group"]
+                 "speak-up-conversation-club", "practice-english-saturday", "lince-english-group",
+                 # comunidades tech de Lima (2026-09-27: sin eventos próximos, pero se vigilan por si vuelven a publicar)
+                 "grupos-de-usuarios-de-python-en-lima-peru", "Machine-Learning-Peru", "pythonperu",
+                 "Data-Science-Lima", "wia-lima-peru", "perutech", "women-techmakers-lima"]
 VIRTUAL = r"\b(online|virtual|zoom|google meet|meet\.google|teams|youtube|webinar|transmision en vivo)\b"
 
 
@@ -549,6 +552,68 @@ def enriquecer(ev):
     return ev
 
 
+# IEEE vTools: ahí publican sus eventos las ramas estudiantiles IEEE (UNI, San Marcos, PUCP, UPC, Callao…).
+# API pública permitida por robots.txt, que pide 60 s entre peticiones y no filtra por país: se hace UNA consulta
+# (~1000 eventos del mundo, ~5 MB) como máximo una vez al día, y se guarda solo lo de la Sección Perú.
+VTOOLS_API = "https://events.vtools.ieee.org/RST/events/api/public/v5/events/list?span=now~&limit=1000"
+SECCION_PERU = "R90721"
+CACHE_VTOOLS = RAIZ / "cache" / "vtools_peru.json"
+VTOOLS_INTERNO = r"\b(excom|officer|meeting ?#|reunion (de )?(junta|directiva|interna)|asamblea)\b"
+
+
+def _ieee_evento(a):
+    h = a.get("primary-host") or {}
+    ini = _parse((a.get("start-time") or "").replace(".000Z", "Z"))
+    fin = _parse((a.get("end-time") or "").replace(".000Z", "Z"))
+    virtual = bool(a.get("virtual")) or a.get("location-type") == "virtual"
+    lugar = ", ".join(x for x in (a.get("building"), a.get("room-number"), a.get("address1")) if x)
+    costo = str(a.get("cost") or "").strip()
+    link = a.get("link") or f"https://events.vtools.ieee.org/m/{a.get('id')}"
+    return {
+        "id": f"ieee:{a.get('id')}",
+        "titulo": (a.get("title") or "").strip(),
+        "inicio": _iso(ini), "fin": _iso(fin),
+        "lugar": "" if virtual else lugar, "distrito": "" if virtual else (a.get("city") or ""),
+        "modalidad": "Virtual" if virtual else "Presencial",
+        "url": link, "inscripcion": a.get("registration-url") or link,
+        "fuente": "IEEE Perú", "fuente_url": "https://events.vtools.ieee.org/",
+        "organizador": "IEEE · " + (h.get("name") or "Sección Perú"),
+        "descripcion": _html_a_texto(a.get("description") or "")[:1500],
+        "gratis": True if costo in ("", "0", "0.0", "0.00", "None") else None,
+        "imagen": a.get("image") or "",
+        "cats_fuente": ["Tecnología e IA", "Ingeniería y operaciones"],
+    }
+
+
+def ieee_peru(limite, get_=None, ahora=None):
+    """Eventos de la Sección Perú de IEEE (ramas estudiantiles), con la consulta del día guardada en cache/."""
+    ahora = ahora or datetime.now(LIMA)
+    try:
+        guardado = json.loads(CACHE_VTOOLS.read_text(encoding="utf-8"))
+        vigente = ahora - _parse(guardado["fecha"]) < timedelta(hours=20)
+    except (OSError, ValueError, KeyError, TypeError):
+        guardado, vigente = None, False
+    if vigente:
+        crudos = guardado["eventos"]
+    else:
+        r = (get_ or get)(VTOOLS_API, timeout=150)
+        r.raise_for_status()
+        datos = r.json()
+        datos = datos.get("data", datos) if isinstance(datos, dict) else datos
+        crudos = [d.get("attributes", d) for d in datos
+                  if str(((d.get("attributes", d)).get("primary-host") or {}).get("section_spoids")) == SECCION_PERU]
+        CACHE_VTOOLS.parent.mkdir(exist_ok=True)
+        CACHE_VTOOLS.write_text(json.dumps({"fecha": _iso(ahora), "eventos": crudos}, ensure_ascii=False), encoding="utf-8")
+    out = []
+    for a in crudos:
+        if a.get("cancelled") or re.search(VTOOLS_INTERNO, norm(a.get("title") or "")):
+            continue
+        ev = _ieee_evento(a)
+        if ev["inicio"] and _parse(ev["inicio"]) <= limite:
+            out.append(ev)
+    return out
+
+
 def manuales(limite):
     """Eventos vistos en redes sociales (Instagram, LinkedIn...) que se agregan a mano en
     manuales.json. Esas redes exigen login y prohíben el scraping, así que no se leen solas."""
@@ -576,7 +641,7 @@ def manuales(limite):
     return out
 
 
-FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Eventbrite online": eventbrite_online, "Meetup": meetup, "PUCP": pucp,
+FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Eventbrite online": eventbrite_online, "Meetup": meetup, "PUCP": pucp, "IEEE Perú": lambda lim: ieee_peru(lim),
            **fuentes_extra.fuentes(get), "Institucionales": lambda lim: _institucionales(lim),
            "Inscripciones (Linktree)": lambda lim: _inscripciones(lim),
            "Redes (manual)": manuales}
@@ -628,7 +693,7 @@ def recolectar(dias, perfil=None):
             crudos += lote
             # 0 resultados en una fuente automática = casi siempre bloqueo (p. ej. Eventbrite
             # ante IPs de GitHub): se trata como caída para conservar sus eventos previos.
-            if not lote and nombre not in ("Redes (manual)", "Institucionales", "Inscripciones (Linktree)"):
+            if not lote and nombre not in ("Redes (manual)", "Institucionales", "Inscripciones (Linktree)", "IEEE Perú"):
                 raise RuntimeError("0 resultados (posible bloqueo)")
             estado[nombre] = {"ok": True, "n": len(lote)}
             copias = [v for k, v in fuentes_extra.CACHE_USADO.items() if k not in antes]
@@ -846,8 +911,9 @@ def main():
                                                                 [e["titulo"] for e in eventos])
         except Exception as e:  # el descubrimiento es un extra: si falla, el radar sigue
             extras["por_confirmar"], estado["Descubrimiento"] = [], {"ok": False, "n": 0, "error": str(e)[:160]}
-        # inscripciones de Linktree que no se pudieron leer solas (Microsoft Forms, formularios privados, sin fecha)
-        extras["por_confirmar"] = list(inscripciones.POR_CONFIRMAR) + extras["por_confirmar"]
+        # inscripciones de Linktree que no se pudieron leer solas (Microsoft Forms, formularios privados, sin fecha):
+        # sección propia arriba en la página, no escondidas al final
+        extras["inscripciones_abiertas"] = list(inscripciones.POR_CONFIRMAR)
         datos = guardar(eventos, archivo, estado, total, extras)
         fuentes = ", ".join(f"{k} {v['n']}" + ("" if v["ok"] else " (FALLÓ)") for k, v in estado.items())
         print(f"[radar] {len(datos['eventos'])} en la lista · {len(datos['archivo'])} en el Archivo "

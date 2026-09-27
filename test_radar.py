@@ -525,6 +525,41 @@ class EventbriteOnline(unittest.TestCase):
         self.assertTrue(all(e["modalidad"] == "Virtual" and e["fuente"] == "Eventbrite online" for e in out.values()))
 
 
+class IEEEPeru(unittest.TestCase):
+    """vTools: solo la Sección Perú, sin reuniones internas, y la consulta del día se reutiliza (robots pide 60 s)."""
+
+    def _a(self, i, titulo, seccion, inicio="2026-10-01T23:00:00.000Z", **kw):
+        return {"attributes": {"id": i, "title": titulo, "start-time": inicio, "end-time": inicio, "virtual": False,
+                               "city": "Lima", "address1": "Av. Túpac Amaru 210", "cost": "0", "cancelled": False,
+                               "link": f"https://events.vtools.ieee.org/m/{i}", "description": "<p>Charla de robótica</p>",
+                               "primary-host": {"name": "Universidad Nacional de Ingenieria Lima", "section_spoids": seccion}, **kw}}
+
+    def test_filtra_seccion_peru_y_reutiliza_la_consulta_del_dia(self):
+        datos = [self._a(1, "Ponencia: Hospital inteligente", "R90721"),
+                 self._a(2, "Charla en Quito", "R90307"),
+                 self._a(3, "ExCom Meeting octubre", "R90721"),
+                 self._a(4, "Taller cancelado", "R90721", cancelled=True)]
+        pedidos = []
+
+        def get_(u, **k):
+            pedidos.append(u)
+            return type("R", (), {"raise_for_status": lambda s: None, "json": lambda s: {"data": datos}})()
+        viejo = eventos.CACHE_VTOOLS
+        with tempfile.TemporaryDirectory() as tmp:
+            eventos.CACHE_VTOOLS = Path(tmp) / "vtools_peru.json"
+            try:
+                ahora = datetime(2026, 9, 27, 12, 0, tzinfo=LIMA)
+                out = eventos.ieee_peru(ahora + timedelta(days=60), get_=get_, ahora=ahora)
+                out2 = eventos.ieee_peru(ahora + timedelta(days=60), get_=get_, ahora=ahora + timedelta(hours=5))
+            finally:
+                eventos.CACHE_VTOOLS = viejo
+        self.assertEqual([e["titulo"] for e in out], ["Ponencia: Hospital inteligente"])
+        self.assertEqual(out[0]["inicio"], "2026-10-01T18:00-05:00")  # 23:00 UTC = 18:00 Lima
+        self.assertTrue(out[0]["gratis"])
+        self.assertEqual(len(pedidos), 1)  # la segunda vez, el mismo día, sale de lo guardado
+        self.assertEqual(out2, out)
+
+
 class LectorLinktree(unittest.TestCase):
     """Lógica compartida por el botón de GitHub, el botón local y /linktree (solo corre a pedido)."""
     PAGINA = {"props": {"pageProps": {"pageTitle": "Universidad X", "links": [
