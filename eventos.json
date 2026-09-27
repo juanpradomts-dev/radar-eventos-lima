@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27T13:29-05:00",
+ "actualizado": "2026-09-27T13:39-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -31,8 +31,7 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-09-27T13:15-05:00"
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -40,14 +39,14 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 10
+   "n": 12
   },
   "Redes (manual)": {
    "ok": true,
    "n": 0
   }
  },
- "revisados": 334,
+ "revisados": 336,
  "top": 55,
  "eventos": [
   {
@@ -2199,6 +2198,38 @@
    "puntaje": 39,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Plazo claro",
    "visto_desde": "2026-09-26T15:34-05:00"
+  },
+  {
+   "id": "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13",
+   "titulo": "Ciclo Sunafil: cumplimiento, bienestar y sostenibilidad",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-13T00:00-05:00",
+   "fin": "2026-10-13T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://amcham.org.pe/evento/ciclo-sunafil-cumplimiento-bienestar-y-sostenibilidad/",
+   "inscripcion": "https://amcham.org.pe/evento/ciclo-sunafil-cumplimiento-bienestar-y-sostenibilidad/",
+   "fuente": "Institucional",
+   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
+   "organizador": "Cámara de Comercio Americana del Perú",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/04/ciclo_sunafil.jpg",
+   "extraido_por": "sitemap + fecha en texto",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
+   "visto_desde": "2026-09-27T13:39-05:00"
   },
   {
    "id": "luma:evt-iWf78QCKrq9MgjZ",
@@ -4951,6 +4982,37 @@
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima",
    "visto_desde": "2026-09-24T22:14-05:00"
+  },
+  {
+   "id": "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23",
+   "titulo": "Sustainability Immersion Trip: Moving from Concept to Strategy",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-23T00:00-05:00",
+   "fin": "2026-11-27T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
+   "inscripcion": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
+   "fuente": "Institucional",
+   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
+   "organizador": "Cámara de Comercio Americana del Perú",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/08/1-1-scaled.jpg",
+   "extraido_por": "sitemap + fecha en texto",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
+   "visto_desde": "2026-09-27T13:39-05:00"
   },
   {
    "id": "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214",
@@ -9175,7 +9237,7 @@
   "ESAN — eventos": 4,
   "PMI Lima": 1,
   "Sociedad Nacional de Industrias": 4,
-  "AmCham Perú": 0,
+  "AmCham Perú": 2,
   "ComexPerú": 0
  },
  "se_viene": [
@@ -9205,6 +9267,14 @@
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
    "fecha_mencionada": "2026-09-25T00:00-05:00"
+  },
+  {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
+   "fecha_mencionada": ""
   },
   {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
@@ -9247,19 +9317,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Expomina Perú 2026: Lima será epicentro de la minería mundial en setiembre",
-   "url": "https://www.expreso.com.pe/actualidad/expomina-peru-2026-lima-sera-epicentro-de-la-mineria-mundial-en-setiembre-noticia/1310398/",
-   "medio": "Expreso Interactivo",
-   "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
-   "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000",
    "url": "https://andina.pe/agencia/noticia-feria-artesanal-exhibe-peru-2026-lima-alcanzaria-ventas-s-80000-1080084.aspx",
    "medio": "andina.pe",
    "publicado": "Wed, 17 Jun 2026 17:00:00 GMT",
    "resumen": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000 En beneficio de artesanos de nueve regiones del país Ministro de Comercio Exterior y Turismo, Berthin Gómez. ANDINA/Difusión 22 ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Expomina Perú 2026: Lima será epicentro de la minería mundial en setiembre",
+   "url": "https://www.expreso.com.pe/actualidad/expomina-peru-2026-lima-sera-epicentro-de-la-mineria-mundial-en-setiembre-noticia/1310398/",
+   "medio": "Expreso Interactivo",
+   "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
+   "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
    "fecha_mencionada": ""
   }
  ],
@@ -9514,6 +9584,8 @@
   "devpost:31493": "2026-09-27T11:15-05:00",
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
   "devpost:30588": "2026-09-27T11:15-05:00",
-  "devpost:30858": "2026-09-27T13:29-05:00"
+  "devpost:30858": "2026-09-27T13:29-05:00",
+  "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13": "2026-09-27T13:39-05:00",
+  "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-27T13:39-05:00"
  }
 }
