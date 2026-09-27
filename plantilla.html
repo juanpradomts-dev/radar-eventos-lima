@@ -12,9 +12,11 @@
 <meta name="description" content="Eventos en Lima, hackathons, becas, calls for papers y voluntariados para crecer como estudiante. Se actualiza solo cada 3 horas.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
+  --letra-titulos:"Outfit",system-ui,-apple-system,"Segoe UI",sans-serif;  /* marca, títulos y números: redondeada y cercana */
+  --letra-texto:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;   /* lectura: clara y amable */
   --natural:cubic-bezier(.22,.61,.36,1);   /* entradas y cambios de estado */
   --asentar:cubic-bezier(.16,1,.3,1);      /* movimientos que "se posan" (elevar, aparecer) */
   /* Paleta UCSUR (tomada de cientifica.edu.pe): naranja #F56200 y azul #1D428A */
@@ -27,7 +29,9 @@
 *{box-sizing:border-box}
 html{color-scheme:light}
 body{margin:0;background:var(--fondo);color:var(--texto);
-  font:16px/1.55 "Nunito",system-ui,-apple-system,"Segoe UI",sans-serif}
+  font:16px/1.55 var(--letra-texto)}
+h1,h2,h3,.marca,.dia,.fecha b,.reco b,.mini b,.tipo-btn,.saludo,details summary,.f-item b,.aviso-seccion b{font-family:var(--letra-titulos)}
+h1,h2,h3{letter-spacing:-.01em}
 a{color:inherit}
 .contenedor{max-width:1180px;margin:0 auto;padding:0 16px}
 
@@ -44,7 +48,7 @@ a{color:inherit}
 .hero h1 span{color:#FFB27F}
 .hero p{margin:0;max-width:640px;opacity:.9}
 /* marca: saludo + nombre con un radar que barre despacio */
-.hero .saludo{font-size:15px;font-weight:700;opacity:.85;margin:0}
+.hero .saludo{font-size:clamp(20px,2.6vw,26px);font-weight:600;opacity:.9;margin:0;letter-spacing:.01em}
 .hero h1.marca{display:flex;align-items:center;gap:12px;font-size:clamp(36px,6vw,54px);line-height:1.05;margin:4px 0 10px;letter-spacing:-.01em}
 .radar{width:clamp(38px,5.5vw,50px);height:auto;flex:0 0 auto}
 .radar .aguja{transform-origin:24px 24px}
@@ -57,7 +61,8 @@ a{color:inherit}
   box-shadow:0 8px 24px rgba(0,0,0,.18);max-width:640px}
 .buscador input{flex:1;min-width:0;border:0;outline:0;font:inherit;padding:10px 12px;color:var(--texto);background:transparent}
 .buscador .lupa{padding:10px 6px 10px 10px;color:var(--gris)}
-.estado-mini{display:flex;align-items:center;gap:8px;margin:14px 0 0;font-size:13.5px;opacity:.85}
+.estado-mini{display:flex;align-items:flex-start;gap:8px;margin:14px 0 0;font-size:13.5px;opacity:.85}
+.estado-mini .punto{flex:0 0 auto;margin-top:6px}
 .estado-mini .punto{width:8px;height:8px;border-radius:50%;background:#5BE3A8;box-shadow:0 0 0 3px rgba(91,227,168,.25)}
 .cifras{display:flex;gap:22px;flex-wrap:wrap;margin-top:18px;font-size:14px}
 .cifras b{font-size:22px;display:block;line-height:1.1}
@@ -209,6 +214,20 @@ details.grupo summary .n{color:var(--gris);font-weight:700}
 .f-item a{color:var(--azul);font-weight:700;font-size:13.5px}
 .como{font-size:14.5px;color:#34435A;max-width:820px}
 .suscribir{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+/* ---------- control de calidad */
+.verificadas{color:#9EF0CB;font-weight:700;text-decoration:none;border-bottom:1px dashed rgba(158,240,203,.6)}
+.verificadas:hover{color:#fff}
+.calidad-cifras{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 14px}
+.calidad-cifras div{background:var(--fondo);border:1px solid var(--linea);border-radius:14px;padding:10px 16px;min-width:108px}
+.calidad-cifras b{display:block;font-family:var(--letra-titulos);font-size:24px;color:var(--azul);line-height:1.1}
+.calidad-cifras span{font-size:13px;color:var(--gris)}
+.calidad-lista{list-style:none;margin:0;padding:0;display:grid;gap:8px;max-width:860px}
+.calidad-lista li{display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid var(--linea);border-radius:12px;padding:9px 12px}
+.calidad-lista a{color:var(--texto);font-weight:600;text-decoration:none}
+.calidad-lista a:hover{color:var(--azul);text-decoration:underline}
+.calidad-lista small{display:block;color:var(--gris);font-size:12.5px}
+.f-item .estado.revisar{background:#FFF4E5;color:#9A5B00}
+
 /* ---------- partes dinámicas (con medida: cada una responde a algo o informa algo) */
 /* buscador: sugerencia de tema que va cambiando, encima del campo vacío */
 .campo{position:relative;flex:1;min-width:0;display:flex}
@@ -312,6 +331,7 @@ body.desplazando .card,body.desplazando .reco{pointer-events:none}
 .buscador{animation-delay:.18s}
 .que-buscas{animation-delay:.24s}
 .estado-mini{animation-delay:.3s}
+.radar .aguja{animation:barrer 7s linear infinite}  /* lento y constante: un radar real no acelera */
 .radar .blip{animation:blip-luz 2s ease-in-out infinite}
 /* lo que entra a la lista al filtrar o al cargar más */
 .aparece{animation:aparecer .55s var(--asentar) backwards;animation-delay:calc(var(--i,0) * 55ms)}
@@ -328,7 +348,6 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
   html{scroll-behavior:smooth}
   .hero .saludo,.hero h1,.hero .lema,.buscador,.que-buscas,.estado-mini,.aparece{animation-name:subir}
   #mas-filtros:not([hidden]),details[open]>:not(summary){animation-name:bajar}
-  .radar .aguja{animation:barrer 4s linear infinite}
   .radar .blip{animation-name:blip}
   .btn.icono.late svg{animation:latido .4s ease-out}
   .chip:active,.tipo-btn:active,.btn:active,.flecha:active{transform:scale(.96)}
@@ -370,7 +389,7 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
 
 <header class="hero">
   <div class="contenedor">
-    <p class="saludo">👋 Bienvenido a</p>
+    <p class="saludo">Bienvenido a</p>
     <h1 class="marca">
       <svg class="radar" viewBox="0 0 48 48" aria-hidden="true">
         <defs><linearGradient id="barrido" x1="0" y1="0" x2="1" y2="0">
@@ -387,7 +406,7 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
     <label class="buscador">
       <span class="lupa" aria-hidden="true">🔎</span>
       <span class="campo">
-        <input type="search" id="q" placeholder="Busca un tema: tecnología, negocios…" aria-label="Buscar oportunidades">
+        <input type="search" id="q" placeholder="Escribe lo que te interesa…" aria-label="Buscar oportunidades">
         <span class="sugerencia" aria-hidden="true"></span>
       </span>
     </label>
@@ -420,6 +439,9 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
     <div class="lista-fuentes" id="lista-fuentes"></div>
     <p class="como"><b>¿Viste un evento en Instagram o LinkedIn que no aparece?</b> Esas redes exigen iniciar sesión y prohíben la lectura automática, así que se agregan a mano en <code>manuales.json</code> y salen aquí con la etiqueta de la red.</p>
     <p class="como"><b>¿Cómo se ordena?</b> Cada oportunidad suma un <b>valor general</b>, igual para cualquier estudiante: formativo > networking > recreativo, más puntos si es presencial en Lima, gratis, con certificado o premio, organizada por una universidad, gremio o empresa reconocida, o con plazo claro; resta si parece venta o trae poca información. Encima se suma la <b>afinidad personal</b> de <code>perfil.json</code> (editable). La línea ✨ de cada tarjeta dice por qué aparece.</p>
+    </details>
+    <details class="acerca" id="calidad"><summary>🛡️ Control de calidad: cómo se revisa cada evento</summary>
+      <div id="calidad-cuerpo"></div>
     </details>
     <h2 class="seccion">📅 Llévalo a tu calendario</h2>
     <div class="suscribir" id="suscribir"></div>
@@ -788,9 +810,9 @@ function cuandoTexto(e, conDia = false) {
   // El día ya lo dice el encabezado del grupo: aquí basta la hora (y hasta cuándo, si dura varios días)
   const f = e.fin ? new Date(e.fin) : null;
   const varios = f && f.toDateString() !== d.toDateString() && f > d ? `hasta el ${fDiaCorto.format(f)}` : "";
-  const sinHora = !d.getHours() && !d.getMinutes();
+  const sinHora = (!d.getHours() && !d.getMinutes()) || e.hora_dudosa;  // el verificador no confía en esa hora
   const hora = sinHora ? "" : fHora.format(d) + (f && !varios ? " – " + fHora.format(f) : "");
-  return `<div><span class="ic">🕒</span><span>${([conDia && fDia.format(d), hora, varios].filter(Boolean).join(" · ") || "Horario: revísalo en la fuente").replace(/^./, c => c.toUpperCase())}</span></div>`;
+  return `<div><span class="ic">🕒</span><span>${([conDia && fDia.format(d), hora, varios].filter(Boolean).join(" · ") || (e.hora_dudosa ? "Hora por confirmar: revísala en la fuente" : "Horario: revísalo en la fuente")).replace(/^./, c => c.toUpperCase())}</span></div>`;
 }
 function dondeTexto(e) {
   if (e.modalidad === "Virtual") return `<div><span class="ic">💻</span><span>Virtual</span></div>`;
@@ -927,7 +949,7 @@ function marcarLeerMas() {
   });
 }
 addEventListener("resize", () => { cancelAnimationFrame(marcarLeerMas.r); marcarLeerMas.r = requestAnimationFrame(marcarLeerMas); });
-if (document.fonts) document.fonts.ready.then(marcarLeerMas);  // la letra Nunito cambia dónde se corta el texto
+if (document.fonts) document.fonts.ready.then(marcarLeerMas);  // la tipografía cambia dónde se corta el texto
 
 // ---------- cabecera y pie
 function hace() {
@@ -935,16 +957,49 @@ function hace() {
   return min < 60 ? `hace ${Math.max(min, 1)} min` : `hace ${Math.round(min / 60)} h`;
 }
 if (DATOS) {
-  $("#estado-act").innerHTML = `<span id="total-n">${eventos.length}</span> oportunidades · actualizado <span id="hace">${hace()}</span>`;
+  $("#estado-act").innerHTML = `<span id="total-n">${eventos.length}</span> oportunidades · actualizado <span id="hace">${hace()}</span>`
+    + (DATOS.calidad ? ` · <a href="#calidad" class="verificadas" data-a="ver-calidad">✔ verificadas</a>` : "");
   setInterval(() => $("#hace").textContent = hace(), 60e3);  // el "hace X min" corre solo, en vivo
   const f = DATOS.fuentes || {};
   $("#lista-fuentes").innerHTML = Object.entries(f).map(([k, v]) => {
     const i = FUENTES_INFO[k] || {};
-    const n = eventos.filter(e => e.fuente === k).length, na = archivo.filter(e => e.fuente === k).length;
-    return `<div class="f-item"><b>${esc(k)} <span class="estado ${v.ok ? "" : "caida"}">${v.ok ? n + " en lista" + (na ? ` · ${na} arch.` : "") + (v.cache ? ` · copia del ${new Date(v.cache).toLocaleDateString("es-PE", {day: "numeric", month: "short"})}` : "") : "sin respuesta"}</span></b>
-      <p>${esc(i.txt || "")}</p>${i.url ? `<a href="${i.url}" target="_blank" rel="noopener">Ver en ${esc(k)} ↗</a>` : ""}</div>`;
+    const deK = e => e.fuente === k || k.startsWith(e.fuente);  // "Institucionales" agrupa los eventos "Institucional"
+    const n = eventos.filter(deK).length, na = archivo.filter(deK).length;
+    return `<div class="f-item${v.revisar ? " observada" : ""}"><b>${esc(k)} <span class="estado ${v.ok ? (v.revisar ? "revisar" : "") : "caida"}">${v.ok ? n + " en lista" + (na ? ` · ${na} arch.` : "") + (v.cache ? ` · copia del ${new Date(v.cache).toLocaleDateString("es-PE", {day: "numeric", month: "short"})}` : "") : "sin respuesta"}</span></b>
+      <p>${esc(i.txt || "")}${v.revisar ? `<br><em>En observación: ${esc(v.revisar)}</em>` : ""}</p>${i.url ? `<a href="${i.url}" target="_blank" rel="noopener">Ver en ${esc(k)} ↗</a>` : ""}</div>`;
   }).join("");
 }
+// ---------- control de calidad: qué se revisó y qué se corrigió en la última actualización
+if (DATOS && DATOS.calidad) {
+  const c = DATOS.calidad, en = c.enlaces || {};
+  const ICO = {corregido: "🔧", aviso: "⚠️", archivado: "🗄️"}, PESO = {corregido: 0, aviso: 1, archivado: 2};
+  const grupos = [];  // una fila por evento, con el ícono de su nota más seria
+  c.problemas.forEach(p => {
+    let g = grupos.find(x => x.id === p.id);
+    if (!g) grupos.push(g = {...p, detalles: []});
+    g.detalles.push(p.detalle);
+    if (PESO[p.nivel] > PESO[g.nivel]) g.nivel = p.nivel;
+  });
+  $("#calidad-cuerpo").innerHTML = `
+    <p class="como">Antes de publicarse, cada evento pasa por un verificador automático que revisa fechas y horas,
+      textos, enlaces, precio, lugar y duplicados. Si algo está mal y se puede arreglar con certeza, se corrige
+      (el dato original se guarda); si no, se avisa o pasa al Archivo con el motivo. Nada se borra.</p>
+    <div class="calidad-cifras">
+      <div><b>${c.revisados}</b><span>revisados</span></div>
+      <div><b>${c.corregidos}</b><span>corregidos</span></div>
+      <div><b>${c.avisos}</b><span>con aviso</span></div>
+      <div><b>${c.archivados}</b><span>al Archivo</span></div>
+      ${en.comprobados != null ? `<div><b>${en.comprobados}</b><span>enlaces comprobados${en.rotos ? ` · ${en.rotos} rotos` : ""}</span></div>` : ""}
+    </div>
+    ${(c.fuentes_a_revisar || []).length ? `<p class="como"><b>Fuentes en observación:</b> ${c.fuentes_a_revisar.map(f => `${esc(f.fuente)} (${esc(f.detalle)})`).join(" · ")}</p>` : ""}
+    ${grupos.length ? `<ul class="calidad-lista">${grupos.map(g => `<li><span>${ICO[g.nivel] || "•"}</span>
+      <div><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.titulo)}</a><small>${esc(g.fuente)} · ${g.detalles.map(esc).join(" · ")}</small></div></li>`).join("")}</ul>`
+      : `<p class="como">✔ Todo en orden en la última revisión.</p>`}`;
+}
+document.addEventListener("click", ev => {
+  if (!ev.target.closest("[data-a=ver-calidad]")) return;
+  ev.preventDefault(); $("#calidad").open = true; $("#calidad").scrollIntoView({behavior: "smooth", block: "start"});
+});
 if (location.protocol.startsWith("http")) {
   const base = location.href.replace(/[?#].*$/, "").replace(/[^/]*$/, "");
   const sub = f => "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(base.replace(/^https?:/, "webcal:") + f);
@@ -1041,11 +1096,11 @@ function contar(el, fin, dur = 900) {
 }
 
 // ---------- el buscador sugiere temas generales que van cambiando (se calla al enfocarlo o al escribir)
-const TEMAS = ["tecnología", "negocios", "becas", "liderazgo", "ciencia", "idiomas", "emprendimiento", "datos"];
+const TEMAS = ["Tecnología", "Negocios", "Becas", "Liderazgo", "Ciencia", "Idiomas", "Emprendimiento", "Datos"];
 (() => {
   const sug = $(".sugerencia"), inp = $("#q"); let i = 0;
   $(".buscador").classList.add("rotando");
-  sug.innerHTML = `Busca un tema: <b>${TEMAS[0]}</b>`;
+  sug.innerHTML = `¿Qué te interesa? <b>${TEMAS[0]}</b>`;
   inp.addEventListener("input", () => sug.hidden = !!inp.value);
   setInterval(() => {
     if (document.hidden || inp.value || document.activeElement === inp) return;

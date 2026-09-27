@@ -140,12 +140,18 @@ def _parse_iso(s):
     try:
         d = datetime.fromisoformat(str(s).replace("Z", "+00:00"))
     except ValueError:
-        # formatos rotos pero legibles: "2026-9-29T11-11-00-00", "2026-09-29 18:30"
-        m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})(?:[T ](\d{1,2})[:\-](\d{2}))?", str(s))
+        # formatos rotos pero legibles: "2026-09-29 18:30", "2026-9-29T11-00".
+        # SNI (plugin de WordPress) publica la hora REPETIDA: "2026-9-29T11-11-00-00" = 11:00 y
+        # "T17-17-30-00" = 17:30. Leer "11-11" como 11:11 era el error de las horas raras.
+        m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})(?:[T ]([\d:\-]+))?", str(s))
         if not m:
             return None
+        partes = [int(x) for x in re.findall(r"\d+", m.group(4) or "")]
+        if len(partes) >= 4 and partes[0] == partes[1]:
+            partes = partes[1:]  # hora repetida: hora, hora, minutos, segundos
+        hora, minuto = (partes + [0, 0])[:2]
         try:
-            d = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4) or 0), int(m.group(5) or 0))
+            d = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), hora, minuto)
         except ValueError:
             return None
     return d if d.tzinfo else d.replace(tzinfo=LIMA)

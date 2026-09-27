@@ -22,6 +22,21 @@ Publicado en https://juanpradomts-dev.github.io/radar-eventos-lima/ · se actual
   - Las webs que no tienen una agenda legible quedan en `institucionales.json → descartadas` con la nota del porqué.
 - Todas son públicas, sin login, y se consultan respetando `robots.txt`; si una falla, cae sola sin tumbar las demás. Los feeds RSS reintentan ante un 429 (respetando `Retry-After`) y, si igual fallan, usan la última respuesta buena guardada en `cache/` (máx. 14 días); la página lo indica como "copia del …".
 
+## Control de calidad (`verificar.py`)
+Antes de publicar, cada evento pasa por un verificador. Nunca borra nada: todo lo que corrige conserva el dato de la fuente en `original`.
+
+| Nivel | Cuándo | Ejemplos |
+|---|---|---|
+| **Corregido** | El dato está mal y se arregla con certeza. | Título en MAYÚSCULAS → formato legible (respeta siglas y números romanos). HTML o acentos rotos. Fin anterior al inicio. Fin no creíble (11:00–23:50 el mismo día). "Webinar" marcado como presencial. Descripción que solo repite el título. |
+| **Aviso** | Algo raro que no se arregla solo. | Hora poco probable (10:18) → la página dice "Hora por confirmar". Presencial sin dirección. Fecha a más de 18 meses. Enlace que respondió 404 una vez. |
+| **Al Archivo** | No se puede publicar tal cual. | Sin enlace. Fecha ilegible. Ya pasó o ya cerró. Duplicado del mismo día (queda el más completo). Enlace roto (404/410) en dos revisiones seguidas. |
+
+**Enlaces.** Se comprueban hasta 40 por corrida, cada uno como máximo una vez por semana y respetando `robots.txt`. El resultado se guarda en `cache/enlaces.json`. Los 403, 405, 429 y los timeouts suelen ser bloqueos a robots, así que no cuentan como rotos.
+
+**Monitoreo.** En `cache/verificacion.json` quedan las últimas 30 corridas. Una fuente pasa a "en observación" si ≥40 % de sus eventos tiene problemas, o si esa proporción sube 25 puntos respecto de la corrida anterior.
+
+**Dónde se ve.** En la página: "✔ verificadas" y la sección "Control de calidad". En GitHub Actions, en el resumen de cada corrida.
+
 ## Uso local
 ```
 pip install requests icalendar

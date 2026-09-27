@@ -14,6 +14,7 @@ import eventos
 import fuentes_extra
 import institucionales
 import puntaje
+import verificar
 
 RAIZ = Path(__file__).resolve().parent
 LIMA = eventos.LIMA
@@ -174,6 +175,9 @@ class Respuesta:
         if self.status_code >= 400:
             raise RuntimeError(f"{self.status_code} Client Error")
 
+    def close(self):
+        pass
+
 
 class FuentesInstitucionales(unittest.TestCase):
     def test_json_ld_con_comas_sobrantes_y_fecha_rota(self):
@@ -185,7 +189,7 @@ class FuentesInstitucionales(unittest.TestCase):
              "tipo_org": "gremio", "escala": "media", "ciudad": "Lima"}
         ahora = datetime(2026, 9, 26, tzinfo=LIMA)
         out = institucionales.extraer(f, html, ahora, ahora + timedelta(days=90))
-        self.assertEqual([(e["titulo"], e["inicio"][:16]) for e in out], [("Webinar: Microempresa", "2026-09-29T11:11")])
+        self.assertEqual([(e["titulo"], e["inicio"][:16]) for e in out], [("Webinar: Microempresa", "2026-09-29T11:00")])  # hora repetida de SNI: 11:00, no 11:11
 
     def test_modo_sitemap_lee_las_paginas_recientes(self):
         sm = b"""<urlset><url><loc>https://amcham.org.pe/evento/foro-comercio/</loc><lastmod>2026-09-24T09:45:28-05:00</lastmod></url>
@@ -320,6 +324,87 @@ class ReintentoYCache(unittest.TestCase):
     def test_sin_cache_el_error_se_reporta(self):
         with self.assertRaises(RuntimeError):
             fuentes_extra.descargar(self.url, lambda u, **k: Respuesta(429), dormir=lambda s: None)
+
+
+class Verificacion(unittest.TestCase):
+    """Control de calidad antes de publicar: corrige, avisa o archiva, y nunca borra nada."""
+    AHORA = datetime(2026, 9, 27, 12, 0, tzinfo=LIMA)
+
+    def test_hora_repetida_de_sni_se_lee_bien(self):
+        # Caso real: SNI publica "2026-9-29T11-11-00-00" (hora repetida) y el radar mostraba 11:11.
+        self.assertEqual(institucionales._parse_iso("2026-9-29T11-11-00-00").strftime("%H:%M"), "11:00")
+        self.assertEqual(institucionales._parse_iso("2026-9-22T17-17-30-00").strftime("%H:%M"), "17:30")
+        self.assertEqual(institucionales._parse_iso("2026-09-29T18:30:00-05:00").strftime("%H:%M"), "18:30")
+
+    def test_fin_no_creible_se_quita_y_queda_el_original(self):
+        # SNI pone 23:50 como "fin" de un webinar de las 11:00
+        e = ev("Webinar: Microempresa", inicio="2026-09-29T11:00-05:00", fin="2026-09-29T23:50-05:00")
+        notas = verificar.revisar_evento(e, self.AHORA)
+        self.assertEqual(e["fin"], "")
+        self.assertEqual(e["original"]["fin"], "2026-09-29T23:50-05:00")
+        self.assertEqual(e["modalidad"], "Virtual")  # "webinar" en el título
+        self.assertTrue(any(n == "corregido" for n, _ in notas))
+
+    def test_hora_poco_probable_queda_por_confirmar(self):
+        e = ev("INFOPUCP Semana Modo IA", inicio="2026-09-28T10:18-05:00")
+        verificar.revisar_evento(e, self.AHORA)
+        self.assertTrue(e.get("hora_dudosa"))
+        todo_el_dia = ev("IRAC-SFBA 2026", inicio="2026-10-02T00:00-05:00", fin="2026-10-02T23:59-05:00")
+        self.assertEqual(verificar.revisar_evento(todo_el_dia, self.AHORA), [])  # día completo: normal
+
+    def test_textos(self):
+        e = ev("XVIII CONGRESO INTERNACIONAL DE DIRECCIÓN DE PROYECTOS", inicio="2026-10-02T09:00-05:00",
+               descripcion="Charla sobre IA &amp; datos<br>con expertos del PerÃº")
+        verificar.revisar_evento(e, self.AHORA)
+        self.assertEqual(e["titulo"], "XVIII Congreso Internacional de Dirección de Proyectos")
+        self.assertEqual(e["descripcion"], "Charla sobre IA & datos\ncon expertos del Perú")
+        self.assertEqual(verificar.titulo_legible("IV ROBOTMANÍA UPC"), "IV Robotmanía UPC")
+        self.assertEqual(verificar.titulo_legible("EXPERIENCIA EN CATAMARÁN: IA TALENT WAVE PTW 2026"),
+                         "Experiencia en Catamarán: IA Talent Wave PTW 2026")
+        rep = ev("HackerX - Lima - Employer Ticket", inicio="2026-10-15T19:00-05:00",
+                 descripcion="HackerX - Lima - Employer Ticket")
+        verificar.revisar_evento(rep, self.AHORA)
+        self.assertEqual(rep["descripcion"], "")
+
+    def test_lo_que_no_se_puede_publicar_va_al_archivo_sin_perderse(self):
+        lista = [ev("Sin enlace", url="", inicio="2026-10-01T10:00-05:00"),
+                 ev("Ya pasó hace días", inicio="2026-09-20T10:00-05:00"),
+                 ev("Beca que ya cerró", tipo="convocatoria", cierre="2026-09-01T23:59-05:00"),
+                 ev("Taller de Power BI para principiantes", inicio="2026-10-03T10:00-05:00", fuente="Luma"),
+                 ev("Taller de Power BI para principiantes!", inicio="2026-10-03T10:00-05:00", fuente="Eventbrite",
+                    id="dup", descripcion="más completo"),
+                 ev("Charla de supply chain", inicio="2026-10-04T18:00-05:00")]
+        eventos_ok, archivo, inf = verificar.revisar(lista, [], self.AHORA)
+        self.assertEqual(len(eventos_ok) + len(archivo), 6)  # nada se pierde
+        self.assertEqual([e["titulo"] for e in eventos_ok],
+                         ["Taller de Power BI para principiantes!", "Charla de supply chain"])  # queda el más completo
+        self.assertTrue(all(e["motivo"].startswith("no pasó la verificación") for e in archivo))
+        self.assertEqual(inf["archivados"], 4)
+
+    def test_enlaces_solo_404_repetido_cuenta_como_roto(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp) / "enlaces.json"
+            respuestas = {"https://a/404": 404, "https://b/405": 405}
+
+            def get(u, **k):
+                if u == "https://c/robots":
+                    raise PermissionError("robots")
+                return Respuesta(respuestas[u])
+            lista = lambda: [ev("Taller uno", url="https://a/404", inscripcion="", inicio="2026-11-01T10:00-05:00"),
+                             ev("Taller dos", url="https://b/405", inscripcion="", inicio="2026-11-01T11:00-05:00"),
+                             ev("Taller tres", url="https://c/robots", inscripcion="", inicio="2026-11-01T12:00-05:00")]
+            ok1, arch1, _ = verificar.revisar(lista(), [], self.AHORA, get=get, ruta_cache=cache)
+            self.assertEqual(len(ok1), 3)  # primer 404: solo aviso (puede ser una caída momentánea)
+            ok2, arch2, inf = verificar.revisar(lista(), [], self.AHORA + timedelta(days=8), get=get, ruta_cache=cache)
+            self.assertEqual([e["titulo"] for e in arch2], ["Taller uno"])  # 404 dos veces: al Archivo
+            self.assertEqual(inf["enlaces"]["rotos"], 1)  # 405 (bloqueo) y robots no cuentan como rotos
+
+    def test_monitoreo_marca_la_fuente_con_muchos_problemas(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            lista = [ev(f"Evento {i}", inicio=f"2026-10-0{i}T10:{17 + i}-05:00", fuente="Rara") for i in range(1, 5)]
+            _, _, inf = verificar.revisar(lista, [], self.AHORA, ruta_historial=Path(tmp) / "h.json")
+            self.assertEqual(inf["fuentes_a_revisar"][0]["fuente"], "Rara")
+            self.assertIn("Control de calidad", verificar.resumen_markdown(inf))
 
 
 if __name__ == "__main__":

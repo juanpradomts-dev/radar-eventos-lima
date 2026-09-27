@@ -23,6 +23,7 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 import html
 import json
+import os
 import re
 import secrets
 import unicodedata
@@ -37,6 +38,7 @@ import requests
 import fuentes_extra
 import institucionales
 import puntaje
+import verificar
 
 RAIZ = Path(__file__).resolve().parent
 CARPETA = RAIZ / "site"
@@ -689,6 +691,17 @@ def main():
         perfil = puntaje.cargar_perfil(a.perfil) if a.perfil else None
         eventos, archivo, estado, total = recolectar(a.dias, perfil)
         ahora = datetime.now(LIMA)
+        # Control de calidad de cada evento antes de publicarlo (corrige, avisa o archiva; nunca borra)
+        eventos, archivo, calidad = verificar.revisar(eventos, archivo, ahora, get=get,
+                                                      ruta_cache=RAIZ / "cache" / "enlaces.json",
+                                                      ruta_historial=RAIZ / "cache" / "verificacion.json")
+        for f in calidad["fuentes_a_revisar"]:  # el evento dice "Institucional"; la fuente, "Institucionales"
+            clave = f["fuente"] if f["fuente"] in estado else next((k for k in estado if k.startswith(f["fuente"])), None)
+            if clave:
+                estado[clave]["revisar"] = f["detalle"]
+        if os.environ.get("GITHUB_STEP_SUMMARY"):  # resumen visible en cada corrida de GitHub Actions
+            with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as s:
+                s.write(verificar.resumen_markdown(calidad))
         previo = {}
         try:
             previo = json.loads(DATOS.read_text(encoding="utf-8"))
@@ -699,6 +712,7 @@ def main():
             "recomendados": puntaje.recomendados(eventos, ahora),
             "institucionales": _ESTADO_INST.copy(),
             "se_viene": institucionales.se_viene(RECURRENTES_JSON, eventos),
+            "calidad": calidad,
         }
         try:
             extras["por_confirmar"] = institucionales.descubrir(get, INSTITUCIONALES_JSON,
@@ -711,6 +725,12 @@ def main():
               f"(de {total} revisados) · {fuentes}")
         print(f"[radar] perfil: {'sí' if perfil else 'no'} · recomendados: {len(extras['recomendados'])} · "
               f"por confirmar: {len(extras['por_confirmar'])} · se viene: {len(extras['se_viene'])}")
+        en = calidad.get("enlaces") or {}
+        print(f"[radar] verificación: {calidad['revisados']} revisados · {calidad['corregidos']} corregidos · "
+              f"{calidad['avisos']} con aviso · {calidad['archivados']} al Archivo · "
+              f"{en.get('comprobados', 0)} enlaces comprobados ({en.get('rotos', 0)} rotos)"
+              + (" · REVISAR: " + ", ".join(f["fuente"] for f in calidad["fuentes_a_revisar"])
+                 if calidad["fuentes_a_revisar"] else ""))
     ruta = generar_html(datos)
     print(ruta)
     if a.abrir:
