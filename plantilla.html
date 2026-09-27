@@ -489,6 +489,7 @@ const FUENTES_INFO = {
   "Opportunity Desk": {url: "https://opportunitydesk.org/", txt: "Becas, fellowships y programas internacionales para jóvenes."},
   "Opportunities for Youth": {url: "https://opportunitiesforyouth.org/category/volunteering/", txt: "Voluntariados y programas de liderazgo juvenil."},
   "TEDx": {url: "https://www.ted.com/tedx/events", txt: "Eventos TEDx organizados en el Perú."},
+  "Inscripciones (Linktree)": {txt: "Formularios de inscripción de los Linktree de universidades y organizaciones. Linktree no permite robots: los enlaces se copian cuando alguien comparte un Linktree, y cada formulario se lee y vigila solo (fecha, lugar y si sigue abierto)."},
   "Redes (manual)": {txt: "Eventos vistos en Instagram, LinkedIn o WhatsApp y agregados a mano: esas redes no permiten lectura automática."},
 };
 
@@ -794,9 +795,9 @@ function pintarExtras() {
        <span>${esc(x.texto)} · ${esc(x.ciudad)}${x.dato ? " · " + esc(x.dato) : ""}</span></a>`).join("") + `</div>`;
   const abierto = $("#por-confirmar details")?.open;  // no cerrarlo al guardar u ocultar algo
   $("#por-confirmar").innerHTML = filtrando || !pc.length ? "" :
-    `<details class="acerca"${abierto ? " open" : ""}><summary>🔎 Visto en noticias, por confirmar (${pc.length})</summary>
+    `<details class="acerca"${abierto ? " open" : ""}><summary>🔎 Por confirmar: visto en noticias y en Linktree (${pc.length})</summary>
      <div class="mini">` + pc.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow"><b>${esc(x.titulo)}</b>
-       <span>${esc(x.medio)}${x.fecha_mencionada ? " · menciona el " + fDiaCorto.format(new Date(x.fecha_mencionada)) : ""}</span></a>`).join("") + `</div></details>`;
+       <span>${esc(x.medio)}${x.fecha_mencionada ? " · menciona el " + fDiaCorto.format(new Date(x.fecha_mencionada)) : ""}${x.nota ? " · " + esc(x.nota) : ""}</span></a>`).join("") + `</div></details>`;
 }
 
 // ---------- tarjeta

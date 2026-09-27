@@ -36,6 +36,7 @@ from pathlib import Path
 import requests
 
 import fuentes_extra
+import inscripciones
 import institucionales
 import puntaje
 import verificar
@@ -464,7 +465,15 @@ def manuales(limite):
 
 FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Meetup": meetup, "PUCP": pucp,
            **fuentes_extra.fuentes(get), "Institucionales": lambda lim: _institucionales(lim),
+           "Inscripciones (Linktree)": lambda lim: _inscripciones(lim),
            "Redes (manual)": manuales}
+INSCRIPCIONES_JSON = RAIZ / "inscripciones.json"
+
+
+def _inscripciones(limite):
+    # Linktree no se recorre (prohíbe robots): se leen los destinos de los enlaces que JARVIS copió de él.
+    # Lo que no se puede leer queda en inscripciones.POR_CONFIRMAR para la sección "Por confirmar".
+    return inscripciones.recolectar(get, permitido, INSCRIPCIONES_JSON)[0] if INSCRIPCIONES_JSON.exists() else []
 _ESTADO_INST = {}
 
 
@@ -506,7 +515,7 @@ def recolectar(dias, perfil=None):
             crudos += lote
             # 0 resultados en una fuente automática = casi siempre bloqueo (p. ej. Eventbrite
             # ante IPs de GitHub): se trata como caída para conservar sus eventos previos.
-            if not lote and nombre not in ("Redes (manual)", "Institucionales"):
+            if not lote and nombre not in ("Redes (manual)", "Institucionales", "Inscripciones (Linktree)"):
                 raise RuntimeError("0 resultados (posible bloqueo)")
             estado[nombre] = {"ok": True, "n": len(lote)}
             copias = [v for k, v in fuentes_extra.CACHE_USADO.items() if k not in antes]
@@ -719,6 +728,8 @@ def main():
                                                                 [e["titulo"] for e in eventos])
         except Exception as e:  # el descubrimiento es un extra: si falla, el radar sigue
             extras["por_confirmar"], estado["Descubrimiento"] = [], {"ok": False, "n": 0, "error": str(e)[:160]}
+        # inscripciones de Linktree que no se pudieron leer solas (Microsoft Forms, formularios privados, sin fecha)
+        extras["por_confirmar"] = list(inscripciones.POR_CONFIRMAR) + extras["por_confirmar"]
         datos = guardar(eventos, archivo, estado, total, extras)
         fuentes = ", ".join(f"{k} {v['n']}" + ("" if v["ok"] else " (FALLÓ)") for k, v in estado.items())
         print(f"[radar] {len(datos['eventos'])} en la lista · {len(datos['archivo'])} en el Archivo "

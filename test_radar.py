@@ -12,6 +12,7 @@ from pathlib import Path
 
 import eventos
 import fuentes_extra
+import inscripciones
 import institucionales
 import puntaje
 import verificar
@@ -415,6 +416,71 @@ class Verificacion(unittest.TestCase):
             _, _, inf = verificar.revisar(lista, [], self.AHORA, ruta_historial=Path(tmp) / "h.json")
             self.assertEqual(inf["fuentes_a_revisar"][0]["fuente"], "Rara")
             self.assertIn("Control de calidad", verificar.resumen_markdown(inf))
+
+
+class Inscripciones(unittest.TestCase):
+    """Enlaces de inscripción copiados de un Linktree: se leen los destinos respetando robots.txt en cada salto."""
+    AHORA = datetime(2026, 9, 27, 12, 0, tzinfo=LIMA)
+    FORM = ('<html><head><meta property="og:image" content="https://img/x.png"></head><body><script>'
+            'var FB_PUBLIC_LOAD_DATA_ = [null,["LUNES, 28 DE SEPTIEMBRE\\n\\nCONFERENCIA MAGISTRAL\\nTeatro La Plaza*\\n'
+            '4:15 p. m. – 5:30 p. m.\\n\\nSÁBADO, 3 DE OCTUBRE\\nAuditorio O",null,null,null,null,null,null,null,'
+            '"Inscripción VI CONGRESO VOCES ESCÉNICAS DEL SUR"],null,"VI CONGRESO VOCES ESCÉNICAS DEL SUR"];</script>'
+            '</body></html>')
+
+    def test_google_form_da_fecha_hora_y_lugar(self):
+        datos = inscripciones.google_form(self.FORM, "https://docs.google.com/forms/d/e/x/viewform")
+        self.assertEqual(datos["titulo"], "VI CONGRESO VOCES ESCÉNICAS DEL SUR")
+        self.assertFalse(datos["cerrado"])
+        f = inscripciones.evento_de_texto(datos["titulo"], datos["descripcion"], self.AHORA)
+        self.assertEqual(f["inicio"].strftime("%d/%m %H:%M"), "28/09 16:15")
+        self.assertEqual(f["fin"].strftime("%d/%m"), "03/10")
+        self.assertEqual(f["lugar"], "Teatro La Plaza")
+
+    def test_taller_con_etiquetas(self):
+        f = inscripciones.evento_de_texto("Taller de Arte Andino", "Día: Viernes 25 de setiembre\nLugar: Aula A-403 "
+                                          "Campus Aramburú\nHora: 3pm", self.AHORA)
+        self.assertEqual(f["inicio"].strftime("%d/%m %H:%M"), "25/09 15:00")
+        self.assertEqual(f["lugar"], "Aula A-403 Campus Aramburú")
+
+    def _correr(self, respuestas, prohibidos=()):
+        pedidos = []
+
+        def get(u, **k):
+            pedidos.append(u)
+            codigo, cuerpo, destino = respuestas[u]
+            return Respuesta(codigo, cuerpo.encode(), {"Location": destino} if destino else {})
+        with tempfile.TemporaryDirectory() as tmp:
+            ruta = Path(tmp) / "inscripciones.json"
+            ruta.write_text(json.dumps({"enlaces": [
+                {"url": u, "titulo": f"Enlace {i}", "organizador": "Universidad X", "tipo_org": "universidad"}
+                for i, u in enumerate(["https://bit.ly/a", "https://forms.gle/b", "https://forms.gle/c"])]}), encoding="utf-8")
+            out = inscripciones.recolectar(get, lambda u: not any(p in u for p in prohibidos), ruta, self.AHORA, pausa=0)
+        return out, pedidos
+
+    def test_respeta_robots_en_cada_salto_y_nada_se_pierde(self):
+        respuestas = {
+            "https://bit.ly/a": (301, "", "https://forms.cloud.microsoft/r/zzz"),             # lleva a Microsoft Forms
+            "https://forms.gle/b": (302, "", "https://docs.google.com/forms/d/e/b/viewform"),
+            "https://docs.google.com/forms/d/e/b/viewform": (200, self.FORM, None),
+            "https://forms.gle/c": (302, "", "https://docs.google.com/forms/d/e/c/viewform"),
+            "https://docs.google.com/forms/d/e/c/viewform": (401, "", None),                  # solo cuentas de la universidad
+        }
+        (eventos_ok, pendientes, estado), pedidos = self._correr(respuestas, prohibidos=("forms.cloud.microsoft",))
+        self.assertNotIn("https://forms.cloud.microsoft/r/zzz", pedidos)  # nunca se pide lo que robots.txt prohíbe
+        self.assertEqual([e["titulo"] for e in eventos_ok], ["VI CONGRESO VOCES ESCÉNICAS DEL SUR"])
+        self.assertEqual([p["titulo"] for p in pendientes], ["Enlace 0", "Enlace 2"])  # a "Por confirmar", con su motivo
+        self.assertIn("no permite robots", pendientes[0]["nota"])
+        self.assertIn("iniciar sesión", pendientes[1]["nota"])
+
+    def test_formulario_cerrado_va_al_archivo(self):
+        cerrado = self.FORM.replace("</body>", "Este formulario ya no acepta respuestas</body>")
+        # así cierra Google un formulario: redirige a /closedform
+        respuestas = {"https://bit.ly/a": (404, "", None),
+                      "https://forms.gle/b": (302, "", "https://docs.google.com/forms/d/e/b/closedform"),
+                      "https://docs.google.com/forms/d/e/b/closedform": (200, cerrado, None),
+                      "https://forms.gle/c": (404, "", None)}
+        (eventos_ok, _, _), _ = self._correr(respuestas)
+        self.assertEqual(eventos_ok[0]["_motivo"], "inscripciones cerradas")
 
 
 if __name__ == "__main__":

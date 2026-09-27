@@ -20,6 +20,11 @@ Publicado en https://juanpradomts-dev.github.io/radar-eventos-lima/ · se actual
   - **Por confirmar**: titulares de Bing News (cumbre, foro, congreso, summit o feria, más Lima y el año) que aún no están en el radar. El RSS de Google News lo prohíbe su `robots.txt`.
   - **Se viene** (`recurrentes.json`): eventos anuales o bienales (CADE, Cumbre Perú Sostenible, PERUMIN, Expoalimentaria, Expomina…) con su mes habitual y ediciones verificadas en prensa; aparecen ~2 meses antes aunque su web aún no publique fechas. IPAE bloquea a los servidores de GitHub, así que CADE vive aquí y no se raspa.
   - Las webs que no tienen una agenda legible quedan en `institucionales.json → descartadas` con la nota del porqué.
+- **Inscripciones (Linktree)** (`inscripciones.py` + `inscripciones.json`): muchas organizaciones anuncian en Instagram y ponen el enlace de inscripción en su Linktree.
+  - Linktree prohíbe robots (`User-agent: *` → `Disallow: /`), así que el radar no lo recorre. Cuando alguien comparte un Linktree, JARVIS lo abre a pedido y copia sus enlaces de inscripción a `inscripciones.json`.
+  - En cada corrida, el radar lee solo el **destino** de cada enlace y revisa `robots.txt` en cada salto: un bit.ly puede llevar a un sitio que lo prohíbe.
+  - De Google Forms saca el título, la fecha, la hora y el lugar desde la descripción. Si el formulario deja de aceptar respuestas, el evento pasa al Archivo como "inscripciones cerradas".
+  - No se pueden leer solos los formularios de Microsoft Forms (prohíbe robots) ni los que son solo para cuentas de la organización. Esos van a "Por confirmar" con su nombre, su enlace y el motivo.
 - Todas son públicas, sin login, y se consultan respetando `robots.txt`; si una falla, cae sola sin tumbar las demás. Los feeds RSS reintentan ante un 429 (respetando `Retry-After`) y, si igual fallan, usan la última respuesta buena guardada en `cache/` (máx. 14 días); la página lo indica como "copia del …".
 
 ## Control de calidad (`verificar.py`)
