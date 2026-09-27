@@ -32,6 +32,7 @@ from urllib import robotparser
 from urllib.parse import urlsplit
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -239,6 +240,118 @@ def eventbrite(limite):
     if not out:
         raise RuntimeError("0 resultados: HTTP " + ",".join(sorted(diag)))
     return list(out.values())
+
+
+# Eventos VIRTUALES: lo online no tiene ciudad, así que se busca por tema. Solo gratis y en español (la propia
+# API filtra), y solo lo que toca un área formativa: sin eso entrarían miles de webinars de ventas o de trámites
+# de otros países. Lo que no pasa este filtro no se recolecta (no llega a la lista ni al Archivo).
+EB_ONLINE_Q = ("taller", "webinar", "charla", "conferencia", "seminario", "tecnologia", "inteligencia artificial",
+               "datos", "python", "excel", "emprendimiento", "liderazgo", "logistica", "ingenieria", "programacion",
+               "investigacion", "empleabilidad")
+MAX_ONLINE = 80
+DIAS_ONLINE = 45
+# Lo online de otros países que no le sirve a un estudiante de Lima: dinero milagroso, trámites locales, networking
+# por zonas de España, coaching de venta. (Se revisó una muestra real de 80 antes de fijar esta lista.)
+EB_ONLINE_FUERA = (r"\b(trading|forex|cripto\w*|bitcoin|deudas?|rentas?|libertad financiera|ingresos pasivos|"
+                   r"inversion inmobiliaria|multinivel|fiscal\w*|impuestos|deducciones|migra\w*|visa|green card|"
+                   r"hipoteca|seguro social|zona (albacete|valencia|malaga|madrid|barcelona|sevilla)|"
+                   r"especializacion en coaching|riesgo suicida|pool de|new york|nyc|ciudad de ny|condado|quickbooks|"
+                   r"small business|padres|familias|crianza|defensa de la vida|iglesia|dropshipping|cannab\w*|"
+                   r"viajes desde casa|tu dinero|publica tu libro|buen fin)\b")
+MIN_VALOR_ONLINE = 22  # valor general mínimo (0-60) para que un online entre: formativo de verdad, no solo "networking"
+# Temas que valen aunque el organizador no sea latinoamericano (con horario razonable en Lima).
+EB_ONLINE_TEMAS_GLOBALES = {"Tecnología e IA", "Datos y analítica", "Ingeniería y operaciones", "Investigación y ciencia"}
+
+
+ZONAS_LATAM = re.compile(r"America/(Lima|Bogota|Mexico_City|Monterrey|Merida|Cancun|Chihuahua|Hermosillo|Mazatlan|"
+                         r"Argentina/.+|Buenos_Aires|Santiago|Montevideo|Asuncion|La_Paz|Guayaquil|Caracas|Panama|"
+                         r"Costa_Rica|El_Salvador|Guatemala|Tegucigalpa|Managua|Santo_Domingo|Puerto_Rico|Havana)$")
+ORG_ACADEMICO = r"\b(universidad|university|business school|escuela de (negocios|posgrado)|instituto|academia|colegio de)\b"
+FORMATO_CLASE = r"\b(webinar|taller|masterclass|master class|charla|conferencia|curso|seminario|bootcamp|workshop|open lab)\b"
+ORG_FUERA = r"\b(nyc|new york|sbdc|small business|realt\w*|decrypto)\b"
+
+
+def _online_util(ev, zona, ini, ahora):
+    """¿Le sirve a un estudiante de Lima? Tech, datos, ingeniería o investigación de cualquier lugar; lo organizado
+    por universidades; y negocios o habilidades solo de Latinoamérica y con formato de clase. Hora razonable en
+    Lima y que no haya empezado hace tiempo (eso suele ser un curso pagado en curso)."""
+    if not 7 <= ini.hour <= 22 or ini < ahora - timedelta(days=1):
+        return False
+    texto = norm(ev["titulo"] + " " + ev["descripcion"][:300])
+    org = norm(ev.get("organizador", ""))
+    if motivo_recreativo(ev) or re.search(EB_ONLINE_FUERA, texto) or re.search(ORG_FUERA, org):
+        return False
+    cats, coincidencias = puntaje.categorias(ev)
+    if not coincidencias:
+        return False
+    if set(cats) & EB_ONLINE_TEMAS_GLOBALES or re.search(ORG_ACADEMICO, org):
+        return True
+    return bool(ZONAS_LATAM.match(zona or "")) and bool(re.search(FORMATO_CLASE, norm(ev["titulo"])))
+
+
+def _hora_lima(fecha, hora, zona):
+    """'2026-10-01', '15:30', 'Atlantic/Canary' → datetime en hora de Lima (los online vienen en la hora del organizador)."""
+    if not fecha:
+        return None
+    try:
+        tz = ZoneInfo(zona) if zona else LIMA
+    except Exception:
+        tz = LIMA
+    try:
+        return datetime.fromisoformat(f"{fecha}T{hora or '00:00'}").replace(tzinfo=tz).astimezone(LIMA)
+    except ValueError:
+        return None
+
+
+def eventbrite_online(limite, post=None):
+    """Eventos ONLINE de Eventbrite: gratis, en español y de temas formativos; hora convertida a la de Lima."""
+    post = post or requests.post
+    tok = secrets.token_hex(16)
+    cab = {**UA, "Content-Type": "application/json", "X-CSRFToken": tok,
+           "Referer": "https://www.eventbrite.com.pe/d/online/all-events/"}
+    if not permitido(EB_API):
+        raise PermissionError(f"robots.txt no permite {EB_API}")
+    ahora = datetime.now(LIMA)
+    tope = min(limite, ahora + timedelta(days=DIAS_ONLINE))
+    out, diag = {}, set()
+    for q in EB_ONLINE_Q:
+        cuerpo = {"event_search": {"online_events_only": True, "price": "free", "languages": ["es"],
+                                   "dates": "current_future", "dedup": True, "page": 1, "page_size": 50, "q": q},
+                  "browse_surface": "search",
+                  "expand.destination_event": ["image", "ticket_availability", "primary_organizer"]}
+        r = post(EB_API, headers=cab, cookies={"csrftoken": tok}, data=json.dumps(cuerpo), timeout=25)
+        diag.add(str(r.status_code))
+        if not r.ok:
+            continue
+        for e in (r.json().get("events") or {}).get("results") or []:
+            clave = str(e.get("id"))
+            if clave in out or e.get("is_cancelled") or not e.get("is_online_event"):
+                continue
+            ini = _hora_lima(e.get("start_date"), e.get("start_time"), e.get("timezone"))
+            if not ini or ini > tope:
+                continue
+            ev = {
+                "id": "eb:" + clave,
+                "titulo": (e.get("name") or "").strip(),
+                "inicio": _iso(ini), "fin": _iso(_hora_lima(e.get("end_date"), e.get("end_time"), e.get("timezone"))),
+                "lugar": "", "distrito": "", "modalidad": "Virtual",
+                "url": e.get("url", ""), "inscripcion": e.get("url", ""),
+                "fuente": "Eventbrite online", "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+                "organizador": (e.get("primary_organizer") or {}).get("name", "") or "",
+                "descripcion": e.get("summary") or "",
+                "etiquetas": [x.get("display_name", "") for x in e.get("tags") or []],
+                "gratis": True if (e.get("ticket_availability") or {}).get("is_free", True) else None,
+                "imagen": (e.get("image") or {}).get("url", ""),
+            }
+            if not _online_util(ev, e.get("timezone"), ini, ahora):
+                continue  # fuera de alcance: no se recolecta (ni lista ni Archivo)
+            out[clave] = ev
+    if not out:
+        raise RuntimeError("0 resultados: HTTP " + ",".join(sorted(diag)))
+    # se quedan los de más valor formativo (no los primeros por fecha), y se devuelven en orden de fecha
+    valor = {k: puntaje.valor_general(e)[0] for k, e in out.items()}
+    mejores = sorted((k for k in out if valor[k] >= MIN_VALOR_ONLINE), key=lambda k: -valor[k])[:MAX_ONLINE]
+    return sorted((out[k] for k in mejores), key=lambda x: x["inicio"])
 
 
 def _local(texto):
@@ -463,7 +576,7 @@ def manuales(limite):
     return out
 
 
-FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Meetup": meetup, "PUCP": pucp,
+FUENTES = {"Luma": luma, "Eventbrite": eventbrite, "Eventbrite online": eventbrite_online, "Meetup": meetup, "PUCP": pucp,
            **fuentes_extra.fuentes(get), "Institucionales": lambda lim: _institucionales(lim),
            "Inscripciones (Linktree)": lambda lim: _inscripciones(lim),
            "Redes (manual)": manuales}
