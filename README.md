@@ -25,6 +25,11 @@ Publicado en https://juanpradomts-dev.github.io/radar-eventos-lima/ · se actual
   - En cada corrida, el radar lee solo el **destino** de cada enlace y revisa `robots.txt` en cada salto: un bit.ly puede llevar a un sitio que lo prohíbe.
   - De Google Forms saca el título, la fecha, la hora y el lugar desde la descripción. Si el formulario deja de aceptar respuestas, el evento pasa al Archivo como "inscripciones cerradas".
   - No se pueden leer solos los formularios de Microsoft Forms (prohíbe robots) ni los que son solo para cuentas de la organización. Esos van a "Por confirmar" con su nombre, su enlace y el motivo.
+  - **Botón para actualizar** (solo a pedido; nunca con horario): la página https://juanpradomts-dev.github.io/radar-eventos-lima/linktree/ dispara el workflow `Actualizar Linktree` (`.github/workflows/linktree.yml`).
+    - Ese workflow ejecuta `linktree_lector.py`, guarda `inscripciones.json` y pide publicar el radar.
+    - El botón exige una llave de GitHub (fine-grained, Actions: Read and write sobre este repo) que el dueño pega una vez y queda solo en su navegador. Nunca está en el código.
+    - La página no se enlaza desde el radar y lleva `noindex`.
+    - El mismo lector lo usan el botón local de JARVIS (`jarvis/tools/linktree.py`) y el comando `/linktree`.
 - Todas son públicas, sin login, y se consultan respetando `robots.txt`; si una falla, cae sola sin tumbar las demás. Los feeds RSS reintentan ante un 429 (respetando `Retry-After`) y, si igual fallan, usan la última respuesta buena guardada en `cache/` (máx. 14 días); la página lo indica como "copia del …".
 
 ## Control de calidad (`verificar.py`)
