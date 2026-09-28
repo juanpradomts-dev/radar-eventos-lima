@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-09-27T18:35-05:00",
+ "actualizado": "2026-09-27T22:10-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 61
+   "n": 62
   },
   "Eventbrite": {
    "ok": true,
-   "n": 33
+   "n": 32
   },
   "Eventbrite online": {
    "ok": true,
@@ -15,7 +15,7 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 11
+   "n": 10
   },
   "PUCP": {
    "ok": true,
@@ -39,8 +39,7 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-09-27T17:35-05:00"
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -59,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 364,
+ "revisados": 363,
  "top": 55,
  "eventos": [
   {
@@ -147,62 +146,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Becas y posgrado · Voluntariado · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "meetup:316630675",
-   "titulo": "Desplegando en AWS con $0 | Sesión 2",
-   "inicio": "2026-09-27T18:30-05:00",
-   "fin": "2026-09-27T20:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/316630675/",
-   "fuente": "Meetup",
-   "organizador": "AWS SBG at National University of Engineering",
-   "descripcion": "Desplegando con Costo Cero: Cloud Economics y Facturación en AWS ☁️\n¡Seguimos con el AWS Practitioner Challenge!\nEn esta sesión aprenderás sobre pricing, billing, Free Tier y control de costos en AWS, además de herramientas como AWS Budgets y Cost Explorer y tips clave para el examen.\nPonente:\nCésar Carrasco · AWS SBG Leader · Cloud Customer Success en IBM\nDetalles:\n\n 📅 27 de septiembre\n ⏰ 6:30 PM – 8:00 PM (Perú)\n 💻 Virtual\n 🌐 AWS Student Builder Group at UNI\n\n🔗 Nuestras redes: https://linktr.ee/AWSCloudClubUNI",
-   "gratis": false,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/316630675/",
-   "fuente_url": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 22,
-   "afinidad": 6,
-   "puntaje": 28,
-   "por_que": "Competencia · Universidad · Afín: Competencias · Virtual",
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "devpost:30298",
-   "titulo": "Lake Oswego Hacks",
-   "tipo": "hackathon",
-   "inicio": "2026-09-26T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://lake-oswego-hacks.devpost.com/",
-   "inscripcion": "https://lake-oswego-hacks.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Lake Monsters Robotics (frc2635)",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Social Good. Premios: $260.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/017/022/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T15:34-05:00"
   },
   {
    "id": "pucp:infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518",
@@ -2306,7 +2249,7 @@
    "organizador": "",
    "descripcion": "En esta Masterclass aprenderás a gestionar la tesorería global y optimizar tus operaciones internacionales desde donde estés.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192995310%2F3012960737347%2F1%2Foriginal.20260908-183424?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8d263b627bed99ea3b4d29e38512f5e7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192995310%2F3012960737347%2F1%2Foriginal.20260908-183424?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3876b8060440454399e5d763a415a67d",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3282,6 +3225,34 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
+   "id": "devpost:31481",
+   "titulo": "Multimodal AI Hackathon 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-29T00:00-05:00",
+   "fin": "2026-10-14T23:59-05:00",
+   "cierre": "2026-10-14T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
+   "inscripcion": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Kamand Prompt, IIT Mandi",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI. Premios: ₹ 100,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/176/datas/medium_square.jpg",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 33,
+   "puntaje": 52,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-27T22:10-05:00"
+  },
+  {
    "id": "wikicfp:203191",
    "titulo": "LM-SCM  2026 : The 24th International Logistics and Supply Chain Congress",
    "tipo": "call for papers",
@@ -3616,6 +3587,34 @@
    "puntaje": 45,
    "por_que": "Formativo · Presencial en Lima · Afín: Inteligencia artificial · Gratis",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "luma:evt-KHyzmPSxsSvYvob",
+   "titulo": "Techsuyo 2026: Human-Centered AI: Construyendo confianza para el bienestar colectivo",
+   "inicio": "2026-10-16T09:00-05:00",
+   "fin": "2026-10-16T17:00-05:00",
+   "lugar": "Av. La Fontana 750, La Molina Location, La Molina",
+   "distrito": "La Molina",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/mvxy27lr",
+   "fuente": "Luma",
+   "organizador": "Techsuyo",
+   "descripcion": "Silicon Valley es excelente preguntando qué puede hacer la IA. Desde ahí llegan la mayoría de las herramientas que hoy usamos. Pero la pregunta de qué debería hacer la IA — y a quién debería servir — no se responde en un solo lugar del mundo. Este año, Techsuyo trae esa pregunta a Lima: ¿qué significa una IA centrada en las personas cuando las personas somos nosotros? ¿Cómo construimos confianza, regulación y bienestar colectivo desde nuestra propia realidad, y no solo como receptores de lo que otros deciden?\nTechsuyo 2026 marca la décima edición de una conferencia que conecta a profesionales, emprendedores, inversionistas, académicos y líderes tecnológicos peruanos y globales. Silicon Valle",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/n7/c650a8fc-15c3-4c58-b39b-4a76d6fa5a7b.png",
+   "inscripcion": "https://lu.ma/mvxy27lr",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 28,
+   "afinidad": 16,
+   "puntaje": 44,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Gratis",
+   "visto_desde": "2026-09-27T22:10-05:00"
   },
   {
    "id": "luma:evt-Ld11tjO2W3gYzj4",
@@ -5039,6 +5038,34 @@
    "puntaje": 31,
    "por_que": "Competencia · Gratis · Afín: Competencias · Afín: Emprendimiento y finanzas · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31400",
+   "titulo": "YouCam API Skin AI & eCommerce VTO Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-09-29T00:00-05:00",
+   "fin": "2026-11-02T23:59-05:00",
+   "cierre": "2026-11-02T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+   "inscripcion": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Perfect Corp",
+   "descripcion": "Hackathon online. Temas: AR/VR, E-commerce/Retail, Machine Learning/AI. Premios: $6,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/375/196/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 19,
+   "afinidad": 33,
+   "puntaje": 52,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-27T22:10-05:00"
   },
   {
    "id": "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233",
@@ -8390,31 +8417,6 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "eb:2000908636595",
-   "titulo": "Bautismo punto cdv",
-   "inicio": "2026-09-27T19:00-05:00",
-   "fin": "2026-09-27T20:00-05:00",
-   "lugar": "Ca. Diego Ferré 356, 356 Calle Diego Ferré",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/bautismo-punto-cdv-registration-2000908636595",
-   "fuente": "Eventbrite",
-   "organizador": "caminodevida",
-   "descripcion": "Bautismo punto cdv",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188136107%2F2593824077661%2F1%2Foriginal.20260703-043023?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9f3b3725664692ccf66f8bfa4a714fea",
-   "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-punto-cdv-registration-2000908636595",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "eb:1976412291367",
    "titulo": "Gringo Tuesdays Language Exchange Lima",
    "inicio": "2026-09-29T17:00-05:00",
@@ -8962,8 +8964,8 @@
    "titulo": "Bharat Innovation Challenge 2.0",
    "tipo": "hackathon",
    "inicio": "2026-09-18T00:00-05:00",
-   "fin": "2026-09-28T23:59-05:00",
-   "cierre": "2026-09-28T23:59-05:00",
+   "fin": "2026-09-29T23:59-05:00",
+   "cierre": "2026-09-29T23:59-05:00",
    "lugar": "Lovely Professional University",
    "distrito": "Lovely Professional University",
    "modalidad": "Presencial",
@@ -9930,33 +9932,6 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30596",
-   "titulo": "Recruit Holdings Hackathon “Innovation Cup”",
-   "tipo": "hackathon",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-09-27T23:59-05:00",
-   "cierre": "2026-09-27T23:59-05:00",
-   "lugar": "CA, USA",
-   "distrito": "CA",
-   "modalidad": "Presencial",
-   "url": "https://innovation-cup2026.devpost.com/",
-   "inscripcion": "https://innovation-cup2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Recruit Holdings Co., Ltd.",
-   "descripcion": "Hackathon presencial en CA, USA. Temas: Web, Enterprise. Premios: $70,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/871/062/datas/medium_square.jpg",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 9,
-   "puntaje": 25,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "pucp:cine-ccpucp-iv-ciclo-de-cine-japones-15092026194330",
    "titulo": "Cine CCPUCP | IV Ciclo de cine japonés",
    "inicio": "2026-09-24T20:00-05:00",
@@ -10093,8 +10068,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-27T18:35-05:00",
-  "revisados": 234,
+  "fecha": "2026-09-27T22:10-05:00",
+  "revisados": 235,
   "corregidos": 16,
   "avisos": 4,
   "archivados": 0,
@@ -10261,7 +10236,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 0,
+   "comprobados": 3,
    "rotos": 2,
    "sin_comprobar": 2
   },
@@ -10309,12 +10284,12 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Feria peruana Expoalimentaria generó negocios por 1.100 millones de dólares",
-   "url": "https://spanish.news.cn/20260928/dd98b37177d54db9b0e0f84d5e1e4c75/c.html",
+   "titulo": "Especial: Perú celebra feria internacional que promueve educación, cultura y turismo",
+   "url": "https://spanish.news.cn/20260928/7e82518fcd34443a9f4166fb72958b8b/c.html",
    "medio": "Xinhua Español",
-   "publicado": "Sun, 27 Sep 2026 03:58:00 GMT",
-   "resumen": "LIMA, 27 sep (Xinhua) -- La feria anual Expoalimentaria 2026, realizada en Lima entre el miercoles y el viernes últimos, generó negocios por 1.100 millones de dólares, un 21,5 por ciento más que en la ...",
-   "fecha_mencionada": ""
+   "publicado": "Sun, 27 Sep 2026 08:25:00 GMT",
+   "resumen": "LIMA, 27 sep (Xinhua) -- Perú albergó la IV Feria Internacional de Cultura, Turismo y Educación (FICTE) del 25 al 27 de septiembre, un espacio que ofreció a los ciudadanos el acceso directo a la ...",
+   "fecha_mencionada": "2026-09-25T00:00-05:00"
   },
   {
    "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
@@ -10451,7 +10426,6 @@
   }
  },
  "primera_vez": {
-  "meetup:316630675": "2026-09-24T21:06-05:00",
   "luma:evt-sDUAopaoSHCWeTn": "2026-09-24T21:06-05:00",
   "luma:evt-zN2QJxZhCUr8UP7": "2026-09-24T21:06-05:00",
   "luma:evt-qEvoBnGm8AvP98W": "2026-09-24T21:06-05:00",
@@ -10634,7 +10608,6 @@
   "inst:sni-webinar-energ-a-como-ventaja-competitiva-c-mo-reducir-el:2026-09-30": "2026-09-26T10:21-05:00",
   "inst:sni-webinar-tributos-municipales-sin-sorpresas-calcula-verif:2026-09-30": "2026-09-26T10:21-05:00",
   "luma:evt-VdivoEb6CyTNEOJ": "2026-09-26T10:21-05:00",
-  "devpost:30298": "2026-09-26T15:34-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-09-26-cees-fellowship-program-2027-": "2026-09-26T15:34-05:00",
   "luma:evt-iWf78QCKrq9MgjZ": "2026-09-26T15:34-05:00",
   "luma:evt-iQcElAPhAZ5Ew2F": "2026-09-26T15:34-05:00",
@@ -10684,6 +10657,9 @@
   "ieee:576578": "2026-09-27T17:17-05:00",
   "ieee:561590": "2026-09-27T17:17-05:00",
   "ieee:575172": "2026-09-27T17:17-05:00",
-  "meetup:316741146": "2026-09-27T17:30-05:00"
+  "meetup:316741146": "2026-09-27T17:30-05:00",
+  "devpost:31481": "2026-09-27T22:10-05:00",
+  "luma:evt-KHyzmPSxsSvYvob": "2026-09-27T22:10-05:00",
+  "devpost:31400": "2026-09-27T22:10-05:00"
  }
 }
