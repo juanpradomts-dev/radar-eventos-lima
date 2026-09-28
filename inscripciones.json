@@ -3,8 +3,12 @@
  "linktrees": {
   "https://linktr.ee/u.cientificadelsur": {
    "organizador": "Universidad Científica del Sur",
-   "revisado": "2026-09-27",
+   "revisado": "2026-09-28",
    "omitidos": "6 grupos de WhatsApp de clubes, admisión, carreras, contacto y redes sociales (no son eventos)"
+  },
+  "https://linktr.ee/100.pe": {
+   "organizador": "@100.pe",
+   "revisado": "2026-09-28"
   }
  },
  "enlaces": [
@@ -94,13 +98,21 @@
    ],
    "origen": "https://linktr.ee/u.cientificadelsur",
    "agregado": "2026-09-27"
+  },
+  {
+   "url": "https://100.cientifica.edu.pe/2026/05/concurso-modelo-educativo-de-la-cientifica/",
+   "titulo": "Bases del Concurso Modelo Educativo",
+   "organizador": "@100.pe",
+   "tipo_org": "",
+   "origen": "https://linktr.ee/100.pe",
+   "agregado": "2026-09-28"
   }
  ],
  "ultimo": {
-  "fecha": "2026-09-27T16:37-05:00",
-  "accion": "actualizar",
+  "fecha": "2026-09-28T16:38-05:00",
+  "accion": "agregar",
   "ok": true,
-  "mensaje": "sin inscripciones nuevas",
+  "mensaje": "Linktree agregado: 1 inscripciones nuevas",
   "linktrees": [
    {
     "linktree": "https://linktr.ee/u.cientificadelsur",
@@ -109,7 +121,59 @@
     "dudosos": [],
     "fuera": 18,
     "total": 27
+   },
+   {
+    "linktree": "https://linktr.ee/100.pe",
+    "organizador": "@100.pe",
+    "nuevos": [
+     {
+      "url": "https://100.cientifica.edu.pe/2026/05/concurso-modelo-educativo-de-la-cientifica/",
+      "titulo": "Bases del Concurso Modelo Educativo",
+      "organizador": "@100.pe",
+      "tipo_org": "",
+      "origen": "https://linktr.ee/100.pe",
+      "agregado": "2026-09-28"
+     }
+    ],
+    "dudosos": [
+     {
+      "url": "https://web.cientifica.edu.pe/sites/default/files/2024-08/MV3.%20Modelo%20Educativo.pdf",
+      "titulo": "Descargar Modelo Educativo U. Científica",
+      "organizador": "@100.pe",
+      "tipo_org": "",
+      "origen": "https://linktr.ee/100.pe",
+      "agregado": "2026-09-28"
+     },
+     {
+      "url": "https://100.cientifica.edu.pe/",
+      "titulo": "Web: lee nuestro últimos artículos publicados",
+      "organizador": "@100.pe",
+      "tipo_org": "",
+      "origen": "https://linktr.ee/100.pe",
+      "agregado": "2026-09-28"
+     }
+    ],
+    "fuera": 5,
+    "total": 8
    }
   ]
- }
+ },
+ "dudosos": [
+  {
+   "url": "https://web.cientifica.edu.pe/sites/default/files/2024-08/MV3.%20Modelo%20Educativo.pdf",
+   "titulo": "Descargar Modelo Educativo U. Científica",
+   "organizador": "@100.pe",
+   "tipo_org": "",
+   "origen": "https://linktr.ee/100.pe",
+   "agregado": "2026-09-28"
+  },
+  {
+   "url": "https://100.cientifica.edu.pe/",
+   "titulo": "Web: lee nuestro últimos artículos publicados",
+   "organizador": "@100.pe",
+   "tipo_org": "",
+   "origen": "https://linktr.ee/100.pe",
+   "agregado": "2026-09-28"
+  }
+ ]
 }
