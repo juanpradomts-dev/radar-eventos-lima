@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-28T16:03-05:00",
+ "actualizado": "2026-09-28T16:40-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 66
+   "n": 68
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 22
+   "n": 23
   },
   "Meetup": {
    "ok": true,
@@ -51,14 +51,14 @@
   },
   "Inscripciones (Linktree)": {
    "ok": true,
-   "n": 2
+   "n": 3
   },
   "Redes (manual)": {
    "ok": true,
    "n": 0
   }
  },
- "revisados": 369,
+ "revisados": 373,
  "top": 55,
  "eventos": [
   {
@@ -1955,6 +1955,34 @@
    "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
+   "id": "luma:evt-oWvzxxwwjCR8Et6",
+   "titulo": "Proyecto Del Caos al Plan: Gestión de proyectos con Agile + IA",
+   "inicio": "2026-10-05T16:00-05:00",
+   "fin": "2026-10-05T17:30-05:00",
+   "lugar": "Jr. Gral, Jirón Luis Sánchez Cerro 2141 Lima, Jesús María",
+   "distrito": "Jesús María",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/3leca32y",
+   "fuente": "Luma",
+   "organizador": "PMO project management office",
+   "descripcion": "¡Convierte el caos en claridad! ✨\nEn el taller Del Caos al Control: Gestión de proyectos con Agile + IA, descubrirás una forma práctica y actual de organizar tareas, prioridades y equipos, sin necesidad de tener experiencia previa.\nGuiados por Gustavo Ortega, Project manager especialista en metodologías ágiles, esta sesión te mostrará con un enfoque claro y en un lenguaje accesible cómo pasar de una idea confusa a un proyecto bien estructurado. Aprenderás cómo la combinación de metodologías ágiles y la Inteligencia Artificial puede ayudarte a tomar mejores decisiones, reducir el desorden y adaptarte a los cambios sin perder el rumbo.\n¿Qué te llevarás de este encuentro?\n💡 Herramientas práctic",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/qf/c72f5c8c-924f-4db5-a440-1b8499702634.jpg",
+   "inscripcion": "https://lu.ma/3leca32y",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Tecnología e IA"
+   ],
+   "valor": 28,
+   "afinidad": 18,
+   "puntaje": 46,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Gratis",
+   "visto_desde": "2026-09-28T16:40-05:00"
+  },
+  {
    "id": "devpost:29359",
    "titulo": "OneAquaHealth IEEE Global Hackathon",
    "tipo": "hackathon",
@@ -3082,6 +3110,34 @@
    "puntaje": 39,
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-09-26T22:13-05:00"
+  },
+  {
+   "id": "luma:evt-6PUJZlSf0wlgHiY",
+   "titulo": "TECH FOR GOOD: Innovación sostenible en acción",
+   "inicio": "2026-10-14T09:00-05:00",
+   "fin": "2026-10-14T13:00-05:00",
+   "lugar": "Av. José Larco 770, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/7krkr4xn",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Cámara Verde Perú  en colaboración con el Hub de Miraflores te invita a Tech for Good: Innovación sostenible en acción, nuestro encuentro dentro del Perú Tech Week 2026. Empresas, startups, academia, Estado e inversionistas se reúnen para conversar sobre cómo la tecnología e innovación puede generar triple impacto: económico, social y ambiental.\nPorque la sostenibilidad no es solo cuidar el planeta. También es crear oportunidades para las personas, construir negocios rentables y gestionarlos con transparencia, bajo criterios ASG (ambientales, sociales y de gobernanza).\n📅 Miércoles 14 de octubre de 2026⏰ 8:30 a.m. acreditación · 9:00 a.m. – 1:00 p.m. programa📍 Auditorio del Centro Cultural Ri",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/bs/714affac-f772-40ae-8b01-1df7b84745f7.png",
+   "inscripcion": "https://lu.ma/7krkr4xn",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 28,
+   "afinidad": 14,
+   "puntaje": 42,
+   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Gratis",
+   "visto_desde": "2026-09-28T16:40-05:00"
   },
   {
    "id": "luma:evt-iQcElAPhAZ5Ew2F",
@@ -5150,6 +5206,33 @@
    "puntaje": 53,
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Afín: Becas y posgrado",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "eb:1992830143605",
+   "titulo": "CPCI Webinar Gratuito: Perito Informático Forense / 3 de Noviembre 2026",
+   "inicio": "2026-11-03T17:00-05:00",
+   "fin": "2026-11-03T20:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/cpci-webinar-gratuito-perito-informatico-forense-3-de-noviembre-2026-tickets-1992830143605",
+   "inscripcion": "https://www.eventbrite.com.ar/e/cpci-webinar-gratuito-perito-informatico-forense-3-de-noviembre-2026-tickets-1992830143605",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Consejo Profesional en Ciencias Informáticas",
+   "descripcion": "Unite al webinar y descubre todo sobre el trabajo de un Perito Informático Forense, ¡online, gratuito y en vivo!",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183558936%2F329292450989%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=7adfdd7567119611eb40396ff3211e11",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-09-28T16:40-05:00"
   },
   {
    "id": "wikicfp:191345",
@@ -10175,6 +10258,34 @@
    "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
   },
   {
+   "id": "insc:8eca04457016",
+   "titulo": "Concurso «Modelo Educativo de la Científica»",
+   "tipo": "evento",
+   "inicio": "2026-06-09T00:00-05:00",
+   "fin": "2026-06-23T23:59-05:00",
+   "cierre": "",
+   "lugar": "",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://100.cientifica.edu.pe/2026/05/concurso-modelo-educativo-de-la-cientifica/",
+   "inscripcion": "https://100.cientifica.edu.pe/2026/05/concurso-modelo-educativo-de-la-cientifica/",
+   "fuente": "Inscripciones (Linktree)",
+   "fuente_url": "https://linktr.ee/100.pe",
+   "organizador": "@100.pe",
+   "descripcion": "Concurso «Modelo Educativo de la Científica» | 100 \nMedia Lab \nUniversidad Científica \ndel sur \nINICIO \nCAMPUS \nOPINIÓN \nLA ENTREVISTA \nHISTORIAS \nNETWORK \nALUMNI \nQUIÉNES SOMOS \nQuiénes somos \nContacto \nNETWORK \nCampus \nEntrevistas \nOpinión \nHistorias \nAudiovisuales \nLaboratorio \nAlumni \nQuiénes so",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "ya pasó",
+   "categorias": [
+    "Investigación y ciencia",
+    "Competencias y hackathons"
+   ],
+   "valor": 29,
+   "afinidad": 9,
+   "puntaje": 38,
+   "por_que": "Formativo · Afín: Competencias · Presencial en Lima · Universidad"
+  },
+  {
    "id": "insc:1bf51d4dc641",
    "titulo": "Día Cultural Aramburú | Taller de Arte Andino: Pinta tu torito de Pucará",
    "tipo": "evento",
@@ -10234,8 +10345,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-28T16:03-05:00",
-  "revisados": 240,
+  "fecha": "2026-09-28T16:40-05:00",
+  "revisados": 243,
   "corregidos": 16,
   "avisos": 4,
   "archivados": 0,
@@ -10402,7 +10513,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 14,
+   "comprobados": 3,
    "rotos": 2,
    "sin_comprobar": 2
   },
@@ -10424,6 +10535,14 @@
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
    "fecha_mencionada": "2026-09-25T00:00-05:00"
+  },
+  {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
+   "fecha_mencionada": ""
   },
   {
    "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
@@ -10815,6 +10934,9 @@
   "opportunitydesk:desk-org-2026-09-28-melton-foundation-global-solvers-accelerator-2027-": "2026-09-28T16:03-05:00",
   "opportunitydesk:portunitydesk-org-2026-09-28-twas-visiting-expert-programme-2026-2027-": "2026-09-28T16:03-05:00",
   "luma:evt-B8EX8PEoPH2UZrV": "2026-09-28T16:03-05:00",
-  "opportunitydesk:-org-2026-09-28-ashoka-carnegie-challenge-for-civic-leadership-2027-2-": "2026-09-28T16:03-05:00"
+  "opportunitydesk:-org-2026-09-28-ashoka-carnegie-challenge-for-civic-leadership-2027-2-": "2026-09-28T16:03-05:00",
+  "luma:evt-oWvzxxwwjCR8Et6": "2026-09-28T16:40-05:00",
+  "luma:evt-6PUJZlSf0wlgHiY": "2026-09-28T16:40-05:00",
+  "eb:1992830143605": "2026-09-28T16:40-05:00"
  }
 }
