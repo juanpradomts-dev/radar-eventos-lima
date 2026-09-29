@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-29T12:55-05:00",
+ "actualizado": "2026-09-29T16:48-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 75
+   "n": 76
   },
   "Eventbrite": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 392,
+ "revisados": 393,
  "top": 55,
  "eventos": [
   {
@@ -385,34 +385,6 @@
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "devpost:31098",
-   "titulo": "Graphiques Innovation Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-08-21T00:00-05:00",
-   "fin": "2026-09-29T23:59-05:00",
-   "cierre": "2026-09-29T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://graphiques-challenge.devpost.com/",
-   "inscripcion": "https://graphiques-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
    "id": "eb:1998657030982",
@@ -819,6 +791,34 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "devpost:31098",
+   "titulo": "Graphiques Innovation Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-08-21T00:00-05:00",
+   "fin": "2026-09-30T23:59-05:00",
+   "cierre": "2026-09-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://graphiques-challenge.devpost.com/",
+   "inscripcion": "https://graphiques-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack Club",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 19,
+   "afinidad": 13,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-28T22:49-05:00"
+  },
+  {
    "id": "devpost:31249",
    "titulo": "Next Byte Hacks: V4",
    "tipo": "hackathon",
@@ -1123,33 +1123,6 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
-   "id": "pucp:charla-apoyo-case-experience",
-   "titulo": "Charla APOYO Case Experience",
-   "inicio": "2026-10-01T12:00-05:00",
-   "fin": "2026-10-01T14:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/charla-apoyo-case-experience/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Conoce la experiencia de participar en un proceso de selección basado en casos y prepárate para afrontar este tipo de dinámicas con mayor seguridad.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_7b4f3a14e5.png",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=032&i=35507",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-09-28T22:49-05:00"
-  },
-  {
    "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp",
    "titulo": "Taller de CV: Potencia tu Herramienta para el Empleo",
    "inicio": "2026-10-01T12:30-05:00",
@@ -1231,6 +1204,34 @@
    "puntaje": 36,
    "por_que": "Formativo · Presencial en Lima · Afín: Liderazgo y oratoria · Gratis",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "pucp:presentacion-de-libro-macroeconomia-politica-monetaria-y-fluctuaciones-ensayos-en-honor-a-29092026115536",
+   "titulo": "Presentación de libro: \"Macroeconomía, política monetaria y fluctuaciones: Ensayos en honor a",
+   "inicio": "2026-10-01T17:00-05:00",
+   "fin": "2026-10-01T18:30-05:00",
+   "lugar": "Centro Cultural PUCP (CCPUCP)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/presentacion-de-libro-macroeconomia-politica-monetaria-y-fluctuaciones-ensayos-en-honor-a-29092026115536/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Sobre el libro:\nEste libro rinde homenaje a la trayectoria del economista Oscar Dancourt, marcada por el rigor analítico, una profunda vocación docente y un sincero y activo compromiso con el desarrollo del país.\n \nHomenajeado | Oscar Dancourt\nDoctor en Economía por la PUCP. Es profesor Jubilado del Departamento de Economía de la misma institución, donde también ejerció como jefe (1998-2002). Ocupó roles directivos en el Banco Central de Reserva del Perú, del cual ha sido Director (2001- 2004), Vicepresidente y encargado de la Presidencia (2004-2006).\n \nEditor | Félix Jiménez (PUCP)\nDoctor en Economía (Ph.D.) por la New School for Social Research de Nueva York, Estados Unidos, y Magíster en ",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://bit.ly/4hwdn97",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Investigación y ciencia"
+   ],
+   "valor": 35,
+   "afinidad": 16,
+   "puntaje": 51,
+   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
+   "visto_desde": "2026-09-29T16:48-05:00"
   },
   {
    "id": "ieee:580177",
@@ -2702,7 +2703,7 @@
    "organizador": "Perú Tech Week 2026",
    "descripcion": "Un encuentro para founders, CEOs, ejecutivos y equipos que están explorando o atravesando procesos de expansión regional, en el marco de Perú Tech Week 2026.\n💬 Preguntas & Networking: Pregunta de forma anónima aquello que siempre quisiste saber sobre internacionalización y conecta con otros founders, decisiones difíciles y lecciones reales de quienes ya llevaron sus empresas fuera del Perú.\n🎤 Panel de conversación: Founders y líderes compartirán experiencias reales sobre lo que implica entrar a nuevos mercados, desde las decisiones que funcionaron hasta los errores que les hubiera gustado evitar.\n🛠️ Workshop práctico: Lleva la conversación a tu propia empresa y trabaja sobre los principales ",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/kt/498e623a-4420-474f-8fa1-0ff6fb89f916.jpg",
+   "imagen": "https://images.lumacdn.com/uploads/td/0862ae64-6b45-4dfe-9faa-23c9a694564f.jpg",
    "inscripcion": "https://lu.ma/lrkvf16u",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -3307,34 +3308,6 @@
    "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
-   "id": "devpost:31103",
-   "titulo": "WarriorHacks 2.0",
-   "tipo": "hackathon",
-   "inicio": "2026-09-28T00:00-05:00",
-   "fin": "2026-10-14T23:59-05:00",
-   "cierre": "2026-10-14T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://warriorhacks-2-0.devpost.com/",
-   "inscripcion": "https://warriorhacks-2-0.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Westwood Computer Science Club",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/267/082/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 26,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-28T16:03-05:00"
-  },
-  {
    "id": "devpost:31481",
    "titulo": "Multimodal AI Hackathon 2026",
    "tipo": "hackathon",
@@ -3361,6 +3334,34 @@
    "puntaje": 52,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-27T22:10-05:00"
+  },
+  {
+   "id": "devpost:31103",
+   "titulo": "WarriorHacks 2.0",
+   "tipo": "hackathon",
+   "inicio": "2026-09-28T00:00-05:00",
+   "fin": "2026-10-14T23:59-05:00",
+   "cierre": "2026-10-14T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://warriorhacks-2-0.devpost.com/",
+   "inscripcion": "https://warriorhacks-2-0.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Westwood Computer Science Club",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/267/082/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-28T16:03-05:00"
   },
   {
    "id": "wikicfp:203191",
@@ -3571,7 +3572,7 @@
    "url": "https://lu.ma/vnv63sv6",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "AI for Construction & Real Estate es una experiencia ejecutiva y práctica dirigida a líderes de empresas de construcción, ingeniería, arquitectura y real estate que buscan entender cómo implementar Inteligencia Artificial de forma realista dentro de sus organizaciones.\nDurante la sesión compartiremos los principales hallazgos de un estudio realizado con más de 1,000 profesionales del sector AEC, identificando nivel de adopción, herramientas utilizadas, principales barreras y oportunidades de aplicación de IA.\nA partir de estos resultados, reuniremos a gerentes, constructoras, inmobiliarias, proveedores y líderes de innovación para contrastar esta realidad con sus propias organizaciones, revi",
+   "descripcion": "AI for Construction & Real Estate es un encuentro ejecutivo para líderes y profesionales de construcción, ingeniería, arquitectura y real estate interesados en entender cómo la Inteligencia Artificial está entrando al sector y qué oportunidades abre para sus organizaciones.\nSerá una sesión práctica para conocer tendencias, casos, retos de adopción y distintos enfoques para empezar a implementar IA con mayor criterio.\n¿Qué encontrarás?\nPerspectivas sobre adopción de IA en Construction & Real Estate\n\nCasos y experiencias del sector\n\nEspacios de diagnóstico y reflexión\n\nConversación entre empresas y profesionales\n\nNetworking y conexiones 1:1\n\nAgenda\n6:30 p. m. — Registro & Networking\n6:50 p. m.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/c0/666fe6a8-9f12-4838-9e8c-92ca1a70604f.png",
    "inscripcion": "https://lu.ma/vnv63sv6",
@@ -3580,12 +3581,12 @@
    "cierre": "",
    "categorias": [
     "Tecnología e IA",
-    "Habilidades y liderazgo"
+    "Ingeniería y operaciones"
    ],
-   "valor": 27,
-   "afinidad": 24,
-   "puntaje": 51,
-   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Presencial en Lima · Afín: Becas y posgrado",
+   "valor": 24,
+   "afinidad": 16,
+   "puntaje": 40,
+   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-09-29T00:33-05:00"
   },
   {
@@ -3629,7 +3630,7 @@
    "organizador": "Cámara de Comercio Peruano-Chilena",
    "descripcion": "La Cámara de Comercio Peruano-Chilena se complace en invitarle a su Encuentro Anual, en conmemoración de su 23.º aniversario.\nSerá una ocasión especial para reunir a autoridades, socios y empresarios, celebrando los vínculos que fortalecen la relación entre Perú y Chile.\nImportante: La invitación es personal, única e intransferible. La asistencia está sujeta a confirmación y aprobación previa. El ingreso será exclusivamente para las personas que figuren en la lista de invitados confirmados.",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/5k/882c285b-82c9-4ea3-85c6-2ea1c94c938f.png",
+   "imagen": "https://images.lumacdn.com/uploads/td/3e71622b-cef5-46ad-83d1-1d32284b0eaf.jpg",
    "inscripcion": "https://lu.ma/gb4zkb6p",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -4444,6 +4445,33 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
+   "id": "pucp:charla-apoyo-case-experience",
+   "titulo": "Charla APOYO Case Experience",
+   "inicio": "2026-10-21T12:00-05:00",
+   "fin": "2026-10-21T13:30-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/charla-apoyo-case-experience/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Conoce la experiencia de participar en un proceso de selección basado en casos y prepárate para afrontar este tipo de dinámicas con mayor seguridad.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_7b4f3a14e5.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=032&i=35507",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-09-28T22:49-05:00"
+  },
+  {
    "id": "pucp:circulo-de-escucha-lo-que-nos-sostiene",
    "titulo": "Círculo de escucha: \"Lo que nos sostiene\"",
    "inicio": "2026-10-21T15:00-05:00",
@@ -4708,7 +4736,7 @@
    "organizador": "STARTUP UNI, José Torres Valenzuela",
    "descripcion": "💼 Difusión de Resultados – DATA AIX\nSistema de exploración minera con IA para análisis de variables geológicas.\nTe invitamos a conocer los resultados del proyecto desarrollado por DATA AIX, una iniciativa orientada al desarrollo de una solución tecnológica basada en inteligencia artificial para la exploración y análisis de información geológica.\n🔎 Durante el taller conocerás:\n📈 Los resultados del proyecto🚀 Sus principales avances y logros💡 La solución desarrollada y sus principales funcionalidades🧪 El proceso de desarrollo y validación📊 Los aprendizajes obtenidos durante el proyecto\n💰 Proyecto cofinanciado por ProInnóvate – Ministerio de la Producción, en el marco de Startup Perú 12G.\n👨‍💻 CE",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/ls/5268bc33-09a7-4411-b7b5-72bbaeb56b9d.jpg",
+   "imagen": "https://images.lumacdn.com/uploads/5k/40d9c220-e685-4828-b88a-2274169cf699.jpg",
    "inscripcion": "https://lu.ma/nu1hru5x",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -5029,6 +5057,34 @@
    "puntaje": 54,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31503",
+   "titulo": "Life After Code",
+   "tipo": "hackathon",
+   "inicio": "2026-10-05T00:00-05:00",
+   "fin": "2026-10-27T23:59-05:00",
+   "cierre": "2026-10-27T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://gitlab-transcend.devpost.com/",
+   "inscripcion": "https://gitlab-transcend.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "GitLab",
+   "descripcion": "Hackathon online. Temas: DevOps, Machine Learning/AI, Productivity. Premios: $45,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/376/754/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-29T16:48-05:00"
   },
   {
    "id": "eb:1982108679417",
@@ -9173,6 +9229,31 @@
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
   },
   {
+   "id": "luma:evt-JAWHwSBLUbytDVt",
+   "titulo": "MASTERCLASS INTERNACIONAL SAKE & MATCHA",
+   "inicio": "2026-10-07T15:30-05:00",
+   "fin": "2026-10-07T17:30-05:00",
+   "lugar": "Av. Vasco Núñez de Balboa 530, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/fk0i027q",
+   "fuente": "Luma",
+   "organizador": "Le Cordon Bleu Perú",
+   "descripcion": "Con la participación del Sr. Daisuke Kikuchi y la Sra. Shiori Yoshimiya.\nDETALLE:\nDía: 07 de octubre\nHora: 3:30 p.m.\nLugar: Auditorio 1\nIMPORTANTE: El alumno deberá registrarse con su nombre completo y correo institucional para validar su inscripción.",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/nl/b618f477-76e5-411d-b3ce-01f8f3203c47.png",
+   "inscripcion": "https://lu.ma/fk0i027q",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis"
+  },
+  {
    "id": "luma:evt-x8hN8xnVNgFJeM7",
    "titulo": "Notion Community Fest Perú",
    "inicio": "2026-10-10T15:00-05:00",
@@ -9743,33 +9824,6 @@
    "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:27425",
-   "titulo": "Hack Days Turbhe",
-   "tipo": "hackathon",
-   "inicio": "2026-09-20T00:00-05:00",
-   "fin": "2026-09-29T23:59-05:00",
-   "cierre": "2026-09-29T23:59-05:00",
-   "lugar": "Navi Mumbai, India",
-   "distrito": "Navi Mumbai",
-   "modalidad": "Presencial",
-   "url": "https://hack-days-turbhe.devpost.com/",
-   "inscripcion": "https://hack-days-turbhe.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "AITD EVENTS",
-   "descripcion": "Hackathon presencial en Navi Mumbai, India. Temas: Beginner Friendly, Education, Lifehacks. Premios: ₹ 0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/345/064/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31124",
    "titulo": "SVYCA Youth for Earth (Y4E) Hackathon",
    "tipo": "hackathon",
@@ -9974,7 +10028,7 @@
    "organizador": "Perú Tech Week 2026",
    "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/eu/f39cfa56-13c5-4cea-9351-2a9fddc1e4b6.jpg",
+   "imagen": "https://images.lumacdn.com/uploads/z4/4bc7a6fe-f185-4170-92fa-ca4f81c68b63.jpg",
    "inscripcion": "https://lu.ma/kgl7317x",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -10760,31 +10814,6 @@
    "por_que": "Presencial en Lima · Afín: Investigación · Universidad · Evento sin formato claro"
   },
   {
-   "id": "pucp:misa-de-cierre-por-el-mes-de-la-biblia-09092026113235",
-   "titulo": "Misa de cierre por el Mes de la Biblia",
-   "inicio": "2026-09-29T13:00-05:00",
-   "fin": "2026-09-29T14:00-05:00",
-   "lugar": "Centro de Asesoría Pastoral Universitaria (CAPU)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/misa-de-cierre-por-el-mes-de-la-biblia-09092026113235/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Misa · Servicios Pastorales · CAPU",
-   "gratis": null,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Misa_Biblia_3db238f29d.jpg",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/misa-de-cierre-por-el-mes-de-la-biblia-09092026113235/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "tipo de evento no formativo (Misa)",
-   "categorias": [],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
-  },
-  {
    "id": "insc:8eca04457016",
    "titulo": "Concurso «Modelo Educativo de la Científica»",
    "tipo": "evento",
@@ -10872,8 +10901,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-29T12:55-05:00",
-  "revisados": 254,
+  "fecha": "2026-09-29T16:48-05:00",
+  "revisados": 256,
   "corregidos": 16,
   "avisos": 9,
   "archivados": 0,
@@ -11031,14 +11060,6 @@
     "url": "https://agenda.pucp.edu.pe/evento/taller-preparacion-efectiva-para-parciales/"
    },
    {
-    "id": "pucp:charla-apoyo-case-experience",
-    "titulo": "Charla APOYO Case Experience",
-    "fuente": "PUCP",
-    "nivel": "aviso",
-    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
-    "url": "https://agenda.pucp.edu.pe/evento/charla-apoyo-case-experience/"
-   },
-   {
     "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp",
     "titulo": "Taller de CV: Potencia tu Herramienta para el Empleo",
     "fuente": "PUCP",
@@ -11071,6 +11092,14 @@
     "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/"
    },
    {
+    "id": "pucp:charla-apoyo-case-experience",
+    "titulo": "Charla APOYO Case Experience",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/charla-apoyo-case-experience/"
+   },
+   {
     "id": "pucp:circulo-de-escucha-lo-que-nos-sostiene",
     "titulo": "Círculo de escucha: \"Lo que nos sostiene\"",
     "fuente": "PUCP",
@@ -11080,7 +11109,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 0,
+   "comprobados": 2,
    "rotos": 7,
    "sin_comprobar": 2
   },
@@ -11094,22 +11123,6 @@
    "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
    "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
    "fecha_mencionada": ""
-  },
-  {
-   "titulo": "PetroTal resalta su contribución al manejo sostenible del paiche en Cumbre Perú Sostenible",
-   "url": "https://www.desdeadentro.pe/2026/09/petrotal-resalta-su-contribucion-al-manejo-sostenible-del-paiche-en-cumbre-peru-sostenible/",
-   "medio": "Desde Adentro",
-   "publicado": "Mon, 28 Sep 2026 03:43:00 GMT",
-   "resumen": "En su primera participación en la Cumbre Perú Sostenible 2026, PetroTal expuso su contribución al desarrollo sostenible de Loreto, región donde opera el Campo Bretaña del Lote 95, desde 2018.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "LIMA ACOGERÁ CUMBRE DE AEROPUERTOS",
-   "url": "https://tnews.com.pe/lima-acogera-cumbre-de-aeropuertos/",
-   "medio": "tnews",
-   "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
-   "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
-   "fecha_mencionada": "2026-09-25T00:00-05:00"
   },
   {
    "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
@@ -11133,6 +11146,22 @@
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
    "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "LiGA Summit 2026, a Lima la prima giornata dedicata all’iGaming e alle nuove licenze di gioco in Perù",
+   "url": "https://www.agimeg.it/liga-summit-2026-lima-igaming-nuove-licenze-peru/",
+   "medio": "AGIMEG",
+   "publicado": "Fri, 18 Sep 2026 02:52:00 GMT",
+   "resumen": "Si è aperta a Lima la prima giornata del LiGA Summit 2026: panel su licenze, conformità degli affiliati e prospettive dell'iGaming in Perù e in America Latina.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Gioco online, LiGA Summit 2026 al debutto a Lima: regolamentazione, affiliazione, cybersecurity e prediction markets",
+   "url": "https://www.agimeg.it/gioco-online-liga-summit-2026-lima-regolamentazione-affiliazione-cybersecurity-prediction-markets/",
+   "medio": "AGIMEG",
+   "publicado": "Mon, 07 Sep 2026 03:16:00 GMT",
+   "resumen": "Il LiGA Summit 2026 a Lima esplora regolamentazione, cybersecurity e opportunità nel gioco online in America Latina, con focus in diverse aree.",
    "fecha_mencionada": ""
   },
   {
@@ -11523,6 +11552,8 @@
   "eb:2001083241844": "2026-09-29T10:06-05:00",
   "opportunitydesk:esk-org-2026-09-29-british-academy-innovation-fellowships-scheme-2026-": "2026-09-29T10:06-05:00",
   "opportunitydesk:ortunitydesk-org-2026-09-29-hong-kong-phd-fellowship-scheme-2027-2028-": "2026-09-29T10:06-05:00",
-  "opportunitydesk:26-09-29-design-digital-marketing-school-cohort-3-for-lagos-residents-": "2026-09-29T11:14-05:00"
+  "opportunitydesk:26-09-29-design-digital-marketing-school-cohort-3-for-lagos-residents-": "2026-09-29T11:14-05:00",
+  "pucp:presentacion-de-libro-macroeconomia-politica-monetaria-y-fluctuaciones-ensayos-en-honor-a-29092026115536": "2026-09-29T16:48-05:00",
+  "devpost:31503": "2026-09-29T16:48-05:00"
  }
 }
