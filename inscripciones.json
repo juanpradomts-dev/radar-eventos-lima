@@ -3,12 +3,12 @@
  "linktrees": {
   "https://linktr.ee/u.cientificadelsur": {
    "organizador": "Universidad Científica del Sur",
-   "revisado": "2026-09-28",
+   "revisado": "2026-09-29",
    "omitidos": "6 grupos de WhatsApp de clubes, admisión, carreras, contacto y redes sociales (no son eventos)"
   },
   "https://linktr.ee/100.pe": {
    "organizador": "@100.pe",
-   "revisado": "2026-09-28"
+   "revisado": "2026-09-29"
   }
  },
  "enlaces": [
@@ -109,7 +109,7 @@
   }
  ],
  "ultimo": {
-  "fecha": "2026-09-29T00:31-05:00",
+  "fecha": "2026-09-29T10:09-05:00",
   "accion": "actualizar",
   "ok": true,
   "mensaje": "sin inscripciones nuevas",
@@ -119,18 +119,16 @@
     "organizador": "Universidad Científica del Sur",
     "nuevos": [],
     "dudosos": [],
-    "fuera": 0,
-    "total": 0,
-    "error": "Linktree respondió 406"
+    "fuera": 18,
+    "total": 27
    },
    {
     "linktree": "https://linktr.ee/100.pe",
     "organizador": "@100.pe",
     "nuevos": [],
     "dudosos": [],
-    "fuera": 0,
-    "total": 0,
-    "error": "Linktree respondió 406"
+    "fuera": 5,
+    "total": 8
    }
   ]
  },
