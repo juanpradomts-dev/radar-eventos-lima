@@ -1,14 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2.5 60 60">
-  <!-- Radar Lima: un pin de ubicación (Lima) con un radar dentro (encuentra oportunidades) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- ícono de la pestaña: el radar de la portada sobre su mismo azul (trazos un poco más firmes para 16 px) -->
   <defs>
-    <linearGradient id="pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF7A1F"/><stop offset="1" stop-color="#E05500"/></linearGradient>
-    <linearGradient id="barrido" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".9"/></linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A56A8"/><stop offset="1" stop-color="#0D2960"/></linearGradient>
+    <linearGradient id="barrido" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFB27F" stop-opacity="0"/><stop offset="1" stop-color="#FFB27F" stop-opacity=".95"/></linearGradient>
   </defs>
-  <path d="M32 62 C27 55 10 41 10 25 A22 22 0 1 1 54 25 C54 41 37 55 32 62 Z" fill="url(#pin)"/>
-  <circle cx="32" cy="25" r="14" fill="#1D428A"/>
-  <circle cx="32" cy="25" r="10.5" fill="none" stroke="#fff" stroke-opacity=".92" stroke-width="2.2"/>
-  <circle cx="32" cy="25" r="5" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.8"/>
-  <path d="M32 25 L32 14.5 A10.5 10.5 0 0 1 41.1 19.75 Z" fill="url(#barrido)"/>
-  <circle cx="32" cy="25" r="2" fill="#fff"/>
-  <circle cx="37.3" cy="19.2" r="1.9" fill="#FFB27F"/>
+  <rect width="48" height="48" rx="11" fill="url(#fondo)"/>
+  <g transform="translate(24 24) scale(.84) translate(-24 -24)">
+    <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.8)" stroke-width="2.6"/>
+    <circle cx="24" cy="24" r="14" fill="none" stroke="rgba(255,255,255,.45)" stroke-width="2"/>
+    <circle cx="24" cy="24" r="6" fill="none" stroke="rgba(255,255,255,.45)" stroke-width="2"/>
+    <path d="M24 24 L24 2 A22 22 0 0 1 43 13 Z" fill="url(#barrido)"/>
+    <circle cx="33" cy="15" r="3.2" fill="#FFB27F"/>
+  </g>
 </svg>

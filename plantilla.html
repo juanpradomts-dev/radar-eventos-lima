@@ -62,9 +62,9 @@ a{color:inherit}
 /* marca: saludo + nombre con un radar que barre despacio */
 .hero .saludo{font-size:clamp(20px,2.6vw,26px);font-weight:600;opacity:.9;margin:0;letter-spacing:.01em}
 .hero h1.marca{display:flex;align-items:center;gap:12px;font-size:clamp(36px,6vw,54px);line-height:1.05;margin:4px 0 10px;letter-spacing:-.01em}
-.radar{width:clamp(54px,7.5vw,70px);height:auto;flex:0 0 auto;filter:drop-shadow(0 4px 10px rgba(0,0,0,.25))}
-.radar .aguja{transform-origin:32px 25px}
-.radar .blip{transform-origin:37.3px 19.2px}
+.radar{width:clamp(38px,5.5vw,50px);height:auto;flex:0 0 auto}
+.radar .aguja{transform-origin:24px 24px}
+.radar .blip{transform-origin:33px 15px}
 .hero h1 .nombre{color:#fff}
 .hero h1 .nombre b{color:#FFB27F;font-weight:inherit}
 .hero .lema{font-size:17px;opacity:.92;max-width:600px}
@@ -447,17 +447,14 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
   <div class="contenedor">
     <p class="saludo">Bienvenido a</p>
     <h1 class="marca">
-      <!-- el logo (marca/logo.svg) con el barrido y el punto animados -->
-      <svg class="radar" viewBox="0 0 64 64" aria-hidden="true">
-        <defs><linearGradient id="logo-pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF7A1F"/><stop offset="1" stop-color="#E05500"/></linearGradient>
-          <linearGradient id="barrido" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".9"/></linearGradient></defs>
-        <path d="M32 62 C27 55 10 41 10 25 A22 22 0 1 1 54 25 C54 41 37 55 32 62 Z" fill="url(#logo-pin)"/>
-        <circle cx="32" cy="25" r="14" fill="#1D428A"/>
-        <circle cx="32" cy="25" r="10.5" fill="none" stroke="#fff" stroke-opacity=".92" stroke-width="2.2"/>
-        <circle cx="32" cy="25" r="5" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.8"/>
-        <path class="aguja" d="M32 25 L32 14.5 A10.5 10.5 0 0 1 41.1 19.75 Z" fill="url(#barrido)"/>
-        <circle cx="32" cy="25" r="2" fill="#fff"/>
-        <circle class="blip" cx="37.3" cy="19.2" r="1.9" fill="#FFB27F"/>
+      <svg class="radar" viewBox="0 0 48 48" aria-hidden="true">
+        <defs><linearGradient id="barrido" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#FFB27F" stop-opacity="0"/><stop offset="1" stop-color="#FFB27F" stop-opacity=".85"/></linearGradient></defs>
+        <circle cx="24" cy="24" r="22" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.45)" stroke-width="2"/>
+        <circle cx="24" cy="24" r="14" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="1.5"/>
+        <circle cx="24" cy="24" r="6" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="1.5"/>
+        <path class="aguja" d="M24 24 L24 2 A22 22 0 0 1 43 13 Z" fill="url(#barrido)"/>
+        <circle class="blip" cx="33" cy="15" r="2.6" fill="#FFB27F"/>
       </svg>
       <span class="nombre">Radar <b>Lima</b></span>
     </h1>

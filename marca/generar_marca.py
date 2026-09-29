@@ -13,18 +13,19 @@ from PIL import Image
 
 AQUI = Path(__file__).resolve().parent
 CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-LOGO = (AQUI / "logo.svg").read_text(encoding="utf-8")
+LOGO = (AQUI / "logo.svg").read_text(encoding="utf-8")    # radar sobre cuadro azul (pestaña)
+RADAR = (AQUI / "radar.svg").read_text(encoding="utf-8")  # el radar de la portada, para ir sobre azul
 FUENTES = ('<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500'
            '&family=Outfit:wght@700;800&display=swap" rel="stylesheet">')
 
-# ícono de celular: fondo azul de la portada a sangre (iOS y Android le ponen sus propias esquinas); el pin ocupa
-# el 62 % del alto, dentro de la zona segura de los íconos "maskable" (círculo del 80 %)
+# ícono de celular: fondo azul de la portada a sangre (iOS y Android le ponen sus propias esquinas); el radar
+# ocupa el 62 % del alto, dentro de la zona segura de los íconos "maskable" (círculo del 80 %)
 ICONO = f"""<!doctype html><html><head><meta charset="utf-8"><style>
 html,body{{margin:0;width:512px;height:512px;overflow:hidden}}
 body{{background:linear-gradient(135deg,#2A56A8,#0D2960);display:grid;place-items:center}}
-svg{{width:318px;height:318px;filter:drop-shadow(0 10px 18px rgba(0,0,0,.28))}}</style></head><body>{LOGO}</body></html>"""
+svg{{width:318px;height:318px}}</style></head><body>{RADAR}</body></html>"""
 
-# ícono de pestaña: solo el pin, fondo transparente
+# ícono de pestaña: el cuadro azul con el radar (las esquinas quedan transparentes)
 PESTANA = f"""<!doctype html><html><head><meta charset="utf-8"><style>
 html,body{{margin:0;width:256px;height:256px;overflow:hidden;background:transparent}}
 svg{{width:256px;height:256px;display:block}}</style></head><body>{LOGO}</body></html>"""
@@ -35,13 +36,13 @@ html,body{{margin:0;width:1200px;height:630px;overflow:hidden}}
 body{{background:repeating-radial-gradient(circle at 100% 100%,rgba(255,255,255,.07) 0 2px,transparent 2px 86px),
   linear-gradient(135deg,#1D428A,#0D2960);color:#fff;position:relative;
   display:flex;align-items:center;gap:56px;padding:0 96px;box-sizing:border-box;font-family:"DM Sans",sans-serif}}
-svg{{width:250px;height:250px;flex:0 0 auto;filter:drop-shadow(0 14px 26px rgba(0,0,0,.3));position:relative;z-index:1}}
+svg{{width:250px;height:250px;flex:0 0 auto;position:relative;z-index:1}}
 .t{{position:relative;z-index:1}}
 h1{{font:800 112px/1 "Outfit",sans-serif;margin:0 0 22px;letter-spacing:-.01em}}
 h1 b{{color:#FFB27F;font-weight:inherit}}
 p{{font-size:38px;line-height:1.3;margin:0 0 30px;opacity:.93;max-width:720px}}
 span{{display:inline-block;font-size:26px;background:rgba(255,255,255,.14);border-radius:999px;padding:10px 24px}}
-</style></head><body>{LOGO}<div class="t"><h1>Radar <b>Lima</b></h1>
+</style></head><body>{RADAR}<div class="t"><h1>Radar <b>Lima</b></h1>
 <p>Eventos, talleres y becas para crecer como estudiante</p><span>Se actualiza solo cada 3 horas</span></div></body></html>"""
 
 
