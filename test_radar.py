@@ -650,6 +650,22 @@ class LectorLinktree(unittest.TestCase):
         self.assertFalse(linktree_lector.registrar_linktree(conf, "https://linktr.ee/u.cientificadelsur")[0])
         self.assertFalse(linktree_lector.registrar_linktree(conf, "https://instagram.com/algo")[0])
 
+    def test_si_ningun_linktree_responde_lo_dice_claro(self):
+        # caso real (29-set): Linktree respondió 406 a GitHub y el mensaje decía "sin inscripciones nuevas"
+        with tempfile.TemporaryDirectory() as tmp:
+            viejo_json, viejo_get = linktree_lector.JSON, linktree_lector.get_con_reintento
+            linktree_lector.JSON = Path(tmp) / "inscripciones.json"
+            linktree_lector.JSON.write_text(json.dumps({"linktrees": {"https://linktr.ee/org": {"organizador": "Org"}}}),
+                                            encoding="utf-8")
+            linktree_lector.get_con_reintento = lambda u: type("R", (), {"status_code": 406, "text": ""})
+            try:
+                linktree_lector.main(["actualizar"])
+                u = json.loads(linktree_lector.JSON.read_text(encoding="utf-8"))["ultimo"]
+            finally:
+                linktree_lector.JSON, linktree_lector.get_con_reintento = viejo_json, viejo_get
+        self.assertFalse(u["ok"])
+        self.assertIn("no respondió", u["mensaje"])
+
     def test_el_workflow_de_linktree_no_tiene_horario(self):
         # Linktree prohíbe robots programados: el workflow solo puede correr a pedido
         wf = (RAIZ / ".github" / "workflows" / "linktree.yml").read_text(encoding="utf-8")

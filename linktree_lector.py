@@ -22,7 +22,22 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 RAIZ = Path(__file__).resolve().parent
 JSON = RAIZ / "inscripciones.json"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; RadarLima-a-pedido/1.0; consulta iniciada por una persona; "
-                    "+https://juanpradomts-dev.github.io/radar-eventos-lima/)"}
+                    "+https://juanpradomts-dev.github.io/radar-eventos-lima/)",
+      # cabeceras normales de cualquier navegador (sin ellas Linktree a veces responde 406); el User-Agent sigue
+      # diciendo quiénes somos
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "es-PE,es;q=0.9,en;q=0.6"}
+
+
+def get_con_reintento(u, pausa=6):
+    """Una consulta; si Linktree responde 406/429/503 (bloqueo pasajero), espera y reintenta UNA vez."""
+    import requests
+    import time
+    r = requests.get(u, headers=UA, timeout=25)
+    if r.status_code in (406, 429, 503):
+        time.sleep(pausa)
+        r = requests.get(u, headers=UA, timeout=25)
+    return r
 
 # ---------------------------------------------------------------- clasificación
 FUERA_DOMINIO = re.compile(r"(whatsapp\.com|wa\.me|instagram\.com|tiktok\.com|youtube\.com|youtu\.be|facebook\.com|"
@@ -167,7 +182,7 @@ def main(argv):
     probar = "--probar" in argv
     argv = [a for a in argv if a != "--probar"]
     accion = argv[0] if argv else "actualizar"
-    get = lambda u: requests.get(u, headers=UA, timeout=25)
+    get = get_con_reintento
     ahora = datetime.now(timezone(timedelta(hours=-5)))
     conf = cargar()
     resumen, ok, mensaje = [], True, ""
@@ -181,6 +196,13 @@ def main(argv):
     else:
         resumen, n = revisar(conf, get, ahora.date().isoformat())
         mensaje = f"{n} inscripciones nuevas" if n else "sin inscripciones nuevas"
+    # si ningún Linktree respondió, decirlo claro (antes decía "sin inscripciones nuevas" y era engañoso)
+    if resumen and all(f.get("error") for f in resumen):
+        ok = False
+        mensaje = ("Linktree no respondió a los servidores de GitHub (bloqueo pasajero). Intenta en un rato, "
+                   "o usa el botón «Radar Lima - Linktree» de tu PC, que sí puede abrirlo.")
+    elif any(f.get("error") for f in resumen):
+        mensaje += " · algunos Linktree no respondieron: " + ", ".join(f["organizador"] or f["linktree"] for f in resumen if f.get("error"))
     conf["ultimo"] = {"fecha": ahora.isoformat(timespec="minutes"), "accion": accion, "ok": ok,
                       "mensaje": mensaje, "linktrees": resumen}
     for f in resumen:
