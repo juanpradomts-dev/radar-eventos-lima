@@ -304,6 +304,39 @@ body:has(dialog.foco[open]){overflow:hidden}
 .cerrar{position:sticky;top:12px;align-self:flex-end;margin:12px 12px -52px 0;flex:0 0 auto;z-index:3;width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.92);
   color:var(--azul);font-size:18px;font-weight:800;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.2);transition:background-color .2s,color .2s}
 .cerrar:hover{background:var(--naranja);color:#fff}
+/* ventana "Añadir un evento" (misma ventana flotante que "Leer más") */
+.nuevo-evento{display:flex;flex-direction:column;padding:0 22px 22px}
+.nuevo-cabecera h3{font-size:22px;color:var(--azul);margin:14px 56px 4px 0}
+.nuevo-cabecera p{margin:0 0 14px;color:var(--gris);font-size:14.5px}
+.formulario{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px}
+.formulario .ancho{grid-column:1/-1}
+.formulario label{display:flex;flex-direction:column;gap:5px;font-size:14px;font-weight:700;color:var(--texto)}
+.formulario label small{font-weight:500;color:var(--gris)}
+.formulario input,.formulario select,.formulario textarea{border:1.5px solid var(--linea);border-radius:12px;padding:11px 13px;font:inherit;
+  font-weight:500;outline:0;background:#fff;color:var(--texto);transition:border-color .25s var(--natural),box-shadow .25s var(--natural)}
+.formulario input:focus,.formulario select:focus,.formulario textarea:focus{border-color:var(--azul);box-shadow:0 0 0 3px var(--azul-suave)}
+.formulario textarea{resize:vertical}
+.opciones{border:0;padding:0;margin:0;display:flex;gap:10px;flex-wrap:wrap}
+.opciones legend{font-size:14px;font-weight:700;margin-bottom:6px}
+.opciones label{flex-direction:row;align-items:center;gap:8px;border:1.5px solid var(--linea);border-radius:12px;padding:9px 14px;cursor:pointer;
+  font-weight:600;transition:border-color .25s var(--natural),background-color .25s var(--natural)}
+.opciones label:has(input:checked){border-color:var(--azul);background:var(--azul-suave);color:var(--azul)}
+.formulario .enviar{padding:14px;font-size:16px}
+.formulario .enviar[disabled]{opacity:.6;cursor:wait}
+.pasos{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:6px}
+.pasos[hidden]{display:none}
+.pasos li{display:flex;gap:10px;align-items:center;font-size:15px;color:var(--gris);transition:color .3s var(--natural)}
+.pasos li::before{content:"";flex:0 0 12px;height:12px;border-radius:50%;border:2px solid var(--linea);transition:background-color .3s,border-color .3s}
+.pasos li.activo{color:var(--azul);font-weight:700}
+.pasos li.activo::before{border-color:var(--naranja);animation:latir-paso 1s ease-in-out infinite}
+.pasos li.hecho{color:var(--verde)}
+.pasos li.hecho::before{background:var(--verde);border-color:var(--verde)}
+.pasos li.fallo{color:#B42318}
+.pasos li.fallo::before{background:#B42318;border-color:#B42318}
+@keyframes latir-paso{50%{box-shadow:0 0 0 5px rgba(245,98,0,.18)}}
+.nota-evento{margin:12px 0 0;font-size:14.5px;font-weight:600;color:var(--azul)}
+.nota-evento:empty{display:none}
+@media (max-width:560px){.formulario{grid-template-columns:1fr}.nuevo-evento{padding:0 16px 18px}}
 @keyframes desaparecer{to{opacity:0}}
 dialog.foco[open]{animation:aparecer .25s ease-out}
 dialog.foco[open]::backdrop{animation:aparecer .3s ease-out}
@@ -462,6 +495,37 @@ details[open]>:not(summary){animation:aparecer .3s ease-out}
 </footer>
 
 <dialog class="foco" id="foco" aria-labelledby="foco-titulo"></dialog>
+<dialog class="foco" id="dlg-evento" aria-labelledby="dlg-evento-titulo">
+  <div class="foco-scroll"><div class="nuevo-evento">
+    <button class="cerrar" type="button" data-cerrar aria-label="Cerrar">✕</button>
+    <div class="nuevo-cabecera">
+      <h3 id="dlg-evento-titulo">➕ Añadir un evento</h3>
+      <p>Lo que viste en Instagram, LinkedIn, WhatsApp o un cartel y no salió solo. Pasa por el mismo control de calidad que todo lo demás.</p>
+    </div>
+    <form id="form-evento" class="formulario" novalidate>
+      <label class="ancho">Nombre del evento *<input name="titulo" maxlength="160" placeholder="Ej.: Científica Sprint 2026" required></label>
+      <label>Fecha *<input name="fecha" type="date" required></label>
+      <label><span>Hora <small>(si la sabes)</small></span><input name="hora" type="time"></label>
+      <label class="ancho"><span>Enlace * <small>(post, página o formulario de inscripción)</small></span><input name="url" type="url" placeholder="https://…" required></label>
+      <fieldset class="ancho opciones"><legend>Modalidad</legend>
+        <label><input type="radio" name="modalidad" value="Presencial" checked> 📍 Presencial</label>
+        <label><input type="radio" name="modalidad" value="Virtual"> 💻 Virtual</label>
+      </fieldset>
+      <label class="ancho" id="campo-lugar">Lugar<input name="lugar" maxlength="150" placeholder="Ej.: Auditorio, Campus Villa, UCSUR"></label>
+      <label>Organizador<input name="organizador" maxlength="120" placeholder="Ej.: Universidad Científica del Sur"></label>
+      <label>¿Es gratis?<select name="gratis"><option value="">No sé</option><option value="si">Sí</option><option value="no">No</option></select></label>
+      <label class="ancho">Descripción corta<textarea name="descripcion" rows="3" maxlength="900" placeholder="De qué trata, para quién es…"></textarea></label>
+      <button class="btn inscribir ancho enviar" id="enviar-evento" type="submit">➕ Añadir al radar</button>
+    </form>
+    <ul class="pasos" id="pasos-evento" hidden>
+      <li data-p="orden">Enviando el evento</li>
+      <li data-p="cola">En cola</li>
+      <li data-p="lectura">Revisando y guardando</li>
+      <li data-p="radar">Publicando el radar</li>
+    </ul>
+    <p class="nota-evento" id="nota-evento" aria-live="polite"></p>
+  </div></div>
+</dialog>
 <div class="avisos" id="avisos" role="status" aria-live="polite"></div>
 <button class="arriba" aria-label="Volver arriba"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none"
   stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 15 12 9 18 15"/></svg></button>
@@ -1015,8 +1079,80 @@ if (DATOS) {
   try { llave = localStorage.getItem("radar-linktree-llave") || ""; } catch {}
   if (!llave || !location.protocol.startsWith("http")) return;
   $("#dueno").hidden = false;
-  $("#dueno").innerHTML = `<a class="btn inscribir" href="linktree/#evento">➕ Añadir un evento</a>
+  $("#dueno").innerHTML = `<button class="btn inscribir" type="button" id="abrir-evento">➕ Añadir evento</button>
     <a class="btn sec" href="linktree/">🔗 Actualizar Linktree</a>`;
+
+  const API = "https://api.github.com/repos/juanpradomts-dev/radar-eventos-lima";
+  const dlg = $("#dlg-evento"), form = $("#form-evento"), nota = $("#nota-evento");
+  const dormir = ms => new Promise(r => setTimeout(r, ms));
+  let ocupado = false;
+  const gh = async (ruta, op = {}) => {
+    const r = await fetch(API + ruta, {...op, headers: {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28",
+      "Authorization": "Bearer " + llave, ...(op.headers || {})}});
+    if (r.status === 401) throw new Error("Tu llave de GitHub venció o no es válida: conéctala otra vez en el panel (🔗 Actualizar Linktree).");
+    if (r.status === 403 || r.status === 404) throw new Error("Tu llave no tiene permiso de Actions sobre radar-eventos-lima.");
+    if (!r.ok) throw new Error("GitHub respondió " + r.status + ". Intenta otra vez.");
+    return r.status === 204 ? null : r.json();
+  };
+  const paso = (n, e) => { const li = document.querySelector(`#pasos-evento [data-p="${n}"]`); li.classList.remove("activo", "hecho", "fallo"); if (e) li.classList.add(e); };
+  async function corrida(flujo, desde, alCambiar = () => {}) {
+    let c = null;
+    for (let i = 0; i < 90 && !c; i++) {
+      c = (await gh(`/actions/workflows/${flujo}/runs?per_page=5`)).workflow_runs.find(x => new Date(x.created_at) >= desde);
+      if (!c) await dormir(3000);
+    }
+    if (!c) throw new Error("GitHub no inició el proceso a tiempo. Intenta otra vez en un rato.");
+    while (c.status !== "completed") { alCambiar(c.status); await dormir(4000); c = await gh(`/actions/runs/${c.id}`); }
+    return c;
+  }
+  function bloquear(si) {
+    ocupado = si; const b = $("#enviar-evento");
+    b.disabled = si; b.textContent = si ? "Trabajando…" : "➕ Añadir al radar";
+  }
+
+  $("#abrir-evento").onclick = () => {
+    form.fecha.min = new Date(Date.now() - 5 * 3600e3).toISOString().slice(0, 10);
+    dlg.showModal(); dlg.firstElementChild.scrollTop = 0;
+    setTimeout(() => form.titulo.focus({preventScroll: true}), 260);
+  };
+  dlg.addEventListener("click", ev => { if (ev.target === dlg || ev.target.closest("[data-cerrar]")) cerrarDialogo(dlg); });
+  dlg.addEventListener("cancel", ev => { ev.preventDefault(); cerrarDialogo(dlg); });  // tecla Esc
+  form.addEventListener("change", ev => { if (ev.target.name === "modalidad") $("#campo-lugar").hidden = ev.target.value === "Virtual"; });
+
+  form.onsubmit = async ev => {
+    ev.preventDefault();
+    if (ocupado) return;
+    const d = Object.fromEntries(new FormData(form).entries());
+    if (d.titulo.trim().length < 4 || !d.fecha || !/^https?:\/\//.test(d.url.trim())) {
+      nota.textContent = "⚠ Completa el nombre, la fecha y un enlace que empiece con https://"; return;
+    }
+    bloquear(true); $("#pasos-evento").hidden = false; ["orden", "cola", "lectura", "radar"].forEach(p => paso(p, ""));
+    nota.textContent = "Tarda unos 3 minutos. Puedes cerrar esta ventana: el proceso sigue en GitHub.";
+    const desde = new Date(Date.now() - 5000);
+    try {
+      paso("orden", "activo");
+      await gh("/actions/workflows/agregar.yml/dispatches", {method: "POST", body: JSON.stringify({ref: "main", inputs: {datos: JSON.stringify(d)}})});
+      paso("orden", "hecho"); paso("cola", "activo");
+      const c = await corrida("agregar.yml", desde, s => { if (s === "in_progress") { paso("cola", "hecho"); paso("lectura", "activo"); } });
+      paso("cola", "hecho");
+      if (c.conclusion !== "success") { paso("lectura", "fallo"); throw new Error("El proceso falló en GitHub. Intenta otra vez."); }
+      const m = await (await fetch(API + "/contents/manuales.json?ref=main", {cache: "no-store",
+        headers: {"Accept": "application/vnd.github.raw+json", "Authorization": "Bearer " + llave}})).json();
+      const u = m.ultimo || {};
+      if (!u.ok) { paso("lectura", "fallo"); throw new Error(u.mensaje || "No se pudo añadir."); }
+      paso("lectura", "hecho"); paso("radar", "activo");
+      nota.textContent = "✔ Guardado. Publicando el radar…";
+      const r = await corrida("actualizar.yml", new Date(new Date(c.updated_at).getTime() - 90000));
+      paso("radar", r.conclusion === "success" ? "hecho" : "fallo");
+      if (r.conclusion !== "success") throw new Error("Se guardó, pero el radar no se pudo publicar ahora; saldrá en la próxima actualización.");
+      form.reset(); $("#campo-lugar").hidden = false;
+      nota.innerHTML = `✔ Listo: «${esc(d.titulo.trim())}» ya está en el radar. <button class="btn sec" type="button" onclick="location.reload()">Recargar para verlo</button>`;
+      aviso("✔ Evento añadido al radar");
+    } catch (e) {
+      nota.textContent = "⚠ " + e.message;
+    }
+    bloquear(false);
+  };
 })();
 
 // ---------- control de calidad: qué se revisó y qué se corrigió en la última actualización
@@ -1150,11 +1286,12 @@ function abrirFoco(id) {
   dlg.innerHTML = `<div class="foco-scroll">${tarjeta(e, null, true)}</div>`;
   dlg.showModal(); dlg.firstChild.scrollTop = 0;
 }
-function cerrarFoco() {
-  const dlg = $("#foco"); if (!dlg.open || dlg.classList.contains("cerrando")) return;
+function cerrarDialogo(dlg) {
+  if (!dlg.open || dlg.classList.contains("cerrando")) return;
   dlg.classList.add("cerrando");
   setTimeout(() => { dlg.classList.remove("cerrando"); dlg.close(); }, 200);
 }
+const cerrarFoco = () => cerrarDialogo($("#foco"));
 $("#foco").addEventListener("cancel", ev => { ev.preventDefault(); cerrarFoco(); });  // tecla Esc
 
 // ---------- avisos breves (uno a la vez, se van solos)
