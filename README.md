@@ -61,8 +61,8 @@ Antes de publicar, cada evento pasa por un verificador. Nunca borra nada: todo l
 
 ## Logo e íconos (`marca/`)
 
-`marca/logo.svg` es el logo: un pin de ubicación con un radar dentro. De ahí salen el ícono de la pestaña
-(`favicon.ico`), el ícono del celular (`apple-touch-icon.png`, `icono-192.png`, `icono-512.png`, `manifest.webmanifest`)
+`marca/radar.svg` es el radar de la portada; `marca/logo.svg`, ese mismo radar sobre un cuadro azul. De ahí salen el
+ícono de la pestaña (`favicon.ico`), el ícono del celular (`apple-touch-icon.png`, `icono-192.png`, `icono-512.png`, `manifest.webmanifest`)
 y la vista previa al compartir el enlace (`og.png`, 1200 × 630). Si cambias el logo, regenera las imágenes en la PC
 con `python marca/generar_marca.py` (usa Chrome); `eventos.py` las copia a `site/` en cada publicación.
 
