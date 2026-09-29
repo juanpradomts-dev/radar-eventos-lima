@@ -165,6 +165,15 @@ class SinPerfil(unittest.TestCase):
                 self.assertEqual([e["titulo"] for e in lista], ["Taller de Power BI para operaciones"])
                 self.assertEqual({e["motivo"].split(" (")[0] for e in archivo}, {"recreativo o de venta", "ya pasó"})
                 self.assertIn("Radar <b>Lima</b>", pagina.read_text(encoding="utf-8"))
+                # el logo y los íconos viajan con la página, y cada archivo que la página nombra existe
+                texto = pagina.read_text(encoding="utf-8")
+                for f in ("logo.svg", "favicon.ico", "apple-touch-icon.png", "manifest.webmanifest"):
+                    self.assertIn(f'href="{f}"', texto)
+                    self.assertTrue((eventos.CARPETA / f).exists(), f)
+                self.assertTrue((eventos.CARPETA / "og.png").exists())
+                manifiesto = json.loads((eventos.CARPETA / "manifest.webmanifest").read_text(encoding="utf-8"))
+                for i in manifiesto["icons"]:
+                    self.assertTrue((eventos.CARPETA / i["src"]).exists(), i["src"])
             finally:
                 eventos.FUENTES, eventos.enriquecer, eventos.DATOS, eventos.CARPETA, eventos.PAGINA = viejo
 

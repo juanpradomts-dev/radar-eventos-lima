@@ -26,6 +26,7 @@ import json
 import os
 import re
 import secrets
+import shutil
 import unicodedata
 from threading import Lock
 from urllib import robotparser
@@ -862,6 +863,10 @@ def generar_html(datos):
     generar_ics([e for e in datos["eventos"] if e["puntaje"] >= datos.get("top", TOP)],
                 "Radar Lima · destacados", CARPETA / "top.ics")
     (CARPETA / "eventos.json").write_text(js, encoding="utf-8")
+    # logo e íconos (pestaña, celular, vista previa al compartir): se generan a mano con marca/generar_marca.py
+    for f in (RAIZ / "marca").iterdir():
+        if f.suffix in (".svg", ".png", ".ico", ".webmanifest"):
+            shutil.copyfile(f, CARPETA / f.name)
     # página del botón de Linktree (privada en la práctica: sin enlace desde el radar, noindex, y el botón exige
     # la llave de GitHub de JP guardada en su navegador)
     (CARPETA / "linktree").mkdir(exist_ok=True)

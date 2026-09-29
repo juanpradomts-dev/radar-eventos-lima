@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2.5 60 60">
+  <!-- Radar Lima: un pin de ubicación (Lima) con un radar dentro (encuentra oportunidades) -->
+  <defs>
+    <linearGradient id="pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF7A1F"/><stop offset="1" stop-color="#E05500"/></linearGradient>
+    <linearGradient id="barrido" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".9"/></linearGradient>
+  </defs>
+  <path d="M32 62 C27 55 10 41 10 25 A22 22 0 1 1 54 25 C54 41 37 55 32 62 Z" fill="url(#pin)"/>
+  <circle cx="32" cy="25" r="14" fill="#1D428A"/>
+  <circle cx="32" cy="25" r="10.5" fill="none" stroke="#fff" stroke-opacity=".92" stroke-width="2.2"/>
+  <circle cx="32" cy="25" r="5" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.8"/>
+  <path d="M32 25 L32 14.5 A10.5 10.5 0 0 1 41.1 19.75 Z" fill="url(#barrido)"/>
+  <circle cx="32" cy="25" r="2" fill="#fff"/>
+  <circle cx="37.3" cy="19.2" r="1.9" fill="#FFB27F"/>
+</svg>
