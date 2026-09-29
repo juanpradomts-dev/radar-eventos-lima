@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T10:06-05:00",
+ "actualizado": "2026-09-29T10:10-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -38,9 +38,8 @@
    "n": 10
   },
   "Opportunities for Youth": {
-   "ok": false,
-   "n": 0,
-   "error": "robots.txt no permite https://opportunitiesforyouth.org/category/volunteering/feed/"
+   "ok": true,
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -59,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 383,
+ "revisados": 393,
  "top": 55,
  "eventos": [
   {
@@ -957,33 +956,6 @@
    "visto_desde": "2026-09-27T11:15-05:00"
   },
   {
-   "id": "devpost:31399",
-   "titulo": "305 HackShells Edition September 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-09-15T00:00-05:00",
-   "fin": "2026-09-30T23:59-05:00",
-   "cierre": "2026-09-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://305hackshellssep2026.devpost.com/",
-   "inscripcion": "https://305hackshellssep2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Swift at FIU",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Education. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/328/579/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "devpost:31493",
    "titulo": "DecentraHack 2.0",
    "tipo": "hackathon",
@@ -1010,6 +982,33 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-27T11:15-05:00"
+  },
+  {
+   "id": "devpost:31399",
+   "titulo": "305 HackShells Edition September 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-15T00:00-05:00",
+   "fin": "2026-09-30T23:59-05:00",
+   "cierre": "2026-09-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://305hackshellssep2026.devpost.com/",
+   "inscripcion": "https://305hackshellssep2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Swift at FIU",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Education. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/328/579/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "luma:evt-zN2QJxZhCUr8UP7",
@@ -9603,6 +9602,63 @@
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
   },
   {
+   "id": "opportunitiesforyouth:-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children-",
+   "titulo": "UNICEF Club Registration 2026–2027: How to Start or Renew a UNICEF USA Club and Take Action for Children",
+   "tipo": "voluntariado",
+   "inicio": "2026-08-27T19:08-05:00",
+   "fin": "2026-08-27T19:08-05:00",
+   "cierre": "",
+   "publicado": "2026-08-27T19:08-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The UNICEF USA Club Registration for the 2026–2027 school year is now open for students and schools interested in taking action for children in the United States and around the world. The initiative provides an opportunity for students to establish or continue a UNICEF Club and participate in activi",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "no es una convocatoria (artículo o consejos)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 22,
+   "afinidad": 0,
+   "puntaje": 22,
+   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
+   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-12T23:59-05:00",
+   "fin": "2026-09-12T23:59-05:00",
+   "cierre": "2026-09-12T23:59-05:00",
+   "publicado": "2026-09-04T14:38-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
+   "gratis": false,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Tecnología e IA"
+   ],
+   "valor": 36,
+   "afinidad": 28,
+   "puntaje": 64,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Voluntariado · Afín: Investigación"
+  },
+  {
    "id": "devpost:30539",
    "titulo": "HTCJ × PROOF Aviation Futures Challenge",
    "tipo": "hackathon",
@@ -10430,6 +10486,119 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-08-20-fao-regular-volunteer-",
+   "titulo": "FAO Regular Volunteer Programme for Africa 2026: Applications Open for the United Nations Volunteer Opportunity",
+   "tipo": "voluntariado",
+   "inicio": "2026-08-26T23:59-05:00",
+   "fin": "2026-08-26T23:59-05:00",
+   "cierre": "2026-08-26T23:59-05:00",
+   "publicado": "2026-08-20T03:37-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The Food and Agriculture Organization of the United Nations (FAO) is inviting eligible applicants to submit expressions of interest for the FAO Regular Volunteer Programme for Africa (RAF) 2026. This international volunteer opportunity gives individuals an avenue to contribute their knowledge, exper",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Africa)",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Investigación y ciencia"
+   ],
+   "valor": 19,
+   "afinidad": 8,
+   "puntaje": 27,
+   "por_que": "Voluntariado · Afín: Investigación · Evento sin formato claro · Plazo claro"
+  },
+  {
+   "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
+   "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-04T23:59-05:00",
+   "fin": "2026-09-04T23:59-05:00",
+   "cierre": "2026-09-04T23:59-05:00",
+   "publicado": "2026-08-21T22:07-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The United Nations Development Programme (UNDP) is inviting applications for Agenda 2063 in Power Spaces – Cohort 3, a seven-week online learning and volunteer opportunity designed to help participants strengthen their leadership capacity and identify how they can contribute to achieving Agenda 2063",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (African)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
+   "titulo": "EvalYouth Asia 2026 Core Group: Call for Applications for Young and Emerging Evaluators",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-16T15:31-05:00",
+   "fin": "2026-09-16T15:31-05:00",
+   "cierre": "",
+   "publicado": "2026-09-16T15:31-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "EvalYouth Asia (EYA) has opened applications for its 2026 Core Group, inviting passionate young and emerging evaluators to take an active leadership role in strengthening evaluation practice, youth leadership, networking, and collaboration across the Asia-Pacific region. This is a volunteer leadersh",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Asia)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 21,
+   "afinidad": 0,
+   "puntaje": 21,
+   "por_que": "Networking · Voluntariado · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:rd-of-directors-2026-call-for-expressions-of-interest-and-nominations-",
+   "titulo": "Caribbean Biodiversity Fund Board of Directors 2026: Call for Expressions of Interest and Nominations",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-07T23:59-05:00",
+   "fin": "2026-09-07T23:59-05:00",
+   "cierre": "2026-09-07T23:59-05:00",
+   "publicado": "2026-08-29T08:49-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The Caribbean Biodiversity Fund (CBF) is inviting expressions of interest and nominations from suitably qualified individuals who may be considered for appointment to its Board of Directors. The opportunity provides individuals with an interest and experience in conservation, biodiversity protection",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Caribbean)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
+  },
+  {
    "id": "wikicfp:194196",
    "titulo": "IJMVSC 2026 : The International Journal of Managing Value and Supply Chains",
    "tipo": "call for papers",
@@ -10646,7 +10815,7 @@
    "id": "insc:8eca04457016",
    "titulo": "Concurso «Modelo Educativo de la Científica»",
    "tipo": "evento",
-   "inicio": "2026-06-09T00:00-05:00",
+   "inicio": "2026-03-08T00:00-05:00",
    "fin": "2026-06-23T23:59-05:00",
    "cierre": "",
    "lugar": "",
@@ -10696,176 +10865,6 @@
    "afinidad": 0,
    "puntaje": 29,
    "por_que": "Formativo · Presencial en Lima · Universidad"
-  },
-  {
-   "id": "opportunitiesforyouth:-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children-",
-   "titulo": "UNICEF Club Registration 2026–2027: How to Start or Renew a UNICEF USA Club and Take Action for Children",
-   "tipo": "voluntariado",
-   "inicio": "2026-08-27T19:08-05:00",
-   "fin": "2026-08-27T19:08-05:00",
-   "cierre": "",
-   "publicado": "2026-08-27T19:08-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The UNICEF USA Club Registration for the 2026–2027 school year is now open for students and schools interested in taking action for children in the United States and around the world. The initiative provides an opportunity for students to establish or continue a UNICEF Club and participate in activi",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "no es una convocatoria (artículo o consejos)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 22,
-   "afinidad": 0,
-   "puntaje": 22,
-   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
-   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-12T23:59-05:00",
-   "fin": "2026-09-12T23:59-05:00",
-   "cierre": "2026-09-12T23:59-05:00",
-   "publicado": "2026-09-04T14:38-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
-   "gratis": false,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Tecnología e IA"
-   ],
-   "valor": 36,
-   "afinidad": 28,
-   "puntaje": 64,
-   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Voluntariado · Afín: Investigación"
-  },
-  {
-   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-08-20-fao-regular-volunteer-",
-   "titulo": "FAO Regular Volunteer Programme for Africa 2026: Applications Open for the United Nations Volunteer Opportunity",
-   "tipo": "voluntariado",
-   "inicio": "2026-08-26T23:59-05:00",
-   "fin": "2026-08-26T23:59-05:00",
-   "cierre": "2026-08-26T23:59-05:00",
-   "publicado": "2026-08-20T03:37-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/20/fao-regular-volunteer/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The Food and Agriculture Organization of the United Nations (FAO) is inviting eligible applicants to submit expressions of interest for the FAO Regular Volunteer Programme for Africa (RAF) 2026. This international volunteer opportunity gives individuals an avenue to contribute their knowledge, exper",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Africa)",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Investigación y ciencia"
-   ],
-   "valor": 19,
-   "afinidad": 8,
-   "puntaje": 27,
-   "por_que": "Voluntariado · Afín: Investigación · Evento sin formato claro · Plazo claro"
-  },
-  {
-   "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
-   "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-04T23:59-05:00",
-   "fin": "2026-09-04T23:59-05:00",
-   "cierre": "2026-09-04T23:59-05:00",
-   "publicado": "2026-08-21T22:07-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The United Nations Development Programme (UNDP) is inviting applications for Agenda 2063 in Power Spaces – Cohort 3, a seven-week online learning and volunteer opportunity designed to help participants strengthen their leadership capacity and identify how they can contribute to achieving Agenda 2063",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (African)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
-   "titulo": "EvalYouth Asia 2026 Core Group: Call for Applications for Young and Emerging Evaluators",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-16T15:31-05:00",
-   "fin": "2026-09-16T15:31-05:00",
-   "cierre": "",
-   "publicado": "2026-09-16T15:31-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "EvalYouth Asia (EYA) has opened applications for its 2026 Core Group, inviting passionate young and emerging evaluators to take an active leadership role in strengthening evaluation practice, youth leadership, networking, and collaboration across the Asia-Pacific region. This is a volunteer leadersh",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Asia)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 21,
-   "afinidad": 0,
-   "puntaje": 21,
-   "por_que": "Networking · Voluntariado · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:rd-of-directors-2026-call-for-expressions-of-interest-and-nominations-",
-   "titulo": "Caribbean Biodiversity Fund Board of Directors 2026: Call for Expressions of Interest and Nominations",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-07T23:59-05:00",
-   "fin": "2026-09-07T23:59-05:00",
-   "cierre": "2026-09-07T23:59-05:00",
-   "publicado": "2026-08-29T08:49-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The Caribbean Biodiversity Fund (CBF) is inviting expressions of interest and nominations from suitably qualified individuals who may be considered for appointment to its Board of Directors. The opportunity provides individuals with an interest and experience in conservation, biodiversity protection",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Caribbean)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
   }
  ],
  "perfil": true,
@@ -10900,8 +10899,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-29T10:06-05:00",
-  "revisados": 252,
+  "fecha": "2026-09-29T10:10-05:00",
+  "revisados": 256,
   "corregidos": 16,
   "avisos": 9,
   "archivados": 0,
@@ -11108,7 +11107,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 11,
+   "comprobados": 4,
    "rotos": 7,
    "sin_comprobar": 2
   },
@@ -11130,22 +11129,6 @@
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
    "fecha_mencionada": "2026-09-25T00:00-05:00"
-  },
-  {
-   "titulo": "PetroTal resalta su contribución al manejo sostenible del paiche en Cumbre Perú Sostenible",
-   "url": "https://www.desdeadentro.pe/2026/09/petrotal-resalta-su-contribucion-al-manejo-sostenible-del-paiche-en-cumbre-peru-sostenible/",
-   "medio": "Desde Adentro",
-   "publicado": "Mon, 28 Sep 2026 03:43:00 GMT",
-   "resumen": "En su primera participación en la Cumbre Perú Sostenible 2026, PetroTal expuso su contribución al desarrollo sostenible de Loreto, región donde opera el Campo Bretaña del Lote 95, desde 2018.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
-   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
-   "medio": "autotv",
-   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
-   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
-   "fecha_mencionada": ""
   },
   {
    "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
@@ -11180,14 +11163,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Gioco online, LiGA Summit 2026 al debutto a Lima: regolamentazione, affiliazione, cybersecurity e prediction markets",
-   "url": "https://www.agimeg.it/gioco-online-liga-summit-2026-lima-regolamentazione-affiliazione-cybersecurity-prediction-markets/",
-   "medio": "AGIMEG",
-   "publicado": "Mon, 07 Sep 2026 03:16:00 GMT",
-   "resumen": "Il LiGA Summit 2026 a Lima esplora regolamentazione, cybersecurity e opportunità nel gioco online in America Latina, con focus in diverse aree.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
    "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
    "medio": "RPP",
@@ -11209,6 +11184,14 @@
    "medio": "Xinhua Español",
    "publicado": "Sun, 27 Sep 2026 22:25:00 GMT",
    "resumen": "LIMA, 27 sep (Xinhua) -- Perú albergó la IV Feria Internacional de Cultura, Turismo y Educación (FICTE) del 25 al 27 de septiembre, un espacio que ofreció a los ciudadanos el acceso directo a la ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Lima se mostró al mundo: más de 30 mil visitantes llegaron a la Expo Turismo",
+   "url": "https://caretas.pe/nacional/lima-se-mostro-al-mundo-mas-de-30-mil-visitantes-llegaron-a-la-expo-turismo/",
+   "medio": "Caretas",
+   "publicado": "Mon, 28 Sep 2026 13:53:00 GMT",
+   "resumen": "Expo Turismo Lima reunió a más de 30 mil visitantes, generó S/56 342 en ventas y presentó la nueva Marca Ciudad.",
    "fecha_mencionada": ""
   }
  ],
