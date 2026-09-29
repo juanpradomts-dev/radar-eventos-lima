@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T10:12-05:00",
+ "actualizado": "2026-09-29T11:14-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 23
+   "n": 22
   },
   "Meetup": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 393,
+ "revisados": 392,
  "top": 55,
  "eventos": [
   {
@@ -205,33 +205,6 @@
     "titulo": "VI CONGRESO VOCES ESCÉNICAS DEL SUR"
    },
    "visto_desde": "2026-09-27T14:33-05:00"
-  },
-  {
-   "id": "eb:2001873234734",
-   "titulo": "Webinar: Desarrollo Tecnológico",
-   "inicio": "2026-09-29T09:30-05:00",
-   "fin": "2026-09-29T10:30-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.es/e/entradas-webinar-desarrollo-tecnologico-2001873234734",
-   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-desarrollo-tecnologico-2001873234734",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Asociación mentorDay",
-   "descripcion": "Webinar incluido en la edición 112 del Programa de Aceleración de mentorDay dedicado al Desarrollo Tecnológico",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193992805%2F135597904219%2F1%2Foriginal.jpg?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=46144f0ae2ba10eeaf25513d20147cbb",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 23,
-   "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Formativo · Gratis · Virtual",
-   "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
    "id": "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29",
@@ -510,10 +483,10 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/mwiss08h",
    "fuente": "Luma",
-   "organizador": "Sandra Perez",
+   "organizador": "Sandra Perez, Araceli Uribe",
    "descripcion": "1er INNOVA Summit — Red que educa Data, IA y resultados: la próxima década de la educación\nEl primer encuentro tecnológico para directivos de escuelas privadas del Perú.\nUn desayuno de tendencias que reúne a líderes de edtech de Perú, México y Colombia —no para vender, sino para compartir lo que ya funciona en otros países e inspirarnos a tomar mejores decisiones en el aula.\n📅 ¿Cuándo? Miércoles 30 de setiembre ⏰ Hora: 8:30 a.m. – 12:45 p.m. 📍 ¿Dónde? Hotel BTH San Borja (Av. Guardia Civil 727, San Borja)\n💡 Agenda destacada:\n🎤 Del ranking PISA al aula: 5 decisiones que transforman la educación en LatAm — Araceli Uribe (Letmino) 🎤 El futuro de la Educación con Google — Sabino García (Google f",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/4r/57a1497c-e1fa-4035-8fcc-5e739e74a3e2.png",
+   "imagen": "https://images.lumacdn.com/uploads/0h/be5f5c49-811c-4e5e-bb8c-4262ad70fac9.jpg",
    "inscripcion": "https://lu.ma/mwiss08h",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -1707,6 +1680,35 @@
    "puntaje": 12,
    "por_que": "Presencial en Lima · Evento sin formato claro",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "opportunitydesk:26-09-29-design-digital-marketing-school-cohort-3-for-lagos-residents-",
+   "titulo": "Applications Open: Design & Digital Marketing School Cohort 3 for Lagos Residents",
+   "tipo": "convocatoria",
+   "inicio": "2026-10-02T23:59-05:00",
+   "fin": "2026-10-02T23:59-05:00",
+   "cierre": "2026-10-02T23:59-05:00",
+   "publicado": "2026-09-29T10:37-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/09/29/design-digital-marketing-school-cohort-3-for-lagos-residents/",
+   "inscripcion": "https://opportunitydesk.org/2026/09/29/design-digital-marketing-school-cohort-3-for-lagos-residents/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: October 2, 2026 Are you a young Lagos resident looking to build practical skills for a career in Graphics Design or Digital Marketing? Applications are now open for Cohort 3 of the Design & Digital Marketing School Lagos Program, an employability-focused training programme designed to equip young people with practical digital skills, workplace competencies [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 21,
+   "afinidad": 0,
+   "puntaje": 21,
+   "por_que": "Formativo · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-09-29T11:14-05:00"
   },
   {
    "id": "tedx:68110",
@@ -3176,9 +3178,9 @@
    "url": "https://lu.ma/7krkr4xn",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "Cámara Verde Perú  en colaboración con el Hub de Miraflores te invita a Tech for Good: Innovación sostenible en acción, nuestro encuentro dentro del Perú Tech Week 2026. Empresas, startups, academia, Estado e inversionistas se reúnen para conversar sobre cómo la tecnología e innovación puede generar triple impacto: económico, social y ambiental.\nPorque la sostenibilidad no es solo cuidar el planeta. También es crear oportunidades para las personas, construir negocios rentables y gestionarlos con transparencia, bajo criterios ASG (ambientales, sociales y de gobernanza).\n📅 Miércoles 14 de octubre de 2026⏰ 8:30 a.m. acreditación · 9:00 a.m. – 1:00 p.m. programa📍 Auditorio del Centro Cultural Ri",
+   "descripcion": "Cámara Verde Perú  en colaboración con el Hub de Innovaciòn de  Miraflores te invita a Tech for Good: Innovación sostenible en acción, nuestro encuentro dentro del Perú Tech Week 2026. Empresas, startups, academia, Estado e inversionistas se reúnen para conversar sobre cómo la tecnología e innovación puede generar triple impacto: económico, social y ambiental.\nPorque la sostenibilidad no es solo cuidar el planeta. También es crear oportunidades para las personas, construir negocios rentables y gestionarlos con transparencia, bajo criterios ASG (ambientales, sociales y de gobernanza).\n📅 Miércoles 14 de octubre de 2026⏰ 8:30 a.m. acreditación · 9:00 a.m. – 1:00 p.m. programa📍 Auditorio del Cen",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/z2/cbb19601-383b-41f7-b90b-af1b12d5f9a0.jpg",
+   "imagen": "https://images.lumacdn.com/uploads/v6/600572a7-a1c1-47d0-8b8e-14e539cf4aa9.png",
    "inscripcion": "https://lu.ma/7krkr4xn",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -6088,34 +6090,6 @@
    "puntaje": 20,
    "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
    "visto_desde": "2026-09-28T16:03-05:00"
-  },
-  {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-09-28-foodtech-500-competition-2026-",
-   "titulo": "FoodTech 500 Competition 2026",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-15T23:59-05:00",
-   "fin": "2026-11-15T23:59-05:00",
-   "cierre": "2026-11-15T23:59-05:00",
-   "publicado": "2026-09-28T06:17-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/28/foodtech-500-competition-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/28/foodtech-500-competition-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 15, 2026 Applications are open for the FoodTech 500 Competition 2026. Inspired by the Fortune 500, Forward Fooding is proud to present the FoodTech 500, the world’s first definitive list of the global entrepreneurial talent at the intersection between food, technology and sustainability. The FoodTech 500 showcases selected international AgriFoodTech startup and scaleup companies [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 20,
-   "afinidad": 4,
-   "puntaje": 24,
-   "por_que": "Abre puertas (beca/programa) · Plazo claro · Afín: Emprendimiento y finanzas · Se postula en línea",
-   "visto_desde": "2026-09-28T07:42-05:00"
   },
   {
    "id": "wikicfp:191885",
@@ -10815,7 +10789,7 @@
    "id": "insc:8eca04457016",
    "titulo": "Concurso «Modelo Educativo de la Científica»",
    "tipo": "evento",
-   "inicio": "2026-03-08T00:00-05:00",
+   "inicio": "2026-06-09T00:00-05:00",
    "fin": "2026-06-23T23:59-05:00",
    "cierre": "",
    "lugar": "",
@@ -10899,8 +10873,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-29T10:12-05:00",
-  "revisados": 252,
+  "fecha": "2026-09-29T11:14-05:00",
+  "revisados": 255,
   "corregidos": 16,
   "avisos": 9,
   "archivados": 0,
@@ -11107,7 +11081,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 0,
+   "comprobados": 1,
    "rotos": 7,
    "sin_comprobar": 2
   },
@@ -11121,14 +11095,6 @@
    "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
    "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
    "fecha_mencionada": ""
-  },
-  {
-   "titulo": "LIMA ACOGERÁ CUMBRE DE AEROPUERTOS",
-   "url": "https://tnews.com.pe/lima-acogera-cumbre-de-aeropuertos/",
-   "medio": "tnews",
-   "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
-   "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
-   "fecha_mencionada": "2026-09-25T00:00-05:00"
   },
   {
    "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
@@ -11160,6 +11126,14 @@
    "medio": "AGIMEG",
    "publicado": "Fri, 18 Sep 2026 02:52:00 GMT",
    "resumen": "Si è aperta a Lima la prima giornata del LiGA Summit 2026: panel su licenze, conformità degli affiliati e prospettive dell'iGaming in Perù e in America Latina.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Gioco online, LiGA Summit 2026 al debutto a Lima: regolamentazione, affiliazione, cybersecurity e prediction markets",
+   "url": "https://www.agimeg.it/gioco-online-liga-summit-2026-lima-regolamentazione-affiliazione-cybersecurity-prediction-markets/",
+   "medio": "AGIMEG",
+   "publicado": "Mon, 07 Sep 2026 03:16:00 GMT",
+   "resumen": "Il LiGA Summit 2026 a Lima esplora regolamentazione, cybersecurity e opportunità nel gioco online in America Latina, con focus in diverse aree.",
    "fecha_mencionada": ""
   },
   {
@@ -11485,7 +11459,6 @@
   "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-27T13:39-05:00",
   "insc:0544fff63cb2": "2026-09-27T14:33-05:00",
   "devpost:29114": "2026-09-27T16:39-05:00",
-  "eb:2001873234734": "2026-09-27T16:59-05:00",
   "eb:2002334852445": "2026-09-27T16:59-05:00",
   "eb:1999516514721": "2026-09-27T16:59-05:00",
   "eb:1434419520399": "2026-09-27T16:59-05:00",
@@ -11518,7 +11491,6 @@
   "luma:evt-upa7CVPjW00l5tU": "2026-09-28T07:42-05:00",
   "luma:evt-xcQM7zjhpT66EDW": "2026-09-28T07:42-05:00",
   "wikicfp:203462": "2026-09-28T07:42-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-09-28-foodtech-500-competition-2026-": "2026-09-28T07:42-05:00",
   "meetup:316752122": "2026-09-28T16:03-05:00",
   "pucp:distincion-de-profesor-honorario-doctor-jose-luis-torero-cullen-25092026170148": "2026-09-28T16:03-05:00",
   "luma:evt-FGUzjLGpiV5QHE8": "2026-09-28T16:03-05:00",
@@ -11552,6 +11524,7 @@
   "opportunitydesk:opportunitydesk-org-2026-09-29-conservative-ai-policy-fellowship-2027-": "2026-09-29T10:06-05:00",
   "eb:2001083241844": "2026-09-29T10:06-05:00",
   "opportunitydesk:esk-org-2026-09-29-british-academy-innovation-fellowships-scheme-2026-": "2026-09-29T10:06-05:00",
-  "opportunitydesk:ortunitydesk-org-2026-09-29-hong-kong-phd-fellowship-scheme-2027-2028-": "2026-09-29T10:06-05:00"
+  "opportunitydesk:ortunitydesk-org-2026-09-29-hong-kong-phd-fellowship-scheme-2027-2028-": "2026-09-29T10:06-05:00",
+  "opportunitydesk:26-09-29-design-digital-marketing-school-cohort-3-for-lagos-residents-": "2026-09-29T11:14-05:00"
  }
 }
