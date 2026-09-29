@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T11:20-05:00",
+ "actualizado": "2026-09-29T12:55-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -413,34 +413,6 @@
    "puntaje": 32,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-28T22:49-05:00"
-  },
-  {
-   "id": "devpost:31471",
-   "titulo": "Jāgriti Hacks",
-   "tipo": "hackathon",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-09-29T23:59-05:00",
-   "cierre": "2026-09-29T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://jagriti-hacks1.devpost.com/",
-   "inscripcion": "https://jagriti-hacks1.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Jāgriti Technologies PVT LTD ",
-   "descripcion": "Hackathon online. Temas: Cybersecurity, DevOps, Machine Learning/AI. Premios: $850.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/100/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 26,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T18:22-05:00"
   },
   {
    "id": "eb:1998657030982",
@@ -9936,6 +9908,33 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31514",
+   "titulo": "StormHacks 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "Simon Fraser University",
+   "distrito": "Simon Fraser University",
+   "modalidad": "Presencial",
+   "url": "https://stormhacks2026.devpost.com/",
+   "inscripcion": "https://stormhacks2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "SFU Surge",
+   "descripcion": "Hackathon presencial en Simon Fraser University. Temas: Beginner Friendly. Premios: $CAD 0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/379/988/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 6,
+   "puntaje": 29,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:30500",
    "titulo": "DSH Hacks V2 ($100k+ in prizes!)",
    "tipo": "hackathon",
@@ -10873,8 +10872,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-29T11:20-05:00",
-  "revisados": 255,
+  "fecha": "2026-09-29T12:55-05:00",
+  "revisados": 254,
   "corregidos": 16,
   "avisos": 9,
   "archivados": 0,
@@ -11097,6 +11096,22 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "PetroTal resalta su contribución al manejo sostenible del paiche en Cumbre Perú Sostenible",
+   "url": "https://www.desdeadentro.pe/2026/09/petrotal-resalta-su-contribucion-al-manejo-sostenible-del-paiche-en-cumbre-peru-sostenible/",
+   "medio": "Desde Adentro",
+   "publicado": "Mon, 28 Sep 2026 03:43:00 GMT",
+   "resumen": "En su primera participación en la Cumbre Perú Sostenible 2026, PetroTal expuso su contribución al desarrollo sostenible de Loreto, región donde opera el Campo Bretaña del Lote 95, desde 2018.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "LIMA ACOGERÁ CUMBRE DE AEROPUERTOS",
+   "url": "https://tnews.com.pe/lima-acogera-cumbre-de-aeropuertos/",
+   "medio": "tnews",
+   "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
+   "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
+   "fecha_mencionada": "2026-09-25T00:00-05:00"
+  },
+  {
    "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
    "url": "https://www.peru-retail.com/los-desafios-que-abordo-el-ii-foro-eficiencias-productividad-comercial-de-peru-retail-2026/",
    "medio": "Perú Retail",
@@ -11118,22 +11133,6 @@
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
    "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "LiGA Summit 2026, a Lima la prima giornata dedicata all’iGaming e alle nuove licenze di gioco in Perù",
-   "url": "https://www.agimeg.it/liga-summit-2026-lima-igaming-nuove-licenze-peru/",
-   "medio": "AGIMEG",
-   "publicado": "Fri, 18 Sep 2026 02:52:00 GMT",
-   "resumen": "Si è aperta a Lima la prima giornata del LiGA Summit 2026: panel su licenze, conformità degli affiliati e prospettive dell'iGaming in Perù e in America Latina.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Gioco online, LiGA Summit 2026 al debutto a Lima: regolamentazione, affiliazione, cybersecurity e prediction markets",
-   "url": "https://www.agimeg.it/gioco-online-liga-summit-2026-lima-regolamentazione-affiliazione-cybersecurity-prediction-markets/",
-   "medio": "AGIMEG",
-   "publicado": "Mon, 07 Sep 2026 03:16:00 GMT",
-   "resumen": "Il LiGA Summit 2026 a Lima esplora regolamentazione, cybersecurity e opportunità nel gioco online in America Latina, con focus in diverse aree.",
    "fecha_mencionada": ""
   },
   {
@@ -11447,7 +11446,6 @@
   "luma:evt-iWf78QCKrq9MgjZ": "2026-09-26T15:34-05:00",
   "luma:evt-iQcElAPhAZ5Ew2F": "2026-09-26T15:34-05:00",
   "luma:evt-WXo4ob5dba49nVk": "2026-09-26T15:34-05:00",
-  "devpost:31471": "2026-09-26T18:22-05:00",
   "luma:evt-ArfuCapJSpFKxdm": "2026-09-26T22:13-05:00",
   "devpost:31196": "2026-09-27T06:14-05:00",
   "devpost:31515": "2026-09-27T11:15-05:00",
