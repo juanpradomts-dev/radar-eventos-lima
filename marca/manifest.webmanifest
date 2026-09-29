@@ -1,0 +1,16 @@
+{
+  "name": "Radar Lima",
+  "short_name": "Radar Lima",
+  "description": "Eventos, talleres y becas para crecer como estudiante en Lima.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#F6F8FC",
+  "theme_color": "#1D428A",
+  "icons": [
+    {"src": "icono-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icono-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
