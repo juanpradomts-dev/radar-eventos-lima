@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-28T16:40-05:00",
+ "actualizado": "2026-09-28T22:49-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 68
+   "n": 71
   },
   "Eventbrite": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 45
+   "n": 57
   },
   "IEEE Perú": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 373,
+ "revisados": 388,
  "top": 55,
  "eventos": [
   {
@@ -177,34 +177,6 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
-   "id": "pucp:bridging-process-science-and-global-monitoring-in-satellite-observations-of-clouds-and-storms-02092026163203",
-   "titulo": "Bridging Process Science and Global Monitoring in Satellite Observations of Clouds and Storms",
-   "inicio": "2026-09-28T15:00-05:00",
-   "fin": "2026-09-28T17:00-05:00",
-   "lugar": "Anfiteatro Armando Zolezzi",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/bridging-process-science-and-global-monitoring-in-satellite-observations-of-clouds-and-storms-02092026163203/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El Centro de Investigación en Geografía Aplicada (CIGA) de la PUCP invita a la comunidad académica y al público interesado a la Charla Magistral: \"Bridging Process Science and Global Monitoring in Satellite Observations of Clouds and Storms\", a cargo del Dr. Z. Johnny Luo, Director del Departamento de Ciencias de la Tierra y de la Atmósfera en The City College of New York (CCNY - CUNY).\n \n(Nota: La conferencia se dictará íntegramente en idioma inglés).\n \nResumen de la conferencia:\n \nLas observaciones de la Tierra desde el espacio enfrentan con frecuencia una disyuntiva fundamental entre profundidad y cobertura: las misiones \"enfocadas en procesos\" (como CloudSat y EarthCARE) actúan como micr",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Referencia_Agenda_PUCP_d53bc95221.png",
-   "inscripcion": "https://forms.gle/9EM29Z8KzthH8aGP8",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Datos y analítica"
-   ],
-   "valor": 35,
-   "afinidad": 24,
-   "puntaje": 59,
-   "por_que": "Formativo · Afín: Datos y machine learning · Presencial en Lima · Afín: Investigación",
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
    "id": "insc:0544fff63cb2",
    "titulo": "VI Congreso Voces Escénicas del Sur",
    "tipo": "evento",
@@ -233,61 +205,6 @@
     "titulo": "VI CONGRESO VOCES ESCÉNICAS DEL SUR"
    },
    "visto_desde": "2026-09-27T14:33-05:00"
-  },
-  {
-   "id": "luma:evt-sOtWCdNCwGR2WYq",
-   "titulo": "ISC Kickoff 2027",
-   "inicio": "2026-09-28T17:00-05:00",
-   "fin": "2026-09-28T21:00-05:00",
-   "lugar": "Miraflores, Perú",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/imnjgpvs",
-   "fuente": "Luma",
-   "organizador": "Impact Startup Competition, Incubadora Scale",
-   "descripcion": "🚀 Tu idea puede impactar la Amazonía\nLa Amazonía necesita nuevas ideas, talento y personas dispuestas a convertir los desafíos del territorio en soluciones reales.\nTe invitamos al ISC 2027 Kickoff — Amazonía Viva, el lanzamiento de una nueva edición de Impact Startup Competition. Será una tarde para conectar con jóvenes, emprendedores, universidades, empresas, especialistas, aliados y organizaciones que están movilizando el ecosistema de innovación e impacto en Latinoamérica.\n✨ ¿Qué encontrarás?\n🌿 Conversaciones sobre bioeconomía, biodiversidad y comunidades amazónicas.💡 Paneles y una keynote con 13 referentes del ecosistema.💸 Alternativas para financiar proyectos desde la validación hasta e",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/j7/dfa5e6c1-a36b-43b8-b90b-6b8c2a1d2f3b.jpg",
-   "inscripcion": "https://lu.ma/imnjgpvs",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 24,
-   "afinidad": 4,
-   "puntaje": 28,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
-   "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "pucp:ici-pucp-2026-presentacion-de-libro-el-volumen-en-bruto-04092026163552",
-   "titulo": "ICI PUCP 2026: Presentación de libro «El Volumen en Bruto»",
-   "inicio": "2026-09-28T18:00-05:00",
-   "fin": "2026-09-28T19:00-05:00",
-   "lugar": "Libreria PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/ici-pucp-2026-presentacion-de-libro-el-volumen-en-bruto-04092026163552/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "«El Volumen en Bruto» es el libro editado por la investigadora y artista Raura Oblitas, en el que se reúne su producción escultórica desarrollada durante más de dos décadas.\n\nDesde un enfoque de investigación-creación centrado en la escultura y la arquitectura, el libro discute críticamente el trabajo de la autora, orientado a investigar el rol y posibilidades del lenguaje escultórico y de construcción como parte de las tensiones propias de la ciudad y sus fronteras liminales de lo público-privado, formal-informal.\n\nEl libro, compuesto por imágenes, textos críticos y dibujos, es en sí mismo una posibilidad de discutir la frontera entre arte y arquitectura, investigación y creación, forma y f",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Inauguracion_y_conferencia_magistral_8_5d7732bd31.jpg",
-   "inscripcion": "https://encuentroici.pucp.edu.pe/event/presentacion-de-libro-el-volumen-en-bruto/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 25,
-   "afinidad": 8,
-   "puntaje": 33,
-   "por_que": "Presencial en Lima · Afín: Investigación · Universidad · Gratis",
-   "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
    "id": "eb:2000015120063",
@@ -524,6 +441,34 @@
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
+   "id": "devpost:31098",
+   "titulo": "Graphiques Innovation Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-08-21T00:00-05:00",
+   "fin": "2026-09-29T23:59-05:00",
+   "cierre": "2026-09-29T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://graphiques-challenge.devpost.com/",
+   "inscripcion": "https://graphiques-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack Club",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 19,
+   "afinidad": 13,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-28T22:49-05:00"
+  },
+  {
    "id": "devpost:31471",
    "titulo": "Jāgriti Hacks",
    "tipo": "hackathon",
@@ -740,7 +685,7 @@
    "descripcion": "El Instituto de Criminología y Estudios sobre la Violencia (ICEV) organiza la presentación del estudio \"Violencia y vulneración de Derechos Humanos en contextos de Minería no legal en el Perú\". Esta conferencia comenzará con la ponencia del profesor Nicolás Zevallos, criminólogo y fundador del ICEV, quien abordará las condiciones en las que se desarrolla esta actividad a partir de información recogida en La Rinconada (Puno), Atico (Arequipa) y Pataz (La Libertad). En la sesión se analizará cómo confluyen la explotación laboral, el control territorial armado y la violencia en estas regiones. Esta presentación se realiza con el propósito de generar un espacio de reflexión en la comunidad unive",
    "gratis": true,
    "imagen": "https://api-agenda.pucp.edu.pe/uploads/Whats_App_Image_2026_09_24_at_5_13_24_PM_3ef76e80a4.jpg",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/estudio-violencia-y-vulneracion-de-derechos-humanos-en-contextos-de-mineria-no-legal-en-el-peru-24092026174006/",
+   "inscripcion": "https://ares.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=032&id=35501&a=&l=&cis=&on=&lp=",
    "fuente_url": "https://agenda.pucp.edu.pe/",
    "tipo": "evento",
    "cierre": "",
@@ -1260,6 +1205,60 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
+   "id": "pucp:charla-apoyo-case-experience",
+   "titulo": "Charla APOYO Case Experience",
+   "inicio": "2026-10-01T12:00-05:00",
+   "fin": "2026-10-01T14:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/charla-apoyo-case-experience/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Conoce la experiencia de participar en un proceso de selección basado en casos y prepárate para afrontar este tipo de dinámicas con mayor seguridad.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_7b4f3a14e5.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=032&i=35507",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-09-28T22:49-05:00"
+  },
+  {
+   "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp",
+   "titulo": "Taller de CV: Potencia tu Herramienta para el Empleo",
+   "inicio": "2026-10-01T12:30-05:00",
+   "fin": "2026-10-01T14:20-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Aprende a mejorar y potenciar tu CV para destacar tus habilidades, experiencia y perfil profesional en tus próximas oportunidades laborales.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_7b4f3a14e5.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=066&i=6614&ec=1",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-09-28T22:49-05:00"
+  },
+  {
    "id": "luma:evt-qEvoBnGm8AvP98W",
    "titulo": "HACKATHON WIE – NextGen Innovators",
    "inicio": "2026-10-01T15:00-05:00",
@@ -1401,6 +1400,34 @@
    "puntaje": 49,
    "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Afín: Investigación",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "luma:evt-O21Rphs1Sl1LExn",
+   "titulo": "PRIVATE REAL ESTATE ROUND — LIMA Tokenización inmobiliaria · Inversión privada · Networking",
+   "inicio": "2026-10-01T19:00-05:00",
+   "fin": "2026-10-01T22:00-05:00",
+   "lugar": "Jesús María, Perú",
+   "distrito": "Jesús María",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/waevdhgs",
+   "fuente": "Luma",
+   "organizador": "Jean",
+   "descripcion": "🏢 PRIVATE REAL ESTATE ROUND — LIMA\nTokenización inmobiliaria · Inversión privada · Networking\n📅 1 de octubre de 2026\n🕖 7:00 PM — 10:00 PM\n📍 Jesús María, Lima\n🎟️ Cupos limitados\n🔑 UNA NUEVA FORMA DE PARTICIPAR EN EL MERCADO INMOBILIARIO\nEl mercado inmobiliario está entrando en una nueva etapa.\nLa tokenización de activos reales permite estructurar oportunidades inmobiliarias utilizando tecnología blockchain para representar digitalmente determinados derechos económicos o de participación sobre un activo.\nEn este primer Private Real Estate Round — Lima, presentaremos de manera privada una oportunidad inmobiliaria real ubicada en Jesús María, junto con el modelo de tokenización que se está desar",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/cf/483a9bb4-3e5b-4c51-9dbc-4a241f5c91cb.png",
+   "inscripcion": "https://lu.ma/waevdhgs",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis",
+   "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
    "id": "pucp:regulacion-gobernanza-y-gestion-de-ia-en-organizaciones-empresariales-16092026180226",
@@ -1626,34 +1653,6 @@
    "puntaje": 43,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "luma:evt-ECtnfob42pfw7zA",
-   "titulo": "⛏️ Taller de Difusión de Resultados \"DATA AIX\" – SUP 12G 🚀",
-   "inicio": "2026-10-02T16:00-05:00",
-   "fin": "2026-10-02T17:00-05:00",
-   "lugar": "Av. Túpac Amaru 210, Rímac",
-   "distrito": "Rímac",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/nu1hru5x",
-   "fuente": "Luma",
-   "organizador": "STARTUP UNI, José Torres Valenzuela",
-   "descripcion": "💼 Difusión de Resultados – DATA AIX\nSistema de exploración minera con IA para análisis de variables geológicas.\nTe invitamos a conocer los resultados del proyecto desarrollado por DATA AIX, una iniciativa orientada al desarrollo de una solución tecnológica basada en inteligencia artificial para la exploración y análisis de información geológica.\n🔎 Durante el taller conocerás:\n📈 Los resultados del proyecto🚀 Sus principales avances y logros💡 La solución desarrollada y sus principales funcionalidades🧪 El proceso de desarrollo y validación📊 Los aprendizajes obtenidos durante el proyecto\n💰 Proyecto cofinanciado por ProInnóvate – Ministerio de la Producción, en el marco de Startup Perú 12G.\n👨‍💻 CE",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/ls/5268bc33-09a7-4411-b7b5-72bbaeb56b9d.jpg",
-   "inscripcion": "https://lu.ma/nu1hru5x",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Datos y analítica",
-    "Tecnología e IA"
-   ],
-   "valor": 35,
-   "afinidad": 30,
-   "puntaje": 65,
-   "por_que": "Afín: Datos y machine learning · Formativo · Presencial en Lima · Afín: Inteligencia artificial",
-   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "eb:2002134099989",
@@ -1915,7 +1914,7 @@
    "organizador": "Universidad Blas Pascal",
    "descripcion": "¿Qué necesita una idea para transformarse en una solución?",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194232394%2F2995124040391%2F1%2Foriginal.20260923-210333?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e54888e58a365ad98cfe8207fef89d8d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194232394%2F2995124040391%2F1%2Foriginal.20260923-210333?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=47ef261ac274418f994f8ce22192f6f9",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2273,7 +2272,7 @@
    "organizador": "PUCP",
    "descripcion": "El Rector de la Pontificia Universidad Católica del Perú tiene el agrado de invitar a usted al acto académico en el cual se conferirá la distinción de Profesor Honorario del Departamento Académico de Ingeniería de la Pontificia Universidad Católica del Perú al doctor José Luis Torero Cullen, en reconocimiento a su destacada trayectoria docente, académica y profesional, y a su eminente contribución a los estudios sobre ingeniería de seguridad contra incendios en el ámbito académico internacional.",
    "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_PUCP_1_4e65f2ee11.png",
    "inscripcion": "https://eros.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=032&id=35371&a=&l=&cis=&on=&lp=",
    "fuente_url": "https://agenda.pucp.edu.pe/",
    "tipo": "evento",
@@ -3124,7 +3123,7 @@
    "organizador": "Perú Tech Week 2026",
    "descripcion": "Cámara Verde Perú  en colaboración con el Hub de Miraflores te invita a Tech for Good: Innovación sostenible en acción, nuestro encuentro dentro del Perú Tech Week 2026. Empresas, startups, academia, Estado e inversionistas se reúnen para conversar sobre cómo la tecnología e innovación puede generar triple impacto: económico, social y ambiental.\nPorque la sostenibilidad no es solo cuidar el planeta. También es crear oportunidades para las personas, construir negocios rentables y gestionarlos con transparencia, bajo criterios ASG (ambientales, sociales y de gobernanza).\n📅 Miércoles 14 de octubre de 2026⏰ 8:30 a.m. acreditación · 9:00 a.m. – 1:00 p.m. programa📍 Auditorio del Centro Cultural Ri",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/bs/714affac-f772-40ae-8b01-1df7b84745f7.png",
+   "imagen": "https://images.lumacdn.com/uploads/k1/66e43c80-297b-4de1-b1d4-b374002164b8.jpg",
    "inscripcion": "https://lu.ma/7krkr4xn",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -3250,6 +3249,33 @@
    "puntaje": 31,
    "por_que": "Afín: Datos y machine learning · Afín: Inteligencia artificial · Networking · Presencial en Lima · (Evitas «cripto»)",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "pucp:primer-encuentro-iberoamericano-de-historia-de-la-contabilidad-25092026173936",
+   "titulo": "Primer Encuentro Iberoamericano de Historia de la Contabilidad",
+   "inicio": "2026-10-14T18:00-05:00",
+   "fin": "2026-10-16T15:30-05:00",
+   "lugar": "Facultad de Ciencias Contables (Pabellón G)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/primer-encuentro-iberoamericano-de-historia-de-la-contabilidad-25092026173936/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La Facultad de Ciencias Contables PUCP invita a participar en el Primer Encuentro Iberoamericano de Historia de la Contabilidad: Métodos y Fuentes, un espacio académico que reunirá a especialistas nacionales e internacionales para reflexionar sobre la investigación histórica contable, sus métodos, fuentes y aportes al desarrollo de la disciplina.\nDurante tres jornadas, se abordarán temas vinculados con los quipus, la historia del tributo, la contabilidad en América Latina, la herencia europea y los estudios interdisciplinarios en historia de la contabilidad.\n- Fecha: 14 al 16 de octubre\n- Modalidad: presencial y virtual\n- Consulta el programa completo para conocer los horarios y la sede corr",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_pucp_b496f14780.png",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/primer-encuentro-iberoamericano-de-historia-de-la-contabilidad-25092026173936/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 31,
+   "afinidad": 8,
+   "puntaje": 39,
+   "por_que": "Networking · Presencial en Lima · Afín: Investigación · Universidad",
+   "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
    "id": "devpost:31103",
@@ -4197,6 +4223,33 @@
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
+   "id": "pucp:taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2",
+   "titulo": "Taller de LinkedIn Básico: Diseña tu Imagen Profesional 2026-2",
+   "inicio": "2026-10-20T09:00-05:00",
+   "fin": "2026-10-20T11:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Aprende a crear y optimizar tu perfil de LinkedIn para potenciar tu presencia profesional, destacar tus habilidades y experiencias, y conectar con nuevas oportunidades laborales.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_7b4f3a14e5.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=066&i=5996&ec=1",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-09-28T22:49-05:00"
+  },
+  {
    "id": "devpost:30588",
    "titulo": "EurekaDev 2026",
    "tipo": "hackathon",
@@ -4277,6 +4330,33 @@
    "puntaje": 41,
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "pucp:circulo-de-escucha-lo-que-nos-sostiene",
+   "titulo": "Círculo de escucha: \"Lo que nos sostiene\"",
+   "inicio": "2026-10-21T15:00-05:00",
+   "fin": "2026-10-21T17:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/circulo-de-escucha-lo-que-nos-sostiene/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "3era sesión\nTema: Autocuidado y bienestar emocional\nIdentificar y ampliar estrategias de autocuidado y regulación emocional, reconociendo tanto recursos propios como formas de cuidado que pueden recibirse y ofrecerse en comunidad.\n4ta sesión\nTema: Redes de apoyo, vínculos y recursos comunitarios\nFortalecer el reconocimiento de recursos internos, personas significativas, familia elegida y redes de apoyo, promoviendo una reflexión sobre vínculos seguros, cuidado mutuo, límites y espacios a los que se puede recurrir.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/cer_cont_eb6cda3f7f.jpg",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=073&i=11628",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
    "id": "pucp:mi-rol-de-mama-o-papa-y-estudiante-pucp-2026-2",
@@ -4530,6 +4610,34 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "luma:evt-ECtnfob42pfw7zA",
+   "titulo": "⛏️ Taller de Difusión de Resultados \"DATA AIX\" – SUP 12G 🚀",
+   "inicio": "2026-10-23T16:00-05:00",
+   "fin": "2026-10-23T17:00-05:00",
+   "lugar": "Av. Túpac Amaru 210, Rímac",
+   "distrito": "Rímac",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/nu1hru5x",
+   "fuente": "Luma",
+   "organizador": "STARTUP UNI, José Torres Valenzuela",
+   "descripcion": "💼 Difusión de Resultados – DATA AIX\nSistema de exploración minera con IA para análisis de variables geológicas.\nTe invitamos a conocer los resultados del proyecto desarrollado por DATA AIX, una iniciativa orientada al desarrollo de una solución tecnológica basada en inteligencia artificial para la exploración y análisis de información geológica.\n🔎 Durante el taller conocerás:\n📈 Los resultados del proyecto🚀 Sus principales avances y logros💡 La solución desarrollada y sus principales funcionalidades🧪 El proceso de desarrollo y validación📊 Los aprendizajes obtenidos durante el proyecto\n💰 Proyecto cofinanciado por ProInnóvate – Ministerio de la Producción, en el marco de Startup Perú 12G.\n👨‍💻 CE",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/ls/5268bc33-09a7-4411-b7b5-72bbaeb56b9d.jpg",
+   "inscripcion": "https://lu.ma/nu1hru5x",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Datos y analítica",
+    "Tecnología e IA"
+   ],
+   "valor": 35,
+   "afinidad": 30,
+   "puntaje": 65,
+   "por_que": "Afín: Datos y machine learning · Formativo · Presencial en Lima · Afín: Inteligencia artificial",
+   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "meetup:315593600",
@@ -4864,6 +4972,34 @@
    "puntaje": 37,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "luma:evt-bVxokymWkHNwhur",
+   "titulo": "XIV Congreso de Desarrollo Emprendedor",
+   "inicio": "2026-10-29T14:30-05:00",
+   "fin": "2026-10-29T18:30-05:00",
+   "lugar": "XXM2+W3V, Av. Túpac Amaru 280, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/mvvwijvu",
+   "fuente": "Luma",
+   "organizador": "Maria Gabriela Jorge Quispe",
+   "descripcion": "🌟 CODE 2026 | XIV Congreso de Desarrollo Emprendedor 🌟\n🚀 Donde las ideas se conectan con quienes las hacen realidad.\nEste 29 y 30 de octubre, llega una nueva edición de CODE, el Congreso de Desarrollo Emprendedor organizado desde la Universidad Nacional de Ingeniería, un espacio que reúne a estudiantes, emprendedores y líderes del ecosistema para compartir experiencias, generar conexiones e impulsar nuevas ideas.\n🎤 Durante dos días podrás ser parte de conferencias, pitches en vivo y espacios de networking con referentes del ecosistema emprendedor, descubriendo experiencias reales, nuevas perspectivas y oportunidades para llevar tus ideas más allá.\n💡 CODE nace con el propósito de impulsar la ",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/1g/ef1b4287-af5e-44fe-9ad8-bcd02e2abd40.png",
+   "inscripcion": "https://lu.ma/mvvwijvu",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Investigación y ciencia"
+   ],
+   "valor": 35,
+   "afinidad": 16,
+   "puntaje": 51,
+   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad",
+   "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
    "id": "ieee:576578",
@@ -6186,6 +6322,34 @@
    "puntaje": 43,
    "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-09-28T16:03-05:00"
+  },
+  {
+   "id": "luma:evt-9BkR7E9Zyumrox9",
+   "titulo": "🎉 La Hora de la IA Perú 2026 | Evento de Cierre",
+   "inicio": "2026-11-27T17:00-05:00",
+   "fin": "2026-11-27T21:00-05:00",
+   "lugar": "Jr. Junín 355, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/5oyxkh2q",
+   "fuente": "Luma",
+   "organizador": "HORA DE LA IA PERÚ 2026 🤖💡",
+   "descripcion": "Después de un mes llevando experiencias de Inteligencia Artificial a las aulas de todo el Perú, nos reunimos para compartir, celebrar y reconocer lo que hemos logrado juntos. 🇵🇪🤖\nEste encuentro reunirá a docentes, directores, líderes educativos, empresas y aliados que están impulsando nuevas oportunidades de aprendizaje con tecnología e Inteligencia Artificial.\n🚀 ¿Qué encontrarás?\nDurante el evento compartiremos:\n🎓 Experiencias y resultados de las instituciones participantes.\n\n🤖 Actividades y aprendizajes de La Hora de la IA.\n\n🤝 Un espacio para conectar con docentes, líderes educativos y organizaciones.\n\n🎉 Un cierre para celebrar la participación de la comunidad educativa.\n\nInformación del e",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/2z/419d6885-aeae-4e37-8d21-fa4eaa54a196.png",
+   "inscripcion": "https://lu.ma/5oyxkh2q",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 34,
+   "afinidad": 20,
+   "puntaje": 54,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Presencial en Lima · Afín: Becas y posgrado",
+   "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
    "id": "wikicfp:200050",
@@ -8643,6 +8807,31 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
+   "id": "luma:evt-3UNq9WKilpnjT3i",
+   "titulo": "Sesión Bni Alta Dirección",
+   "inicio": "2026-09-29T06:30-05:00",
+   "fin": "2026-09-29T08:30-05:00",
+   "lugar": "Miraflores, Perú",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/7k5950hn",
+   "fuente": "Luma",
+   "organizador": "Zendy Pinedo, Luis Rodriguez Petrovich",
+   "descripcion": "",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/4d/88aa8e39-65d2-4517-a2a7-3855d7dd1206.jpg",
+   "inscripcion": "https://lu.ma/7k5950hn",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
    "id": "eb:1976412291367",
    "titulo": "Gringo Tuesdays Language Exchange Lima",
    "inicio": "2026-09-29T17:00-05:00",
@@ -8691,6 +8880,31 @@
    "afinidad": 0,
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis"
+  },
+  {
+   "id": "pucp:campana-de-vacunacion-contra-vph-diftotetanica-y-otras",
+   "titulo": "Campaña de vacunación contra VPH, diftotetánica y otras",
+   "inicio": "2026-10-01T10:00-05:00",
+   "fin": "2026-10-02T16:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/campana-de-vacunacion-contra-vph-diftotetanica-y-otras/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Ministerio de Salud te invita a participar en la Campaña de Vacunación, una oportunidad para mantener al día tu protección y prevenir enfermedades este 1 y 2 de octubre en el el jardín de frutas (frente al comedor de Artes).\n¿Qué vacunas estarán disponibles?\nVacuna contra la hepatitis B\nDirigida ",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/vacun_58a61b576d.png",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/campana-de-vacunacion-contra-vph-diftotetanica-y-otras/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 34,
+   "afinidad": 0,
+   "puntaje": 34,
+   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad · Gratis"
   },
   {
    "id": "pucp:votar-es-clave-stand-informativo-21092026111022",
@@ -8743,6 +8957,56 @@
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
   },
   {
+   "id": "pucp:charla-cancer-de-mama-y-deteccion-temprana-solo-el-10-es-hereditario",
+   "titulo": "Charla Cáncer de mama y detección temprana, sólo el 10% es hereditario",
+   "inicio": "2026-10-01T12:00-05:00",
+   "fin": "2026-10-01T14:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/charla-cancer-de-mama-y-deteccion-temprana-solo-el-10-es-hereditario/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "En esta charla, en colaboración con Oncosalud, conocerás información clave sobre la importancia de realizar controles preventivos y reconocer oportunamente posibles signos de alarma. Un espacio para conocer, prevenir y cuidar nuestra salud.\nTema: Cáncer de mama y detección temprana, sólo el 10% es h",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/mama_dae683d5da.png",
+   "inscripcion": "https://docs.google.com/forms/d/1n-50UlsNLa60BwH5x5lnc5SOhTYk2vpKct00LZQ1WJk/viewform?ts=6aba8e10&edit_requested=true",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
+  },
+  {
+   "id": "pucp:emocionarte-bienestar-entre-paginas-marcapaginas-botanico",
+   "titulo": "Emocionarte - Bienestar entre páginas: marcapáginas botánico",
+   "inicio": "2026-10-02T15:00-05:00",
+   "fin": "2026-10-02T17:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/emocionarte-bienestar-entre-paginas-marcapaginas-botanico/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "En este taller aprenderás a combinar flores secas y materiales amigables con el medio ambiente para crear un marcapáginas botánico único. Además de elaborar un accesorio especial para acompañar tus lecturas, potenciarás tu sensibilidad estética, tu creatividad y la paciencia que requiere el trabajo ",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/emocionarte_y_tejiendo_eff0d4983b.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=073&i=11630",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
+  },
+  {
    "id": "eb:1982892087612",
    "titulo": "Solo travellers: casual hangout in Lima (4pm)",
    "inicio": "2026-10-04T16:00-05:00",
@@ -8766,6 +9030,56 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
+   "id": "pucp:taller-como-superar-la-procrastinacion-2026-2",
+   "titulo": "Taller ¿Cómo superar la procrastinación? 2026-2",
+   "inicio": "2026-10-06T14:00-05:00",
+   "fin": "2026-10-06T16:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/taller-como-superar-la-procrastinacion-2026-2/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Curso/Taller · Interdisciplinarias · Dirección de Asuntos Estudiantiles · Bienestar PUCP",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Tu_bienestar_importa_545f4644de.jpg",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=066&i=6469&ec=1",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
+  },
+  {
+   "id": "pucp:tejiendo-bienestar-decora-tu-mesa-posavasos-con-trapillo",
+   "titulo": "Tejiendo bienestar - Decora tu mesa: Posavasos con trapillo",
+   "inicio": "2026-10-07T15:00-05:00",
+   "fin": "2026-10-07T17:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/tejiendo-bienestar-decora-tu-mesa-posavasos-con-trapillo/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "En este taller aprenderás paso a paso la técnica del crochet para elaborar un hermoso posavasos hecho por tus propias manos. Además de llevarte un accesorio funcional y decorativo para tus momentos cotidianos, ejercitarás tu paciencia, desarrollarás un estado de calma y potenciarás tu concentración ",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/emocionarte_y_tejiendo_eff0d4983b.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=073&i=11632",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
   },
   {
    "id": "luma:evt-x8hN8xnVNgFJeM7",
@@ -8843,6 +9157,56 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "pucp:taller-de-primeros-auxilios-psicologicos-2026-2",
+   "titulo": "Taller de Primeros Auxilios Psicológicos 2026-2",
+   "inicio": "2026-10-20T14:00-05:00",
+   "fin": "2026-10-20T16:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/taller-de-primeros-auxilios-psicologicos-2026-2/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Curso/Taller · Interdisciplinarias · Dirección de Asuntos Estudiantiles · Bienestar PUCP",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Tu_bienestar_importa_545f4644de.jpg",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=066&i=6436&ec=1",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
+  },
+  {
+   "id": "pucp:activacion-tu-bienestar-importa-octubre",
+   "titulo": "Activación Tu bienestar importa (octubre)",
+   "inicio": "2026-10-22T12:00-05:00",
+   "fin": "2026-10-22T14:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/activacion-tu-bienestar-importa-octubre/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Participa en una activación pensada para ayudarte a encontrar un equilibrio entre tus responsabilidades, emociones y bienestar. Un espacio para hacer una pausa, conectar contigo y descubrir recursos que contribuyan a tu bienestar integral.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/tu_bienest_c10a03b70c.png",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/activacion-tu-bienestar-importa-octubre/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
+  },
+  {
    "id": "eb:1984736924569",
    "titulo": "The Comeunity Project: Lima | Coffee with Strangers",
    "inicio": "2026-10-22T13:00-05:00",
@@ -8891,6 +9255,31 @@
    "afinidad": 0,
    "puntaje": 12,
    "por_que": "Presencial en Lima · Evento sin formato claro"
+  },
+  {
+   "id": "pucp:emocionarte-amigos-adorables-mini-peluches-de-fieltro-y-felpa",
+   "titulo": "Emocionarte - Amigos adorables: mini peluches de fieltro y felpa",
+   "inicio": "2026-10-23T15:00-05:00",
+   "fin": "2026-10-23T17:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/emocionarte-amigos-adorables-mini-peluches-de-fieltro-y-felpa/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "En este taller aprenderás técnicas sencillas de costura para elaborar un adorable peluche eligiendo entre fieltro y felpa. Además de llevarte a casa un amiguito único hecho por ti, disfrutarás y potenciarás tu paciencia y el gusto por el trabajo artesanal paso a paso.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/emocionarte_y_tejiendo_eff0d4983b.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=073&i=11631",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
   },
   {
    "id": "luma:evt-GLwRx4ShOsnRtGN",
@@ -8966,6 +9355,56 @@
    "afinidad": 0,
    "puntaje": 12,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · (Poca información)"
+  },
+  {
+   "id": "pucp:activacion-reescribiendo-el-felices-para-siempre-reflexionando-sobre-el-amor-romantico",
+   "titulo": "Activación: \"Reescribiendo el felices para siempre: Reflexionando sobre el amor romántico\"",
+   "inicio": "2026-10-29T12:30-05:00",
+   "fin": "2026-10-29T14:30-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/activacion-reescribiendo-el-felices-para-siempre-reflexionando-sobre-el-amor-romantico/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Reflexionar sobre los mitos del amor romántico y promover vínculos basados en el respeto, los límites, la autonomía y el cuidado mutuo.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/cer_cont_eb6cda3f7f.jpg",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/activacion-reescribiendo-el-felices-para-siempre-reflexionando-sobre-el-amor-romantico/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
+  },
+  {
+   "id": "luma:evt-DFwuDzgIkcWOvLC",
+   "titulo": "Mutafter",
+   "inicio": "2026-10-29T18:30-05:00",
+   "fin": "2026-10-29T20:00-05:00",
+   "lugar": "Av. José Pardo 200, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/mg6d47px",
+   "fuente": "Luma",
+   "organizador": "Mutaciones",
+   "descripcion": "Súmate al próximo mutafter, un espacio para conocer y conversar con otros mutantes. Pronto más información 👀IMPORTANTE: El acceso al evento será por orden de llegada. Se dará prioridad a las personas que se registraron previamente. Te recomendamos llegar con anticipación para asegurar tu lugar.",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/kl/731bf90c-69c0-4aef-8faf-357f829f62e7.png",
+   "inscripcion": "https://lu.ma/mg6d47px",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
    "id": "eb:1977084066665",
@@ -9350,34 +9789,6 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31539",
-   "titulo": "Startup Speedrun Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-09-28T00:00-05:00",
-   "fin": "2026-09-28T23:59-05:00",
-   "cierre": "2026-09-28T23:59-05:00",
-   "lugar": "Cloudflare HQ",
-   "distrito": "Cloudflare HQ",
-   "modalidad": "Presencial",
-   "url": "https://brainbase-startup-speedrun.devpost.com/",
-   "inscripcion": "https://brainbase-startup-speedrun.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Brainbase Labs",
-   "descripcion": "Hackathon presencial en Cloudflare HQ. Temas: Machine Learning/AI, Low/No Code, Productivity. Premios: $3,500.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/423/564/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 16,
-   "afinidad": 35,
-   "puntaje": 51,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:30350",
    "titulo": "Hack Apertus",
    "tipo": "hackathon",
@@ -9404,6 +9815,33 @@
    "afinidad": 26,
    "puntaje": 42,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31514",
+   "titulo": "StormHacks 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "Simon Fraser University",
+   "distrito": "Simon Fraser University",
+   "modalidad": "Presencial",
+   "url": "https://stormhacks2026.devpost.com/",
+   "inscripcion": "https://stormhacks2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "SFU Surge",
+   "descripcion": "Hackathon presencial en Simon Fraser University. Temas: Beginner Friendly. Premios: $CAD 0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/379/988/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 6,
+   "puntaje": 29,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30500",
@@ -10154,33 +10592,6 @@
    "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31540",
-   "titulo": "TEST ROWDYHACKS",
-   "tipo": "hackathon",
-   "inicio": "2026-09-28T00:00-05:00",
-   "fin": "2026-09-28T23:59-05:00",
-   "cierre": "2026-09-28T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://test-rowdyhacks.devpost.com/",
-   "inscripcion": "https://test-rowdyhacks.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "rowdy",
-   "descripcion": "Hackathon online. Temas: Serverless, Web. Premios: $1.",
-   "gratis": true,
-   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "pucp:cine-ccpucp-iv-ciclo-de-cine-japones-15092026194330",
    "titulo": "Cine CCPUCP | IV Ciclo de cine japonés",
    "inicio": "2026-09-24T20:00-05:00",
@@ -10315,14 +10726,14 @@
  ],
  "perfil": true,
  "recomendados": [
-  "luma:evt-ECtnfob42pfw7zA",
   "luma:evt-qEvoBnGm8AvP98W",
-  "pucp:bridging-process-science-and-global-monitoring-in-satellite-observations-of-clouds-and-storms-02092026163203",
   "pucp:ici-pucp-2026-el-rol-de-la-inteligencia-artificial-en-la-transformacion-academica-04092026174417",
   "devpost:31052",
   "devpost:30790",
   "luma:evt-sdiPKhxFMLobpJf",
-  "devpost:29359"
+  "devpost:29359",
+  "wikicfp:191658",
+  "pucp:infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
@@ -10345,10 +10756,10 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-28T16:40-05:00",
-  "revisados": 243,
+  "fecha": "2026-09-28T22:48-05:00",
+  "revisados": 249,
   "corregidos": 16,
-  "avisos": 4,
+  "avisos": 8,
   "archivados": 0,
   "problemas": [
    {
@@ -10504,17 +10915,49 @@
     "url": "https://agenda.pucp.edu.pe/evento/taller-preparacion-efectiva-para-parciales/"
    },
    {
+    "id": "pucp:charla-apoyo-case-experience",
+    "titulo": "Charla APOYO Case Experience",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/charla-apoyo-case-experience/"
+   },
+   {
+    "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp",
+    "titulo": "Taller de CV: Potencia tu Herramienta para el Empleo",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp/"
+   },
+   {
+    "id": "pucp:taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2",
+    "titulo": "Taller de LinkedIn Básico: Diseña tu Imagen Profesional 2026-2",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2/"
+   },
+   {
     "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
     "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISE",
     "fuente": "PUCP",
     "nivel": "aviso",
     "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
     "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/"
+   },
+   {
+    "id": "pucp:circulo-de-escucha-lo-que-nos-sostiene",
+    "titulo": "Círculo de escucha: \"Lo que nos sostiene\"",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/circulo-de-escucha-lo-que-nos-sostiene/"
    }
   ],
   "enlaces": {
-   "comprobados": 3,
-   "rotos": 2,
+   "comprobados": 10,
+   "rotos": 6,
    "sin_comprobar": 2
   },
   "fuentes_a_revisar": []
@@ -10545,14 +10988,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
-   "url": "https://www.peru-retail.com/los-desafios-que-abordo-el-ii-foro-eficiencias-productividad-comercial-de-peru-retail-2026/",
-   "medio": "Perú Retail",
-   "publicado": "Mon, 28 Sep 2026 13:05:00 GMT",
-   "resumen": "Con el objetivo de analizar los desafíos y oportunidades que enfrenta el sector en materia de productividad, Perú Retail llevó a cabo el II Foro Eficiencias & Productividad Comercial en Retail 2026 el ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Pronto: Webinar Smart 4 Life Summit 2026 de Panduit | IT/USERS® Magazine",
    "url": "https://itusers.today/pronto-webinar-smart-4-life-summit-2026-de-panduit-it-users-magazine/",
    "medio": "itusers",
@@ -10569,11 +11004,27 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "LiGA Summit 2026, a Lima la prima giornata dedicata all’iGaming e alle nuove licenze di gioco in Perù",
+   "url": "https://www.agimeg.it/liga-summit-2026-lima-igaming-nuove-licenze-peru/",
+   "medio": "AGIMEG",
+   "publicado": "Fri, 18 Sep 2026 02:52:00 GMT",
+   "resumen": "Si è aperta a Lima la prima giornata del LiGA Summit 2026: panel su licenze, conformità degli affiliati e prospettive dell'iGaming in Perù e in America Latina.",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
    "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
    "medio": "RPP",
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Lima se mostró al mundo: más de 30 mil visitantes llegaron a la Expo Turismo",
+   "url": "https://caretas.pe/nacional/lima-se-mostro-al-mundo-mas-de-30-mil-visitantes-llegaron-a-la-expo-turismo/",
+   "medio": "Caretas",
+   "publicado": "Mon, 28 Sep 2026 13:53:00 GMT",
+   "resumen": "Expo Turismo Lima reunió a más de 30 mil visitantes, generó S/56 342 en ventas y presentó la nueva Marca Ciudad.",
    "fecha_mencionada": ""
   },
   {
@@ -10590,6 +11041,14 @@
    "medio": "Xinhua Español",
    "publicado": "Sun, 27 Sep 2026 22:25:00 GMT",
    "resumen": "LIMA, 27 sep (Xinhua) -- Perú albergó la IV Feria Internacional de Cultura, Turismo y Educación (FICTE) del 25 al 27 de septiembre, un espacio que ofreció a los ciudadanos el acceso directo a la ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Feria peruana Expoalimentaria generó negocios por 1.100 millones de dólares",
+   "url": "http://spanish.peopledaily.com.cn/n3/2026/0928/c31617-20504070.html",
+   "medio": "Pueblo en Línea",
+   "publicado": "Sun, 27 Sep 2026 17:00:00 GMT",
+   "resumen": "La feria anual Expoalimentaria 2026, realizada en Lima entre el miercoles y el viernes últimos, generó negocios por 1.100 millones de dólares, un 21,5 por ciento más que en la edición precedente, ...",
    "fecha_mencionada": ""
   }
  ],
@@ -10723,7 +11182,6 @@
   "meetup:315593600": "2026-09-24T21:06-05:00",
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518": "2026-09-24T21:10-05:00",
-  "pucp:bridging-process-science-and-global-monitoring-in-satellite-observations-of-clouds-and-storms-02092026163203": "2026-09-24T21:10-05:00",
   "pucp:ici-pucp-2026-riesgo-editorial-en-revistas-estrategias-y-herramientas-04092026171447": "2026-09-24T21:10-05:00",
   "pucp:webinar-fssc-22000-esquema-de-verificacion-y-lo-nuevo-de-la-version-7-11092026141545": "2026-09-24T21:10-05:00",
   "pucp:ici-pucp-2026-el-rol-de-la-inteligencia-artificial-en-la-transformacion-academica-04092026174417": "2026-09-24T21:10-05:00",
@@ -10830,8 +11288,6 @@
   "wikicfp:202890": "2026-09-26T08:43-05:00",
   "wikicfp:192921": "2026-09-26T08:43-05:00",
   "pucp:sonqo-un-solo-corazon-con-dios-08092026113650": "2026-09-26T09:22-05:00",
-  "luma:evt-sOtWCdNCwGR2WYq": "2026-09-26T09:22-05:00",
-  "pucp:ici-pucp-2026-presentacion-de-libro-el-volumen-en-bruto-04092026163552": "2026-09-26T09:22-05:00",
   "pucp:te-invitamos-al-recital-sikuris-cemduc-2026-21092026122327": "2026-09-26T09:22-05:00",
   "eb:1998657030982": "2026-09-26T09:22-05:00",
   "luma:evt-Zk8uFAL691bY7no": "2026-09-26T09:22-05:00",
@@ -10937,6 +11393,15 @@
   "opportunitydesk:-org-2026-09-28-ashoka-carnegie-challenge-for-civic-leadership-2027-2-": "2026-09-28T16:03-05:00",
   "luma:evt-oWvzxxwwjCR8Et6": "2026-09-28T16:40-05:00",
   "luma:evt-6PUJZlSf0wlgHiY": "2026-09-28T16:40-05:00",
-  "eb:1992830143605": "2026-09-28T16:40-05:00"
+  "eb:1992830143605": "2026-09-28T16:40-05:00",
+  "devpost:31098": "2026-09-28T22:49-05:00",
+  "pucp:charla-apoyo-case-experience": "2026-09-28T22:49-05:00",
+  "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp": "2026-09-28T22:49-05:00",
+  "luma:evt-O21Rphs1Sl1LExn": "2026-09-28T22:49-05:00",
+  "pucp:primer-encuentro-iberoamericano-de-historia-de-la-contabilidad-25092026173936": "2026-09-28T22:49-05:00",
+  "pucp:taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2": "2026-09-28T22:49-05:00",
+  "pucp:circulo-de-escucha-lo-que-nos-sostiene": "2026-09-28T22:49-05:00",
+  "luma:evt-bVxokymWkHNwhur": "2026-09-28T22:49-05:00",
+  "luma:evt-9BkR7E9Zyumrox9": "2026-09-28T22:49-05:00"
  }
 }
