@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T22:37-05:00",
+ "actualizado": "2026-09-30T06:48-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -47,7 +47,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 13
+   "n": 11
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 392,
+ "revisados": 390,
  "top": 55,
  "eventos": [
   {
@@ -207,74 +207,32 @@
    "visto_desde": "2026-09-27T14:33-05:00"
   },
   {
-   "id": "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29",
-   "titulo": "Webinar: Microempresa: Conoce como puedes subsanar tu primera infracción – Ley 32335",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-09-29T11:00-05:00",
-   "fin": "",
+   "id": "opportunitydesk:-abroad-prepare-these-22-essential-documents-before-applications-open-",
+   "titulo": "Planning to Study Abroad? Prepare These 22 Essential Documents Before Applications Open",
+   "tipo": "convocatoria",
+   "inicio": "2026-09-30T04:07-05:00",
+   "fin": "2026-09-30T04:07-05:00",
    "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
+   "publicado": "2026-09-30T04:07-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/09/30/planning-to-study-abroad-prepare-these-22-essential-documents-before-applications-open/",
+   "inscripcion": "https://opportunitydesk.org/2026/09/30/planning-to-study-abroad-prepare-these-22-essential-documents-before-applications-open/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Are you planning to apply for a scholarship, master’s programme, PhD, fellowship, exchange programme or another study abroad opportunity? Do not wait until the application opens before you start preparing. One of the biggest mistakes applicants make is finding a great opportunity and then discovering that they do not have a valid passport, official transcript, [...]",
    "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/09/flyer-img2.jpg",
-   "extraido_por": "json-ld",
+   "imagen": "",
    "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
+    "Idiomas, becas e internacional"
    ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Virtual",
-   "original": {
-    "fin": "2026-09-29T23:50-05:00"
-   },
-   "visto_desde": "2026-09-26T10:21-05:00"
-  },
-  {
-   "id": "inst:sni-webinar-gesti-n-integral-de-sustancias-qu-micas-en-el-se:2026-09-29",
-   "titulo": "Webinar: Gestión integral de sustancias químicas en el sector industria manufacturera",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-09-29T16:00-05:00",
-   "fin": "",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/08/Gestion-integral-de-sustancias-quimicas-en-el-sector-industria-manufacturera-foto.png",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Virtual",
-   "original": {
-    "fin": "2026-09-29T23:50-05:00"
-   },
-   "visto_desde": "2026-09-26T10:21-05:00"
+   "valor": 16,
+   "afinidad": 8,
+   "puntaje": 24,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Se postula en línea",
+   "visto_desde": "2026-09-30T06:48-05:00"
   },
   {
    "id": "eb:1998657030982",
@@ -478,6 +436,41 @@
    "puntaje": 43,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-09-25T14:05-05:00"
+  },
+  {
+   "id": "inst:sni-jornada-de-trabajo-y-horas-extras:2026-09-30",
+   "titulo": "Jornada de trabajo y horas extras",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-09-30T16:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/08/Jornada-de-trabajo-y-horas-extras-Claves-para-una-gestion-adecuada-y-para-la-prevencion-de-riesgos-img.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Networking · Evento institucional · Presencial en Lima",
+   "original": {
+    "fin": "2026-09-30T23:50-05:00"
+   },
+   "visto_desde": "2026-09-30T06:48-05:00"
   },
   {
    "id": "eb:2002334852445",
@@ -762,33 +755,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:31515",
-   "titulo": "CodeSprint by Elite Coders",
-   "tipo": "hackathon",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-09-30T23:59-05:00",
-   "cierre": "2026-09-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://codesprint-by-elitecoders.devpost.com/",
-   "inscripcion": "https://codesprint-by-elitecoders.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "elite coders",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Web. Premios: ₹ 30,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-27T11:15-05:00"
   },
   {
    "id": "devpost:31493",
@@ -2014,33 +1980,6 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
-   "id": "devpost:30781",
-   "titulo": "UnivaBio ($40,000 in prizes)",
-   "tipo": "hackathon",
-   "inicio": "2026-08-07T00:00-05:00",
-   "fin": "2026-10-06T23:59-05:00",
-   "cierre": "2026-10-06T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://univabio.devpost.com/",
-   "inscripcion": "https://univabio.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "BioCataalysis",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Health, Social Good. Premios: $0.",
-   "gratis": false,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/429/151/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 13,
-   "afinidad": 6,
-   "puntaje": 19,
-   "por_que": "Competencia · Afín: Competencias · Con premio · Plazo claro · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "devpost:31196",
    "titulo": "ML Empowerment Build Challenge 3.0 - ($80,000 in prizes!)",
    "tipo": "hackathon",
@@ -2974,6 +2913,33 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
+   "id": "devpost:30781",
+   "titulo": "UnivaBio ($40,000 in prizes)",
+   "tipo": "hackathon",
+   "inicio": "2026-08-07T00:00-05:00",
+   "fin": "2026-10-13T23:59-05:00",
+   "cierre": "2026-10-13T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://univabio.devpost.com/",
+   "inscripcion": "https://univabio.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "BioCataalysis",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Health, Social Good. Premios: $0.",
+   "gratis": false,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/429/151/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 13,
+   "afinidad": 6,
+   "puntaje": 19,
+   "por_que": "Competencia · Afín: Competencias · Con premio · Plazo claro · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
    "id": "opportunitiesforyouth:eking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium-",
    "titulo": "Call for Application Readers for the 2027 Mandela Washington Fellowship (Honorarium available)",
    "tipo": "voluntariado",
@@ -3196,33 +3162,6 @@
    "puntaje": 31,
    "por_que": "Afín: Datos y machine learning · Afín: Inteligencia artificial · Networking · Presencial en Lima · (Evitas «cripto»)",
    "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "luma:evt-44KsjGqFAkdwKEJ",
-   "titulo": "PRODUCT FEST by ProductTank Lima",
-   "inicio": "2026-10-14T17:00-05:00",
-   "fin": "2026-10-14T20:00-05:00",
-   "lugar": "San Isidro, Perú",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/u1jplfo6",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "ProductTank Lima, con el respaldo de Mind the product,  presentan: PRODUCT FEST 🎉, un espacio para conectar, aprender y experimentar alrededor de cómo estamos construyendo producto hoy: desde la estrategia hasta la ejecución, con IA como una capa transversal.\nSi trabajas en producto, estás creciendo hacia un rol de producto o simplemente eres un entusiasta de producto, este espacio es para ti.\nNo vienes solo a escuchar una conversación, vienes a aprender en comunidad, probar ideas y llevarte cosas que puedas aplicar de verdad.\n⚡ ¿Qué vas a vivir?\n🤝 CONNECT | Networking con propósitoDinámicas guiadas para ayudarte a encontrar personas, experiencias y conversaciones que valgan la pena continua",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/13/3ae5f5e1-04c2-4dd0-8119-ece141118032.png",
-   "inscripcion": "https://lu.ma/u1jplfo6",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 28,
-   "afinidad": 26,
-   "puntaje": 54,
-   "por_que": "Formativo · Afín: Datos y machine learning · Presencial en Lima · Afín: Inteligencia artificial",
-   "visto_desde": "2026-09-29T22:37-05:00"
   },
   {
    "id": "pucp:primer-encuentro-iberoamericano-de-historia-de-la-contabilidad-25092026173936",
@@ -4030,6 +3969,34 @@
    "puntaje": 16,
    "por_que": "Networking · Gratis",
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "luma:evt-AB6prsOvUZl3nem",
+   "titulo": "🚀 IAthon Construye Perú Digital 2026... Talento Tech y Pymes en acción 💪",
+   "inicio": "2026-10-17T09:00-05:00",
+   "fin": "2026-10-17T13:00-05:00",
+   "lugar": "Santiago de Surco, Perú",
+   "distrito": "Santiago de Surco",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/l2cqxjsz",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "🚀 ¿Y si las soluciones para las pymes del Perú ya se estuvieran construyendo, y tú pudieras verlas en vivo?\nEl 17 de octubre te invitamos al Demo Day de la IAthon Construye Perú Digital, dentro del Perú Tech Week 2026.\nDurante semanas, 10 equipos finalistas trabajaron junto a dueños de pymes reales para convertir sus problemas del día a día en soluciones con Inteligencia Artificial. Cada equipo combina 4 talentos tech con 1 owner de negocio, y en una semana que pasó del diagnóstico a un MVP funcional.\nHoy 6 de cada 10 empresas peruanas todavía gestionan sus procesos críticos de forma 100% manual. Estos equipos vienen a demostrar que se puede hacer distinto.\nEn el evento vas a ver:\n✅ Conferen",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/r6/c375d25b-0a51-4b49-a611-eaaea3f97bc2.png",
+   "inscripcion": "https://lu.ma/l2cqxjsz",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 39,
+   "afinidad": 24,
+   "puntaje": 63,
+   "por_que": "Formativo · Afín: Datos y machine learning · Presencial en Lima · Afín: Inteligencia artificial",
+   "visto_desde": "2026-09-30T06:48-05:00"
   },
   {
    "id": "luma:evt-19UchoAO3MbmuAG",
@@ -4863,35 +4830,6 @@
    "visto_desde": "2026-09-27T16:39-05:00"
   },
   {
-   "id": "opportunitydesk:s-opportunitydesk-org-2026-09-29-aegix-emerging-scholars-program-2026-",
-   "titulo": "AEGIX Emerging Scholars Program 2026",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-25T23:59-05:00",
-   "fin": "2026-10-25T23:59-05:00",
-   "cierre": "2026-10-25T23:59-05:00",
-   "publicado": "2026-09-29T07:20-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/29/aegix-emerging-scholars-program-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/29/aegix-emerging-scholars-program-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 25, 2026 Applications are open for the AEGIX Emerging Scholars Program 2026. The AEGIX Emerging Scholars Program supports emerging researchers and practitioners working at the intersection of AI, policy, and societal flourishing. Designed for advanced students and early-career professionals, the program blends mentorship and hands-on research aligned with AEGIX’s core pillars. Each scholar [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Investigación y ciencia"
-   ],
-   "valor": 20,
-   "afinidad": 16,
-   "puntaje": 36,
-   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Afín: Investigación · Plazo claro",
-   "visto_desde": "2026-09-29T10:06-05:00"
-  },
-  {
    "id": "devpost:30447",
    "titulo": "Build With AI: Basics",
    "tipo": "hackathon",
@@ -5457,33 +5395,32 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "opportunitydesk:26-09-28-twas-sissa-lincei-research-cooperation-visits-programme-2026-",
-   "titulo": "TWAS-SISSA-Lincei Research Cooperation Visits Programme 2026 (Funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-31T23:59-05:00",
+   "id": "devpost:31538",
+   "titulo": "Open Source Impact",
+   "tipo": "hackathon",
+   "inicio": "2026-09-30T00:00-05:00",
    "fin": "2026-10-31T23:59-05:00",
    "cierre": "2026-10-31T23:59-05:00",
-   "publicado": "2026-09-28T09:18-05:00",
    "lugar": "",
    "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/28/twas-sissa-lincei-research-cooperation-visits-programme-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/28/twas-sissa-lincei-research-cooperation-visits-programme-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 31, 2026 Applications are open for the TWAS-SISSA-Lincei Research Cooperation Visits Programme 2026. The UNESCO-TWAS, in collaboration with the Lincei Academy and the International School for Advanced Studies (SISSA), offers young scientists from Least Developed Countries the opportunity to visit either research laboratories at Centres of Excellence in Trieste or Udine, Italy. Research [...]",
-   "gratis": null,
-   "imagen": "",
+   "modalidad": "Virtual",
+   "url": "https://open-source-impact.devpost.com/",
+   "inscripcion": "https://open-source-impact.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Student Organization",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Web. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/434/168/datas/medium_square.png",
    "categorias": [
-    "Investigación y ciencia",
-    "Idiomas, becas e internacional"
+    "Tecnología e IA",
+    "Competencias y hackathons"
    ],
-   "valor": 27,
-   "afinidad": 12,
-   "puntaje": 39,
-   "por_que": "Abre puertas (beca/programa) · Afín: Investigación · Gremio o institución · Plazo claro",
-   "visto_desde": "2026-09-28T16:03-05:00"
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-30T06:48-05:00"
   },
   {
    "id": "devpost:31400",
@@ -5818,6 +5755,34 @@
    "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-09-30-anzisha-fellowship-2027-",
+   "titulo": "Anzisha Fellowship 2027 for Young Entrepreneurs",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-10T23:59-05:00",
+   "fin": "2026-11-10T23:59-05:00",
+   "cierre": "2026-11-10T23:59-05:00",
+   "publicado": "2026-09-30T05:42-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/09/30/anzisha-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/09/30/anzisha-fellowship-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 10, 2026 Applications are open for the Anzisha Fellowship 2027. The Anzisha Fellowship is Africa’s premier support programme dedicated to championing the continent’s most promising young entrepreneurs. At Anzisha, they don’t just see a young person; they see the blueprint for Africa’s economic future. This is more than a fellowship; it is a [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-09-30T06:48-05:00"
+  },
+  {
    "id": "tedx:70101",
    "titulo": "TEDxUPC",
    "tipo": "evento",
@@ -6062,34 +6027,6 @@
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "opportunitydesk:desk-org-2026-09-28-melton-foundation-global-solvers-accelerator-2027-",
-   "titulo": "Melton Foundation Global Solvers Accelerator 2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-15T23:59-05:00",
-   "fin": "2026-11-15T23:59-05:00",
-   "cierre": "2026-11-15T23:59-05:00",
-   "publicado": "2026-09-28T09:44-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/28/melton-foundation-global-solvers-accelerator-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/28/melton-foundation-global-solvers-accelerator-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 15, 2026 Applications are open for the Melton Foundation Global Solvers Accelerator 2027. The Global Solvers Accelerator (GSA) is a ten-month leadership and peer-learning program for emerging changemakers aged 20-35, who are actively driving social impact in their communities. Each year, a cohort of 15–20 practitioners from around the world comes together to [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 0,
-   "puntaje": 20,
-   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-09-28T16:03-05:00"
   },
   {
    "id": "wikicfp:191885",
@@ -6772,34 +6709,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "opportunitydesk:-org-2026-09-28-ashoka-carnegie-challenge-for-civic-leadership-2027-2-",
-   "titulo": "Ashoka Carnegie Challenge for Civic Leadership 2027",
-   "tipo": "convocatoria",
-   "inicio": "2027-01-31T23:59-05:00",
-   "fin": "2027-01-31T23:59-05:00",
-   "cierre": "2027-01-31T23:59-05:00",
-   "publicado": "2026-09-28T11:56-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/28/ashoka-carnegie-challenge-for-civic-leadership-2027-2/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/28/ashoka-carnegie-challenge-for-civic-leadership-2027-2/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: January 31, 2027 Applications are open for the Ashoka Carnegie Challenge for Civic Leadership 2027. Do you have an idea for creating positive change in your school or community? Or are you already working on a project for good and engaging others to make a difference? That’s civic leadership: identifying a challenge in your [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 20,
-   "afinidad": 9,
-   "puntaje": 29,
-   "por_que": "Abre puertas (beca/programa) · Afín: Competencias · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-09-28T16:03-05:00"
-  },
-  {
    "id": "wikicfp:200092",
    "titulo": "ICORES 2027 : 16th International Conference on Operations Research and Enterprise Systems",
    "tipo": "call for papers",
@@ -7248,38 +7157,6 @@
   }
  ],
  "archivo": [
-  {
-   "id": "inst:universidad-esan-conferencia-informativa-diploma-de-especial:2026-09-29",
-   "titulo": "Conferencia informativa: Diploma de Especialización en Gestión de Riesgos en el Sistema Financiero",
-   "tipo": "admisión",
-   "institucional": false,
-   "escala": "media",
-   "inicio": "2026-09-29T00:00-05:00",
-   "fin": "2026-09-29T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.esan.edu.pe/eventos/",
-   "inscripcion": "https://www.esan.edu.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://www.esan.edu.pe/eventos/",
-   "organizador": "Universidad ESAN",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "motivo": "admisión: promociona una maestría o diplomado pagado",
-   "categorias": [
-    "Investigación y ciencia",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 20,
-   "afinidad": 0,
-   "puntaje": 20,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Con certificado · (Promociona un programa pagado)"
-  },
   {
    "id": "inst:universidad-esan-conferencia-informativa-maestr-a-en-gesti-n:2026-09-30",
    "titulo": "Conferencia Informativa: Maestría en Gestión de la Energía",
@@ -9631,6 +9508,35 @@
    "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea"
   },
   {
+   "id": "opportunitydesk:to-a-new-city-heres-how-to-position-yourself-for-bigger-opportunities-",
+   "titulo": "Thinking of Moving to a New City? Here’s How to Position Yourself for Bigger Opportunities",
+   "tipo": "convocatoria",
+   "inicio": "2026-09-30T04:16-05:00",
+   "fin": "2026-09-30T04:16-05:00",
+   "cierre": "",
+   "publicado": "2026-09-30T04:16-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/09/30/thinking-of-moving-to-a-new-city-heres-how-to-position-yourself-for-bigger-opportunities/",
+   "inscripcion": "https://opportunitydesk.org/2026/09/30/thinking-of-moving-to-a-new-city-heres-how-to-position-yourself-for-bigger-opportunities/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Moving to a new city can be one of the most important decisions you make for your career, education, business or personal growth. Sometimes, the opportunities you are looking for are not available where you currently live. A new city can bring you closer to better jobs, stronger professional network",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "no es una convocatoria (artículo o consejos)",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 16,
+   "afinidad": 0,
+   "puntaje": 16,
+   "por_que": "Abre puertas (beca/programa) · Se postula en línea"
+  },
+  {
    "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
    "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
    "tipo": "voluntariado",
@@ -9775,8 +9681,8 @@
    "titulo": "Bharat Innovation Challenge 2.0",
    "tipo": "hackathon",
    "inicio": "2026-09-18T00:00-05:00",
-   "fin": "2026-09-30T23:59-05:00",
-   "cierre": "2026-09-30T23:59-05:00",
+   "fin": "2026-10-02T23:59-05:00",
+   "cierre": "2026-10-02T23:59-05:00",
    "lugar": "Lovely Professional University",
    "distrito": "Lovely Professional University",
    "modalidad": "Presencial",
@@ -9940,8 +9846,8 @@
    "titulo": "DSH Hacks V2 ($100k+ in prizes!)",
    "tipo": "hackathon",
    "inicio": "2026-06-24T00:00-05:00",
-   "fin": "2026-11-08T23:59-05:00",
-   "cierre": "2026-11-08T23:59-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Virtual",
@@ -10435,20 +10341,20 @@
    "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:1981186891324",
+   "id": "eb:1981186892327",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-09-29T23:00-05:00",
-   "fin": "2026-09-30T13:00-05:00",
+   "inicio": "2026-09-30T23:00-05:00",
+   "fin": "2026-10-01T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186891324",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186892327",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima, where you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186891324",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186892327",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -10571,6 +10477,34 @@
    "afinidad": 0,
    "puntaje": 19,
    "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitydesk:esk-org-2026-09-30-overseas-press-club-foundation-scholar-awards-2027-",
+   "titulo": "Overseas Press Club Foundation Scholar Awards 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-15T23:59-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
+   "publicado": "2026-09-30T05:56-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/09/30/overseas-press-club-foundation-scholar-awards-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/09/30/overseas-press-club-foundation-scholar-awards-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 15, 2026 Applications are open for the Overseas Press Club Foundation Scholar Awards 2027. Graduate and undergraduate students at North American colleges and universities or American students studying abroad are invited to apply for Overseas Press Club Foundation Scholar Awards. I",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Abre puertas (beca/programa) · Con premio · Plazo claro · Se postula en línea"
   },
   {
    "id": "wikicfp:194196",
@@ -10857,9 +10791,9 @@
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
   "PERUMIN": 1,
-  "ESAN — eventos": 5,
+  "ESAN — eventos": 4,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 4,
+  "Sociedad Nacional de Industrias": 3,
   "AmCham Perú": 2,
   "ComexPerú": 0
  },
@@ -10875,9 +10809,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-09-29T22:37-05:00",
-  "revisados": 256,
-  "corregidos": 16,
+  "fecha": "2026-09-30T06:48-05:00",
+  "revisados": 253,
+  "corregidos": 15,
   "avisos": 9,
   "archivados": 0,
   "problemas": [
@@ -10898,22 +10832,6 @@
     "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLnfqX19D7gvumbrlZfKN1rH2ddjNDeexsoHaakr0ianrcrQ/viewform?usp=send_form"
    },
    {
-    "id": "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29",
-    "titulo": "Webinar: Microempresa: Conoce como puedes subsanar tu primera infracción – Ley 32335",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término no creíble (11:00–23:50)",
-    "url": "https://sni.org.pe/eventos/"
-   },
-   {
-    "id": "inst:sni-webinar-gesti-n-integral-de-sustancias-qu-micas-en-el-se:2026-09-29",
-    "titulo": "Webinar: Gestión integral de sustancias químicas en el sector industria manufacturera",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:50)",
-    "url": "https://sni.org.pe/eventos/"
-   },
-   {
     "id": "eb:1998657030982",
     "titulo": "30 Aniversario Redrilsa",
     "fuente": "Eventbrite",
@@ -10924,6 +10842,14 @@
    {
     "id": "inst:sni-webinar-energ-a-como-ventaja-competitiva-c-mo-reducir-el:2026-09-30",
     "titulo": "Webinar: Energía como ventaja competitiva: ¿Cómo reducir el Opex energético de una industr",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
+    "id": "inst:sni-jornada-de-trabajo-y-horas-extras:2026-09-30",
+    "titulo": "Jornada de trabajo y horas extras",
     "fuente": "Institucional",
     "nivel": "corregido",
     "detalle": "hora de término de relleno (23:50)",
@@ -11112,7 +11038,7 @@
    "medio": "tnews",
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
-   "fecha_mencionada": "2026-09-25T00:00-05:00"
+   "fecha_mencionada": ""
   },
   {
    "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
@@ -11131,6 +11057,14 @@
    "fecha_mencionada": "2026-09-30T00:00-05:00"
   },
   {
+   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
+   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
+   "medio": "El Comercio",
+   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
+   "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
    "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
    "medio": "DiarioBitcoin",
@@ -11139,11 +11073,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
-   "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
+   "titulo": "LiGA Summit 2026, a Lima la prima giornata dedicata all’iGaming e alle nuove licenze di gioco in Perù",
+   "url": "https://www.agimeg.it/liga-summit-2026-lima-igaming-nuove-licenze-peru/",
+   "medio": "AGIMEG",
+   "publicado": "Fri, 18 Sep 2026 02:52:00 GMT",
+   "resumen": "Si è aperta a Lima la prima giornata del LiGA Summit 2026: panel su licenze, conformità degli affiliati e prospettive dell'iGaming in Perù e in America Latina.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Gioco online, LiGA Summit 2026 al debutto a Lima: regolamentazione, affiliazione, cybersecurity e prediction markets",
+   "url": "https://www.agimeg.it/gioco-online-liga-summit-2026-lima-regolamentazione-affiliazione-cybersecurity-prediction-markets/",
+   "medio": "AGIMEG",
+   "publicado": "Mon, 07 Sep 2026 03:16:00 GMT",
+   "resumen": "Il LiGA Summit 2026 a Lima esplora regolamentazione, cybersecurity e opportunità nel gioco online in America Latina, con focus in diverse aree.",
    "fecha_mencionada": ""
   },
   {
@@ -11168,14 +11110,6 @@
    "medio": "Xinhua Español",
    "publicado": "Sun, 27 Sep 2026 22:25:00 GMT",
    "resumen": "LIMA, 27 sep (Xinhua) -- Perú albergó la IV Feria Internacional de Cultura, Turismo y Educación (FICTE) del 25 al 27 de septiembre, un espacio que ofreció a los ciudadanos el acceso directo a la ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Lima se mostró al mundo: más de 30 mil visitantes llegaron a la Expo Turismo",
-   "url": "https://caretas.pe/nacional/lima-se-mostro-al-mundo-mas-de-30-mil-visitantes-llegaron-a-la-expo-turismo/",
-   "medio": "Caretas",
-   "publicado": "Mon, 28 Sep 2026 13:53:00 GMT",
-   "resumen": "Expo Turismo Lima reunió a más de 30 mil visitantes, generó S/56 342 en ventas y presentó la nueva Marca Ciudad.",
    "fecha_mencionada": ""
   }
  ],
@@ -11278,6 +11212,9 @@
   },
   "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit": {
    "2026": "2026-11-16"
+  },
+  "Jornada de trabajo y horas extras": {
+   "2026": "2026-09-30"
   }
  },
  "primera_vez": {
@@ -11445,8 +11382,6 @@
   "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16": "2026-09-26T09:22-05:00",
   "pucp:summit-alumni-pucp-2026-07082026154947": "2026-09-26T09:22-05:00",
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-09-26T09:26-05:00",
-  "inst:sni-webinar-microempresa-conoce-como-puedes-subsanar-tu-prim:2026-09-29": "2026-09-26T10:21-05:00",
-  "inst:sni-webinar-gesti-n-integral-de-sustancias-qu-micas-en-el-se:2026-09-29": "2026-09-26T10:21-05:00",
   "inst:sni-webinar-energ-a-como-ventaja-competitiva-c-mo-reducir-el:2026-09-30": "2026-09-26T10:21-05:00",
   "inst:sni-webinar-tributos-municipales-sin-sorpresas-calcula-verif:2026-09-30": "2026-09-26T10:21-05:00",
   "luma:evt-VdivoEb6CyTNEOJ": "2026-09-26T10:21-05:00",
@@ -11455,7 +11390,6 @@
   "luma:evt-WXo4ob5dba49nVk": "2026-09-26T15:34-05:00",
   "luma:evt-ArfuCapJSpFKxdm": "2026-09-26T22:13-05:00",
   "devpost:31196": "2026-09-27T06:14-05:00",
-  "devpost:31515": "2026-09-27T11:15-05:00",
   "devpost:31493": "2026-09-27T11:15-05:00",
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
   "devpost:30588": "2026-09-27T11:15-05:00",
@@ -11500,10 +11434,7 @@
   "pucp:distincion-de-profesor-honorario-doctor-jose-luis-torero-cullen-25092026170148": "2026-09-28T16:03-05:00",
   "luma:evt-FGUzjLGpiV5QHE8": "2026-09-28T16:03-05:00",
   "devpost:31103": "2026-09-28T16:03-05:00",
-  "opportunitydesk:26-09-28-twas-sissa-lincei-research-cooperation-visits-programme-2026-": "2026-09-28T16:03-05:00",
-  "opportunitydesk:desk-org-2026-09-28-melton-foundation-global-solvers-accelerator-2027-": "2026-09-28T16:03-05:00",
   "luma:evt-B8EX8PEoPH2UZrV": "2026-09-28T16:03-05:00",
-  "opportunitydesk:-org-2026-09-28-ashoka-carnegie-challenge-for-civic-leadership-2027-2-": "2026-09-28T16:03-05:00",
   "luma:evt-oWvzxxwwjCR8Et6": "2026-09-28T16:40-05:00",
   "luma:evt-6PUJZlSf0wlgHiY": "2026-09-28T16:40-05:00",
   "eb:1992830143605": "2026-09-28T16:40-05:00",
@@ -11524,7 +11455,6 @@
   "luma:evt-AFlpqfQbbi19tds": "2026-09-29T10:06-05:00",
   "luma:evt-LGwJTP3XuvnHZx6": "2026-09-29T10:06-05:00",
   "luma:evt-19UchoAO3MbmuAG": "2026-09-29T10:06-05:00",
-  "opportunitydesk:s-opportunitydesk-org-2026-09-29-aegix-emerging-scholars-program-2026-": "2026-09-29T10:06-05:00",
   "opportunitydesk:29-maria-rosario-lazzati-niada-scholarship-for-afghan-women-2027-2028-": "2026-09-29T10:06-05:00",
   "opportunitydesk:opportunitydesk-org-2026-09-29-conservative-ai-policy-fellowship-2027-": "2026-09-29T10:06-05:00",
   "eb:2001083241844": "2026-09-29T10:06-05:00",
@@ -11535,7 +11465,11 @@
   "devpost:31503": "2026-09-29T16:48-05:00",
   "meetup:316774586": "2026-09-29T22:37-05:00",
   "eb:2000281780652": "2026-09-29T22:37-05:00",
-  "luma:evt-44KsjGqFAkdwKEJ": "2026-09-29T22:37-05:00",
-  "meetup:ljgqztyjcpblc": "2026-09-29T22:37-05:00"
+  "meetup:ljgqztyjcpblc": "2026-09-29T22:37-05:00",
+  "opportunitydesk:-abroad-prepare-these-22-essential-documents-before-applications-open-": "2026-09-30T06:48-05:00",
+  "inst:sni-jornada-de-trabajo-y-horas-extras:2026-09-30": "2026-09-30T06:48-05:00",
+  "luma:evt-AB6prsOvUZl3nem": "2026-09-30T06:48-05:00",
+  "devpost:31538": "2026-09-30T06:48-05:00",
+  "opportunitydesk:https-opportunitydesk-org-2026-09-30-anzisha-fellowship-2027-": "2026-09-30T06:48-05:00"
  }
 }
