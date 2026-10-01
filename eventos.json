@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-01T07:18-05:00",
+ "actualizado": "2026-10-01T15:06-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 77
+   "n": 81
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 24
+   "n": 22
   },
   "Meetup": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 51
+   "n": 47
   },
   "IEEE Perú": {
    "ok": true,
@@ -48,7 +48,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 15
+   "n": 16
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 399,
+ "revisados": 398,
  "top": 55,
  "eventos": [
   {
@@ -234,200 +234,6 @@
    "puntaje": 31,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Se postula en línea",
    "visto_desde": "2026-10-01T07:18-05:00"
-  },
-  {
-   "id": "luma:evt-zN2QJxZhCUr8UP7",
-   "titulo": "BIM NEXT: El futuro de los proyectos de inversión pública",
-   "inicio": "2026-10-01T08:30-05:00",
-   "fin": "2026-10-01T12:30-05:00",
-   "lugar": "C. Amador Merino Reyna 320, San Isidro",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/786z4552",
-   "fuente": "Luma",
-   "organizador": "Marcia de SONDA, Daniel Delgado",
-   "descripcion": "Te invitamos a este evento presencial, donde conocerás cómo implementar BIM en proyectos de inversión pública y todo lo que puedes lograr con Forma Site Design y Forma Building Design.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/nc/6deb9542-a482-4dbb-8084-ebbd44333455.png",
-   "inscripcion": "https://lu.ma/786z4552",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "pucp:transformando-la-educacion-del-futuro-inteligencia-artificial-calidad-y-acreditacion-14092026163614",
-   "titulo": "Transformando la Educación del Futuro: Inteligencia Artificial, Calidad y Acreditación",
-   "inicio": "2026-10-01T09:30-05:00",
-   "fin": "2026-10-01T13:00-05:00",
-   "lugar": "Online Vía Zoom",
-   "distrito": "San Miguel",
-   "modalidad": "Virtual",
-   "url": "https://agenda.pucp.edu.pe/evento/transformando-la-educacion-del-futuro-inteligencia-artificial-calidad-y-acreditacion-14092026163614/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "La educación del futuro exige integrar innovación, calidad y tecnología para responder a los nuevos desafíos del aprendizaje. En esta jornada con educadores descubrirás sobre el impacto de la Inteligencia Artificial, la gestión de la calidad, la acreditación y la transformación de la educación. Una oportunidad para ampliar tu visión junto a especialistas y líderes del sector.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/web_3mailing_b0391509ac.jpg",
-   "inscripcion": "https://calidad.pucp.edu.pe/agendas_calidad/jornada-con-educadores-transformando-la-educacion-del-futuro-inteligencia-artificial-calidad-y-acreditacion/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Tecnología e IA"
-   ],
-   "valor": 26,
-   "afinidad": 16,
-   "puntaje": 42,
-   "por_que": "Afín: Inteligencia artificial · Networking · Universidad · Gratis",
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "eb:1434419520399",
-   "titulo": "MasterClass: El ejecutivo que la IA no puede reemplazar",
-   "inicio": "2026-10-01T11:00-05:00",
-   "fin": "2026-10-01T13:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.es/e/masterclass-el-ejecutivo-que-la-ia-no-puede-reemplazar-tickets-1434419520399",
-   "inscripcion": "https://www.eventbrite.es/e/masterclass-el-ejecutivo-que-la-ia-no-puede-reemplazar-tickets-1434419520399",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Escuela Europea de Gerencia",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193750891%2F2229780069763%2F1%2Foriginal.20260917-142607?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.341&fp-y=0.467&s=8db2562ecc0b3b8a1653fd8a2f2307c4",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 23,
-   "afinidad": 17,
-   "puntaje": 40,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Afín: Liderazgo y oratoria",
-   "visto_desde": "2026-09-27T16:59-05:00"
-  },
-  {
-   "id": "eb:1999516514721",
-   "titulo": "Masterclass: del Customer Journey al Agent Journey",
-   "inicio": "2026-10-01T11:00-05:00",
-   "fin": "2026-10-01T12:30-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.es/e/entradas-masterclass-del-customer-journey-al-agent-journey-1999516514721",
-   "inscripcion": "https://www.eventbrite.es/e/entradas-masterclass-del-customer-journey-al-agent-journey-1999516514721",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "IMSED",
-   "descripcion": "La nueva frontera del Marketing impulsada por Inteligencia Artificial y Comercio Agéntico.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192861055%2F930836732183%2F1%2Foriginal.20260907-074148?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.947&fp-y=0.468&s=c4eb771278476d817c71593ac55824f6",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 8,
-   "puntaje": 31,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
-   "visto_desde": "2026-09-27T16:59-05:00"
-  },
-  {
-   "id": "pucp:development-and-validation-of-a-mobile-robotic-platform-for-fall-prevention-during-walking-25092026113126",
-   "titulo": "Development and validation of a mobile robotic platform for fall prevention during walking",
-   "inicio": "2026-10-01T11:00-05:00",
-   "fin": "2026-10-01T13:00-05:00",
-   "lugar": "Vía Zoom",
-   "distrito": "San Miguel",
-   "modalidad": "Virtual",
-   "url": "https://agenda.pucp.edu.pe/evento/development-and-validation-of-a-mobile-robotic-platform-for-fall-prevention-during-walking-25092026113126/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El objetivo de esta investigación \"Development and validation of a mobile robotic platform for medical canes with smart sensors and advanced control for balance assistance and fall prevention during walking\" es desarrollar e implementar una plataforma móvil omnidireccional equipada con sensores inteligentes, que pueda acoplarse a bastones de asistencia médica y proporcionar funcionalidades orientadas a mejorar la movilidad y seguridad durante la caminata.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_dbf4b397e0.jpg",
-   "inscripcion": "https://pucp.zoom.us/meeting/register/sVCqMgYQTxavVAvy6W61nQ?fbclid=IwY2xjawUjfrRleHRuA2FlbQIxMABwZG9mAWJyaWQRMTZsTnRTckhwRlhjUlpKdDZzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEegLB9rO-HacknwvH-J_1gtHpv0my8TvKCnmT2nDdzRskk-HxuhpVw9e5j6Gk_aem_q5kesYyN8N3E9pHHS",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Investigación y ciencia"
-   ],
-   "valor": 20,
-   "afinidad": 8,
-   "puntaje": 28,
-   "por_que": "Afín: Investigación · Universidad · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-09-25T14:05-05:00"
-  },
-  {
-   "id": "pucp:tejiendo-redes-de-encuentro-para-estudiantes",
-   "titulo": "Tejiendo redes de encuentro para estudiantes",
-   "inicio": "2026-10-01T12:00-05:00",
-   "fin": "2026-10-01T14:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/tejiendo-redes-de-encuentro-para-estudiantes/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Un espacio para conectar, compartir experiencias y fortalecer vínculos con otros estudiantes. Participa en actividades que promueven el encuentro, la integración y el bienestar durante tu vida universitaria.\nLugar: jardines DAES",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Tejiendo_redes_b66351a819.png",
-   "inscripcion": "https://daes.pucp.edu.pe/servicios/circulos-de-apoyo-social-para-estudiantes",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp",
-   "titulo": "Taller de CV: Potencia tu Herramienta para el Empleo",
-   "inicio": "2026-10-01T12:30-05:00",
-   "fin": "2026-10-01T14:20-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Aprende a mejorar y potenciar tu CV para destacar tus habilidades, experiencia y perfil profesional en tus próximas oportunidades laborales.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_7b4f3a14e5.png",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=066&i=6614&ec=1",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
    "id": "luma:evt-qEvoBnGm8AvP98W",
@@ -751,61 +557,6 @@
    "visto_desde": "2026-09-30T12:29-05:00"
   },
   {
-   "id": "devpost:29969",
-   "titulo": "RevenueCat Shipaton 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-07-31T00:00-05:00",
-   "fin": "2026-10-01T23:59-05:00",
-   "cierre": "2026-10-01T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://revenuecat-shipaton-2026.devpost.com/",
-   "inscripcion": "https://revenuecat-shipaton-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "RevenueCat",
-   "descripcion": "Hackathon online. Temas: Design, Gaming, Mobile. Premios: $740,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/663/632/datas/medium_square.jpg",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:30408",
-   "titulo": "Global Innovation Build Challenge V2",
-   "tipo": "hackathon",
-   "inicio": "2026-07-11T00:00-05:00",
-   "fin": "2026-10-01T23:59-05:00",
-   "cierre": "2026-10-01T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://gibc-v2.devpost.com/",
-   "inscripcion": "https://gibc-v2.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Kang Chiao International School Student ",
-   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Social Good, Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/835/213/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 29,
-   "puntaje": 48,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "wikicfp:201279",
    "titulo": "IRAC-SFBA 2026 : INFORMS Regional Analytics Conference (SF Bay Area) 2026",
    "tipo": "call for papers",
@@ -1089,6 +840,34 @@
    "puntaje": 23,
    "por_que": "Abre puertas (beca/programa) · Universidad · Virtual",
    "visto_desde": "2026-09-29T22:37-05:00"
+  },
+  {
+   "id": "devpost:30408",
+   "titulo": "Global Innovation Build Challenge V2",
+   "tipo": "hackathon",
+   "inicio": "2026-07-11T00:00-05:00",
+   "fin": "2026-10-02T23:59-05:00",
+   "cierre": "2026-10-02T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://gibc-v2.devpost.com/",
+   "inscripcion": "https://gibc-v2.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Kang Chiao International School Student ",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Social Good, Beginner Friendly. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/835/213/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 29,
+   "puntaje": 48,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "devpost:30892",
@@ -1591,6 +1370,38 @@
    "puntaje": 38,
    "por_que": "Formativo · Afín: Becas y posgrado · Universidad · Gratis",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "inst:universidad-esan-clase-modelo-maestr-a-en-direcci-n-de-tecno:2026-10-07",
+   "titulo": "Clase modelo: Maestría en Dirección de Tecnologías y Transformación Empresarial",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-07T00:00-05:00",
+   "fin": "2026-10-07T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.esan.edu.pe/eventos/",
+   "inscripcion": "https://www.esan.edu.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://www.esan.edu.pe/eventos/",
+   "organizador": "Universidad ESAN",
+   "descripcion": "",
+   "gratis": true,
+   "imagen": "",
+   "extraido_por": "fecha en texto",
+   "categorias": [
+    "Tecnología e IA",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 45,
+   "afinidad": 12,
+   "puntaje": 57,
+   "por_que": "Formativo · Afín: Becas y posgrado · Evento institucional · Presencial en Lima",
+   "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
    "id": "eb:1999999343876",
@@ -2104,6 +1915,34 @@
    "visto_desde": "2026-09-30T22:42-05:00"
   },
   {
+   "id": "luma:evt-nXgx4Obq4K6NoQ5",
+   "titulo": "Temporada alta en SEACE: IA para ganar Licitaciones",
+   "inicio": "2026-10-12T10:30-05:00",
+   "fin": "2026-10-12T12:30-05:00",
+   "lugar": "Av Giuseppe Garibaldi 396, Jesús María, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/b45bz4rt",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Octubre es el mes con más licitaciones del año en el Perú. Para quienes venden al Estado es la mejor época para crecer, y también la más caótica.\nLos procesos se acumulan en SEACE, los plazos se cruzan y el equipo termina trabajando a contrarreloj. Casi siempre pasa lo mismo:\nUna fecha de consultas u observaciones que nadie vio a tiempo.\n\nDos personas preparando la misma propuesta, mientras otra oportunidad queda sin dueño.\n\nHoras invertidas en procesos que nunca tuvieron chances reales de ganarse.\n\nUn seguimiento comercial que vive en planillas, correos y la memoria de cada uno.\n\nEn temporada alta el problema no es encontrar licitaciones. Es gestionarlas bien cuando son muchas al mismo tiem",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/jb/2d77b165-34ae-424d-95fe-15cc0b52df11.jpg",
+   "inscripcion": "https://lu.ma/b45bz4rt",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 28,
+   "afinidad": 12,
+   "puntaje": 40,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Gratis",
+   "visto_desde": "2026-10-01T15:06-05:00"
+  },
+  {
    "id": "ieee:580985",
    "titulo": "1st Edition IAS Day Puno 2026: Linking Research to Practice in Southern Peru",
    "inicio": "2026-10-12T11:00-05:00",
@@ -2399,7 +2238,7 @@
    "url": "https://lu.ma/lrkvf16u",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "Un encuentro para founders, CEOs, ejecutivos y equipos que están explorando o atravesando procesos de expansión regional, en el marco de Perú Tech Week 2026.\n💬 Preguntas & Networking: Pregunta de forma anónima aquello que siempre quisiste saber sobre internacionalización y conecta con otros founders, decisiones difíciles y lecciones reales de quienes ya llevaron sus empresas fuera del Perú.\n🎤 Panel de conversación: Founders y líderes compartirán experiencias reales sobre lo que implica entrar a nuevos mercados, desde las decisiones que funcionaron hasta los errores que les hubiera gustado evitar.\n🛠️ Workshop práctico: Lleva la conversación a tu propia empresa y trabaja sobre los principales ",
+   "descripcion": "PRenseable junto con DEEL y Lombardía Un encuentro para founPRenseable, junto con Deel y Lombardía, presentan un encuentro para founders, CEOs, ejecutivos y equipos que están explorando o atravesando procesos de expansión regional, en el marco de Perú Tech Week 2026.\nSalir del mercado local implica mucho más que decidir a qué país llegar. ¿Qué evaluar antes de dar el paso? ¿Qué decisiones pueden marcar la diferencia? ¿Y qué errores conviene evitar?\nEn este encuentro reuniremos a founders y líderes que ya han vivido procesos de expansión regional para compartir experiencias reales, aprendizajes y desafíos.\n🎤 Panel de conversaciónFounders y líderes compartirán experiencias reales sobre lo que ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/td/0862ae64-6b45-4dfe-9faa-23c9a694564f.jpg",
    "inscripcion": "https://lu.ma/lrkvf16u",
@@ -2408,7 +2247,7 @@
    "cierre": "",
    "categorias": [
     "Negocios y emprendimiento",
-    "Tecnología e IA"
+    "Habilidades y liderazgo"
    ],
    "valor": 28,
    "afinidad": 4,
@@ -2641,6 +2480,34 @@
    "puntaje": 28,
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "luma:evt-GXsCfbN5Sn7hMS8",
+   "titulo": "Presentación de la Hackathon de Mujeres \"Lideresas por el Agua\" - Sunass 2026",
+   "inicio": "2026-10-13T18:00-05:00",
+   "fin": "2026-10-13T20:00-05:00",
+   "lugar": "Av. Primavera 2390, Santiago de Surco",
+   "distrito": "Santiago de Surco",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/wt931uve",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "¿Lista para transformar el futuro del agua con tecnología e innovación abierta? 💧🚀\nÚnete al evento organizado por la Superintendencia Nacional de Servicios de Saneamiento (Sunass) en el que realizaremos el lanzamiento oficial de la Hackathon de Mujeres en Innovación Pública \"Lideresas por el Agua\". Este meetup conectará a desarrolladoras, científicas de datos, estudiantes y especialistas en políticas públicas con un objetivo común: resolver los desafíos más urgentes de los servicios de saneamiento en el país mediante la innovación tecnológica.\nAcompáñanos en una tarde de aprendizaje, paneles de alto nivel y espacios de conexión donde presentaremos todo lo que necesitas saber para participar ",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/2t/0977dfce-ee33-4a93-9d1b-8d7f19b1b3ca.png",
+   "inscripcion": "https://lu.ma/wt931uve",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Competencias y hackathons",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 26,
+   "afinidad": 33,
+   "puntaje": 59,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Presencial en Lima",
+   "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
    "id": "pucp:30-aula-magna-tejamos-el-pais-desde-las-diferencias-crecimiento-desarrollo-e-instituciones-11092026180436",
@@ -2922,6 +2789,34 @@
    "visto_desde": "2026-09-30T12:29-05:00"
   },
   {
+   "id": "pucp:mercantilizacion-del-suelo-y-asequibilidad-de-la-vivienda-30092026154013",
+   "titulo": "Mercantilización del suelo y asequibilidad de la vivienda",
+   "inicio": "2026-10-14T09:00-05:00",
+   "fin": "2026-10-14T18:00-05:00",
+   "lugar": "Auditorio de Ciencias Sociales (Gustavo Gutiérrez Merino)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/mercantilizacion-del-suelo-y-asequibilidad-de-la-vivienda-30092026154013/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La Pontificia Universidad Católica del Perú organiza la Conferencia Internacional \"Mercantilización y resistencias en el acceso al suelo y la vivienda\", en colaboración con URBES LAB (Perú), la Universidad de Manchester (Reino Unido) y la Universidad de Columbia (Estados Unidos), con financiamiento de la Urban Studies Foundation (Reino Unido).\n \nEl evento se realizará del 14 al 16 de octubre de 2026 y reúne a más de cincuenta investigadoras e investigadores para debatir, desde una perspectiva comparada, los procesos de mercantilización del suelo y la vivienda y las formas de resistencia colectiva que emergen frente a ellos en ciudades del Sur y el Norte Global. El programa combina conferenci",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSeNgQecRoiC54P2rxeD2LEQ6r3ADQbGQQGJ7ixyHofHkRD4Ug/viewform",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 35,
+   "afinidad": 8,
+   "puntaje": 43,
+   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
+   "visto_desde": "2026-10-01T15:06-05:00"
+  },
+  {
    "id": "luma:evt-iQcElAPhAZ5Ew2F",
    "titulo": "O&M impulsado por Agentes IA: El Nuevo Estándar en Continuidad de Operación",
    "inicio": "2026-10-14T10:00-05:00",
@@ -3053,7 +2948,7 @@
    "organizador": "AI Salon (www.AiSalon.ai)",
    "descripcion": "¡Perú Tech Week está aquí!El ecosistema tech peruano se reúne para una noche enfocada en las tres fuerzas que están redefiniendo la industria financiera y tecnológica: Inteligencia Artificial, Activos Digitales y Quantum Computing.\nUn espacio donde bancos, startups, builders e inversionistas comparten el mismo escenario para hablar de Open Banking, blockchain aplicado, inteligencia artificial y el futuro cuántico — con paneles, masterclasses, demos de startups y networking real.\nSpeakers confirmados:🔹 Juan José Miranda — NTT Data, Director de Innovación Web3 & Quantum Computing🔹 Willy Vega — Santander Consumer, Jefe de Tecnología🔹 Rodrigo Osorio — MiBanco - Credicorp, AI Technical Lead🔹 Mich",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/ph/d5154556-0452-485d-9429-e67354d50e60.png",
+   "imagen": "https://images.lumacdn.com/uploads/b0/7ab7e43c-6d70-4a8d-b0be-85ead1cda33f.png",
    "inscripcion": "https://lu.ma/aisalon-5pmw",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -3347,33 +3242,6 @@
    "visto_desde": "2026-09-25T22:05-05:00"
   },
   {
-   "id": "luma:evt-VdivoEb6CyTNEOJ",
-   "titulo": "🤖 Product design con IA",
-   "inicio": "2026-10-15T12:00-05:00",
-   "fin": "2026-10-15T14:00-05:00",
-   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/3r696bsd",
-   "fuente": "Luma",
-   "organizador": "DSC PUCP",
-   "descripcion": "✨Bienvenid@!\n¿Y si la IA pudiera transformar la forma en que diseñamos?\nDescubre nuevas herramientas y posibilidades para llevar tu proceso de Product Design un paso más allá. ✨\n🎯¿Qué aprenderás?\nEn este taller práctico explorarás cómo integrar la Inteligencia Artificial en distintas etapas del proceso de Product Design, desde la ideación y exploración de soluciones hasta la validación y el prototipado.\nDurante el taller trabajaremos en:\n💡 Ideación: explora y desarrolla nuevas ideas con apoyo de IA.\n🔎 Validación: analiza y valida tus ideas para identificar oportunidades de mejora.\n🧩 Design Thinking: aplica una metodología centrada en las necesidades del usuario.\n⚡ Prototipado: construye y ex",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/el/06653212-893c-47a9-8c9b-ebaf2a950dbb.png",
-   "inscripcion": "https://lu.ma/3r696bsd",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 35,
-   "afinidad": 16,
-   "puntaje": 51,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Universidad",
-   "visto_desde": "2026-09-26T10:21-05:00"
-  },
-  {
    "id": "eb:1982870759820",
    "titulo": "HackerX - Lima - Employer Ticket - 10/15",
    "inicio": "2026-10-15T13:00-05:00",
@@ -3459,6 +3327,37 @@
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis · (Evitas «cripto»)",
    "visto_desde": "2026-09-26T15:34-05:00"
+  },
+  {
+   "id": "luma:evt-alOZlX5qP9SzYMC",
+   "titulo": "Peru AI Marketing Night",
+   "inicio": "2026-10-15T18:00-05:00",
+   "fin": "2026-10-15T21:00-05:00",
+   "lugar": "Lima, Perú",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/xxxbibha",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "PERU AI MARKETING NIGHT\nUna noche para descubrir cómo la IA ya está cambiando el marketing, la creación de contenido y la forma en que construimos productos digitales.\nEn el marco de Perú Tech Week 2026, llega Peru AI Marketing Night, una experiencia organizada por Women Biz, junto a Base44, para reunir a marketers, founders, builders, creators, líderes y profesionales que quieren entender —y experimentar— lo que ya es posible hacer con Inteligencia Artificial.\nNo será una noche para hablar únicamente del futuro.\nSerá una noche para ver casos reales, herramientas, automatizaciones, contenido generado con IA y aplicaciones construidas en tiempo récord.\nDesde cómo crear una campaña y producir ",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/cr/87a8e63a-cae7-421a-8394-a9a3d090e538.png",
+   "inscripcion": "https://lu.ma/xxxbibha",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 24,
+   "afinidad": 28,
+   "puntaje": 52,
+   "por_que": "Afín: Supply chain y operaciones · Afín: Inteligencia artificial · Networking · Presencial en Lima",
+   "original": {
+    "titulo": "PERU AI MARKETING NIGHT"
+   },
+   "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
    "id": "luma:evt-gYqwXPGgrSASHFQ",
@@ -3598,6 +3497,33 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31515",
+   "titulo": "CodeSprint by Elite Coders",
+   "tipo": "hackathon",
+   "inicio": "2026-09-25T00:00-05:00",
+   "fin": "2026-10-15T23:59-05:00",
+   "cierre": "2026-10-15T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://codesprint-by-elitecoders.devpost.com/",
+   "inscripcion": "https://codesprint-by-elitecoders.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "elite coders",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Web. Premios: ₹ 30,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
    "id": "wikicfp:201653",
@@ -4630,6 +4556,60 @@
    "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
+   "id": "luma:evt-VdivoEb6CyTNEOJ",
+   "titulo": "🤖 Product design con IA",
+   "inicio": "2026-10-22T12:00-05:00",
+   "fin": "2026-10-22T14:00-05:00",
+   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/3r696bsd",
+   "fuente": "Luma",
+   "organizador": "DSC PUCP",
+   "descripcion": "✨Bienvenid@!\n¿Y si la IA pudiera transformar la forma en que diseñamos?\nDescubre nuevas herramientas y posibilidades para llevar tu proceso de Product Design un paso más allá. ✨\n🎯¿Qué aprenderás?\nEn este taller práctico explorarás cómo integrar la Inteligencia Artificial en distintas etapas del proceso de Product Design, desde la ideación y exploración de soluciones hasta la validación y el prototipado.\nDurante el taller trabajaremos en:\n💡 Ideación: explora y desarrolla nuevas ideas con apoyo de IA.\n🔎 Validación: analiza y valida tus ideas para identificar oportunidades de mejora.\n🧩 Design Thinking: aplica una metodología centrada en las necesidades del usuario.\n⚡ Prototipado: construye y ex",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/el/06653212-893c-47a9-8c9b-ebaf2a950dbb.png",
+   "inscripcion": "https://lu.ma/3r696bsd",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 35,
+   "afinidad": 16,
+   "puntaje": 51,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Universidad",
+   "visto_desde": "2026-09-26T10:21-05:00"
+  },
+  {
+   "id": "pucp:tejiendo-redes-de-encuentro-para-estudiantes",
+   "titulo": "Tejiendo redes de encuentro para estudiantes",
+   "inicio": "2026-10-22T12:00-05:00",
+   "fin": "2026-10-22T14:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/tejiendo-redes-de-encuentro-para-estudiantes/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Un espacio para conectar, compartir experiencias y fortalecer vínculos con otros estudiantes. Participa en actividades que promueven el encuentro, la integración y el bienestar durante tu vida universitaria.\nLugar: jardines DAES",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Tejiendo_redes_b66351a819.png",
+   "inscripcion": "https://daes.pucp.edu.pe/servicios/circulos-de-apoyo-social-para-estudiantes",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
    "id": "pucp:seminario-de-matematica-una-introduccion-a-las-foliaciones-lineales-en-toros-reales-y-complejos-25092026060119",
    "titulo": "Seminario de Matemática: \"Una introducción a las foliaciones lineales en toros reales y complejos\"",
    "inicio": "2026-10-22T14:30-05:00",
@@ -4906,6 +4886,34 @@
    "puntaje": 55,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-27T16:39-05:00"
+  },
+  {
+   "id": "pucp:seminario-internacional-juan-pablo-ii-y-su-relacion-con-latinoamerica-01102026094209",
+   "titulo": "Seminario Internacional “Juan Pablo II y su relación con Latinoamérica”",
+   "inicio": "2026-10-26T09:00-05:00",
+   "fin": "2026-10-26T18:00-05:00",
+   "lugar": "Sala de grados – Facultad de Letras y Ciencias Humanas",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/seminario-internacional-juan-pablo-ii-y-su-relacion-con-latinoamerica-01102026094209/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Departamento Académico de Teología de la PUCP y la Pontificia Universidad Juan Pablo II de Cracovia les invitan a participar en el Seminario Internacional “Juan Pablo II y su relación con Latinoamérica”, un espacio académico que reunirá a especialistas de Polonia, Chile y Perú para reflexionar sobre la relación de San Juan Pablo II con América Latina.\nPonentes:\nDr. Damian Wąsek | Universidad Pontificia Juan Pablo II en Cracovia, Polonia\nDr. Marek Gilski | Universidad Pontificia Juan Pablo II en Cracovia, Polonia\nDr. Łukasz Piórkowski | Director del Museo Casa Familiar de San Juan Pablo II, Wadowice, Polonia\nDr. Stephan Ruderer | Pontificia Universidad Católica de Chile\nMag. Juan Miguel Es",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Miniaturas_Agenda_PUCP_17_8e8df2863a.png",
+   "inscripcion": "https://forms.gle/BLaYSxoRYQsiVemU6",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
    "id": "devpost:30447",
@@ -5508,6 +5516,35 @@
    "visto_desde": "2026-10-01T07:18-05:00"
   },
   {
+   "id": "opportunitydesk:rtunitydesk-org-2026-10-01-chrhs-visiting-scholar-program-spring-2027-",
+   "titulo": "Center for Human Rights and Humanitarian Studies Visiting Scholar Program – Spring 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-01T23:59-05:00",
+   "fin": "2026-11-01T23:59-05:00",
+   "cierre": "2026-11-01T23:59-05:00",
+   "publicado": "2026-10-01T05:41-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/01/chrhs-visiting-scholar-program-spring-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/01/chrhs-visiting-scholar-program-spring-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 1, 2026 Applications are open for the Center for Human Rights and Humanitarian Studies Visiting Scholar Program – Spring 2027. The Center for Human Rights and Humanitarian Studies at the Watson School of International and Public Affairs at Brown University welcomes applications for the visiting scholars program. The program is open to academics [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Abre puertas (beca/programa) · Universidad · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-10-01T15:06-05:00"
+  },
+  {
    "id": "devpost:31400",
    "titulo": "YouCam API Skin AI & eCommerce VTO Hackathon",
    "tipo": "hackathon",
@@ -5922,6 +5959,34 @@
    "visto_desde": "2026-09-27T17:17-05:00"
   },
   {
+   "id": "devpost:31302",
+   "titulo": "PayPal AI Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-01T00:00-05:00",
+   "fin": "2026-11-12T23:59-05:00",
+   "cierre": "2026-11-12T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://paypalaihackathon.devpost.com/",
+   "inscripcion": "https://paypalaihackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "PayPal",
+   "descripcion": "Hackathon online. Temas: Low/No Code, Machine Learning/AI, Web. Premios: $67,500.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/288/985/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 33,
+   "puntaje": 52,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-01T15:06-05:00"
+  },
+  {
    "id": "wikicfp:203462",
    "titulo": "LESCDT 2026 : 4th International Conference on Logistics Engineering, Supply Chain and Digital Transformation",
    "tipo": "call for papers",
@@ -6003,6 +6068,34 @@
    "puntaje": 59,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Datos y machine learning · Presencial en Lima",
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "opportunitydesk:tunitydesk-org-2026-10-01-okc-zoo-conservation-action-now-grants-2026-",
+   "titulo": "Oklahoma City Zoo & Botanical Garden Conservation Action Now Grants 2026 (up to $2,500)",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-13T23:59-05:00",
+   "fin": "2026-11-13T23:59-05:00",
+   "cierre": "2026-11-13T23:59-05:00",
+   "publicado": "2026-10-01T07:31-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/01/okc-zoo-conservation-action-now-grants-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/01/okc-zoo-conservation-action-now-grants-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 13, 2026 Applications are open for the Oklahoma City Zoo & Botanical Garden Conservation Action Now Grants 2026. The Oklahoma City Zoo & Botanical Garden is committed to supporting the conservation of imperiled species, habitats and their surrounding communities through species preservation, research and education. In 2026, OKC Zoo CAN will be funding projects [...]",
+   "gratis": false,
+   "imagen": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 20,
+   "afinidad": 8,
+   "puntaje": 28,
+   "por_que": "Abre puertas (beca/programa) · Afín: Investigación · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
    "id": "wikicfp:199892",
@@ -6625,34 +6718,6 @@
    "visto_desde": "2026-10-01T07:18-05:00"
   },
   {
-   "id": "devpost:30789",
-   "titulo": "Arbiter Hacks V1",
-   "tipo": "hackathon",
-   "inicio": "2026-10-20T00:00-05:00",
-   "fin": "2026-12-21T23:59-05:00",
-   "cierre": "2026-12-21T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://arbiter-hacks-v1.devpost.com/",
-   "inscripcion": "https://arbiter-hacks-v1.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Arbiter ",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $3,800.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/995/823/datas/medium_square.jpg",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 26,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-30T16:48-05:00"
-  },
-  {
    "id": "devpost:31108",
    "titulo": "InnovArt 2027: Art and Technology Hack Day",
    "tipo": "hackathon",
@@ -6678,33 +6743,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:30819",
-   "titulo": "United Hacks V8",
-   "tipo": "hackathon",
-   "inicio": "2027-01-08T00:00-05:00",
-   "fin": "2027-01-10T23:59-05:00",
-   "cierre": "2027-01-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://unitedhacksv8.devpost.com/",
-   "inscripcion": "https://unitedhacksv8.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack United",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Design, Education. Premios: $13,700.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/021/146/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-30T16:48-05:00"
   },
   {
    "id": "wikicfp:194403",
@@ -9011,81 +9049,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad · Gratis"
   },
   {
-   "id": "pucp:votar-es-clave-stand-informativo-21092026111022",
-   "titulo": "¿Sabes cómo votar este 4 de octubre? Votar es Clave: infórmate y participa",
-   "inicio": "2026-10-01T12:00-05:00",
-   "fin": "2026-10-01T15:00-05:00",
-   "lugar": "Campus PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/votar-es-clave-stand-informativo-21092026111022/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Se acercan las próximas elecciones y queremos que cuentes con información para ejercer tu voto de manera informada. \n\nLa Oficina de Iniciativas Estudiantiles (OIE), los Estudios Generales Ciencias y los Estudios Generales Letras, como parte de Votar es Clave, iniciativa que busca promover la partici",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/votar-es-clave-stand-informativo-21092026111022/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
-  },
-  {
-   "id": "pucp:feria-cuidar-nos-2026-2",
-   "titulo": "Feria CuidarNos 2026-2",
-   "inicio": "2026-10-01T12:00-05:00",
-   "fin": "2026-10-01T14:00-05:00",
-   "lugar": "Coliseo Polideportivo #ParadaSaludable",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/feria-cuidar-nos-2026-2/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "???? Cuidarnos también puede ser encontrarnos.\nTe invitamos a la Feria CuidarNos, un espacio para hacer una pausa, conectar con otras personas y descubrir diferentes formas de cuidar tu bienestar durante la vida universitaria en la Explanada del Coliseo Polideportivo.\n✨ Encuentra actividades, recurs",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/cuid_084fca41c2.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/feria-cuidar-nos-2026-2/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
-  },
-  {
-   "id": "pucp:charla-cancer-de-mama-y-deteccion-temprana-solo-el-10-es-hereditario",
-   "titulo": "Charla Cáncer de mama y detección temprana, sólo el 10% es hereditario",
-   "inicio": "2026-10-01T12:00-05:00",
-   "fin": "2026-10-01T14:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/charla-cancer-de-mama-y-deteccion-temprana-solo-el-10-es-hereditario/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "En esta charla, en colaboración con Oncosalud, conocerás información clave sobre la importancia de realizar controles preventivos y reconocer oportunamente posibles signos de alarma. Un espacio para conocer, prevenir y cuidar nuestra salud.\nTema: Cáncer de mama y detección temprana, sólo el 10% es h",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/mama_dae683d5da.png",
-   "inscripcion": "https://docs.google.com/forms/d/1n-50UlsNLa60BwH5x5lnc5SOhTYk2vpKct00LZQ1WJk/viewform?ts=6aba8e10&edit_requested=true",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
-  },
-  {
    "id": "pucp:emocionarte-bienestar-entre-paginas-marcapaginas-botanico",
    "titulo": "Emocionarte - Bienestar entre páginas: marcapáginas botánico",
    "inicio": "2026-10-02T15:00-05:00",
@@ -9109,6 +9072,31 @@
    "afinidad": 0,
    "puntaje": 35,
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
+  },
+  {
+   "id": "luma:evt-AHl0UFI6EUdXaKw",
+   "titulo": "Cafecito de Vibecoders",
+   "inicio": "2026-10-02T17:00-05:00",
+   "fin": "2026-10-02T19:00-05:00",
+   "lugar": "la Carta, CC. Plaza San Miguel, 2do nivel – Plaza a, Blvd. Plaza Mantaro 130, San Miguel",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/9bhi5hzi",
+   "fuente": "Luma",
+   "organizador": "anthony :), Pol",
+   "descripcion": "",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/gallery-images/ns/3ffb7143-f74d-4e80-a0f7-e6fe5171243f",
+   "inscripcion": "https://lu.ma/9bhi5hzi",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
    "id": "eb:1982892087612",
@@ -10550,6 +10538,31 @@
    "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro"
   },
   {
+   "id": "luma:evt-UsX8tM6tab8eaCW",
+   "titulo": "Desayuno & Taller de Skincare",
+   "inicio": "2026-10-03T10:00-05:00",
+   "fin": "2026-10-03T12:00-05:00",
+   "lugar": "Av. Sta. Cruz 381, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/htcsc255",
+   "fuente": "Luma",
+   "organizador": "Lou Botanicals",
+   "descripcion": "https://www.loubotanicals.pe/",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/n7/5c7c5498-c3dd-4a14-a7f1-29beebd015c8.png",
+   "inscripcion": "https://lu.ma/htcsc255",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (skincare)",
+   "categorias": [],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis"
+  },
+  {
    "id": "eb:1981186893330",
    "titulo": "Free Walking Tour of Lima, Perú",
    "inicio": "2026-10-01T23:00-05:00",
@@ -10630,34 +10643,6 @@
    "afinidad": 0,
    "puntaje": 19,
    "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-09-30-afdb-internship-program-2027-",
-   "titulo": "African Development Bank (AfDB) Internship Program 2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-12T23:59-05:00",
-   "fin": "2026-10-12T23:59-05:00",
-   "cierre": "2026-10-12T23:59-05:00",
-   "publicado": "2026-09-30T12:54-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/30/afdb-internship-program-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/30/afdb-internship-program-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 12, 2026 Applications are open for the African Development Bank (AfDB) Internship Program 2027. Established in 1964, the African Development Bank is the premier pan-African development institution, promoting economic growth and social progress across the continent. There are 81 mem",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (African)",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 20,
-   "afinidad": 0,
-   "puntaje": 20,
-   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea"
   },
   {
    "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
@@ -10771,34 +10756,6 @@
    "afinidad": 0,
    "puntaje": 16,
    "por_que": "Abre puertas (beca/programa) · Se postula en línea"
-  },
-  {
-   "id": "opportunitydesk:-opportunitydesk-org-2026-09-30-designmersive-by-grohwie-program-2026-",
-   "titulo": "DesignMersive by Grohwie Program 2026",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-08T23:59-05:00",
-   "fin": "2026-10-08T23:59-05:00",
-   "cierre": "2026-10-08T23:59-05:00",
-   "publicado": "2026-09-30T12:43-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/30/designmersive-by-grohwie-program-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/30/designmersive-by-grohwie-program-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 8, 2026 Applications are open for the DesignMersive by Grohwie Program 2026. The DesignMersive by Grohwie is an immersive workshop and collaborative lab for emerging and early years graphic and motion designers, ready to expand and grow beyond the limits of their existing skill set",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "sin afinidad",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 26,
-   "afinidad": 0,
-   "puntaje": 26,
-   "por_que": "Formativo · Empresa reconocida · Plazo claro · Se postula en línea"
   },
   {
    "id": "wikicfp:194196",
@@ -10964,6 +10921,33 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31466",
+   "titulo": "RESPIRA HACKATHON",
+   "tipo": "hackathon",
+   "inicio": "2026-10-01T00:00-05:00",
+   "fin": "2026-10-03T23:59-05:00",
+   "cierre": "2026-10-03T23:59-05:00",
+   "lugar": "Edificio Estel",
+   "distrito": "Edificio Estel",
+   "modalidad": "Presencial",
+   "url": "https://respira-hackathon.devpost.com/",
+   "inscripcion": "https://respira-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "CIBER",
+   "descripcion": "Hackathon presencial en Edificio Estel. Temas: Health. Premios: €0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/361/169/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 9,
+   "puntaje": 25,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "pucp:feape-2026-17082026123755",
    "titulo": "FEAPE 2026",
    "inicio": "2026-10-04T00:00-05:00",
@@ -11048,19 +11032,19 @@
  ],
  "perfil": true,
  "recomendados": [
+  "luma:evt-E4aBRJpi8stwzKu",
   "luma:evt-iQcElAPhAZ5Ew2F",
   "luma:evt-qEvoBnGm8AvP98W",
+  "inst:universidad-esan-clase-modelo-maestr-a-en-direcci-n-de-tecno:2026-10-07",
   "devpost:31052",
   "devpost:30790",
-  "luma:evt-sdiPKhxFMLobpJf",
   "devpost:29359",
-  "wikicfp:191658",
-  "pucp:infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518"
+  "wikicfp:191658"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
   "PERUMIN": 1,
-  "ESAN — eventos": 3,
+  "ESAN — eventos": 4,
   "PMI Lima": 1,
   "Sociedad Nacional de Industrias": 8,
   "AmCham Perú": 2,
@@ -11078,10 +11062,10 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-01T07:18-05:00",
-  "revisados": 257,
-  "corregidos": 19,
-  "avisos": 8,
+  "fecha": "2026-10-01T15:06-05:00",
+  "revisados": 258,
+  "corregidos": 20,
+  "avisos": 7,
   "archivados": 0,
   "problemas": [
    {
@@ -11205,6 +11189,14 @@
     "url": "https://www.eventbrite.com/e/hackerx-lima-employer-ticket-1015-tickets-1982870759820"
    },
    {
+    "id": "luma:evt-alOZlX5qP9SzYMC",
+    "titulo": "Peru AI Marketing Night",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://lu.ma/xxxbibha"
+   },
+   {
     "id": "inst:sni-webinar-adecuaci-n-ambiental-claves-para-el-cumplimiento:2026-10-21",
     "titulo": "Webinar: Adecuación Ambiental: Claves para el Cumplimiento, Fiscalización y Gestión de Rie",
     "fuente": "Institucional",
@@ -11253,14 +11245,6 @@
     "url": "https://pmi.org.pe/"
    },
    {
-    "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp",
-    "titulo": "Taller de CV: Potencia tu Herramienta para el Empleo",
-    "fuente": "PUCP",
-    "nivel": "aviso",
-    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
-    "url": "https://agenda.pucp.edu.pe/evento/taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp/"
-   },
-   {
     "id": "pucp:taller-como-superar-la-procrastinacion-2026-2",
     "titulo": "Taller ¿Cómo superar la procrastinación? 2026-2",
     "fuente": "PUCP",
@@ -11302,21 +11286,13 @@
    }
   ],
   "enlaces": {
-   "comprobados": 11,
-   "rotos": 6,
+   "comprobados": 10,
+   "rotos": 5,
    "sin_comprobar": 2
   },
   "fuentes_a_revisar": []
  },
  "por_confirmar": [
-  {
-   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
-   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
-   "medio": "autotv",
-   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
-   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
-   "fecha_mencionada": ""
-  },
   {
    "titulo": "LIMA ACOGERÁ CUMBRE DE AEROPUERTOS",
    "url": "https://tnews.com.pe/lima-acogera-cumbre-de-aeropuertos/",
@@ -11326,11 +11302,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
-   "url": "https://www.peru-retail.com/los-desafios-que-abordo-el-ii-foro-eficiencias-productividad-comercial-de-peru-retail-2026/",
-   "medio": "Perú Retail",
-   "publicado": "Mon, 28 Sep 2026 13:05:00 GMT",
-   "resumen": "Con el objetivo de analizar los desafíos y oportunidades que enfrenta el sector en materia de productividad, Perú Retail llevó a cabo el II Foro Eficiencias & Productividad Comercial en Retail 2026 el ...",
+   "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
+   "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
+   "medio": "Agencia de Noticias Órbita",
+   "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
+   "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
    "fecha_mencionada": ""
   },
   {
@@ -11339,14 +11323,6 @@
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
    "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
-   "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
-   "medio": "Agencia de Noticias Órbita",
-   "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
-   "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
    "fecha_mencionada": ""
   },
   {
@@ -11371,22 +11347,6 @@
    "medio": "Peru21",
    "publicado": "Sun, 02 Aug 2026 01:01:00 GMT",
    "resumen": "Para el lunes 3, una de las presentaciones más destacadas será la de Los ojos del cielo, de Luis Fernando Cueto, ganador del Premio Novela Corta Julio Ramón Ribeyro 2026. Tendrá la participación del ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Expomina Perú 2026: Lima será epicentro de la minería mundial en setiembre",
-   "url": "https://www.expreso.com.pe/actualidad/expomina-peru-2026-lima-sera-epicentro-de-la-mineria-mundial-en-setiembre-noticia/1310398/",
-   "medio": "Expreso Interactivo",
-   "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
-   "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000",
-   "url": "https://andina.pe/agencia/noticia-feria-artesanal-exhibe-peru-2026-lima-alcanzaria-ventas-s-80000-1080084.aspx",
-   "medio": "andina.pe",
-   "publicado": "Wed, 17 Jun 2026 17:00:00 GMT",
-   "resumen": "Feria artesanal Exhibe Perú 2026 en Lima alcanzaría ventas por S/ 80,000 En beneficio de artesanos de nueve regiones del país Ministro de Comercio Exterior y Turismo, Berthin Gómez. ANDINA/Difusión 22 ...",
    "fecha_mencionada": ""
   }
  ],
@@ -11513,10 +11473,12 @@
   },
   "Webinar: Plástico reciclado con respaldo: Trazabilidad y certificación bajo UNE-EN 15343": {
    "2026": "2026-10-27"
+  },
+  "Clase modelo: Maestría en Dirección de Tecnologías y Transformación Empresarial": {
+   "2026": "2026-10-07"
   }
  },
  "primera_vez": {
-  "luma:evt-zN2QJxZhCUr8UP7": "2026-09-24T21:06-05:00",
   "luma:evt-qEvoBnGm8AvP98W": "2026-09-24T21:06-05:00",
   "luma:evt-XlCnwDjNvITEdq6": "2026-09-24T21:06-05:00",
   "luma:evt-sdiPKhxFMLobpJf": "2026-09-24T21:06-05:00",
@@ -11543,7 +11505,6 @@
   "meetup:315593600": "2026-09-24T21:06-05:00",
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:infopucp-presenta-una-nueva-edicion-de-la-semana-modo-ia-para-el-mundo-educativo-14092026102518": "2026-09-24T21:10-05:00",
-  "pucp:transformando-la-educacion-del-futuro-inteligencia-artificial-calidad-y-acreditacion-14092026163614": "2026-09-24T21:10-05:00",
   "pucp:tejiendo-redes-de-encuentro-para-estudiantes": "2026-09-24T21:10-05:00",
   "pucp:regulacion-gobernanza-y-gestion-de-ia-en-organizaciones-empresariales-16092026180226": "2026-09-24T21:10-05:00",
   "pucp:conferencia-exodo-liberacion-y-antijudaismo-gustavo-gutierrez-y-una-critica-pendiente-24092026104728": "2026-09-24T21:10-05:00",
@@ -11566,7 +11527,6 @@
   "meetup:ljgqztyjcnbgc": "2026-09-24T22:14-05:00",
   "meetup:315593613": "2026-09-24T22:14-05:00",
   "meetup:ppkhbvyjcpbcc": "2026-09-24T22:14-05:00",
-  "pucp:development-and-validation-of-a-mobile-robotic-platform-for-fall-prevention-during-walking-25092026113126": "2026-09-25T14:05-05:00",
   "pucp:mini-curso-geometria-birracional-de-foliaciones-en-superficies-a-traves-de-ejemplos-25092026062408": "2026-09-25T14:05-05:00",
   "pucp:seminario-de-matematica-una-introduccion-a-las-foliaciones-lineales-en-toros-reales-y-complejos-25092026060119": "2026-09-25T14:05-05:00",
   "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00",
@@ -11578,7 +11538,6 @@
   "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-": "2026-09-26T08:43-05:00",
   "opportunitiesforyouth:advisory-board-2027-2028-applications-open-for-young-people-worldwide-": "2026-09-26T08:43-05:00",
   "opportunitiesforyouth:pportunity-with-full-scholarship-to-the-2027-youth-assembly-in-geneva-": "2026-09-26T08:43-05:00",
-  "devpost:29969": "2026-09-26T08:43-05:00",
   "devpost:30408": "2026-09-26T08:43-05:00",
   "devpost:29359": "2026-09-26T08:43-05:00",
   "wikicfp:201279": "2026-09-26T08:43-05:00",
@@ -11679,8 +11638,6 @@
   "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-27T13:39-05:00",
   "insc:0544fff63cb2": "2026-09-27T14:33-05:00",
   "devpost:29114": "2026-09-27T16:39-05:00",
-  "eb:1999516514721": "2026-09-27T16:59-05:00",
-  "eb:1434419520399": "2026-09-27T16:59-05:00",
   "eb:2002154151965": "2026-09-27T16:59-05:00",
   "eb:1998755641930": "2026-09-27T16:59-05:00",
   "eb:2002134099989": "2026-09-27T16:59-05:00",
@@ -11719,7 +11676,6 @@
   "luma:evt-6PUJZlSf0wlgHiY": "2026-09-28T16:40-05:00",
   "eb:1992830143605": "2026-09-28T16:40-05:00",
   "pucp:charla-apoyo-case-experience": "2026-09-28T22:49-05:00",
-  "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo-pp": "2026-09-28T22:49-05:00",
   "luma:evt-O21Rphs1Sl1LExn": "2026-09-28T22:49-05:00",
   "pucp:primer-encuentro-iberoamericano-de-historia-de-la-contabilidad-25092026173936": "2026-09-28T22:49-05:00",
   "pucp:taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2": "2026-09-28T22:49-05:00",
@@ -11752,8 +11708,6 @@
   "meetup:316784055": "2026-09-30T16:48-05:00",
   "devpost:30892": "2026-09-30T16:48-05:00",
   "devpost:31239": "2026-09-30T16:48-05:00",
-  "devpost:30789": "2026-09-30T16:48-05:00",
-  "devpost:30819": "2026-09-30T16:48-05:00",
   "luma:evt-tFdPEMmgyASMcvu": "2026-09-30T22:42-05:00",
   "luma:evt-fGsgymXzAWGuZdN": "2026-09-30T22:42-05:00",
   "devpost:31548": "2026-09-30T22:42-05:00",
@@ -11772,6 +11726,16 @@
   "inst:sni-webinar-pl-stico-reciclado-con-respaldo-trazabilidad-y-c:2026-10-27": "2026-10-01T07:18-05:00",
   "opportunitydesk:-university-of-california-president-postdoctoral-fellowship-2026-2027-": "2026-10-01T07:18-05:00",
   "opportunitydesk:pportunitydesk-org-2026-10-01-ahrc-doctoral-landscape-award-2027-2028-": "2026-10-01T07:18-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-10-01-mopga-fellowship-program-2027-": "2026-10-01T07:18-05:00"
+  "opportunitydesk:https-opportunitydesk-org-2026-10-01-mopga-fellowship-program-2027-": "2026-10-01T07:18-05:00",
+  "inst:universidad-esan-clase-modelo-maestr-a-en-direcci-n-de-tecno:2026-10-07": "2026-10-01T15:06-05:00",
+  "luma:evt-nXgx4Obq4K6NoQ5": "2026-10-01T15:06-05:00",
+  "luma:evt-GXsCfbN5Sn7hMS8": "2026-10-01T15:06-05:00",
+  "pucp:mercantilizacion-del-suelo-y-asequibilidad-de-la-vivienda-30092026154013": "2026-10-01T15:06-05:00",
+  "luma:evt-alOZlX5qP9SzYMC": "2026-10-01T15:06-05:00",
+  "devpost:31515": "2026-10-01T15:06-05:00",
+  "pucp:seminario-internacional-juan-pablo-ii-y-su-relacion-con-latinoamerica-01102026094209": "2026-10-01T15:06-05:00",
+  "opportunitydesk:rtunitydesk-org-2026-10-01-chrhs-visiting-scholar-program-spring-2027-": "2026-10-01T15:06-05:00",
+  "devpost:31302": "2026-10-01T15:06-05:00",
+  "opportunitydesk:tunitydesk-org-2026-10-01-okc-zoo-conservation-action-now-grants-2026-": "2026-10-01T15:06-05:00"
  }
 }
