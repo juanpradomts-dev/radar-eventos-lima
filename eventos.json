@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-01T15:06-05:00",
+ "actualizado": "2026-10-01T19:29-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 81
+   "n": 83
   },
   "Eventbrite": {
    "ok": true,
@@ -15,7 +15,7 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 14
+   "n": 15
   },
   "PUCP": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 398,
+ "revisados": 401,
  "top": 55,
  "eventos": [
   {
@@ -332,34 +332,6 @@
    "visto_desde": "2026-10-01T07:18-05:00"
   },
   {
-   "id": "pucp:presentacion-de-libro-macroeconomia-politica-monetaria-y-fluctuaciones-ensayos-en-honor-a-29092026115536",
-   "titulo": "Presentación de libro: \"Macroeconomía, política monetaria y fluctuaciones: Ensayos en honor a Oscar Dancourt\"",
-   "inicio": "2026-10-01T17:00-05:00",
-   "fin": "2026-10-01T18:30-05:00",
-   "lugar": "Centro Cultural PUCP (CCPUCP)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/presentacion-de-libro-macroeconomia-politica-monetaria-y-fluctuaciones-ensayos-en-honor-a-29092026115536/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Sobre el libro:\nEste libro rinde homenaje a la trayectoria del economista Oscar Dancourt, marcada por el rigor analítico, una profunda vocación docente y un sincero y activo compromiso con el desarrollo del país.\n \nHomenajeado | Oscar Dancourt\nDoctor en Economía por la PUCP. Es profesor Jubilado del Departamento de Economía de la misma institución, donde también ejerció como jefe (1998-2002). Ocupó roles directivos en el Banco Central de Reserva del Perú, del cual ha sido Director (2001- 2004), Vicepresidente y encargado de la Presidencia (2004-2006).\n \nEditor | Félix Jiménez (PUCP)\nDoctor en Economía (Ph.D.) por la New School for Social Research de Nueva York, Estados Unidos, y Magíster en ",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
-   "inscripcion": "https://bit.ly/4hwdn97",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Investigación y ciencia"
-   ],
-   "valor": 35,
-   "afinidad": 16,
-   "puntaje": 51,
-   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
-   "visto_desde": "2026-09-29T16:48-05:00"
-  },
-  {
    "id": "ieee:580177",
    "titulo": "1° Ponencia Ibuni Ciclo 2026-2: Hospital Inteligente e Interoperabilidad de Dispositivos Médicos: del Dato Clínico a la Automatización de las Áreas Críticas",
    "inicio": "2026-10-01T18:00-05:00",
@@ -456,7 +428,7 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/waevdhgs",
    "fuente": "Luma",
-   "organizador": "Jean",
+   "organizador": "Jean, Yury Meléndez Bastidas",
    "descripcion": "🏢 PRIVATE REAL ESTATE ROUND — LIMA\nTokenización inmobiliaria · Inversión privada · Networking\n📅 1 de octubre de 2026\n🕖 7:00 PM — 10:00 PM\n📍 Jesús María, Lima\n🎟️ Cupos limitados\n🔑 UNA NUEVA FORMA DE PARTICIPAR EN EL MERCADO INMOBILIARIO\nEl mercado inmobiliario está entrando en una nueva etapa.\nLa tokenización de activos reales permite estructurar oportunidades inmobiliarias utilizando tecnología blockchain para representar digitalmente determinados derechos económicos o de participación sobre un activo.\nEn este primer Private Real Estate Round — Lima, presentaremos de manera privada una oportunidad inmobiliaria real ubicada en Jesús María, junto con el modelo de tokenización que se está desar",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/cf/483a9bb4-3e5b-4c51-9dbc-4a241f5c91cb.png",
@@ -813,6 +785,34 @@
    "puntaje": 12,
    "por_que": "Presencial en Lima · Evento sin formato claro",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "meetup:316805523",
+   "titulo": "Road To AWS Community Day Peru 03",
+   "inicio": "2026-10-02T19:00-05:00",
+   "fin": "2026-10-02T21:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.meetup.com/awsperu/events/316805523/",
+   "fuente": "Meetup",
+   "organizador": "AWS User Group Peru",
+   "descripcion": "🚀 Road to AWS Community Day Perú · Día 3\n\n📅 Fecha: Jueves 1 de octubre de 2026\n🕐 Hora: 7:00 p. m. a 8:40 p. m. (hora Perú, PET)\n📍 Lugar: Virtual (el enlace de conexión está en esta página de Meetup)\n🎟️ Evento gratuito | Cupos limitados\n\n✨ Sobre este evento\nLlegamos a la tercera y última noche del Road to AWS Community Day Perú, la cuenta regresiva hacia nuestro gran día del sábado 3 de octubre. Este es un espacio para todos: si estás empezando en la nube o si ya llevas años construyendo en producción, aquí tienes un lugar. Creemos que crecemos juntos cuando compartimos lo que aprendemos, por eso cada encuentro es una oportunidad para hacer preguntas, conocer a otras personas de la comunidad ",
+   "gratis": true,
+   "imagen": "",
+   "inscripcion": "https://www.meetup.com/awsperu/events/316805523/",
+   "fuente_url": "https://www.meetup.com/awsperu/events/ical/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 27,
+   "afinidad": 8,
+   "puntaje": 35,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Gratis · Empresa reconocida",
+   "visto_desde": "2026-10-01T19:29-05:00"
   },
   {
    "id": "meetup:316774586",
@@ -1874,7 +1874,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $619,155.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $662,075.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
    "categorias": [
@@ -2053,6 +2053,34 @@
    "puntaje": 35,
    "por_que": "Networking · Universidad · Gratis · Afín: Liderazgo y oratoria",
    "visto_desde": "2026-09-27T17:17-05:00"
+  },
+  {
+   "id": "luma:evt-5gXco60XgKX4wZc",
+   "titulo": "Paperlux: Tecnología avanzada de impacto social",
+   "inicio": "2026-10-12T18:30-05:00",
+   "fin": "2026-10-12T21:30-05:00",
+   "lugar": "Av. Gral. Felipe Salaverry 2255, San Isidro",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/6b87oagx",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Evento de lanzamiento, presentación y demostración en vivo de la tecnología Paperlux Touch en su llegada al Perú, permitiendo transformar cualquier pantalla, TV o proyector en touch a un precio 20 veces menor.\nPaperlux es una avanzada tecnología óptica desarrollada en Chile que busca democratizar el acceso a herramientas digitales avanzadas para educación e industria, llegando al mercado peruano de la mano de StartUPC y su programa +EDU\nDurante el evento, los asistentes podrán conocer y experimentar la tecnología en vivo, conversar con miembros fundadores de Paperlux y conocer la visión detrás de su llegada a Perú.\nUn espacio para conectar con el ecosistema de innovación, educación y tecnolo",
+   "gratis": false,
+   "imagen": "https://images.lumacdn.com/uploads/6g/33e1ebb9-f22c-49b0-a118-98f8a46264fc.jpg",
+   "inscripcion": "https://lu.ma/6b87oagx",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 18,
+   "afinidad": 4,
+   "puntaje": 22,
+   "por_que": "Networking · Presencial en Lima · Afín: Emprendimiento y finanzas",
+   "visto_desde": "2026-10-01T19:29-05:00"
   },
   {
    "id": "luma:evt-upa7CVPjW00l5tU",
@@ -3240,6 +3268,61 @@
    "puntaje": 28,
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-09-25T22:05-05:00"
+  },
+  {
+   "id": "pucp:del-protocolo-a-la-practica-desafios-eticos-en-la-conduccion-de-investigaciones-en-salud-01102026103842",
+   "titulo": "Del protocolo a la práctica: desafíos éticos en la conducción de investigaciones en salud",
+   "inicio": "2026-10-15T12:00-05:00",
+   "fin": "2026-10-15T14:00-05:00",
+   "lugar": "Vía Zoom",
+   "distrito": "San Miguel",
+   "modalidad": "Virtual",
+   "url": "https://agenda.pucp.edu.pe/evento/del-protocolo-a-la-practica-desafios-eticos-en-la-conduccion-de-investigaciones-en-salud-01102026103842/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La Oficina de Ética de la Investigación e Integridad Científica te invita a participar en la conferencia “Del protocolo a la práctica: desafíos éticos en la conducción de investigaciones en salud”.\n\nUn espacio para reflexionar sobre los principales retos éticos que surgen durante el desarrollo de investigaciones en el ámbito de la salud.\n\nExpositora:\nMg. Sarah Carracedo Uribe, consultora del Programa Regional de Bioética de la Organización Panamericana de la Salud (OPS/OMS).\n\nSe entregará constancia de participación.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agenda_dd67914b36.jpg",
+   "inscripcion": "https://zoom.us/webinar/register/WN_cFSuy75CRgikZHA-EtapIA#/registration",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 33,
+   "afinidad": 8,
+   "puntaje": 41,
+   "por_que": "Formativo · Afín: Investigación · Universidad · Gratis",
+   "visto_desde": "2026-10-01T19:29-05:00"
+  },
+  {
+   "id": "luma:evt-xpDKRsNmTCITC5G",
+   "titulo": "EDTECH LUNCH!",
+   "inicio": "2026-10-15T13:00-05:00",
+   "fin": "2026-10-15T15:00-05:00",
+   "lugar": "Circuito de Playas 350, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/fhskskvi",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "✦ Un almuerzo de conversación estratégica para quienes están redefiniendo el futuro de la educación. En el marco del Tech Week Perú, convocaremos a referentes del ecosistema de innovación, tecnología, inversión y educación para intercambiar perspectivas sobre el futuro del aprendizaje, el desarrollo de talento, la IA, las microcredenciales, el venture capital en educación y las oportunidades de colaboración entre startups, empresas, universidades y sector público. Un espacio íntimo para generar conexiones de alto valor y convertir conversaciones en iniciativas con impacto.",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/jv/8f5c6adb-9f2d-4891-90de-1bd70f4661f5.png",
+   "inscripcion": "https://lu.ma/fhskskvi",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 24,
+   "afinidad": 12,
+   "puntaje": 36,
+   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Gratis",
+   "visto_desde": "2026-10-01T19:29-05:00"
   },
   {
    "id": "eb:1982870759820",
@@ -6718,6 +6801,34 @@
    "visto_desde": "2026-10-01T07:18-05:00"
   },
   {
+   "id": "devpost:30789",
+   "titulo": "Arbiter Hacks V1",
+   "tipo": "hackathon",
+   "inicio": "2026-10-20T00:00-05:00",
+   "fin": "2026-12-21T23:59-05:00",
+   "cierre": "2026-12-21T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://arbiter-hacks-v1.devpost.com/",
+   "inscripcion": "https://arbiter-hacks-v1.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Arbiter ",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $3,800.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/995/823/datas/medium_square.jpg",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-01T19:29-05:00"
+  },
+  {
    "id": "devpost:31108",
    "titulo": "InnovArt 2027: Art and Technology Hack Day",
    "tipo": "hackathon",
@@ -9821,8 +9932,8 @@
    "titulo": "Bharat Innovation Challenge 2.0",
    "tipo": "hackathon",
    "inicio": "2026-09-18T00:00-05:00",
-   "fin": "2026-10-03T23:59-05:00",
-   "cierre": "2026-10-03T23:59-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
    "lugar": "Lovely Professional University",
    "distrito": "Lovely Professional University",
    "modalidad": "Presencial",
@@ -10617,6 +10728,34 @@
    "por_que": "Voluntariado · Afín: Investigación · Evento sin formato claro · Plazo claro"
   },
   {
+   "id": "opportunitydesk:rg-2026-10-01-30-hot-jobs-across-africa-currently-open-october-2-2026-",
+   "titulo": "30 Hot Jobs Across Africa Currently Open – October 2, 2026",
+   "tipo": "convocatoria",
+   "inicio": "2026-10-01T18:04-05:00",
+   "fin": "2026-10-01T18:04-05:00",
+   "cierre": "",
+   "publicado": "2026-10-01T18:04-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/01/30-hot-jobs-across-africa-currently-open-october-2-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/01/30-hot-jobs-across-africa-currently-open-october-2-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "1. African Development Bank (AfDB) Internship Program 2027 African Development Bank is recruiting for this opportunity based in Abidjan / AfDB duty locations. A paid professional internship aligned with AfDB’s Ten-Year Strategy and gender strategy. Focus areas include human capital, operations, fina",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Africa)",
+   "categorias": [
+    "Datos y analítica"
+   ],
+   "valor": 16,
+   "afinidad": 12,
+   "puntaje": 28,
+   "por_que": "Abre puertas (beca/programa) · Afín: Datos y machine learning · Se postula en línea"
+  },
+  {
    "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
    "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
    "tipo": "voluntariado",
@@ -10730,34 +10869,6 @@
    "por_que": "Abre puertas (beca/programa) · Universidad · Plazo claro · Se postula en línea"
   },
   {
-   "id": "opportunitydesk:26-09-30-sameer-ali-khan-is-od-young-person-of-the-month-october-2026-",
-   "titulo": "Sameer Ali Khan is OD Young Person of the Month -October 2026",
-   "tipo": "convocatoria",
-   "inicio": "2026-09-30T15:12-05:00",
-   "fin": "2026-09-30T15:12-05:00",
-   "cierre": "",
-   "publicado": "2026-09-30T15:12-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/09/30/sameer-ali-khan-is-od-young-person-of-the-month-october-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/09/30/sameer-ali-khan-is-od-young-person-of-the-month-october-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Sameer Ali Khan is a peacebuilder, climate justice advocate, and social innovator from Thatta, Sindh, Pakistan, whose work connects the realities of climate-vulnerable and marginalized communities with global conversations on peace, democracy, women’s rights, and technology. Read on to learn more ab",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "sin afinidad",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 16,
-   "afinidad": 0,
-   "puntaje": 16,
-   "por_que": "Abre puertas (beca/programa) · Se postula en línea"
-  },
-  {
    "id": "wikicfp:194196",
    "titulo": "IJMVSC 2026 : The International Journal of Managing Value and Supply Chains",
    "tipo": "call for papers",
@@ -10865,33 +10976,6 @@
    "afinidad": 33,
    "puntaje": 52,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31311",
-   "titulo": "Planet Resilience: Innovation for Sustainable Impact Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-09-28T00:00-05:00",
-   "fin": "2026-10-01T23:59-05:00",
-   "cierre": "2026-10-01T23:59-05:00",
-   "lugar": "Singapore, Singapore",
-   "distrito": "Singapore",
-   "modalidad": "Presencial",
-   "url": "https://uob-suss-planet-resilience.devpost.com/",
-   "inscripcion": "https://uob-suss-planet-resilience.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Singapore University of Social Sciences",
-   "descripcion": "Hackathon presencial en Singapore, Singapore. Temas: Education, Enterprise, Social Good. Premios: $1,700.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/293/800/datas/medium_square.jpg",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 9,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:28278",
@@ -11033,13 +11117,13 @@
  "perfil": true,
  "recomendados": [
   "luma:evt-E4aBRJpi8stwzKu",
+  "pucp:conferencia-internacional-empleabilidad-ia-y-competencias-para-el-futuro-laboral-21092026152940",
   "luma:evt-iQcElAPhAZ5Ew2F",
   "luma:evt-qEvoBnGm8AvP98W",
   "inst:universidad-esan-clase-modelo-maestr-a-en-direcci-n-de-tecno:2026-10-07",
   "devpost:31052",
   "devpost:30790",
-  "devpost:29359",
-  "wikicfp:191658"
+  "devpost:29359"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
@@ -11062,8 +11146,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-01T15:06-05:00",
-  "revisados": 258,
+  "fecha": "2026-10-01T19:29-05:00",
+  "revisados": 262,
   "corregidos": 20,
   "avisos": 7,
   "archivados": 0,
@@ -11286,7 +11370,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 10,
+   "comprobados": 5,
    "rotos": 5,
    "sin_comprobar": 2
   },
@@ -11318,19 +11402,19 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
+   "url": "https://www.peru-retail.com/los-desafios-que-abordo-el-ii-foro-eficiencias-productividad-comercial-de-peru-retail-2026/",
+   "medio": "Perú Retail",
+   "publicado": "Mon, 28 Sep 2026 13:05:00 GMT",
+   "resumen": "Con el objetivo de analizar los desafíos y oportunidades que enfrenta el sector en materia de productividad, Perú Retail llevó a cabo el II Foro Eficiencias & Productividad Comercial en Retail 2026 el ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
    "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
    "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
-   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
-   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
    "fecha_mencionada": ""
   },
   {
@@ -11690,7 +11774,6 @@
   "luma:evt-LGwJTP3XuvnHZx6": "2026-09-29T10:06-05:00",
   "luma:evt-19UchoAO3MbmuAG": "2026-09-29T10:06-05:00",
   "eb:2001083241844": "2026-09-29T10:06-05:00",
-  "pucp:presentacion-de-libro-macroeconomia-politica-monetaria-y-fluctuaciones-ensayos-en-honor-a-29092026115536": "2026-09-29T16:48-05:00",
   "devpost:31503": "2026-09-29T16:48-05:00",
   "meetup:316774586": "2026-09-29T22:37-05:00",
   "eb:2000281780652": "2026-09-29T22:37-05:00",
@@ -11736,6 +11819,11 @@
   "pucp:seminario-internacional-juan-pablo-ii-y-su-relacion-con-latinoamerica-01102026094209": "2026-10-01T15:06-05:00",
   "opportunitydesk:rtunitydesk-org-2026-10-01-chrhs-visiting-scholar-program-spring-2027-": "2026-10-01T15:06-05:00",
   "devpost:31302": "2026-10-01T15:06-05:00",
-  "opportunitydesk:tunitydesk-org-2026-10-01-okc-zoo-conservation-action-now-grants-2026-": "2026-10-01T15:06-05:00"
+  "opportunitydesk:tunitydesk-org-2026-10-01-okc-zoo-conservation-action-now-grants-2026-": "2026-10-01T15:06-05:00",
+  "meetup:316805523": "2026-10-01T19:29-05:00",
+  "luma:evt-5gXco60XgKX4wZc": "2026-10-01T19:29-05:00",
+  "pucp:del-protocolo-a-la-practica-desafios-eticos-en-la-conduccion-de-investigaciones-en-salud-01102026103842": "2026-10-01T19:29-05:00",
+  "luma:evt-xpDKRsNmTCITC5G": "2026-10-01T19:29-05:00",
+  "devpost:30789": "2026-10-01T19:29-05:00"
  }
 }
