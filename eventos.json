@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-03T10:36-05:00",
+ "actualizado": "2026-10-03T15:30-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 97
+   "n": 95
   },
   "Eventbrite": {
    "ok": true,
-   "n": 35
+   "n": 36
   },
   "Eventbrite online": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 42
+   "n": 41
   },
   "IEEE Perú": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 402,
+ "revisados": 400,
  "top": 55,
  "eventos": [
   {
@@ -178,37 +178,6 @@
    "visto_desde": "2026-09-27T14:33-05:00"
   },
   {
-   "id": "luma:evt-5zLvn61Vu2Wm1aR",
-   "titulo": "IV Robotmanía UPC",
-   "inicio": "2026-10-02T11:00-05:00",
-   "fin": "2026-10-03T20:00-05:00",
-   "lugar": "Av. Primavera 2390, Santiago de Surco",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/t6kreqmq",
-   "fuente": "Luma",
-   "organizador": "LIGA NACIONAL DE ROBÓTICA DE COMPETENCIA DE PERÚ 2026",
-   "descripcion": "⚡ TORNEO DE ROBÓTICA EN VIVO ⚡\n🔥 Prepárate para vivir un espectáculo donde la tecnología cobra vida.\nDurante 2 días, los mejores equipos de todo el Perú pondrán a prueba sus robots en emocionantes enfrentamientos, estrategia en tiempo real y pura adrenalina tecnológica.\n🎯 Este evento está dirigido a:\nPúblico en general\n\nEstudiantes interesados en tecnología\n\nFans de la robótica y la innovación\n\n🤖 ¿Qué verás?\nBatallas, carreras y fútbol de robots en vivo\n\nCompetencias intensas y dinámicas\n\nRobots made in Perú\n\nTecnología, estrategia y acción sin pausa\n\n⚠️ Importante\nEste registro es exclusivo para espectadores.Ven a disfrutar el show, aprender y vivir la experiencia.\n🎟️ Cupos limitados\nAsegur",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/event-covers/xf/89841d09-a022-497e-a894-832a224618a7.png",
-   "inscripcion": "https://lu.ma/t6kreqmq",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 33,
-   "afinidad": 10,
-   "puntaje": 43,
-   "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
-   "original": {
-    "titulo": "IV ROBOTMANÍA UPC"
-   },
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
    "id": "eb:1999328032967",
    "titulo": "AWS Community Day Perú 2026",
    "inicio": "2026-10-03T09:00-05:00",
@@ -236,58 +205,32 @@
    "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
-   "id": "pucp:sonqo-un-solo-corazon-con-dios-08092026113650",
-   "titulo": "Sonqo: un solo Corazón con Dios",
-   "inicio": "2026-10-03T10:00-05:00",
-   "fin": "2026-10-03T12:00-05:00",
-   "lugar": "Aulas multiuso (Pabellón Z)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/sonqo-un-solo-corazon-con-dios-08092026113650/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "¡Estudiante PUCP!\n \nEl Departamento Académico de Teología y la Dirección de Asuntos Estudiantiles te invitan a participar en una nueva edición del círculo de apoyo social “Sonqo: Un solo corazón con Dios”, un espacio de encuentro, acompañamiento espiritual y vivencia de la fe.\n \nEn esta edición, \"Reboot emocional: el arte de perdonar\", reflexionaremos sobre el significado del perdón, las heridas del pasado y la posibilidad de soltar aquello que cargamos para vivir el perdón como un camino de liberación y esperanza.\n \nFechas: sábado 26 de septiembre y sábado 03 de octubre\nHora: 10:00 a. m. a 12:00 m.\nLugar: Aula Z-217",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Sonqo_20bbf81800_5212f4a2fa.png",
-   "inscripcion": "https://forms.gle/r8HqFWGWsR2xoCnp9",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
+   "id": "opportunitydesk:nitydesk-org-2026-10-03-google-engineering-technical-internships-2027-",
+   "titulo": "Google Engineering & Technical Internships 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-10-03T11:10-05:00",
+   "fin": "2026-10-03T11:10-05:00",
    "cierre": "",
+   "publicado": "2026-10-03T11:10-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/03/google-engineering-technical-internships-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/03/google-engineering-technical-internships-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: Varies Google has opened applications for their Engineering & Technical Internships 2027. The interns are integral to Google — involved and solving problems from the start. As a technical intern, you are excited about tackling the hard problems in technology. With internships across the globe, ranging from Software Engineering to User Experience, Google offers [...]",
+   "gratis": null,
+   "imagen": "",
    "categorias": [
-    "Investigación y ciencia"
+    "Tecnología e IA"
    ],
-   "valor": 31,
+   "valor": 21,
    "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "luma:evt-IPB0O2YCwiOqs3d",
-   "titulo": "Mañana de Pilates",
-   "inicio": "2026-10-03T11:00-05:00",
-   "fin": "2026-10-03T12:00-05:00",
-   "lugar": "Av. Los Ángeles 602, Comas",
-   "distrito": "Comas",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/1c0dbpk2",
-   "fuente": "Luma",
-   "organizador": "Paussa Studio",
-   "descripcion": "Un espacio para ti 🧘🏻‍♀️\nEstás a un paso de vivir la experiencia Paussa este sábado 3 de octubre en el Mall de Comas. Como los cupos para nuestra única sesión son muy limitados, déjanos tus datos para sumarte a la lista de espera y avisarte en cuanto se libere un lugar 🩷\n🚨Debido al aforo limitado, los cupos serán confirmados el miércoles con las 20 personas que podrán asistir a la clase, y serán agregadas a un grupo de WhatsApp para coordinar su llegada, igual contamos con lista de espera por si se libera algún cupo. Si ya se registraron, todo les llegará por notificación de correo, las esperamos, vienen muchísimos eventos más para Paussa 🧘🏻‍♀️🩷",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/ka/c5786451-c95d-4050-a48c-5dedec6106a8.png",
-   "inscripcion": "https://lu.ma/1c0dbpk2",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Datos y analítica"
-   ],
-   "valor": 28,
-   "afinidad": 12,
-   "puntaje": 40,
-   "por_que": "Formativo · Afín: Datos y machine learning · Presencial en Lima · Gratis",
-   "visto_desde": "2026-10-02T12:19-05:00"
+   "puntaje": 21,
+   "por_que": "Abre puertas (beca/programa) · Empresa reconocida · Se postula en línea",
+   "visto_desde": "2026-10-03T15:30-05:00"
   },
   {
    "id": "eb:2002602806904",
@@ -454,34 +397,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-29T00:33-05:00"
-  },
-  {
-   "id": "devpost:31458",
-   "titulo": "Financial Cybersecurity Challenge 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://finance-cybersecurity2026.devpost.com/",
-   "inscripcion": "https://finance-cybersecurity2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "EconExplorers",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Fintech. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/356/410/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-03T10:36-05:00"
   },
   {
    "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-10-01-commonwealth-youth-2026-",
@@ -675,6 +590,35 @@
    "puntaje": 28,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "opportunitydesk:6-10-03-google-ireland-scholarship-for-women-in-computer-science-2027-",
+   "titulo": "Google Ireland Scholarship for Women in Computer Science 2027 (€5,000 award)",
+   "tipo": "convocatoria",
+   "inicio": "2026-10-05T23:59-05:00",
+   "fin": "2026-10-05T23:59-05:00",
+   "cierre": "2026-10-05T23:59-05:00",
+   "publicado": "2026-10-03T10:55-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/03/google-ireland-scholarship-for-women-in-computer-science-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/03/google-ireland-scholarship-for-women-in-computer-science-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: October 5, 2026 Applications are invited for the Google Ireland Scholarship for Women in Computer Science 2027. Scholarship: Google Ireland for Women in Computer Science was established to help aspiring computer scientists excel in technology and become leaders in the field. The scholarship will be awarded based on the strength of each candidate’s demonstrated [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional",
+    "Datos y analítica"
+   ],
+   "valor": 29,
+   "afinidad": 12,
+   "puntaje": 41,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Empresa reconocida · Con premio",
+   "visto_desde": "2026-10-03T15:30-05:00"
   },
   {
    "id": "eb:2002229973750",
@@ -1225,6 +1169,34 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
+   "id": "luma:evt-tCZO8MFAOToDtlz",
+   "titulo": "Founder Night Lima: Cuándo y cómo salir a la región",
+   "inicio": "2026-10-09T19:15-05:00",
+   "fin": "2026-10-09T21:00-05:00",
+   "lugar": "Jr. Medrano Silva 165, Barranco",
+   "distrito": "Barranco",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/awfcu0ng",
+   "fuente": "Luma",
+   "organizador": "Prisma Latam",
+   "descripcion": "Construir solo para un mercado de 34 millones de personas pone techo al crecimiento. La pregunta real no es si salir, sino cuándo y cómo.\nDusko Kelez, founder y CEO de Hapi, conversa con José García Herz (Partner de MKF Ventures) sobre:\nPor qué salir: lo que se gana en mercado, inversionistas y talento.\n\nCómo salir: qué mercado elegir primero, cómo validarlo sin quemar caja y qué cambia en regulación y producto.\n\nDónde empezar: qué variables considerar y por qué México Tech Week (26 oct - 1 nov, CDMX) es la forma más accesible de probar el mercado.\n\nAl cierre presentamos el programa para ir a México Tech Week: qué beneficios incluye y fechas límite.\n🎟️ INGRESO GRATUITO (previa confirmación)E",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/zg/4c8b56dd-c2ad-44f6-a208-a6f18109c82e.png",
+   "inscripcion": "https://lu.ma/awfcu0ng",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 31,
+   "afinidad": 4,
+   "puntaje": 35,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-10-03T15:30-05:00"
+  },
+  {
    "id": "eb:1999310788388",
    "titulo": "Expoestudios Lima 2026-2",
    "inicio": "2026-10-10T10:00-05:00",
@@ -1352,7 +1324,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $868,165.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $924,685.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
    "categorias": [
@@ -1617,32 +1589,32 @@
    "visto_desde": "2026-09-28T07:42-05:00"
   },
   {
-   "id": "devpost:31548",
-   "titulo": "AIC Internal Competition -2026 (Agentic AI)",
-   "tipo": "hackathon",
-   "inicio": "2026-09-30T00:00-05:00",
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-10-03-citiesrise-fellowship-2026-",
+   "titulo": "citiesRISE Fellowship for Emerging Leaders in Mental Health and Spirituality 2026 ($500 stipend)",
+   "tipo": "convocatoria",
+   "inicio": "2026-10-12T23:59-05:00",
    "fin": "2026-10-12T23:59-05:00",
    "cierre": "2026-10-12T23:59-05:00",
+   "publicado": "2026-10-03T10:40-05:00",
    "lugar": "",
    "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://aic-ic-2026.devpost.com/",
-   "inscripcion": "https://aic-ic-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "AI Community @ SBU",
-   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/442/479/datas/medium_square.png",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/03/citiesrise-fellowship-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/03/citiesrise-fellowship-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: October 12, 2026 Applications are open for the citiesRISE Fellowship for Emerging Leaders in Mental Health and Spirituality 2026. This is a dynamic fellowship for young leaders (18-25) in New York City ready to build skills, deepen connections, and expand their impact at the intersection of mental health and spirituality. If you’re already showing [...]",
+   "gratis": false,
+   "imagen": "",
    "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
+    "Idiomas, becas e internacional"
    ],
-   "valor": 19,
-   "afinidad": 30,
-   "puntaje": 49,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-30T22:42-05:00"
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-10-03T15:30-05:00"
   },
   {
    "id": "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13",
@@ -2097,6 +2069,34 @@
    "puntaje": 47,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "luma:evt-CPD3HexYKVn1zg2",
+   "titulo": "El futuro como práctica: una conversación real sobre foresight estratégico",
+   "inicio": "2026-10-13T18:30-05:00",
+   "fin": "2026-10-13T21:30-05:00",
+   "lugar": "Av. José Pardo 200, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/d6vx4agq",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "📡 Sobre el evento\nEl futuro no se improvisa, se diseña. Pero hoy seguimos escuchando mucho de foresight como si fuera un concepto remoto que algunos googlean, y no una práctica que ya está corriendo dentro de empresas peruanas.\nTendremos un panel de lujo con invitadxs del Banco de Crédito del Perú y de Cementos Pacasmayo. Ambas son organizaciones que forman parte de VamosViendo, la comunidad de Foresight Estratégico de Mutaciones.\nNuestrxs invitadxs compartirán cómo sus organizaciones están apostando hoy en día por foresight, qué retos enfrentan para instalar y escalar iniciativas desde adentro, y hacia dónde lo están llevando.\n📅 Martes 13 de octubre de 2026⏰ 7:00 pm📍 Mutalab // Av. José Par",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/yg/34e4544d-5661-4226-9083-3647b933b5d3.png",
+   "inscripcion": "https://lu.ma/d6vx4agq",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 29,
+   "afinidad": 20,
+   "puntaje": 49,
+   "por_que": "Networking · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
+   "visto_desde": "2026-10-03T15:30-05:00"
   },
   {
    "id": "luma:evt-Baf4UVf5QoQEKyh",
@@ -4700,34 +4700,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "opportunitydesk:org-2026-10-02-uongozi-institute-emerging-leaders-programme-2026-2027-",
-   "titulo": "UONGOZI Institute Emerging Leaders Programme 2026-2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-23T23:59-05:00",
-   "fin": "2026-10-23T23:59-05:00",
-   "cierre": "2026-10-23T23:59-05:00",
-   "publicado": "2026-10-02T08:24-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/02/uongozi-institute-emerging-leaders-programme-2026-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/02/uongozi-institute-emerging-leaders-programme-2026-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 23, 2026 Applications are open for the UONGOZI Institute Emerging Leaders Programme 2026-2027. UONGOZI Institute invites applications from mid-level executives working in any sector across Africa for a dynamic, self-paced programme, Emerging Leaders Programme. The programme, undertaken in collaboration with HAUS Finnish Institute of Public Management, includes six modules running for a period [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 0,
-   "puntaje": 20,
-   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-02T12:19-05:00"
-  },
-  {
    "id": "luma:evt-2YEfVogNTpTzVOz",
    "titulo": "Next Is You: Tu camino para crear, aprender, construir y trascender",
    "inicio": "2026-10-24T09:00-05:00",
@@ -5322,35 +5294,6 @@
    "visto_desde": "2026-09-30T12:29-05:00"
   },
   {
-   "id": "opportunitydesk:s-opportunitydesk-org-2026-10-02-nvidia-graduate-fellowship-2027-2028-",
-   "titulo": "NVIDIA Graduate Fellowship 2027-2028 (up to $60,000)",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-30T23:59-05:00",
-   "fin": "2026-10-30T23:59-05:00",
-   "cierre": "2026-10-30T23:59-05:00",
-   "publicado": "2026-10-02T07:37-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/02/nvidia-graduate-fellowship-2027-2028/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/02/nvidia-graduate-fellowship-2027-2028/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 30, 2026 Applications are open for the NVIDIA Graduate Fellowship 2027-2028. The NVIDIA Graduate Fellowship Program provides up to $60,000 per award for PhD research that advances accelerated computing. Fellows work with NVIDIA researchers and complete a required in-person summer internship before the award year. NVIDIA Research is passionate about developing the technology [...]",
-   "gratis": false,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional",
-    "Investigación y ciencia"
-   ],
-   "valor": 29,
-   "afinidad": 20,
-   "puntaje": 49,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Afín: Investigación · Empresa reconocida",
-   "visto_desde": "2026-10-02T12:19-05:00"
-  },
-  {
    "id": "luma:evt-JEqjUEYW2lARMsE",
    "titulo": "CSH Conference 2026",
    "inicio": "2026-10-31T08:00-05:00",
@@ -5822,34 +5765,6 @@
    "puntaje": 19,
    "por_que": "Presencial en Lima · Universidad · Evento sin formato claro",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-10-02-dalai-lama-fellows-program-2027-",
-   "titulo": "Dalai Lama Fellows Program 2027 for Emerging Changemakers",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-11T23:59-05:00",
-   "fin": "2026-11-11T23:59-05:00",
-   "cierre": "2026-11-11T23:59-05:00",
-   "publicado": "2026-10-02T07:28-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/02/dalai-lama-fellows-program-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/02/dalai-lama-fellows-program-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 11, 2026 Applications are open for the Dalai Lama Fellows Program 2027. The Dalai Lama Fellows (DLF) offers a one-year fellowship program for emerging changemakers aiming to cultivate leadership practices rooted in wisdom and compassion. The interdisciplinary and deeply contemplative program provides a curriculum, coaching, group learning, and additional forms of support to [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 8,
-   "puntaje": 28,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-02T12:19-05:00"
   },
   {
    "id": "ieee:561590",
@@ -6692,6 +6607,34 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-10-03-loeb-fellowship-2027-2028-",
+   "titulo": "Loeb Fellowship 2027-2028 at the Harvard Graduate School of Design (Funded)",
+   "tipo": "convocatoria",
+   "inicio": "2027-01-05T23:59-05:00",
+   "fin": "2027-01-05T23:59-05:00",
+   "cierre": "2027-01-05T23:59-05:00",
+   "publicado": "2026-10-03T11:25-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/03/loeb-fellowship-2027-2028/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/03/loeb-fellowship-2027-2028/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: January 5, 2027 Applications are open for the Loeb Fellowship 2027-2028. The Loeb Fellowship is designed for civic leaders, journalists, architects, technologists, urban planners and designers, activists, landscape architects, policy makers, and public artists who come from around the world to the Harvard Graduate School of Design with one purpose: to make the world a [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-10-03T15:30-05:00"
   },
   {
    "id": "wikicfp:194403",
@@ -9003,9 +8946,9 @@
   {
    "id": "luma:evt-Bd4mcOz153KnNoP",
    "titulo": "Reunión de Miembros (Octubre)",
-   "inicio": "2026-10-03T15:00-05:00",
+   "inicio": "2026-10-03T15:30-05:00",
    "fin": "2026-10-03T18:00-05:00",
-   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
+   "lugar": "Av. de la Marina 2000, San Miguel",
    "distrito": "San Miguel",
    "modalidad": "Presencial",
    "url": "https://lu.ma/utfgolsc",
@@ -10043,6 +9986,33 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31514",
+   "titulo": "StormHacks 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "Simon Fraser University",
+   "distrito": "Simon Fraser University",
+   "modalidad": "Presencial",
+   "url": "https://stormhacks2026.devpost.com/",
+   "inscripcion": "https://stormhacks2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "SFU Surge",
+   "descripcion": "Hackathon presencial en Simon Fraser University. Temas: Beginner Friendly. Premios: $CAD 0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/379/988/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 6,
+   "puntaje": 29,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:30877",
    "titulo": "WolfHacks 2026 by ACM NCSU",
    "tipo": "hackathon",
@@ -10070,50 +10040,79 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31596",
-   "titulo": "AdaHack 2026",
+   "id": "devpost:31167",
+   "titulo": "GirlHacks 2026",
    "tipo": "hackathon",
    "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-03T23:59-05:00",
-   "cierre": "2026-10-03T23:59-05:00",
-   "lugar": "UoE Informatics Forum",
-   "distrito": "UoE Informatics Forum",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "NJIT - Campus Center",
+   "distrito": "NJIT - Campus Center",
    "modalidad": "Presencial",
-   "url": "https://adahack-2026.devpost.com/",
-   "inscripcion": "https://adahack-2026.devpost.com/",
+   "url": "https://girlhacks2026.devpost.com/",
+   "inscripcion": "https://girlhacks2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Edinburgh Hoppers",
-   "descripcion": "Hackathon presencial en UoE Informatics Forum. Temas: Beginner Friendly, Social Good. Premios: £0.",
+   "organizador": "New Jersey Institute of Technology",
+   "descripcion": "Hackathon presencial en NJIT - Campus Center. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $0.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/488/415/datas/medium_square.jpg",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/466/462/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
+    "Tecnología e IA",
     "Competencias y hackathons"
    ],
    "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+   "afinidad": 26,
+   "puntaje": 42,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31557",
-   "titulo": "MATLAB in Space",
+   "id": "devpost:30494",
+   "titulo": "Dublin Hacx",
    "tipo": "hackathon",
    "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-03T23:59-05:00",
-   "cierre": "2026-10-03T23:59-05:00",
-   "lugar": "Northeastern University Shillman Hall",
-   "distrito": "Northeastern University Shillman Hall",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "SAP Office — San Ramon, CA",
+   "distrito": "SAP Office — San Ramon",
    "modalidad": "Presencial",
-   "url": "https://matlab-in-space.devpost.com/",
-   "inscripcion": "https://matlab-in-space.devpost.com/",
+   "url": "https://dublin-hacx.devpost.com/",
+   "inscripcion": "https://dublin-hacx.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Mathworks",
-   "descripcion": "Hackathon presencial en Northeastern University Shillman Hall. Temas: Beginner Friendly, IoT, Machine Learning/AI. Premios: $0.",
+   "organizador": "Emerald High School",
+   "descripcion": "Hackathon presencial en SAP Office — San Ramon, CA. Temas: Open Ended, Beginner Friendly, Machine Learning/AI. Premios: $2,250.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/441/894/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/793/206/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 21,
+   "afinidad": 26,
+   "puntaje": 47,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31053",
+   "titulo": "Hack Dearborn: Conjure Reality",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "University of Michigan-Dearborn",
+   "distrito": "University of Michigan-Dearborn",
+   "modalidad": "Presencial",
+   "url": "https://hack-dearborn-5.devpost.com/",
+   "inscripcion": "https://hack-dearborn-5.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Major League Hacking",
+   "descripcion": "Hackathon presencial en University of Michigan-Dearborn. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/137/439/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Tecnología e IA",
@@ -10339,31 +10338,6 @@
    "afinidad": 0,
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis"
-  },
-  {
-   "id": "luma:evt-uEUkh8M3TXRxneN",
-   "titulo": "Taller de Esgrima",
-   "inicio": "2026-10-03T10:00-05:00",
-   "fin": "2026-10-03T13:00-05:00",
-   "lugar": "Barranco, Perú",
-   "distrito": "Barranco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/0ffy9015",
-   "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/ed/41acacc3-305c-4d74-b826-2e377b1f95cf.jpg",
-   "inscripcion": "https://lu.ma/0ffy9015",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (esgrima)",
-   "categorias": [],
-   "valor": 28,
-   "afinidad": 0,
-   "puntaje": 28,
-   "por_que": "Formativo · Presencial en Lima · Gratis"
   },
   {
    "id": "eb:2002552739150",
@@ -10599,31 +10573,6 @@
    "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro"
   },
   {
-   "id": "luma:evt-UsX8tM6tab8eaCW",
-   "titulo": "Desayuno & Taller de Skincare",
-   "inicio": "2026-10-03T10:00-05:00",
-   "fin": "2026-10-03T12:00-05:00",
-   "lugar": "Av. Sta. Cruz 381, Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/htcsc255",
-   "fuente": "Luma",
-   "organizador": "Lou Botanicals",
-   "descripcion": "https://www.loubotanicals.pe/",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/n7/5c7c5498-c3dd-4a14-a7f1-29beebd015c8.png",
-   "inscripcion": "https://lu.ma/htcsc255",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (skincare)",
-   "categorias": [],
-   "valor": 28,
-   "afinidad": 0,
-   "puntaje": 28,
-   "por_que": "Formativo · Presencial en Lima · Gratis"
-  },
-  {
    "id": "luma:evt-uIthIPssAfK6oBQ",
    "titulo": "Desayuno & Taller de Skincare",
    "inicio": "2026-10-17T08:30-05:00",
@@ -10672,34 +10621,6 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
-   "id": "opportunitydesk:rg-2026-10-01-30-hot-jobs-across-africa-currently-open-october-2-2026-",
-   "titulo": "30 Hot Jobs Across Africa Currently Open – October 2, 2026",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-01T18:04-05:00",
-   "fin": "2026-10-01T18:04-05:00",
-   "cierre": "",
-   "publicado": "2026-10-01T18:04-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/01/30-hot-jobs-across-africa-currently-open-october-2-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/01/30-hot-jobs-across-africa-currently-open-october-2-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "1. African Development Bank (AfDB) Internship Program 2027 African Development Bank is recruiting for this opportunity based in Abidjan / AfDB duty locations. A paid professional internship aligned with AfDB’s Ten-Year Strategy and gender strategy. Focus areas include human capital, operations, fina",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Africa)",
-   "categorias": [
-    "Datos y analítica"
-   ],
-   "valor": 16,
-   "afinidad": 12,
-   "puntaje": 28,
-   "por_que": "Abre puertas (beca/programa) · Afín: Datos y machine learning · Se postula en línea"
   },
   {
    "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
@@ -10870,33 +10791,6 @@
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "devpost:28603",
-   "titulo": "MCA 2026 projects",
-   "tipo": "hackathon",
-   "inicio": "2026-02-27T00:00-05:00",
-   "fin": "2026-12-25T23:59-05:00",
-   "cierre": "2026-12-25T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://mca-2026-projects.devpost.com/",
-   "inscripcion": "https://mca-2026-projects.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Mizzou Computing Association",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:28278",
    "titulo": "UIUC Product Hackathon - Hack to the Future",
    "tipo": "hackathon",
@@ -10922,6 +10816,33 @@
    "afinidad": 9,
    "puntaje": 25,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:30488",
+   "titulo": "Rowdy Hacks XII",
+   "tipo": "hackathon",
+   "inicio": "2026-10-01T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "San Pedro II",
+   "distrito": "San Pedro II",
+   "modalidad": "Presencial",
+   "url": "https://rowdy-hacks-xii.devpost.com/",
+   "inscripcion": "https://rowdy-hacks-xii.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ACM UTSA",
+   "descripcion": "Hackathon presencial en San Pedro II. Temas: Beginner Friendly, Cybersecurity, Web. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31598",
@@ -11020,7 +10941,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "MHacks",
-   "descripcion": "Hackathon presencial en University of Michigan Duderstadt Center. Temas: Beginner Friendly, Open Ended. Premios: $20,300.",
+   "descripcion": "Hackathon presencial en University of Michigan Duderstadt Center. Temas: Beginner Friendly, Open Ended. Premios: $15,800.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/372/670/datas/medium_square.jpeg",
    "motivo": "solo por invitación",
@@ -11119,8 +11040,8 @@
  "recomendados": [
   "luma:evt-E4aBRJpi8stwzKu",
   "luma:evt-DY7Z2Y4QGTzsoEY",
+  "luma:evt-W72RWEmMS5BLcUR",
   "pucp:conferencia-internacional-empleabilidad-ia-y-competencias-para-el-futuro-laboral-21092026152940",
-  "luma:evt-iQcElAPhAZ5Ew2F",
   "inst:universidad-esan-clase-modelo-maestr-a-en-direcci-n-de-tecno:2026-10-07",
   "devpost:31052",
   "devpost:30790",
@@ -11147,9 +11068,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-03T10:36-05:00",
-  "revisados": 257,
-  "corregidos": 16,
+  "fecha": "2026-10-03T15:30-05:00",
+  "revisados": 255,
+  "corregidos": 15,
   "avisos": 6,
   "archivados": 0,
   "problemas": [
@@ -11160,14 +11081,6 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLnfqX19D7gvumbrlZfKN1rH2ddjNDeexsoHaakr0ianrcrQ/viewform?usp=send_form"
-   },
-   {
-    "id": "luma:evt-5zLvn61Vu2Wm1aR",
-    "titulo": "IV Robotmanía UPC",
-    "fuente": "Luma",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://lu.ma/t6kreqmq"
    },
    {
     "id": "inst:sni-webinar-instrumentos-de-gesti-n-ambiental-en-la-industri:2026-10-06",
@@ -11331,7 +11244,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 2,
+   "comprobados": 6,
    "rotos": 5,
    "sin_comprobar": 2
   },
@@ -11347,27 +11260,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
-   "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
-   "medio": "Agencia de Noticias Órbita",
-   "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
-   "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "PetroTal resalta su contribución al manejo sostenible del paiche en Cumbre Perú Sostenible",
    "url": "https://www.desdeadentro.pe/2026/09/petrotal-resalta-su-contribucion-al-manejo-sostenible-del-paiche-en-cumbre-peru-sostenible/",
    "medio": "Desde Adentro",
    "publicado": "Mon, 28 Sep 2026 03:43:00 GMT",
    "resumen": "En su primera participación en la Cumbre Perú Sostenible 2026, PetroTal expuso su contribución al desarrollo sostenible de Loreto, región donde opera el Campo Bretaña del Lote 95, desde 2018.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
-   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
-   "medio": "autotv",
-   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
-   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
    "fecha_mencionada": ""
   },
   {
@@ -11384,6 +11281,14 @@
    "medio": "DiarioBitcoin",
    "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
    "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
+   "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
+   "medio": "Agencia de Noticias Órbita",
+   "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
+   "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
    "fecha_mencionada": ""
   },
   {
@@ -11533,7 +11438,6 @@
  },
  "primera_vez": {
   "luma:evt-XlCnwDjNvITEdq6": "2026-09-24T21:06-05:00",
-  "luma:evt-5zLvn61Vu2Wm1aR": "2026-09-24T21:06-05:00",
   "luma:evt-ECtnfob42pfw7zA": "2026-09-24T21:06-05:00",
   "meetup:315593587": "2026-09-24T21:06-05:00",
   "luma:evt-pqLKlETZCjOTpYs": "2026-09-24T21:06-05:00",
@@ -11639,7 +11543,6 @@
   "wikicfp:201407": "2026-09-26T08:43-05:00",
   "wikicfp:202890": "2026-09-26T08:43-05:00",
   "wikicfp:192921": "2026-09-26T08:43-05:00",
-  "pucp:sonqo-un-solo-corazon-con-dios-08092026113650": "2026-09-26T09:22-05:00",
   "pucp:lab-de-ideas-disenar-nuevos-mapas-de-esperanza-desde-la-pucp": "2026-09-26T09:22-05:00",
   "eb:2001674824283": "2026-09-26T09:22-05:00",
   "luma:evt-HEUVJOiJdMd2xI7": "2026-09-26T09:22-05:00",
@@ -11739,7 +11642,6 @@
   "devpost:31239": "2026-09-30T16:48-05:00",
   "luma:evt-tFdPEMmgyASMcvu": "2026-09-30T22:42-05:00",
   "luma:evt-fGsgymXzAWGuZdN": "2026-09-30T22:42-05:00",
-  "devpost:31548": "2026-09-30T22:42-05:00",
   "luma:evt-44KsjGqFAkdwKEJ": "2026-09-30T22:42-05:00",
   "inst:sni-webinar-instrumentos-de-gesti-n-ambiental-en-la-industri:2026-10-06": "2026-10-01T07:18-05:00",
   "inst:sni-webinar-drawback-el-beneficio-que-todo-exportador-deber-:2026-10-09": "2026-10-01T07:18-05:00",
@@ -11765,7 +11667,6 @@
   "luma:evt-uyTF5KxJrj9WGlY": "2026-10-02T04:19-05:00",
   "luma:evt-LpsTvoptlCm77bt": "2026-10-02T04:19-05:00",
   "eb:2002312352146": "2026-10-02T04:19-05:00",
-  "luma:evt-IPB0O2YCwiOqs3d": "2026-10-02T12:19-05:00",
   "luma:evt-81u8zmfC46hQsD5": "2026-10-02T12:19-05:00",
   "luma:evt-c6qxQFtsB6NE2KA": "2026-10-02T12:19-05:00",
   "luma:evt-NoJaOeDnqtEgABs": "2026-10-02T12:19-05:00",
@@ -11774,10 +11675,7 @@
   "luma:evt-vtiRxzHlXn8kzCF": "2026-10-02T12:19-05:00",
   "luma:evt-QxvwG3U0kn3mRKd": "2026-10-02T12:19-05:00",
   "luma:evt-5h7iySUlGpPTq24": "2026-10-02T12:19-05:00",
-  "opportunitydesk:org-2026-10-02-uongozi-institute-emerging-leaders-programme-2026-2027-": "2026-10-02T12:19-05:00",
-  "opportunitydesk:s-opportunitydesk-org-2026-10-02-nvidia-graduate-fellowship-2027-2028-": "2026-10-02T12:19-05:00",
   "eb:2002800032812": "2026-10-02T12:19-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-10-02-dalai-lama-fellows-program-2027-": "2026-10-02T12:19-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-02-imf-fund-internship-program-2027-": "2026-10-02T12:19-05:00",
   "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-10-01-commonwealth-youth-2026-": "2026-10-02T16:45-05:00",
   "luma:evt-ABzLrfwtyMHH72M": "2026-10-02T16:45-05:00",
@@ -11787,7 +11685,12 @@
   "pucp:ceremonia-de-homenaje-a-exalumnos-distinguidos-01102026190840": "2026-10-02T16:45-05:00",
   "opportunitydesk:6-10-02-un-global-compact-business-human-rights-accelerator-2026-2027-": "2026-10-02T16:45-05:00",
   "luma:evt-kni2yDAAbqihzj7": "2026-10-02T22:28-05:00",
-  "devpost:31458": "2026-10-03T10:36-05:00",
-  "luma:evt-t0JzIizRbJBay50": "2026-10-03T10:36-05:00"
+  "luma:evt-t0JzIizRbJBay50": "2026-10-03T10:36-05:00",
+  "opportunitydesk:nitydesk-org-2026-10-03-google-engineering-technical-internships-2027-": "2026-10-03T15:30-05:00",
+  "opportunitydesk:6-10-03-google-ireland-scholarship-for-women-in-computer-science-2027-": "2026-10-03T15:30-05:00",
+  "luma:evt-tCZO8MFAOToDtlz": "2026-10-03T15:30-05:00",
+  "opportunitydesk:https-opportunitydesk-org-2026-10-03-citiesrise-fellowship-2026-": "2026-10-03T15:30-05:00",
+  "luma:evt-CPD3HexYKVn1zg2": "2026-10-03T15:30-05:00",
+  "opportunitydesk:https-opportunitydesk-org-2026-10-03-loeb-fellowship-2027-2028-": "2026-10-03T15:30-05:00"
  }
 }
