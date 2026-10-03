@@ -1,17 +1,17 @@
 {
- "actualizado": "2026-10-03T15:30-05:00",
+ "actualizado": "2026-10-03T18:30-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 95
+   "n": 94
   },
   "Eventbrite": {
    "ok": true,
-   "n": 36
+   "n": 35
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 24
+   "n": 23
   },
   "Meetup": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 400,
+ "revisados": 397,
  "top": 55,
  "eventos": [
   {
@@ -178,33 +178,6 @@
    "visto_desde": "2026-09-27T14:33-05:00"
   },
   {
-   "id": "eb:1999328032967",
-   "titulo": "AWS Community Day Perú 2026",
-   "inicio": "2026-10-03T09:00-05:00",
-   "fin": "2026-10-03T18:00-05:00",
-   "lugar": "University of Engineering and Technology, 165 Jirón Medrano Silva",
-   "distrito": "Barranco",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/aws-community-day-peru-2026-tickets-1999328032967",
-   "fuente": "Eventbrite",
-   "organizador": "Comunidades AWS Perú",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192328906%2F3012475766147%2F1%2Foriginal.20260901-010024?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=950f81d05fae2372d21f8c9ed7520294",
-   "inscripcion": "https://www.eventbrite.com/e/aws-community-day-peru-2026-tickets-1999328032967",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 23,
-   "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Presencial en Lima · Gratis · Empresa reconocida · Evento sin formato claro",
-   "visto_desde": "2026-09-24T21:23-05:00"
-  },
-  {
    "id": "opportunitydesk:nitydesk-org-2026-10-03-google-engineering-technical-internships-2027-",
    "titulo": "Google Engineering & Technical Internships 2027",
    "tipo": "convocatoria",
@@ -231,34 +204,6 @@
    "puntaje": 21,
    "por_que": "Abre puertas (beca/programa) · Empresa reconocida · Se postula en línea",
    "visto_desde": "2026-10-03T15:30-05:00"
-  },
-  {
-   "id": "eb:2002602806904",
-   "titulo": "Entrenamiento - Guadalajara - Social Media",
-   "inicio": "2026-10-03T13:00-05:00",
-   "fin": "2026-10-03T16:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.es/e/entrenamiento-guadalajara-social-media-tickets-2002602806904",
-   "inscripcion": "https://www.eventbrite.es/e/entrenamiento-guadalajara-social-media-tickets-2002602806904",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "ONLINE BUSINESS",
-   "descripcion": "Únete online al Internet Training Guadalajara y aprende todo sobre redes sociales para triunfar en internet.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182741677%2F232542524294%2F1%2Foriginal.20260422-023306?w=355&auto=format%2Ccompress&q=75&sharp=10&s=e9c4b889312e6a8d5935cbe2f59514b5",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Formativo · Gratis · Virtual",
-   "visto_desde": "2026-10-02T04:19-05:00"
   },
   {
    "id": "pucp:lab-de-ideas-disenar-nuevos-mapas-de-esperanza-desde-la-pucp",
@@ -316,34 +261,6 @@
    "visto_desde": "2026-09-28T16:03-05:00"
   },
   {
-   "id": "devpost:31098",
-   "titulo": "Graphiques Innovation Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-08-21T00:00-05:00",
-   "fin": "2026-10-03T23:59-05:00",
-   "cierre": "2026-10-03T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://graphiques-challenge.devpost.com/",
-   "inscripcion": "https://graphiques-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-02T04:19-05:00"
-  },
-  {
    "id": "devpost:31324",
    "titulo": "LovHack Season 3",
    "tipo": "hackathon",
@@ -397,6 +314,34 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-29T00:33-05:00"
+  },
+  {
+   "id": "devpost:31458",
+   "titulo": "Financial Cybersecurity Challenge 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://finance-cybersecurity2026.devpost.com/",
+   "inscripcion": "https://finance-cybersecurity2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "EconExplorers",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Fintech. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/356/410/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 19,
+   "afinidad": 13,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-03T18:30-05:00"
   },
   {
    "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-10-01-commonwealth-youth-2026-",
@@ -5865,7 +5810,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193628203%2F2782983559651%2F1%2Foriginal.20260916-061539?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.031&s=0fca615640857dd515c5e7a77d578788",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193628203%2F2782983559651%2F1%2Foriginal.20260916-061539?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.031&s=298e5164d9060ca5aebaa0866b04dbad",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -8944,31 +8889,6 @@
    "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Gremio o institución"
   },
   {
-   "id": "luma:evt-Bd4mcOz153KnNoP",
-   "titulo": "Reunión de Miembros (Octubre)",
-   "inicio": "2026-10-03T15:30-05:00",
-   "fin": "2026-10-03T18:00-05:00",
-   "lugar": "Av. de la Marina 2000, San Miguel",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/utfgolsc",
-   "fuente": "Luma",
-   "organizador": "IEEE Computer Society PUCP - Calendario Oficial",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/3r/d1068848-7c03-4bf7-b379-12112a84ba0a.png",
-   "inscripcion": "https://lu.ma/utfgolsc",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 25,
-   "afinidad": 0,
-   "puntaje": 25,
-   "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "eb:1982892087612",
    "titulo": "Solo travellers: casual hangout in Lima (4pm)",
    "inicio": "2026-10-04T16:00-05:00",
@@ -10013,33 +9933,6 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30877",
-   "titulo": "WolfHacks 2026 by ACM NCSU",
-   "tipo": "hackathon",
-   "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "Duke Energy Hall, James Hunt Jr. Library",
-   "distrito": "Duke Energy Hall",
-   "modalidad": "Presencial",
-   "url": "https://wolfhacks-2026.devpost.com/",
-   "inscripcion": "https://wolfhacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ACM",
-   "descripcion": "Hackathon presencial en Duke Energy Hall, James Hunt Jr. Library. Temas: Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/416/611/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31167",
    "titulo": "GirlHacks 2026",
    "tipo": "hackathon",
@@ -10066,6 +9959,33 @@
    "afinidad": 26,
    "puntaje": 42,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:30877",
+   "titulo": "WolfHacks 2026 by ACM NCSU",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "Duke Energy Hall, James Hunt Jr. Library",
+   "distrito": "Duke Energy Hall",
+   "modalidad": "Presencial",
+   "url": "https://wolfhacks-2026.devpost.com/",
+   "inscripcion": "https://wolfhacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ACM",
+   "descripcion": "Hackathon presencial en Duke Energy Hall, James Hunt Jr. Library. Temas: Beginner Friendly. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/416/611/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30494",
@@ -10791,31 +10711,31 @@
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "devpost:28278",
-   "titulo": "UIUC Product Hackathon - Hack to the Future",
+   "id": "devpost:28603",
+   "titulo": "MCA 2026 projects",
    "tipo": "hackathon",
-   "inicio": "2026-09-29T00:00-05:00",
-   "fin": "2026-10-03T23:59-05:00",
-   "cierre": "2026-10-03T23:59-05:00",
-   "lugar": "Campus Instructional Facility",
-   "distrito": "Campus Instructional Facility",
-   "modalidad": "Presencial",
-   "url": "https://product-hackathon-uiuc.devpost.com/",
-   "inscripcion": "https://product-hackathon-uiuc.devpost.com/",
+   "inicio": "2026-02-27T00:00-05:00",
+   "fin": "2026-12-25T23:59-05:00",
+   "cierre": "2026-12-25T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://mca-2026-projects.devpost.com/",
+   "inscripcion": "https://mca-2026-projects.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Product Space UIUC",
-   "descripcion": "Hackathon presencial en Campus Instructional Facility. Temas: Beginner Friendly, Design, Low/No Code. Premios: $0.",
+   "organizador": "Mizzou Computing Association",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/394/061/datas/medium_square.png",
+   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
    "motivo": "solo por invitación",
    "categorias": [
     "Competencias y hackathons"
    ],
-   "valor": 16,
-   "afinidad": 9,
+   "valor": 19,
+   "afinidad": 6,
    "puntaje": 25,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30488",
@@ -11068,8 +10988,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-03T15:30-05:00",
-  "revisados": 255,
+  "fecha": "2026-10-03T18:30-05:00",
+  "revisados": 253,
   "corregidos": 15,
   "avisos": 6,
   "archivados": 0,
@@ -11244,7 +11164,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 6,
+   "comprobados": 1,
    "rotos": 5,
    "sin_comprobar": 2
   },
@@ -11257,14 +11177,6 @@
    "medio": "tnews",
    "publicado": "Thu, 24 Sep 2026 13:09:00 GMT",
    "resumen": "Desde este viernes 25 hasta el 29 de setiembre LIMA ACOGERÁ LA CUMBRE WAGA 2026, GRAN ENCUENTRO GLOBAL DE AEROPUERTOS A partir de mañana 25 de septiembre, Lima recibirá el WAGA 2026 – World Annual Gen ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "PetroTal resalta su contribución al manejo sostenible del paiche en Cumbre Perú Sostenible",
-   "url": "https://www.desdeadentro.pe/2026/09/petrotal-resalta-su-contribucion-al-manejo-sostenible-del-paiche-en-cumbre-peru-sostenible/",
-   "medio": "Desde Adentro",
-   "publicado": "Mon, 28 Sep 2026 03:43:00 GMT",
-   "resumen": "En su primera participación en la Cumbre Perú Sostenible 2026, PetroTal expuso su contribución al desarrollo sostenible de Loreto, región donde opera el Campo Bretaña del Lote 95, desde 2018.",
    "fecha_mencionada": ""
   },
   {
@@ -11298,14 +11210,6 @@
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
    "fecha_mencionada": ""
-  },
-  {
-   "titulo": "FIL Lima 2026: Todo lo que debes saber sobre la última semana de la feria",
-   "url": "https://peru21.pe/cultura/fil-lima-2026-todo-lo-que-debes-saber-sobre-la-ultima-semana/",
-   "medio": "Peru21",
-   "publicado": "Sun, 02 Aug 2026 01:01:00 GMT",
-   "resumen": "Para el lunes 3, una de las presentaciones más destacadas será la de Los ojos del cielo, de Luis Fernando Cueto, ganador del Premio Novela Corta Julio Ramón Ribeyro 2026. Tendrá la participación del ...",
-   "fecha_mencionada": ""
   }
  ],
  "inscripciones_abiertas": [
@@ -11329,13 +11233,6 @@
    "medio": "Linktree de Universidad Científica del Sur",
    "fecha_mencionada": "",
    "nota": "forms.cloud.microsoft no permite robots"
-  },
-  {
-   "titulo": "Prácticas Que Marcan (Universia)",
-   "url": "https://www.universia.net/pe/evento-empleabilidad/practicas-que-marcan",
-   "medio": "Linktree de Universia y Universidad Científica del Sur",
-   "fecha_mencionada": "",
-   "nota": "sin fecha legible en la inscripción"
   },
   {
    "titulo": "Charlas informativas del Disney Academic Exchange Program",
@@ -11468,7 +11365,6 @@
   "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037": "2026-09-24T21:10-05:00",
   "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233": "2026-09-24T21:10-05:00",
   "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
-  "eb:1999328032967": "2026-09-24T21:23-05:00",
   "eb:1999310788388": "2026-09-24T21:23-05:00",
   "eb:1993705212961": "2026-09-24T21:23-05:00",
   "eb:1998953963114": "2026-09-24T21:23-05:00",
@@ -11660,8 +11556,6 @@
   "luma:evt-5gXco60XgKX4wZc": "2026-10-01T19:29-05:00",
   "pucp:del-protocolo-a-la-practica-desafios-eticos-en-la-conduccion-de-investigaciones-en-salud-01102026103842": "2026-10-01T19:29-05:00",
   "luma:evt-xpDKRsNmTCITC5G": "2026-10-01T19:29-05:00",
-  "eb:2002602806904": "2026-10-02T04:19-05:00",
-  "devpost:31098": "2026-10-02T04:19-05:00",
   "eb:2002521596000": "2026-10-02T04:19-05:00",
   "luma:evt-KJ124xsipOyPyTG": "2026-10-02T04:19-05:00",
   "luma:evt-uyTF5KxJrj9WGlY": "2026-10-02T04:19-05:00",
@@ -11691,6 +11585,7 @@
   "luma:evt-tCZO8MFAOToDtlz": "2026-10-03T15:30-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-03-citiesrise-fellowship-2026-": "2026-10-03T15:30-05:00",
   "luma:evt-CPD3HexYKVn1zg2": "2026-10-03T15:30-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-10-03-loeb-fellowship-2027-2028-": "2026-10-03T15:30-05:00"
+  "opportunitydesk:https-opportunitydesk-org-2026-10-03-loeb-fellowship-2027-2028-": "2026-10-03T15:30-05:00",
+  "devpost:31458": "2026-10-03T18:30-05:00"
  }
 }
