@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-02T22:28-05:00",
+ "actualizado": "2026-10-03T06:00-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -39,16 +39,15 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-10-02T16:44-05:00"
+   "n": 10
   },
   "TEDx": {
    "ok": true,
-   "n": 5
+   "n": 4
   },
   "Institucionales": {
    "ok": true,
-   "n": 14
+   "n": 13
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 403,
+ "revisados": 401,
  "top": 55,
  "eventos": [
   {
@@ -179,34 +178,6 @@
    "visto_desde": "2026-09-27T14:33-05:00"
   },
   {
-   "id": "wikicfp:201279",
-   "titulo": "IRAC-SFBA 2026 : INFORMS Regional Analytics Conference (SF Bay Area) 2026",
-   "tipo": "call for papers",
-   "inicio": "2026-10-02T00:00-05:00",
-   "fin": "2026-10-02T23:59-05:00",
-   "cierre": "",
-   "lugar": "San Jose, CA, USA",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201279&copyownerid=168863",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201279&copyownerid=168863",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: INFORMS Regional Analytics Conference (SF Bay Area) 2026. Lugar: San Jose, CA, USA. Fechas del congreso: Oct 2, 2026 - Oct 2, 2026.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Datos y analítica",
-    "Investigación y ciencia"
-   ],
-   "valor": 24,
-   "afinidad": 26,
-   "puntaje": 50,
-   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Gremio o institución",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "luma:evt-5zLvn61Vu2Wm1aR",
    "titulo": "IV Robotmanía UPC",
    "inicio": "2026-10-02T11:00-05:00",
@@ -236,68 +207,6 @@
     "titulo": "IV ROBOTMANÍA UPC"
    },
    "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "inst:sni-webinar-niif-18-impacto-y-retos-en-la-presentaci-n-de-lo:2026-10-02",
-   "titulo": "Webinar: NIIF 18: Impacto y retos en la presentación de los estados financieros",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-02T16:00-05:00",
-   "fin": "",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/09/NIIF-18-frente-a-la-NIC-1-IMG-505x400.png",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Virtual",
-   "original": {
-    "fin": "2026-10-02T23:50-05:00"
-   },
-   "visto_desde": "2026-10-01T07:18-05:00"
-  },
-  {
-   "id": "tedx:68110",
-   "titulo": "TEDxLima",
-   "tipo": "evento",
-   "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-03T00:00-05:00",
-   "cierre": "",
-   "lugar": "Santiago de Surco",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://www.ted.com/tedx/events/68110",
-   "inscripcion": "https://www.ted.com/tedx/events/68110",
-   "fuente": "TEDx",
-   "fuente_url": "https://www.ted.com/tedx/events",
-   "organizador": "TEDxLima",
-   "descripcion": "Evento TEDx (Standard) en Santiago de Surco. Disponibilidad: SPACESAVAILABLE.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "eb:1999328032967",
@@ -490,6 +399,34 @@
    "puntaje": 32,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-02T04:19-05:00"
+  },
+  {
+   "id": "devpost:31427",
+   "titulo": "Kurukshetra CTF",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-03T23:59-05:00",
+   "cierre": "2026-10-03T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://kurukshetractf.devpost.com/",
+   "inscripcion": "https://kurukshetractf.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "pimpri chinchwad college of engineering",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Machine Learning/AI. Premios: ₹ 20,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/337/258/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-03T06:00-05:00"
   },
   {
    "id": "devpost:31324",
@@ -1443,7 +1380,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $852,425.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $868,165.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
    "categorias": [
@@ -9064,6 +9001,34 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
+   "id": "wikicfp:201279",
+   "titulo": "IRAC-SFBA 2026 : INFORMS Regional Analytics Conference (SF Bay Area) 2026",
+   "tipo": "call for papers",
+   "inicio": "2026-10-02T00:00-05:00",
+   "fin": "2026-10-02T23:59-05:00",
+   "cierre": "",
+   "lugar": "San Jose, CA, USA",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201279&copyownerid=168863",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201279&copyownerid=168863",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: INFORMS Regional Analytics Conference (SF Bay Area) 2026. Lugar: San Jose, CA, USA. Fechas del congreso: Oct 2, 2026 - Oct 2, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "congreso ya realizado",
+   "categorias": [
+    "Datos y analítica",
+    "Investigación y ciencia"
+   ],
+   "valor": 24,
+   "afinidad": 26,
+   "puntaje": 50,
+   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Gremio o institución"
+  },
+  {
    "id": "luma:evt-Bd4mcOz153KnNoP",
    "titulo": "Reunión de Miembros (Octubre)",
    "inicio": "2026-10-03T15:00-05:00",
@@ -10133,6 +10098,61 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:30872",
+   "titulo": "Zoftware Hireathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-03T23:59-05:00",
+   "cierre": "2026-10-03T23:59-05:00",
+   "lugar": "Delhi",
+   "distrito": "Delhi",
+   "modalidad": "Presencial",
+   "url": "https://zoftware-hireathon.devpost.com/",
+   "inscripcion": "https://zoftware-hireathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Enterprise Software Solutions",
+   "descripcion": "Hackathon presencial en Delhi. Temas: Enterprise, Machine Learning/AI. Premios: $500.",
+   "gratis": true,
+   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 26,
+   "puntaje": 42,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31596",
+   "titulo": "AdaHack 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-03T23:59-05:00",
+   "cierre": "2026-10-03T23:59-05:00",
+   "lugar": "UoE Informatics Forum",
+   "distrito": "UoE Informatics Forum",
+   "modalidad": "Presencial",
+   "url": "https://adahack-2026.devpost.com/",
+   "inscripcion": "https://adahack-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Edinburgh Hoppers",
+   "descripcion": "Hackathon presencial en UoE Informatics Forum. Temas: Beginner Friendly, Social Good. Premios: £0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/488/415/datas/medium_square.jpg",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:30500",
    "titulo": "DSH Hacks V2 ($100k+ in prizes!)",
    "tipo": "hackathon",
@@ -10657,20 +10677,20 @@
    "por_que": "Formativo · Presencial en Lima · Gratis"
   },
   {
-   "id": "eb:1981186894333",
+   "id": "eb:1981186895336",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-02T23:00-05:00",
-   "fin": "2026-10-03T13:00-05:00",
+   "inicio": "2026-10-03T23:00-05:00",
+   "fin": "2026-10-04T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186894333",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186895336",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima, where you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186894333",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186895336",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -10876,34 +10896,6 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31180",
-   "titulo": "AI Lodge Hackathon 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-09-22T00:00-05:00",
-   "fin": "2026-10-19T23:59-05:00",
-   "cierre": "2026-10-19T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://ai-lodge-hackathon-2026.devpost.com/",
-   "inscripcion": "https://ai-lodge-hackathon-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "SMU Business Intelligence & Analytics",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/362/031/datas/medium_square.jpg",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 33,
-   "puntaje": 52,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:28278",
    "titulo": "UIUC Product Hackathon - Hack to the Future",
    "tipo": "hackathon",
@@ -10929,60 +10921,6 @@
    "afinidad": 9,
    "puntaje": 25,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31466",
-   "titulo": "RESPIRA HACKATHON",
-   "tipo": "hackathon",
-   "inicio": "2026-10-01T00:00-05:00",
-   "fin": "2026-10-03T23:59-05:00",
-   "cierre": "2026-10-03T23:59-05:00",
-   "lugar": "Edificio Estel",
-   "distrito": "Edificio Estel",
-   "modalidad": "Presencial",
-   "url": "https://respira-hackathon.devpost.com/",
-   "inscripcion": "https://respira-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "CIBER",
-   "descripcion": "Hackathon presencial en Edificio Estel. Temas: Health. Premios: €0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/361/169/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 9,
-   "puntaje": 25,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:30488",
-   "titulo": "Rowdy Hacks XII",
-   "tipo": "hackathon",
-   "inicio": "2026-10-01T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "San Pedro II",
-   "distrito": "San Pedro II",
-   "modalidad": "Presencial",
-   "url": "https://rowdy-hacks-xii.devpost.com/",
-   "inscripcion": "https://rowdy-hacks-xii.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ACM UTSA",
-   "descripcion": "Hackathon presencial en San Pedro II. Temas: Beginner Friendly, Cybersecurity, Web. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31513",
@@ -11165,7 +11103,7 @@
   "PERUMIN": 1,
   "ESAN — eventos": 4,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 6,
+  "Sociedad Nacional de Industrias": 5,
   "AmCham Perú": 2,
   "ComexPerú": 0
  },
@@ -11181,9 +11119,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-02T22:27-05:00",
-  "revisados": 260,
-  "corregidos": 17,
+  "fecha": "2026-10-03T06:00-05:00",
+  "revisados": 258,
+  "corregidos": 16,
   "avisos": 6,
   "archivados": 0,
   "problemas": [
@@ -11202,14 +11140,6 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://lu.ma/t6kreqmq"
-   },
-   {
-    "id": "inst:sni-webinar-niif-18-impacto-y-retos-en-la-presentaci-n-de-lo:2026-10-02",
-    "titulo": "Webinar: NIIF 18: Impacto y retos en la presentación de los estados financieros",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:50)",
-    "url": "https://sni.org.pe/eventos/"
    },
    {
     "id": "inst:sni-webinar-instrumentos-de-gesti-n-ambiental-en-la-industri:2026-10-06",
@@ -11373,7 +11303,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 2,
+   "comprobados": 1,
    "rotos": 5,
    "sin_comprobar": 2
   },
@@ -11402,14 +11332,6 @@
    "medio": "autotv",
    "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
    "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
-   "url": "https://www.peru-retail.com/los-desafios-que-abordo-el-ii-foro-eficiencias-productividad-comercial-de-peru-retail-2026/",
-   "medio": "Perú Retail",
-   "publicado": "Mon, 28 Sep 2026 13:05:00 GMT",
-   "resumen": "Con el objetivo de analizar los desafíos y oportunidades que enfrenta el sector en materia de productividad, Perú Retail llevó a cabo el II Foro Eficiencias & Productividad Comercial en Retail 2026 el ...",
    "fecha_mencionada": ""
   },
   {
@@ -11621,8 +11543,6 @@
   "opportunitiesforyouth:advisory-board-2027-2028-applications-open-for-young-people-worldwide-": "2026-09-26T08:43-05:00",
   "opportunitiesforyouth:pportunity-with-full-scholarship-to-the-2027-youth-assembly-in-geneva-": "2026-09-26T08:43-05:00",
   "devpost:29359": "2026-09-26T08:43-05:00",
-  "wikicfp:201279": "2026-09-26T08:43-05:00",
-  "tedx:68110": "2026-09-26T08:43-05:00",
   "devpost:31324": "2026-09-26T08:43-05:00",
   "devpost:30632": "2026-09-26T08:43-05:00",
   "devpost:30781": "2026-09-26T08:43-05:00",
@@ -11778,7 +11698,6 @@
   "luma:evt-fGsgymXzAWGuZdN": "2026-09-30T22:42-05:00",
   "devpost:31548": "2026-09-30T22:42-05:00",
   "luma:evt-44KsjGqFAkdwKEJ": "2026-09-30T22:42-05:00",
-  "inst:sni-webinar-niif-18-impacto-y-retos-en-la-presentaci-n-de-lo:2026-10-02": "2026-10-01T07:18-05:00",
   "inst:sni-webinar-instrumentos-de-gesti-n-ambiental-en-la-industri:2026-10-06": "2026-10-01T07:18-05:00",
   "inst:sni-webinar-drawback-el-beneficio-que-todo-exportador-deber-:2026-10-09": "2026-10-01T07:18-05:00",
   "inst:sni-webinar-drawback-el-beneficio-que-todo-exportador-deber-:2026-10-14": "2026-10-01T07:18-05:00",
@@ -11826,6 +11745,7 @@
   "pucp:ceremonia-de-homenaje-a-exalumnos-distinguidos-01102026190840": "2026-10-02T16:45-05:00",
   "opportunitydesk:6-10-02-un-global-compact-business-human-rights-accelerator-2026-2027-": "2026-10-02T16:45-05:00",
   "devpost:31461": "2026-10-02T22:28-05:00",
-  "luma:evt-kni2yDAAbqihzj7": "2026-10-02T22:28-05:00"
+  "luma:evt-kni2yDAAbqihzj7": "2026-10-02T22:28-05:00",
+  "devpost:31427": "2026-10-03T06:00-05:00"
  }
 }
