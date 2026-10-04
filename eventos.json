@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-04T11:21-05:00",
+ "actualizado": "2026-10-04T15:49-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -39,7 +39,8 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10
+   "n": 10,
+   "cache": "2026-10-04T11:20-05:00"
   },
   "TEDx": {
    "ok": true,
@@ -202,61 +203,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:31528",
-   "titulo": "FIK FAIR 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-09-29T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://fik-fair-2026.devpost.com/",
-   "inscripcion": "https://fik-fair-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "UPN \"Veteran\" Jakarta",
-   "descripcion": "Hackathon online. Temas: Education, Health, Social Good. Premios: $360.",
-   "gratis": true,
-   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-29T00:33-05:00"
-  },
-  {
-   "id": "devpost:31458",
-   "titulo": "Financial Cybersecurity Challenge 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://finance-cybersecurity2026.devpost.com/",
-   "inscripcion": "https://finance-cybersecurity2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "EconExplorers",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Fintech. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/356/410/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-04T06:42-05:00"
   },
   {
    "id": "devpost:31461",
@@ -1531,6 +1477,34 @@
    "puntaje": 49,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-04T11:21-05:00"
+  },
+  {
+   "id": "devpost:30491",
+   "titulo": "Banana Hacks",
+   "tipo": "hackathon",
+   "inicio": "2026-10-09T00:00-05:00",
+   "fin": "2026-10-12T23:59-05:00",
+   "cierre": "2026-10-12T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://banana-hacks-1111.devpost.com/",
+   "inscripcion": "https://banana-hacks-1111.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "n/a",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Web. Premios: $500.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/792/691/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-04T15:49-05:00"
   },
   {
    "id": "opportunitydesk:https-opportunitydesk-org-2026-10-03-citiesrise-fellowship-2026-",
@@ -4726,6 +4700,34 @@
    "visto_desde": "2026-09-24T22:14-05:00"
   },
   {
+   "id": "devpost:29114",
+   "titulo": "IEEE ClimateChain Global Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-05T00:00-05:00",
+   "fin": "2026-10-25T23:59-05:00",
+   "cierre": "2026-10-25T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://ieee-climatechain-hack.devpost.com/",
+   "inscripcion": "https://ieee-climatechain-hack.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "IEEE Turkey",
+   "descripcion": "Hackathon online. Temas: Blockchain, Machine Learning/AI, Social Good. Premios: $3,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/642/899/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 26,
+   "afinidad": 29,
+   "puntaje": 55,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-04T15:49-05:00"
+  },
+  {
    "id": "pucp:seminario-internacional-juan-pablo-ii-y-su-relacion-con-latinoamerica-01102026094209",
    "titulo": "Seminario Internacional “Juan Pablo II y su relación con Latinoamérica”",
    "inicio": "2026-10-26T09:00-05:00",
@@ -4898,6 +4900,34 @@
    "puntaje": 54,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31503",
+   "titulo": "Life After Code",
+   "tipo": "hackathon",
+   "inicio": "2026-10-05T00:00-05:00",
+   "fin": "2026-10-27T23:59-05:00",
+   "cierre": "2026-10-27T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://gitlab-transcend.devpost.com/",
+   "inscripcion": "https://gitlab-transcend.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "GitLab",
+   "descripcion": "Hackathon online. Temas: DevOps, Machine Learning/AI, Productivity. Premios: $45,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/376/754/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-04T15:49-05:00"
   },
   {
    "id": "eb:1982108679417",
@@ -6581,6 +6611,34 @@
    "visto_desde": "2026-10-02T12:19-05:00"
   },
   {
+   "id": "devpost:30789",
+   "titulo": "Arbiter Hacks V1",
+   "tipo": "hackathon",
+   "inicio": "2026-10-20T00:00-05:00",
+   "fin": "2026-12-21T23:59-05:00",
+   "cierre": "2026-12-21T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://arbiter-hacks-v1.devpost.com/",
+   "inscripcion": "https://arbiter-hacks-v1.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Arbiter ",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $3,800.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/995/823/datas/medium_square.jpg",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-04T15:49-05:00"
+  },
+  {
    "id": "devpost:31108",
    "titulo": "InnovArt 2027: Art and Technology Hack Day",
    "tipo": "hackathon",
@@ -6634,6 +6692,33 @@
    "puntaje": 32,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
    "visto_desde": "2026-10-03T15:30-05:00"
+  },
+  {
+   "id": "devpost:30819",
+   "titulo": "United Hacks V8",
+   "tipo": "hackathon",
+   "inicio": "2027-01-08T00:00-05:00",
+   "fin": "2027-01-10T23:59-05:00",
+   "cierre": "2027-01-10T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://unitedhacksv8.devpost.com/",
+   "inscripcion": "https://unitedhacksv8.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack United",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Design, Education. Premios: $13,700.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/021/146/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-04T15:49-05:00"
   },
   {
    "id": "wikicfp:194403",
@@ -9932,77 +10017,23 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31514",
-   "titulo": "StormHacks 2026",
+   "id": "devpost:31110",
+   "titulo": "hackPHS 2026",
    "tipo": "hackathon",
-   "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "Simon Fraser University",
-   "distrito": "Simon Fraser University",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "Princeton High School",
+   "distrito": "Princeton High School",
    "modalidad": "Presencial",
-   "url": "https://stormhacks2026.devpost.com/",
-   "inscripcion": "https://stormhacks2026.devpost.com/",
+   "url": "https://hackphs2026.devpost.com/",
+   "inscripcion": "https://hackphs2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "SFU Surge",
-   "descripcion": "Hackathon presencial en Simon Fraser University. Temas: Beginner Friendly. Premios: $CAD 0.",
+   "organizador": "Princeton High School",
+   "descripcion": "Hackathon presencial en Princeton High School. Temas: Beginner Friendly, Open Ended, Web. Premios: $1,000.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/379/988/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 6,
-   "puntaje": 29,
-   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:29597",
-   "titulo": "MuleHacks2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-04T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "University of Central Missouri",
-   "distrito": "University of Central Missouri",
-   "modalidad": "Presencial",
-   "url": "https://mulehacks.devpost.com/",
-   "inscripcion": "https://mulehacks.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "MuleHacks Organizing Committee",
-   "descripcion": "Hackathon presencial en University of Central Missouri. Temas: Beginner Friendly, Cybersecurity, Social Good. Premios: $1,800.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/499/462/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 6,
-   "puntaje": 29,
-   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:30453",
-   "titulo": "Case Closed",
-   "tipo": "hackathon",
-   "inicio": "2026-10-04T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "Location TBA",
-   "distrito": "Location TBA",
-   "modalidad": "Presencial",
-   "url": "https://caseclosed.devpost.com/",
-   "inscripcion": "https://caseclosed.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "GDG on Campus Sheridan College",
-   "descripcion": "Hackathon presencial en Location TBA. Temas: Beginner Friendly, Communication, Low/No Code. Premios: $CAD 0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/837/558/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/164/980/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Competencias y hackathons"
@@ -10011,6 +10042,34 @@
    "afinidad": 6,
    "puntaje": 22,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:30463",
+   "titulo": "DeveloperWeek 2027 Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2027-01-25T00:00-05:00",
+   "fin": "2027-02-11T23:59-05:00",
+   "cierre": "2027-02-11T23:59-05:00",
+   "lugar": "Santa Clara Convention Center + Online",
+   "distrito": "Santa Clara Convention Center + Online",
+   "modalidad": "Presencial",
+   "url": "https://developerweek-2027-hackathon.devpost.com/",
+   "inscripcion": "https://developerweek-2027-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "DevNetwork",
+   "descripcion": "Hackathon presencial en Santa Clara Convention Center + Online. Temas: Enterprise, IoT, Machine Learning/AI. Premios: $6,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/828/557/datas/medium_square.jpg",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 29,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30500",
@@ -10762,60 +10821,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30488",
-   "titulo": "Rowdy Hacks XII",
-   "tipo": "hackathon",
-   "inicio": "2026-10-01T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "San Pedro II",
-   "distrito": "San Pedro II",
-   "modalidad": "Presencial",
-   "url": "https://rowdy-hacks-xii.devpost.com/",
-   "inscripcion": "https://rowdy-hacks-xii.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ACM UTSA",
-   "descripcion": "Hackathon presencial en San Pedro II. Temas: Beginner Friendly, Cybersecurity, Web. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/498/816/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31568",
-   "titulo": "HealthLink Life Sciences Hackathon 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-02T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "The Basement",
-   "distrito": "The Basement",
-   "modalidad": "Presencial",
-   "url": "https://healthlink-hackathon-2026.devpost.com/",
-   "inscripcion": "https://healthlink-hackathon-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HealthLink",
-   "descripcion": "Hackathon presencial en The Basement. Temas: Beginner Friendly, Health. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/455/680/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 9,
-   "puntaje": 25,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "pucp:feape-2026-17082026123755",
    "titulo": "FEAPE 2026",
    "inicio": "2026-10-04T00:00-05:00",
@@ -10957,8 +10962,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-04T11:21-05:00",
-  "revisados": 255,
+  "fecha": "2026-10-04T15:49-05:00",
+  "revisados": 258,
   "corregidos": 14,
   "avisos": 6,
   "archivados": 0,
@@ -11125,9 +11130,9 @@
    }
   ],
   "enlaces": {
-   "comprobados": 3,
+   "comprobados": 40,
    "rotos": 5,
-   "sin_comprobar": 2
+   "sin_comprobar": 0
   },
   "fuentes_a_revisar": []
  },
@@ -11202,6 +11207,13 @@
    "medio": "Linktree de Universidad Científica del Sur",
    "fecha_mencionada": "",
    "nota": "forms.cloud.microsoft no permite robots"
+  },
+  {
+   "titulo": "Prácticas Que Marcan (Universia)",
+   "url": "https://www.universia.net/pe/evento-empleabilidad/practicas-que-marcan",
+   "medio": "Linktree de Universia y Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "sin fecha legible en la inscripción"
   },
   {
    "titulo": "Charlas informativas del Disney Academic Exchange Program",
@@ -11482,7 +11494,6 @@
   "pucp:circulo-de-escucha-lo-que-nos-sostiene": "2026-09-28T22:49-05:00",
   "luma:evt-bVxokymWkHNwhur": "2026-09-28T22:49-05:00",
   "luma:evt-9BkR7E9Zyumrox9": "2026-09-28T22:49-05:00",
-  "devpost:31528": "2026-09-29T00:33-05:00",
   "luma:evt-YvUaCZEWvY96CHL": "2026-09-29T00:33-05:00",
   "luma:evt-gYqwXPGgrSASHFQ": "2026-09-29T00:33-05:00",
   "pucp:taller-como-superar-la-procrastinacion-2026-2": "2026-09-29T10:06-05:00",
@@ -11553,10 +11564,14 @@
   "luma:evt-CPD3HexYKVn1zg2": "2026-10-03T15:30-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-03-loeb-fellowship-2027-2028-": "2026-10-03T15:30-05:00",
   "devpost:31098": "2026-10-03T22:54-05:00",
-  "devpost:31458": "2026-10-04T06:42-05:00",
   "luma:evt-xRViYMrETyBDjx5": "2026-10-04T06:42-05:00",
   "devpost:31461": "2026-10-04T11:21-05:00",
   "devpost:31548": "2026-10-04T11:21-05:00",
-  "devpost:31609": "2026-10-04T11:21-05:00"
+  "devpost:31609": "2026-10-04T11:21-05:00",
+  "devpost:30491": "2026-10-04T15:49-05:00",
+  "devpost:29114": "2026-10-04T15:49-05:00",
+  "devpost:31503": "2026-10-04T15:49-05:00",
+  "devpost:30789": "2026-10-04T15:49-05:00",
+  "devpost:30819": "2026-10-04T15:49-05:00"
  }
 }
