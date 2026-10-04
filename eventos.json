@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-04T15:49-05:00",
+ "actualizado": "2026-10-04T18:48-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -39,8 +39,7 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-10-04T11:20-05:00"
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -203,34 +202,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:31461",
-   "titulo": "Future innovators hackothon",
-   "tipo": "hackathon",
-   "inicio": "2026-10-02T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://future-innovators-hackothon.devpost.com/",
-   "inscripcion": "https://future-innovators-hackothon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "shrimat koti",
-   "descripcion": "Hackathon online. Temas: Cybersecurity, Education, Fintech. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 10,
-   "puntaje": 29,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-04T11:21-05:00"
   },
   {
    "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-10-01-commonwealth-youth-2026-",
@@ -1505,6 +1476,34 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-04T15:49-05:00"
+  },
+  {
+   "id": "devpost:28259",
+   "titulo": "United Hackathons V1",
+   "tipo": "hackathon",
+   "inicio": "2026-10-06T00:00-05:00",
+   "fin": "2026-10-12T23:59-05:00",
+   "cierre": "2026-10-12T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://devonomicsv1.devpost.com/",
+   "inscripcion": "https://devonomicsv1.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "United Hackathons",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/065/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-04T18:48-05:00"
   },
   {
    "id": "opportunitydesk:https-opportunitydesk-org-2026-10-03-citiesrise-fellowship-2026-",
@@ -4136,33 +4135,6 @@
    "puntaje": 25,
    "por_que": "Formativo · Presencial en Lima · Con certificado",
    "visto_desde": "2026-09-24T21:23-05:00"
-  },
-  {
-   "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
-   "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS",
-   "inicio": "2026-10-21T09:00-05:00",
-   "fin": "2026-10-23T21:00-05:00",
-   "lugar": "Facultad de Arquitectura y Urbanismo (Pabellón T)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Arquitectura PUCP y Arquitectura UC presentan el Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS, que se proyecta como una plataforma académica desde el Sur Global, orientada a compartir experiencias y desafíos en la enseñanza y aprendizaje en arquitectura y urbanismo. El Congreso se realizará del 21 al 23 de octubre de 2026 en el Campus PUCP en Lima, Perú.\nDurante estos tres días, se desarrollarán conferencias magistrales, presentaciones de ponencias y afiches, mesas de discusión, y acciones pedagógicas. A través de estos espacios de conversación ampliada se busca mirar hacia el futuro con la elaboración de un manifiesto conjunto y una publicac",
-   "gratis": false,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/duotono_2_78de8866cc.jpg",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=048&i=353",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 29,
-   "afinidad": 12,
-   "puntaje": 41,
-   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad",
-   "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
    "id": "pucp:charla-apoyo-case-experience",
@@ -9028,31 +9000,6 @@
    "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Gremio o institución"
   },
   {
-   "id": "eb:1982892087612",
-   "titulo": "Solo travellers: casual hangout in Lima (4pm)",
-   "inicio": "2026-10-04T16:00-05:00",
-   "fin": "2026-10-04T18:00-05:00",
-   "lugar": "Las Tradiciones Park, 821 Avenida Ricardo Palma",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892087612",
-   "fuente": "Eventbrite",
-   "organizador": "Curious to Change",
-   "descripcion": "No pressure, no plan. Just new friends. Weekly get together to meet, chat, and create connections with other curious peeps.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177291423%2F2830687274421%2F1%2Foriginal.20260211-165217?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C133%2C1920%2C960&s=de00a65eb372d3977b16b62dbb8796e2",
-   "inscripcion": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892087612",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "eb:1976412292370",
    "titulo": "Gringo Tuesdays Language Exchange Lima",
    "inicio": "2026-10-06T17:00-05:00",
@@ -9151,6 +9098,31 @@
    "afinidad": 0,
    "puntaje": 34,
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad · Gratis"
+  },
+  {
+   "id": "eb:1982892088615",
+   "titulo": "Solo travellers: casual hangout in Lima (4pm)",
+   "inicio": "2026-10-11T16:00-05:00",
+   "fin": "2026-10-11T18:00-05:00",
+   "lugar": "Las Tradiciones Park, 821 Avenida Ricardo Palma",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892088615",
+   "fuente": "Eventbrite",
+   "organizador": "Curious to Change",
+   "descripcion": "No pressure, no plan. Just new friends. Weekly get together to meet, chat, and create connections with other curious peeps.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177291423%2F2830687274421%2F1%2Foriginal.20260211-165217?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C133%2C1920%2C960&s=de00a65eb372d3977b16b62dbb8796e2",
+   "inscripcion": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892088615",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
    "id": "luma:evt-YECqcPheL2FYQOV",
@@ -10928,6 +10900,33 @@
    "afinidad": 12,
    "puntaje": 41,
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad"
+  },
+  {
+   "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
+   "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS",
+   "inicio": "2026-10-21T09:00-05:00",
+   "fin": "2026-10-23T21:00-05:00",
+   "lugar": "Facultad de Arquitectura y Urbanismo (Pabellón T)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Arquitectura PUCP y Arquitectura UC presentan el Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS, que se proyecta como una plataforma académica desde el Sur Global, orientada a compartir experiencias y desafíos en la enseñanza y aprendizaje en arquitectura y urbanismo. El Congreso se realizará del 21 al 23 de octubre de 2026 en el Campus PUCP en Lima, Perú.\nDurante estos tres días, se desarrollarán conferencias magistrales, presentaciones de ponencias y afiches, mesas de discusión, y acciones pedagógicas. A través de estos espacios de conversación ampliada se busca mirar hacia el futuro con la elaboración de un manifiesto conjunto y una publicac",
+   "gratis": false,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/duotono_2_78de8866cc.jpg",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=048&i=353",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 29,
+   "afinidad": 12,
+   "puntaje": 41,
+   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad",
+   "motivo": "no pasó la verificación: enlace roto (404)"
   }
  ],
  "perfil": true,
@@ -10962,11 +10961,11 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-04T15:49-05:00",
+  "fecha": "2026-10-04T18:48-05:00",
   "revisados": 258,
   "corregidos": 14,
-  "avisos": 6,
-  "archivados": 0,
+  "avisos": 5,
+  "archivados": 1,
   "problemas": [
    {
     "id": "inst:sni-webinar-instrumentos-de-gesti-n-ambiental-en-la-industri:2026-10-06",
@@ -11108,8 +11107,8 @@
     "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
     "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISE",
     "fuente": "PUCP",
-    "nivel": "aviso",
-    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "nivel": "archivado",
+    "detalle": "enlace roto (404) en dos revisiones seguidas",
     "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/"
    },
    {
@@ -11146,6 +11145,14 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
    "url": "https://www.peru-retail.com/los-desafios-que-abordo-el-ii-foro-eficiencias-productividad-comercial-de-peru-retail-2026/",
    "medio": "Perú Retail",
@@ -11162,14 +11169,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
-   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
-   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
    "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
    "medio": "Agencia de Noticias Órbita",
@@ -11178,11 +11177,27 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
+   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
+   "medio": "DiarioBitcoin",
+   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
+   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
    "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
    "medio": "RPP",
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "FIL Lima 2026: Todo lo que debes saber sobre la última semana de la feria",
+   "url": "https://peru21.pe/cultura/fil-lima-2026-todo-lo-que-debes-saber-sobre-la-ultima-semana/",
+   "medio": "Peru21",
+   "publicado": "Sun, 02 Aug 2026 01:01:00 GMT",
+   "resumen": "Para el lunes 3, una de las presentaciones más destacadas será la de Los ojos del cielo, de Luis Fernando Cueto, ganador del Premio Novela Corta Julio Ramón Ribeyro 2026. Tendrá la participación del ...",
    "fecha_mencionada": ""
   }
  ],
@@ -11342,7 +11357,6 @@
   "pucp:30-aula-magna-tejamos-el-pais-desde-las-diferencias-crecimiento-desarrollo-e-instituciones-11092026180436": "2026-09-24T21:10-05:00",
   "pucp:webinar-clasificar-para-proteger-fundamentos-de-seguridad-de-la-informacion-22092026160651": "2026-09-24T21:10-05:00",
   "pucp:conferencia-internacional-empleabilidad-ia-y-competencias-para-el-futuro-laboral-21092026152940": "2026-09-24T21:10-05:00",
-  "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405": "2026-09-24T21:10-05:00",
   "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037": "2026-09-24T21:10-05:00",
   "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233": "2026-09-24T21:10-05:00",
   "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
@@ -11565,13 +11579,13 @@
   "opportunitydesk:https-opportunitydesk-org-2026-10-03-loeb-fellowship-2027-2028-": "2026-10-03T15:30-05:00",
   "devpost:31098": "2026-10-03T22:54-05:00",
   "luma:evt-xRViYMrETyBDjx5": "2026-10-04T06:42-05:00",
-  "devpost:31461": "2026-10-04T11:21-05:00",
   "devpost:31548": "2026-10-04T11:21-05:00",
   "devpost:31609": "2026-10-04T11:21-05:00",
   "devpost:30491": "2026-10-04T15:49-05:00",
   "devpost:29114": "2026-10-04T15:49-05:00",
   "devpost:31503": "2026-10-04T15:49-05:00",
   "devpost:30789": "2026-10-04T15:49-05:00",
-  "devpost:30819": "2026-10-04T15:49-05:00"
+  "devpost:30819": "2026-10-04T15:49-05:00",
+  "devpost:28259": "2026-10-04T18:48-05:00"
  }
 }
