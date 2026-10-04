@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-03T18:30-05:00",
+ "actualizado": "2026-10-03T22:54-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -11,15 +11,15 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 23
+   "n": 25
   },
   "Meetup": {
    "ok": true,
-   "n": 11
+   "n": 10
   },
   "PUCP": {
    "ok": true,
-   "n": 41
+   "n": 40
   },
   "IEEE Perú": {
    "ok": true,
@@ -206,61 +206,6 @@
    "visto_desde": "2026-10-03T15:30-05:00"
   },
   {
-   "id": "pucp:lab-de-ideas-disenar-nuevos-mapas-de-esperanza-desde-la-pucp",
-   "titulo": "Lab de Ideas: diseñar nuevos mapas de esperanza desde la PUCP",
-   "inicio": "2026-10-03T15:00-05:00",
-   "fin": "2026-10-03T20:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/lab-de-ideas-disenar-nuevos-mapas-de-esperanza-desde-la-pucp/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El Departamento Académico de Teología, el Centro de Asesoría Pastoral Universitaria (CAPU) y la Dirección de Asuntos Estudiantiles (DAES) te invitan al Lab de Ideas: diseñar nuevos mapas de esperanza desde la PUCP, un espacio extracurricular creado para profundizar en el mensaje del papa León XIV y traducirlo en acciones concretas en la comunidad PUCP.\nInspirados por la visión del Papa y su próxima visita al Perú, queremos que seas parte de este proyecto muy especial. Si eres un estudiante de pregrado comprometido, con ganas de dialogar y proponer iniciativas concretas que impacten en nuestra comunidad universitaria, esta convocatoria es para ti.  \n¿En qué consiste?\nParticiparás de tres encu",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/lab_78240310e8.png",
-   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSepHyCqwspolyzk9hYgDUMTb7MY_FcJsHln3FsO7c3W9xMaRQ/viewform",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Competencias y hackathons"
-   ],
-   "valor": 35,
-   "afinidad": 6,
-   "puntaje": 41,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "meetup:316752122",
-   "titulo": "Saturday - Let's practice English (Rustica - First Floor Terrace)",
-   "inicio": "2026-10-03T18:00-05:00",
-   "fin": "2026-10-03T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/practice-english-saturday/events/316752122/",
-   "fuente": "Meetup",
-   "organizador": "Let’s Practice English (Saturdays)",
-   "descripcion": "Join us this Saturday to practice English at Rustica in Miraflores (Next to Kennedy Park)!\nPlease note: There are two Rustica locations on Calle de las Pizzas. We'll be at the one on Pasaje Figari.\n\nWe'll be meeting to practice English/Spanish, talk, meet new people, and share cultures. Intermediate and advanced English levels are welcome — Spanish is not a must if you can speak English! Free admission, but you must order at least a soft drink since we're meeting at a café. 😎😊\n\nAnd don't rush home after the meetup! Afterward, a group of us usually goes for a casual, inexpensive dinner somewhere nearby. It's a great chance to keep chatting, get to know everyone better, and continue the evenin",
-   "gratis": true,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/practice-english-saturday/events/316752122/",
-   "fuente_url": "https://www.meetup.com/practice-english-saturday/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis",
-   "visto_desde": "2026-09-28T16:03-05:00"
-  },
-  {
    "id": "devpost:31324",
    "titulo": "LovHack Season 3",
    "tipo": "hackathon",
@@ -314,34 +259,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-29T00:33-05:00"
-  },
-  {
-   "id": "devpost:31458",
-   "titulo": "Financial Cybersecurity Challenge 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://finance-cybersecurity2026.devpost.com/",
-   "inscripcion": "https://finance-cybersecurity2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "EconExplorers",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Fintech. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/356/410/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-03T18:30-05:00"
   },
   {
    "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-10-01-commonwealth-youth-2026-",
@@ -535,6 +452,34 @@
    "puntaje": 28,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31098",
+   "titulo": "Graphiques Innovation Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-08-21T00:00-05:00",
+   "fin": "2026-10-05T23:59-05:00",
+   "cierre": "2026-10-05T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://graphiques-challenge.devpost.com/",
+   "inscripcion": "https://graphiques-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack Club",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 19,
+   "afinidad": 13,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-03T22:54-05:00"
   },
   {
    "id": "opportunitydesk:6-10-03-google-ireland-scholarship-for-women-in-computer-science-2027-",
@@ -840,7 +785,7 @@
    "inscripcion": "https://www.eventbrite.com.mx/e/entradas-masterclass-retail-inteligente-2000281780652",
    "fuente": "Eventbrite online",
    "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "CENTRO | Diseño, Cine y Televisión",
+   "organizador": "",
    "descripcion": "Lucía Martínez-Ostos, fundadora de Troquer, explora cómo el smart retail y la integración de datos redefinen el modelo de negocio de la moda",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194678858%2F242578370882%2F1%2Foriginal.20260929-230601?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.64&fp-y=0.327&s=bd70608a36491031078e31c1be88994b",
@@ -1269,7 +1214,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $924,685.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $967,075.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
    "categorias": [
@@ -4829,7 +4774,7 @@
    "inscripcion": "https://www.eventbrite.es/e/entradas-beyond-the-prompt-intencion-y-vision-humana-en-la-era-de-la-automatizacion-2002203136479",
    "fuente": "Eventbrite online",
    "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "POSSO by Mr Marcel",
+   "organizador": "",
    "descripcion": "Una conversación en directo sobre el futuro del diseño, la estrategia y el valor del talento en la era de la inteligencia.",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe6430f4f254fe21137ca72af85e6f6a",
@@ -4844,6 +4789,34 @@
    "puntaje": 31,
    "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
    "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "eb:2002096449375",
+   "titulo": "Crear Contenido que Sus Clientes Valoren | LM, 10/27",
+   "inicio": "2026-10-27T16:00-05:00",
+   "fin": "2026-10-27T18:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/crear-contenido-que-sus-clientes-valoren-lm-1027-tickets-2002096449375",
+   "inscripcion": "https://www.eventbrite.com/e/crear-contenido-que-sus-clientes-valoren-lm-1027-tickets-2002096449375",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "",
+   "descripcion": "Aprenda a crear contenido llamativo para su sitio web, correo electrónico y redes sociales.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194139990%2F1903429193663%2F1%2Foriginal.20260922-204856?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bda54aa53bf0c0edaa46c19f78c8d9e5",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-10-03T22:54-05:00"
   },
   {
    "id": "devpost:30984",
@@ -5379,6 +5352,34 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-09-28T16:40-05:00"
+  },
+  {
+   "id": "eb:2002172764636",
+   "titulo": "Comercialización a Traves de Las Redes Sociales | LM, 11/3",
+   "inicio": "2026-11-03T17:00-05:00",
+   "fin": "2026-11-03T19:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/comercializacion-a-traves-de-las-redes-sociales-lm-113-tickets-2002172764636",
+   "inscripcion": "https://www.eventbrite.com/e/comercializacion-a-traves-de-las-redes-sociales-lm-113-tickets-2002172764636",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "",
+   "descripcion": "Desarrolle una presencia en redes sociales que fortalezca el reconocimiento de su marca.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194231557%2F1903429193663%2F1%2Foriginal.20260923-205302?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=be2bf7e11a2c55295e70b525be9ebf0a",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-10-03T22:54-05:00"
   },
   {
    "id": "eb:2002800032812",
@@ -9961,6 +9962,34 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31053",
+   "titulo": "Hack Dearborn: Conjure Reality",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "University of Michigan-Dearborn",
+   "distrito": "University of Michigan-Dearborn",
+   "modalidad": "Presencial",
+   "url": "https://hack-dearborn-5.devpost.com/",
+   "inscripcion": "https://hack-dearborn-5.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Major League Hacking",
+   "descripcion": "Hackathon presencial en University of Michigan-Dearborn. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/137/439/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 26,
+   "puntaje": 49,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:30877",
    "titulo": "WolfHacks 2026 by ACM NCSU",
    "tipo": "hackathon",
@@ -10014,34 +10043,6 @@
    "afinidad": 26,
    "puntaje": 47,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31053",
-   "titulo": "Hack Dearborn: Conjure Reality",
-   "tipo": "hackathon",
-   "inicio": "2026-10-03T00:00-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "lugar": "University of Michigan-Dearborn",
-   "distrito": "University of Michigan-Dearborn",
-   "modalidad": "Presencial",
-   "url": "https://hack-dearborn-5.devpost.com/",
-   "inscripcion": "https://hack-dearborn-5.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Major League Hacking",
-   "descripcion": "Hackathon presencial en University of Michigan-Dearborn. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/137/439/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 26,
-   "puntaje": 49,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30500",
@@ -10754,7 +10755,7 @@
    "organizador": "ACM UTSA",
    "descripcion": "Hackathon presencial en San Pedro II. Temas: Beginner Friendly, Cybersecurity, Web. Premios: $0.",
    "gratis": true,
-   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/498/816/datas/medium_square.png",
    "motivo": "solo por invitación",
    "categorias": [
     "Competencias y hackathons"
@@ -10791,33 +10792,6 @@
    "afinidad": 26,
    "puntaje": 42,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31513",
-   "titulo": "CSIT RE:Uni Hackathon 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-02T00:00-05:00",
-   "fin": "2026-10-03T23:59-05:00",
-   "cierre": "2026-10-03T23:59-05:00",
-   "lugar": "80.04.011, RMIT University",
-   "distrito": "80.04.011",
-   "modalidad": "Presencial",
-   "url": "https://csit-re-uni-hackathon-2026.devpost.com/",
-   "inscripcion": "https://csit-re-uni-hackathon-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "CSIT Society",
-   "descripcion": "Hackathon presencial en 80.04.011, RMIT University. Temas: Beginner Friendly, Education, Social Good. Premios: $1,000.",
-   "gratis": true,
-   "imagen": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 9,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31568",
@@ -10864,6 +10838,33 @@
    "descripcion": "Hackathon presencial en University of Michigan Duderstadt Center. Temas: Beginner Friendly, Open Ended. Premios: $15,800.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/372/670/datas/medium_square.jpeg",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 6,
+   "puntaje": 29,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31600",
+   "titulo": "Dream Team Engineering Designathon 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-03T00:00-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "lugar": "University of Florida - Newell Hall",
+   "distrito": "University of Florida - Newell Hall",
+   "modalidad": "Presencial",
+   "url": "https://dte-designathon-2026.devpost.com/",
+   "inscripcion": "https://dte-designathon-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Dream Team Engineering",
+   "descripcion": "Hackathon presencial en University of Florida - Newell Hall. Temas: Design, Health, Open Ended. Premios: $700.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/494/723/datas/medium_square.png",
    "motivo": "solo por invitación",
    "categorias": [
     "Competencias y hackathons"
@@ -10988,7 +10989,7 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-03T18:30-05:00",
+  "fecha": "2026-10-03T22:54-05:00",
   "revisados": 253,
   "corregidos": 15,
   "avisos": 6,
@@ -11164,7 +11165,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 1,
+   "comprobados": 3,
    "rotos": 5,
    "sin_comprobar": 2
   },
@@ -11210,6 +11211,14 @@
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
    "fecha_mencionada": ""
+  },
+  {
+   "titulo": "FIL Lima 2026: Todo lo que debes saber sobre la última semana de la feria",
+   "url": "https://peru21.pe/cultura/fil-lima-2026-todo-lo-que-debes-saber-sobre-la-ultima-semana/",
+   "medio": "Peru21",
+   "publicado": "Sun, 02 Aug 2026 01:01:00 GMT",
+   "resumen": "Para el lunes 3, una de las presentaciones más destacadas será la de Los ojos del cielo, de Luis Fernando Cueto, ganador del Premio Novela Corta Julio Ramón Ribeyro 2026. Tendrá la participación del ...",
+   "fecha_mencionada": ""
   }
  ],
  "inscripciones_abiertas": [
@@ -11233,6 +11242,13 @@
    "medio": "Linktree de Universidad Científica del Sur",
    "fecha_mencionada": "",
    "nota": "forms.cloud.microsoft no permite robots"
+  },
+  {
+   "titulo": "Prácticas Que Marcan (Universia)",
+   "url": "https://www.universia.net/pe/evento-empleabilidad/practicas-que-marcan",
+   "medio": "Linktree de Universia y Universidad Científica del Sur",
+   "fecha_mencionada": "",
+   "nota": "sin fecha legible en la inscripción"
   },
   {
    "titulo": "Charlas informativas del Disney Academic Exchange Program",
@@ -11439,7 +11455,6 @@
   "wikicfp:201407": "2026-09-26T08:43-05:00",
   "wikicfp:202890": "2026-09-26T08:43-05:00",
   "wikicfp:192921": "2026-09-26T08:43-05:00",
-  "pucp:lab-de-ideas-disenar-nuevos-mapas-de-esperanza-desde-la-pucp": "2026-09-26T09:22-05:00",
   "eb:2001674824283": "2026-09-26T09:22-05:00",
   "luma:evt-HEUVJOiJdMd2xI7": "2026-09-26T09:22-05:00",
   "luma:evt-1DFEpbKwtDMBQ7e": "2026-09-26T09:22-05:00",
@@ -11503,7 +11518,6 @@
   "luma:evt-upa7CVPjW00l5tU": "2026-09-28T07:42-05:00",
   "luma:evt-xcQM7zjhpT66EDW": "2026-09-28T07:42-05:00",
   "wikicfp:203462": "2026-09-28T07:42-05:00",
-  "meetup:316752122": "2026-09-28T16:03-05:00",
   "pucp:distincion-de-profesor-honorario-doctor-jose-luis-torero-cullen-25092026170148": "2026-09-28T16:03-05:00",
   "luma:evt-FGUzjLGpiV5QHE8": "2026-09-28T16:03-05:00",
   "devpost:31103": "2026-09-28T16:03-05:00",
@@ -11586,6 +11600,8 @@
   "opportunitydesk:https-opportunitydesk-org-2026-10-03-citiesrise-fellowship-2026-": "2026-10-03T15:30-05:00",
   "luma:evt-CPD3HexYKVn1zg2": "2026-10-03T15:30-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-03-loeb-fellowship-2027-2028-": "2026-10-03T15:30-05:00",
-  "devpost:31458": "2026-10-03T18:30-05:00"
+  "devpost:31098": "2026-10-03T22:54-05:00",
+  "eb:2002096449375": "2026-10-03T22:54-05:00",
+  "eb:2002172764636": "2026-10-03T22:54-05:00"
  }
 }
