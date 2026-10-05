@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-04T18:48-05:00",
+ "actualizado": "2026-10-04T22:39-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 95
+   "n": 96
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 23
+   "n": 24
   },
   "Meetup": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 396,
+ "revisados": 398,
  "top": 55,
  "eventos": [
   {
@@ -257,6 +257,34 @@
    "puntaje": 36,
    "por_que": "Formativo · Universidad · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "luma:evt-ko80Zz9dpDIgyhY",
+   "titulo": "🎟️ Peru Startup Summit 2026 | Becas Comunidad",
+   "inicio": "2026-10-05T09:00-05:00",
+   "fin": "2026-10-05T21:00-05:00",
+   "lugar": "C. Barcelona 240, San Isidro",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/9edqbqre",
+   "fuente": "Luma",
+   "organizador": "Kenny Lazo",
+   "descripcion": "Beneficio exclusivo para docentes\nEl CIP Lima y Startup Grind Perú te invitan al Peru Startup Summit, un encuentro de innovación, tecnología, emprendimiento e inversión que reunirá a profesionales, empresas, emprendedores y líderes del ecosistema.\nSerá una jornada completa con la participación de representantes de organizaciones y empresas como IBM Perú, COFIDE, Ferreycorp, Ministerio de la Producción, SNI, Huawei Perú, AJE, ProInnóvate, SNI, Netzun, B Venture Capital, ISD y Ancestral Tech, entre otras.\nDurante el evento podrás conocer de primera mano cómo la inteligencia artificial está transformando el trabajo y las empresas, hacia dónde se está dirigiendo la inversión en la región, los ca",
+   "gratis": false,
+   "imagen": "https://images.lumacdn.com/uploads/tt/320ab65e-bc10-4b36-ab3d-2f8990312c2b.jpg",
+   "inscripcion": "https://lu.ma/9edqbqre",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 28,
+   "afinidad": 32,
+   "puntaje": 60,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Presencial en Lima · Afín: Inteligencia artificial",
+   "visto_desde": "2026-10-04T22:39-05:00"
   },
   {
    "id": "luma:evt-81u8zmfC46hQsD5",
@@ -1157,7 +1185,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $977,280.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $1,097,385.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
    "categorias": [
@@ -5181,6 +5209,37 @@
     "titulo": "LA DECANATRÓN UNMSM 2"
    },
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "eb:2002831931221",
+   "titulo": "Congreso Internacional de Educación 2026",
+   "inicio": "2026-10-30T18:00-05:00",
+   "fin": "2026-10-30T21:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.mx/e/congreso-internacional-de-educacion-2026-tickets-2002831931221",
+   "inscripcion": "https://www.eventbrite.com.mx/e/congreso-internacional-de-educacion-2026-tickets-2002831931221",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "unidad eDUCA",
+   "descripcion": "Únete al Congreso Internacional de Educación 2026 en línea y descubre lo último en innovación educativa.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194929114%2F2999541133107%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=f58a3255c01bc6a66c257d8513effdff",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 16,
+   "puntaje": 39,
+   "por_que": "Formativo · Afín: Investigación · Gratis · Afín: Emprendimiento y finanzas",
+   "original": {
+    "titulo": "CONGRESO INTERNACIONAL DE EDUCACIÓN 2026"
+   },
+   "visto_desde": "2026-10-04T22:39-05:00"
   },
   {
    "id": "meetup:315593613",
@@ -10961,9 +11020,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-04T18:48-05:00",
-  "revisados": 258,
-  "corregidos": 14,
+  "fecha": "2026-10-04T22:39-05:00",
+  "revisados": 260,
+  "corregidos": 15,
   "avisos": 5,
   "archivados": 1,
   "problemas": [
@@ -11070,6 +11129,14 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://lu.ma/h86j8avw"
+   },
+   {
+    "id": "eb:2002831931221",
+    "titulo": "Congreso Internacional de Educación 2026",
+    "fuente": "Eventbrite online",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://www.eventbrite.com.mx/e/congreso-internacional-de-educacion-2026-tickets-2002831931221"
    },
    {
     "id": "luma:evt-JEqjUEYW2lARMsE",
@@ -11222,13 +11289,6 @@
    "medio": "Linktree de Universidad Científica del Sur",
    "fecha_mencionada": "",
    "nota": "forms.cloud.microsoft no permite robots"
-  },
-  {
-   "titulo": "Prácticas Que Marcan (Universia)",
-   "url": "https://www.universia.net/pe/evento-empleabilidad/practicas-que-marcan",
-   "medio": "Linktree de Universia y Universidad Científica del Sur",
-   "fecha_mencionada": "",
-   "nota": "sin fecha legible en la inscripción"
   },
   {
    "titulo": "Charlas informativas del Disney Academic Exchange Program",
@@ -11586,6 +11646,8 @@
   "devpost:31503": "2026-10-04T15:49-05:00",
   "devpost:30789": "2026-10-04T15:49-05:00",
   "devpost:30819": "2026-10-04T15:49-05:00",
-  "devpost:28259": "2026-10-04T18:48-05:00"
+  "devpost:28259": "2026-10-04T18:48-05:00",
+  "luma:evt-ko80Zz9dpDIgyhY": "2026-10-04T22:39-05:00",
+  "eb:2002831931221": "2026-10-04T22:39-05:00"
  }
 }
