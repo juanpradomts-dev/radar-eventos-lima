@@ -1,17 +1,17 @@
 {
- "actualizado": "2026-10-05T08:24-05:00",
+ "actualizado": "2026-10-05T16:48-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 95
+   "n": 100
   },
   "Eventbrite": {
    "ok": true,
-   "n": 35
+   "n": 38
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 24
+   "n": 22
   },
   "Meetup": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 39
+   "n": 42
   },
   "IEEE Perú": {
    "ok": true,
@@ -38,9 +38,8 @@
    "n": 10
   },
   "Opportunities for Youth": {
-   "ok": false,
-   "n": 0,
-   "error": "robots.txt no permite https://opportunitiesforyouth.org/category/volunteering/feed/"
+   "ok": true,
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -48,7 +47,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 13
+   "n": 14
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,37 +58,9 @@
    "n": 0
   }
  },
- "revisados": 387,
+ "revisados": 407,
  "top": 55,
  "eventos": [
-  {
-   "id": "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-",
-   "titulo": "Agenda 2063 in Power Spaces Cohort 3: Apply for the 7-Week UNDP Online Volunteer Opportunity",
-   "tipo": "voluntariado",
-   "inicio": "2026-08-21T13:04-05:00",
-   "fin": "2026-08-21T13:04-05:00",
-   "cierre": "",
-   "publicado": "2026-08-21T13:04-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://opportunitiesforyouth.org/2026/08/21/agenda-2063-in-power-spaces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/21/agenda-2063-in-power-spaces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Agenda 2063 in Power Spaces – Cohort 3 Are you passionate about Africa’s development, leadership, public policy, education, entrepreneurship, community development, or the long-term vision of The Africa We Want? The Agenda 2063 in Power Spaces – Cohort 3 offers an opportunity to take part in a structured seven-week online learning and volunteer experience designed […]\n\nThe post Agenda 2063 in Power Spaces Cohort 3: Apply for the 7-Week UNDP Online Volunteer Opportunity appeared first on Opportunities for Youth.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 15,
-   "afinidad": 0,
-   "puntaje": 15,
-   "por_que": "Voluntariado · Evento sin formato claro · Virtual",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
   {
    "id": "opportunitiesforyouth:advisory-board-2027-2028-applications-open-for-young-people-worldwide-",
    "titulo": "Born This Way Foundation Youth Advisory Board 2027–2028: Applications Open for Young People Worldwide",
@@ -177,33 +148,6 @@
    "visto_desde": "2026-10-03T15:30-05:00"
   },
   {
-   "id": "eb:2001604990408",
-   "titulo": "ONIET30 I Charla Abierta \"La innovación como filosofía en Aguas Cordobesas\"",
-   "inicio": "2026-10-05T08:00-05:00",
-   "fin": "2026-10-05T09:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.ar/e/oniet30-i-charla-abierta-la-innovacion-como-filosofia-en-aguas-cordobesas-tickets-2001604990408",
-   "inscripcion": "https://www.eventbrite.com.ar/e/oniet30-i-charla-abierta-la-innovacion-como-filosofia-en-aguas-cordobesas-tickets-2001604990408",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Universidad Blas Pascal",
-   "descripcion": "¿Qué necesita una idea para transformarse en una solución?",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194232394%2F2995124040391%2F1%2Foriginal.20260923-210333?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e54888e58a365ad98cfe8207fef89d8d",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 30,
-   "afinidad": 6,
-   "puntaje": 36,
-   "por_que": "Formativo · Universidad · Gratis · Afín: Emprendimiento y finanzas",
-   "visto_desde": "2026-09-27T16:59-05:00"
-  },
-  {
    "id": "luma:evt-ko80Zz9dpDIgyhY",
    "titulo": "🎟️ Peru Startup Summit 2026 | Becas Comunidad",
    "inicio": "2026-10-05T09:00-05:00",
@@ -260,37 +204,10 @@
    "visto_desde": "2026-10-02T12:19-05:00"
   },
   {
-   "id": "eb:2000303480557",
-   "titulo": "ONIET30 I Charla Abierta \"Tecnología y Triple Impacto\"",
-   "inicio": "2026-10-05T09:00-05:00",
-   "fin": "2026-10-05T10:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.ar/e/oniet30-i-charla-abierta-tecnologia-y-triple-impacto-tickets-2000303480557",
-   "inscripcion": "https://www.eventbrite.com.ar/e/oniet30-i-charla-abierta-tecnologia-y-triple-impacto-tickets-2000303480557",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Universidad Blas Pascal",
-   "descripcion": "Sponsor: Circularis",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194232453%2F2995124040391%2F1%2Foriginal.20260923-210413?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ad8b8d09fd6eb4b53c5112db1fbfa576",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 30,
-   "afinidad": 0,
-   "puntaje": 30,
-   "por_que": "Formativo · Universidad · Gratis · Virtual",
-   "visto_desde": "2026-09-27T16:59-05:00"
-  },
-  {
    "id": "pucp:imaginario-en-disputa-publicidad-raza-genero-y-poder-29092026173204",
    "titulo": "Imaginario en disputa: Publicidad, raza, género y poder",
-   "inicio": "2026-10-05T10:00-05:00",
-   "fin": "2026-10-05T13:00-05:00",
+   "inicio": "2026-10-06T10:00-05:00",
+   "fin": "2026-10-06T13:00-05:00",
    "lugar": "PUCP",
    "distrito": "San Miguel",
    "modalidad": "Presencial",
@@ -313,34 +230,6 @@
    "puntaje": 47,
    "por_que": "Competencia · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-09-30T12:29-05:00"
-  },
-  {
-   "id": "devpost:31098",
-   "titulo": "Graphiques Innovation Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-08-21T00:00-05:00",
-   "fin": "2026-10-05T23:59-05:00",
-   "cierre": "2026-10-05T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://graphiques-challenge.devpost.com/",
-   "inscripcion": "https://graphiques-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-03T22:54-05:00"
   },
   {
    "id": "eb:2002229973750",
@@ -562,7 +451,7 @@
    "organizador": "Club del Bitcoin",
    "descripcion": "PANEL IA: Búsqueda de Conciencia y Empatía en LLMs 🧠🤖⚡\n📍 Dirección: Av. José Larco 770, Miraflores (Piso 3)\r\n⏰ Día y Hora: Miércoles 07 de Octubre — 6:30pm\r\n👤 Modalidad: Presencial🔗 Link de registro: https://luma.com/d16sv8jp\n¿Son los grandes modelos de lenguaje simples herramientas estadísticas de predicción o estamos presenciando el surgimiento de empatía funcional y destellos de razonamiento sintético? 🚀\nEn esta nueva edición presencial del ClubDelBitcoin dejamos de lado el hype superficial para abrir un debate técnico, ético y filosófico sobre la verdadera frontera de la inteligencia artificial.\n🎙️ Moderación del Panel:\nDana Amaya es comunicadora y fundadora de AMAYA PR, agencia enfocada",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/5s/a8dcfc4c-6538-41bd-aa3e-390f69d9c643.png",
+   "imagen": "https://images.lumacdn.com/uploads/3s/18ef82c7-37f9-4b7e-8a3f-f50837ffbf5b.png",
    "inscripcion": "https://lu.ma/5io7a89v",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -686,6 +575,41 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-10-02T04:19-05:00"
+  },
+  {
+   "id": "inst:sni-prueba-evento-sni:2026-10-08",
+   "titulo": "Prueba Evento Sni",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-08T10:00-05:00",
+   "fin": "2026-10-08T11:00-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/EJEMPLO-EVT1-1.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 22,
+   "afinidad": 0,
+   "puntaje": 22,
+   "por_que": "Evento institucional · Presencial en Lima · Evento sin formato claro",
+   "original": {
+    "descripcion": "Prueba Evento Sni"
+   },
+   "visto_desde": "2026-10-05T16:48-05:00"
   },
   {
    "id": "eb:1996809633366",
@@ -834,6 +758,34 @@
     "titulo": "RIMAN CONTIGO | PERÚ '26"
    },
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "luma:evt-607bSMMafweUAk2",
+   "titulo": "Café con IA - Edición Corporativa (Lima, Perú)",
+   "inicio": "2026-10-09T19:00-05:00",
+   "fin": "2026-10-09T21:00-05:00",
+   "lugar": "Miraflores, Perú",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/9o6fnnla",
+   "fuente": "Luma",
+   "organizador": "Club IA Legal",
+   "descripcion": "Café con IA – Edición Corporativa es un encuentro presencial de networking dirigido a abogados y profesionales vinculados con el derecho corporativo, societario, contractual, inmobiliario, registral, notarial y áreas afines.\nLa idea es reunir a un grupo con intereses profesionales complementarios para conversar en un ambiente cercano, intercambiar experiencias, compartir perspectivas sobre el impacto de la inteligencia artificial en la práctica jurídica y generar nuevas conexiones, colaboraciones y oportunidades profesionales.\nEste encuentro está pensado para quienes valoran el networking de calidad, el intercambio entre pares y la posibilidad de construir vínculos más allá de los espacios v",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/gr/c4073d51-cdac-4c63-89fd-5a8d6d5fdc78.png",
+   "inscripcion": "https://lu.ma/9o6fnnla",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 27,
+   "afinidad": 20,
+   "puntaje": 47,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Presencial en Lima · Afín: Becas y posgrado",
+   "visto_desde": "2026-10-05T16:48-05:00"
   },
   {
    "id": "meetup:315593587",
@@ -987,7 +939,7 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/f0tekykw",
    "fuente": "Luma",
-   "organizador": "Eduardo Ruiz, Club Blockchain UPC",
+   "organizador": "StarMaker LATAM | Stellar Ambassador Program",
    "descripcion": "¿Quieres pasar de la idea a algo funcionando en una sola sesión? Este workshop es para ti.\nUn espacio práctico para aprender sobre blockchain y construir sobre Stellar, en UTEC. Aprender haciendo: salimos con algo en las manos, no solo con teoría.\nOrganizado con el apoyo de las comunidades IEEE CS UTEC y Blockchain UPC, y con la colaboración de BAF y el programa de embajadores de Stellar.\n🔥 ¿Qué puedes esperar?\n🧠 Fundamentos claros: entiende cómo funciona Stellar y por qué importa en el ecosistema\n\n🛠️ Práctica guiada: trabaja paso a paso con herramientas reales y acompañamiento en vivo\n\n🚀 Ideas con propósito: descubre cómo llevar lo aprendido a un MVP propio\n\n🤝 Networking: conoce a otros bui",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/1m/4f99b64e-417d-4102-9429-fbe710d19dc3.png",
@@ -1063,7 +1015,7 @@
    "id": "luma:evt-tFdPEMmgyASMcvu",
    "titulo": "Tech & Innovation Grill",
    "inicio": "2026-10-10T19:00-05:00",
-   "fin": "2026-10-11T00:00-05:00",
+   "fin": "2026-10-11T00:30-05:00",
    "lugar": "Miraflores, Perú",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
@@ -1072,7 +1024,7 @@
    "organizador": "Perú Tech Week 2026",
    "descripcion": "🔥 Tech & 𝗜𝗻𝗻𝗼𝘃𝗮𝘁𝗶𝗼𝗻 𝗚𝗿𝗶𝗹𝗹 🔥\nHorizonte Blockchain & Orquezta presentan la 4ta Edición del Tech & Innovation Grill. Un evento que reúne founders, inversionistas, empresarios y líderes de innovación y tecnología en una noche de networking de alto valor.\nUna parrilla🥩, buena música y conversaciones entre quienes están construyendo el ecosistema.📍Miraflores📅 Sábado 10 de octubre🕔 7:00 PM - 12:30 AM\nUn espacio para compartir, construir y conectar:\nPresentar lo que estás creando\n\nConocer otros proyectos innovadores\n\nGenerar alianzas estratégicas.\n\n🔑 ¿Cómo participar?     Si recibiste invitación:\nRegístrate en el evento.\n\nIndica quién te invitó.¡Listo! Tu lugar está confirmado. Si no tienes invitaci",
    "gratis": false,
-   "imagen": "https://images.lumacdn.com/uploads/ic/3a7db10b-13f1-4f84-b9dd-70c959ff3a9e.png",
+   "imagen": "https://images.lumacdn.com/uploads/rg/d1955348-30a3-4bdb-9357-48eec6e3182e.png",
    "inscripcion": "https://lu.ma/kavjemla",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -1102,7 +1054,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $1,097,385.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $1,218,635.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
    "categorias": [
@@ -1225,6 +1177,34 @@
    "puntaje": 38,
    "por_que": "Afín: Investigación · Networking · Universidad · Gratis",
    "visto_desde": "2026-09-30T12:29-05:00"
+  },
+  {
+   "id": "luma:evt-KxI3L7LIHaTuMS5",
+   "titulo": "Parrilla con Amigos @ Perú Tech Week",
+   "inicio": "2026-10-12T13:00-05:00",
+   "fin": "2026-10-12T15:00-05:00",
+   "lugar": "San Isidro, Perú",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/c03dglol",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Parrilla con amigos, great food, and conversations you don’t usually get on stage. The perfect excuse to pause, connect, and share in a more authentic way, alongside people who are shaping the future of entrepreneurship in the region.\nAn Argentine barbecue, a shared toast, and honest conversations about growing, scaling, and leading in the U.S. and Latin America.\nWho's in the room:\nPre-seed and seed stage founders\n\nVenture capital funds\n\n📍 Only 15 spots. By invitation only.\nPlease note: this event will be held in Spanish.\nAbout us:\nLazo\nLazo provides incorporation, tax, bookkeeping, fractional CFO and fundraising solutions for startups, powered by AI agents and human experts. Trusted by 1,50",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/wp/e63000a3-db13-4b51-94cf-a23f1162c2b5.png",
+   "inscripcion": "https://lu.ma/c03dglol",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 12,
+   "puntaje": 41,
+   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Gratis",
+   "visto_desde": "2026-10-05T16:48-05:00"
   },
   {
    "id": "luma:evt-g4nJ9CwZ8xLZUEz",
@@ -1711,7 +1691,7 @@
   },
   {
    "id": "luma:evt-NoJaOeDnqtEgABs",
-   "titulo": "Legal Launchpad",
+   "titulo": "Legal Launchpad: Diseñando tu startup para salir de Perú x PPU & Krealo",
    "inicio": "2026-10-13T16:30-05:00",
    "fin": "2026-10-13T18:00-05:00",
    "lugar": "Av. Sta. Cruz 888, Miraflores",
@@ -1720,9 +1700,9 @@
    "url": "https://lu.ma/8kuxiohb",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "Legal Launchpad vuelve para su segunda edición, dentro de la agenda de Peru Tech Week.\nStartups, founders e inversionistas se reúnen en un mismo espacio para hablar de algo que casi nunca se discute en público: cómo lo legal puede dejar de ser un trámite y convertirse en un aliado estratégico para el ecosistema de innovación. La agenda incluye paneles, un espacio de preguntas y networking entre todos los asistentes.\nSi trabajas en una startup, inviertes en ellas o simplemente te interesa entender cómo el derecho acompaña el crecimiento de un negocio, esta es una oportunidad para escuchar experiencias concretas, conocer tendencias del sector y conectar con otros asistentes del ecosistema lega",
+   "descripcion": "Legal Launchpad vuelve junto a Krealo para su segunda edición, dentro de la agenda de Peru Tech Week.\nStartups, founders e inversionistas se reúnen en un mismo espacio para hablar de algo que casi nunca se discute en público: cómo diseñar hoy la estructura legal de una startup pensando en su salida de mañana. Si el objetivo es levantar capital fuera, expandirse a otros mercados, entre otras cosas, muchas de esas decisiones se toman —sin saberlo— desde el día en que se crea la empresa. La agenda incluye paneles, un espacio de preguntas y networking entre todos los asistentes.\nSi tienes una startup, trabajas en una, inviertes en ellas o simplemente te interesa entender cómo el derecho acompaña",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/2t/0977dfce-ee33-4a93-9d1b-8d7f19b1b3ca.png",
+   "imagen": "https://images.lumacdn.com/uploads/s7/d488e7c3-7448-4157-beca-4de49f46ab6b.jpg",
    "inscripcion": "https://lu.ma/8kuxiohb",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -1732,8 +1712,8 @@
     "Tecnología e IA"
    ],
    "valor": 24,
-   "afinidad": 4,
-   "puntaje": 28,
+   "afinidad": 6,
+   "puntaje": 30,
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-10-02T12:19-05:00"
   },
@@ -2210,6 +2190,34 @@
    "puntaje": 43,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-10-01T15:06-05:00"
+  },
+  {
+   "id": "luma:evt-P9iUvS7csoWden0",
+   "titulo": "Preparados para la continuidad: Conversatorio sobre perspectivas y estrategias ante el fenómeno del Niño",
+   "inicio": "2026-10-14T09:45-05:00",
+   "fin": "2026-10-14T11:00-05:00",
+   "lugar": "Ctra. Panamericana Sur Km 29.5, Cercado de Lima",
+   "distrito": "Cercado de Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/yurll9pf",
+   "fuente": "Luma",
+   "organizador": "Megacentro",
+   "descripcion": "En Megacentro creemos que los espacios tienen el poder de impulsar el crecimiento de las empresas, pero también de fortalecer su capacidad para afrontar los desafíos del entorno. Por ello, queremos invitarlo a participar en un conversatorio ejecutivo especialmente diseñado para compartir información y recomendaciones clave frente a los posibles impactos de el fenómeno del Niño.\nJunto a especialistas de Marsh (líder mundial en corretaje de seguros y gestión de riesgos), abordaremos los principales riesgos que podrían afectar las operaciones logísticas e industriales, así como las medidas preventivas, protocolos de actuación y alternativas de aseguramiento que contribuyen a proteger la continu",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/it/17198fee-d045-4bef-92bb-fd7f913416ee.png",
+   "inscripcion": "https://lu.ma/yurll9pf",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 16,
+   "afinidad": 12,
+   "puntaje": 28,
+   "por_que": "Formativo · Afín: Supply chain y operaciones · Presencial en Lima · Gratis · (Promociona un programa pagado)",
+   "visto_desde": "2026-10-05T16:48-05:00"
   },
   {
    "id": "luma:evt-iQcElAPhAZ5Ew2F",
@@ -2867,7 +2875,7 @@
    "id": "luma:evt-alOZlX5qP9SzYMC",
    "titulo": "Peru AI Marketing Night",
    "inicio": "2026-10-15T18:00-05:00",
-   "fin": "2026-10-15T21:00-05:00",
+   "fin": "2026-10-15T22:00-05:00",
    "lugar": "Lima, Perú",
    "distrito": "Lima",
    "modalidad": "Presencial",
@@ -4001,6 +4009,34 @@
    "visto_desde": "2026-09-28T22:49-05:00"
   },
   {
+   "id": "luma:evt-mCh1UF0frtZEvsn",
+   "titulo": "Preparados para la continuidad: Conversatorio sobre perspectivas y estrategias ante el fenómeno del Niño",
+   "inicio": "2026-10-20T09:45-05:00",
+   "fin": "2026-10-20T11:00-05:00",
+   "lugar": "Cruce, Maria Tesoro y, Lurín",
+   "distrito": "Lurín",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/04bh3ud7",
+   "fuente": "Luma",
+   "organizador": "Megacentro",
+   "descripcion": "En Megacentro creemos que los espacios tienen el poder de impulsar el crecimiento de las empresas, pero también de fortalecer su capacidad para afrontar los desafíos del entorno. Por ello, queremos invitarlo a participar en un conversatorio ejecutivo especialmente diseñado para compartir información y recomendaciones clave frente a los posibles impactos del fenómeno del Niño.Contaremos con la participación de especialistas de Marsh, líder mundial en corretaje de seguros y gestión de riesgos, quienes compartirán una visión especializada sobre los riesgos que podrían afectar las operaciones logísticas e industriales, así como las medidas preventivas, protocolos de actuación y estrategias de as",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/it/17198fee-d045-4bef-92bb-fd7f913416ee.png",
+   "inscripcion": "https://lu.ma/04bh3ud7",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 15,
+   "afinidad": 12,
+   "puntaje": 27,
+   "por_que": "Abre puertas (beca/programa) · Afín: Supply chain y operaciones · Presencial en Lima · Gratis · (Promociona un programa pagado)",
+   "visto_desde": "2026-10-05T16:48-05:00"
+  },
+  {
    "id": "devpost:30588",
    "titulo": "EurekaDev 2026",
    "tipo": "hackathon",
@@ -4228,6 +4264,34 @@
    "visto_desde": "2026-10-02T16:45-05:00"
   },
   {
+   "id": "luma:evt-CTCMrdySmYWXTbk",
+   "titulo": "RUTA 2027: El camino hacia lo que sigue",
+   "inicio": "2026-10-22T09:00-05:00",
+   "fin": "2026-10-22T14:00-05:00",
+   "lugar": "Av Giuseppe Garibaldi 396, Jesús María, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/1o3rkbde",
+   "fuente": "Luma",
+   "organizador": "Stefany Gomes, Nory Ortega",
+   "descripcion": "El futuro de la gestión empresarial ya está tomando forma. Y queremos recorrerlo contigo.\nRUTA 2027 es un encuentro exclusivo para clientes Ramo, creado para compartir soluciones, tendencias y nuevas tecnologías que están transformando la manera de gestionar los negocios.\nDurante el evento, podrás elegir entre dos salas de contenido simultáneas:\n💼 Negocios y FinanzasSoluciones para optimizar procesos, automatizar la gestión financiera y tener mayor control sobre la información del negocio.\n💻 TI & TecnologíaInteligencia Artificial, analítica, ciberseguridad y nuevas formas de potenciar SAP Business One a través de la tecnología.\nAdemás, conocerás de cerca novedades como RAMO Insight – Finanza",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/yz/5780ab32-eef4-4028-8ff9-78fb1c1c1e23.jpg",
+   "inscripcion": "https://lu.ma/1o3rkbde",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 24,
+   "puntaje": 53,
+   "por_que": "Afín: Datos y machine learning · Networking · Presencial en Lima · Afín: Inteligencia artificial",
+   "visto_desde": "2026-10-05T16:48-05:00"
+  },
+  {
    "id": "eb:2000250909315",
    "titulo": "Sostenibilidad en el Sector Turístico: de la Teoría a la Rentabilidad",
    "inicio": "2026-10-22T10:00-05:00",
@@ -4273,7 +4337,7 @@
    "organizador": "COMMUNITY OF INSURANCE",
    "descripcion": "Sabadell Seguros combina tecnología y escucha para mejorar la experiencia del cliente, personalizar la atención y aumentar la retención.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193639605%2F137153727275%2F1%2Foriginal.20260916-103451?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1a6f6a7e87657758a17839fd52dec01f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193639605%2F137153727275%2F1%2Foriginal.20260916-103451?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=071f08b381a68f41544eb208f883e48f",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4339,6 +4403,61 @@
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "pucp:feria-de-especialidades-en-ciencias-e-ingenieria-2026-05102026104227",
+   "titulo": "Feria de Especialidades en Ciencias e Ingeniería 2026",
+   "inicio": "2026-10-22T12:00-05:00",
+   "fin": "2026-10-22T14:45-05:00",
+   "lugar": "Estudios Generales Ciencias (Pabellón E)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/feria-de-especialidades-en-ciencias-e-ingenieria-2026-05102026104227/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La Feria de Especialidades es el espacio ideal para descubrir o reafirmar tu vocación y conocer más sobre las carreras de Ciencias e Ingeniería de la PUCP. A través de stands informativos, charlas y conversatorios, podrás conversar con estudiantes, egresados y docentes de las distintas especialidades de la FCI y conocer de cerca sus experiencias.\n \nLa feria se realiza en el marco del proceso de cambio de especialidad, para ayudarte a tomar una decisión más informada sobre tu futuro profesional. Además, podrás participar en sorteos y llevarte premios y regalos.\n \n¡Infórmate, conversa y encuentra la especialidad que va contigo!en Ciencias e Ingeniería, organizada por la Oficina de Bienestar Ci",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/AGENDA_DCI_PUCP_1_c84b85030a.png",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/feria-de-especialidades-en-ciencias-e-ingenieria-2026-05102026104227/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-10-05T16:48-05:00"
+  },
+  {
+   "id": "pucp:genero-masculinidades-y-tb-en-el-peru-05102026114900",
+   "titulo": "Género, Masculinidades y TB en el Perú",
+   "inicio": "2026-10-22T12:30-05:00",
+   "fin": "2026-10-22T14:00-05:00",
+   "lugar": "Sala de Reuniones del piso 9 del Complejo de Ciencias Sociales",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/genero-masculinidades-y-tb-en-el-peru-05102026114900/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El próximo jueves 22 de octubre, los invitamos a la sexta sesión del ciclo de conversatorios “La investigación en el Departamento de Ciencias Sociales”.\n \nCamila Gianella, docente de la sección de Ciencia Política, presentará el tema: \"Género, Masculinidades y TB en el Perú\".\n \nJueves 22 de octubre\n12:30 p.m.\nSala de reuniones 1 (piso 9), Complejo de Ciencias Sociales",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://forms.gle/cXq3j5Jiw5R7CQab9",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 25,
+   "afinidad": 8,
+   "puntaje": 33,
+   "por_que": "Presencial en Lima · Afín: Investigación · Universidad · Gratis",
+   "visto_desde": "2026-10-05T16:48-05:00"
   },
   {
    "id": "pucp:seminario-de-matematica-una-introduccion-a-las-foliaciones-lineales-en-toros-reales-y-complejos-25092026060119",
@@ -4536,6 +4655,33 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "pucp:feape-2026-05102026102819",
+   "titulo": "FEAPE 2026",
+   "inicio": "2026-10-24T00:00-05:00",
+   "fin": "2026-10-24T23:59-05:00",
+   "lugar": "Facultad de Ciencias Contables (Pabellón G)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/feape-2026-05102026102819/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La Facultad de Ciencias Contables PUCP invita a sus estudiantes y egresados a participar en el Fondo Extraordinario de Apoyo a la Investigación para Estudiantes 2026 – FEAPE 2026, iniciativa desarrollada junto con el Vicerrectorado de Investigación (VRI).\nEste fondo busca apoyar el desarrollo de tesis de licenciatura y reconocer los trabajos de investigación más relevantes, coherentes y viables.\n¿Quiénes pueden postular?\nPueden participar estudiantes y egresados de la Facultad de Ciencias Contables que cuenten con:\nUna tesis en desarrollo con al menos 70% de avance.\nUna tesis culminada con informe favorable del asesor.\nAdemás, los postulantes no deben haber ganado el FEAPE en ediciones anter",
+   "gratis": false,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_pucp_dc92cc7c31.png",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSfkH9ZbdMHVq-GfJPg5czyksDga2Ot0F8qNNYCTtqoA9uNG8Q/viewform",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 31,
+   "afinidad": 8,
+   "puntaje": 39,
+   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Investigación · Universidad",
+   "visto_desde": "2026-10-05T16:48-05:00"
+  },
+  {
    "id": "luma:evt-2YEfVogNTpTzVOz",
    "titulo": "Next Is You: Tu camino para crear, aprender, construir y trascender",
    "inicio": "2026-10-24T09:00-05:00",
@@ -4548,7 +4694,7 @@
    "organizador": "Ludwing Wily Vilca Torres, Yuber Soto Quispe",
    "descripcion": "Un espacio diseñado para inspirarte, capacitarte y mostrarte cómo llevar tus ideas al siguiente nivel. A través de cuatro ejes clave, descubrirás que tienes las herramientas y la capacidad para generar un impacto real:\n💡 1. CREA — Descubre lo que puedes hacer Descubre nuevas posibilidades e historias reales para dar el primer paso. Hablaremos de emprendimiento, innovación, proyectos personales y cómo la tecnología puede ser tu mejor aliada para crear.\n📚 2. APRENDE — Desarrolla las capacidades que necesitas Conoce las habilidades técnicas y humanas que exige el mercado laboral. Descubre cómo potenciar tu perfil con Inteligencia Artificial, datos, marca personal, networking y cómo prepararte p",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/c6/77f7db40-1074-479d-9ec2-5591390da944.png",
+   "imagen": "https://images.lumacdn.com/uploads/9a/64258932-6d33-4ab3-af05-92d84f7beda1.png",
    "inscripcion": "https://lu.ma/4a4yursa",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -6674,6 +6820,33 @@
    "visto_desde": "2026-10-04T15:49-05:00"
   },
   {
+   "id": "wikicfp:192324",
+   "titulo": "MECN  2026 : 7th International Conference on Mechanical Engineering",
+   "tipo": "call for papers",
+   "inicio": "2026-12-29T00:00-05:00",
+   "fin": "2026-12-30T23:59-05:00",
+   "cierre": "",
+   "lugar": "Virtual Conference",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192324&copyownerid=46167",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192324&copyownerid=46167",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: 7th International Conference on Mechanical Engineering. Lugar: Virtual Conference. Fechas del congreso: Dec 29, 2026 - Dec 30, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 17,
+   "afinidad": 20,
+   "puntaje": 37,
+   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Virtual",
+   "visto_desde": "2026-10-05T16:48-05:00"
+  },
+  {
    "id": "devpost:31108",
    "titulo": "InnovArt 2027: Art and Technology Hack Day",
    "tipo": "hackathon",
@@ -7939,33 +8112,6 @@
    "afinidad": 26,
    "puntaje": 43,
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
-  },
-  {
-   "id": "wikicfp:170104",
-   "titulo": "ITSC 2023 : 26th IEEE International Conference on Intelligent Transportation Systems",
-   "tipo": "call for papers",
-   "inicio": "2023-09-24T00:00-05:00",
-   "fin": "2023-09-28T23:59-05:00",
-   "cierre": "",
-   "lugar": "Bilbao, Spain",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170104&copyownerid=2731",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170104&copyownerid=2731",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: 26th IEEE International Conference on Intelligent Transportation Systems. Lugar: Bilbao, Spain. Fechas del congreso: Sep 24, 2023 - Sep 28, 2023.",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "congreso ya realizado",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 24,
-   "afinidad": 20,
-   "puntaje": 44,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Gremio o institución"
   },
   {
    "id": "wikicfp:175811",
@@ -9413,6 +9559,56 @@
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
   },
   {
+   "id": "eb:2002957885955",
+   "titulo": "Lanzamiento línea para niños: Croksy Kids",
+   "inicio": "2026-10-24T14:00-05:00",
+   "fin": "2026-10-24T19:00-05:00",
+   "lugar": "Av. San Borja Sur 147, 147 Avenida San Borja Sur",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/entradas-lanzamiento-linea-para-ninos-croksy-kids-2002957885955",
+   "fuente": "Eventbrite",
+   "organizador": "Croksy",
+   "descripcion": "Descubre nuestra nueva línea para los pequeños de la casa, llena de vibrantes colores y divertidos diseños: Croksy Kids.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1eb2b337ddc3ab1f5b5a82cd7513eb92",
+   "inscripcion": "https://www.eventbrite.com/e/entradas-lanzamiento-linea-para-ninos-croksy-kids-2002957885955",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
+   "id": "eb:2002948889045",
+   "titulo": "Día de la Sorpresa",
+   "inicio": "2026-10-24T16:00-05:00",
+   "fin": "2026-10-24T20:00-05:00",
+   "lugar": "Parque de la Amistad, 22 Avenida Caminos del Inca",
+   "distrito": "Santiago de Surco",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/dia-de-la-sorpresa-tickets-2002948889045",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "¡Prepárate para un día lleno de risas, juegos y sorpresas que nunca olvidarás!",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195085300%2F3016599390867%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=cb8a1170fd413613a8fb6900f3139d30",
+   "inscripcion": "https://www.eventbrite.com/e/dia-de-la-sorpresa-tickets-2002948889045",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · (Poca información)"
+  },
+  {
    "id": "luma:evt-GLwRx4ShOsnRtGN",
    "titulo": "2do Aniversario WPlace",
    "inicio": "2026-10-24T18:00-05:00",
@@ -9663,6 +9859,91 @@
    "por_que": "Networking · Presencial en Lima · Gratis"
   },
   {
+   "id": "opportunitiesforyouth:-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children-",
+   "titulo": "UNICEF Club Registration 2026–2027: How to Start or Renew a UNICEF USA Club and Take Action for Children",
+   "tipo": "voluntariado",
+   "inicio": "2026-08-27T19:08-05:00",
+   "fin": "2026-08-27T19:08-05:00",
+   "cierre": "",
+   "publicado": "2026-08-27T19:08-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The UNICEF USA Club Registration for the 2026–2027 school year is now open for students and schools interested in taking action for children in the United States and around the world. The initiative provides an opportunity for students to establish or continue a UNICEF Club and participate in activi",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "no es una convocatoria (artículo o consejos)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 22,
+   "afinidad": 0,
+   "puntaje": 22,
+   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
+   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-12T23:59-05:00",
+   "fin": "2026-09-12T23:59-05:00",
+   "cierre": "2026-09-12T23:59-05:00",
+   "publicado": "2026-09-04T14:38-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
+   "gratis": false,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Tecnología e IA"
+   ],
+   "valor": 36,
+   "afinidad": 28,
+   "puntaje": 64,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Voluntariado · Afín: Investigación"
+  },
+  {
+   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-10-01-commonwealth-youth-2026-",
+   "titulo": "Commonwealth Youth Council Wellbeing Champions 2026: Join the “Are You Okay?” Youth Mental Health Campaign Across the Commonwealth",
+   "tipo": "voluntariado",
+   "inicio": "2026-10-04T23:59-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "publicado": "2026-10-01T00:57-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/10/01/commonwealth-youth-2026/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/10/01/commonwealth-youth-2026/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Applications are now open for young people across the Commonwealth to become Wellbeing Champions for the Commonwealth Youth Council’s “Are You Okay?” Campaign, a Commonwealth-wide youth mental health and wellbeing initiative focused on starting conversations, listening to young people, strengthening",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Formativo · Voluntariado · Plazo claro · Se postula en línea"
+  },
+  {
    "id": "devpost:30539",
    "titulo": "HTCJ × PROOF Aviation Futures Challenge",
    "tipo": "hackathon",
@@ -9898,7 +10179,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "Hackyard Technologies Pvt limited",
-   "descripcion": "Hackathon presencial en IIT Guwahati. Temas: Beginner Friendly, Open Ended, Low/No Code. Premios: $0.",
+   "descripcion": "Hackathon presencial en IIT Guwahati. Temas: Beginner Friendly, Open Ended, Low/No Code. Premios: ₹ 447,500.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/343/722/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
@@ -10048,6 +10329,34 @@
    "afinidad": 29,
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-",
+   "titulo": "Agenda 2063 in Power Spaces Cohort 3: Apply for the 7-Week UNDP Online Volunteer Opportunity",
+   "tipo": "voluntariado",
+   "inicio": "2026-08-21T13:04-05:00",
+   "fin": "2026-08-21T13:04-05:00",
+   "cierre": "",
+   "publicado": "2026-08-21T13:04-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/21/agenda-2063-in-power-spaces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/21/agenda-2063-in-power-spaces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Agenda 2063 in Power Spaces – Cohort 3 Are you passionate about Africa’s development, leadership, public policy, education, entrepreneurship, community development, or the long-term vision of The Africa We Want? The Agenda 2063 in Power Spaces – Cohort 3 offers an opportunity to take part in a struc",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "publicación antigua sin fecha límite",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 15,
+   "afinidad": 0,
+   "puntaje": 15,
+   "por_que": "Voluntariado · Evento sin formato claro · Se postula en línea"
   },
   {
    "id": "devpost:30500",
@@ -10472,6 +10781,31 @@
    "por_que": "Networking · Presencial en Lima · Gratis"
   },
   {
+   "id": "eb:2002952085606",
+   "titulo": "ZIZA LED PARTY",
+   "inicio": "2026-10-09T21:00-05:00",
+   "fin": "2026-10-10T06:30-05:00",
+   "lugar": "Discoteca Tequila Boom, 1602 Avenida de la Marina",
+   "distrito": "Pueblo Libre",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/ziza-led-party-tickets-2002952085606",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "¡Enciende tu glow y rompe la noche en ZIZA LED PARTY!",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195094320%2F3016606211278%2F1%2Foriginal.20261005-165145?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=865221899aec61de332c72852f58f08b",
+   "inscripcion": "https://www.eventbrite.com.pe/e/ziza-led-party-tickets-2002952085606",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (party)",
+   "categorias": [],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · (Poca información)"
+  },
+  {
    "id": "luma:evt-AE1UpSmxnSErCX2",
    "titulo": "UV Running Club 5K + Brunch by UTEC Ventures & adn.vc",
    "inicio": "2026-10-16T08:00-05:00",
@@ -10547,6 +10881,90 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
+   "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
+   "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-04T23:59-05:00",
+   "fin": "2026-09-04T23:59-05:00",
+   "cierre": "2026-09-04T23:59-05:00",
+   "publicado": "2026-08-21T22:07-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The United Nations Development Programme (UNDP) is inviting applications for Agenda 2063 in Power Spaces – Cohort 3, a seven-week online learning and volunteer opportunity designed to help participants strengthen their leadership capacity and identify how they can contribute to achieving Agenda 2063",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (African)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
+   "titulo": "EvalYouth Asia 2026 Core Group: Call for Applications for Young and Emerging Evaluators",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-16T15:31-05:00",
+   "fin": "2026-09-16T15:31-05:00",
+   "cierre": "",
+   "publicado": "2026-09-16T15:31-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "EvalYouth Asia (EYA) has opened applications for its 2026 Core Group, inviting passionate young and emerging evaluators to take an active leadership role in strengthening evaluation practice, youth leadership, networking, and collaboration across the Asia-Pacific region. This is a volunteer leadersh",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Asia)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 21,
+   "afinidad": 0,
+   "puntaje": 21,
+   "por_que": "Networking · Voluntariado · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:rd-of-directors-2026-call-for-expressions-of-interest-and-nominations-",
+   "titulo": "Caribbean Biodiversity Fund Board of Directors 2026: Call for Expressions of Interest and Nominations",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-07T23:59-05:00",
+   "fin": "2026-09-07T23:59-05:00",
+   "cierre": "2026-09-07T23:59-05:00",
+   "publicado": "2026-08-29T08:49-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The Caribbean Biodiversity Fund (CBF) is inviting expressions of interest and nominations from suitably qualified individuals who may be considered for appointment to its Board of Directors. The opportunity provides individuals with an interest and experience in conservation, biodiversity protection",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Caribbean)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
   },
   {
    "id": "wikicfp:194196",
@@ -10685,6 +11103,34 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31562",
+   "titulo": "Affinda AI Innovation Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-10-05T00:00-05:00",
+   "fin": "2026-10-08T23:59-05:00",
+   "cierre": "2026-10-08T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://affinda-challenge.devpost.com/",
+   "inscripcion": "https://affinda-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Enactus Melbourne",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $1,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/449/565/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 21,
+   "puntaje": 40,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "insc:8eca04457016",
    "titulo": "Concurso «Modelo Educativo de la Científica»",
    "tipo": "evento",
@@ -10792,147 +11238,6 @@
    "puntaje": 41,
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad",
    "motivo": "no pasó la verificación: enlace roto (404)"
-  },
-  {
-   "id": "opportunitiesforyouth:-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children-",
-   "titulo": "UNICEF Club Registration 2026–2027: How to Start or Renew a UNICEF USA Club and Take Action for Children",
-   "tipo": "voluntariado",
-   "inicio": "2026-08-27T19:08-05:00",
-   "fin": "2026-08-27T19:08-05:00",
-   "cierre": "",
-   "publicado": "2026-08-27T19:08-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/28/unicef-club-registration-2026-2027-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The UNICEF USA Club Registration for the 2026–2027 school year is now open for students and schools interested in taking action for children in the United States and around the world. The initiative provides an opportunity for students to establish or continue a UNICEF Club and participate in activi",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "no es una convocatoria (artículo o consejos)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 22,
-   "afinidad": 0,
-   "puntaje": 22,
-   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
-   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-12T23:59-05:00",
-   "fin": "2026-09-12T23:59-05:00",
-   "cierre": "2026-09-12T23:59-05:00",
-   "publicado": "2026-09-04T14:38-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
-   "gratis": false,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Tecnología e IA"
-   ],
-   "valor": 36,
-   "afinidad": 28,
-   "puntaje": 64,
-   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Voluntariado · Afín: Investigación"
-  },
-  {
-   "id": "opportunitiesforyouth:cohort-3-7-week-online-leadership-and-african-development-opportunity-",
-   "titulo": "UNDP Agenda 2063 in Power Spaces Cohort 3: 7-Week Online Leadership and African Development Opportunity",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-04T23:59-05:00",
-   "fin": "2026-09-04T23:59-05:00",
-   "cierre": "2026-09-04T23:59-05:00",
-   "publicado": "2026-08-21T22:07-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/22/undp-agenda-2063-in-power-spaces-cohort-3-7-week-online-leadership-and-african-development-opportunity/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The United Nations Development Programme (UNDP) is inviting applications for Agenda 2063 in Power Spaces – Cohort 3, a seven-week online learning and volunteer opportunity designed to help participants strengthen their leadership capacity and identify how they can contribute to achieving Agenda 2063",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (African)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
-   "titulo": "EvalYouth Asia 2026 Core Group: Call for Applications for Young and Emerging Evaluators",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-16T15:31-05:00",
-   "fin": "2026-09-16T15:31-05:00",
-   "cierre": "",
-   "publicado": "2026-09-16T15:31-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "EvalYouth Asia (EYA) has opened applications for its 2026 Core Group, inviting passionate young and emerging evaluators to take an active leadership role in strengthening evaluation practice, youth leadership, networking, and collaboration across the Asia-Pacific region. This is a volunteer leadersh",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Asia)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 21,
-   "afinidad": 0,
-   "puntaje": 21,
-   "por_que": "Networking · Voluntariado · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:rd-of-directors-2026-call-for-expressions-of-interest-and-nominations-",
-   "titulo": "Caribbean Biodiversity Fund Board of Directors 2026: Call for Expressions of Interest and Nominations",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-07T23:59-05:00",
-   "fin": "2026-09-07T23:59-05:00",
-   "cierre": "2026-09-07T23:59-05:00",
-   "publicado": "2026-08-29T08:49-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/08/29/caribbean-biodiversity-fund-board-of-directors-2026-call-for-expressions-of-interest-and-nominations/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The Caribbean Biodiversity Fund (CBF) is inviting expressions of interest and nominations from suitably qualified individuals who may be considered for appointment to its Board of Directors. The opportunity provides individuals with an interest and experience in conservation, biodiversity protection",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Caribbean)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
   }
  ],
  "perfil": true,
@@ -10951,7 +11256,7 @@
   "PERUMIN": 1,
   "ESAN — eventos": 4,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 5,
+  "Sociedad Nacional de Industrias": 6,
   "AmCham Perú": 2,
   "ComexPerú": 0
  },
@@ -10967,9 +11272,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-05T08:24-05:00",
-  "revisados": 258,
-  "corregidos": 15,
+  "fecha": "2026-10-05T16:48-05:00",
+  "revisados": 268,
+  "corregidos": 16,
   "avisos": 5,
   "archivados": 1,
   "problemas": [
@@ -10979,6 +11284,14 @@
     "fuente": "Institucional",
     "nivel": "corregido",
     "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
+    "id": "inst:sni-prueba-evento-sni:2026-10-08",
+    "titulo": "Prueba Evento Sni",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "la descripción solo repetía el título",
     "url": "https://sni.org.pe/eventos/"
    },
    {
@@ -11167,6 +11480,14 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "De Valladolid a Lima: UNI consiguió la sede de congreso internacional de urbanismo para 2027",
+   "url": "https://larepublica.pe/sociedad/2026/10/05/de-valladolid-a-lima-uni-consiguio-la-sede-de-congreso-internacional-de-urbanismo-para-2027-390245",
+   "medio": "La República",
+   "publicado": "Mon, 05 Oct 2026 02:25:00 GMT",
+   "resumen": "Este encuentro, centrado en la forma urbana y el cambio climático, reunirá a investigadores de diversas disciplinas para abordar la resiliencia de las ciudades ante crisis ambientales.",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
    "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
    "medio": "El Comercio",
@@ -11175,19 +11496,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
-   "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
-   "medio": "Agencia de Noticias Órbita",
-   "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
-   "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
    "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
    "medio": "DiarioBitcoin",
    "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
    "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
+   "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
+   "medio": "Agencia de Noticias Órbita",
+   "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
+   "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
    "fecha_mencionada": ""
   },
   {
@@ -11325,6 +11646,9 @@
   },
   "Clase modelo: Maestría en Dirección de Tecnologías y Transformación Empresarial": {
    "2026": "2026-10-07"
+  },
+  "Prueba Evento Sni": {
+   "2026": "2026-10-08"
   }
  },
  "primera_vez": {
@@ -11375,7 +11699,6 @@
   "pucp:visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727": "2026-09-25T18:45-05:00",
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
   "luma:evt-1zKu7TcMGNoYcWJ": "2026-09-25T22:05-05:00",
-  "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-": "2026-09-26T08:43-05:00",
   "opportunitiesforyouth:advisory-board-2027-2028-applications-open-for-young-people-worldwide-": "2026-09-26T08:43-05:00",
   "opportunitiesforyouth:pportunity-with-full-scholarship-to-the-2027-youth-assembly-in-geneva-": "2026-09-26T08:43-05:00",
   "devpost:30781": "2026-09-26T08:43-05:00",
@@ -11466,8 +11789,6 @@
   "devpost:30858": "2026-09-27T13:29-05:00",
   "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13": "2026-09-27T13:39-05:00",
   "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-27T13:39-05:00",
-  "eb:2001604990408": "2026-09-27T16:59-05:00",
-  "eb:2000303480557": "2026-09-27T16:59-05:00",
   "eb:2002229973750": "2026-09-27T16:59-05:00",
   "eb:1999999343876": "2026-09-27T16:59-05:00",
   "eb:1999808211193": "2026-09-27T16:59-05:00",
@@ -11565,7 +11886,6 @@
   "luma:evt-tCZO8MFAOToDtlz": "2026-10-03T15:30-05:00",
   "luma:evt-CPD3HexYKVn1zg2": "2026-10-03T15:30-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-03-loeb-fellowship-2027-2028-": "2026-10-03T15:30-05:00",
-  "devpost:31098": "2026-10-03T22:54-05:00",
   "luma:evt-xRViYMrETyBDjx5": "2026-10-04T06:42-05:00",
   "devpost:31548": "2026-10-04T11:21-05:00",
   "devpost:31609": "2026-10-04T11:21-05:00",
@@ -11588,6 +11908,16 @@
   "opportunitydesk:https-opportunitydesk-org-2026-10-05-switzer-fellowships-2027-": "2026-10-05T08:24-05:00",
   "opportunitydesk:itydesk-org-2026-10-05-alfred-friendly-press-partners-fellowship-2027-": "2026-10-05T08:24-05:00",
   "wikicfp:203568": "2026-10-05T08:24-05:00",
-  "devpost:30340": "2026-10-05T08:24-05:00"
+  "devpost:30340": "2026-10-05T08:24-05:00",
+  "inst:sni-prueba-evento-sni:2026-10-08": "2026-10-05T16:48-05:00",
+  "luma:evt-607bSMMafweUAk2": "2026-10-05T16:48-05:00",
+  "luma:evt-KxI3L7LIHaTuMS5": "2026-10-05T16:48-05:00",
+  "luma:evt-P9iUvS7csoWden0": "2026-10-05T16:48-05:00",
+  "luma:evt-mCh1UF0frtZEvsn": "2026-10-05T16:48-05:00",
+  "luma:evt-CTCMrdySmYWXTbk": "2026-10-05T16:48-05:00",
+  "pucp:feria-de-especialidades-en-ciencias-e-ingenieria-2026-05102026104227": "2026-10-05T16:48-05:00",
+  "pucp:genero-masculinidades-y-tb-en-el-peru-05102026114900": "2026-10-05T16:48-05:00",
+  "pucp:feape-2026-05102026102819": "2026-10-05T16:48-05:00",
+  "wikicfp:192324": "2026-10-05T16:48-05:00"
  }
 }
