@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-07T13:20-05:00",
+ "actualizado": "2026-10-07T19:42-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 111
+   "n": 113
   },
   "Eventbrite": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 47
+   "n": 49
   },
   "IEEE Perú": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 431,
+ "revisados": 435,
  "top": 55,
  "eventos": [
   {
@@ -234,6 +234,35 @@
    "puntaje": 16,
    "por_que": "Abre puertas (beca/programa) · Se postula en línea",
    "visto_desde": "2026-10-07T13:20-05:00"
+  },
+  {
+   "id": "opportunitydesk:-10-07-27-scholarship-opportunities-closing-in-october-october-7-2026-",
+   "titulo": "27 Scholarship Opportunities Closing in October – October 7, 2026",
+   "tipo": "convocatoria",
+   "inicio": "2026-10-07T17:29-05:00",
+   "fin": "2026-10-07T17:29-05:00",
+   "cierre": "",
+   "publicado": "2026-10-07T17:29-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/07/27-scholarship-opportunities-closing-in-october-october-7-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/07/27-scholarship-opportunities-closing-in-october-october-7-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "1. France-South Africa Scholarship Programme 2026The France–South Africa Scholarship Programme supports eligible students intending to undertake a master’s degree or PhD at a French university or higher education institution. The programme offers an opportunity to pursue advanced study and develop academic links with France. Applicants should review the eligible nationality and residence conditions, the proposed [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional",
+    "Investigación y ciencia"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Se postula en línea",
+   "visto_desde": "2026-10-07T19:42-05:00"
   },
   {
    "id": "luma:evt-kni2yDAAbqihzj7",
@@ -971,7 +1000,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $1,323,825.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $1,380,345.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
    "categorias": [
@@ -1600,6 +1629,34 @@
    "puntaje": 46,
    "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-10-02T12:19-05:00"
+  },
+  {
+   "id": "pucp:el-papel-de-la-normalizacion-en-la-transicion-a-la-economia-circular-07102026124114",
+   "titulo": "El papel de la normalización en la transición a la Economía Circular",
+   "inicio": "2026-10-13T08:00-05:00",
+   "fin": "2026-10-13T12:30-05:00",
+   "lugar": "Salas de usos múltiples (SUM)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/el-papel-de-la-normalizacion-en-la-transicion-a-la-economia-circular-07102026124114/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Del 12 al 16 de octubre, Perú será sede de la 8.ª Reunión Plenaria del Comité Técnico ISO/TC 323 de Economía Circular. La Pontificia Universidad Católica del Perú será sede de este importante evento internacional, donde el Instituto para la Calidad – PUCP será el anfitrión de las actividades que se desarrollarán en nuestras instalaciones.\nComo parte del evento, el martes 13 de octubre se realizará el panel de discusión “El papel de la normalización en la transición a la economía circular”, donde participará el director de la carrera de Ingeniería Ambiental y Sostenible de la PUCP Dr. Ramzy Kahhat. Especialistas nacionales e internacionales analizarán el aporte de la normalización, la medició",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Economia_C_Ircular_869d2c3a47.jpg",
+   "inscripcion": "https://servicios.inacal.gob.pe/registro/inicio.php?codigo=DN2026EP05",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 25,
+   "afinidad": 0,
+   "puntaje": 25,
+   "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-10-07T19:42-05:00"
   },
   {
    "id": "luma:evt-tpwIwhBDKb33EL6",
@@ -2478,34 +2535,6 @@
    "visto_desde": "2026-10-03T10:36-05:00"
   },
   {
-   "id": "luma:evt-rgAQXcvbIgGtQMX",
-   "titulo": "Wealth & Wellness -Female Founders Lima",
-   "inicio": "2026-10-14T18:00-05:00",
-   "fin": "2026-10-14T20:00-05:00",
-   "lugar": "Miraflores, Perú",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/hhg96q0d",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "Un encuentro para hablar de dos cosas que casi nunca caben en la misma agenda: plata y cómo te sostienes mientras construyes.\nPrimero, wealth y money con Truelany: ingresos, riqueza e inversiones. Sin teoría abstracta, con lo que realmente importa cuando estás buscando ampliar tu riqueza.\nDespués, nuestra actividad de wellness con Mariel: burnout, descanso y cómo no quemarte en el camino.\nEn este evento habrá espacio para network, bajar el ritmo y conectar con otras founders que están en lo mismo.\nMiércoles 14 de octubre 18:00 – 19:30 Miraflores (ubicación al confirmar tu inscripción)\nCupos limitados.\nUn espacio para generar comunidad, aprendizaje y un rato para pensar wealth y wellness junt",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/si/50cab05f-3993-45a3-8771-dd72e9da8c42.png",
-   "inscripcion": "https://lu.ma/hhg96q0d",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
-   ],
-   "valor": 24,
-   "afinidad": 6,
-   "puntaje": 30,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
-   "visto_desde": "2026-10-02T12:19-05:00"
-  },
-  {
    "id": "luma:evt-RPMv232MD97IhCj",
    "titulo": "Innovation Board Ulima",
    "inicio": "2026-10-14T18:00-05:00",
@@ -2532,6 +2561,34 @@
    "puntaje": 43,
    "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Universidad",
    "visto_desde": "2026-10-06T14:58-05:00"
+  },
+  {
+   "id": "luma:evt-rgAQXcvbIgGtQMX",
+   "titulo": "Wealth & Wellness -Female Founders Lima",
+   "inicio": "2026-10-14T18:00-05:00",
+   "fin": "2026-10-14T20:00-05:00",
+   "lugar": "Miraflores, Perú",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/hhg96q0d",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Un encuentro para hablar de dos cosas que casi nunca caben en la misma agenda: plata y cómo te sostienes mientras construyes.\nPrimero, wealth y money con Truelany: ingresos, riqueza e inversiones. Sin teoría abstracta, con lo que realmente importa cuando estás buscando ampliar tu riqueza.\nDespués, nuestra actividad de wellness con Mariel: burnout, descanso y cómo no quemarte en el camino.\nEn este evento habrá espacio para network, bajar el ritmo y conectar con otras founders que están en lo mismo.\nMiércoles 14 de octubre 18:00 – 19:30 Miraflores (ubicación al confirmar tu inscripción)\nCupos limitados.\nUn espacio para generar comunidad, aprendizaje y un rato para pensar wealth y wellness junt",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/si/50cab05f-3993-45a3-8771-dd72e9da8c42.png",
+   "inscripcion": "https://lu.ma/hhg96q0d",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 24,
+   "afinidad": 6,
+   "puntaje": 30,
+   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
+   "visto_desde": "2026-10-02T12:19-05:00"
   },
   {
    "id": "pucp:primer-encuentro-iberoamericano-de-historia-de-la-contabilidad-25092026173936",
@@ -2866,6 +2923,33 @@
    "puntaje": 41,
    "por_que": "Formativo · Afín: Investigación · Universidad · Gratis",
    "visto_desde": "2026-10-01T19:29-05:00"
+  },
+  {
+   "id": "pucp:distincion-de-doctor-honoris-causa-al-doctor-richard-l-kagan-07102026131923",
+   "titulo": "Distinción de Doctor Honoris Causa al doctor Richard L. Kagan",
+   "inicio": "2026-10-15T12:00-05:00",
+   "fin": "2026-10-15T13:30-05:00",
+   "lugar": "Auditorio de Ciencias Sociales (Gustavo Gutiérrez Merino)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/distincion-de-doctor-honoris-causa-al-doctor-richard-l-kagan-07102026131923/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El rector de la Pontificia Universidad Católica del Perú tiene el agrado de invitar a usted al acto académico en el cual se conferirá la distinción de Doctor Honoris Causa de la Pontificia Universidad Católica del Perú al doctor Richard L. Kagan, en reconocimiento a su eminente contribución al avance de los estudios contemporáneos sobre historia y cultura de la España y el mundo hispánico de la Edad Moderna.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agenda_honoris_kagan_591x400_1_152ef11658.png",
+   "inscripcion": "https://pucp.email-messaging.com/tracking/1/click/AgruFOzAzZxDdq0PPCOUjba0OeIJZNzNQxn6OwPvytZHVYxyBLOaPxRI1fZuqSSW9rrrNYyQpym5YFkiHsUNUaMDBrXed-Zy5XlM84krK7r8s1a2ea0DGQSfkPx9TaFim3n68fHFU73IMRH-gdqajKrLJk1vDka-rjmdZkmVgCZOe3pG1CEX66sFoj4n-10CARnOwhaLl7tkR",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 25,
+   "afinidad": 0,
+   "puntaje": 25,
+   "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-10-07T19:42-05:00"
   },
   {
    "id": "luma:evt-xpDKRsNmTCITC5G",
@@ -3345,6 +3429,34 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "luma:evt-RAJuAWWemq64ENd",
+   "titulo": "Desayuno: Equity + deuda: el capital para llevar tu fintech al siguiente nivel",
+   "inicio": "2026-10-16T08:00-05:00",
+   "fin": "2026-10-16T10:00-05:00",
+   "lugar": "Av. Los Conquistadores 1118, San Isidro",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/yxokygx2",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "Un espacio exclusivo para conectar con inversionistas y conocer las alternativas de equity y deuda que pueden impulsar el crecimiento de tu fintech. Junto a ALIVE Ventures y Community Investment Management (CIM), conversaremos sobre qué buscan hoy los inversionistas, cuándo levantar capital y cómo preparar tu fintech para escalar con impacto.\nCupos limitados. Asistencia sujeta a confirmación.",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/y2/1be29ded-810d-4ac1-a420-b0a4afafe745.png",
+   "inscripcion": "https://lu.ma/yxokygx2",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 24,
+   "afinidad": 6,
+   "puntaje": 30,
+   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
+   "visto_desde": "2026-10-07T19:42-05:00"
   },
   {
    "id": "luma:evt-DY7Z2Y4QGTzsoEY",
@@ -3874,6 +3986,34 @@
    "visto_desde": "2026-09-29T10:06-05:00"
   },
   {
+   "id": "luma:evt-DlgHwNhR4bj4AWR",
+   "titulo": "Devin x Supabase Lima Vibeathon",
+   "inicio": "2026-10-17T10:00-05:00",
+   "fin": "2026-10-17T13:30-05:00",
+   "lugar": "Jr. Medrano Silva 165, Barranco",
+   "distrito": "Barranco",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/c0niywm5",
+   "fuente": "Luma",
+   "organizador": "Erasmo Hernandez, nader dabit",
+   "descripcion": "🚀 Vibeathon Lima: Build with Devin + Supabase\nVolvemos a Lima para una mañana de código, ideas, tecnología y mucha buena vibra.\nEsta vez no venimos solo a hablar de AI-powered development: venimos a construir y a completar un desafío antes de que termine la Vibeathon.\nÚnete a desarrolladores locales para crear una aplicación desde cero utilizando Devin + Supabase, conocer nuevas personas y experimentar cómo cambia el proceso de desarrollo cuando trabajas junto a un AI Software Engineer.\n🎯 El desafío\nAl comenzar la Vibeathon revelaremos un desafío que tendrás que intentar completar antes del Demo Time.\nPodrás resolverlo solo o en equipo, usando Devin + Supabase para llevar una idea desde cero",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/b2/3cc060b6-8c0a-4fd7-97ce-1c1d8fd35acd.png",
+   "inscripcion": "https://lu.ma/c0niywm5",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 26,
+   "afinidad": 14,
+   "puntaje": 40,
+   "por_que": "Competencia · Presencial en Lima · Afín: Inteligencia artificial · Gratis",
+   "visto_desde": "2026-10-07T19:42-05:00"
+  },
+  {
    "id": "eb:1993705212961",
    "titulo": "Feria EducationUSA LL.M. & MBA 2026 | Lima",
    "inicio": "2026-10-17T10:00-05:00",
@@ -3983,6 +4123,34 @@
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima",
    "visto_desde": "2026-09-27T17:30-05:00"
+  },
+  {
+   "id": "luma:evt-iaNxCubkGzEZ6qc",
+   "titulo": "Convocatoria de Speakers🎤",
+   "inicio": "2026-10-17T17:30-05:00",
+   "fin": "2026-10-17T20:00-05:00",
+   "lugar": "Av. de la Marina 2810, San Miguel",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/gc8zt0hc",
+   "fuente": "Luma",
+   "organizador": "Fiorella Rodríguez, María de los Ángeles Jurado Meneses",
+   "descripcion": "Tu experiencia puede encender la próxima gran conversación 🗣️\nEn INKONNECT 2.0 buscamos speakers, founders, creators y mentes que estén moviendo la industria desde la IA, las marcas, la innovación y la Creator Economy🔥\nUn espacio para compartir conocimiento, conectar con nuevas audiencias y generar conversaciones.\n¡Postula aquí! 👨🏻‍💻🧑🏻‍💻",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/v4/fa8d6620-4960-4c04-8601-096e11b4830c.png",
+   "inscripcion": "https://lu.ma/gc8zt0hc",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 27,
+   "afinidad": 12,
+   "puntaje": 39,
+   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Inteligencia artificial · Gratis",
+   "visto_desde": "2026-10-07T19:42-05:00"
   },
   {
    "id": "luma:evt-3BTMWWVqKeRUNiH",
@@ -5424,7 +5592,7 @@
    "url": "https://agenda.pucp.edu.pe/evento/desarmar-la-ia-pueden-las-tecnologias-emergentes-estar-al-servicio-de-la-dignidad-humana-05102026175301/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "El Departamento Académico de Teología, la Facultad de Ciencias e Ingeniería y la Facultad de Letras y Ciencias Humanas de la PUCP les invitan a participar en el conversatorio “Desarmar la IA: ¿Pueden las tecnologías emergentes estar al servicio de la dignidad humana?”.\nEste encuentro forma parte de la iniciativa “Proteger lo humano en tiempos de IA: Diálogos sobre Magnifica Humanitas”, que busca profundizar en el mensaje de esta carta encíclica del papa León XIV y generar espacios de conversación sobre la condición humana en la era de la inteligencia artificial.\nEl conversatorio busca propiciar una mirada crítica sobre las tecnologías emergentes y preguntarnos cómo pensar y proteger lo human",
+   "descripcion": "El Departamento Académico de Teología, la Facultad de Ciencias e Ingeniería, la Facultad de Letras y Ciencias Humanas y el Instituto de Desarrollo Humano de América Latina (IDHAL) de la PUCP les invitan a participar en el conversatorio “Desarmar la IA: ¿Pueden las tecnologías emergentes estar al servicio de la dignidad humana?”.\nEste encuentro forma parte de la iniciativa “Proteger lo humano en tiempos de IA: Diálogos sobre Magnifica Humanitas”, que busca profundizar en el mensaje de esta carta encíclica del papa León XIV y generar espacios de conversación sobre la condición humana en la era de la inteligencia artificial.\nEl conversatorio busca propiciar una mirada crítica sobre las tecnolog",
    "gratis": true,
    "imagen": "https://api-agenda.pucp.edu.pe/uploads/Miniaturas_Agenda_PUCP_18_52fd2684b1.png",
    "inscripcion": "https://forms.gle/jpAHLiZvb9mGfkVr8",
@@ -7038,34 +7206,6 @@
    "puntaje": 43,
    "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "opportunitydesk:-org-2026-10-06-ernest-may-fellowship-in-history-and-policy-2027-2028-",
-   "titulo": "Ernest May Fellowship in History and Policy 2027-2028 (stipend available)",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-01T23:59-05:00",
-   "fin": "2026-12-01T23:59-05:00",
-   "cierre": "2026-12-01T23:59-05:00",
-   "publicado": "2026-10-06T16:20-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/06/ernest-may-fellowship-in-history-and-policy-2027-2028/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/06/ernest-may-fellowship-in-history-and-policy-2027-2028/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 1, 2026 Applications for the Ernest May Fellowship in History and Policy 2027-2028 are now open. The Ernest May Fellowships honor Ernest May, Charles Warren Professor of American History, a member of the Belfer Center’s board of directors, and a faculty affiliate of the Center’s International Security Program, who passed away in June [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-06T19:21-05:00"
   },
   {
    "id": "opportunitydesk:ps-opportunitydesk-org-2026-10-07-stanford-cisac-fellowship-2027-2028-",
@@ -9459,56 +9599,6 @@
    "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Gremio o institución"
   },
   {
-   "id": "pucp:tejiendo-bienestar-decora-tu-mesa-posavasos-con-trapillo",
-   "titulo": "Tejiendo bienestar - Decora tu mesa: Posavasos con trapillo",
-   "inicio": "2026-10-07T15:00-05:00",
-   "fin": "2026-10-07T17:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/tejiendo-bienestar-decora-tu-mesa-posavasos-con-trapillo/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "En este taller aprenderás paso a paso la técnica del crochet para elaborar un hermoso posavasos hecho por tus propias manos. Además de llevarte un accesorio funcional y decorativo para tus momentos cotidianos, ejercitarás tu paciencia, desarrollarás un estado de calma y potenciarás tu concentración ",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/emocionarte_y_tejiendo_eff0d4983b.png",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=073&i=11632",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
-  },
-  {
-   "id": "luma:evt-JAWHwSBLUbytDVt",
-   "titulo": "MASTERCLASS INTERNACIONAL SAKE & MATCHA",
-   "inicio": "2026-10-07T15:30-05:00",
-   "fin": "2026-10-07T17:30-05:00",
-   "lugar": "Av. Vasco Núñez de Balboa 530, Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/fk0i027q",
-   "fuente": "Luma",
-   "organizador": "Le Cordon Bleu Perú",
-   "descripcion": "Con la participación del Sr. Daisuke Kikuchi y la Sra. Shiori Yoshimiya.\nDETALLE:\nDía: 07 de octubre\nHora: 3:30 p.m.\nLugar: Auditorio 1\nIMPORTANTE: El alumno deberá registrarse con su nombre completo y correo institucional para validar su inscripción.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/nl/b618f477-76e5-411d-b3ce-01f8f3203c47.png",
-   "inscripcion": "https://lu.ma/fk0i027q",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 28,
-   "afinidad": 0,
-   "puntaje": 28,
-   "por_que": "Formativo · Presencial en Lima · Gratis"
-  },
-  {
    "id": "luma:evt-x8hN8xnVNgFJeM7",
    "titulo": "Notion Community Fest Perú",
    "inicio": "2026-10-10T15:00-05:00",
@@ -9632,6 +9722,31 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
+   "id": "pucp:taller-de-cultura-trazos-de-historia-el-arte-de-la-caligrafia-china-07102026100623",
+   "titulo": "Taller de cultura «Trazos de historia: El arte de la caligrafía china»",
+   "inicio": "2026-10-14T16:00-05:00",
+   "fin": "2026-10-14T17:30-05:00",
+   "lugar": "Instituto Confucio",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/taller-de-cultura-trazos-de-historia-el-arte-de-la-caligrafia-china-07102026100623/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Instituto Confucio de la Pontificia Universidad Católica del Perú invita al público en general a participar en el Taller de Cultura China “Trazos de historia: el arte de la caligrafía china”, una actividad organizada en el marco de la celebración del Día de los Institutos Confucio y la Fiesta Nac",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/AGENDA_PUCP_2_1_e49fb3d556.png",
+   "inscripcion": "https://confucio.pucp.edu.pe/actividades/taller-de-cultura-trazos-de-historia-el-arte-de-la-caligrafia-china/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
   },
   {
    "id": "luma:evt-JQqk3cuOQA9iQd3",
@@ -11895,10 +12010,10 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-07T13:20-05:00",
-  "revisados": 281,
+  "fecha": "2026-10-07T19:42-05:00",
+  "revisados": 286,
   "corregidos": 18,
-  "avisos": 1,
+  "avisos": 2,
   "archivados": 5,
   "problemas": [
    {
@@ -12062,6 +12177,14 @@
     "url": "https://sni.org.pe/eventos/"
    },
    {
+    "id": "pucp:distincion-de-doctor-honoris-causa-al-doctor-richard-l-kagan-07102026131923",
+    "titulo": "Distinción de Doctor Honoris Causa al doctor Richard L. Kagan",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/distincion-de-doctor-honoris-causa-al-doctor-richard-l-kagan-07102026131923/"
+   },
+   {
     "id": "pucp:taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2",
     "titulo": "Taller de LinkedIn Básico: Diseña tu Imagen Profesional 2026-2",
     "fuente": "PUCP",
@@ -12095,8 +12218,8 @@
    }
   ],
   "enlaces": {
-   "comprobados": 40,
-   "rotos": 4,
+   "comprobados": 20,
+   "rotos": 5,
    "sin_comprobar": 1
   },
   "fuentes_a_revisar": []
@@ -12116,6 +12239,14 @@
    "medio": "Perú Retail",
    "publicado": "Mon, 28 Sep 2026 13:05:00 GMT",
    "resumen": "Con el objetivo de analizar los desafíos y oportunidades que enfrenta el sector en materia de productividad, Perú Retail llevó a cabo el II Foro Eficiencias & Productividad Comercial en Retail 2026 el ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "De Valladolid a Lima: UNI consiguió la sede de congreso internacional de urbanismo para 2027",
+   "url": "https://larepublica.pe/sociedad/2026/10/05/de-valladolid-a-lima-uni-consiguio-la-sede-de-congreso-internacional-de-urbanismo-para-2027-390245",
+   "medio": "La República",
+   "publicado": "Mon, 05 Oct 2026 02:25:00 GMT",
+   "resumen": "Este encuentro, centrado en la forma urbana y el cambio climático, reunirá a investigadores de diversas disciplinas para abordar la resiliencia de las ciudades ante crisis ambientales.",
    "fecha_mencionada": ""
   },
   {
@@ -12573,7 +12704,6 @@
   "luma:evt-XVB2n9oBmskTgPC": "2026-10-06T19:21-05:00",
   "luma:evt-ZwBHBoAsgo2z3g1": "2026-10-06T19:21-05:00",
   "pucp:webinar-de-datos-a-decisiones-ia-para-optimizar-y-transformar-procesos-06102026145720": "2026-10-06T19:21-05:00",
-  "opportunitydesk:-org-2026-10-06-ernest-may-fellowship-in-history-and-policy-2027-2028-": "2026-10-06T19:21-05:00",
   "luma:evt-dFRhCyfd3OS3fj5": "2026-10-07T04:42-05:00",
   "eb:2001419472519": "2026-10-07T04:42-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-07-ecowyert-program-2027-": "2026-10-07T13:20-05:00",
@@ -12588,6 +12718,12 @@
   "luma:evt-EGf7LVoPXALzUIS": "2026-10-07T13:20-05:00",
   "opportunitydesk:equity-master-of-science-in-health-professions-education-program-2027-": "2026-10-07T13:20-05:00",
   "eb:2003070287150": "2026-10-07T13:20-05:00",
-  "opportunitydesk:ps-opportunitydesk-org-2026-10-07-stanford-cisac-fellowship-2027-2028-": "2026-10-07T13:20-05:00"
+  "opportunitydesk:ps-opportunitydesk-org-2026-10-07-stanford-cisac-fellowship-2027-2028-": "2026-10-07T13:20-05:00",
+  "opportunitydesk:-10-07-27-scholarship-opportunities-closing-in-october-october-7-2026-": "2026-10-07T19:42-05:00",
+  "pucp:el-papel-de-la-normalizacion-en-la-transicion-a-la-economia-circular-07102026124114": "2026-10-07T19:42-05:00",
+  "pucp:distincion-de-doctor-honoris-causa-al-doctor-richard-l-kagan-07102026131923": "2026-10-07T19:42-05:00",
+  "luma:evt-RAJuAWWemq64ENd": "2026-10-07T19:42-05:00",
+  "luma:evt-DlgHwNhR4bj4AWR": "2026-10-07T19:42-05:00",
+  "luma:evt-iaNxCubkGzEZ6qc": "2026-10-07T19:42-05:00"
  }
 }
