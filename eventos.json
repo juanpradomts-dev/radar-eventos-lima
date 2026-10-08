@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-07T19:42-05:00",
+ "actualizado": "2026-10-08T04:52-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 113
+   "n": 112
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 22
+   "n": 23
   },
   "Meetup": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 49
+   "n": 48
   },
   "IEEE Perú": {
    "ok": true,
@@ -47,7 +47,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 15
+   "n": 12
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 435,
+ "revisados": 431,
  "top": 55,
  "eventos": [
   {
@@ -118,38 +118,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Becas y posgrado · Voluntariado · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "inst:universidad-esan-clase-modelo-maestr-a-en-direcci-n-de-tecno:2026-10-07",
-   "titulo": "Clase modelo: Maestría en Dirección de Tecnologías y Transformación Empresarial",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-07T00:00-05:00",
-   "fin": "2026-10-07T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.esan.edu.pe/eventos/",
-   "inscripcion": "https://www.esan.edu.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://www.esan.edu.pe/eventos/",
-   "organizador": "Universidad ESAN",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "categorias": [
-    "Tecnología e IA",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 45,
-   "afinidad": 12,
-   "puntaje": 57,
-   "por_que": "Formativo · Afín: Becas y posgrado · Evento institucional · Presencial en Lima",
-   "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
    "id": "opportunitydesk:https-opportunitydesk-org-2026-10-07-ecowyert-program-2027-",
@@ -263,90 +231,6 @@
    "puntaje": 35,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Se postula en línea",
    "visto_desde": "2026-10-07T19:42-05:00"
-  },
-  {
-   "id": "luma:evt-kni2yDAAbqihzj7",
-   "titulo": "PANEL IA: Búsqueda de Conciencia y Empatía en LLMs 🧠🤖⚡",
-   "inicio": "2026-10-07T18:30-05:00",
-   "fin": "2026-10-07T20:30-05:00",
-   "lugar": "Av. José Larco 770, Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/5io7a89v",
-   "fuente": "Luma",
-   "organizador": "Club del Bitcoin",
-   "descripcion": "PANEL IA: Búsqueda de Conciencia y Empatía en LLMs 🧠🤖⚡\n📍 Dirección: Av. José Larco 770, Miraflores (Piso 3)\r\n⏰ Día y Hora: Miércoles 07 de Octubre — 6:30pm\r\n👤 Modalidad: Presencial🔗 Link de registro: https://luma.com/d16sv8jp\n¿Son los grandes modelos de lenguaje simples herramientas estadísticas de predicción o estamos presenciando el surgimiento de empatía funcional y destellos de razonamiento sintético? 🚀\nEn esta nueva edición presencial del ClubDelBitcoin dejamos de lado el hype superficial para abrir un debate técnico, ético y filosófico sobre la verdadera frontera de la inteligencia artificial.\n🎙️ Moderación del Panel:\nDana Amaya es comunicadora y fundadora de AMAYA PR, agencia enfocada",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/3s/18ef82c7-37f9-4b7e-8a3f-f50837ffbf5b.png",
-   "inscripcion": "https://lu.ma/5io7a89v",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Afín: Becas y posgrado · (Evitas «trading»)",
-   "visto_desde": "2026-10-02T22:28-05:00"
-  },
-  {
-   "id": "pucp:webinar-claves-para-la-gestion-por-procesos-que-generan-valor-18092026144913",
-   "titulo": "Webinar: Claves para la gestión por procesos que generan valor",
-   "inicio": "2026-10-07T19:00-05:00",
-   "fin": "2026-10-07T20:00-05:00",
-   "lugar": "Online",
-   "distrito": "San Miguel",
-   "modalidad": "Virtual",
-   "url": "https://agenda.pucp.edu.pe/evento/webinar-claves-para-la-gestion-por-procesos-que-generan-valor-18092026144913/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Descubre las claves para diseñar, gestionar y mejorar los procesos de tu organización, de modo que dejen de ser tareas aisladas y se conviertan en una fuente real de valor para el cliente y el negocio. Conoce las prácticas clave para gestionarlos de forma efectiva y lograr que cada proceso aporte resultados concretos y sostenibles en el tiempo.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agenda_pucp_100_880ea7663a.jpg",
-   "inscripcion": "https://calidad.pucp.edu.pe/agendas_calidad/claves-para-la-gestion-por-procesos-que-generan-valor/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 30,
-   "afinidad": 0,
-   "puntaje": 30,
-   "por_que": "Formativo · Universidad · Gratis · Virtual",
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "eb:2000281780652",
-   "titulo": "Masterclass | Retail inteligente",
-   "inicio": "2026-10-07T20:00-05:00",
-   "fin": "2026-10-07T22:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.mx/e/entradas-masterclass-retail-inteligente-2000281780652",
-   "inscripcion": "https://www.eventbrite.com.mx/e/entradas-masterclass-retail-inteligente-2000281780652",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "CENTRO | Diseño, Cine y Televisión",
-   "descripcion": "Lucía Martínez-Ostos, fundadora de Troquer, explora cómo el smart retail y la integración de datos redefinen el modelo de negocio de la moda",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194678858%2F242578370882%2F1%2Foriginal.20260929-230601?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.64&fp-y=0.327&s=bd70608a36491031078e31c1be88994b",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Datos y analítica"
-   ],
-   "valor": 23,
-   "afinidad": 12,
-   "puntaje": 35,
-   "por_que": "Formativo · Afín: Datos y machine learning · Gratis · Virtual",
-   "visto_desde": "2026-09-29T22:37-05:00"
   },
   {
    "id": "inst:sni-prueba-institucional-sni:2026-10-08",
@@ -527,61 +411,6 @@
    "puntaje": 39,
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-10-07T13:20-05:00"
-  },
-  {
-   "id": "devpost:31239",
-   "titulo": "ImpactHack 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-01T00:00-05:00",
-   "fin": "2026-10-08T23:59-05:00",
-   "cierre": "2026-10-08T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://impacthack26.devpost.com/",
-   "inscripcion": "https://impacthack26.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "GIS Engineering Club",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Social Good. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/256/087/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-30T16:48-05:00"
-  },
-  {
-   "id": "devpost:31562",
-   "titulo": "Affinda AI Innovation Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-10-05T00:00-05:00",
-   "fin": "2026-10-08T23:59-05:00",
-   "cierre": "2026-10-08T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://affinda-challenge.devpost.com/",
-   "inscripcion": "https://affinda-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Enactus Melbourne",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $1,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/449/565/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 21,
-   "puntaje": 40,
-   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-05T23:27-05:00"
   },
   {
    "id": "inst:sni-webinar-drawback-el-beneficio-que-todo-exportador-deber-:2026-10-09",
@@ -1000,7 +829,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $1,380,345.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $1,382,700.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
    "categorias": [
@@ -1513,38 +1342,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-04T15:49-05:00"
-  },
-  {
-   "id": "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13",
-   "titulo": "Ciclo Sunafil: cumplimiento, bienestar y sostenibilidad",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-13T00:00-05:00",
-   "fin": "2026-10-13T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://amcham.org.pe/evento/ciclo-sunafil-cumplimiento-bienestar-y-sostenibilidad/",
-   "inscripcion": "https://amcham.org.pe/evento/ciclo-sunafil-cumplimiento-bienestar-y-sostenibilidad/",
-   "fuente": "Institucional",
-   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
-   "organizador": "Cámara de Comercio Americana del Perú",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/04/ciclo_sunafil.jpg",
-   "extraido_por": "sitemap + fecha en texto",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-09-27T13:39-05:00"
   },
   {
    "id": "luma:evt-iWf78QCKrq9MgjZ",
@@ -4346,6 +4143,34 @@
    "visto_desde": "2026-10-01T07:18-05:00"
   },
   {
+   "id": "luma:evt-Pu600eKM3RJzhcy",
+   "titulo": "De información fragmentada a un ecosistema de salud conectado e inteligente",
+   "inicio": "2026-10-20T08:00-05:00",
+   "fin": "2026-10-20T11:30-05:00",
+   "lugar": "Av. Jorge Basadre Grohmann 367, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/kwz482dp",
+   "fuente": "Luma",
+   "organizador": "Morris Opazo | Eventos",
+   "descripcion": "La salud ya es digital, pero la información clínica sigue dispersa entre sistemas, formatos e instituciones. Esa fragmentación afecta la continuidad de la atención, la eficiencia operativa y los resultados del negocio.\nMorris & Opazo y AWS reúnen a líderes del sector salud en Perú en un desayuno ejecutivo para trazar juntos el camino de la transformación: cómo pasar de datos aislados a información confiable, interoperable y lista para generar inteligencia, con valor real para pacientes, instituciones y el sistema.\nQué conversaremos:\nEl desafío actual: por qué la fragmentación de la información es hoy una prioridad de negocio.\n\nEl camino de transformación: el Morris Health Transformation Prog",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/0b/0f3c691a-abe6-4d59-9697-ed1835d9c8d5.jpg",
+   "inscripcion": "https://lu.ma/kwz482dp",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 29,
+   "afinidad": 20,
+   "puntaje": 49,
+   "por_que": "Afín: Datos y machine learning · Networking · Presencial en Lima · Afín: Inteligencia artificial",
+   "visto_desde": "2026-10-08T04:52-05:00"
+  },
+  {
    "id": "eb:1987132772615",
    "titulo": "VIII CISSTO",
    "inicio": "2026-10-20T08:00-05:00",
@@ -4483,6 +4308,34 @@
    "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
+   "id": "eb:2003121885482",
+   "titulo": "KCN Taller Gratuito - 21 de octubre",
+   "inicio": "2026-10-21T09:00-05:00",
+   "fin": "2026-10-21T10:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-kcn-taller-gratuito-21-de-octubre-2003121885482",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-kcn-taller-gratuito-21-de-octubre-2003121885482",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "KCN Club de Networking",
+   "descripcion": "Ciberseguridad para emprendedores",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195348756%2F2806210538291%2F1%2Foriginal.20261008-083640?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ac96ad55ab4fb2584db795fab8e351e6",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 4,
+   "puntaje": 27,
+   "por_que": "Formativo · Gratis · Afín: Emprendimiento y finanzas · Virtual",
+   "visto_desde": "2026-10-08T04:52-05:00"
+  },
+  {
    "id": "pucp:mi-rol-de-mama-o-papa-y-estudiante-pucp-2026-2",
    "titulo": "Mi rol de mamá o papá y estudiante PUCP 2026-2",
    "inicio": "2026-10-21T16:00-05:00",
@@ -4599,6 +4452,33 @@
    "puntaje": 43,
    "por_que": "Formativo · Presencial en Lima · Afín: Inteligencia artificial · Universidad",
    "visto_desde": "2026-10-06T14:58-05:00"
+  },
+  {
+   "id": "eb:2002986648986",
+   "titulo": "Reducción del estrés con mindfulness - Primera sesión",
+   "inicio": "2026-10-21T18:00-05:00",
+   "fin": "2026-10-21T20:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/entradas-reduccion-del-estres-con-mindfulness-primera-sesion-2002986648986",
+   "inscripcion": "https://www.eventbrite.com/e/entradas-reduccion-del-estres-con-mindfulness-primera-sesion-2002986648986",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "ECUSA community",
+   "descripcion": "Sesión 1 de MBSR: descubre cómo funciona la atención y aprende a gestionar el estrés en entornos científicos exigentes.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195144951%2F2564875586841%2F1%2Foriginal.20261006-042858?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.567&s=8d8801ce630e4430027489acb9130b0a",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-10-08T04:52-05:00"
   },
   {
    "id": "luma:evt-jFB741zwm8fwoQN",
@@ -5981,6 +5861,37 @@
    "visto_desde": "2026-10-05T23:27-05:00"
   },
   {
+   "id": "eb:2003117091142",
+   "titulo": "Presentacion de Nuevos Productos",
+   "inicio": "2026-11-01T02:00-05:00",
+   "fin": "2026-11-01T05:00-05:00",
+   "lugar": "Chocolateria DAJECY, Jirón de la Unión 586",
+   "distrito": "LIMA",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/presentacion-de-nuevos-productos-tickets-2003117091142",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Evento organizado para presentar una nueva línea de productos de chocolate al público. El objetivo es dar a conocer los productos.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195339833%2F3016935422739%2F1%2Foriginal.20261008-033847?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.496&fp-y=0.247&s=7e14ad3ae107fcdfe01ea2bae2b74e0e",
+   "inscripcion": "https://www.eventbrite.com/e/presentacion-de-nuevos-productos-tickets-2003117091142",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis",
+   "original": {
+    "titulo": "PRESENTACION DE NUEVOS PRODUCTOS"
+   },
+   "hora_dudosa": true,
+   "visto_desde": "2026-10-08T04:52-05:00"
+  },
+  {
    "id": "devpost:31400",
    "titulo": "YouCam API Skin AI & eCommerce VTO Hackathon",
    "tipo": "hackathon",
@@ -7010,37 +6921,6 @@
    "visto_desde": "2026-09-24T22:14-05:00"
   },
   {
-   "id": "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23",
-   "titulo": "Sustainability Immersion Trip: Moving from Concept to Strategy",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-11-23T00:00-05:00",
-   "fin": "2026-11-27T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
-   "inscripcion": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
-   "fuente": "Institucional",
-   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
-   "organizador": "Cámara de Comercio Americana del Perú",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/08/1-1-scaled.jpg",
-   "extraido_por": "sitemap + fecha en texto",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-09-27T13:39-05:00"
-  },
-  {
    "id": "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214",
    "titulo": "¿Qué necesito para presentar mi proyecto ante uno de los Comités de Ética de la Investigación PUCP?",
    "inicio": "2026-11-24T12:00-05:00",
@@ -7372,6 +7252,33 @@
    "puntaje": 43,
    "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-10-05T08:24-05:00"
+  },
+  {
+   "id": "devpost:30819",
+   "titulo": "United Hacks V8",
+   "tipo": "hackathon",
+   "inicio": "2027-01-08T00:00-05:00",
+   "fin": "2027-01-10T23:59-05:00",
+   "cierre": "2027-01-10T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://unitedhacksv8.devpost.com/",
+   "inscripcion": "https://unitedhacksv8.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack United",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Design, Education. Premios: $13,700.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/021/146/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-08T04:52-05:00"
   },
   {
    "id": "wikicfp:194403",
@@ -10524,8 +10431,8 @@
    "titulo": "Bharat Innovation Challenge 2.0",
    "tipo": "hackathon",
    "inicio": "2026-09-18T00:00-05:00",
-   "fin": "2026-10-08T23:59-05:00",
-   "cierre": "2026-10-08T23:59-05:00",
+   "fin": "2026-10-09T23:59-05:00",
+   "cierre": "2026-10-09T23:59-05:00",
    "lugar": "Lovely Professional University",
    "distrito": "Lovely Professional University",
    "modalidad": "Presencial",
@@ -10769,6 +10676,33 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:30492",
+   "titulo": "Prompt2Product: MLH Hack Day @ AITR",
+   "tipo": "hackathon",
+   "inicio": "2026-10-08T00:00-05:00",
+   "fin": "2026-10-09T23:59-05:00",
+   "cierre": "2026-10-09T23:59-05:00",
+   "lugar": "AITR Indore",
+   "distrito": "AITR Indore",
+   "modalidad": "Presencial",
+   "url": "https://prompt2product.devpost.com/",
+   "inscripcion": "https://prompt2product.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Acropolis Institute of Technology and RC",
+   "descripcion": "Hackathon presencial en AITR Indore. Temas: DevOps, Education. Premios: ₹ 0.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31110",
    "titulo": "hackPHS 2026",
    "tipo": "hackathon",
@@ -10932,31 +10866,6 @@
    "afinidad": 6,
    "puntaje": 30,
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
-  },
-  {
-   "id": "luma:evt-EZfCpyMuIopjvWN",
-   "titulo": "Cocktail Night",
-   "inicio": "2026-10-07T20:00-05:00",
-   "fin": "2026-10-08T04:00-05:00",
-   "lugar": "Lima, Perú",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/wkwx3a5a",
-   "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/58/325061d2-6e13-4db8-be88-1762509119f3.jpg",
-   "inscripcion": "https://lu.ma/wkwx3a5a",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (cocktail)",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
    "id": "luma:evt-vvFu4Yd2hMqDjxT",
@@ -11271,31 +11180,6 @@
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
   },
   {
-   "id": "eb:2000275945198",
-   "titulo": "PARTY BARBA ROJA",
-   "inicio": "2026-10-07T21:00-05:00",
-   "fin": "2026-10-07T23:30-05:00",
-   "lugar": "La Vermut Bar, 235 Avenida Francisco Bolognesi",
-   "distrito": "Barranco",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/party-barba-roja-tickets-2000275945198",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "Barba Roja está de fiesta y se pone el party!\n\nNos vemos este miércoles 7 de octubre.\n\nFecha: Miércoles 7 de octubre de 2026\nHora: 9 pm",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193072630%2F441173555656%2F1%2Foriginal.20260909-163707?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=21775f0acfa4a324a4da33b6f63786fe",
-   "inscripcion": "https://www.eventbrite.com/e/party-barba-roja-tickets-2000275945198",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (party)",
-   "categorias": [],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis"
-  },
-  {
    "id": "eb:2002952085606",
    "titulo": "ZIZA LED PARTY",
    "inicio": "2026-10-09T21:00-05:00",
@@ -11373,20 +11257,20 @@
    "por_que": "Formativo · Presencial en Lima · Gratis"
   },
   {
-   "id": "eb:1981186899348",
+   "id": "eb:1981186900351",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-07T23:00-05:00",
-   "fin": "2026-10-08T13:00-05:00",
+   "inicio": "2026-10-08T23:00-05:00",
+   "fin": "2026-10-09T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186899348",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186900351",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima, where you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186899348",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186900351",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -11985,17 +11869,17 @@
   "luma:evt-W72RWEmMS5BLcUR",
   "pucp:conferencia-internacional-empleabilidad-ia-y-competencias-para-el-futuro-laboral-21092026152940",
   "meetup:316885020",
-  "inst:universidad-esan-clase-modelo-maestr-a-en-direcci-n-de-tecno:2026-10-07",
   "devpost:31052",
-  "devpost:30790"
+  "devpost:30790",
+  "devpost:29114"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
   "PERUMIN": 1,
-  "ESAN — eventos": 4,
+  "ESAN — eventos": 3,
   "PMI Lima": 1,
   "Sociedad Nacional de Industrias": 7,
-  "AmCham Perú": 2,
+  "AmCham Perú": 0,
   "ComexPerú": 0
  },
  "se_viene": [
@@ -12010,10 +11894,10 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-07T19:42-05:00",
-  "revisados": 286,
-  "corregidos": 18,
-  "avisos": 2,
+  "fecha": "2026-10-08T04:52-05:00",
+  "revisados": 283,
+  "corregidos": 19,
+  "avisos": 3,
   "archivados": 5,
   "problemas": [
    {
@@ -12161,6 +12045,22 @@
     "url": "https://lu.ma/uba0k6n2"
    },
    {
+    "id": "eb:2003117091142",
+    "titulo": "Presentacion de Nuevos Productos",
+    "fuente": "Eventbrite",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://www.eventbrite.com/e/presentacion-de-nuevos-productos-tickets-2003117091142"
+   },
+   {
+    "id": "eb:2003117091142",
+    "titulo": "Presentacion de Nuevos Productos",
+    "fuente": "Eventbrite",
+    "nivel": "aviso",
+    "detalle": "presencial de madrugada (02:00): se muestra 'por confirmar'",
+    "url": "https://www.eventbrite.com/e/presentacion-de-nuevos-productos-tickets-2003117091142"
+   },
+   {
     "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
     "titulo": "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit 2026",
     "fuente": "Institucional",
@@ -12218,7 +12118,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 20,
+   "comprobados": 6,
    "rotos": 5,
    "sin_comprobar": 1
   },
@@ -12234,19 +12134,27 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "III Cumbre de Transporte 2026 abordó retos del transporte pesado",
+   "url": "https://autotv.pe/iii-cumbre-transporte-2026-peru/",
+   "medio": "autotv",
+   "publicado": "Sat, 26 Sep 2026 11:00:00 GMT",
+   "resumen": "La III Cumbre de Transporte 2026 analizó las nuevas exigencias del transporte pesado en Perú, desde mantenimiento y eficiencia hasta nuevas tecnologías.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
+   "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
+   "medio": "Agencia de Noticias Órbita",
+   "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
+   "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
    "url": "https://www.peru-retail.com/los-desafios-que-abordo-el-ii-foro-eficiencias-productividad-comercial-de-peru-retail-2026/",
    "medio": "Perú Retail",
    "publicado": "Mon, 28 Sep 2026 13:05:00 GMT",
    "resumen": "Con el objetivo de analizar los desafíos y oportunidades que enfrenta el sector en materia de productividad, Perú Retail llevó a cabo el II Foro Eficiencias & Productividad Comercial en Retail 2026 el ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "De Valladolid a Lima: UNI consiguió la sede de congreso internacional de urbanismo para 2027",
-   "url": "https://larepublica.pe/sociedad/2026/10/05/de-valladolid-a-lima-uni-consiguio-la-sede-de-congreso-internacional-de-urbanismo-para-2027-390245",
-   "medio": "La República",
-   "publicado": "Mon, 05 Oct 2026 02:25:00 GMT",
-   "resumen": "Este encuentro, centrado en la forma urbana y el cambio climático, reunirá a investigadores de diversas disciplinas para abordar la resiliencia de las ciudades ante crisis ambientales.",
    "fecha_mencionada": ""
   },
   {
@@ -12263,14 +12171,6 @@
    "medio": "Agencia de Noticias Órbita",
    "publicado": "Mon, 05 Oct 2026 17:00:00 GMT",
    "resumen": "El 9 y 10 de septiembre se llevó a cabo Nexo Summit 2026, la conferencia inmobiliaria más importante del país, evento en el que Schindler Perú participó en la categoría de main sponsor (patrocinador p ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Mujeres que transforman el futuro: Women in Technology Summit 2026 reunirá en Lima a líderes para impulsar el talento femenino en tecnología",
-   "url": "https://agenciaorbita.org/2026/09/24/mujeres-que-transforman-el-futuro-women-in-technology-summit-2026-reunira-en-lima-a-lideres-para-impulsar-el-talento-femenino-en-tecnologia/",
-   "medio": "Agencia de Noticias Órbita",
-   "publicado": "Wed, 23 Sep 2026 17:00:00 GMT",
-   "resumen": "La cumbre busca consolidarse como un espacio de conexión, aprendizaje e intercambio de experiencias, dirigido tanto a mujeres que ya se desempeñan en industrias tecnológicas como a estudiantes y ...",
    "fecha_mencionada": ""
   },
   {
@@ -12465,7 +12365,6 @@
   "meetup:315593600": "2026-09-24T21:06-05:00",
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:tejiendo-redes-de-encuentro-para-estudiantes": "2026-09-24T21:10-05:00",
-  "pucp:webinar-claves-para-la-gestion-por-procesos-que-generan-valor-18092026144913": "2026-09-24T21:10-05:00",
   "pucp:webinar-iso-21001-2025-claves-para-una-gestion-educativa-sostenible-21092026102119": "2026-09-24T21:10-05:00",
   "pucp:30-aula-magna-tejamos-el-pais-desde-las-diferencias-crecimiento-desarrollo-e-instituciones-11092026180436": "2026-09-24T21:10-05:00",
   "pucp:webinar-clasificar-para-proteger-fundamentos-de-seguridad-de-la-informacion-22092026160651": "2026-09-24T21:10-05:00",
@@ -12578,8 +12477,6 @@
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
   "devpost:30588": "2026-09-27T11:15-05:00",
   "devpost:30858": "2026-09-27T13:29-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13": "2026-09-27T13:39-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-09-27T13:39-05:00",
   "eb:1996809633366": "2026-09-27T16:59-05:00",
   "eb:1990929116582": "2026-09-27T16:59-05:00",
   "eb:2001113857416": "2026-09-27T16:59-05:00",
@@ -12615,7 +12512,6 @@
   "luma:evt-LGwJTP3XuvnHZx6": "2026-09-29T10:06-05:00",
   "luma:evt-19UchoAO3MbmuAG": "2026-09-29T10:06-05:00",
   "eb:2001083241844": "2026-09-29T10:06-05:00",
-  "eb:2000281780652": "2026-09-29T22:37-05:00",
   "meetup:ljgqztyjcpblc": "2026-09-29T22:37-05:00",
   "luma:evt-AB6prsOvUZl3nem": "2026-09-30T06:48-05:00",
   "eb:2002635681232": "2026-09-30T12:29-05:00",
@@ -12625,10 +12521,8 @@
   "luma:evt-DY7Z2Y4QGTzsoEY": "2026-09-30T12:29-05:00",
   "devpost:31054": "2026-09-30T12:29-05:00",
   "eb:2002634957066": "2026-09-30T12:29-05:00",
-  "devpost:31239": "2026-09-30T16:48-05:00",
   "luma:evt-fGsgymXzAWGuZdN": "2026-09-30T22:42-05:00",
   "devpost:31096": "2026-10-01T07:18-05:00",
-  "inst:universidad-esan-clase-modelo-maestr-a-en-direcci-n-de-tecno:2026-10-07": "2026-10-01T15:06-05:00",
   "luma:evt-nXgx4Obq4K6NoQ5": "2026-10-01T15:06-05:00",
   "luma:evt-GXsCfbN5Sn7hMS8": "2026-10-01T15:06-05:00",
   "pucp:mercantilizacion-del-suelo-y-asequibilidad-de-la-vivienda-30092026154013": "2026-10-01T15:06-05:00",
@@ -12655,7 +12549,6 @@
   "luma:evt-3BTMWWVqKeRUNiH": "2026-10-02T16:45-05:00",
   "luma:evt-jFB741zwm8fwoQN": "2026-10-02T16:45-05:00",
   "pucp:ceremonia-de-homenaje-a-exalumnos-distinguidos-01102026190840": "2026-10-02T16:45-05:00",
-  "luma:evt-kni2yDAAbqihzj7": "2026-10-02T22:28-05:00",
   "luma:evt-t0JzIizRbJBay50": "2026-10-03T10:36-05:00",
   "luma:evt-tCZO8MFAOToDtlz": "2026-10-03T15:30-05:00",
   "luma:evt-CPD3HexYKVn1zg2": "2026-10-03T15:30-05:00",
@@ -12676,7 +12569,6 @@
   "pucp:genero-masculinidades-y-tb-en-el-peru-05102026114900": "2026-10-05T16:48-05:00",
   "pucp:feape-2026-05102026102819": "2026-10-05T16:48-05:00",
   "wikicfp:192324": "2026-10-05T16:48-05:00",
-  "devpost:31562": "2026-10-05T23:27-05:00",
   "devpost:31098": "2026-10-05T23:27-05:00",
   "luma:evt-pO6OcaGw4Ouv7tf": "2026-10-05T23:27-05:00",
   "pucp:conferencia-estudia-en-china-oportunidades-que-pueden-abrirte-nuevas-puertas-05102026153105": "2026-10-05T23:27-05:00",
@@ -12724,6 +12616,11 @@
   "pucp:distincion-de-doctor-honoris-causa-al-doctor-richard-l-kagan-07102026131923": "2026-10-07T19:42-05:00",
   "luma:evt-RAJuAWWemq64ENd": "2026-10-07T19:42-05:00",
   "luma:evt-DlgHwNhR4bj4AWR": "2026-10-07T19:42-05:00",
-  "luma:evt-iaNxCubkGzEZ6qc": "2026-10-07T19:42-05:00"
+  "luma:evt-iaNxCubkGzEZ6qc": "2026-10-07T19:42-05:00",
+  "luma:evt-Pu600eKM3RJzhcy": "2026-10-08T04:52-05:00",
+  "eb:2003121885482": "2026-10-08T04:52-05:00",
+  "eb:2002986648986": "2026-10-08T04:52-05:00",
+  "eb:2003117091142": "2026-10-08T04:52-05:00",
+  "devpost:30819": "2026-10-08T04:52-05:00"
  }
 }
