@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-09T22:57-05:00",
+ "actualizado": "2026-10-10T06:47-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 55
+   "n": 57
   },
   "Eventbrite online": {
    "ok": true,
@@ -47,7 +47,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 14
+   "n": 13
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 449,
+ "revisados": 450,
  "top": 55,
  "eventos": [
   {
@@ -118,41 +118,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Becas y posgrado · Voluntariado · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "inst:sni-webinar-drawback-el-beneficio-que-todo-exportador-deber-:2026-10-09",
-   "titulo": "Webinar: Drawback: el beneficio que todo exportador debería aprovechar",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-09T11:00-05:00",
-   "fin": "",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/09/DRAWBACK-EL-BENEFICIO-QUE-TODO-EXPORTADOR-DEBERIA-APROVECHAR-img.jpg",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Virtual",
-   "original": {
-    "fin": "2026-10-09T23:50-05:00"
-   },
-   "visto_desde": "2026-10-06T07:38-05:00"
   },
   {
    "id": "eb:1999310788388",
@@ -379,62 +344,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-27T13:29-05:00"
-  },
-  {
-   "id": "devpost:31196",
-   "titulo": "ML Empowerment Build Challenge 3.0 - ($400,000 in prizes!)",
-   "tipo": "hackathon",
-   "inicio": "2026-09-05T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://ml-build-challenge-3.devpost.com/",
-   "inscripcion": "https://ml-build-challenge-3.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ML Empowerment Foundation",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $0.",
-   "gratis": false,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/267/891/datas/medium_square.jpg",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 13,
-   "afinidad": 35,
-   "puntaje": 48,
-   "por_que": "Afín: Datos y machine learning · Competencia · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-27T06:14-05:00"
-  },
-  {
-   "id": "devpost:31098",
-   "titulo": "Graphiques Innovation Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-08-21T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://graphiques-challenge.devpost.com/",
-   "inscripcion": "https://graphiques-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-05T23:27-05:00"
   },
   {
    "id": "inst:sni-prueba-institucional-sni:2026-10-11",
@@ -866,6 +775,34 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-04T15:49-05:00"
+  },
+  {
+   "id": "devpost:31098",
+   "titulo": "Graphiques Innovation Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-08-21T00:00-05:00",
+   "fin": "2026-10-12T23:59-05:00",
+   "cierre": "2026-10-12T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://graphiques-challenge.devpost.com/",
+   "inscripcion": "https://graphiques-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack Club",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 19,
+   "afinidad": 13,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-05T23:27-05:00"
   },
   {
    "id": "devpost:28259",
@@ -5165,7 +5102,7 @@
    "organizador": "Agile Procurement",
    "descripcion": "Innovación y tecnología para Compras en un evento con networking de talla mundial",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193328333%2F1395286984083%2F1%2Foriginal.20260912-124038?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.987&s=ece64cbc3e704b66fe51761f902b0072",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193328333%2F1395286984083%2F1%2Foriginal.20260912-124038?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.987&s=d85f0ae45ccb0d133acc6e68a68459d0",
    "inscripcion": "https://www.eventbrite.es/e/entradas-procurement-innovation-day-lima-1982108679417",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -5265,6 +5202,33 @@
    "puntaje": 57,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:31474",
+   "titulo": "2026 International CodeTheCure Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-28T23:59-05:00",
+   "cierre": "2026-10-28T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://codethecure-hackathon-26.devpost.com/",
+   "inscripcion": "https://codethecure-hackathon-26.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "CodeTheCure",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Health. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/906/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 9,
+   "puntaje": 28,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-10T06:47-05:00"
   },
   {
    "id": "eb:1999735020277",
@@ -9837,6 +9801,31 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "eb:2003228032972",
+   "titulo": "Feria de detalles personalizados",
+   "inicio": "2026-10-18T13:00-05:00",
+   "fin": "2026-10-18T17:30-05:00",
+   "lugar": "Feria de detalles personalizados, Centro Comercial Plaza Norte",
+   "distrito": "Independencia",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/feria-de-detalles-personalizados-tickets-2003228032972",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Disfruta y diseña tu propio ramo eterno, cuadros y cajitas personalizadas con detalles hechos a mano a tu gusto.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195498223%2F3017189587525%2F1%2Foriginal.20261010-043435?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.508&fp-y=0.013&s=6ed0aa3050b834d7aa59d626ab010615",
+   "inscripcion": "https://www.eventbrite.com/e/feria-de-detalles-personalizados-tickets-2003228032972",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis"
+  },
+  {
    "id": "eb:2003208925822",
    "titulo": "Día Dulce",
    "inicio": "2026-10-18T18:00-05:00",
@@ -10474,7 +10463,7 @@
    "organizador": "",
    "descripcion": "Éclat te invita a descubrir Fruity Volcano, una creación exclusiva que llega para conquistar a los amantes del chocolate.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f8ae7b1de49485f2fa8bc980a47e3e30",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=488f8c8b811763c1087b9f6b5ad1cd48",
    "inscripcion": "https://www.eventbrite.com.pe/e/fruity-volcano-tickets-2003226162377",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10655,33 +10644,6 @@
    "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31124",
-   "titulo": "SVYCA Youth for Earth (Y4E) Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-09-20T00:00-05:00",
-   "fin": "2026-10-18T23:59-05:00",
-   "cierre": "2026-10-18T23:59-05:00",
-   "lugar": "Stanford University",
-   "distrito": "Stanford University",
-   "modalidad": "Presencial",
-   "url": "https://svycay4e.devpost.com/",
-   "inscripcion": "https://svycay4e.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Silicon Valley Youth Climate Action",
-   "descripcion": "Hackathon presencial en Stanford University. Temas: Social Good. Premios: $2,700.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/428/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 9,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31477",
    "titulo": "INDUX 5.0-2026",
    "tipo": "hackathon",
@@ -10835,7 +10797,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "Knight Hacks",
-   "descripcion": "Hackathon presencial en UCF Engineering II (ENG2). Temas: Beginner Friendly. Premios: $305,784.",
+   "descripcion": "Hackathon presencial en UCF Engineering II (ENG2). Temas: Beginner Friendly. Premios: $317,784.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/295/213/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
@@ -10904,23 +10866,23 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31275",
-   "titulo": "Rutgers Health Hack 2026",
+   "id": "devpost:31110",
+   "titulo": "hackPHS 2026",
    "tipo": "hackathon",
-   "inicio": "2026-10-09T00:00-05:00",
+   "inicio": "2026-10-10T00:00-05:00",
    "fin": "2026-10-11T23:59-05:00",
    "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "NJ HELIX Tower 1",
-   "distrito": "NJ HELIX Tower 1",
+   "lugar": "Princeton High School",
+   "distrito": "Princeton High School",
    "modalidad": "Presencial",
-   "url": "https://rutgers-health-hack-2026.devpost.com/",
-   "inscripcion": "https://rutgers-health-hack-2026.devpost.com/",
+   "url": "https://hackphs2026.devpost.com/",
+   "inscripcion": "https://hackphs2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Robert Wood Johnson Medical School",
-   "descripcion": "Hackathon presencial en NJ HELIX Tower 1. Temas: Health. Premios: $10,000.",
+   "organizador": "Princeton High School",
+   "descripcion": "Hackathon presencial en Princeton High School. Temas: Beginner Friendly, Open Ended, Web. Premios: $1,000.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/273/924/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/164/980/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Competencias y hackathons"
@@ -10931,32 +10893,59 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31429",
-   "titulo": "Ensign Build",
+   "id": "devpost:30611",
+   "titulo": "RecT Solutions Hackathon: Beyond the CV 2026",
    "tipo": "hackathon",
-   "inicio": "2026-10-09T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "Ensign College Building",
-   "distrito": "Ensign College Building",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "IDEA Spaces Saldanha",
+   "distrito": "IDEA Spaces Saldanha",
    "modalidad": "Presencial",
-   "url": "https://ensign-build.devpost.com/",
-   "inscripcion": "https://ensign-build.devpost.com/",
+   "url": "https://rect-hackathon.devpost.com/",
+   "inscripcion": "https://rect-hackathon.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Ensign College",
-   "descripcion": "Hackathon presencial en Ensign College Building. Temas: Cybersecurity, Design, Machine Learning/AI. Premios: $0.",
+   "organizador": "RecT Solutions",
+   "descripcion": "Hackathon presencial en IDEA Spaces Saldanha. Temas: Databases, DevOps, Machine Learning/AI. Premios: €2,000.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/337/472/datas/medium_square.jpeg",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/857/455/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
-    "Tecnología e IA",
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 16,
+   "afinidad": 29,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31064",
+   "titulo": "Hacks for Humanity",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "ASU Memorial Union , Ventana Ballroom",
+   "distrito": "ASU Memorial Union ",
+   "modalidad": "Presencial",
+   "url": "https://hacks-for-humanity-2026.devpost.com/",
+   "inscripcion": "https://hacks-for-humanity-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Project Humanities",
+   "descripcion": "Hackathon presencial en ASU Memorial Union , Ventana Ballroom. Temas: Beginner Friendly, Education, Social Good. Premios: $6,300.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/148/974/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
     "Competencias y hackathons"
    ],
    "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-",
@@ -11106,7 +11095,7 @@
    "organizador": "La Taza Dorada",
    "descripcion": "Taller presencial desde cero: cata acogedora de filtrados y café de especialidad para estudiantes y principiantes.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=c9d2eac7df802bab7ce2b846568a74b7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=75a5a577613699d500dda5f02f40a5ca",
    "inscripcion": "https://www.eventbrite.com/e/taller-de-cata-de-filtrados-y-cafe-de-especialidad-tickets-2003208116401",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -11201,6 +11190,31 @@
    "afinidad": 4,
    "puntaje": 28,
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
+  },
+  {
+   "id": "eb:2003230920609",
+   "titulo": "Feria de degustación y promoción",
+   "inicio": "2026-11-19T10:00-05:00",
+   "fin": "2026-11-19T12:30-05:00",
+   "lugar": "Avenida Perú, Avenida Perú",
+   "distrito": "San Martín de Porres",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/feria-de-degustacion-y-promocion-tickets-2003230920609",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Ven a probar nuevos sabores y descubrir promociones irresistibles en persona.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195501024%2F3017218538775%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=92feb0f031fa6682b6177fea4011ce84",
+   "inscripcion": "https://www.eventbrite.com/e/feria-de-degustacion-y-promocion-tickets-2003230920609",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (degustacion)",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Networking · Presencial en Lima · Gratis · (Poca información)"
   },
   {
    "id": "eb:1901677762379",
@@ -11368,7 +11382,7 @@
    "organizador": "Zarella",
    "descripcion": "Get spooky cute vibes and creepy-cute crafts all in one fun workshop you won't want to miss! It is a 100% hands-on, handmade workshop",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193483660%2F2912043267641%2F1%2Foriginal.20260914-195228?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=47c3a7f9bd670c9b03a5f4bfd82e57d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193483660%2F2912043267641%2F1%2Foriginal.20260914-195228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1238aa61158b6a952fe1c2671ab902ec",
    "inscripcion": "https://www.eventbrite.com.pe/e/cripi-kawaii-workshop-tickets-2001011520323",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -11379,6 +11393,33 @@
    "afinidad": 0,
    "puntaje": 22,
    "por_que": "Formativo · Presencial en Lima"
+  },
+  {
+   "id": "eb:2003229058038",
+   "titulo": "Lanzamiento de un nuevo producto en feria",
+   "inicio": "2026-10-17T11:00-05:00",
+   "fin": "2026-10-17T19:00-05:00",
+   "lugar": "Dar a conocer nuestro nuevo producto en feria, barranco",
+   "distrito": "Barranco",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/lanzamiento-de-un-nuevo-producto-en-feria-tickets-2003229058038",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Dar a conocer nuestros productos en la feria .",
+   "gratis": true,
+   "imagen": "",
+   "inscripcion": "https://www.eventbrite.com/e/lanzamiento-de-un-nuevo-producto-en-feria-tickets-2003229058038",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (lanzamiento de)",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Networking · Presencial en Lima · Gratis · (Poca información)"
   },
   {
    "id": "eb:2003074310183",
@@ -11459,31 +11500,6 @@
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
   },
   {
-   "id": "eb:2002952085606",
-   "titulo": "ZIZA LED PARTY",
-   "inicio": "2026-10-09T21:00-05:00",
-   "fin": "2026-10-10T06:30-05:00",
-   "lugar": "Discoteca Tequila Boom, 1602 Avenida de la Marina",
-   "distrito": "Pueblo Libre",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/ziza-led-party-tickets-2002952085606",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "¡Enciende tu glow y rompe la noche en ZIZA LED PARTY!",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195094320%2F3016606211278%2F1%2Foriginal.20261005-165145?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=865221899aec61de332c72852f58f08b",
-   "inscripcion": "https://www.eventbrite.com.pe/e/ziza-led-party-tickets-2002952085606",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (party)",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · (Poca información)"
-  },
-  {
    "id": "luma:evt-AE1UpSmxnSErCX2",
    "titulo": "UV Running Club 5K + Brunch by UTEC Ventures & adn.vc",
    "inicio": "2026-10-16T08:00-05:00",
@@ -11536,20 +11552,20 @@
    "por_que": "Formativo · Presencial en Lima · Gratis"
   },
   {
-   "id": "eb:1981186901354",
+   "id": "eb:1981186902357",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-09T23:00-05:00",
-   "fin": "2026-10-10T13:00-05:00",
+   "inicio": "2026-10-10T23:00-05:00",
+   "fin": "2026-10-11T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186901354",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186902357",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima, where you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186901354",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186902357",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -11840,33 +11856,6 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31049",
-   "titulo": "HackIT 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-09-14T00:00-05:00",
-   "fin": "2026-10-20T23:59-05:00",
-   "cierre": "2026-10-20T23:59-05:00",
-   "lugar": "Ngee Ann Polytechnic School of ICT",
-   "distrito": "Ngee Ann Polytechnic School of ICT",
-   "modalidad": "Presencial",
-   "url": "https://hackit-2026.devpost.com/",
-   "inscripcion": "https://hackit-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "NP Overflow",
-   "descripcion": "Hackathon presencial en Ngee Ann Polytechnic School of ICT. Temas: Beginner Friendly, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/127/509/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31180",
    "titulo": "AI Lodge Hackathon 2026",
    "tipo": "hackathon",
@@ -11977,6 +11966,34 @@
    "afinidad": 10,
    "puntaje": 26,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31544",
+   "titulo": "QMUL AI Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-10T23:59-05:00",
+   "cierre": "2026-10-10T23:59-05:00",
+   "lugar": "QMUL - Bancroft Building 1.13",
+   "distrito": "QMUL - Bancroft Building 1.13",
+   "modalidad": "Presencial",
+   "url": "https://qmul-ai-hackathon.devpost.com/",
+   "inscripcion": "https://qmul-ai-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Queen Mary AI Soc, Queen Mary CS Soc",
+   "descripcion": "Hackathon presencial en QMUL - Bancroft Building 1.13. Temas: Beginner Friendly, Open Ended. Premios: £0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/485/812/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 21,
+   "puntaje": 37,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:el-cemduc-presenta-jarana-en-la-pucp-al-ritmo-de-tradicion-y-sentir-criollo-06102026101427",
@@ -12295,7 +12312,7 @@
   "PERUMIN": 1,
   "ESAN — eventos": 3,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 7,
+  "Sociedad Nacional de Industrias": 6,
   "AmCham Perú": 2,
   "ComexPerú": 0
  },
@@ -12311,20 +12328,12 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-09T22:57-05:00",
-  "revisados": 284,
-  "corregidos": 18,
+  "fecha": "2026-10-10T06:47-05:00",
+  "revisados": 283,
+  "corregidos": 17,
   "avisos": 3,
   "archivados": 5,
   "problemas": [
-   {
-    "id": "inst:sni-webinar-drawback-el-beneficio-que-todo-exportador-deber-:2026-10-09",
-    "titulo": "Webinar: Drawback: el beneficio que todo exportador debería aprovechar",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término no creíble (11:00–23:50)",
-    "url": "https://sni.org.pe/eventos/"
-   },
    {
     "id": "eb:1999310788388",
     "titulo": "Expoestudios Lima 2026-2",
@@ -12543,14 +12552,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "PetroTal resalta su contribución al manejo sostenible del paiche en Cumbre Perú Sostenible",
-   "url": "https://www.desdeadentro.pe/2026/09/petrotal-resalta-su-contribucion-al-manejo-sostenible-del-paiche-en-cumbre-peru-sostenible/",
-   "medio": "Desde Adentro",
-   "publicado": "Mon, 28 Sep 2026 03:43:00 GMT",
-   "resumen": "En su primera participación en la Cumbre Perú Sostenible 2026, PetroTal expuso su contribución al desarrollo sostenible de Loreto, región donde opera el Campo Bretaña del Lote 95, desde 2018.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "IAGR anuncia a los patrocinadores de su Conferencia Anual 2026 para Lima, Perú",
    "url": "https://www.soloazar.com/es/categoria/eventos/iagr-anuncia-a-los-patrocinadores-de-su-conferencia-anual-2026-para-lima-peru",
    "medio": "soloazar",
@@ -12591,19 +12592,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
-   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
-   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Red Hat Summit 2026 apuesta por soberanía digital y seguridad en IA",
    "url": "https://masvip.com.do/2026/10/05/red-hat-summit-2026-apuesta-por-soberania-digital-y-seguridad-en-ia/",
    "medio": "Masvip",
    "publicado": "Sun, 04 Oct 2026 17:00:00 GMT",
    "resumen": "Lima. – La inteligencia artificial ha dejado de ser un experimento aislado para convertirse en el motor central de la infraestructura empresarial. Sin embargo, muchas organizaciones siguen enfrentando ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
+   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
+   "medio": "DiarioBitcoin",
+   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
+   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
    "fecha_mencionada": ""
   },
   {
@@ -12628,6 +12629,14 @@
    "medio": "RPP",
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Más de 250 empresas participarán en feria internacional Expotextil Perú 2026 en noviembre",
+   "url": "https://andina.pe/agencia/noticia-mas-250-empresas-participaran-feria-internacional-expotextil-peru-2026-noviembre-1095147.aspx",
+   "medio": "Agencia Peruana de Noticias | ANDINA",
+   "publicado": "Wed, 07 Oct 2026 17:00:00 GMT",
+   "resumen": "Lima se convertirá en la capital textil de Latinoamérica con la participación de más de 250 empresas exhibidoras de cerca de 30 países. Este certamen internacional, que se desarrollará del 5 al 8 de n ...",
    "fecha_mencionada": ""
   }
  ],
@@ -12895,7 +12904,6 @@
   "luma:evt-iQcElAPhAZ5Ew2F": "2026-09-26T15:34-05:00",
   "luma:evt-WXo4ob5dba49nVk": "2026-09-26T15:34-05:00",
   "luma:evt-ArfuCapJSpFKxdm": "2026-09-26T22:13-05:00",
-  "devpost:31196": "2026-09-27T06:14-05:00",
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
   "devpost:30588": "2026-09-27T11:15-05:00",
   "devpost:30858": "2026-09-27T13:29-05:00",
@@ -12989,7 +12997,6 @@
   "luma:evt-wAiRgVBglmmJ3WY": "2026-10-05T23:27-05:00",
   "luma:evt-193vLAVk9EWNxiV": "2026-10-05T23:27-05:00",
   "devpost:31627": "2026-10-05T23:27-05:00",
-  "inst:sni-webinar-drawback-el-beneficio-que-todo-exportador-deber-:2026-10-09": "2026-10-06T07:38-05:00",
   "luma:evt-V9U8nHT0Vqf4AJO": "2026-10-06T07:38-05:00",
   "devpost:28259": "2026-10-06T07:38-05:00",
   "inst:sni-webinar-drawback-el-beneficio-que-todo-exportador-deber-:2026-10-14": "2026-10-06T07:38-05:00",
@@ -13047,6 +13054,7 @@
   "luma:evt-tFdPEMmgyASMcvu": "2026-10-09T17:10-05:00",
   "luma:evt-9ab5nunE1g7wEju": "2026-10-09T17:10-05:00",
   "opportunitydesk:arvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028-": "2026-10-09T17:10-05:00",
-  "opportunitydesk:tydesk-org-2026-10-10-safe-in-our-world-mental-health-ambassador-2027-": "2026-10-09T22:57-05:00"
+  "opportunitydesk:tydesk-org-2026-10-10-safe-in-our-world-mental-health-ambassador-2027-": "2026-10-09T22:57-05:00",
+  "devpost:31474": "2026-10-10T06:47-05:00"
  }
 }
