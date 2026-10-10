@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-10T06:47-05:00",
+ "actualizado": "2026-10-10T11:50-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 57
+   "n": 58
   },
   "Eventbrite online": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 450,
+ "revisados": 451,
  "top": 55,
  "eventos": [
   {
@@ -318,34 +318,6 @@
    "visto_desde": "2026-10-09T17:10-05:00"
   },
   {
-   "id": "devpost:30858",
-   "titulo": "ForgeHacks Online 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-01T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://forgehacks-2026.devpost.com/",
-   "inscripcion": "https://forgehacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ForgeHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Lifehacks, Machine Learning/AI. Premios: $1,382,700.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 26,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-27T13:29-05:00"
-  },
-  {
    "id": "inst:sni-prueba-institucional-sni:2026-10-11",
    "titulo": "Prueba Institucional Sni",
    "tipo": "evento",
@@ -414,6 +386,34 @@
     "descripcion": "Prueba Evento Sni"
    },
    "visto_desde": "2026-10-09T12:54-05:00"
+  },
+  {
+   "id": "devpost:31417",
+   "titulo": "EvoHacks2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://evohackathon2026.devpost.com/",
+   "inscripcion": "https://evohackathon2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "EvoHacks",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Machine Learning/AI. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/395/625/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-10T11:50-05:00"
   },
   {
    "id": "luma:evt-pO6OcaGw4Ouv7tf",
@@ -1132,7 +1132,7 @@
    "organizador": "Perú Tech Week 2026",
    "descripcion": "Construir producto con LLMs no se parece a nada de antes.\nBlueprint 01 es un espacio abierto para conectar, comer piqueos y conversar junto a:- Omar Flórez lidera el pre-entrenamiento de LatamGPT, el primer modelo de 70B parámetros entrenado en Latinoamérica, y antes entrenó modelos a escala en Twitter Cortex y Capital One.- Víctor Cadenas es Sr. Product Manager de IA conversacional en Apple, donde definió cómo evaluar si un producto basado en LLMs está listo para usuarios reales.- Julio Canares es co-founder y CTO de Riqra, la plataforma de ecommerce para distribuidores que vende por WhatsApp con agentes de IA. También fundó Ciro (inteligencia de retail) y Nutrifit, y es Senior ML Engineer ",
    "gratis": false,
-   "imagen": "https://images.lumacdn.com/uploads/bl/e33b53d6-3c58-43c4-b12c-d2c5bd6ce450.png",
+   "imagen": "https://images.lumacdn.com/uploads/v2/b3344c51-7aa1-458a-b283-b078f974bca3.png",
    "inscripcion": "https://lu.ma/ek0skxyp",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -2955,7 +2955,7 @@
    "url": "https://lu.ma/9yyru6w9",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "Únete a Blockchain es Clave, un evento imperdible para explorar los usos, oportunidades y aplicaciones prácticas de la tecnología blockchain en diversos sectores de la industria.\nVen a conectar ideas en una jornada dinámica donde abordaremos desde las finanzas descentralizadas y las aplicaciones industriales hasta los mercados de lujo y la gobernanza pública.\nTendremos charlas potentes sobre los siguientes temas:\nUsos multisectoriales de blockchain\n\nOportunidades para estudiantes\n\nStablecoins y banca\n\nGaming Web3\n\nWeb3 en artículos de lujo\n\nReal World Assets\n\nMarketing web3\n\nRRSS y UGC\n\n¿Por qué deberías asistir?\nAprende de expertos: Descubre de primera mano cómo líderes de la industria está",
+   "descripcion": "Únete a Blockchain es Clave, un evento imperdible para explorar los usos, oportunidades y aplicaciones prácticas de la tecnología blockchain en diversos sectores de la industria.\nVen a conectar ideas en una jornada dinámica donde abordaremos desde las finanzas descentralizadas y las aplicaciones industriales hasta los mercados de lujo y las redes sociales.\nTendremos charlas potentes sobre los siguientes temas:\nUsos multisectoriales de blockchain\n\nOportunidades para estudiantes\n\nStablecoins y banca\n\nGaming Web3\n\nWeb3 en artículos de lujo\n\nReal World Assets\n\nMarketing web3\n\nRRSS y UGC\n\n¿Por qué deberías asistir?\nAprende de expertos: Descubre de primera mano cómo líderes de la industria están a",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/s4/19e41934-b135-41d2-b55c-3bd12bad8040.jpg",
    "inscripcion": "https://lu.ma/9yyru6w9",
@@ -10476,6 +10476,31 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "eb:2003236646736",
+   "titulo": "Taller de Retratos al Óleo",
+   "inicio": "2026-11-18T15:30-05:00",
+   "fin": "2026-11-18T19:00-05:00",
+   "lugar": "Geronimo Medina 270, 270 Geronimo Medina",
+   "distrito": "Comas",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/taller-de-retratos-al-oleo-tickets-2003236646736",
+   "fuente": "Eventbrite",
+   "organizador": "Josue Gabriel",
+   "descripcion": "Un taller presencial y enérgico de retratos al óleo para todo público.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195509461%2F3016597840087%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=60180d03d217c86bd915b3ce7f774f7f",
+   "inscripcion": "https://www.eventbrite.com/e/taller-de-retratos-al-oleo-tickets-2003236646736",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis"
+  },
+  {
    "id": "opportunitiesforyouth:-how-to-start-or-renew-a-unicef-usa-club-and-take-action-for-children-",
    "titulo": "UNICEF Club Registration 2026–2027: How to Start or Renew a UNICEF USA Club and Take Action for Children",
    "tipo": "voluntariado",
@@ -10838,34 +10863,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31253",
-   "titulo": "IslanderHack",
-   "tipo": "hackathon",
-   "inicio": "2026-10-09T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "Tejas Lounge",
-   "distrito": "Tejas Lounge",
-   "modalidad": "Presencial",
-   "url": "https://islanderhack-2026.devpost.com/",
-   "inscripcion": "https://islanderhack-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Texas A&M University - Corpus Christi",
-   "descripcion": "Hackathon presencial en Tejas Lounge. Temas: Machine Learning/AI, Social Good. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/285/996/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 26,
-   "puntaje": 49,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31110",
    "titulo": "hackPHS 2026",
    "tipo": "hackathon",
@@ -10891,6 +10888,172 @@
    "afinidad": 6,
    "puntaje": 22,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31517",
+   "titulo": "Latinos x AI Hackathon - NYC",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-10T23:59-05:00",
+   "cierre": "2026-10-10T23:59-05:00",
+   "lugar": "Columbia Business School",
+   "distrito": "Columbia Business School",
+   "modalidad": "Presencial",
+   "url": "https://latinos-x-ai-hackathon-nyc.devpost.com/",
+   "inscripcion": "https://latinos-x-ai-hackathon-nyc.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "la familia",
+   "descripcion": "Hackathon presencial en Columbia Business School. Temas: Beginner Friendly, Fintech, Health. Premios: $1,500.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/536/676/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 16,
+   "afinidad": 25,
+   "puntaje": 41,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31530",
+   "titulo": "HackNC 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "Fetzer Gym, UNC-Chapel Hill",
+   "distrito": "Fetzer Gym",
+   "modalidad": "Presencial",
+   "url": "https://hacknc-2026.devpost.com/",
+   "inscripcion": "https://hacknc-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "HackNC",
+   "descripcion": "Hackathon presencial en Fetzer Gym, UNC-Chapel Hill. Temas: Beginner Friendly, Open Ended, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/415/392/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:30833",
+   "titulo": "Hyphen-Hacks",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-10T23:59-05:00",
+   "cierre": "2026-10-10T23:59-05:00",
+   "lugar": "Lick-Wilmerding High School",
+   "distrito": "Lick-Wilmerding High School",
+   "modalidad": "Presencial",
+   "url": "https://hyphen-hacks26.devpost.com/",
+   "inscripcion": "https://hyphen-hacks26.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Lick-Wilmerding High School",
+   "descripcion": "Hackathon presencial en Lick-Wilmerding High School. Temas: Beginner Friendly, Education, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/027/494/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31652",
+   "titulo": "Get Hired Hack @ Columbia Startup Lab",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-10T23:59-05:00",
+   "cierre": "2026-10-10T23:59-05:00",
+   "lugar": "Columbia Startup Lab",
+   "distrito": "Columbia Startup Lab",
+   "modalidad": "Presencial",
+   "url": "https://get-hired-hack-nyc.devpost.com/",
+   "inscripcion": "https://get-hired-hack-nyc.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "localhost-nyc",
+   "descripcion": "Hackathon presencial en Columbia Startup Lab. Temas: Machine Learning/AI, Web. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/534/704/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 18,
+   "afinidad": 32,
+   "puntaje": 50,
+   "por_que": "Formativo · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31613",
+   "titulo": "PalmettoHacks 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "Swearingen Engineering Center",
+   "distrito": "Swearingen Engineering Center",
+   "modalidad": "Presencial",
+   "url": "https://palmettohacks-2026.devpost.com/",
+   "inscripcion": "https://palmettohacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Kappa Theta Pi South Carolina",
+   "descripcion": "Hackathon presencial en Swearingen Engineering Center. Temas: Beginner Friendly, Enterprise, Machine Learning/AI. Premios: $3,250.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 26,
+   "puntaje": 42,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31607",
+   "titulo": "HackRU Fall 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "Busch Student Center",
+   "distrito": "Busch Student Center",
+   "modalidad": "Presencial",
+   "url": "https://hackru-fall-2026.devpost.com/",
+   "inscripcion": "https://hackru-fall-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "HackRU",
+   "descripcion": "Hackathon presencial en Busch Student Center. Temas: Beginner Friendly, Machine Learning/AI, Web. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/548/206/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 26,
+   "puntaje": 42,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:30611",
@@ -10919,33 +11082,6 @@
    "afinidad": 29,
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31064",
-   "titulo": "Hacks for Humanity",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "ASU Memorial Union , Ventana Ballroom",
-   "distrito": "ASU Memorial Union ",
-   "modalidad": "Presencial",
-   "url": "https://hacks-for-humanity-2026.devpost.com/",
-   "inscripcion": "https://hacks-for-humanity-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Project Humanities",
-   "descripcion": "Hackathon presencial en ASU Memorial Union , Ventana Ballroom. Temas: Beginner Friendly, Education, Social Good. Premios: $6,300.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/148/974/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-",
@@ -11829,33 +11965,6 @@
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "devpost:28603",
-   "titulo": "MCA 2026 projects",
-   "tipo": "hackathon",
-   "inicio": "2026-02-27T00:00-05:00",
-   "fin": "2026-12-25T23:59-05:00",
-   "cierre": "2026-12-25T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://mca-2026-projects.devpost.com/",
-   "inscripcion": "https://mca-2026-projects.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Mizzou Computing Association",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31180",
    "titulo": "AI Lodge Hackathon 2026",
    "tipo": "hackathon",
@@ -11884,62 +11993,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31626",
-   "titulo": "Hackathon Agéntico SoftwareChido 2026B",
-   "tipo": "hackathon",
-   "inicio": "2026-10-05T00:00-05:00",
-   "fin": "2026-11-25T23:59-05:00",
-   "cierre": "2026-11-25T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://hackathon-agentico-2026b.devpost.com/",
-   "inscripcion": "https://hackathon-agentico-2026b.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ITESO",
-   "descripcion": "Hackathon online. Temas: Education, Machine Learning/AI. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 29,
-   "puntaje": 48,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:29915",
-   "titulo": "Caribbean AI Summit Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-10-08T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "Puerto Rico Convention Center",
-   "distrito": "Puerto Rico Convention Center",
-   "modalidad": "Presencial",
-   "url": "https://caribbean-ai-summit-hackathon.devpost.com/",
-   "inscripcion": "https://caribbean-ai-summit-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Puerto Rico AI Community",
-   "descripcion": "Hackathon presencial en Puerto Rico Convention Center. Temas: Health, Social Good. Premios: $10,500.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/384/797/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 21,
-   "puntaje": 37,
-   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31590",
    "titulo": "Hack Knight Fall 2026",
    "tipo": "hackathon",
@@ -11966,34 +12019,6 @@
    "afinidad": 10,
    "puntaje": 26,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31544",
-   "titulo": "QMUL AI Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-10T23:59-05:00",
-   "cierre": "2026-10-10T23:59-05:00",
-   "lugar": "QMUL - Bancroft Building 1.13",
-   "distrito": "QMUL - Bancroft Building 1.13",
-   "modalidad": "Presencial",
-   "url": "https://qmul-ai-hackathon.devpost.com/",
-   "inscripcion": "https://qmul-ai-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Queen Mary AI Soc, Queen Mary CS Soc",
-   "descripcion": "Hackathon presencial en QMUL - Bancroft Building 1.13. Temas: Beginner Friendly, Open Ended. Premios: £0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/485/812/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 21,
-   "puntaje": 37,
-   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:el-cemduc-presenta-jarana-en-la-pucp-al-ritmo-de-tradicion-y-sentir-criollo-06102026101427",
@@ -12328,7 +12353,7 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-10T06:47-05:00",
+  "fecha": "2026-10-10T11:50-05:00",
   "revisados": 283,
   "corregidos": 17,
   "avisos": 3,
@@ -12536,7 +12561,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 1,
+   "comprobados": 2,
    "rotos": 5,
    "sin_comprobar": 1
   },
@@ -12592,19 +12617,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Red Hat Summit 2026 apuesta por soberanía digital y seguridad en IA",
-   "url": "https://masvip.com.do/2026/10/05/red-hat-summit-2026-apuesta-por-soberania-digital-y-seguridad-en-ia/",
-   "medio": "Masvip",
-   "publicado": "Sun, 04 Oct 2026 17:00:00 GMT",
-   "resumen": "Lima. – La inteligencia artificial ha dejado de ser un experimento aislado para convertirse en el motor central de la infraestructura empresarial. Sin embargo, muchas organizaciones siguen enfrentando ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
    "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
    "medio": "DiarioBitcoin",
    "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
    "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Red Hat Summit 2026 apuesta por soberanía digital y seguridad en IA",
+   "url": "https://masvip.com.do/2026/10/05/red-hat-summit-2026-apuesta-por-soberania-digital-y-seguridad-en-ia/",
+   "medio": "Masvip",
+   "publicado": "Sun, 04 Oct 2026 17:00:00 GMT",
+   "resumen": "Lima. – La inteligencia artificial ha dejado de ser un experimento aislado para convertirse en el motor central de la infraestructura empresarial. Sin embargo, muchas organizaciones siguen enfrentando ...",
    "fecha_mencionada": ""
   },
   {
@@ -12906,7 +12931,6 @@
   "luma:evt-ArfuCapJSpFKxdm": "2026-09-26T22:13-05:00",
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
   "devpost:30588": "2026-09-27T11:15-05:00",
-  "devpost:30858": "2026-09-27T13:29-05:00",
   "eb:1990929116582": "2026-09-27T16:59-05:00",
   "eb:2001113857416": "2026-09-27T16:59-05:00",
   "eb:1987132772615": "2026-09-27T16:59-05:00",
@@ -13055,6 +13079,7 @@
   "luma:evt-9ab5nunE1g7wEju": "2026-10-09T17:10-05:00",
   "opportunitydesk:arvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028-": "2026-10-09T17:10-05:00",
   "opportunitydesk:tydesk-org-2026-10-10-safe-in-our-world-mental-health-ambassador-2027-": "2026-10-09T22:57-05:00",
-  "devpost:31474": "2026-10-10T06:47-05:00"
+  "devpost:31474": "2026-10-10T06:47-05:00",
+  "devpost:31417": "2026-10-10T11:50-05:00"
  }
 }
