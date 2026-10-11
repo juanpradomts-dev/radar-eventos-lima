@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11T07:00-05:00",
+ "actualizado": "2026-10-11T12:31-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,11 +7,11 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 60
+   "n": 59
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 23
+   "n": 24
   },
   "Meetup": {
    "ok": true,
@@ -47,7 +47,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 13
+   "n": 10
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 446,
+ "revisados": 443,
  "top": 55,
  "eventos": [
   {
@@ -120,74 +120,31 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "inst:sni-prueba-institucional-sni:2026-10-11",
-   "titulo": "Prueba Institucional Sni",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-11T09:00-05:00",
-   "fin": "2026-10-11T11:00-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/events/prueba-institucional-sni/",
-   "extraido_por": "json-ld",
+   "id": "devpost:31586",
+   "titulo": "CodeRED: Orion",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://codered-orion-ccs.devpost.com/",
+   "inscripcion": "https://codered-orion-ccs.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "CougarCS",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, DevOps, Web. Premios: $2,100.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/491/422/datas/medium_square.png",
    "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
+    "Competencias y hackathons"
    ],
-   "valor": 22,
-   "afinidad": 0,
-   "puntaje": 22,
-   "por_que": "Evento institucional · Presencial en Lima · Evento sin formato claro",
-   "original": {
-    "descripcion": "Prueba Institucional Sni"
-   },
-   "visto_desde": "2026-10-09T12:54-05:00"
-  },
-  {
-   "id": "inst:sni-prueba-evento-sni:2026-10-11",
-   "titulo": "Prueba Evento Sni",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-11T10:00-05:00",
-   "fin": "2026-10-11T11:00-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/EJEMPLO-EVT1-1.png",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 22,
-   "afinidad": 0,
-   "puntaje": 22,
-   "por_que": "Evento institucional · Presencial en Lima · Evento sin formato claro",
-   "original": {
-    "descripcion": "Prueba Evento Sni"
-   },
-   "visto_desde": "2026-10-09T12:54-05:00"
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-10T16:04-05:00"
   },
   {
    "id": "devpost:31417",
@@ -216,33 +173,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-10T11:50-05:00"
-  },
-  {
-   "id": "devpost:31586",
-   "titulo": "CodeRED: Orion",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://codered-orion-ccs.devpost.com/",
-   "inscripcion": "https://codered-orion-ccs.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "CougarCS",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, DevOps, Web. Premios: $2,100.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/491/422/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-10T16:04-05:00"
   },
   {
    "id": "luma:evt-pO6OcaGw4Ouv7tf",
@@ -988,7 +918,7 @@
    "organizador": "Perú Tech Week 2026",
    "descripcion": "Construir producto con LLMs no se parece a nada de antes.\nBlueprint 01 es un espacio abierto para conectar, comer piqueos y conversar junto a:- Omar Flórez lidera el pre-entrenamiento de LatamGPT, el primer modelo de 70B parámetros entrenado en Latinoamérica, y antes entrenó modelos a escala en Twitter Cortex y Capital One.- Víctor Cadenas es Sr. Product Manager de IA conversacional en Apple, donde definió cómo evaluar si un producto basado en LLMs está listo para usuarios reales.- Julio Canares es co-founder y CTO de Riqra, la plataforma de ecommerce para distribuidores que vende por WhatsApp con agentes de IA. También fundó Ciro (inteligencia de retail) y Nutrifit, y es Senior ML Engineer ",
    "gratis": false,
-   "imagen": "https://images.lumacdn.com/uploads/v2/b3344c51-7aa1-458a-b283-b078f974bca3.png",
+   "imagen": "https://images.lumacdn.com/uploads/j4/e3dc67b5-f24b-4e90-844b-caa7e180eb40.png",
    "inscripcion": "https://lu.ma/ek0skxyp",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -1365,33 +1295,6 @@
    "puntaje": 50,
    "por_que": "Formativo · Afín: Datos y machine learning · Afín: Becas y posgrado · Universidad",
    "visto_desde": "2026-10-05T23:27-05:00"
-  },
-  {
-   "id": "devpost:30781",
-   "titulo": "UnivaBio ($40,000 in prizes)",
-   "tipo": "hackathon",
-   "inicio": "2026-08-07T00:00-05:00",
-   "fin": "2026-10-13T23:59-05:00",
-   "cierre": "2026-10-13T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://univabio.devpost.com/",
-   "inscripcion": "https://univabio.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "BioCataalysis",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Health, Social Good. Premios: $0.",
-   "gratis": false,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/429/151/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 13,
-   "afinidad": 6,
-   "puntaje": 19,
-   "por_que": "Competencia · Afín: Competencias · Con premio · Plazo claro · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "opportunitiesforyouth:eking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium-",
@@ -3633,6 +3536,34 @@
    "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
+   "id": "devpost:31617",
+   "titulo": "IEEE Hack For Humanity",
+   "tipo": "hackathon",
+   "inicio": "2026-10-11T00:00-05:00",
+   "fin": "2026-10-18T23:59-05:00",
+   "cierre": "2026-10-18T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://ieee-ai-hack-for-humanity.devpost.com/",
+   "inscripcion": "https://ieee-ai-hack-for-humanity.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "IEEE Charlotte Section",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/522/077/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 26,
+   "afinidad": 26,
+   "puntaje": 52,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gremio o institución · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-11T12:31-05:00"
+  },
+  {
    "id": "pucp:mini-curso-geometria-birracional-de-foliaciones-en-superficies-a-traves-de-ejemplos-25092026062408",
    "titulo": "MiniCurso:\"Geometría birracional de foliaciones en superficies a través de ejemplos\"",
    "inicio": "2026-10-19T14:30-05:00",
@@ -3823,6 +3754,33 @@
    "puntaje": 36,
    "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Afín: Liderazgo y oratoria",
    "visto_desde": "2026-10-06T14:58-05:00"
+  },
+  {
+   "id": "devpost:30781",
+   "titulo": "UnivaBio ($40,000 in prizes)",
+   "tipo": "hackathon",
+   "inicio": "2026-08-07T00:00-05:00",
+   "fin": "2026-10-20T23:59-05:00",
+   "cierre": "2026-10-20T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://univabio.devpost.com/",
+   "inscripcion": "https://univabio.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "BioCataalysis",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Health, Social Good. Premios: $0.",
+   "gratis": false,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/429/151/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 13,
+   "afinidad": 6,
+   "puntaje": 19,
+   "por_que": "Competencia · Afín: Competencias · Con premio · Plazo claro · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "devpost:30588",
@@ -6972,6 +6930,33 @@
    "visto_desde": "2026-09-25T18:45-05:00"
   },
   {
+   "id": "eb:2001057110685",
+   "titulo": "Webinars | OBServatory 2026",
+   "inicio": "2026-11-25T11:00-05:00",
+   "fin": "2026-11-26T13:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/entradas-webinars-observatory-2026-2001057110685",
+   "inscripcion": "https://www.eventbrite.com/e/entradas-webinars-observatory-2026-2001057110685",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "OBS Business School",
+   "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=fae44e5896d2793788d888a5a4ee2dbb",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-10-11T12:31-05:00"
+  },
+  {
    "id": "luma:evt-B8EX8PEoPH2UZrV",
    "titulo": "VI CNR UNI",
    "inicio": "2026-11-27T11:00-05:00",
@@ -7139,6 +7124,61 @@
    "visto_desde": "2026-10-06T14:58-05:00"
   },
   {
+   "id": "devpost:30789",
+   "titulo": "Arbiter Hacks V1",
+   "tipo": "hackathon",
+   "inicio": "2026-10-20T00:00-05:00",
+   "fin": "2026-12-21T23:59-05:00",
+   "cierre": "2026-12-21T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://arbiter-hacks-v1.devpost.com/",
+   "inscripcion": "https://arbiter-hacks-v1.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Arbiter ",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $3,800.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/995/823/datas/medium_square.jpg",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-11T12:31-05:00"
+  },
+  {
+   "id": "devpost:30455",
+   "titulo": "Cosmo Hacks",
+   "tipo": "hackathon",
+   "inicio": "2026-12-18T00:00-05:00",
+   "fin": "2026-12-21T23:59-05:00",
+   "cierre": "2026-12-21T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://cosmohacks.devpost.com/",
+   "inscripcion": "https://cosmohacks.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Cosmo Hacks",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Education. Premios: $142,605.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/321/162/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-11T12:31-05:00"
+  },
+  {
    "id": "wikicfp:192324",
    "titulo": "MECN  2026 : 7th International Conference on Mechanical Engineering",
    "tipo": "call for papers",
@@ -7219,6 +7259,33 @@
    "puntaje": 43,
    "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-10-05T08:24-05:00"
+  },
+  {
+   "id": "devpost:30819",
+   "titulo": "United Hacks V8",
+   "tipo": "hackathon",
+   "inicio": "2027-01-08T00:00-05:00",
+   "fin": "2027-01-10T23:59-05:00",
+   "cierre": "2027-01-10T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://unitedhacksv8.devpost.com/",
+   "inscripcion": "https://unitedhacksv8.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack United",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Design, Education. Premios: $13,700.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/021/146/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-11T12:31-05:00"
   },
   {
    "id": "wikicfp:194403",
@@ -10196,31 +10263,6 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:2003241736961",
-   "titulo": "DULCE DELIRIO",
-   "inicio": "2026-11-01T10:00-05:00",
-   "fin": "2026-11-01T12:00-05:00",
-   "lugar": "Lima, Miraflores",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/dulce-delirio-tickets-2003241736961",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "¡Bienvenidos al mundo de Dulce Delirio! \n\nTe invitamos a vivir una experiencia llena de sabor, dulzura y momentos especiales. En Dulce",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195518835%2F3017202295865%2F1%2Foriginal.20261010-181833?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.539&fp-y=0.495&s=60b0428306394a398f10b90f6ea623cf",
-   "inscripcion": "https://www.eventbrite.com/e/dulce-delirio-tickets-2003241736961",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "eb:2002225687931",
    "titulo": "Blackmagic Week Perú 2026 - Producción en Vivo",
    "inicio": "2026-11-05T10:00-05:00",
@@ -10612,6 +10654,33 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31124",
+   "titulo": "SVYCA Youth for Earth (Y4E) Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-09-20T00:00-05:00",
+   "fin": "2026-10-18T23:59-05:00",
+   "cierre": "2026-10-18T23:59-05:00",
+   "lugar": "Stanford University",
+   "distrito": "Stanford University",
+   "modalidad": "Presencial",
+   "url": "https://svycay4e.devpost.com/",
+   "inscripcion": "https://svycay4e.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Silicon Valley Youth Climate Action",
+   "descripcion": "Hackathon presencial en Stanford University. Temas: Social Good. Premios: $2,700.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/428/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 9,
+   "puntaje": 32,
+   "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31477",
    "titulo": "INDUX 5.0-2026",
    "tipo": "hackathon",
@@ -10724,216 +10793,23 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30020",
-   "titulo": "Knight Hacks IX",
+   "id": "devpost:31275",
+   "titulo": "Rutgers Health Hack 2026",
    "tipo": "hackathon",
    "inicio": "2026-10-09T00:00-05:00",
    "fin": "2026-10-11T23:59-05:00",
    "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "UCF Engineering II (ENG2)",
-   "distrito": "UCF Engineering II (ENG2)",
+   "lugar": "NJ HELIX Tower 1",
+   "distrito": "NJ HELIX Tower 1",
    "modalidad": "Presencial",
-   "url": "https://knight-hacks-ix.devpost.com/",
-   "inscripcion": "https://knight-hacks-ix.devpost.com/",
+   "url": "https://rutgers-health-hack-2026.devpost.com/",
+   "inscripcion": "https://rutgers-health-hack-2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Knight Hacks",
-   "descripcion": "Hackathon presencial en UCF Engineering II (ENG2). Temas: Beginner Friendly. Premios: $317,784.",
+   "organizador": "Robert Wood Johnson Medical School",
+   "descripcion": "Hackathon presencial en NJ HELIX Tower 1. Temas: Health. Premios: $10,000.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/295/213/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:28667",
-   "titulo": "Hacklanta '26",
-   "tipo": "hackathon",
-   "inicio": "2026-10-09T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "Student Center East Ballroom GSU",
-   "distrito": "Student Center East Ballroom GSU",
-   "modalidad": "Presencial",
-   "url": "https://hacklanta.devpost.com/",
-   "inscripcion": "https://hacklanta.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "progsu",
-   "descripcion": "Hackathon presencial en Student Center East Ballroom GSU. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $600.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/077/016/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31530",
-   "titulo": "HackNC 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "Fetzer Gym, UNC-Chapel Hill",
-   "distrito": "Fetzer Gym",
-   "modalidad": "Presencial",
-   "url": "https://hacknc-2026.devpost.com/",
-   "inscripcion": "https://hacknc-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HackNC",
-   "descripcion": "Hackathon presencial en Fetzer Gym, UNC-Chapel Hill. Temas: Beginner Friendly, Open Ended, Social Good. Premios: $500.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/415/392/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31110",
-   "titulo": "hackPHS 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "Princeton High School",
-   "distrito": "Princeton High School",
-   "modalidad": "Presencial",
-   "url": "https://hackphs2026.devpost.com/",
-   "inscripcion": "https://hackphs2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Princeton High School",
-   "descripcion": "Hackathon presencial en Princeton High School. Temas: Beginner Friendly, Open Ended, Web. Premios: $1,050.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/164/980/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31607",
-   "titulo": "HackRU Fall 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "Busch Student Center",
-   "distrito": "Busch Student Center",
-   "modalidad": "Presencial",
-   "url": "https://hackru-fall-2026.devpost.com/",
-   "inscripcion": "https://hackru-fall-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HackRU",
-   "descripcion": "Hackathon presencial en Busch Student Center. Temas: Machine Learning/AI, Education, Social Good. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/548/206/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31613",
-   "titulo": "PalmettoHacks 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "Swearingen Engineering Center",
-   "distrito": "Swearingen Engineering Center",
-   "modalidad": "Presencial",
-   "url": "https://palmettohacks-2026.devpost.com/",
-   "inscripcion": "https://palmettohacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Kappa Theta Pi South Carolina",
-   "descripcion": "Hackathon presencial en Swearingen Engineering Center. Temas: Beginner Friendly, Enterprise, Machine Learning/AI. Premios: $3,250.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:30611",
-   "titulo": "RecT Solutions Hackathon: Beyond the CV 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "IDEA Spaces Saldanha",
-   "distrito": "IDEA Spaces Saldanha",
-   "modalidad": "Presencial",
-   "url": "https://rect-hackathon.devpost.com/",
-   "inscripcion": "https://rect-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "RecT Solutions",
-   "descripcion": "Hackathon presencial en IDEA Spaces Saldanha. Temas: Databases, DevOps, Machine Learning/AI. Premios: €2,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/857/455/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 16,
-   "afinidad": 29,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31064",
-   "titulo": "Hacks for Humanity",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "ASU Memorial Union , Ventana Ballroom",
-   "distrito": "ASU Memorial Union ",
-   "modalidad": "Presencial",
-   "url": "https://hacks-for-humanity-2026.devpost.com/",
-   "inscripcion": "https://hacks-for-humanity-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Project Humanities",
-   "descripcion": "Hackathon presencial en ASU Memorial Union , Ventana Ballroom. Temas: Beginner Friendly, Education, Social Good. Premios: $6,300.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/148/974/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/273/924/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Competencias y hackathons"
@@ -10970,6 +10846,33 @@
    "afinidad": 30,
    "puntaje": 46,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:30948",
+   "titulo": "OCCHacks",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "OCC Ballroom - 3rd Floor Conference Room",
+   "distrito": "OCC Ballroom - 3rd Floor Conference Room",
+   "modalidad": "Presencial",
+   "url": "https://occhacks-2026.devpost.com/",
+   "inscripcion": "https://occhacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Iota Xi at Orange Coast College",
+   "descripcion": "Hackathon presencial en OCC Ballroom - 3rd Floor Conference Room. Temas: Beginner Friendly, Education, Productivity. Premios: $2,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/114/525/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-",
@@ -11830,6 +11733,33 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31049",
+   "titulo": "HackIT 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-09-14T00:00-05:00",
+   "fin": "2026-10-20T23:59-05:00",
+   "cierre": "2026-10-20T23:59-05:00",
+   "lugar": "Ngee Ann Polytechnic School of ICT",
+   "distrito": "Ngee Ann Polytechnic School of ICT",
+   "modalidad": "Presencial",
+   "url": "https://hackit-2026.devpost.com/",
+   "inscripcion": "https://hackit-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "NP Overflow",
+   "descripcion": "Hackathon presencial en Ngee Ann Polytechnic School of ICT. Temas: Beginner Friendly, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/127/509/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31180",
    "titulo": "AI Lodge Hackathon 2026",
    "tipo": "hackathon",
@@ -11886,32 +11816,32 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31590",
-   "titulo": "Hack Knight Fall 2026",
+   "id": "devpost:31336",
+   "titulo": "UCSC AI Hackathon",
    "tipo": "hackathon",
-   "inicio": "2026-10-09T00:00-05:00",
+   "inicio": "2026-10-11T00:00-05:00",
    "fin": "2026-10-11T23:59-05:00",
    "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "Queens College - Dining Hall",
-   "distrito": "Queens College - Dining Hall",
+   "lugar": "UC Santa Cruz Silicon Valley Campus",
+   "distrito": "UC Santa Cruz Silicon Valley Campus",
    "modalidad": "Presencial",
-   "url": "https://hack-knight-fall-2026.devpost.com/",
-   "inscripcion": "https://hack-knight-fall-2026.devpost.com/",
+   "url": "https://ucsc-ai-hackathon.devpost.com/",
+   "inscripcion": "https://ucsc-ai-hackathon.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Code for All QC",
-   "descripcion": "Hackathon presencial en Queens College - Dining Hall. Temas: Beginner Friendly, Fintech, Health. Premios: $0.",
+   "organizador": "UC Santa Cruz",
+   "descripcion": "Hackathon presencial en UC Santa Cruz Silicon Valley Campus. Temas: Machine Learning/AI, Open Ended, IoT. Premios: $39,085.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/486/190/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/556/767/datas/medium_square.png",
    "motivo": "solo por invitación",
    "categorias": [
-    "Negocios y emprendimiento",
+    "Tecnología e IA",
     "Competencias y hackathons"
    ],
    "valor": 16,
-   "afinidad": 10,
-   "puntaje": 26,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+   "afinidad": 33,
+   "puntaje": 49,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:el-cemduc-presenta-jarana-en-la-pucp-al-ritmo-de-tradicion-y-sentir-criollo-06102026101427",
@@ -12071,41 +12001,6 @@
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad"
   },
   {
-   "id": "inst:sni-prueba-evento-sni-2:2026-10-11",
-   "titulo": "Prueba Evento SNI 2",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-11T11:00-05:00",
-   "fin": "2026-10-11T12:00-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/events/prueba-evento-sni-2/",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 22,
-   "afinidad": 0,
-   "puntaje": 22,
-   "por_que": "Evento institucional · Presencial en Lima · Evento sin formato claro",
-   "original": {
-    "descripcion": "Prueba Evento SNI 2"
-   },
-   "motivo": "no pasó la verificación: duplicado de «Prueba Evento Sni» (Institucional)"
-  },
-  {
    "id": "pucp:taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2",
    "titulo": "Taller de LinkedIn Básico: Diseña tu Imagen Profesional 2026-2",
    "inicio": "2026-10-20T09:00-05:00",
@@ -12230,7 +12125,7 @@
   "PERUMIN": 1,
   "ESAN — eventos": 3,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 6,
+  "Sociedad Nacional de Industrias": 3,
   "AmCham Perú": 2,
   "ComexPerú": 0
  },
@@ -12246,36 +12141,12 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-11T07:00-05:00",
-  "revisados": 281,
-  "corregidos": 17,
+  "fecha": "2026-10-11T12:30-05:00",
+  "revisados": 283,
+  "corregidos": 14,
   "avisos": 3,
-  "archivados": 5,
+  "archivados": 4,
   "problemas": [
-   {
-    "id": "inst:sni-prueba-institucional-sni:2026-10-11",
-    "titulo": "Prueba Institucional Sni",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "la descripción solo repetía el título",
-    "url": "https://sni.org.pe/eventos/"
-   },
-   {
-    "id": "inst:sni-prueba-evento-sni:2026-10-11",
-    "titulo": "Prueba Evento Sni",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "la descripción solo repetía el título",
-    "url": "https://sni.org.pe/eventos/"
-   },
-   {
-    "id": "inst:sni-prueba-evento-sni-2:2026-10-11",
-    "titulo": "Prueba Evento SNI 2",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "la descripción solo repetía el título",
-    "url": "https://sni.org.pe/eventos/"
-   },
    {
     "id": "luma:evt-JwsF76ozgbSq1QP",
     "titulo": "Experiencia en Catamarán: IA Talent Wave PTW 2026",
@@ -12405,14 +12276,6 @@
     "url": "https://pmi.org.pe/"
    },
    {
-    "id": "inst:sni-prueba-evento-sni-2:2026-10-11",
-    "titulo": "Prueba Evento SNI 2",
-    "fuente": "Institucional",
-    "nivel": "archivado",
-    "detalle": "duplicado de «Prueba Evento Sni» (Institucional)",
-    "url": "https://sni.org.pe/eventos/"
-   },
-   {
     "id": "pucp:distincion-de-doctor-honoris-causa-al-doctor-richard-l-kagan-07102026131923",
     "titulo": "Distinción de Doctor Honoris Causa al doctor Richard L. Kagan",
     "fuente": "PUCP",
@@ -12454,7 +12317,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 3,
+   "comprobados": 5,
    "rotos": 5,
    "sin_comprobar": 1
   },
@@ -12534,20 +12397,20 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
-   "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
-   "medio": "RPP",
-   "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
-   "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Expotextil Perú 2026: feria proyecta US$100M con 250+ empresas",
    "url": "https://ecosistemastartup.com/expotextil-peru-2026-feria-proyecta-us100m-con-250-empresas/",
    "medio": "ecosistemastartup",
    "publicado": "Thu, 08 Oct 2026 18:21:00 GMT",
    "resumen": "La 19.ª edición de Expotextil llega a Lima con cifras récord Del 5 al 8 de noviembre de 2026, el Centro de Exposiciones Jockey de Lima se transformará en ...",
    "fecha_mencionada": "2026-11-05T00:00-05:00"
+  },
+  {
+   "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
+   "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
+   "medio": "RPP",
+   "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
+   "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
+   "fecha_mencionada": ""
   },
   {
    "titulo": "Más de 250 empresas participarán en feria internacional Expotextil Perú 2026 en noviembre",
@@ -12953,8 +12816,6 @@
   "luma:evt-qEvoBnGm8AvP98W": "2026-10-08T19:57-05:00",
   "eb:2003166221091": "2026-10-08T19:57-05:00",
   "eb:2003184764555": "2026-10-09T04:58-05:00",
-  "inst:sni-prueba-institucional-sni:2026-10-11": "2026-10-09T12:54-05:00",
-  "inst:sni-prueba-evento-sni:2026-10-11": "2026-10-09T12:54-05:00",
   "luma:evt-mWSeXviNyaCBtrs": "2026-10-09T12:54-05:00",
   "pucp:taller-de-narracion-transmedia-09102026113154": "2026-10-09T12:54-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-09-equals-in-tech-awards-2027-": "2026-10-09T12:54-05:00",
@@ -12971,6 +12832,11 @@
   "eb:1999814908224": "2026-10-10T22:32-05:00",
   "eb:2000205996981": "2026-10-10T22:32-05:00",
   "eb:2003252006678": "2026-10-11T07:00-05:00",
-  "ieee:584211": "2026-10-11T07:00-05:00"
+  "ieee:584211": "2026-10-11T07:00-05:00",
+  "devpost:31617": "2026-10-11T12:31-05:00",
+  "eb:2001057110685": "2026-10-11T12:31-05:00",
+  "devpost:30789": "2026-10-11T12:31-05:00",
+  "devpost:30455": "2026-10-11T12:31-05:00",
+  "devpost:30819": "2026-10-11T12:31-05:00"
  }
 }
