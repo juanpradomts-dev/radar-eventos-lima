@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11T12:31-05:00",
+ "actualizado": "2026-10-11T16:25-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 59
+   "n": 60
   },
   "Eventbrite online": {
    "ok": true,
@@ -15,7 +15,7 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 9
+   "n": 10
   },
   "PUCP": {
    "ok": true,
@@ -39,7 +39,8 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10
+   "n": 10,
+   "cache": "2026-10-11T12:30-05:00"
   },
   "TEDx": {
    "ok": true,
@@ -58,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 443,
+ "revisados": 445,
  "top": 55,
  "eventos": [
   {
@@ -118,61 +119,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Becas y posgrado · Voluntariado · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:31586",
-   "titulo": "CodeRED: Orion",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://codered-orion-ccs.devpost.com/",
-   "inscripcion": "https://codered-orion-ccs.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "CougarCS",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, DevOps, Web. Premios: $2,100.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/491/422/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-10T16:04-05:00"
-  },
-  {
-   "id": "devpost:31417",
-   "titulo": "EvoHacks2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://evohackathon2026.devpost.com/",
-   "inscripcion": "https://evohackathon2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "EvoHacks",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Machine Learning/AI. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/395/625/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 26,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-10T11:50-05:00"
   },
   {
    "id": "luma:evt-pO6OcaGw4Ouv7tf",
@@ -1556,6 +1502,34 @@
    "visto_desde": "2026-10-06T07:38-05:00"
   },
   {
+   "id": "eb:2003070287150",
+   "titulo": "Inaguración de tienda física \"Encanto\"",
+   "inicio": "2026-10-14T14:00-05:00",
+   "fin": "2026-10-14T19:00-05:00",
+   "lugar": "Miraflores, José Larco, Manuel Pardo y la calle Schell",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/inaguracion-de-tienda-fisica-encanto-tickets-2003070287150",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "¡Ven a conocer la tienda física Encanto y celebremos juntos su gran inauguración!",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195559831%2F3016858241224%2F1%2Foriginal.20261011-195325?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.488&fp-y=0.125&s=016bd5c1f1c5313fe0808f84c6639e1a",
+   "inscripcion": "https://www.eventbrite.com/e/inaguracion-de-tienda-fisica-encanto-tickets-2003070287150",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-10-07T13:20-05:00"
+  },
+  {
    "id": "pucp:visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727",
    "titulo": "Visita del profesor Camille Riquier (Institut Catholique de Paris)",
    "inicio": "2026-10-14T14:51-05:00",
@@ -2200,34 +2174,6 @@
    "puntaje": 33,
    "por_que": "Formativo · Presencial en Lima · Gratis · Empresa reconocida",
    "visto_desde": "2026-10-02T04:19-05:00"
-  },
-  {
-   "id": "luma:evt-WXo4ob5dba49nVk",
-   "titulo": "\"Retos y oportunidades de las stablecoins en la banca peruana\"",
-   "inicio": "2026-10-15T17:00-05:00",
-   "fin": "2026-10-15T22:00-05:00",
-   "lugar": "San Isidro, Perú",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/3pltzjex",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "🏦 Retos y oportunidades de las stablecoins en la banca peruana\nLas stablecoins están transformando la conversación sobre pagos, transferencias, tesorería e infraestructura financiera. Pero su integración con el sistema financiero también abre preguntas importantes sobre regulación, riesgos, cumplimiento y confianza.\nEn el marco de Perú Tech Week 2026, la Asociación Blockchain & DLT Perú (ABPE) y Horizonte Blockchain presentan un encuentro presencial para conectar a la banca, reguladores, fintechs, empresas y al ecosistema blockchain en una misma conversación.\n📅 Jueves 15 de octubre de 2026\n📍 Auditorio UPC · Campus San Isidro\n🎟️ Entrada gratuita con registro previo\n👥 Aforo: 150 asistentes\n¿De",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/g3/1f51c757-3e64-4ad2-bdfc-f6701b049dc7.png",
-   "inscripcion": "https://lu.ma/3pltzjex",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis · (Evitas «cripto»)",
-   "visto_desde": "2026-09-26T15:34-05:00"
   },
   {
    "id": "luma:evt-XlCnwDjNvITEdq6",
@@ -3097,7 +3043,7 @@
    "titulo": "🚀 IAthon Construye Perú Digital 2026... Talento Tech y Pymes en acción 💪",
    "inicio": "2026-10-17T09:00-05:00",
    "fin": "2026-10-17T13:00-05:00",
-   "lugar": "Santiago de Surco, Perú",
+   "lugar": "Jr. Alonso de Molina 1652, Santiago de Surco",
    "distrito": "Santiago de Surco",
    "modalidad": "Presencial",
    "url": "https://lu.ma/l2cqxjsz",
@@ -3105,7 +3051,7 @@
    "organizador": "Perú Tech Week 2026",
    "descripcion": "🚀 ¿Y si las soluciones para las pymes del Perú ya se estuvieran construyendo, y tú pudieras verlas en vivo?\nEl 17 de octubre te invitamos al Demo Day de la IAthon Construye Perú Digital, dentro del Perú Tech Week 2026.\nDurante semanas, 10 equipos finalistas trabajaron junto a dueños de pymes reales para convertir sus problemas del día a día en soluciones con Inteligencia Artificial. Cada equipo combina 4 talentos tech con 1 owner de negocio, y en una semana que pasó del diagnóstico a un MVP funcional.\nHoy 6 de cada 10 empresas peruanas todavía gestionan sus procesos críticos de forma 100% manual. Estos equipos vienen a demostrar que se puede hacer distinto.\nEn el evento vas a ver:\n✅ Conferen",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/r6/c375d25b-0a51-4b49-a611-eaaea3f97bc2.png",
+   "imagen": "https://images.lumacdn.com/uploads/k0/07096d99-69e8-47aa-804b-cf8c412ca189.png",
    "inscripcion": "https://lu.ma/l2cqxjsz",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -3232,31 +3178,31 @@
    "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
-   "id": "eb:2003155868125",
-   "titulo": "Equipo 2 Pitch",
+   "id": "eb:2003236342827",
+   "titulo": "Equipo 5 Pitch",
    "inicio": "2026-10-17T10:00-05:00",
    "fin": "2026-10-17T12:00-05:00",
-   "lugar": "IFB San Juan, 810 Avenida Pirámide del Sol",
+   "lugar": "CERTUS San Juan de Lurigancho, N° 810 Avenida Pirámide del Sol",
    "distrito": "San Juan de Lurigancho",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/equipo-2-pitch-tickets-2003155868125",
+   "url": "https://www.eventbrite.com/e/equipo-5-pitch-tickets-2003236342827",
    "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "El Equipo 2 presenta su pitch de forma presencial.",
+   "organizador": "Equipo 5",
+   "descripcion": "Una reunión presencial para que el Equipo 5 presente sus ideas y las defienda con un buen pitch.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195379780%2F3017006597499%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=e67aa93925e9fc64383197717d469a23",
-   "inscripcion": "https://www.eventbrite.com/e/equipo-2-pitch-tickets-2003155868125",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195508931%2F3017243751034%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=e5d265561c0e8b8e16ff412fb241640e",
+   "inscripcion": "https://www.eventbrite.com/e/equipo-5-pitch-tickets-2003236342827",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
     "Negocios y emprendimiento"
    ],
-   "valor": 12,
-   "afinidad": 4,
-   "puntaje": 16,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · Afín: Emprendimiento y finanzas · (Poca información)",
-   "visto_desde": "2026-10-08T13:20-05:00"
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-10-11T16:25-05:00"
   },
   {
    "id": "eb:1998953963114",
@@ -4649,6 +4595,60 @@
    "visto_desde": "2026-10-05T23:27-05:00"
   },
   {
+   "id": "devpost:31139",
+   "titulo": "Neighborhood Hacks",
+   "tipo": "hackathon",
+   "inicio": "2026-10-16T00:00-05:00",
+   "fin": "2026-10-24T23:59-05:00",
+   "cierre": "2026-10-24T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://neighborhood-hacks-2026.devpost.com/",
+   "inscripcion": "https://neighborhood-hacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Student Organization",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Social Good. Premios: $57,866.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/177/882/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-11T16:25-05:00"
+  },
+  {
+   "id": "meetup:316938345",
+   "titulo": "Sunday - Let's practice English (MacCoffee-Plaza Vea Risso)",
+   "inicio": "2026-10-25T11:30-05:00",
+   "fin": "2026-10-25T13:30-05:00",
+   "lugar": "",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.meetup.com/lince-english-group/events/316938345/",
+   "fuente": "Meetup",
+   "organizador": "English Practice Club 🎉✨",
+   "descripcion": "Join us on Sunday at 11:30 AM for Breakfast/Lunch or a McCoffee while we practice English in Lince, Lima!\nWe’ll be meeting at McDonald’s, located at Plaza Vea Risso, to practice English/Spanish by talking, meeting new people, and sharing cultures. All English levels are welcome — everyone’s invited! 😎😊\nSince it’s a noon meetup and we’ll be using the space, please try to order at least a McCoffee or something so the place is happy to host us. ☕🥐🙏\n\nhttps://chat.whatsapp.com/KGsBhzFyekw6gU1PuKRagS\n\n¡Acompáñanos el Domingo a las 11:30 AM para tomar un McCoffee y practicar inglés en Lince, Lima!\nNos reuniremos en McDonald’s, ubicado en Plaza Vea Risso, para practicar inglés/español conversando, c",
+   "gratis": null,
+   "imagen": "",
+   "inscripcion": "https://www.meetup.com/lince-english-group/events/316938345/",
+   "fuente_url": "https://www.meetup.com/lince-english-group/events/ical/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Networking · Presencial en Lima",
+   "visto_desde": "2026-10-11T16:25-05:00"
+  },
+  {
    "id": "devpost:29114",
    "titulo": "IEEE ClimateChain Global Hackathon",
    "tipo": "hackathon",
@@ -6003,34 +6003,6 @@
    "puntaje": 27,
    "por_que": "Formativo · Presencial en Lima · Empresa reconocida",
    "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "eb:2003070287150",
-   "titulo": "Inaguración de tienda física \"Encanto\"",
-   "inicio": "2026-11-07T16:00-05:00",
-   "fin": "2026-11-08T19:00-05:00",
-   "lugar": "Miraflores, José Larco, Manuel Pardo y la calle Schell",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/inaguracion-de-tienda-fisica-encanto-tickets-2003070287150",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "¡Ven a conocer la tienda física Encanto y celebremos juntos su gran inauguración!",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195283004%2F3016858272441%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=fafcc5024c34442a3a227e541da29d6b",
-   "inscripcion": "https://www.eventbrite.com/e/inaguracion-de-tienda-fisica-encanto-tickets-2003070287150",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-10-07T13:20-05:00"
   },
   {
    "id": "eb:1988046593879",
@@ -7426,6 +7398,33 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "devpost:30340",
+   "titulo": "HackTitan",
+   "tipo": "hackathon",
+   "inicio": "2027-02-02T00:00-05:00",
+   "fin": "2027-02-04T23:59-05:00",
+   "cierre": "2027-02-04T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://hacktitan.devpost.com/",
+   "inscripcion": "https://hacktitan.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "IWU",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Databases, DevOps. Premios: $10,000.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-11T16:25-05:00"
   },
   {
    "id": "wikicfp:200092",
@@ -10793,23 +10792,23 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31275",
-   "titulo": "Rutgers Health Hack 2026",
+   "id": "devpost:30948",
+   "titulo": "OCCHacks",
    "tipo": "hackathon",
-   "inicio": "2026-10-09T00:00-05:00",
+   "inicio": "2026-10-10T00:00-05:00",
    "fin": "2026-10-11T23:59-05:00",
    "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "NJ HELIX Tower 1",
-   "distrito": "NJ HELIX Tower 1",
+   "lugar": "OCC Ballroom - 3rd Floor Conference Room",
+   "distrito": "OCC Ballroom - 3rd Floor Conference Room",
    "modalidad": "Presencial",
-   "url": "https://rutgers-health-hack-2026.devpost.com/",
-   "inscripcion": "https://rutgers-health-hack-2026.devpost.com/",
+   "url": "https://occhacks-2026.devpost.com/",
+   "inscripcion": "https://occhacks-2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Robert Wood Johnson Medical School",
-   "descripcion": "Hackathon presencial en NJ HELIX Tower 1. Temas: Health. Premios: $10,000.",
+   "organizador": "Iota Xi at Orange Coast College",
+   "descripcion": "Hackathon presencial en OCC Ballroom - 3rd Floor Conference Room. Temas: Beginner Friendly, Education, Productivity. Premios: $2,000.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/273/924/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/114/525/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Competencias y hackathons"
@@ -10848,31 +10847,60 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30948",
-   "titulo": "OCCHacks",
+   "id": "devpost:30731",
+   "titulo": "LarpHacks",
    "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "OCC Ballroom - 3rd Floor Conference Room",
-   "distrito": "OCC Ballroom - 3rd Floor Conference Room",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-11-01T23:59-05:00",
+   "cierre": "2026-11-01T23:59-05:00",
+   "lugar": "Toronto",
+   "distrito": "Toronto",
    "modalidad": "Presencial",
-   "url": "https://occhacks-2026.devpost.com/",
-   "inscripcion": "https://occhacks-2026.devpost.com/",
+   "url": "https://larphacks.devpost.com/",
+   "inscripcion": "https://larphacks.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Iota Xi at Orange Coast College",
-   "descripcion": "Hackathon presencial en OCC Ballroom - 3rd Floor Conference Room. Temas: Beginner Friendly, Education, Productivity. Premios: $2,000.",
+   "organizador": "larphacks",
+   "descripcion": "Hackathon presencial en Toronto. Temas: Beginner Friendly, Machine Learning/AI, Web. Premios: $21,394.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/114/525/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/982/889/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
+    "Tecnología e IA",
     "Competencias y hackathons"
    ],
    "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+   "afinidad": 26,
+   "puntaje": 42,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:30463",
+   "titulo": "DeveloperWeek 2027 Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2027-01-25T00:00-05:00",
+   "fin": "2027-02-11T23:59-05:00",
+   "cierre": "2027-02-11T23:59-05:00",
+   "lugar": "Santa Clara Convention Center + Online",
+   "distrito": "Santa Clara Convention Center + Online",
+   "modalidad": "Presencial",
+   "url": "https://developerweek-2027-hackathon.devpost.com/",
+   "inscripcion": "https://developerweek-2027-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "DevNetwork",
+   "descripcion": "Hackathon presencial en Santa Clara Convention Center + Online. Temas: Enterprise, IoT, Machine Learning/AI. Premios: $6,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/828/557/datas/medium_square.jpg",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 29,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "opportunitiesforyouth:paces-cohort-3-apply-for-the-7-week-undp-online-volunteer-opportunity-",
@@ -11028,6 +11056,34 @@
    "tipo": "evento",
    "cierre": "",
    "motivo": "recreativo o de venta (cocina)",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 24,
+   "afinidad": 6,
+   "puntaje": 30,
+   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
+  },
+  {
+   "id": "luma:evt-WXo4ob5dba49nVk",
+   "titulo": "Cocktail: \"Retos y oportunidades de las stablecoins en la banca peruana\"",
+   "inicio": "2026-10-15T17:00-05:00",
+   "fin": "2026-10-15T22:00-05:00",
+   "lugar": "San Isidro, Perú",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/3pltzjex",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/g3/1f51c757-3e64-4ad2-bdfc-f6701b049dc7.png",
+   "inscripcion": "https://lu.ma/3pltzjex",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (cocktail)",
    "categorias": [
     "Negocios y emprendimiento",
     "Tecnología e IA"
@@ -11816,34 +11872,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31336",
-   "titulo": "UCSC AI Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-10-11T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "UC Santa Cruz Silicon Valley Campus",
-   "distrito": "UC Santa Cruz Silicon Valley Campus",
-   "modalidad": "Presencial",
-   "url": "https://ucsc-ai-hackathon.devpost.com/",
-   "inscripcion": "https://ucsc-ai-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "UC Santa Cruz",
-   "descripcion": "Hackathon presencial en UC Santa Cruz Silicon Valley Campus. Temas: Machine Learning/AI, Open Ended, IoT. Premios: $39,085.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/556/767/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 33,
-   "puntaje": 49,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "pucp:el-cemduc-presenta-jarana-en-la-pucp-al-ritmo-de-tradicion-y-sentir-criollo-06102026101427",
    "titulo": "El CEMDUC presenta: \"Jarana en la PUCP. Al ritmo de tradición y sentir criollo\"",
    "inicio": "2026-10-29T19:30-05:00",
@@ -12001,6 +12029,33 @@
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad"
   },
   {
+   "id": "eb:2003155868125",
+   "titulo": "Equipo 2 Pitch",
+   "inicio": "2026-10-17T10:00-05:00",
+   "fin": "2026-10-17T12:00-05:00",
+   "lugar": "IFB San Juan, 810 Avenida Pirámide del Sol",
+   "distrito": "San Juan de Lurigancho",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/equipo-2-pitch-tickets-2003155868125",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "El Equipo 2 presenta su pitch de forma presencial.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195379780%2F3017006597499%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=e67aa93925e9fc64383197717d469a23",
+   "inscripcion": "https://www.eventbrite.com/e/equipo-2-pitch-tickets-2003155868125",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 12,
+   "afinidad": 4,
+   "puntaje": 16,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · Afín: Emprendimiento y finanzas · (Poca información)",
+   "motivo": "no pasó la verificación: duplicado de «Equipo 5 Pitch» (Eventbrite)"
+  },
+  {
    "id": "pucp:taller-de-linked-in-basico-disena-tu-imagen-profesional-2026-2",
    "titulo": "Taller de LinkedIn Básico: Diseña tu Imagen Profesional 2026-2",
    "inicio": "2026-10-20T09:00-05:00",
@@ -12141,11 +12196,11 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-11T12:30-05:00",
-  "revisados": 283,
+  "fecha": "2026-10-11T16:25-05:00",
+  "revisados": 284,
   "corregidos": 14,
   "avisos": 3,
-  "archivados": 4,
+  "archivados": 5,
   "problemas": [
    {
     "id": "luma:evt-JwsF76ozgbSq1QP",
@@ -12276,6 +12331,14 @@
     "url": "https://pmi.org.pe/"
    },
    {
+    "id": "eb:2003155868125",
+    "titulo": "Equipo 2 Pitch",
+    "fuente": "Eventbrite",
+    "nivel": "archivado",
+    "detalle": "duplicado de «Equipo 5 Pitch» (Eventbrite)",
+    "url": "https://www.eventbrite.com/e/equipo-2-pitch-tickets-2003155868125"
+   },
+   {
     "id": "pucp:distincion-de-doctor-honoris-causa-al-doctor-richard-l-kagan-07102026131923",
     "titulo": "Distinción de Doctor Honoris Causa al doctor Richard L. Kagan",
     "fuente": "PUCP",
@@ -12317,7 +12380,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 5,
+   "comprobados": 28,
    "rotos": 5,
    "sin_comprobar": 1
   },
@@ -12681,7 +12744,6 @@
   "luma:evt-VdivoEb6CyTNEOJ": "2026-09-26T10:21-05:00",
   "luma:evt-iWf78QCKrq9MgjZ": "2026-09-26T15:34-05:00",
   "luma:evt-iQcElAPhAZ5Ew2F": "2026-09-26T15:34-05:00",
-  "luma:evt-WXo4ob5dba49nVk": "2026-09-26T15:34-05:00",
   "luma:evt-ArfuCapJSpFKxdm": "2026-09-26T22:13-05:00",
   "luma:evt-4EgfE6EeUkV6yqT": "2026-09-27T11:15-05:00",
   "devpost:30588": "2026-09-27T11:15-05:00",
@@ -12809,7 +12871,6 @@
   "eb:2003117091142": "2026-10-08T04:52-05:00",
   "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13": "2026-10-08T13:20-05:00",
   "luma:evt-8wcGhcwyA2YE47t": "2026-10-08T13:20-05:00",
-  "eb:2003155868125": "2026-10-08T13:20-05:00",
   "luma:evt-0EyRRPVEDs7o9I4": "2026-10-08T13:20-05:00",
   "eb:2003163842978": "2026-10-08T13:20-05:00",
   "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-10-08T13:20-05:00",
@@ -12826,8 +12887,6 @@
   "opportunitydesk:arvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028-": "2026-10-09T17:10-05:00",
   "opportunitydesk:tydesk-org-2026-10-10-safe-in-our-world-mental-health-ambassador-2027-": "2026-10-09T22:57-05:00",
   "devpost:31474": "2026-10-10T06:47-05:00",
-  "devpost:31417": "2026-10-10T11:50-05:00",
-  "devpost:31586": "2026-10-10T16:04-05:00",
   "eb:2003250278509": "2026-10-10T22:32-05:00",
   "eb:1999814908224": "2026-10-10T22:32-05:00",
   "eb:2000205996981": "2026-10-10T22:32-05:00",
@@ -12837,6 +12896,10 @@
   "eb:2001057110685": "2026-10-11T12:31-05:00",
   "devpost:30789": "2026-10-11T12:31-05:00",
   "devpost:30455": "2026-10-11T12:31-05:00",
-  "devpost:30819": "2026-10-11T12:31-05:00"
+  "devpost:30819": "2026-10-11T12:31-05:00",
+  "eb:2003236342827": "2026-10-11T16:25-05:00",
+  "devpost:31139": "2026-10-11T16:25-05:00",
+  "meetup:316938345": "2026-10-11T16:25-05:00",
+  "devpost:30340": "2026-10-11T16:25-05:00"
  }
 }
