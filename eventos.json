@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-10T22:32-05:00",
+ "actualizado": "2026-10-11T07:00-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 110
+   "n": 109
   },
   "Eventbrite": {
    "ok": true,
-   "n": 58
+   "n": 60
   },
   "Eventbrite online": {
    "ok": true,
@@ -23,7 +23,7 @@
   },
   "IEEE Perú": {
    "ok": true,
-   "n": 7
+   "n": 8
   },
   "Devpost": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 444,
+ "revisados": 446,
  "top": 55,
  "eventos": [
   {
@@ -118,34 +118,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Becas y posgrado · Voluntariado · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "luma:evt-tFdPEMmgyASMcvu",
-   "titulo": "Tech & Innovation Grill",
-   "inicio": "2026-10-10T19:30-05:00",
-   "fin": "2026-10-11T00:30-05:00",
-   "lugar": "Miraflores, Perú",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/kavjemla",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "🔥 Tech & 𝗜𝗻𝗻𝗼𝘃𝗮𝘁𝗶𝗼𝗻 𝗚𝗿𝗶𝗹𝗹 🔥\nHorizonte Blockchain & Orquezta presentan la 4ta Edición del Tech & Innovation Grill. Un evento que reúne founders, inversionistas, empresarios y líderes de innovación y tecnología en una noche de networking de alto valor.\nUna parrilla🥩, buena música y conversaciones entre quienes están construyendo el ecosistema.📍Miraflores📅 Sábado 10 de octubre🕔 7:30 PM - 12:30 AM\nUn espacio para compartir, construir y conectar:\nPresentar lo que estás creando\n\nConocer otros proyectos innovadores\n\nGenerar alianzas estratégicas.\n\n🔑 ¿Cómo participar?     Si recibiste invitación:\nRegístrate en el evento.\n\nIndica quién te invitó.¡Listo! Tu lugar está confirmado. Si no tienes invitaci",
-   "gratis": false,
-   "imagen": "https://images.lumacdn.com/uploads/rg/d1955348-30a3-4bdb-9357-48eec6e3182e.png",
-   "inscripcion": "https://lu.ma/kavjemla",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 18,
-   "afinidad": 4,
-   "puntaje": 22,
-   "por_que": "Networking · Presencial en Lima · Afín: Emprendimiento y finanzas",
-   "visto_desde": "2026-10-09T17:10-05:00"
   },
   {
    "id": "inst:sni-prueba-institucional-sni:2026-10-11",
@@ -326,6 +298,33 @@
    "puntaje": 28,
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-09-30T22:42-05:00"
+  },
+  {
+   "id": "eb:2003252006678",
+   "titulo": "Presentación del Pitch — Victoria’s Secret Boutique",
+   "inicio": "2026-10-12T10:00-05:00",
+   "fin": "2026-10-12T13:30-05:00",
+   "lugar": "victoria secret perfumes, Carabayllo torre blanca",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/entradas-presentacion-del-pitch-victorias-secret-boutique-2003252006678",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Victoria’s Secret Boutique\nConoce nuestra propuesta de perfumes, splash y cremas corporales originales. ¡Descubre tu esencia ideal!",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195535516%2F3017307745884%2F1%2Foriginal.20261011-043017?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1ac322fde7eb55f3cdbcb716d58ca08f",
+   "inscripcion": "https://www.eventbrite.com/e/entradas-presentacion-del-pitch-victorias-secret-boutique-2003252006678",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-10-11T07:00-05:00"
   },
   {
    "id": "luma:evt-nXgx4Obq4K6NoQ5",
@@ -2300,34 +2299,6 @@
    "visto_desde": "2026-10-02T04:19-05:00"
   },
   {
-   "id": "luma:evt-XlCnwDjNvITEdq6",
-   "titulo": "El arte de la Negociación",
-   "inicio": "2026-10-15T17:00-05:00",
-   "fin": "2026-10-15T19:00-05:00",
-   "lugar": "Av. Alberto del Campo 411, San Isidro",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/ydco9610",
-   "fuente": "Luma",
-   "organizador": "Michelle Garreaud",
-   "descripcion": "Negociar no es ganarle a la otra persona — es entender qué la mueve y usar eso a tu favor.\nMariano Mejía lidera un taller de negociación diseñado originalmente para nivel gerencial, ahora adaptado para emprendedores que negocian todos los días: con proveedores, clientes, socios, inversionistas.\nRevisaremos casos reales, tus propios errores puestos sobre la mesa, y un framework que te llevarás para la próxima vez que te sientes a negociar.\n📍 Comunal, Alberto del Campo🗓️ Jueves 1 de octubre, 5:00–7:00 pm👥 Cupos limitados\nAbierto a Colis de Mastermind Collective y a emprendedores que quieran conocer cómo trabajamos en comunidad.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/v6/a62a076a-adca-4613-b061-874f0cb6d3cd.png",
-   "inscripcion": "https://lu.ma/ydco9610",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 28,
-   "afinidad": 8,
-   "puntaje": 36,
-   "por_que": "Formativo · Presencial en Lima · Afín: Liderazgo y oratoria · Gratis",
-   "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
    "id": "luma:evt-WXo4ob5dba49nVk",
    "titulo": "\"Retos y oportunidades de las stablecoins en la banca peruana\"",
    "inicio": "2026-10-15T17:00-05:00",
@@ -2354,6 +2325,34 @@
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis · (Evitas «cripto»)",
    "visto_desde": "2026-09-26T15:34-05:00"
+  },
+  {
+   "id": "luma:evt-XlCnwDjNvITEdq6",
+   "titulo": "El arte de la Negociación",
+   "inicio": "2026-10-15T17:00-05:00",
+   "fin": "2026-10-15T19:00-05:00",
+   "lugar": "Av. Alberto del Campo 411, San Isidro",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/ydco9610",
+   "fuente": "Luma",
+   "organizador": "Michelle Garreaud",
+   "descripcion": "Negociar no es ganarle a la otra persona — es entender qué la mueve y usar eso a tu favor.\nMariano Mejía lidera un taller de negociación diseñado originalmente para nivel gerencial, ahora adaptado para emprendedores que negocian todos los días: con proveedores, clientes, socios, inversionistas.\nRevisaremos casos reales, tus propios errores puestos sobre la mesa, y un framework que te llevarás para la próxima vez que te sientes a negociar.\n📍 Comunal, Alberto del Campo🗓️ Jueves 1 de octubre, 5:00–7:00 pm👥 Cupos limitados\nAbierto a Colis de Mastermind Collective y a emprendedores que quieran conocer cómo trabajamos en comunidad.",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/v6/a62a076a-adca-4613-b061-874f0cb6d3cd.png",
+   "inscripcion": "https://lu.ma/ydco9610",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 28,
+   "afinidad": 8,
+   "puntaje": 36,
+   "por_que": "Formativo · Presencial en Lima · Afín: Liderazgo y oratoria · Gratis",
+   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "luma:evt-alOZlX5qP9SzYMC",
@@ -5116,6 +5115,37 @@
    "puntaje": 28,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-10T06:47-05:00"
+  },
+  {
+   "id": "ieee:584211",
+   "titulo": "Nextgen Innovators 2026",
+   "inicio": "2026-10-29T08:00-05:00",
+   "fin": "2026-10-31T20:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://events.vtools.ieee.org/m/584211",
+   "inscripcion": "https://luma.com/ze7o6cj5",
+   "fuente": "IEEE Perú",
+   "fuente_url": "https://events.vtools.ieee.org/",
+   "organizador": "IEEE · Universidad Nacional Mayor de San Marcos, WIE",
+   "descripcion": "NEXTGEN INNOVATORS 2026: Hackathon — 2.ª Edición es un evento intensivo de tres días coorganizado por IEEE WIE UNMSM, WIE PUCP y WIE UNFV. 👩‍💻✨\r\nEsta hackathon está diseñada para todas las personas apasionadas por el mundo STEM 🧠💡. Brinda una plataforma colaborativa donde los participantes podrán compartir ideas, trabajar en equipo y desarrollar soluciones tecnológicas e innovadoras que generen un impacto real y duradero en dos pilares cruciales:\r\n\r\n📚 Educación\n\r\n⚖️ Equidad de Género\n\r\n\r\n📅 Detalles del Evento:\r\n\r\n📆 Fechas: 29, 30 y 31 de octubre de 2026\n\r\n🚨 Cierre de Inscripciones: 22 de octubre de 2026\n\r\n\r\n¡Únete a nosotros para desafiar tus habilidades, hacer networking y ser parte de la p",
+   "gratis": true,
+   "imagen": "",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 28,
+   "afinidad": 6,
+   "puntaje": 34,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias",
+   "original": {
+    "titulo": "NEXTGEN INNOVATORS 2026"
+   },
+   "visto_desde": "2026-10-11T07:00-05:00"
   },
   {
    "id": "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037",
@@ -9466,6 +9496,31 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "eb:2003253048795",
+   "titulo": "Conoce a Demon-Fit",
+   "inicio": "2026-10-12T20:00-05:00",
+   "fin": "2026-10-12T22:30-05:00",
+   "lugar": "Jr. Tacna 721, 721 Jirón Tacna",
+   "distrito": "La Perla",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/conoce-a-demon-fit-tickets-2003253048795",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Ven a conocer un poco acerca de nuestra marca, productos y servicios que tenemos para poder ofrecer a todo publico fan del fitness.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195536222%2F3017312049802%2F1%2Foriginal.20261011-052337?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=304780c6c4293d6d22aa3777a3257dba",
+   "inscripcion": "https://www.eventbrite.com/e/conoce-a-demon-fit-tickets-2003253048795",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Formativo · Gratis"
+  },
+  {
    "id": "luma:evt-YECqcPheL2FYQOV",
    "titulo": "Sesión Bni 13 Octubre",
    "inicio": "2026-10-13T06:30-05:00",
@@ -10697,7 +10752,7 @@
   },
   {
    "id": "devpost:28667",
-   "titulo": "Hacklanta",
+   "titulo": "Hacklanta '26",
    "tipo": "hackathon",
    "inicio": "2026-10-09T00:00-05:00",
    "fin": "2026-10-11T23:59-05:00",
@@ -10710,7 +10765,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "progsu",
-   "descripcion": "Hackathon presencial en Student Center East Ballroom GSU. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $14,000.",
+   "descripcion": "Hackathon presencial en Student Center East Ballroom GSU. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $600.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/077/016/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
@@ -10722,33 +10777,6 @@
    "afinidad": 26,
    "puntaje": 42,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31110",
-   "titulo": "hackPHS 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-10T00:00-05:00",
-   "fin": "2026-10-11T23:59-05:00",
-   "cierre": "2026-10-11T23:59-05:00",
-   "lugar": "Princeton High School",
-   "distrito": "Princeton High School",
-   "modalidad": "Presencial",
-   "url": "https://hackphs2026.devpost.com/",
-   "inscripcion": "https://hackphs2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Princeton High School",
-   "descripcion": "Hackathon presencial en Princeton High School. Temas: Beginner Friendly, Open Ended, Web. Premios: $1,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/164/980/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31530",
@@ -10768,6 +10796,33 @@
    "descripcion": "Hackathon presencial en Fetzer Gym, UNC-Chapel Hill. Temas: Beginner Friendly, Open Ended, Social Good. Premios: $500.",
    "gratis": true,
    "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/415/392/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31110",
+   "titulo": "hackPHS 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-10T00:00-05:00",
+   "fin": "2026-10-11T23:59-05:00",
+   "cierre": "2026-10-11T23:59-05:00",
+   "lugar": "Princeton High School",
+   "distrito": "Princeton High School",
+   "modalidad": "Presencial",
+   "url": "https://hackphs2026.devpost.com/",
+   "inscripcion": "https://hackphs2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Princeton High School",
+   "descripcion": "Hackathon presencial en Princeton High School. Temas: Beginner Friendly, Open Ended, Web. Premios: $1,050.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/164/980/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Competencias y hackathons"
@@ -11471,20 +11526,20 @@
    "por_que": "Formativo · Presencial en Lima · Gratis"
   },
   {
-   "id": "eb:1981186902357",
+   "id": "eb:1981186903360",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-10T23:00-05:00",
-   "fin": "2026-10-11T13:00-05:00",
+   "inicio": "2026-10-11T23:00-05:00",
+   "fin": "2026-10-12T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186902357",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186903360",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima, where you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186902357",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186903360",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -11779,8 +11834,8 @@
    "titulo": "AI Lodge Hackathon 2026",
    "tipo": "hackathon",
    "inicio": "2026-09-22T00:00-05:00",
-   "fin": "2026-10-19T23:59-05:00",
-   "cierre": "2026-10-19T23:59-05:00",
+   "fin": "2026-10-18T23:59-05:00",
+   "cierre": "2026-10-18T23:59-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Virtual",
@@ -12191,9 +12246,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-10T22:32-05:00",
-  "revisados": 280,
-  "corregidos": 16,
+  "fecha": "2026-10-11T07:00-05:00",
+  "revisados": 281,
+  "corregidos": 17,
   "avisos": 3,
   "archivados": 5,
   "problemas": [
@@ -12300,6 +12355,14 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://www.eventbrite.com.mx/e/congreso-internacional-de-educacion-2026-tickets-2002831931221"
+   },
+   {
+    "id": "ieee:584211",
+    "titulo": "Nextgen Innovators 2026",
+    "fuente": "IEEE Perú",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://events.vtools.ieee.org/m/584211"
    },
    {
     "id": "luma:evt-3Izz5QELco5iG9O",
@@ -12471,20 +12534,20 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Expotextil Perú 2026: feria proyecta US$100M con 250+ empresas",
-   "url": "https://ecosistemastartup.com/expotextil-peru-2026-feria-proyecta-us100m-con-250-empresas/",
-   "medio": "ecosistemastartup",
-   "publicado": "Thu, 08 Oct 2026 18:21:00 GMT",
-   "resumen": "La 19.ª edición de Expotextil llega a Lima con cifras récord Del 5 al 8 de noviembre de 2026, el Centro de Exposiciones Jockey de Lima se transformará en ...",
-   "fecha_mencionada": "2026-11-05T00:00-05:00"
-  },
-  {
    "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
    "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
    "medio": "RPP",
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
    "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Expotextil Perú 2026: feria proyecta US$100M con 250+ empresas",
+   "url": "https://ecosistemastartup.com/expotextil-peru-2026-feria-proyecta-us100m-con-250-empresas/",
+   "medio": "ecosistemastartup",
+   "publicado": "Thu, 08 Oct 2026 18:21:00 GMT",
+   "resumen": "La 19.ª edición de Expotextil llega a Lima con cifras récord Del 5 al 8 de noviembre de 2026, el Centro de Exposiciones Jockey de Lima se transformará en ...",
+   "fecha_mencionada": "2026-11-05T00:00-05:00"
   },
   {
    "titulo": "Más de 250 empresas participarán en feria internacional Expotextil Perú 2026 en noviembre",
@@ -12898,7 +12961,6 @@
   "opportunitydesk:-org-2026-10-09-world-bank-group-government-analytics-fellowship-2027-": "2026-10-09T12:54-05:00",
   "eb:2003206240791": "2026-10-09T12:54-05:00",
   "opportunitydesk:-2026-10-09-clinton-school-international-public-service-projects-2027-": "2026-10-09T12:54-05:00",
-  "luma:evt-tFdPEMmgyASMcvu": "2026-10-09T17:10-05:00",
   "luma:evt-9ab5nunE1g7wEju": "2026-10-09T17:10-05:00",
   "opportunitydesk:arvard-lead-fellowship-for-promoting-women-in-global-health-2027-2028-": "2026-10-09T17:10-05:00",
   "opportunitydesk:tydesk-org-2026-10-10-safe-in-our-world-mental-health-ambassador-2027-": "2026-10-09T22:57-05:00",
@@ -12907,6 +12969,8 @@
   "devpost:31586": "2026-10-10T16:04-05:00",
   "eb:2003250278509": "2026-10-10T22:32-05:00",
   "eb:1999814908224": "2026-10-10T22:32-05:00",
-  "eb:2000205996981": "2026-10-10T22:32-05:00"
+  "eb:2000205996981": "2026-10-10T22:32-05:00",
+  "eb:2003252006678": "2026-10-11T07:00-05:00",
+  "ieee:584211": "2026-10-11T07:00-05:00"
  }
 }
