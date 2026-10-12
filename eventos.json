@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-12T09:14-05:00",
+ "actualizado": "2026-10-12T17:23-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 112
+   "n": 110
   },
   "Eventbrite": {
    "ok": true,
-   "n": 62
+   "n": 69
   },
   "Eventbrite online": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 50
+   "n": 52
   },
   "IEEE Perú": {
    "ok": true,
@@ -43,11 +43,11 @@
   },
   "TEDx": {
    "ok": true,
-   "n": 4
+   "n": 6
   },
   "Institucionales": {
    "ok": true,
-   "n": 10
+   "n": 15
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 452,
+ "revisados": 466,
  "top": 55,
  "eventos": [
   {
@@ -117,200 +117,6 @@
    "puntaje": 16,
    "por_que": "Abre puertas (beca/programa) · Se postula en línea",
    "visto_desde": "2026-10-12T09:14-05:00"
-  },
-  {
-   "id": "luma:evt-pO6OcaGw4Ouv7tf",
-   "titulo": "Executive Breakfast: AI Agents in Finance",
-   "inicio": "2026-10-12T09:00-05:00",
-   "fin": "2026-10-12T12:00-05:00",
-   "lugar": "Miraflores, Perú",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/vb1le0tn",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "Un desayuno ejecutivo para conversar sobre qué hace falta para que los agentes de IA operen sobre rieles financieros en producción y para conectar con quienes lo están construyendo.\nAgenda\n9:00 · Llegada y desayuno buffetCon tiempo para conocerse antes de empezar.\n10:00 · ArrendIAEn vivo, un agente de IA que cobra las rentas de forma automática. Decide el medio y el momento del cobro, ordena el débito contra la cuenta del inquilino y, con cada pago, construye el historial que sustenta su capacidad de pago.\n10:15 · OrqueztaLa infraestructura financiera para agentes de IA que hay detrás. Cómo una sola integración conecta un producto con los servicios financieros que necesita y le da a un agent",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/8v/b1614857-2823-4749-9e84-9188d0cde64b.jpg",
-   "inscripcion": "https://lu.ma/vb1le0tn",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 24,
-   "afinidad": 16,
-   "puntaje": 40,
-   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Gratis",
-   "visto_desde": "2026-10-05T23:27-05:00"
-  },
-  {
-   "id": "luma:evt-fGsgymXzAWGuZdN",
-   "titulo": "Peru Founder to Founder",
-   "inicio": "2026-10-12T09:30-05:00",
-   "fin": "2026-10-12T12:00-05:00",
-   "lugar": "Av. Aviación 2540, San Borja",
-   "distrito": "San Borja",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/0icfhcti",
-   "fuente": "Luma",
-   "organizador": "Gonzalo Villaran, Gonzalo Begazo",
-   "descripcion": "Needs & Leads es una dinámica estructurada de colaboración entre founders. Su objetivo es transformar una comunidad de emprendedores en una red activa de ayuda, experiencia, contactos y oportunidades.\nCada participante llega con una necesidad concreta. Durante un minuto la presenta al grupo. El resto de founders escucha, hace preguntas muy breves y ofrece conexiones o recursos que puedan acercarlo a una solución.\nNo es networking tradicional, no es un pitch de ventas y no es una mesa redonda para resolver un problema en profundidad. Es una sesión deliberadamente rápida, concreta y accionable.\nLa pregunta central no es “¿qué haces?”, sino “¿qué necesitas?”\nLas conversaciones profundas, reunio",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/3m/43c66c6c-b9d6-4b0d-988c-80a692cbb16b.png",
-   "inscripcion": "https://lu.ma/0icfhcti",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 24,
-   "afinidad": 4,
-   "puntaje": 28,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
-   "visto_desde": "2026-09-30T22:42-05:00"
-  },
-  {
-   "id": "eb:2003252006678",
-   "titulo": "Presentación del Pitch — Victoria’s Secret Boutique",
-   "inicio": "2026-10-12T10:00-05:00",
-   "fin": "2026-10-12T13:30-05:00",
-   "lugar": "victoria secret perfumes, Carabayllo torre blanca",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/entradas-presentacion-del-pitch-victorias-secret-boutique-2003252006678",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "Victoria’s Secret Boutique\nConoce nuestra propuesta de perfumes, splash y cremas corporales originales. ¡Descubre tu esencia ideal!",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195535516%2F3017307745884%2F1%2Foriginal.20261011-043017?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1ac322fde7eb55f3cdbcb716d58ca08f",
-   "inscripcion": "https://www.eventbrite.com/e/entradas-presentacion-del-pitch-victorias-secret-boutique-2003252006678",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-10-11T07:00-05:00"
-  },
-  {
-   "id": "luma:evt-nXgx4Obq4K6NoQ5",
-   "titulo": "Temporada alta en SEACE: IA para ganar Licitaciones",
-   "inicio": "2026-10-12T10:30-05:00",
-   "fin": "2026-10-12T12:30-05:00",
-   "lugar": "Av Giuseppe Garibaldi 396, Jesús María, Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/b45bz4rt",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "Octubre es el mes con más licitaciones del año en el Perú. Para quienes venden al Estado es la mejor época para crecer, y también la más caótica.\nLos procesos se acumulan en SEACE, los plazos se cruzan y el equipo termina trabajando a contrarreloj. Casi siempre pasa lo mismo:\nUna fecha de consultas u observaciones que nadie vio a tiempo.\n\nDos personas preparando la misma propuesta, mientras otra oportunidad queda sin dueño.\n\nHoras invertidas en procesos que nunca tuvieron chances reales de ganarse.\n\nUn seguimiento comercial que vive en planillas, correos y la memoria de cada uno.\n\nEn temporada alta el problema no es encontrar licitaciones. Es gestionarlas bien cuando son muchas al mismo tiem",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/jb/2d77b165-34ae-424d-95fe-15cc0b52df11.jpg",
-   "inscripcion": "https://lu.ma/b45bz4rt",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 28,
-   "afinidad": 12,
-   "puntaje": 40,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Gratis",
-   "visto_desde": "2026-10-01T15:06-05:00"
-  },
-  {
-   "id": "ieee:580985",
-   "titulo": "1st Edition IAS Day Puno 2026: Linking Research to Practice in Southern Peru",
-   "inicio": "2026-10-12T11:00-05:00",
-   "fin": "2026-10-12T13:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://events.vtools.ieee.org/m/580985",
-   "inscripcion": "https://events.vtools.ieee.org/m/580985",
-   "fuente": "IEEE Perú",
-   "fuente_url": "https://events.vtools.ieee.org/",
-   "organizador": "IEEE · Universidad Nacional del Altiplano, IA34",
-   "descripcion": "El Capítulo Estudiantil IEEE IAS UNAP presenta la primera edición del IAS DAY PUNO 2026, el evento insignia concebido para estrechar el vínculo entre la formación académica universitaria y el sector industrial, eléctrico y minero de la región sur del Perú.\n\r\nEste evento de formato híbrido reunirá a estudiantes de ingeniería, docentes, egresados y profesionales con destacados líderes del sector corporativo y directivos internacionales de la Industry Applications Society (IAS). A lo largo de la jornada se desarrollarán conferencias magistrales enfocadas en máquinas eléctricas, sistemas de potencia, automatización, electrificación minera e Industria 4.0, resaltando el valor de la membresía IEEE",
-   "gratis": true,
-   "imagen": "",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Investigación y ciencia"
-   ],
-   "valor": 26,
-   "afinidad": 12,
-   "puntaje": 38,
-   "por_que": "Afín: Investigación · Networking · Universidad · Gratis",
-   "visto_desde": "2026-09-30T12:29-05:00"
-  },
-  {
-   "id": "luma:evt-KxI3L7LIHaTuMS5",
-   "titulo": "Parrilla con Amigos @ Perú Tech Week",
-   "inicio": "2026-10-12T13:00-05:00",
-   "fin": "2026-10-12T15:00-05:00",
-   "lugar": "San Isidro, Perú",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/c03dglol",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "Parrilla con amigos, great food, and conversations you don’t usually get on stage. The perfect excuse to pause, connect, and share in a more authentic way, alongside people who are shaping the future of entrepreneurship in the region.\nAn Argentine barbecue, a shared toast, and honest conversations about growing, scaling, and leading in the U.S. and Latin America.\nWho's in the room:\nPre-seed and seed stage founders\n\nVenture capital funds\n\n📍 Only 15 spots. By invitation only.\nPlease note: this event will be held in Spanish.\nAbout us:\nLazo\nLazo provides incorporation, tax, bookkeeping, fractional CFO and fundraising solutions for startups, powered by AI agents and human experts. Trusted by 1,50",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/07/42fe2505-761c-4895-9779-20820376f94c.png",
-   "inscripcion": "https://lu.ma/c03dglol",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 12,
-   "puntaje": 41,
-   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Gratis",
-   "visto_desde": "2026-10-05T16:48-05:00"
-  },
-  {
-   "id": "luma:evt-g4nJ9CwZ8xLZUEz",
-   "titulo": "AI Augmented Companies - El futuro de las empresas de Latam",
-   "inicio": "2026-10-12T14:00-05:00",
-   "fin": "2026-10-12T17:00-05:00",
-   "lugar": "Miraflores, Perú",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/m32zilye",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "La inteligencia artificial no solo está cambiando las herramientas que usamos. Está transformando la forma en que las empresas operan, venden, toman decisiones y crecen.\nEn el marco de Perú Tech Week, Indrox presenta AI-Augmented Companies, un encuentro para descubrir cómo construir organizaciones en las que las personas, el software y la inteligencia artificial trabajan como un solo sistema.\nDurante esta experiencia conocerás:\nQué diferencia a una empresa aumentada por IA de una empresa que simplemente utiliza herramientas de IA.\n\nCómo identificar procesos que pueden automatizarse o convertirse en software.\n\nPor qué el modelo Service as Software está redefiniendo industrias completas.\n\nCaso",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/93/bcc16c78-7d78-4f3d-b141-98d1f34843f1.png",
-   "inscripcion": "https://lu.ma/m32zilye",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 24,
-   "afinidad": 16,
-   "puntaje": 40,
-   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Gratis",
-   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "luma:evt-Dphtc0Ul38tVeDn",
@@ -452,7 +258,7 @@
   },
   {
    "id": "luma:evt-upa7CVPjW00l5tU",
-   "titulo": "\"Finanzas para crecer\" x Warmi Ventures",
+   "titulo": "\"Finanzas para crecer\" x Warmi Ventures.",
    "inicio": "2026-10-12T19:00-05:00",
    "fin": "2026-10-12T21:30-05:00",
    "lugar": "Miraflores, Perú",
@@ -477,62 +283,6 @@
    "puntaje": 38,
    "por_que": "Networking · Presencial en Lima · Afín: Investigación · Gratis",
    "visto_desde": "2026-09-28T07:42-05:00"
-  },
-  {
-   "id": "devpost:31098",
-   "titulo": "Graphiques Innovation Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-08-21T00:00-05:00",
-   "fin": "2026-10-12T23:59-05:00",
-   "cierre": "2026-10-12T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://graphiques-challenge.devpost.com/",
-   "inscripcion": "https://graphiques-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/608/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 13,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-05T23:27-05:00"
-  },
-  {
-   "id": "devpost:31610",
-   "titulo": "All you can do with AI",
-   "tipo": "hackathon",
-   "inicio": "2026-10-07T00:00-05:00",
-   "fin": "2026-10-12T23:59-05:00",
-   "cierre": "2026-10-12T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://all-you-can-do-with-ai.devpost.com/",
-   "inscripcion": "https://all-you-can-do-with-ai.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Self",
-   "descripcion": "Hackathon online. Temas: Blockchain, Databases, Serverless. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/500/153/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 18,
-   "puntaje": 37,
-   "por_que": "Competencia · Afín: Inteligencia artificial · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-07T13:20-05:00"
   },
   {
    "id": "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-10-13",
@@ -776,7 +526,7 @@
    "url": "https://lu.ma/ek0skxyp",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "Construir producto con LLMs no se parece a nada de antes.\nBlueprint 01 es un espacio abierto para conectar, comer piqueos y conversar junto a:- Omar Flórez lidera el pre-entrenamiento de LatamGPT, el primer modelo de 70B parámetros entrenado en Latinoamérica, y antes entrenó modelos a escala en Twitter Cortex y Capital One.- Víctor Cadenas es Sr. Product Manager de IA conversacional en Apple, donde definió cómo evaluar si un producto basado en LLMs está listo para usuarios reales.- Julio Canares es co-founder y CTO de Riqra, la plataforma de ecommerce para distribuidores que vende por WhatsApp con agentes de IA. También fundó Ciro (inteligencia de retail) y Nutrifit, y es Senior ML Engineer ",
+   "descripcion": "Construir producto con LLMs no se parece a nada de antes.\nBlueprint 01 es un espacio abierto para conectar, comer piqueos y conversar junto a:- Omar Flórez lidera el pre-entrenamiento de LatamGPT, el primer modelo de 70B parámetros entrenado en Latinoamérica, y antes entrenó modelos a escala en Twitter Cortex y Capital One.- Víctor Cadenas es Sr. Product Manager de IA conversacional en Apple, donde definió cómo evaluar si un producto basado en LLMs está listo para usuarios reales.\n-Hernán Rodríguez es el fundador y CEO de Pantera AI, una compañía de tecnología especializada en inteligencia artificial neuro-simbólica y automatización del back office financiero.- Julio Canares es co-founder y ",
    "gratis": false,
    "imagen": "https://images.lumacdn.com/uploads/j4/e3dc67b5-f24b-4e90-844b-caa7e180eb40.png",
    "inscripcion": "https://lu.ma/ek0skxyp",
@@ -850,31 +600,32 @@
    "visto_desde": "2026-10-02T12:19-05:00"
   },
   {
-   "id": "eb:1990929116582",
-   "titulo": "Crea tu sitio web gratis en 10 minutos con Inteligencia Artificial",
+   "id": "pucp:30-aula-magna-tejamos-el-pais-desde-las-diferencias-crecimiento-desarrollo-e-instituciones-11092026180436",
+   "titulo": "30 Aula Magna | \"Tejamos el país desde las diferencias: crecimiento, desarrollo e instituciones\"",
    "inicio": "2026-10-13T16:30-05:00",
-   "fin": "2026-10-13T18:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.ar/e/crea-tu-sitio-web-gratis-en-10-minutos-con-inteligencia-artificial-tickets-1990929116582",
-   "inscripcion": "https://www.eventbrite.com.ar/e/crea-tu-sitio-web-gratis-en-10-minutos-con-inteligencia-artificial-tickets-1990929116582",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Maxi Costantinis",
-   "descripcion": "Sin saber programar, sin contratar a nadie y sin gastar dinero, te enseñamos el paso a paso de como desarrollar tu sitio web en 10 minutos.",
+   "fin": "2026-10-13T19:15-05:00",
+   "lugar": "Auditorio de Derecho",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/30-aula-magna-tejamos-el-pais-desde-las-diferencias-crecimiento-desarrollo-e-instituciones-11092026180436/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La 30 edición de Aula Magna, bajo el lema “Tejamos el país desde las diferencias: crecimiento, desarrollo e instituciones”, propone un espacio de diálogo y reflexión sobre los principales desafíos que enfrenta el Perú y las condiciones necesarias para construir un país más justo, democrático y sostenible.\n \nEn esta edición, destacadas expertas y expertos se reunirán para analizar, dialogar y debatir en torno a tres ejes fundamentales:\n \n- Impulsar el crecimiento económico, fortaleciendo la productividad, la innovación, la transformación digital y la generación de oportunidades.\n- Promover el desarrollo humano, ampliando las capacidades, libertades y oportunidades de las personas y garantizan",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193864781%2F93900046205%2F1%2Foriginal.20260918-192745?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.097&fp-y=0.284&s=2823b81c6d9c9d69111da467662c6425",
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Copia_de_Programa_aula_magna_1_2799c5b498.jpg",
+   "inscripcion": "https://eros.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=032&id=35358&a=&l=&cis=&on=&lp=",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
-    "Tecnología e IA"
+    "Ingeniería y operaciones",
+    "Investigación y ciencia"
    ],
-   "valor": 23,
+   "valor": 35,
    "afinidad": 12,
-   "puntaje": 35,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
-   "visto_desde": "2026-09-27T16:59-05:00"
+   "puntaje": 47,
+   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
+   "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
    "id": "luma:evt-EBtjUnVZOcJaugo",
@@ -989,62 +740,6 @@
    "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
-   "id": "pucp:30-aula-magna-tejamos-el-pais-desde-las-diferencias-crecimiento-desarrollo-e-instituciones-11092026180436",
-   "titulo": "30 Aula Magna | \"Tejamos el país desde las diferencias: crecimiento, desarrollo e instituciones\"",
-   "inicio": "2026-10-13T18:00-05:00",
-   "fin": "2026-10-15T21:00-05:00",
-   "lugar": "Auditorio de Derecho",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/30-aula-magna-tejamos-el-pais-desde-las-diferencias-crecimiento-desarrollo-e-instituciones-11092026180436/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "La 30 edición de Aula Magna, bajo el lema “Tejamos el país desde las diferencias: crecimiento, desarrollo e instituciones”, propone un espacio de diálogo y reflexión sobre los principales desafíos que enfrenta el Perú y las condiciones necesarias para construir un país más justo, democrático y sostenible.\n \nEn esta edición, destacadas expertas y expertos se reunirán para analizar, dialogar y debatir en torno a tres ejes fundamentales:\n \n- Impulsar el crecimiento económico, fortaleciendo la productividad, la innovación, la transformación digital y la generación de oportunidades.\n- Promover el desarrollo humano, ampliando las capacidades, libertades y oportunidades de las personas y garantizan",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Copia_de_Programa_aula_magna_1_2799c5b498.jpg",
-   "inscripcion": "https://eros.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=032&id=35358&a=&l=&cis=&on=&lp=",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Investigación y ciencia"
-   ],
-   "valor": 35,
-   "afinidad": 12,
-   "puntaje": 47,
-   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "luma:evt-CPD3HexYKVn1zg2",
-   "titulo": "Panel: El futuro como práctica: una conversación real sobre foresight estratégico",
-   "inicio": "2026-10-13T18:30-05:00",
-   "fin": "2026-10-13T21:30-05:00",
-   "lugar": "Av. José Pardo 200, Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/d6vx4agq",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "📡 Sobre el evento\nEl futuro no se improvisa, se diseña. Pero hoy seguimos escuchando mucho de foresight como si fuera un concepto remoto que algunos googlean, y no una práctica que ya está corriendo dentro de empresas peruanas.\nTendremos un panel de lujo con invitadxs del Banco de Crédito del Perú y de Cementos Pacasmayo. Ambas son organizaciones que forman parte de VamosViendo, la comunidad de Foresight Estratégico de Mutaciones.\nNuestrxs invitadxs compartirán cómo sus organizaciones están apostando hoy en día por foresight, qué retos enfrentan para instalar y escalar iniciativas desde adentro, y hacia dónde lo están llevando.\n📅 Martes 13 de octubre de 2026⏰ 7:00 pm📍 Mutalab // Av. José Par",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/yg/34e4544d-5661-4226-9083-3647b933b5d3.png",
-   "inscripcion": "https://lu.ma/d6vx4agq",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 29,
-   "afinidad": 20,
-   "puntaje": 49,
-   "por_que": "Networking · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
-   "visto_desde": "2026-10-03T15:30-05:00"
-  },
-  {
    "id": "luma:evt-Baf4UVf5QoQEKyh",
    "titulo": "De Perú al mundo: Construye tu startup global | Stripe Lima Community",
    "inicio": "2026-10-13T19:00-05:00",
@@ -1083,7 +778,7 @@
    "url": "https://lu.ma/founderslive-lima-2026-10",
    "fuente": "Luma",
    "organizador": "Founders Live",
-   "descripcion": "Founders Live Lima VII is here!\nJoin us for an incredible evening…\nFounders Live is an unforgettable networking experience and pitch competition sweeping the globe.\n5 founders99-second pitches4 minutes of audience Q&AYOUR VOTES decide the winner!\nSo bring your friends and coworkers, grab some food and drink, get to know your local entrepreneurs, and vote for what you think will be the next big thing… built in Peru.\nKnow someone who should attend? Open The Door\nStarring\nRonald Barzola as your city leader!\nCompeting Founders and Startups\nTBA\nInterested in pitching at this or a future event? Apply here!Know someone who should pitch? Open The Door\nAgenda\n6:00 pm - Networking7:00 pm - Announcemen",
+   "descripcion": "Founders Live Lima VII is here!\nJoin us for an incredible evening…\nFounders Live is an unforgettable networking experience and pitch competition sweeping the globe.\n5 founders99-second pitches4 minutes of audience Q&AYOUR VOTES decide the winner!\nSo bring your friends and coworkers, grab some food and drink, get to know your local entrepreneurs, and vote for what you think will be the next big thing… built in Peru.\nKnow someone who should attend? Open The Door\nStarring\nRonald Barzola as your city leader!\nCompeting Founders and Startups\nPatricia Liebano whith Bon Cacao: Chocolates y snacks saludables a base de cacao e insumos 100% peruanos.\n\nAlvaro Chir with Babbely: IA que traduce voz en tie",
    "gratis": false,
    "imagen": "https://images.lumacdn.com/uploads/z5/e4d19d83-591a-4244-a971-cfc5701c7e8a.png",
    "inscripcion": "https://lu.ma/founderslive-lima-2026-10",
@@ -1099,6 +794,34 @@
    "puntaje": 47,
    "por_que": "Competencia · Presencial en Lima · Afín: Inteligencia artificial · Afín: Competencias",
    "visto_desde": "2026-09-24T21:06-05:00"
+  },
+  {
+   "id": "luma:evt-CPD3HexYKVn1zg2",
+   "titulo": "Panel: El futuro como práctica: una conversación real sobre foresight estratégico",
+   "inicio": "2026-10-13T19:00-05:00",
+   "fin": "2026-10-13T21:30-05:00",
+   "lugar": "Av. José Pardo 200, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/d6vx4agq",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "📡 Sobre el evento\nEl futuro no se improvisa, se diseña. Pero hoy seguimos escuchando mucho de foresight como si fuera un concepto remoto que algunos googlean, y no una práctica que ya está corriendo dentro de empresas peruanas.\nTendremos un panel de lujo con invitadxs del Banco de Crédito del Perú y de Cementos Pacasmayo. Ambas son organizaciones que forman parte de VamosViendo, la comunidad de Foresight Estratégico de Mutaciones.\nNuestrxs invitadxs compartirán cómo sus organizaciones están apostando hoy en día por foresight, qué retos enfrentan para instalar y escalar iniciativas desde adentro, y hacia dónde lo están llevando.\n📅 Martes 13 de octubre de 2026⏰ 7:00 pm📍 Mutalab // Av. José Par",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/yg/34e4544d-5661-4226-9083-3647b933b5d3.png",
+   "inscripcion": "https://lu.ma/d6vx4agq",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 29,
+   "afinidad": 20,
+   "puntaje": 49,
+   "por_que": "Networking · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
+   "visto_desde": "2026-10-03T15:30-05:00"
   },
   {
    "id": "pucp:webinar-clasificar-para-proteger-fundamentos-de-seguridad-de-la-informacion-22092026160651",
@@ -1234,10 +957,10 @@
    "categorias": [
     "Negocios y emprendimiento"
    ],
-   "valor": 24,
+   "valor": 31,
    "afinidad": 4,
-   "puntaje": 28,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
+   "puntaje": 35,
+   "por_que": "Networking · Presencial en Lima · Gremio o institución · Gratis",
    "visto_desde": "2026-09-29T00:33-05:00"
   },
   {
@@ -1454,7 +1177,7 @@
    "url": "https://agenda.pucp.edu.pe/evento/visita-del-profesor-camille-riquier-institut-catholique-de-paris-25092026145727/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "Del miércoles 14 al viernes 16 de octubre de 2026\n \nPrograma:\n \nConferencia, “La fe en cuestión”\nComentarios a cargo de Miguel Giusti y Véronique Claire Gauthier de Lecaros\nJueves 15 de octubre\n6:00 p.m.\nAuditorio de Ciencias Sociales (Gustavo Gutiérrez Merino), Facultad de Ciencias Sociales (Pabellón J), campus PUCP\n \nTaller: “Las dos fuentes de la fe”\nMiércoles 14  y viernes 16 de octubre\nDe 5:00 a 7:00 p.m.\nAula N-111, Complejo MacGregor, campus PUCP\n \n \nOrganizadores: CEF, Departamento de Teología, Departamento de Humanidades de la PUCP",
+   "descripcion": "Del miércoles 14 al viernes 16 de octubre de 2026. Organizado por: CEF, Departamento de Teología, Departamento de Humanidades de la PUCP\n \nPrograma:\nConferencia “La fe en cuestión”\nComentarios a cargo de Miguel Giusti y Véronique Claire Gauthier de Lecaros\nJueves 15 de octubre\n6 p.m.\nAuditorio de Estudios Generales Letras, campus PUCP\n \nTaller: “Las dos fuentes de la fe”\nMiércoles 14  y viernes 16 de octubre\nDe 5 a 7 p.m.\nAula N-111, Complejo MacGregor, campus PUCP",
    "gratis": true,
    "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
    "inscripcion": "https://cef.pucp.edu.pe/eventos/visita-academica-de-camille-riquierprofesor-del-institut-catholique-de-paris/",
@@ -1584,34 +1307,6 @@
    "visto_desde": "2026-10-12T09:14-05:00"
   },
   {
-   "id": "luma:evt-RPMv232MD97IhCj",
-   "titulo": "Innovation Board Ulima",
-   "inicio": "2026-10-14T18:00-05:00",
-   "fin": "2026-10-14T20:00-05:00",
-   "lugar": "Av. Javier Prado Este 4600, Santiago de Surco",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/fmm05xkc",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "Innovation Unlocked: Estrategia de IA privada y Co-Creación en el contexto de PerúAcompáñanos en una nueva edición de Innovation Board, donde exploraremos cómo la innovación abierta y la inteligencia artificial están transformando la manera en que las organizaciones crean, colaboran y resuelven desafíos.\n🥃 Shots de información 💡\nPerspectivas económicas por sectores del Perú\n\nVenture Client\n\nIA Privada y segura\n\nNo Code + IA para potenciar equipos\n\n💼 Business & Pizzas 🍕\nNuestro espacio de networking pero esta vez generaremos iniciativas entre pares para innovar nuestras compañias\n🔒Evento exclusivo para gerentes y líderes de innovación y afines.\nUnlock new ideas",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/y4/653ca50e-ed3b-440e-b120-dc96f2bef94b.png",
-   "inscripcion": "https://lu.ma/fmm05xkc",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 31,
-   "afinidad": 12,
-   "puntaje": 43,
-   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Universidad",
-   "visto_desde": "2026-10-06T14:58-05:00"
-  },
-  {
    "id": "luma:evt-rgAQXcvbIgGtQMX",
    "titulo": "Wealth & Wellness -Female Founders Lima",
    "inicio": "2026-10-14T18:00-05:00",
@@ -1677,7 +1372,7 @@
    "url": "https://lu.ma/y9rdrj11",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "✦ Personaliza este luma\n📲 Conoce más sobre P2P.ME en Telegram:👉 Unirse al Telegram de P2P.ME\n💙 Sigue al Club del Bitcoin:👉 Síguenos en Instagram\n💜 Únete a la comunidad de MKT Community:👉 Unirse al grupo de Whatsapp\n🚀 THE NEXT WAVE: Marketing, Fintech & Crypto Adoption\n¿Estás listo para descubrir cómo las nuevas tecnologías están transformando la forma en que trabajamos, cobramos, invertimos y hacemos negocios?\nTHE NEXT WAVE reúne a profesionales y entusiastas de marketing, trading, fintech, crypto, Web3 y freelancing para conversar sobre las nuevas oportunidades que están surgiendo alrededor de la economía digital.\nExploraremos el impacto del trading y los mercados crypto, la evolución de la",
+   "descripcion": "📲 Conoce más sobre P2P.ME en Telegram:👉 Unirse al Telegram de P2P.ME\n💙 Sigue al Club del Bitcoin:👉 Síguenos en Instagram\n💜 Únete a la comunidad de MKT Community:👉 Unirse al grupo de Whatsapp\n🚀 THE NEXT WAVE: Marketing, Fintech & Crypto Adoption\n¿Estás listo para descubrir cómo las nuevas tecnologías están transformando la forma en que trabajamos, cobramos, invertimos y hacemos negocios?\nTHE NEXT WAVE reúne a profesionales y entusiastas de marketing, trading, fintech, crypto, Web3 y freelancing para conversar sobre las nuevas oportunidades que están surgiendo alrededor de la economía digital.\nExploraremos el impacto del trading y los mercados crypto, la evolución de las soluciones fintech y l",
    "gratis": false,
    "imagen": "https://images.lumacdn.com/uploads/zb/83b7cf1e-e91e-439f-a20e-0b218f87f1ec.png",
    "inscripcion": "https://lu.ma/y9rdrj11",
@@ -2035,14 +1730,14 @@
    "titulo": "EDTECH LUNCH!",
    "inicio": "2026-10-15T13:00-05:00",
    "fin": "2026-10-15T15:00-05:00",
-   "lugar": "Circuito de Playas 350, Miraflores",
-   "distrito": "Miraflores",
+   "lugar": "Av. San Martín 461, Barranco",
+   "distrito": "Barranco",
    "modalidad": "Presencial",
    "url": "https://lu.ma/fhskskvi",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "✦ Un almuerzo de conversación estratégica para quienes están redefiniendo el futuro de la educación. En el marco del Tech Week Perú, convocaremos a referentes del ecosistema de innovación, tecnología, inversión y educación para intercambiar perspectivas sobre el futuro del aprendizaje, el desarrollo de talento, la IA, las microcredenciales, el venture capital en educación y las oportunidades de colaboración entre startups, empresas, universidades y sector público. Un espacio íntimo para generar conexiones de alto valor y convertir conversaciones en iniciativas con impacto.",
-   "gratis": true,
+   "descripcion": "✦ Un almuerzo de conversación estratégica para quienes están redefiniendo el futuro de la educación. En el marco del Tech Week Perú, convocaremos a referentes del ecosistema de innovación, tecnología, inversión y educación para intercambiar perspectivas sobre el futuro del aprendizaje, el desarrollo de talento, la IA, las microcredenciales, el venture capital en educación y las oportunidades de colaboración entre startups, empresas, universidades y sector público. Un espacio íntimo para generar conexiones de alto valor y convertir conversaciones en iniciativas con impacto.\nCosto por persona: S/.60 incluye piqueo y plato de fondo a elección (bebidas aparte).",
+   "gratis": false,
    "imagen": "https://images.lumacdn.com/uploads/0v/c4026733-67f4-4316-add7-e2337ea2e017.png",
    "inscripcion": "https://lu.ma/fhskskvi",
    "fuente_url": "https://lu.ma/lima",
@@ -2052,10 +1747,10 @@
     "Tecnología e IA",
     "Negocios y emprendimiento"
    ],
-   "valor": 24,
+   "valor": 21,
    "afinidad": 12,
-   "puntaje": 36,
-   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Gratis",
+   "puntaje": 33,
+   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-10-01T19:29-05:00"
   },
   {
@@ -2400,6 +2095,33 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "devpost:31515",
+   "titulo": "CodeSprint by Elite Coders",
+   "tipo": "hackathon",
+   "inicio": "2026-09-25T00:00-05:00",
+   "fin": "2026-10-15T23:59-05:00",
+   "cierre": "2026-10-15T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://codesprint-by-elitecoders.devpost.com/",
+   "inscripcion": "https://codesprint-by-elitecoders.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "elite coders",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Web. Premios: ₹ 30,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-01T15:06-05:00"
+  },
+  {
    "id": "devpost:31035",
    "titulo": "HACK47: OFFGRID",
    "tipo": "hackathon",
@@ -2426,33 +2148,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:31515",
-   "titulo": "CodeSprint by Elite Coders",
-   "tipo": "hackathon",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-10-15T23:59-05:00",
-   "cierre": "2026-10-15T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://codesprint-by-elitecoders.devpost.com/",
-   "inscripcion": "https://codesprint-by-elitecoders.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "elite coders",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Web. Premios: ₹ 30,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-01T15:06-05:00"
   },
   {
    "id": "wikicfp:201653",
@@ -2660,7 +2355,7 @@
    "url": "https://lu.ma/9yyru6w9",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "Únete a Blockchain es Clave, un evento imperdible para explorar los usos, oportunidades y aplicaciones prácticas de la tecnología blockchain en diversos sectores de la industria.\nVen a conectar ideas en una jornada dinámica donde abordaremos desde las finanzas descentralizadas y las aplicaciones industriales hasta los mercados de lujo y las redes sociales.\nTendremos charlas potentes sobre los siguientes temas:\nUsos multisectoriales de blockchain\n\nOportunidades para estudiantes\n\nStablecoins y banca\n\nGaming Web3\n\nWeb3 en artículos de lujo\n\nReal World Assets\n\nMarketing web3\n\nRRSS y UGC\n\n¿Por qué deberías asistir?\nAprende de expertos: Descubre de primera mano cómo líderes de la industria están a",
+   "descripcion": "Únete a Blockchain es Clave, un evento imperdible para explorar los usos, oportunidades y aplicaciones prácticas de la tecnología blockchain en diversos sectores de la industria.\nVen a conectar ideas en una jornada dinámica donde abordaremos desde las finanzas descentralizadas y las aplicaciones industriales hasta los mercados de lujo y las redes sociales.\nTendremos charlas potentes con los cracks del ecosistema:\nUsos multisectoriales de blockchain - Miguel Miyahira (Cryptomorfosis)\n\nOportunidades para estudiantes - Marcelo Medroa (Club Blockchain UPC), Marcelo Miyashiro (ABUP) y Ricardo Bartra (Club Blockchain PUCP)\n\nStablecoins y banca - Lenin Tarrillo (Banco de Crédito del Perú)\n\nGaming W",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/s4/19e41934-b135-41d2-b55c-3bd12bad8040.jpg",
    "inscripcion": "https://lu.ma/9yyru6w9",
@@ -2671,10 +2366,10 @@
     "Tecnología e IA",
     "Negocios y emprendimiento"
    ],
-   "valor": 30,
+   "valor": 37,
    "afinidad": 0,
-   "puntaje": 30,
-   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Inteligencia artificial · Gratis · (Evitas «web3»)",
+   "puntaje": 37,
+   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Inteligencia artificial · Universidad · (Evitas «web3»)",
    "visto_desde": "2026-10-07T04:42-05:00"
   },
   {
@@ -3438,7 +3133,7 @@
    "organizador": "HELAR OROSTICO",
    "descripcion": "En este taller aprenderás a diseñar dashboard desde cero.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195575258%2F3017382238709%2F1%2Foriginal.20261012-021533?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=97af920eb7903e1d50b363e333ffd405",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195575258%2F3017382238709%2F1%2Foriginal.20261012-021533?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=78a2f666616e5ef84370326b72d67925",
    "inscripcion": "https://www.eventbrite.com/e/taller-para-disenar-dashboard-en-excel-tickets-2003272308401",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3633,7 +3328,7 @@
    "organizador": "Notion Lima",
    "descripcion": "Notion está evolucionando rápido. En este Meetup vamos a descubrir sus novedades y explorar cómo Custom Agents, Notion Worker y Notion AI pueden abrir nuevas posibilidades para trabajar, automatizar y mejorar procesos.\nEn esta sesión aprenderás:\n🤖 Qué son los Custom Agents y cómo puedes aprovecharlos.\n\n⚙️ Qué propone Notion Worker y qué nuevas posibilidades habilita.\n\n🏢 Ideas y casos de uso de Notion para agencias.\n\n¿Para quién es?\nPara personas que ya usan Notion, profesionales, equipos y agencias que quieren conocer sus nuevas capacidades y encontrar formas de trabajar mejor con la plataforma.",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/f9/f5baa568-b2a6-4981-b613-02aa7bd8a102.png",
+   "imagen": "https://images.lumacdn.com/uploads/j3/439c5a16-27b4-4afa-bc3d-eba4a6bbc637.png",
    "inscripcion": "https://lu.ma/notion-6vkm",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -3783,6 +3478,41 @@
    "puntaje": 36,
    "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Afín: Liderazgo y oratoria",
    "visto_desde": "2026-10-06T14:58-05:00"
+  },
+  {
+   "id": "inst:sni-webinar-nuevos-criterios-laborales-qu-viene-diciendo-el-:2026-10-20",
+   "titulo": "Webinar: Nuevos criterios laborales: ¿qué viene diciendo el Poder Judicial y la SUNAFIL recientemente?",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-20T16:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/Nuevos-criterios-laborales-¿que-viene-diciendo-el-PoderJudicial-y-la-SUNAFIL-recientemente-img.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-10-20T23:50-05:00"
+   },
+   "visto_desde": "2026-10-12T17:23-05:00"
   },
   {
    "id": "devpost:30781",
@@ -3985,6 +3715,41 @@
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
+   "id": "inst:sni-webinar-decisi-n-clave-en-la-gesti-n-de-ausencias-labora:2026-10-21",
+   "titulo": "Webinar: Decisión clave, en la gestión de ausencias laborales: Licencias, permisos y suspensiones",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-21T17:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-10-21T23:50-05:00"
+   },
+   "visto_desde": "2026-10-12T17:23-05:00"
+  },
+  {
    "id": "luma:evt-nTusHgBAKNtiP3p",
    "titulo": "DevDay Exchange Community: Lima",
    "inicio": "2026-10-21T18:00-05:00",
@@ -4049,7 +3814,7 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/ejr9dvak",
    "fuente": "Luma",
-   "organizador": "Karen Saavedra, Salomé Llanos López",
+   "organizador": "Jelou AI",
    "descripcion": "En este espacio exploraremos cómo MiBanco, primer banco de microempresa en Latinoamérica en habilitar apertura de cuentas, transferencias y otros servicios financieros desde WhatsApp, construyó este proceso de punta a punta.\nUn conversatorio dirigido a líderes de banca, fintech y tecnología en Perú para conocer el caso, sus aprendizajes y qué implica llevar operaciones financieras al canal donde ya están los clientes.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/59/6dcb383e-e69b-4382-ab24-1b643e7765ff.png",
@@ -4058,13 +3823,13 @@
    "tipo": "evento",
    "cierre": "",
    "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
    ],
    "valor": 18,
-   "afinidad": 4,
-   "puntaje": 22,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · Afín: Emprendimiento y finanzas",
+   "afinidad": 12,
+   "puntaje": 30,
+   "por_que": "Presencial en Lima · Afín: Inteligencia artificial · Gratis · Evento sin formato claro",
    "visto_desde": "2026-10-02T16:45-05:00"
   },
   {
@@ -4514,6 +4279,33 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "devpost:31619",
+   "titulo": "Pumpkin Playground",
+   "tipo": "hackathon",
+   "inicio": "2026-10-12T00:00-05:00",
+   "fin": "2026-10-23T23:59-05:00",
+   "cierre": "2026-10-23T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://pumpkin-playground.devpost.com/",
+   "inscripcion": "https://pumpkin-playground.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ACM Long Beach",
+   "descripcion": "Hackathon online. Temas: Design, Gaming, Web. Premios: $30.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/518/869/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-12T17:23-05:00"
+  },
+  {
    "id": "pucp:feape-2026-05102026102819",
    "titulo": "FEAPE 2026",
    "inicio": "2026-10-24T00:00-05:00",
@@ -4621,6 +4413,61 @@
    "puntaje": 28,
    "por_que": "Networking · Presencial en Lima · Gratis · Con premio",
    "visto_desde": "2026-10-09T17:10-05:00"
+  },
+  {
+   "id": "luma:evt-GdGnBGGRE23MIk3",
+   "titulo": "Kubefest women edition",
+   "inicio": "2026-10-24T14:00-05:00",
+   "fin": "2026-10-24T17:00-05:00",
+   "lugar": "Campus PUCP, Av. Universitaria N°1801, San Miguel",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/cctyrftv",
+   "fuente": "Luma",
+   "organizador": "Platform Engineering Peru Events",
+   "descripcion": "🚀 KubeFest 3 - Women Tech Edition\n👩‍💻 Cuatro voces. Cuatro perspectivas. Un mismo ecosistema: Cloud Native.\nEn esta edición de KubeFest 3, nos reunimos para aprender, compartir experiencias y seguir impulsando la participación de más mujeres en tecnología.\n🤖 Danielle Nascimento - Clústers que piensa: Operación inteligente con IA☁️ Bianca Torres - Escala sin pagar de mas: nodos justo a tiempo con Karpenter🔄 Michelle Luna - Git como fuente de verdad: despliegues en piloto automático con ArgoCD🎤 Grecia Vargas - Del contenedor a tu primer clúster\n📍 Auditorio de la Facultad de Ciencias e Ingeniería – PUCP 🕑 2:00 PM – 5:00 PM\nUna tarde para hablar de Kubernetes, IA, GitOps, ArgoCD, AWS y Cloud Nat",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/kt/87c16009-ba0f-40fd-9d8a-f5d3295efc03.png",
+   "inscripcion": "https://lu.ma/cctyrftv",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 31,
+   "afinidad": 8,
+   "puntaje": 39,
+   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Universidad",
+   "visto_desde": "2026-10-12T17:23-05:00"
+  },
+  {
+   "id": "pucp:encuentro-universitario-disenar-nuevos-mapas-de-esperanza",
+   "titulo": "Encuentro Universitario: Diseñar nuevos mapas de esperanza",
+   "inicio": "2026-10-24T16:00-05:00",
+   "fin": "2026-10-24T20:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/encuentro-universitario-disenar-nuevos-mapas-de-esperanza/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Queremos invitarte al Encuentro Universitario: Diseñar nuevos mapas de esperanza, una jornada de diálogo, reflexión y oración pensada especialmente para ti y para toda nuestra comunidad universitaria.\nSerá una oportunidad para acercarnos al mensaje del papa León XIV y reflexionar, de manera activa y colectiva, sobre cómo podemos diseñar y construir nuevos mapas de esperanza desde el Perú.\nDurante el encuentro, también conoceremos los proyectos desarrollados en el Lab de Ideas, realizado bajo el mismo nombre, y tendremos la oportunidad de compartir, dialogar y conectar con otros estudiantes.\nEl encuentro es impulsado conjuntamente por el Departamento Académico de Teología, el Centro de Asesor",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/agend_f572d694fb.png",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSejYtOsb0cNznEIpDAVcvn5E3NMu1eUsk7OiAUyPmTRdZq84g/viewform?usp=sharing&amp;ouid=108440683623066390252",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-10-12T17:23-05:00"
   },
   {
    "id": "meetup:ljgqztyjcnbgc",
@@ -4843,6 +4690,41 @@
    "visto_desde": "2026-10-09T12:54-05:00"
   },
   {
+   "id": "inst:sni-webinar-negociaciones-colectivas-2026-estrategias-riesgo:2026-10-26",
+   "titulo": "Webinar: Negociaciones colectivas 2026: estrategias, riesgos y soluciones frente a sindicatos",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-26T16:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/NEGOCIACIONES-COLECTIVAS-2026-ESTRATEGIAS-RIESGOS-Y-SOLUCIONES-FRENTE-A-SINDICATOS-img.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-10-26T23:50-05:00"
+   },
+   "visto_desde": "2026-10-12T17:23-05:00"
+  },
+  {
    "id": "devpost:30447",
    "titulo": "Build With AI: Basics",
    "tipo": "hackathon",
@@ -4959,6 +4841,65 @@
    "puntaje": 31,
    "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
    "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "eb:1990929116582",
+   "titulo": "Crea tu sitio web gratis en 10 minutos con Inteligencia Artificial",
+   "inicio": "2026-10-27T16:30-05:00",
+   "fin": "2026-10-27T18:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/crea-tu-sitio-web-gratis-en-10-minutos-con-inteligencia-artificial-tickets-1990929116582",
+   "inscripcion": "https://www.eventbrite.com.ar/e/crea-tu-sitio-web-gratis-en-10-minutos-con-inteligencia-artificial-tickets-1990929116582",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Maxi Costantinis",
+   "descripcion": "Sin saber programar, sin contratar a nadie y sin gastar dinero, te enseñamos el paso a paso de como desarrollar tu sitio web en 10 minutos.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195611619%2F93900046205%2F1%2Foriginal.20261012-152917?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.11&fp-y=0.287&s=14857e46fb20080b4a3005c34f84456c",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "inst:sni-taller-presentaci-n-de-estados-financieros-bajo-niif:2026-10-27",
+   "titulo": "Taller: PRESENTACIÓN DE ESTADOS FINANCIEROS BAJO NIIF",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-27T19:00-05:00",
+   "fin": "2026-10-28T22:00-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/PRESENTACION-DE-ESTADOS-FINANCIEROS-BAJO-NIIF-img.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 32,
+   "afinidad": 0,
+   "puntaje": 32,
+   "por_que": "Formativo · Evento institucional · Presencial en Lima",
+   "visto_desde": "2026-10-12T17:23-05:00"
   },
   {
    "id": "devpost:30984",
@@ -5327,6 +5268,41 @@
    "puntaje": 43,
    "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Universidad",
    "visto_desde": "2026-10-06T14:58-05:00"
+  },
+  {
+   "id": "inst:sni-webinar-contratos-laborales-a-plazo-fijo-gu-a-pr-ctica-p:2026-10-29",
+   "titulo": "Webinar: Contratos laborales a plazo fijo: guía práctica para empleadores",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-10-29T16:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/ontratos-laborales-a-plazo-fijo-guia-practica-parae-mpleadores-img.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-10-29T23:50-05:00"
+   },
+   "visto_desde": "2026-10-12T17:23-05:00"
   },
   {
    "id": "eb:2003166221091",
@@ -6173,36 +6149,6 @@
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
-   "id": "eb:2003295280110",
-   "titulo": "Taller de Introduccion a AHTLM5",
-   "inicio": "2026-11-07T09:00-05:00",
-   "fin": "2026-11-07T13:00-05:00",
-   "lugar": "presencial, auditorio principal, lima, lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/taller-de-introduccion-a-ahtlm5-tickets-2003295280110",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "Taller presencial de introducción a AHTLM5.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195602479%2F3014332733560%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=07f591d2f311c48f8d8cce9bbda3cfbb",
-   "inscripcion": "https://www.eventbrite.com/e/taller-de-introduccion-a-ahtlm5-tickets-2003295280110",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 22,
-   "afinidad": 0,
-   "puntaje": 22,
-   "por_que": "Formativo · Presencial en Lima · Gratis · (Poca información)",
-   "original": {
-    "titulo": "TALLER DE INTRODUCCION A AHTLM5"
-   },
-   "visto_desde": "2026-10-12T09:14-05:00"
-  },
-  {
    "id": "eb:2003294984225",
    "titulo": "Taller de introduccion a HTML5 y CCS3",
    "inicio": "2026-11-07T09:00-05:00",
@@ -6212,7 +6158,7 @@
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.com/e/taller-de-introduccion-a-html5-y-ccs3-tickets-2003294984225",
    "fuente": "Eventbrite",
-   "organizador": "",
+   "organizador": "Cafe del sur",
    "descripcion": "aprende a diseñar sus paginas web usando tecnologia y CCS3",
    "gratis": true,
    "imagen": "",
@@ -6223,10 +6169,10 @@
    "categorias": [
     "Tecnología e IA"
    ],
-   "valor": 22,
+   "valor": 28,
    "afinidad": 0,
-   "puntaje": 22,
-   "por_que": "Formativo · Presencial en Lima · Gratis · (Poca información)",
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis",
    "visto_desde": "2026-10-12T09:14-05:00"
   },
   {
@@ -7292,6 +7238,33 @@
    "puntaje": 42,
    "por_que": "Competencia · Afín: Competencias · Presencial en Lima · Universidad",
    "visto_desde": "2026-10-06T14:58-05:00"
+  },
+  {
+   "id": "eb:2003298482689",
+   "titulo": "Feria Tecnológica  Universitaria 2026",
+   "inicio": "2026-12-05T10:00-05:00",
+   "fin": "2026-12-05T12:00-05:00",
+   "lugar": "Callao, Lima Peru",
+   "distrito": "Callao",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/feria-tecnologica-universitaria-2026-tickets-2003298482689",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Entrada «Estudiante» S/ 10, 100 cupos\nEntrada «General» S/ 25, 80 cupos\nEntrada «VIP» S/ 50, 20 cupos (acceso a charla magistral )",
+   "gratis": false,
+   "imagen": "",
+   "inscripcion": "https://www.eventbrite.com/e/feria-tecnologica-universitaria-2026-tickets-2003298482689",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 25,
+   "afinidad": 0,
+   "puntaje": 25,
+   "por_que": "Formativo · Presencial en Lima · Bajo costo",
+   "visto_desde": "2026-10-12T17:23-05:00"
   },
   {
    "id": "luma:evt-jfsSWBTWWcWlJEa",
@@ -10244,6 +10217,31 @@
    "por_que": "Networking · Presencial en Lima"
   },
   {
+   "id": "luma:evt-X0lTn3V1b2av47f",
+   "titulo": "Máquina del tiempo",
+   "inicio": "2026-10-22T19:00-05:00",
+   "fin": "2026-10-22T21:00-05:00",
+   "lugar": "Jr. Gral, Jirón Luis Sánchez Cerro 2141 Lima, Jesús María",
+   "distrito": "Jesús María",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/4e9fvu7j",
+   "fuente": "Luma",
+   "organizador": "Alexander Zamora, Isabel Sánchez",
+   "descripcion": "¿Y si el retiro no fuera el final, sino el inicio de una nueva etapa?\nTe invitamos a un encuentro donde conversaremos en torno al libro ¿En la edad del retiro? Dilemas y decisiones en la madurez profesional.\nHablaremos sobre los dilemas, decisiones y oportunidades que surgen al acercarnos a una nuev",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/hb/af5b576e-c066-44fc-ab7a-e016805d2965.png",
+   "inscripcion": "https://lu.ma/4e9fvu7j",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis"
+  },
+  {
    "id": "eb:2002315077297",
    "titulo": "Daniela De Izcue Live",
    "inicio": "2026-10-22T21:00-05:00",
@@ -10469,6 +10467,31 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · (Poca información)"
   },
   {
+   "id": "pucp:conversatorio-sobre-un-dossier-sobre-el-tiempo-de-la-revista-estudios-de-filosofia-22-2024-09102026182643",
+   "titulo": "Conversatorio sobre un dossier sobre el tiempo de la revista Estudios de Filosofía 22 (2024)",
+   "inicio": "2026-10-29T12:15-05:00",
+   "fin": "2026-10-29T14:00-05:00",
+   "lugar": "Auditorio de la Biblioteca Central (3er piso)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/conversatorio-sobre-un-dossier-sobre-el-tiempo-de-la-revista-estudios-de-filosofia-22-2024-09102026182643/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El jueves 29 de octubre de 2026, a las 12:15 p.m., en el Auditorio de la Biblioteca Central (campus PUCP) se llevará a cabo el Conversatorio sobre el Dossier sobre el tiempo de la revista Estudios de Filosofía 22 (2024) . Participarán Sebastián Bouroncle, Juan Pablo Cotrina, José Luis García, Rosema",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Campus_agenda_c606cecdf1.jpg",
+   "inscripcion": "https://cef.pucp.edu.pe/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 25,
+   "afinidad": 0,
+   "puntaje": 25,
+   "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro"
+  },
+  {
    "id": "pucp:activacion-reescribiendo-el-felices-para-siempre-reflexionando-sobre-el-amor-romantico",
    "titulo": "Activación: \"Reescribiendo el felices para siempre: Reflexionando sobre el amor romántico\"",
    "inicio": "2026-10-29T12:30-05:00",
@@ -10492,6 +10515,31 @@
    "afinidad": 0,
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
+  },
+  {
+   "id": "luma:evt-GRESXtUEHpNGecs",
+   "titulo": "Perú | Taller de mandalas: conecta contigo",
+   "inicio": "2026-10-29T17:00-05:00",
+   "fin": "2026-10-29T19:00-05:00",
+   "lugar": "C. Coronel Inclán 235, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/2q7i1qhw",
+   "fuente": "Luma",
+   "organizador": "Vida Universitaria",
+   "descripcion": "🌀💚 Taller de mandalas: Un momento para conectar contigo 💚🌀\nA veces, hacer una pausa también es una forma de avanzar. ✨\nTe invitamos a disfrutar de un espacio creativo y relajante, donde podrás desconectarte de la rutina, explorar tu creatividad y conectar contigo mismo a través del arte de crear man",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/93/5c8428f8-bcbb-4f7c-9c09-396e80ecc3e1.png",
+   "inscripcion": "https://lu.ma/2q7i1qhw",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis"
   },
   {
    "id": "luma:evt-DFwuDzgIkcWOvLC",
@@ -10531,7 +10579,7 @@
    "organizador": "",
    "descripcion": "¡Ven a disfrutar música, baile y pura jarana en vivo junto a Fuego Criollo!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f4f100446e0778d8ad7c3d33817468b4",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f981fdaf00ec37d8ff53631615ac5c02",
    "inscripcion": "https://www.eventbrite.es/e/fuego-y-jarana-con-fuego-criollo-tickets-2003293488752",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10767,6 +10815,56 @@
    "afinidad": 0,
    "puntaje": 12,
    "por_que": "Presencial en Lima · Evento sin formato claro"
+  },
+  {
+   "id": "eb:2003300944051",
+   "titulo": "jornada gratuita de vacunación para mascotas",
+   "inicio": "2026-11-21T10:00-05:00",
+   "fin": "2026-11-21T12:00-05:00",
+   "lugar": "parque kenedi, barranco",
+   "distrito": "lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/jornada-gratuita-de-vacunacion-para-mascotas-tickets-2003300944051",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "trae a tu mascota y líbrala de los parásitos e infecciones de la que esta expuesta en la calle",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195611936%2F3017435392197%2F1%2Foriginal.20261012-153242?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3e377eaf39a004b083a45d910612cd6e",
+   "inscripcion": "https://www.eventbrite.com/e/jornada-gratuita-de-vacunacion-para-mascotas-tickets-2003300944051",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis"
+  },
+  {
+   "id": "eb:2003302059387",
+   "titulo": "Jornada de desparasitación gratuita",
+   "inicio": "2026-11-22T10:00-05:00",
+   "fin": "2026-11-22T12:00-05:00",
+   "lugar": "parque kenedi, barranco",
+   "distrito": "lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/jornada-de-desparasitacion-gratuita-tickets-2003302059387",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Libera a tu mascota y protégela de los bichos y bacterias del ambiente",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195613342%2F3017435392197%2F1%2Foriginal.20261012-154802?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a8a74d0db9855d1f7799c31a92096572",
+   "inscripcion": "https://www.eventbrite.com/e/jornada-de-desparasitacion-gratuita-tickets-2003302059387",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Networking · Presencial en Lima · Gratis · (Poca información)"
   },
   {
    "id": "eb:2003279097708",
@@ -11074,6 +11172,34 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31685",
+   "titulo": "Company Brain Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-12T00:00-05:00",
+   "fin": "2026-10-13T23:59-05:00",
+   "cierre": "2026-10-13T23:59-05:00",
+   "lugar": "Snowflake SVAI Hub",
+   "distrito": "Snowflake SVAI Hub",
+   "modalidad": "Presencial",
+   "url": "https://company-brain-oct-2026.devpost.com/",
+   "inscripcion": "https://company-brain-oct-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Digo",
+   "descripcion": "Hackathon presencial en Snowflake SVAI Hub. Temas: Beginner Friendly, Enterprise, Machine Learning/AI. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/567/484/datas/medium_square.jpg",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 16,
+   "afinidad": 29,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31218",
    "titulo": "Black Code Collective Hacktoberfest",
    "tipo": "hackathon",
@@ -11296,33 +11422,6 @@
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
   },
   {
-   "id": "eb:2001025547278",
-   "titulo": "Emprendimiento Amigurumis",
-   "inicio": "2026-10-24T10:00-05:00",
-   "fin": "2026-10-24T12:00-05:00",
-   "lugar": "Barrio Chino, Barrio chino",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/emprendimiento-amigurumis-tickets-2001025547278",
-   "fuente": "Eventbrite",
-   "organizador": "Adriano ley velasquez",
-   "descripcion": "Somos una empresa en busca de tu atención",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193505435%2F3014133761437%2F1%2Foriginal.20260914-233059?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6ad9f5fd61c0c148cab66761e05c28b0",
-   "inscripcion": "https://www.eventbrite.com/e/emprendimiento-amigurumis-tickets-2001025547278",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (amigurumis)",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 24,
-   "afinidad": 6,
-   "puntaje": 30,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
-  },
-  {
    "id": "eb:2003273856030",
    "titulo": "Pitch Empresarial – Tienda Lumia| Belleza y Cuidado Personal",
    "inicio": "2026-11-20T10:00-05:00",
@@ -11401,6 +11500,34 @@
    "valor": 24,
    "afinidad": 6,
    "puntaje": 30,
+   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
+  },
+  {
+   "id": "luma:evt-qzyNFcZ8CS4QDyk",
+   "titulo": "Women Night \"ELLA LIDERA\" - Networking Cocktail",
+   "inicio": "2026-10-13T18:30-05:00",
+   "fin": "2026-10-13T21:30-05:00",
+   "lugar": "Av. Ricardo Palma 240, Surquillo",
+   "distrito": "Surquillo",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/yaej5qhe",
+   "fuente": "Luma",
+   "organizador": "Perú Tech Week 2026",
+   "descripcion": "La semana más importante de Innovación, Tecnología y Startups del Perú\nTechweek.pe",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/ru/69599ed7-6a7b-46ad-a0c8-26214c8f5341.png",
+   "inscripcion": "https://lu.ma/yaej5qhe",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (cocktail)",
+   "categorias": [
+    "Habilidades y liderazgo",
+    "Tecnología e IA"
+   ],
+   "valor": 24,
+   "afinidad": 4,
+   "puntaje": 28,
    "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas"
   },
   {
@@ -11638,6 +11765,33 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "eb:2003301285071",
+   "titulo": "Lanzamiento de nuevo producto",
+   "inicio": "2026-10-19T19:00-05:00",
+   "fin": "2026-10-19T22:00-05:00",
+   "lugar": "Puente alipio, Avenida Alipio Ponce",
+   "distrito": "San Juan de Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/lanzamiento-de-nuevo-producto-tickets-2003301285071",
+   "fuente": "Eventbrite",
+   "organizador": "LndrAlv",
+   "descripcion": "Te esperamos en el evento online de lanzamiento de nuestro nuevo sabor. Pedidos online al 999122912\"",
+   "gratis": false,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195611473%2F3017430629087%2F1%2Foriginal.20261012-152724?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.58&fp-y=0.12&s=73f37d0d38e9c8d11163c9a54f26905d",
+   "inscripcion": "https://www.eventbrite.com/e/lanzamiento-de-nuevo-producto-tickets-2003301285071",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (lanzamiento de)",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Evento sin formato claro"
+  },
+  {
    "id": "eb:2003074310183",
    "titulo": "Apertura oficial y lanzamiento de nuestra nueva colección",
    "inicio": "2026-11-14T18:00-05:00",
@@ -11661,6 +11815,33 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
+   "id": "eb:2003298055411",
+   "titulo": "Lanzamiento de nuevo producto",
+   "inicio": "2026-11-21T19:00-05:00",
+   "fin": "2026-11-21T22:00-05:00",
+   "lugar": "Café Sur, Av. Pardo y Aliaga 683 San Isidro Municipalidad Metropolitana de Lima LIMA",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/lanzamiento-de-nuevo-producto-tickets-2003298055411",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "El lanzamiento de un producto introduce novedades al mercado para atraer clientes, aumentar ventas y fortalecer la marca.",
+   "gratis": false,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195607623%2F3017434105251%2F1%2Foriginal.20261012-144004?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=30a27d5a04c6d5f2851e93573c06e548",
+   "inscripcion": "https://www.eventbrite.com/e/lanzamiento-de-nuevo-producto-tickets-2003298055411",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (lanzamiento de)",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
    "id": "pucp:oracion-de-la-comunidad-sant-egidio-24082026105339",
@@ -12227,6 +12408,34 @@
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad"
   },
   {
+   "id": "ieee:580985",
+   "titulo": "1st Edition IAS Day Puno 2026: Linking Research to Practice in Southern Peru",
+   "inicio": "2026-10-12T11:00-05:00",
+   "fin": "2026-10-12T13:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://events.vtools.ieee.org/m/580985",
+   "inscripcion": "https://events.vtools.ieee.org/m/580985",
+   "fuente": "IEEE Perú",
+   "fuente_url": "https://events.vtools.ieee.org/",
+   "organizador": "IEEE · Universidad Nacional del Altiplano, IA34",
+   "descripcion": "El Capítulo Estudiantil IEEE IAS UNAP presenta la primera edición del IAS DAY PUNO 2026, el evento insignia concebido para estrechar el vínculo entre la formación académica universitaria y el sector industrial, eléctrico y minero de la región sur del Perú.\n\r\nEste evento de formato híbrido reunirá a ",
+   "gratis": true,
+   "imagen": "",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "ya pasó",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Investigación y ciencia"
+   ],
+   "valor": 26,
+   "afinidad": 12,
+   "puntaje": 38,
+   "por_que": "Afín: Investigación · Networking · Universidad · Gratis"
+  },
+  {
    "id": "eb:2003155868125",
    "titulo": "Equipo 2 Pitch",
    "inicio": "2026-10-17T10:00-05:00",
@@ -12378,7 +12587,7 @@
   "PERUMIN": 1,
   "ESAN — eventos": 3,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 3,
+  "Sociedad Nacional de Industrias": 8,
   "AmCham Perú": 2,
   "ComexPerú": 0
  },
@@ -12394,9 +12603,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-12T09:14-05:00",
-  "revisados": 294,
-  "corregidos": 15,
+  "fecha": "2026-10-12T17:23-05:00",
+  "revisados": 292,
+  "corregidos": 18,
   "avisos": 3,
   "archivados": 5,
   "problemas": [
@@ -12449,8 +12658,24 @@
     "url": "https://lu.ma/xxxbibha"
    },
    {
+    "id": "inst:sni-webinar-nuevos-criterios-laborales-qu-viene-diciendo-el-:2026-10-20",
+    "titulo": "Webinar: Nuevos criterios laborales: ¿qué viene diciendo el Poder Judicial y la SUNAFIL re",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
     "id": "inst:sni-webinar-adecuaci-n-ambiental-claves-para-el-cumplimiento:2026-10-21",
     "titulo": "Webinar: Adecuación Ambiental: Claves para el Cumplimiento, Fiscalización y Gestión de Rie",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
+    "id": "inst:sni-webinar-decisi-n-clave-en-la-gesti-n-de-ausencias-labora:2026-10-21",
+    "titulo": "Webinar: Decisión clave, en la gestión de ausencias laborales: Licencias, permisos y suspe",
     "fuente": "Institucional",
     "nivel": "corregido",
     "detalle": "hora de término de relleno (23:50)",
@@ -12463,6 +12688,14 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://www.eventbrite.es/e/entradas-sostenibilidad-en-el-sector-turistico-de-la-teoria-a-la-rentabilidad-2000250909315"
+   },
+   {
+    "id": "inst:sni-webinar-negociaciones-colectivas-2026-estrategias-riesgo:2026-10-26",
+    "titulo": "Webinar: Negociaciones colectivas 2026: estrategias, riesgos y soluciones frente a sindica",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
    },
    {
     "id": "inst:sni-webinar-pl-stico-reciclado-con-respaldo-trazabilidad-y-c:2026-10-27",
@@ -12487,6 +12720,14 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://events.vtools.ieee.org/m/584211"
+   },
+   {
+    "id": "inst:sni-webinar-contratos-laborales-a-plazo-fijo-gu-a-pr-ctica-p:2026-10-29",
+    "titulo": "Webinar: Contratos laborales a plazo fijo: guía práctica para empleadores",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
    },
    {
     "id": "luma:evt-3Izz5QELco5iG9O",
@@ -12519,14 +12760,6 @@
     "nivel": "aviso",
     "detalle": "presencial de madrugada (02:00): se muestra 'por confirmar'",
     "url": "https://www.eventbrite.com/e/presentacion-de-nuevos-productos-tickets-2003117091142"
-   },
-   {
-    "id": "eb:2003295280110",
-    "titulo": "Taller de Introduccion a AHTLM5",
-    "fuente": "Eventbrite",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://www.eventbrite.com/e/taller-de-introduccion-a-ahtlm5-tickets-2003295280110"
    },
    {
     "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
@@ -12588,7 +12821,7 @@
   "enlaces": {
    "comprobados": 40,
    "rotos": 5,
-   "sin_comprobar": 1
+   "sin_comprobar": 0
   },
   "fuentes_a_revisar": []
  },
@@ -12610,27 +12843,11 @@
    "fecha_mencionada": "2026-10-19T00:00-05:00"
   },
   {
-   "titulo": "Los desafíos que abordó el II Foro Eficiencias & Productividad Comercial de Perú Retail 2026",
-   "url": "https://www.peru-retail.com/los-desafios-que-abordo-el-ii-foro-eficiencias-productividad-comercial-de-peru-retail-2026/",
-   "medio": "Perú Retail",
-   "publicado": "Mon, 28 Sep 2026 13:05:00 GMT",
-   "resumen": "Con el objetivo de analizar los desafíos y oportunidades que enfrenta el sector en materia de productividad, Perú Retail llevó a cabo el II Foro Eficiencias & Productividad Comercial en Retail 2026 el ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "De Valladolid a Lima: UNI consiguió la sede de congreso internacional de urbanismo para 2027",
    "url": "https://larepublica.pe/sociedad/2026/10/05/de-valladolid-a-lima-uni-consiguio-la-sede-de-congreso-internacional-de-urbanismo-para-2027-390245",
    "medio": "La República",
    "publicado": "Mon, 05 Oct 2026 02:25:00 GMT",
    "resumen": "Este encuentro, centrado en la forma urbana y el cambio climático, reunirá a investigadores de diversas disciplinas para abordar la resiliencia de las ciudades ante crisis ambientales.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
-   "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
    "fecha_mencionada": ""
   },
   {
@@ -12650,6 +12867,14 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "El Air Transport Summit reunió en Lima a autoridades y líderes de la aviación regional",
+   "url": "https://www.aviacionnews.com/2026/10/el-air-transport-summit-reunio-en-lima-a-autoridades-y-lideres-de-la-aviacion-regional/",
+   "medio": "Aviación News",
+   "publicado": "Thu, 01 Oct 2026 11:03:00 GMT",
+   "resumen": "El encuentro, organizado por ACI-LAC, OACI y CLAC, abordó conectividad, seguridad operacional, tecnología y economía aeroportuaria. El Air Transport Summit reunió el 30 de septiembre en Lima a autorid ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "Red Hat Summit 2026 apuesta por soberanía digital y seguridad en IA",
    "url": "https://masvip.com.do/2026/10/05/red-hat-summit-2026-apuesta-por-soberania-digital-y-seguridad-en-ia/",
    "medio": "Masvip",
@@ -12658,11 +12883,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "El Air Transport Summit reunió en Lima a autoridades y líderes de la aviación regional",
-   "url": "https://www.aviacionnews.com/2026/10/el-air-transport-summit-reunio-en-lima-a-autoridades-y-lideres-de-la-aviacion-regional/",
-   "medio": "Aviación News",
-   "publicado": "Thu, 01 Oct 2026 11:03:00 GMT",
-   "resumen": "El encuentro, organizado por ACI-LAC, OACI y CLAC, abordó conectividad, seguridad operacional, tecnología y economía aeroportuaria. El Air Transport Summit reunió el 30 de septiembre en Lima a autorid ...",
+   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
+   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/?outputType=amp",
+   "medio": "El Comercio",
+   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
+   "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA.",
    "fecha_mencionada": ""
   },
   {
@@ -12687,6 +12912,14 @@
    "medio": "Agencia Peruana de Noticias | ANDINA",
    "publicado": "Wed, 07 Oct 2026 17:00:00 GMT",
    "resumen": "Lima se convertirá en la capital textil de Latinoamérica con la participación de más de 250 empresas exhibidoras de cerca de 30 países. Este certamen internacional, que se desarrollará del 5 al 8 de n ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Expomina Perú 2026: Lima será epicentro de la minería mundial en setiembre",
+   "url": "https://www.expreso.com.pe/actualidad/expomina-peru-2026-lima-sera-epicentro-de-la-mineria-mundial-en-setiembre-noticia/1310398/",
+   "medio": "Expreso Interactivo",
+   "publicado": "Mon, 17 Aug 2026 09:19:00 GMT",
+   "resumen": "Lima se convertirá en el punto de encuentro de la minería internacional con la realización de EXPOMINA PERÚ 2026, feria que se desarrollará del 9 al 11 de setiembre y reunirá a líderes, empresarios, ...",
    "fecha_mencionada": ""
   }
  ],
@@ -12825,12 +13058,26 @@
   },
   "Prueba Evento SNI 2": {
    "2026": "2026-10-11"
+  },
+  "Webinar: Nuevos criterios laborales: ¿qué viene diciendo el Poder Judicial y la SUNAFIL recientemente?": {
+   "2026": "2026-10-20"
+  },
+  "Webinar: Decisión clave, en la gestión de ausencias laborales: Licencias, permisos y suspensiones": {
+   "2026": "2026-10-21"
+  },
+  "Webinar: Negociaciones colectivas 2026: estrategias, riesgos y soluciones frente a sindicatos": {
+   "2026": "2026-10-26"
+  },
+  "Taller: PRESENTACIÓN DE ESTADOS FINANCIEROS BAJO NIIF": {
+   "2026": "2026-10-27"
+  },
+  "Webinar: Contratos laborales a plazo fijo: guía práctica para empleadores": {
+   "2026": "2026-10-29"
   }
  },
  "primera_vez": {
   "luma:evt-XlCnwDjNvITEdq6": "2026-09-24T21:06-05:00",
   "luma:evt-ECtnfob42pfw7zA": "2026-09-24T21:06-05:00",
-  "luma:evt-g4nJ9CwZ8xLZUEz": "2026-09-24T21:06-05:00",
   "luma:evt-AW3gArngMxvOO7k": "2026-09-24T21:06-05:00",
   "luma:evt-zhKnIxN2kKsuvwI": "2026-09-24T21:06-05:00",
   "luma:evt-tpwIwhBDKb33EL6": "2026-09-24T21:06-05:00",
@@ -12987,15 +13234,12 @@
   "eb:2001083241844": "2026-09-29T10:06-05:00",
   "meetup:ljgqztyjcpblc": "2026-09-29T22:37-05:00",
   "luma:evt-AB6prsOvUZl3nem": "2026-09-30T06:48-05:00",
-  "ieee:580985": "2026-09-30T12:29-05:00",
   "eb:2002635376320": "2026-09-30T12:29-05:00",
   "luma:evt-E4aBRJpi8stwzKu": "2026-09-30T12:29-05:00",
   "luma:evt-DY7Z2Y4QGTzsoEY": "2026-09-30T12:29-05:00",
   "devpost:31054": "2026-09-30T12:29-05:00",
   "eb:2002634957066": "2026-09-30T12:29-05:00",
-  "luma:evt-fGsgymXzAWGuZdN": "2026-09-30T22:42-05:00",
   "devpost:31096": "2026-10-01T07:18-05:00",
-  "luma:evt-nXgx4Obq4K6NoQ5": "2026-10-01T15:06-05:00",
   "luma:evt-GXsCfbN5Sn7hMS8": "2026-10-01T15:06-05:00",
   "pucp:mercantilizacion-del-suelo-y-asequibilidad-de-la-vivienda-30092026154013": "2026-10-01T15:06-05:00",
   "luma:evt-alOZlX5qP9SzYMC": "2026-10-01T15:06-05:00",
@@ -13027,13 +13271,10 @@
   "eb:2002831931221": "2026-10-04T22:39-05:00",
   "ieee:582367": "2026-10-05T08:24-05:00",
   "wikicfp:203568": "2026-10-05T08:24-05:00",
-  "luma:evt-KxI3L7LIHaTuMS5": "2026-10-05T16:48-05:00",
   "pucp:feria-de-especialidades-en-ciencias-e-ingenieria-2026-05102026104227": "2026-10-05T16:48-05:00",
   "pucp:genero-masculinidades-y-tb-en-el-peru-05102026114900": "2026-10-05T16:48-05:00",
   "pucp:feape-2026-05102026102819": "2026-10-05T16:48-05:00",
   "wikicfp:192324": "2026-10-05T16:48-05:00",
-  "devpost:31098": "2026-10-05T23:27-05:00",
-  "luma:evt-pO6OcaGw4Ouv7tf": "2026-10-05T23:27-05:00",
   "pucp:conferencia-estudia-en-china-oportunidades-que-pueden-abrirte-nuevas-puertas-05102026153105": "2026-10-05T23:27-05:00",
   "luma:evt-wAiRgVBglmmJ3WY": "2026-10-05T23:27-05:00",
   "luma:evt-193vLAVk9EWNxiV": "2026-10-05T23:27-05:00",
@@ -13044,7 +13285,6 @@
   "luma:evt-Dphtc0Ul38tVeDn": "2026-10-06T14:58-05:00",
   "pucp:clase-modelo-de-chino-mandarin-para-ninos-de-6-a-13-anos-06102026121110": "2026-10-06T14:58-05:00",
   "eb:2003009032937": "2026-10-06T14:58-05:00",
-  "luma:evt-RPMv232MD97IhCj": "2026-10-06T14:58-05:00",
   "luma:evt-DhdeMeRaDfJSWpe": "2026-10-06T14:58-05:00",
   "luma:evt-jR9JgGq35YXnZKy": "2026-10-06T14:58-05:00",
   "eb:2002979935907": "2026-10-06T14:58-05:00",
@@ -13057,7 +13297,6 @@
   "luma:evt-dFRhCyfd3OS3fj5": "2026-10-07T04:42-05:00",
   "eb:2001419472519": "2026-10-07T04:42-05:00",
   "luma:evt-DSCKGyRxk4AqHDO": "2026-10-07T13:20-05:00",
-  "devpost:31610": "2026-10-07T13:20-05:00",
   "luma:evt-tURNshhtbX3qHik": "2026-10-07T13:20-05:00",
   "luma:evt-QxvwG3U0kn3mRKd": "2026-10-07T13:20-05:00",
   "luma:evt-EGf7LVoPXALzUIS": "2026-10-07T13:20-05:00",
@@ -13087,7 +13326,6 @@
   "eb:2003250278509": "2026-10-10T22:32-05:00",
   "eb:1999814908224": "2026-10-10T22:32-05:00",
   "eb:2000205996981": "2026-10-10T22:32-05:00",
-  "eb:2003252006678": "2026-10-11T07:00-05:00",
   "ieee:584211": "2026-10-11T07:00-05:00",
   "devpost:31617": "2026-10-11T12:31-05:00",
   "eb:2001057110685": "2026-10-11T12:31-05:00",
@@ -13110,12 +13348,20 @@
   "opportunitydesk:https-opportunitydesk-org-2026-10-12-true-story-award-2027-": "2026-10-12T09:14-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-12-aiei-startup-pitch-session-2026-": "2026-10-12T09:14-05:00",
   "opportunitydesk:6-10-12-unicef-venture-funding-opportunity-for-femtech-solutions-2026-": "2026-10-12T09:14-05:00",
-  "eb:2003295280110": "2026-10-12T09:14-05:00",
   "eb:2003294984225": "2026-10-12T09:14-05:00",
   "opportunitydesk:tunitydesk-org-2026-10-12-female-science-talents-intensive-track-2027-": "2026-10-12T09:14-05:00",
   "opportunitydesk:ydesk-org-2026-10-12-echidna-global-scholars-visiting-fellowship-2027-": "2026-10-12T09:14-05:00",
   "opportunitydesk:tps-opportunitydesk-org-2026-10-12-ai-venture-lab-founder-sprint-2027-": "2026-10-12T09:14-05:00",
   "luma:evt-jfsSWBTWWcWlJEa": "2026-10-12T09:14-05:00",
-  "opportunitydesk:tydesk-org-2026-10-12-branco-weiss-fellowship-society-in-science-2027-": "2026-10-12T09:14-05:00"
+  "opportunitydesk:tydesk-org-2026-10-12-branco-weiss-fellowship-society-in-science-2027-": "2026-10-12T09:14-05:00",
+  "inst:sni-webinar-nuevos-criterios-laborales-qu-viene-diciendo-el-:2026-10-20": "2026-10-12T17:23-05:00",
+  "inst:sni-webinar-decisi-n-clave-en-la-gesti-n-de-ausencias-labora:2026-10-21": "2026-10-12T17:23-05:00",
+  "devpost:31619": "2026-10-12T17:23-05:00",
+  "luma:evt-GdGnBGGRE23MIk3": "2026-10-12T17:23-05:00",
+  "pucp:encuentro-universitario-disenar-nuevos-mapas-de-esperanza": "2026-10-12T17:23-05:00",
+  "inst:sni-webinar-negociaciones-colectivas-2026-estrategias-riesgo:2026-10-26": "2026-10-12T17:23-05:00",
+  "inst:sni-taller-presentaci-n-de-estados-financieros-bajo-niif:2026-10-27": "2026-10-12T17:23-05:00",
+  "inst:sni-webinar-contratos-laborales-a-plazo-fijo-gu-a-pr-ctica-p:2026-10-29": "2026-10-12T17:23-05:00",
+  "eb:2003298482689": "2026-10-12T17:23-05:00"
  }
 }
