@@ -1,17 +1,17 @@
 {
- "actualizado": "2026-10-14T03:20-05:00",
+ "actualizado": "2026-10-14T09:18-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 86
+   "n": 87
   },
   "Eventbrite": {
    "ok": true,
-   "n": 59
+   "n": 58
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 29
+   "n": 31
   },
   "Meetup": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 51
+   "n": 54
   },
   "IEEE Perú": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 434,
+ "revisados": 439,
  "top": 55,
  "eventos": [
   {
@@ -259,7 +259,7 @@
   },
   {
    "id": "luma:evt-iQcElAPhAZ5Ew2F",
-   "titulo": "O&M impulsado por Agentes IA: El Nuevo Estándar en Continuidad de Operación",
+   "titulo": "O&M impulsado por Agentes IA: El Nuevo Estándar en Continuidad de Operación Industrial",
    "inicio": "2026-10-14T10:00-05:00",
    "fin": "2026-10-14T12:00-05:00",
    "lugar": "Santa Anita, Av. Cascanueces 2221, Lima",
@@ -268,7 +268,7 @@
    "url": "https://lu.ma/tl5nuk6d",
    "fuente": "Luma",
    "organizador": "Perú Tech Week 2026",
-   "descripcion": "En un entorno industrial y de Infraestrutura donde las paradas no programadas y la busqueda de optimización y generación de ingresos apremian, los sistemas multiagénticos IA se hacen necesarios pero aparece otro problema. La dependencia de conectividad en la nube generan riesgos operativos de seguridad y privacidad de datos, costos elevados por uso de tokens, y una dependencia a un vendor con IA propietaria (lock In).  Edgemant by Conauti y la rama profesional IEEE TECSUP unen fuerzas para co-organizar este encuentro técnico que reúne a profesionales relacionados a la operación y mantenimiento de plantas industriales e infraestructura crítica en el Perú para debatir el estado del arte de los",
+   "descripcion": "Agenda:\n10:00am\nPresentación del Evento: O&M Con Sistemas Agénticos IA.\n10:10am\nTema: ¿Por qué son los Sistemas Agénticos IA el estandar de Continuidad de Operación Indusrial?\n10:40 am\nMesa de debate. (Ponentes)\n11:00am\nSorteo de un Entrenamiento de Agentes IA entre los Asistentes.\n11:10am\nPresentación de Edgemant Energy.\n11:30 am\nCierre\nEn un entorno industrial y de Infraestrutura donde las paradas no programadas y la busqueda de optimización y generación de ingresos apremian, los sistemas multiagénticos IA se hacen necesarios pero aparece otro problema. La dependencia de conectividad en la nube generan riesgos operativos de seguridad y privacidad de datos, costos elevados por uso de tokens",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/mt/993e9d61-31cc-4e93-9320-2543586575f7.png",
    "inscripcion": "https://lu.ma/tl5nuk6d",
@@ -280,8 +280,8 @@
     "Ingeniería y operaciones"
    ],
    "valor": 31,
-   "afinidad": 32,
-   "puntaje": 63,
+   "afinidad": 37,
+   "puntaje": 68,
    "por_que": "Afín: Datos y machine learning · Afín: Inteligencia artificial · Networking · Presencial en Lima",
    "visto_desde": "2026-09-26T15:34-05:00"
   },
@@ -468,7 +468,7 @@
    "distrito": "Arequipa",
    "modalidad": "Presencial",
    "url": "https://events.vtools.ieee.org/m/583927",
-   "inscripcion": "https://events.vtools.ieee.org/event/register/583927",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLScRSY7j4vtom8KfRD7befv6-tlnFUVxoNtssbkiJT2r6t1pjA/viewform?usp=header",
    "fuente": "IEEE Perú",
    "fuente_url": "https://events.vtools.ieee.org/",
    "organizador": "IEEE · Universidad Nacional de San Agustin,COM19",
@@ -1997,35 +1997,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "opportunitydesk:esk-org-2026-10-12-global-women-connect-mentoring-programme-2026-2027-",
-   "titulo": "Global Women Connect Mentoring Programme 2026/2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-16T23:59-05:00",
-   "fin": "2026-10-16T23:59-05:00",
-   "cierre": "2026-10-16T23:59-05:00",
-   "publicado": "2026-10-12T06:35-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/12/global-women-connect-mentoring-programme-2026-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/12/global-women-connect-mentoring-programme-2026-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 16, 2026 Applications are invited for the Global Women Connect Mentoring Programme 2026/2027. Part of Global Women Connect, the Global Women Connect Mentoring Programme is a 9 to 12 month journey supporting both mentors and mentees to develop two-way learning relationships, where both partners benefit and grow. Priority is given to those in [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 8,
-   "puntaje": 28,
-   "por_que": "Abre puertas (beca/programa) · Afín: Liderazgo y oratoria · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-12T09:14-05:00"
-  },
-  {
    "id": "luma:evt-CchG5MDiAgbsXHh",
    "titulo": "Hack AI Agents Impact - Banca, Minería y Manufactura / NTT DATA & Sundai LATAM",
    "inicio": "2026-10-17T08:30-05:00",
@@ -2341,7 +2312,7 @@
    "organizador": "Advent Group",
    "descripcion": "Meet top MBA schools in Zurich and get personalized admissions, career, networking, and funding guidance—all in one afternoon.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191936685%2F185222602399%2F1%2Foriginal.20260826-120315?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.593&s=d2f9fcaf4e7530a635e478ff8e9337d9",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191936685%2F185222602399%2F1%2Foriginal.20260826-120315?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.593&s=eda720bd2f73617d987399ec864a3701",
    "inscripcion": "https://www.eventbrite.co.uk/e/explore-global-mba-opportunities-access-mba-lima-tickets-1998953963114",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2590,7 +2561,7 @@
    "organizador": "HELAR OROSTICO",
    "descripcion": "En este taller aprenderás a diseñar dashboard desde cero.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195575258%2F3017382238709%2F1%2Foriginal.20261012-021533?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ce9065dbb756d31f597fe32712f22da9",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195575258%2F3017382238709%2F1%2Foriginal.20261012-021533?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=97af920eb7903e1d50b363e333ffd405",
    "inscripcion": "https://www.eventbrite.com/e/taller-para-disenar-dashboard-en-excel-tickets-2003272308401",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2741,6 +2712,34 @@
    "puntaje": 52,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gremio o institución · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-11T12:31-05:00"
+  },
+  {
+   "id": "opportunitydesk:tunitydesk-org-2026-10-14-call-for-volunteers-atlantic-dialogues-2026-",
+   "titulo": "Call for Volunteers: Atlantic Dialogues Conference 2026",
+   "tipo": "convocatoria",
+   "inicio": "2026-10-18T23:59-05:00",
+   "fin": "2026-10-18T23:59-05:00",
+   "cierre": "2026-10-18T23:59-05:00",
+   "publicado": "2026-10-14T07:11-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/14/call-for-volunteers-atlantic-dialogues-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/14/call-for-volunteers-atlantic-dialogues-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: October 18, 2026 Apply now to volunteer for the Atlantic Dialogues 2026. The Policy Center for the New South (PCNS) is seeking volunteers to provide support at the 15th edition of the Atlantic Dialogues conference, which will take place in Rabat on December 10th – 12th, 2026. The Atlantic Dialogues (AD) is an annual, [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-10-14T09:18-05:00"
   },
   {
    "id": "eb:2003291316254",
@@ -3541,6 +3540,34 @@
    "puntaje": 33,
    "por_que": "Presencial en Lima · Afín: Investigación · Universidad · Gratis",
    "visto_desde": "2026-10-05T16:48-05:00"
+  },
+  {
+   "id": "pucp:postula-a-las-convocatorias-de-pro-ciencia-13102026180717",
+   "titulo": "Postula a las convocatorias de ProCiencia",
+   "inicio": "2026-10-22T14:00-05:00",
+   "fin": "2026-10-22T16:00-05:00",
+   "lugar": "Vía Zoom",
+   "distrito": "San Miguel",
+   "modalidad": "Virtual",
+   "url": "https://agenda.pucp.edu.pe/evento/postula-a-las-convocatorias-de-pro-ciencia-13102026180717/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "¿Tienes un proyecto de investigación y quieres llevarlo al siguiente nivel?\nConéctate a esta charla informativa y conoce todo lo que necesitas para fortalecer tu postulación: bases, requisitos, criterios de evaluación y procesos internos.\n\nDurante la sesión, ProCiencia presentará los siguientes concursos:\n– Desarrollo Tecnológico 2027-02\n– Investigación Aplicada a Prioridades 2027-03\n\nConoce las oportunidades de financiamiento y da el siguiente paso para impulsar tu proyecto.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_Charla_Pro_Ciencia_4df7947e93.jpg",
+   "inscripcion": "https://pucp.zoom.us/meeting/register/gbXbxjLKT4ynE9TCSDLU-Q#/registration",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Tecnología e IA"
+   ],
+   "valor": 18,
+   "afinidad": 12,
+   "puntaje": 30,
+   "por_que": "Formativo · Afín: Investigación · Universidad · Gratis · (Promociona un programa pagado)",
+   "visto_desde": "2026-10-14T09:18-05:00"
   },
   {
    "id": "pucp:seminario-de-matematica-una-introduccion-a-las-foliaciones-lineales-en-toros-reales-y-complejos-25092026060119",
@@ -4358,6 +4385,33 @@
    "visto_desde": "2026-10-06T07:38-05:00"
   },
   {
+   "id": "eb:2003405765575",
+   "titulo": "Webinar: Leica y SketchUp Pro Scan, del escaneo al modelo",
+   "inicio": "2026-10-27T10:00-05:00",
+   "fin": "2026-10-27T11:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-webinar-leica-y-sketchup-pro-scan-del-escaneo-al-modelo-2003405765575",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-leica-y-sketchup-pro-scan-del-escaneo-al-modelo-2003405765575",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "icreatia.es",
+   "descripcion": "Leica captura la realidad → Pro Scan Essential lleva esa realidad a SketchUp → SketchUp la convierte en un modelo útil.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195776308%2F95012362293%2F1%2Foriginal.20261014-131714?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.526&s=418e2261b20a36e3b4aeedf48f5ff129",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 8,
+   "puntaje": 31,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-10-14T09:18-05:00"
+  },
+  {
    "id": "eb:2003346622677",
    "titulo": "Webinar: Desarrollo Tecnológico",
    "inicio": "2026-10-27T10:30-05:00",
@@ -4383,6 +4437,34 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-10-13T08:24-05:00"
+  },
+  {
+   "id": "eb:2003398786701",
+   "titulo": "Webinar: Haz que tu empresa sea más Sostenible",
+   "inicio": "2026-10-27T11:30-05:00",
+   "fin": "2026-10-27T12:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-webinar-haz-que-tu-empresa-sea-mas-sostenible-2003398786701",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-haz-que-tu-empresa-sea-mas-sostenible-2003398786701",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Aceleradora mentorDay",
+   "descripcion": "Webinar incluido en la edición 113 del Programa de Aceleración de mentorDay",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195767317%2F135597904219%2F1%2Foriginal.jpg?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=27223301158d597a759e13ea73021771",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-10-14T09:18-05:00"
   },
   {
    "id": "eb:2002203136479",
@@ -4986,6 +5068,35 @@
    "visto_desde": "2026-09-27T16:59-05:00"
   },
   {
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-10-14-dorothy-hodgkin-fellowship-2027-",
+   "titulo": "Royal Society Dorothy Hodgkin Fellowship 2027 (Funded)",
+   "tipo": "convocatoria",
+   "inicio": "2026-10-29T23:59-05:00",
+   "fin": "2026-10-29T23:59-05:00",
+   "cierre": "2026-10-29T23:59-05:00",
+   "publicado": "2026-10-14T06:35-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/14/dorothy-hodgkin-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/14/dorothy-hodgkin-fellowship-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: October 29, 2026 Are you a passionate early career researcher with a clear vision to carry out your own research? Are you ready to lead an independent research group? Do you have a need for flexibility that would benefit from the additional support offered by this fellowship? Apply for the Royal Society Dorothy Hodgkin [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional",
+    "Investigación y ciencia"
+   ],
+   "valor": 20,
+   "afinidad": 20,
+   "puntaje": 40,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Afín: Investigación · Plazo claro",
+   "visto_desde": "2026-10-14T09:18-05:00"
+  },
+  {
    "id": "wikicfp:191658",
    "titulo": "AIMLM 2026 : 2026 International Conference on Artificial Intelligence, Machine Learning and Multimodality",
    "tipo": "call for papers",
@@ -5039,6 +5150,34 @@
    "puntaje": 25,
    "por_que": "Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-13102026145930",
+   "titulo": "Open Lab: Abre nuevas posibilidades para innovar",
+   "inicio": "2026-10-30T09:30-05:00",
+   "fin": "2026-10-30T12:30-05:00",
+   "lugar": "Z315 - Campus PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/open-lab-abre-nuevas-posibilidades-para-innovar-13102026145930/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "¡Conecta tu empresa con la innovación y el talento de la academia!\n\nOpen Lab te invita a descubrir las oportunidades de colaboración entre el sector empresarial y la investigación universitaria.\n\n¿Qué encontrarás en esta visita guiada?\nRecorre los laboratorios y centros especializados de la Pontificia Universidad Católica del Perú, conoce nuestras capacidades técnicas y descubre cómo podemos trabajar juntos en iniciativas de:\n– Investigación, desarrollo e innovación (I+D+i).\n– Validación tecnológica y desarrollo de soluciones.\n– Innovación abierta y desafíos empresariales articulados con cursos de pregrado y posgrado.\n\nAdemás, conocerás oportunidades para impulsar proyectos de I+D y aprovech",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_d0b0ae41e0.jpg",
+   "inscripcion": "https://luma.com/suxhjao9",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Investigación y ciencia"
+   ],
+   "valor": 35,
+   "afinidad": 20,
+   "puntaje": 55,
+   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
+   "visto_desde": "2026-10-14T09:18-05:00"
   },
   {
    "id": "luma:evt-3Izz5QELco5iG9O",
@@ -5213,6 +5352,34 @@
     "titulo": "CSH CONFERENCE 2026"
    },
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "pucp:trabajo-social-forense-y-peritaje-social-nuevos-escenarios-y-desafios-contemporaneos-13102026135918",
+   "titulo": "Trabajo Social Forense y Peritaje Social. Nuevos escenarios y desafíos contemporáneos",
+   "inicio": "2026-10-31T10:00-05:00",
+   "fin": "2026-10-31T13:00-05:00",
+   "lugar": "Vía Zoom, Auditorio de Humanidades",
+   "distrito": "San Miguel",
+   "modalidad": "Virtual",
+   "url": "https://agenda.pucp.edu.pe/evento/trabajo-social-forense-y-peritaje-social-nuevos-escenarios-y-desafios-contemporaneos-13102026135918/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "¿Cómo se transforma el Trabajo Social Forense frente a los nuevos desafíos de la sociedad y la administración de justicia?\nLa inteligencia artificial, la complejidad de las problemáticas sociales y las crecientes exigencias del sistema de justicia plantean nuevos retos para el ejercicio profesional. En este escenario, el Trabajo Social Forense adquiere especial relevancia por su capacidad para aportar evidencia social rigurosa, análisis especializado y conclusiones técnicamente sustentadas.\nTe invitamos a participar en este Seminario Internacional, un espacio académico para conocer nuevas perspectivas de actuación profesional, reflexionar sobre los desafíos de la especialidad y reconocer las",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_pucp_3_0c8da7d013.png",
+   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=063&i=1390",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Investigación y ciencia"
+   ],
+   "valor": 30,
+   "afinidad": 16,
+   "puntaje": 46,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Afín: Becas y posgrado · Universidad",
+   "visto_desde": "2026-10-14T09:18-05:00"
   },
   {
    "id": "devpost:29411",
@@ -5467,34 +5634,6 @@
    "visto_desde": "2026-10-02T12:19-05:00"
   },
   {
-   "id": "opportunitydesk:6-10-12-unicef-venture-funding-opportunity-for-femtech-solutions-2026-",
-   "titulo": "UNICEF Venture Funding Opportunity for Femtech Solutions 2026 (up to $100,000)",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-04T23:59-05:00",
-   "fin": "2026-11-04T23:59-05:00",
-   "cierre": "2026-11-04T23:59-05:00",
-   "publicado": "2026-10-12T07:15-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/12/unicef-venture-funding-opportunity-for-femtech-solutions-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/12/unicef-venture-funding-opportunity-for-femtech-solutions-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 4, 2026 UNICEF Femtech Ventures is seeking applications to join its second annual cohort of companies using frontier technologies to build open-source solutions for the health, wellbeing, and sexual and reproductive health and rights of girls and women. UNICEF Femtech Ventures is a five-year initiative (2025–2030) from the UNICEF Venture Fund to invest [...]",
-   "gratis": false,
-   "imagen": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Abre puertas (beca/programa) · Gremio o institución · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-12T09:14-05:00"
-  },
-  {
    "id": "wikicfp:191345",
    "titulo": "ICNB 2026 : Springer--2026 10th International Conference on Nanomaterials and Biomaterials (ICNB 2026)",
    "tipo": "call for papers",
@@ -5716,6 +5855,34 @@
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
+   "id": "opportunitydesk:pportunitydesk-org-2026-10-14-ifip-global-conference-2027-scholarship-",
+   "titulo": "International Funders for Indigenous Peoples (IFIP) Global Conference 2027 Scholarship",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-06T23:59-05:00",
+   "fin": "2026-11-06T23:59-05:00",
+   "cierre": "2026-11-06T23:59-05:00",
+   "publicado": "2026-10-14T06:48-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/14/ifip-global-conference-2027-scholarship/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/14/ifip-global-conference-2027-scholarship/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 6, 2026 Applications are open for the IFIP Global Conference 2027 Scholarship. Are you an Indigenous leader, community member, or changemaker actively contributing to your community? This scholarship opportunity is for you. The IFIP Global Conference 2027 scholarship aims to facilitate and support Indigenous participants to attend the IFIP Global Conference 2027, fostering [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-10-14T09:18-05:00"
+  },
+  {
    "id": "eb:1988046593879",
    "titulo": "Pasarelas Expotextil",
    "inicio": "2026-11-07T16:00-05:00",
@@ -5789,7 +5956,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "Tres martes en vivo para construir tu modelo de competencias: diccionario, perfiles, entrevistas con evidencia, evaluación y tablero.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b7546a25503ab554e2da14fd5311e5fe",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a699e8c53a824188278ab96f14fef0c3",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -6092,7 +6259,7 @@
    "organizador": "Black Alpaca Security Conference",
    "descripcion": "A kickass cybersecurity conference for curious minds eager to explore, learn, and connect in a dynamic and engaging setting!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=939cdadc208e59fccb14818e6d0b5174",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61f15a6eaea1039e54e14a0afa2120e8",
    "inscripcion": "https://www.eventbrite.com.pe/e/black-alpaca-security-conference-2026-tickets-2000906328692",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -6728,34 +6895,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "opportunitydesk:ydesk-org-2026-10-12-echidna-global-scholars-visiting-fellowship-2027-",
-   "titulo": "Echidna Global Scholars Visiting Fellowship 2027 ($26,500 stipend)",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-01T23:59-05:00",
-   "fin": "2026-12-01T23:59-05:00",
-   "cierre": "2026-12-01T23:59-05:00",
-   "publicado": "2026-10-12T08:18-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/12/echidna-global-scholars-visiting-fellowship-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/12/echidna-global-scholars-visiting-fellowship-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 1, 2026 Applications are open for the Echidna Global Scholars Visiting Fellowship 2027. The Echidna Global Scholars Program at the Center for Universal Education (CUE) at Brookings seeks to catalyze and amplify the impact of local leaders working to advance gender-transformative education across the Global South. During a six-month fellowship, Echidna Global Scholars [...]",
-   "gratis": false,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-12T09:14-05:00"
-  },
-  {
    "id": "ieee:581586",
    "titulo": "WIE UNAJ Social Innovation Hackathon",
    "inicio": "2026-12-05T09:00-05:00",
@@ -7142,35 +7281,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "opportunitydesk:tydesk-org-2026-10-12-branco-weiss-fellowship-society-in-science-2027-",
-   "titulo": "Branco Weiss Fellowship – Society in Science 2027 (up to CHF600,000)",
-   "tipo": "convocatoria",
-   "inicio": "2027-01-15T23:59-05:00",
-   "fin": "2027-01-15T23:59-05:00",
-   "cierre": "2027-01-15T23:59-05:00",
-   "publicado": "2026-10-12T08:03-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/12/branco-weiss-fellowship-society-in-science-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/12/branco-weiss-fellowship-society-in-science-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: January 15, 2027 Applications are open for the Branco Weiss Fellowship – Society in Science 2027. The Branco Weiss Fellowship – Society in Science is a community of exceptional young scientists who share a passion for taking research beyond the mainstream. Fellows are given the means to pursue their personal vision of a particular [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional",
-    "Investigación y ciencia"
-   ],
-   "valor": 20,
-   "afinidad": 20,
-   "puntaje": 40,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Afín: Investigación · Plazo claro",
-   "visto_desde": "2026-10-12T09:14-05:00"
-  },
-  {
    "id": "wikicfp:194517",
    "titulo": "ICMT 2027 : Springer--2027 11th International Conference on Manufacturing Technologies (ICMT 2027)",
    "tipo": "call for papers",
@@ -7225,6 +7335,35 @@
    "puntaje": 20,
    "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
    "visto_desde": "2026-10-13T19:06-05:00"
+  },
+  {
+   "id": "opportunitydesk:nitydesk-org-2026-10-14-world-economic-forum-technology-pioneers-2027-",
+   "titulo": "World Economic Forum Technology Pioneers 2027",
+   "tipo": "convocatoria",
+   "inicio": "2027-01-31T23:59-05:00",
+   "fin": "2027-01-31T23:59-05:00",
+   "cierre": "2027-01-31T23:59-05:00",
+   "publicado": "2026-10-14T07:09-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/14/world-economic-forum-technology-pioneers-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/14/world-economic-forum-technology-pioneers-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: January 31, 2027 Applications are open for the World Economic Forum Technology Pioneers 2027. The World Economic Forum’s Technology Pioneers community is composed of early-stage start-ups from around the world who are developing and deploying new technologies and innovations. Each year the Forum selects 100 companies to work with society’s foremost political, business and cultural [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-10-14T09:18-05:00"
   },
   {
    "id": "opportunitydesk:2026-10-13-global-investigative-journalism-conference-fellowship-2027-",
@@ -9360,31 +9499,6 @@
    "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:2003292427578",
-   "titulo": "LANZAMIENTO BRILLO FEMENINO",
-   "inicio": "2026-10-14T05:00-05:00",
-   "fin": "2026-10-14T08:00-05:00",
-   "lugar": "Lima, Av. Larco Herrera",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/lanzamiento-brillo-femenino-tickets-2003292427578",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "Lanzamiento presencial de Brillo Femenino, una tienda de ropa juvenil femenina, con un ambiente casual y divertido.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195598995%2F3017420679927%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=b18b343c3b5c0d66929c2dacc1189693",
-   "inscripcion": "https://www.eventbrite.com/e/lanzamiento-brillo-femenino-tickets-2003292427578",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "pucp:taller-de-cultura-trazos-de-historia-el-arte-de-la-caligrafia-china-07102026100623",
    "titulo": "Taller de cultura «Trazos de historia: El arte de la caligrafía china»",
    "inicio": "2026-10-14T16:00-05:00",
@@ -9872,7 +9986,7 @@
    "organizador": "Croksy",
    "descripcion": "Descubre nuestra nueva línea para los pequeños de la casa, llena de vibrantes colores y divertidos diseños: Croksy Kids.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1eb2b337ddc3ab1f5b5a82cd7513eb92",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=51010f3c5c78ec42a8e5989da33f159f",
    "inscripcion": "https://www.eventbrite.com/e/entradas-lanzamiento-linea-para-ninos-croksy-kids-2002957885955",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9972,7 +10086,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b95e88f68c35e5273e2da11e89e4793c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254435458",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10197,7 +10311,7 @@
    "organizador": "IntekTV",
    "descripcion": "Descubre cómo el ecosistema Blackmagic está transformando la enseñanza audiovisual y abriendo nuevas oportunidades profesionales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d25ce87be83320a35b0b10bb1864490f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe2591b2f911dde84a279162c0cdca28",
    "inscripcion": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-academia-tickets-2002243178245",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10222,7 +10336,7 @@
    "organizador": "Burpsuite Day Peru",
    "descripcion": "El primer evento de la comunidad Burp Suite en el Perú. Charlas técnicas de AppSec y pentesting. 7 de noviembre, INICTEL-UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9c21874f822d85d9b64e69a738719a6b",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=889ea049d6c1213d15abca73d4f5ec0f",
    "inscripcion": "https://www.eventbrite.com.pe/e/burpsuite-day-peru-2026-tickets-1999138227253",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10297,7 +10411,7 @@
    "organizador": "",
    "descripcion": "Éclat te invita a descubrir Fruity Volcano, una creación exclusiva que llega para conquistar a los amantes del chocolate.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=488f8c8b811763c1087b9f6b5ad1cd48",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f8ae7b1de49485f2fa8bc980a47e3e30",
    "inscripcion": "https://www.eventbrite.com.pe/e/fruity-volcano-tickets-2003226162377",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10372,7 +10486,7 @@
    "organizador": "",
    "descripcion": "Ven a descubrir tu sabor favorito en persona con una experiencia deliciosa junto a PapaMía.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b55c1e53001fdb8993ff71b53cbbd716",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3f55320214fbf706d2945f5534f908d4",
    "inscripcion": "https://www.eventbrite.com/e/papamia-food-experience-descubre-tu-sabor-favorito-tickets-2003279097708",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10748,31 +10862,31 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Empresa reconocida · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30731",
-   "titulo": "LarpHacks",
+   "id": "devpost:31735",
+   "titulo": "AI Build India",
    "tipo": "hackathon",
-   "inicio": "2026-11-01T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "2026-11-01T23:59-05:00",
-   "lugar": "Toronto",
-   "distrito": "Toronto",
+   "inicio": "2026-10-14T00:00-05:00",
+   "fin": "2026-10-31T23:59-05:00",
+   "cierre": "2026-10-31T23:59-05:00",
+   "lugar": "jaipur",
+   "distrito": "jaipur",
    "modalidad": "Presencial",
-   "url": "https://larphacks.devpost.com/",
-   "inscripcion": "https://larphacks.devpost.com/",
+   "url": "https://sphinx-26.devpost.com/",
+   "inscripcion": "https://sphinx-26.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "larphacks",
-   "descripcion": "Hackathon presencial en Toronto. Temas: Beginner Friendly, Machine Learning/AI, Web. Premios: $21,394.",
+   "organizador": "Hacker's Unity",
+   "descripcion": "Hackathon presencial en jaipur. Temas: Machine Learning/AI, Open Ended. Premios: $0.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/982/889/datas/medium_square.png",
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Tecnología e IA",
     "Competencias y hackathons"
    ],
    "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
+   "afinidad": 30,
+   "puntaje": 46,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
@@ -10928,7 +11042,7 @@
    "organizador": "La Taza Dorada",
    "descripcion": "Taller presencial desde cero: cata acogedora de filtrados y café de especialidad para estudiantes y principiantes.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=c9d2eac7df802bab7ce2b846568a74b7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=75a5a577613699d500dda5f02f40a5ca",
    "inscripcion": "https://www.eventbrite.com/e/taller-de-cata-de-filtrados-y-cafe-de-especialidad-tickets-2003208116401",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -11925,10 +12039,10 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-14T03:20-05:00",
-  "revisados": 277,
+  "fecha": "2026-10-14T09:18-05:00",
+  "revisados": 282,
   "corregidos": 20,
-  "avisos": 2,
+  "avisos": 3,
   "archivados": 4,
   "problemas": [
    {
@@ -12138,11 +12252,19 @@
     "nivel": "archivado",
     "detalle": "enlace roto (404) en dos revisiones seguidas",
     "url": "https://agenda.pucp.edu.pe/evento/circulo-de-escucha-lo-que-nos-sostiene/"
+   },
+   {
+    "id": "pucp:trabajo-social-forense-y-peritaje-social-nuevos-escenarios-y-desafios-contemporaneos-13102026135918",
+    "titulo": "Trabajo Social Forense y Peritaje Social. Nuevos escenarios y desafíos contemporáneos",
+    "fuente": "PUCP",
+    "nivel": "aviso",
+    "detalle": "el enlace respondió 404; se vuelve a mirar en la próxima corrida",
+    "url": "https://agenda.pucp.edu.pe/evento/trabajo-social-forense-y-peritaje-social-nuevos-escenarios-y-desafios-contemporaneos-13102026135918/"
    }
   ],
   "enlaces": {
-   "comprobados": 4,
-   "rotos": 5,
+   "comprobados": 13,
+   "rotos": 6,
    "sin_comprobar": 1
   },
   "fuentes_a_revisar": []
@@ -12189,22 +12311,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Schindler Perú, Main Sponsor del Nexo Summit 2026, destaca su liderazgo en movilidad urbana e inmobiliaria",
-   "url": "https://agenciaorbita.org/2026/10/06/schindler-peru-main-sponsor-del-nexo-summit-2026-destaca-su-liderazgo-en-movilidad-urbana-e-inmobiliaria/",
-   "medio": "Agencia de Noticias Órbita",
-   "publicado": "Mon, 05 Oct 2026 17:00:00 GMT",
-   "resumen": "El 9 y 10 de septiembre se llevó a cabo Nexo Summit 2026, la conferencia inmobiliaria más importante del país, evento en el que Schindler Perú participó en la categoría de main sponsor (patrocinador p ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Red Hat Summit 2026 apuesta por soberanía digital y seguridad en IA",
-   "url": "https://masvip.com.do/2026/10/05/red-hat-summit-2026-apuesta-por-soberania-digital-y-seguridad-en-ia/",
-   "medio": "Masvip",
-   "publicado": "Sun, 04 Oct 2026 17:00:00 GMT",
-   "resumen": "Lima. – La inteligencia artificial ha dejado de ser un experimento aislado para convertirse en el motor central de la infraestructura empresarial. Sin embargo, muchas organizaciones siguen enfrentando ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
    "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
    "medio": "DiarioBitcoin",
@@ -12213,11 +12319,27 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "Schindler Perú, Main Sponsor del Nexo Summit 2026, destaca su liderazgo en movilidad urbana e inmobiliaria",
+   "url": "https://agenciaorbita.org/2026/10/06/schindler-peru-main-sponsor-del-nexo-summit-2026-destaca-su-liderazgo-en-movilidad-urbana-e-inmobiliaria/",
+   "medio": "Agencia de Noticias Órbita",
+   "publicado": "Mon, 05 Oct 2026 17:00:00 GMT",
+   "resumen": "El 9 y 10 de septiembre se llevó a cabo Nexo Summit 2026, la conferencia inmobiliaria más importante del país, evento en el que Schindler Perú participó en la categoría de main sponsor (patrocinador p ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
    "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/?outputType=amp",
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
    "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Red Hat Summit 2026 apuesta por soberanía digital y seguridad en IA",
+   "url": "https://masvip.com.do/2026/10/05/red-hat-summit-2026-apuesta-por-soberania-digital-y-seguridad-en-ia/",
+   "medio": "Masvip",
+   "publicado": "Sun, 04 Oct 2026 17:00:00 GMT",
+   "resumen": "Lima. – La inteligencia artificial ha dejado de ser un experimento aislado para convertirse en el motor central de la infraestructura empresarial. Sin embargo, muchas organizaciones siguen enfrentando ...",
    "fecha_mencionada": ""
   },
   {
@@ -12630,13 +12752,9 @@
   "luma:evt-WXo4ob5dba49nVk": "2026-10-11T22:55-05:00",
   "eb:2003272308401": "2026-10-11T22:55-05:00",
   "ieee:583927": "2026-10-12T09:14-05:00",
-  "opportunitydesk:esk-org-2026-10-12-global-women-connect-mentoring-programme-2026-2027-": "2026-10-12T09:14-05:00",
   "luma:evt-CchG5MDiAgbsXHh": "2026-10-12T09:14-05:00",
   "eb:2003291316254": "2026-10-12T09:14-05:00",
-  "opportunitydesk:6-10-12-unicef-venture-funding-opportunity-for-femtech-solutions-2026-": "2026-10-12T09:14-05:00",
-  "opportunitydesk:ydesk-org-2026-10-12-echidna-global-scholars-visiting-fellowship-2027-": "2026-10-12T09:14-05:00",
   "luma:evt-jfsSWBTWWcWlJEa": "2026-10-12T09:14-05:00",
-  "opportunitydesk:tydesk-org-2026-10-12-branco-weiss-fellowship-society-in-science-2027-": "2026-10-12T09:14-05:00",
   "inst:sni-webinar-nuevos-criterios-laborales-qu-viene-diciendo-el-:2026-10-20": "2026-10-12T17:23-05:00",
   "inst:sni-webinar-decisi-n-clave-en-la-gesti-n-de-ausencias-labora:2026-10-21": "2026-10-12T17:23-05:00",
   "devpost:31619": "2026-10-12T17:23-05:00",
@@ -12670,6 +12788,15 @@
   "opportunitydesk:s-opportunitydesk-org-2026-10-13-wff-young-scientists-group-2027-2029-": "2026-10-13T19:06-05:00",
   "eb:2003392440720": "2026-10-14T03:20-05:00",
   "devpost:31731": "2026-10-14T03:20-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-11-10": "2026-10-14T03:20-05:00"
+  "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-11-10": "2026-10-14T03:20-05:00",
+  "opportunitydesk:tunitydesk-org-2026-10-14-call-for-volunteers-atlantic-dialogues-2026-": "2026-10-14T09:18-05:00",
+  "pucp:postula-a-las-convocatorias-de-pro-ciencia-13102026180717": "2026-10-14T09:18-05:00",
+  "eb:2003405765575": "2026-10-14T09:18-05:00",
+  "eb:2003398786701": "2026-10-14T09:18-05:00",
+  "opportunitydesk:https-opportunitydesk-org-2026-10-14-dorothy-hodgkin-fellowship-2027-": "2026-10-14T09:18-05:00",
+  "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-13102026145930": "2026-10-14T09:18-05:00",
+  "pucp:trabajo-social-forense-y-peritaje-social-nuevos-escenarios-y-desafios-contemporaneos-13102026135918": "2026-10-14T09:18-05:00",
+  "opportunitydesk:pportunitydesk-org-2026-10-14-ifip-global-conference-2027-scholarship-": "2026-10-14T09:18-05:00",
+  "opportunitydesk:nitydesk-org-2026-10-14-world-economic-forum-technology-pioneers-2027-": "2026-10-14T09:18-05:00"
  }
 }
