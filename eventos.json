@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-18T15:00-05:00",
+ "actualizado": "2026-10-18T17:45-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 41
+   "n": 39
   },
   "Eventbrite": {
    "ok": true,
-   "n": 57
+   "n": 56
   },
   "Eventbrite online": {
    "ok": true,
@@ -39,7 +39,8 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10
+   "n": 10,
+   "cache": "2026-10-18T14:59-05:00"
   },
   "TEDx": {
    "ok": true,
@@ -58,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 391,
+ "revisados": 388,
  "top": 55,
  "eventos": [
   {
@@ -201,89 +202,6 @@
    "puntaje": 22,
    "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea",
    "visto_desde": "2026-10-17T07:40-05:00"
-  },
-  {
-   "id": "luma:evt-xRViYMrETyBDjx5",
-   "titulo": "LEAD Expedition: Rumbo a la Cima 🏔️",
-   "inicio": "2026-10-18T08:00-05:00",
-   "fin": "2026-10-18T17:00-05:00",
-   "lugar": "Villa María del Triunfo, Perú",
-   "distrito": "Villa María del Triunfo",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/3fb5jsia",
-   "fuente": "Luma",
-   "organizador": "LEAD UTP",
-   "descripcion": "¿Listo para salir de la rutina y llevar tus habilidades al siguiente nivel? 🔥Únete a LEAD Expedition, una experiencia de campo 100% presencial diseñada para explotar tu liderazgo, mejorar tu networking y romperla trabajando en equipo en un entorno totalmente diferente.\n⚠️ Cupos limitados a 24 personas. Así que si te animas, no te quedes pensándolo, ¡asegura tu lugar!\n¡Prepárate para los retos que tenemos preparados en el camino! 🏔️\n📍 ¿Dónde y cuándo nos vemos?\nFecha: domingo 18 de octubre\n\nHora de encuentro: 8:00 a.m.\n\nPunto de encuentro: Estación de tren Villa María del Triunfo (Línea 1)\n\n¡Llega puntual para salir todos juntos! 🚆\n🗺️ El recorrido\n8:00 a.m. | Encuentro en la estación del tren",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/1w/772a6667-fa6a-4e8f-a3e6-467f8301ce3f.jpg",
-   "inscripcion": "https://lu.ma/3fb5jsia",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 24,
-   "afinidad": 5,
-   "puntaje": 29,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Liderazgo y oratoria",
-   "visto_desde": "2026-10-04T06:42-05:00"
-  },
-  {
-   "id": "luma:evt-5h7iySUlGpPTq24",
-   "titulo": "TECH & TREK | Del código al camino",
-   "inicio": "2026-10-18T08:00-05:00",
-   "fin": "2026-10-18T15:00-05:00",
-   "lugar": "V3J9+H25, Prolongacion Los Fresnos, Cercado de Lima",
-   "distrito": "Cercado de Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/techytreck",
-   "fuente": "Luma",
-   "organizador": "Perú Tech Week 2026",
-   "descripcion": "✦Nos vamos de trekking 👀\nNo te vamos a contar todo lo que encontrarás en el camino, solo podemos decirte que vas a salir de tu zona de confort, conocer gente increíble y descubrir el networking desde otra perspectiva.\nPorque tu próximo gran contacto quizá no esté en LinkedIn, esta vez, toca conectar en la ruta.\nSi eres founder, developer, designer, creator, estudiante, profesional, estás construyendo algo o simplemente tienes curiosidad por conocer a más personas del ecosistema, este trek es para ti.\n¿Qué nos espera?→ Conocer personas fuera de nuestro círculo de siempre→ Compartir ideas, proyectos y oportunidades→ Y, obviamente, llevarnos buenas historias y fotos\nNo necesitas llegar con resp",
-   "gratis": false,
-   "imagen": "https://images.lumacdn.com/uploads/cu/ea6ee79f-119b-409e-84d4-f2218e887bbf.jpg",
-   "inscripcion": "https://lu.ma/techytreck",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 21,
-   "afinidad": 0,
-   "puntaje": 21,
-   "por_que": "Networking · Presencial en Lima · Bajo costo",
-   "visto_desde": "2026-10-17T15:00-05:00"
-  },
-  {
-   "id": "eb:1998955190786",
-   "titulo": "Discover the right Master's for your career at Access Masters Lima event",
-   "inicio": "2026-10-18T10:30-05:00",
-   "fin": "2026-10-18T16:05-05:00",
-   "lugar": "DoubleTree by Hilton Lima Miraflores El Pardo, 141 Jr. Independencia",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.co.uk/e/discover-the-right-masters-for-your-career-at-access-masters-lima-event-tickets-1998955190786",
-   "fuente": "Eventbrite",
-   "organizador": "Advent Group",
-   "descripcion": "Your global future is waiting. Let’s help you find the right path.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191938474%2F185222602399%2F1%2Foriginal.20260826-123707?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.023&fp-y=0.55&s=877755a2a5f027ff0abc7ef65f920fb5",
-   "inscripcion": "https://www.eventbrite.co.uk/e/discover-the-right-masters-for-your-career-at-access-masters-lima-event-tickets-1998955190786",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-09-24T21:23-05:00"
   },
   {
    "id": "eb:2003559169410",
@@ -717,7 +635,7 @@
    "organizador": "Strategic Play®",
    "descripcion": "Programa de certificación en la metodología LEGO® SERIOUS PLAY® avalado por The Global Federation of LSP Master Trainers.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185130443%2F292069486484%2F1%2Foriginal.20260521-133831?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.375&s=b4a4581b5d7066b11e062f2bbac4955c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185130443%2F292069486484%2F1%2Foriginal.20260521-133831?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.375&s=707821ce8e616cc4405b627a44c05922",
    "inscripcion": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -747,7 +665,7 @@
    "organizador": "KCN Club de Networking",
    "descripcion": "Ciberseguridad para emprendedores",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195348756%2F2806210538291%2F1%2Foriginal.20261008-083640?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5b8a4cc34c39c22277f15e9b04b0c816",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195348756%2F2806210538291%2F1%2Foriginal.20261008-083640?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d85a8fa4d94f53afe04e1104c638257b",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1093,7 +1011,7 @@
    "organizador": "Belén Muñoz",
    "descripcion": "Claves estratégicas y medidas prácticas para transformar tu alojamiento turístico en un negocio eficiente, responsable y competitivo",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193237311%2F443213693348%2F1%2Foriginal.20260911-074648?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d74e686603ae7ea261a0fe62ba41c107",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193237311%2F443213693348%2F1%2Foriginal.20260911-074648?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ffbdac8ccf0e5235fade89f70513242a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1968,6 +1886,33 @@
    "visto_desde": "2026-10-16T13:38-05:00"
   },
   {
+   "id": "devpost:31798",
+   "titulo": "Taskforge",
+   "tipo": "hackathon",
+   "inicio": "2026-10-17T00:00-05:00",
+   "fin": "2026-10-24T23:59-05:00",
+   "cierre": "2026-10-24T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://taskforge.devpost.com/",
+   "inscripcion": "https://taskforge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "HackathonForEveryone",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Quantum. Premios: $200.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/083/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-18T17:45-05:00"
+  },
+  {
    "id": "eb:2003208227734",
    "titulo": "Pizza Lab Experience",
    "inicio": "2026-10-25T17:00-05:00",
@@ -1980,7 +1925,7 @@
    "organizador": "",
    "descripcion": "Una experiencia interactiva y gastronómica donde los asistentes dejan de ser simples comensales y se convierten en \"científicos pizzeros\".",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195834620%2F3017130963006%2F1%2Foriginal.20261015-014143?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9a95837fbc235a3f0854bcb13652a7c2",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195834620%2F3017130963006%2F1%2Foriginal.20261015-014143?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=29810b46053a387e9511ce9305b10d1c",
    "inscripcion": "https://www.eventbrite.com/e/pizza-lab-experience-tickets-2003208227734",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2024,6 +1969,33 @@
    "puntaje": 55,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-04T15:49-05:00"
+  },
+  {
+   "id": "devpost:31777",
+   "titulo": "GLITCHATHON",
+   "tipo": "hackathon",
+   "inicio": "2026-10-18T00:00-05:00",
+   "fin": "2026-10-25T23:59-05:00",
+   "cierre": "2026-10-25T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://glitchathon.devpost.com/",
+   "inscripcion": "https://glitchathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "sir padampat singhania university ",
+   "descripcion": "Hackathon online. Temas: Design, Low/No Code, Productivity. Premios: ₹ 200.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/594/316/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 26,
+   "afinidad": 6,
+   "puntaje": 32,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-18T17:45-05:00"
   },
   {
    "id": "pucp:seminario-internacional-juan-pablo-ii-y-su-relacion-con-latinoamerica-01102026094209",
@@ -2302,7 +2274,7 @@
    "organizador": "POSSO by Mr Marcel",
    "descripcion": "Una conversación en directo sobre el futuro del diseño, la estrategia y el valor del talento en la era de la inteligencia.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe6430f4f254fe21137ca72af85e6f6a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a22adb8c4c5fd175cfe0f564e3005155",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2330,7 +2302,7 @@
    "organizador": "AIDIS Argentina",
    "descripcion": "Desafíos, experiencias y oportunidades que están redefiniendo el futuro de la ingeniería ambiental y sanitaria en la región.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195705772%2F1444481018573%2F1%2Foriginal.20261013-165221?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.417&fp-y=0.194&s=52e9acbf25c3e0482dc49285829d68df",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195705772%2F1444481018573%2F1%2Foriginal.20261013-165221?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.417&fp-y=0.194&s=09522c5270aa4657ceaa42142ba71daa",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2683,6 +2655,34 @@
    "puntaje": 28,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-10T06:47-05:00"
+  },
+  {
+   "id": "devpost:31789",
+   "titulo": "STEM2Connect AI Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-17T00:00-05:00",
+   "fin": "2026-10-28T23:59-05:00",
+   "cierre": "2026-10-28T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://stem2connect-online-hackathon.devpost.com/",
+   "inscripcion": "https://stem2connect-online-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "STEM2Connect",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Web. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/600/935/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 21,
+   "puntaje": 40,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-18T17:45-05:00"
   },
   {
    "id": "ieee:584211",
@@ -3180,7 +3180,7 @@
    "organizador": "CAENE",
    "descripcion": "Un encuentro de acceso limitado con CEOs, presidentes y referentes del país. Conecta con quienes hoy están definiendo el futuro del Perú.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193113846%2F3010476896322%2F1%2Foriginal.20260909-232335?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3176cc6bf5a94616ac535eb642ae7658",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193113846%2F3010476896322%2F1%2Foriginal.20260909-232335?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4180e61997b8aeafd335fe72260ea571",
    "inscripcion": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-30-oct-jornada-3-tickets-2000205996981",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3994,7 +3994,7 @@
    "organizador": "LATIN AMERICAN DESIGN",
    "descripcion": "LADFEST X. NOW IN LIMA.\nCelebra los 10 años del Latin American Design Festival este 06 y 07 de noviembre de 2026.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b8729d4b9562a1ae09d8ab9ee7cf6c47",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=afae269f99864aa92b9af2ca1be6bbb5",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-ladfest-x-2026-1995168675216",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4021,7 +4021,7 @@
    "organizador": "",
    "descripcion": "Únete al Foro Rescate Tributario para descubrir cómo ahorrar en tus impuestos en 2026 y mejorar tus finanzas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=93cac7a5c473e524f22bb1a9bca7ea5a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=96d97ca422e3968045d280cf714b793b",
    "inscripcion": "https://www.eventbrite.com/e/foro-rescate-tributario-ahorro-tributario-2026-tickets-2002634957066",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4353,7 +4353,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-1-tickets-2003540173593",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4382,7 +4382,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4037bc17149716d609edd59c3199863a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4d6a4bea9b5d6fd895a6d4e549ae6bce",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4805,7 +4805,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "¿Te imaginás crear anuncios publicitarios con personas que no existen, videos hiperrealistas y voces profesionales, sin utilizar cámaras,",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=34e2e4dfeb24a162bcfb4f174c3c9028",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d576c113898c71fb45de927181d83f4",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4917,7 +4917,7 @@
    "organizador": "CENTRO | Diseño, Cine y Televisión",
    "descripcion": "La Especialidad en Comunicación y estilismo de moda invita a una masterclass sobre cómo la dirección creativa transforma una idea abstracta",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194150910%2F242578370882%2F1%2Foriginal.20260922-231949?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.695&fp-y=0.43&s=6eaae838a5d1498fb1e0bc6f0775cb4d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194150910%2F242578370882%2F1%2Foriginal.20260922-231949?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.695&fp-y=0.43&s=a4deddfade01490929ba624c43738165",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -8585,7 +8585,7 @@
    "organizador": "caminodevida",
    "descripcion": "Bautismo punto cdv",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188136107%2F2593824077661%2F1%2Foriginal.20260703-043023?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6fe48d096fd6214309cab086f1db764f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188136107%2F2593824077661%2F1%2Foriginal.20260703-043023?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9f3b3725664692ccf66f8bfa4a714fea",
    "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-punto-cdv-registration-2003570909525",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8735,7 +8735,7 @@
    "organizador": "",
    "descripcion": "¡Ven a disfrutar música, baile y pura jarana en vivo junto a Fuego Criollo!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f981fdaf00ec37d8ff53631615ac5c02",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f4f100446e0778d8ad7c3d33817468b4",
    "inscripcion": "https://www.eventbrite.es/e/fuego-y-jarana-con-fuego-criollo-tickets-2003293488752",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8750,8 +8750,8 @@
   {
    "id": "eb:2003571253554",
    "titulo": "SECTA CC HALLOWEN FEST",
-   "inicio": "2026-11-01T04:00-05:00",
-   "fin": "2026-11-01T04:00-05:00",
+   "inicio": "2026-10-31T22:00-05:00",
+   "fin": "2026-10-31T22:00-05:00",
    "lugar": "Santiago de surco, Centro cívico",
    "distrito": "Lima",
    "modalidad": "Presencial",
@@ -8835,7 +8835,7 @@
    "organizador": "IntekTV",
    "descripcion": "Descubre cómo el ecosistema Blackmagic está transformando la enseñanza audiovisual y abriendo nuevas oportunidades profesionales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe2591b2f911dde84a279162c0cdca28",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d25ce87be83320a35b0b10bb1864490f",
    "inscripcion": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-academia-tickets-2002243178245",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9470,23 +9470,23 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30613",
-   "titulo": "Girls Hoo Hack 2026",
+   "id": "devpost:31730",
+   "titulo": "IEEE Technothon 2026",
    "tipo": "hackathon",
-   "inicio": "2026-10-17T00:00-05:00",
+   "inicio": "2026-10-18T00:00-05:00",
    "fin": "2026-10-18T23:59-05:00",
    "cierre": "2026-10-18T23:59-05:00",
-   "lugar": "University of Virginia - Rice Hall",
-   "distrito": "University of Virginia - Rice Hall",
+   "lugar": "Bryan, TX, USA",
+   "distrito": "Bryan",
    "modalidad": "Presencial",
-   "url": "https://girls-hoo-hack-2026.devpost.com/",
-   "inscripcion": "https://girls-hoo-hack-2026.devpost.com/",
+   "url": "https://ieee-hackathon.devpost.com/",
+   "inscripcion": "https://ieee-hackathon.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Girls Who Code UVA",
-   "descripcion": "Hackathon presencial en University of Virginia - Rice Hall. Temas: Beginner Friendly, Open Ended, Social Good. Premios: $0.",
+   "organizador": "IEEE TAMU",
+   "descripcion": "Hackathon presencial en Bryan, TX, USA. Temas: Design. Premios: $900.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/893/713/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/619/098/datas/medium_square.jpg",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Competencias y hackathons"
@@ -9494,35 +9494,7 @@
    "valor": 23,
    "afinidad": 6,
    "puntaje": 29,
-   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31087",
-   "titulo": "804 Hacks",
-   "tipo": "hackathon",
-   "inicio": "2026-10-18T00:00-05:00",
-   "fin": "2026-10-18T23:59-05:00",
-   "cierre": "2026-10-18T23:59-05:00",
-   "lugar": "Randolph-Macon College - Birdsong Hall",
-   "distrito": "Randolph-Macon College - Birdsong Hall",
-   "modalidad": "Presencial",
-   "url": "https://804hacks.devpost.com/",
-   "inscripcion": "https://804hacks.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "UW Blockchain Society",
-   "descripcion": "Hackathon presencial en Randolph-Macon College - Birdsong Hall. Temas: Beginner Friendly, Design, Web. Premios: $650.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/150/128/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+   "por_que": "Competencia · Gremio o institución · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "opportunitiesforyouth:advisory-board-2027-2028-applications-open-for-young-people-worldwide-",
@@ -9593,7 +9565,7 @@
    "organizador": "willians orihuela y celinda challa",
    "descripcion": "Descubra el pitch empresarial de Lumia, una tienda online de belleza y cuidado personal enfocada en calidad y experiencia digital.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b85741703c1f96b3406cb57dfb06ac0e",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=64a9fd3704e65f639905a0d151733732",
    "inscripcion": "https://www.eventbrite.com/e/pitch-empresarial-tienda-lumia-belleza-y-cuidado-personal-tickets-2003273856030",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9696,7 +9668,7 @@
    "organizador": "Glow Up Peru",
    "descripcion": "Get ready to shine bright like a diamond at GLOW UP PERÚ 2026, where your beauty will reach new heights!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171624158%2F461107855766%2F1%2Foriginal.20251124-075432?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.47&fp-y=0.139&s=9cc5ee4ef1aac64e603786721b0f5ed5",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171624158%2F461107855766%2F1%2Foriginal.20251124-075432?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.47&fp-y=0.139&s=acae847cdf363af2b55d179e1fcc36ff",
    "inscripcion": "https://www.eventbrite.com/e/glow-up-peru-2026-tickets-1975272312660",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9746,7 +9718,7 @@
    "organizador": "",
    "descripcion": "¿Quieres estar en la mejor fiesta del año? \n\nEstá fiesta se a estado planeando desde inicio de año y es la fiesta que más promete",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192783457%2F3013078503983%2F1%2Foriginal.20260905-184007?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.517&fp-y=0.279&s=60df80db8910f5ebf78efe06dfd0f9e2",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192783457%2F3013078503983%2F1%2Foriginal.20260905-184007?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.517&fp-y=0.279&s=0e875259796859fc7fadadab2755fdee",
    "inscripcion": "https://www.eventbrite.com/e/halloween-edition-tickets-1999863310998",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10214,61 +10186,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31720",
-   "titulo": "BCS Hacks 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-17T00:00-05:00",
-   "fin": "2026-10-18T23:59-05:00",
-   "cierre": "2026-10-18T23:59-05:00",
-   "lugar": "UBC Vancouver Campus",
-   "distrito": "UBC Vancouver Campus",
-   "modalidad": "Presencial",
-   "url": "https://bcs-hacks-2026.devpost.com/",
-   "inscripcion": "https://bcs-hacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "BCSSA",
-   "descripcion": "Hackathon presencial en UBC Vancouver Campus. Temas: Open Ended. Premios: $CAD 700.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/591/084/datas/medium_square.jpg",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31661",
-   "titulo": "HuskyHack 2026: Phase 2",
-   "tipo": "hackathon",
-   "inicio": "2026-10-18T00:00-05:00",
-   "fin": "2026-10-18T23:59-05:00",
-   "cierre": "2026-10-18T23:59-05:00",
-   "lugar": "University of Washington Tacoma ",
-   "distrito": "University of Washington Tacoma ",
-   "modalidad": "Presencial",
-   "url": "https://huskyhack2026phase2.devpost.com/",
-   "inscripcion": "https://huskyhack2026phase2.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "SoundCreditUnion and UW Tacoma",
-   "descripcion": "Hackathon presencial en University of Washington Tacoma . Temas: Fintech. Premios: $15,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/538/547/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 10,
-   "puntaje": 33,
-   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31676",
    "titulo": "HACK INSIGHT",
    "tipo": "hackathon",
@@ -10669,7 +10586,7 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-18T15:00-05:00",
+  "fecha": "2026-10-18T17:45-05:00",
   "revisados": 233,
   "corregidos": 18,
   "avisos": 2,
@@ -10869,7 +10786,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 2,
+   "comprobados": 4,
    "rotos": 5,
    "sin_comprobar": 0
   },
@@ -10885,11 +10802,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "El XII Foro Gerencias Legales reunirá en Lima a directivos jurídicos de IBM, Uber, CEMEX y otras multinacionales",
-   "url": "https://www.lawyerpress.com/2026/10/13/el-xii-foro-gerencias-legales-reunira-en-lima-a-directivos-juridicos-de-ibm-uber-cemex-y-otras-multinacionales/",
-   "medio": "Lawyerpress",
-   "publicado": "Tue, 13 Oct 2026 08:44:00 GMT",
-   "resumen": "Organizado por Gericó Associates, el encuentro se celebrará el 28 de octubre y abordará los nuevos riesgos empresariales, la inteligencia artificial, el arbitraje internacional y la evolución del ...",
+   "titulo": "Este 28 de octubre, el XII Foro Gerencias Legales reunirá en Lima a líderes jurídicos de compañías como CEMEX, Uber, IBM y Luz del Sur",
+   "url": "https://elderecho.com/este-28-de-octubre-el-xii-foro-gerencias-legales-reunira-en-lima-a-lideres-juridicos-de-companias-como-cemex-uber-ibm-y-luz-del-sur",
+   "medio": "El Derecho",
+   "publicado": "Tue, 13 Oct 2026 08:53:00 GMT",
+   "resumen": "La cita será el 28 de octubre en Lima y contará con la participación de General Counsel y responsables legales y de cumplimiento de compañías con operaciones en Perú, Colombia, México y Estados Unidos ...",
    "fecha_mencionada": "2026-10-28T00:00-05:00"
   },
   {
@@ -10925,19 +10842,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Soberanía de la IA y liderazgo de TI marcaron el Red Hat Summit Connect 2026 Lima",
-   "url": "https://www.revistaeconomia.com/soberania-de-la-ia-y-liderazgo-de-ti-marcaron-el-red-hat-summit-connect-2026-lima/",
-   "medio": "Revista Economía",
-   "publicado": "Thu, 15 Oct 2026 10:06:00 GMT",
-   "resumen": "El Red Hat Summit Connect 2026 se realiza también en Montevideo, Buenos Aires, Santiago, Ciudad de México, São Paulo y Bogotá.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
    "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
    "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Soberanía de la IA y liderazgo de TI marcaron el Red Hat Summit Connect 2026 Lima",
+   "url": "https://www.revistaeconomia.com/soberania-de-la-ia-y-liderazgo-de-ti-marcaron-el-red-hat-summit-connect-2026-lima/",
+   "medio": "Revista Economía",
+   "publicado": "Thu, 15 Oct 2026 10:06:00 GMT",
+   "resumen": "El Red Hat Summit Connect 2026 se realiza también en Montevideo, Buenos Aires, Santiago, Ciudad de México, São Paulo y Bogotá.",
    "fecha_mencionada": ""
   },
   {
@@ -10957,19 +10874,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "El Air Transport Summit reunió en Lima a autoridades y líderes de la aviación regional",
-   "url": "https://www.aviacionnews.com/2026/10/el-air-transport-summit-reunio-en-lima-a-autoridades-y-lideres-de-la-aviacion-regional/",
-   "medio": "Aviación News",
-   "publicado": "Thu, 01 Oct 2026 11:03:00 GMT",
-   "resumen": "El encuentro, organizado por ACI-LAC, OACI y CLAC, abordó conectividad, seguridad operacional, tecnología y economía aeroportuaria. El Air Transport Summit reunió el 30 de septiembre en Lima a autorid ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Schindler Perú, Main Sponsor del Nexo Summit 2026, destaca su liderazgo en movilidad urbana e inmobiliaria",
    "url": "https://agenciaorbita.org/2026/10/06/schindler-peru-main-sponsor-del-nexo-summit-2026-destaca-su-liderazgo-en-movilidad-urbana-e-inmobiliaria/",
    "medio": "Agencia de Noticias Órbita",
    "publicado": "Mon, 05 Oct 2026 17:00:00 GMT",
    "resumen": "El 9 y 10 de septiembre se llevó a cabo Nexo Summit 2026, la conferencia inmobiliaria más importante del país, evento en el que Schindler Perú participó en la categoría de main sponsor (patrocinador p ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "El Air Transport Summit reunió en Lima a autoridades y líderes de la aviación regional",
+   "url": "https://www.aviacionnews.com/2026/10/el-air-transport-summit-reunio-en-lima-a-autoridades-y-lideres-de-la-aviacion-regional/",
+   "medio": "Aviación News",
+   "publicado": "Thu, 01 Oct 2026 11:03:00 GMT",
+   "resumen": "El encuentro, organizado por ACI-LAC, OACI y CLAC, abordó conectividad, seguridad operacional, tecnología y economía aeroportuaria. El Air Transport Summit reunió el 30 de septiembre en Lima a autorid ...",
    "fecha_mencionada": ""
   }
  ],
@@ -11134,7 +11051,6 @@
   "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037": "2026-09-24T21:10-05:00",
   "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233": "2026-09-24T21:10-05:00",
   "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
-  "eb:1998955190786": "2026-09-24T21:23-05:00",
   "eb:1976583565653": "2026-09-24T21:23-05:00",
   "eb:1982108679417": "2026-09-24T21:23-05:00",
   "meetup:ljgqztyjcnbgc": "2026-09-24T22:14-05:00",
@@ -11235,7 +11151,6 @@
   "eb:2002800032812": "2026-10-02T12:19-05:00",
   "luma:evt-jFB741zwm8fwoQN": "2026-10-02T16:45-05:00",
   "pucp:ceremonia-de-homenaje-a-exalumnos-distinguidos-01102026190840": "2026-10-02T16:45-05:00",
-  "luma:evt-xRViYMrETyBDjx5": "2026-10-04T06:42-05:00",
   "devpost:31609": "2026-10-04T11:21-05:00",
   "devpost:29114": "2026-10-04T15:49-05:00",
   "devpost:31503": "2026-10-04T15:49-05:00",
@@ -11343,7 +11258,6 @@
   "opportunitiesforyouth:eate-a-manifesto-for-a-safe-clean-healthy-and-sustainable-environment-": "2026-10-17T07:40-05:00",
   "devpost:31511": "2026-10-17T07:40-05:00",
   "eb:2003535860693": "2026-10-17T12:44-05:00",
-  "luma:evt-5h7iySUlGpPTq24": "2026-10-17T15:00-05:00",
   "devpost:31773": "2026-10-17T17:51-05:00",
   "eb:2003559169410": "2026-10-18T02:43-05:00",
   "eb:2003562626751": "2026-10-18T07:58-05:00",
@@ -11354,6 +11268,9 @@
   "devpost:31715": "2026-10-18T12:46-05:00",
   "wikicfp:203796": "2026-10-18T12:46-05:00",
   "devpost:31796": "2026-10-18T15:00-05:00",
-  "devpost:31737": "2026-10-18T15:00-05:00"
+  "devpost:31737": "2026-10-18T15:00-05:00",
+  "devpost:31798": "2026-10-18T17:45-05:00",
+  "devpost:31777": "2026-10-18T17:45-05:00",
+  "devpost:31789": "2026-10-18T17:45-05:00"
  }
 }
