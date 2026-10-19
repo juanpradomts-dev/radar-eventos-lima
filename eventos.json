@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T21:56-05:00",
+ "actualizado": "2026-10-19T03:26-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -35,12 +35,12 @@
   },
   "Opportunity Desk": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-10-18T17:43-05:00"
+   "n": 10
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10
+   "n": 10,
+   "cache": "2026-10-18T21:55-05:00"
   },
   "TEDx": {
    "ok": true,
@@ -118,33 +118,6 @@
    "puntaje": 15,
    "por_que": "Voluntariado · Evento sin formato claro · Se postula en línea",
    "visto_desde": "2026-10-15T18:33-05:00"
-  },
-  {
-   "id": "wikicfp:201653",
-   "titulo": "FTTE 2026 : 2026 5th International Conference on Frontiers of Traffic and Transportation Engineering",
-   "tipo": "call for papers",
-   "inicio": "2026-10-16T00:00-05:00",
-   "fin": "2026-10-18T23:59-05:00",
-   "cierre": "",
-   "lugar": "Xiangyang, China",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201653&copyownerid=163220",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201653&copyownerid=163220",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: 2026 5th International Conference on Frontiers of Traffic and Transportation Engineering. Lugar: Xiangyang, China. Fechas del congreso: Oct 16, 2026 - Oct 18, 2026.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 17,
-   "afinidad": 20,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "opportunitydesk:hifters-movenow-social-innovation-challenge-2026-for-young-innovators-",
@@ -340,33 +313,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-01T07:18-05:00"
-  },
-  {
-   "id": "devpost:31511",
-   "titulo": "HEALTHHACK 48",
-   "tipo": "hackathon",
-   "inicio": "2026-10-17T00:00-05:00",
-   "fin": "2026-10-19T23:59-05:00",
-   "cierre": "2026-10-19T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://healthhack-48.devpost.com/",
-   "inscripcion": "https://healthhack-48.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HealthHack",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Health, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/378/664/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-17T07:40-05:00"
   },
   {
    "id": "luma:evt-Pu600eKM3RJzhcy",
@@ -845,7 +791,7 @@
    "organizador": "ECUSA community",
    "descripcion": "Sesión 1 de MBSR: descubre cómo funciona la atención y aprende a gestionar el estrés en entornos científicos exigentes.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195144951%2F2564875586841%2F1%2Foriginal.20261006-042858?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.567&s=8d8801ce630e4430027489acb9130b0a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195144951%2F2564875586841%2F1%2Foriginal.20261006-042858?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.567&s=1936725a135d25feb0f65020b06aed9b",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1620,7 +1566,7 @@
    "organizador": "Security BSides Perú",
    "descripcion": "Conferencia Anual del Capítulo Peruano de Security BSides.  Seguridad Defensiva y Ofensiva desde el 2018.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195426247%2F181887874570%2F1%2Foriginal.20261009-042110?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=de9aa29ca0788959fdc2ee536fc5fcad",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195426247%2F181887874570%2F1%2Foriginal.20261009-042110?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4f9a86176fe8a92eb583d299838c6b6c",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-security-bsides-peru-2026-ai-is-coming-after-you-2003184764555",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1925,7 +1871,7 @@
    "organizador": "",
    "descripcion": "Una experiencia interactiva y gastronómica donde los asistentes dejan de ser simples comensales y se convierten en \"científicos pizzeros\".",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195834620%2F3017130963006%2F1%2Foriginal.20261015-014143?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=29810b46053a387e9511ce9305b10d1c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195834620%2F3017130963006%2F1%2Foriginal.20261015-014143?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6a17593cfa85e532ec1b1f183a51cf10",
    "inscripcion": "https://www.eventbrite.com/e/pizza-lab-experience-tickets-2003208227734",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2274,7 +2220,7 @@
    "organizador": "POSSO by Mr Marcel",
    "descripcion": "Una conversación en directo sobre el futuro del diseño, la estrategia y el valor del talento en la era de la inteligencia.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe6430f4f254fe21137ca72af85e6f6a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a22adb8c4c5fd175cfe0f564e3005155",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2302,7 +2248,7 @@
    "organizador": "AIDIS Argentina",
    "descripcion": "Desafíos, experiencias y oportunidades que están redefiniendo el futuro de la ingeniería ambiental y sanitaria en la región.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195705772%2F1444481018573%2F1%2Foriginal.20261013-165221?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.417&fp-y=0.194&s=7f9653ccd148685fa44977b1780b98bc",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195705772%2F1444481018573%2F1%2Foriginal.20261013-165221?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.417&fp-y=0.194&s=09522c5270aa4657ceaa42142ba71daa",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2472,7 +2418,7 @@
    "organizador": "Equidad de Género ITSON",
    "descripcion": "Objetivo:  Generar una plataforma intelectual para el análisis, reflexión y discusión de ideas y tendencias en el ámbito de la Instituciona",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194390256%2F39675977232%2F1%2Foriginal.20260925-203623?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.96&fp-y=0.39&s=38d6fddb0cfb278ae9035d6e88f57d38",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194390256%2F39675977232%2F1%2Foriginal.20260925-203623?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.96&fp-y=0.39&s=6aed7e8f131f40c2dbcae8dd97f17771",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3072,7 +3018,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "Un programa práctico en vivo donde aprenderás a utilizar Claude para investigar, analizar información, crear contenido, automatizar tareas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191618222%2F257811272973%2F1%2Foriginal.20260821-191405?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f6161db0dcd59634eb99f142c605b692",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191618222%2F257811272973%2F1%2Foriginal.20260821-191405?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a4e4ed1af821006f2c62436ce350e0c6",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4049,7 +3995,7 @@
    "organizador": "",
    "descripcion": "Únete al Foro Rescate Tributario para descubrir cómo ahorrar en tus impuestos en 2026 y mejorar tus finanzas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=96d97ca422e3968045d280cf714b793b",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=80ccbe4d38cc6bd9f3bb6732eabe908d",
    "inscripcion": "https://www.eventbrite.com/e/foro-rescate-tributario-ahorro-tributario-2026-tickets-2002634957066",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4381,7 +4327,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-1-tickets-2003540173593",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4601,7 +4547,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-2-tickets-2003510824810",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -5068,33 +5014,6 @@
    "visto_desde": "2026-10-17T17:51-05:00"
   },
   {
-   "id": "devpost:31795",
-   "titulo": "AccessED Hacks",
-   "tipo": "hackathon",
-   "inicio": "2026-10-17T00:00-05:00",
-   "fin": "2026-11-20T23:59-05:00",
-   "cierre": "2026-11-20T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://accessed-hacks.devpost.com/",
-   "inscripcion": "https://accessed-hacks.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "AccessEDnpo",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Social Good. Premios: $225.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/624/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-18T21:56-05:00"
-  },
-  {
    "id": "pucp:idulab-modo-hackat-on-2026-15102026123306",
    "titulo": "IDULAB Modo Hackat-ON 2026",
    "inicio": "2026-11-21T09:00-05:00",
@@ -5135,7 +5054,7 @@
    "organizador": "",
    "descripcion": "La Casita del Saber es un emprendimiento educativo inclusivo y seguro diseñado para apoyar el aprendizaje de niños con necesidades educativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9d41cc27030031b2597aa867399ff43a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=26732154bc91402cbc52d4dcd72e3e28",
    "inscripcion": "https://www.eventbrite.com/e/la-casita-del-saber-tickets-2003426586852",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8153,6 +8072,33 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
+   "id": "wikicfp:201653",
+   "titulo": "FTTE 2026 : 2026 5th International Conference on Frontiers of Traffic and Transportation Engineering",
+   "tipo": "call for papers",
+   "inicio": "2026-10-16T00:00-05:00",
+   "fin": "2026-10-18T23:59-05:00",
+   "cierre": "",
+   "lugar": "Xiangyang, China",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201653&copyownerid=163220",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201653&copyownerid=163220",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: 2026 5th International Conference on Frontiers of Traffic and Transportation Engineering. Lugar: Xiangyang, China. Fechas del congreso: Oct 16, 2026 - Oct 18, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "congreso ya realizado",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 17,
+   "afinidad": 20,
+   "puntaje": 37,
+   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
+  },
+  {
    "id": "eb:2003322946862",
    "titulo": "PERFECT HOME",
    "inicio": "2026-10-19T12:00-05:00",
@@ -8615,7 +8561,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b95e88f68c35e5273e2da11e89e4793c",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254435458",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8665,7 +8611,7 @@
    "organizador": "estudiantes del Intituto Certus",
    "descripcion": "Trae a tu niño a ser parte de estos espacios lúdicos y pedagógicos donde prenderan mediante el juego, la experimentación y la interacción",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195988588%2F3018024795339%2F1%2Foriginal.20261017-025825?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=82c000a5f374e62010073a323a506d02",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195988588%2F3018024795339%2F1%2Foriginal.20261017-025825?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=235f29da2a7a836072727b839594b78f",
    "inscripcion": "https://www.eventbrite.com/e/feria-educativa-para-ninos-especiales-tickets-2003537351151",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8865,7 +8811,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Feria Internacional de Proveedores de la Industria Textil y Confecciones.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4c3847af18eb8c80cb71000f33b74ace",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ecf2b82e33fcfea75fb6c33f359c2463",
    "inscripcion": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084066665",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8915,7 +8861,7 @@
    "organizador": "Burpsuite Day Peru",
    "descripcion": "El primer evento de la comunidad Burp Suite en el Perú. Charlas técnicas de AppSec y pentesting. 7 de noviembre, INICTEL-UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=889ea049d6c1213d15abca73d4f5ec0f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=73ce9984146532b666cee130195508e2",
    "inscripcion": "https://www.eventbrite.com.pe/e/burpsuite-day-peru-2026-tickets-1999138227253",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9065,7 +9011,7 @@
    "organizador": "",
    "descripcion": "Ven a descubrir tu sabor favorito en persona con una experiencia deliciosa junto a PapaMía.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b55c1e53001fdb8993ff71b53cbbd716",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3f55320214fbf706d2945f5534f908d4",
    "inscripcion": "https://www.eventbrite.com/e/papamia-food-experience-descubre-tu-sabor-favorito-tickets-2003279097708",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9497,31 +9443,32 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31730",
-   "titulo": "IEEE Technothon 2026",
+   "id": "devpost:31553",
+   "titulo": "SDC Hackathon 2026",
    "tipo": "hackathon",
-   "inicio": "2026-10-18T00:00-05:00",
-   "fin": "2026-10-18T23:59-05:00",
-   "cierre": "2026-10-18T23:59-05:00",
-   "lugar": "Bryan, TX, USA",
-   "distrito": "Bryan",
+   "inicio": "2026-10-19T00:00-05:00",
+   "fin": "2026-10-24T23:59-05:00",
+   "cierre": "2026-10-24T23:59-05:00",
+   "lugar": "Xiamen University Malaysia",
+   "distrito": "Xiamen University Malaysia",
    "modalidad": "Presencial",
-   "url": "https://ieee-hackathon.devpost.com/",
-   "inscripcion": "https://ieee-hackathon.devpost.com/",
+   "url": "https://sdc-hackathon-2026.devpost.com/",
+   "inscripcion": "https://sdc-hackathon-2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "IEEE TAMU",
-   "descripcion": "Hackathon presencial en Bryan, TX, USA. Temas: Design. Premios: $900.",
+   "organizador": "Xiamen University Malaysia",
+   "descripcion": "Hackathon presencial en Xiamen University Malaysia. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $5,500.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/619/098/datas/medium_square.jpg",
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
    "motivo": "presencial fuera del Perú",
    "categorias": [
-    "Competencias y hackathons"
+    "Competencias y hackathons",
+    "Tecnología e IA"
    ],
    "valor": 23,
-   "afinidad": 6,
-   "puntaje": 29,
-   "por_que": "Competencia · Gremio o institución · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+   "afinidad": 29,
+   "puntaje": 52,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "opportunitiesforyouth:advisory-board-2027-2028-applications-open-for-young-people-worldwide-",
@@ -9770,7 +9717,7 @@
    "organizador": "Zarella",
    "descripcion": "Get spooky cute vibes and creepy-cute crafts all in one fun workshop you won't want to miss! It is a 100% hands-on, handmade workshop",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193483660%2F2912043267641%2F1%2Foriginal.20260914-195228?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=47c3a7f9bd670c9b03a5f4bfd82e57d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193483660%2F2912043267641%2F1%2Foriginal.20260914-195228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1238aa61158b6a952fe1c2671ab902ec",
    "inscripcion": "https://www.eventbrite.com.pe/e/cripi-kawaii-workshop-tickets-2002341968730",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9795,7 +9742,7 @@
    "organizador": "ITS'CAFFE TIME",
    "descripcion": "Un taller acogedor de manualidades kawaii inspirado en cafeterías de Japón y Corea, con una bebida de inspiración asiática.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195832936%2F3017754908262%2F1%2Foriginal.20261015-010524?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=740dc3309945f6079cda51db5beb89e7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195832936%2F3017754908262%2F1%2Foriginal.20261015-010524?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=90bed8f5d3c7e97d3898a2276e35c287",
    "inscripcion": "https://www.eventbrite.com/e/entradas-kawaii-craft-cafe-2003438533585",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9883,20 +9830,20 @@
    "por_que": "Networking · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:1981186910381",
+   "id": "eb:1981186911384",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-18T23:00-05:00",
-   "fin": "2026-10-19T13:00-05:00",
+   "inicio": "2026-10-19T23:00-05:00",
+   "fin": "2026-10-20T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186910381",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186911384",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima, where you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186910381",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186911384",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -10211,6 +10158,61 @@
    "afinidad": 26,
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31732",
+   "titulo": "Build The Next Big Thing with AI - Devmarketplace",
+   "tipo": "hackathon",
+   "inicio": "2026-10-19T00:00-05:00",
+   "fin": "2026-10-22T23:59-05:00",
+   "cierre": "2026-10-22T23:59-05:00",
+   "lugar": "NED University",
+   "distrito": "NED University",
+   "modalidad": "Presencial",
+   "url": "https://build-next-big-thing-with-ai.devpost.com/",
+   "inscripcion": "https://build-next-big-thing-with-ai.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "devmarketplace",
+   "descripcion": "Hackathon presencial en NED University. Temas: Databases, Machine Learning/AI, Web. Premios: ₹ 100,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/116/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 30,
+   "puntaje": 53,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31320",
+   "titulo": "uXperience Design Jam sponsored by Sunlife",
+   "tipo": "hackathon",
+   "inicio": "2026-10-19T00:00-05:00",
+   "fin": "2026-10-24T23:59-05:00",
+   "cierre": "2026-10-24T23:59-05:00",
+   "lugar": "DMS - Stratford Campus",
+   "distrito": "DMS - Stratford Campus",
+   "modalidad": "Presencial",
+   "url": "https://uxperience-f26.devpost.com/",
+   "inscripcion": "https://uxperience-f26.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Stratford School of Interaction Design",
+   "descripcion": "Hackathon presencial en DMS - Stratford Campus. Temas: Beginner Friendly, Design, Low/No Code. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/580/838/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:festival-noche-de-madrigales-por-los-30-anos-de-creacion-del-coro-de-madrigalistas-pucp-12102026102630",
@@ -10585,8 +10587,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-18T21:56-05:00",
-  "revisados": 235,
+  "fecha": "2026-10-19T03:26-05:00",
+  "revisados": 232,
   "corregidos": 18,
   "avisos": 2,
   "archivados": 4,
@@ -10785,7 +10787,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 3,
+   "comprobados": 19,
    "rotos": 5,
    "sin_comprobar": 0
   },
@@ -10873,19 +10875,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "El Air Transport Summit reunió en Lima a autoridades y líderes de la aviación regional",
-   "url": "https://www.aviacionnews.com/2026/10/el-air-transport-summit-reunio-en-lima-a-autoridades-y-lideres-de-la-aviacion-regional/",
-   "medio": "Aviación News",
-   "publicado": "Thu, 01 Oct 2026 11:03:00 GMT",
-   "resumen": "El encuentro, organizado por ACI-LAC, OACI y CLAC, abordó conectividad, seguridad operacional, tecnología y economía aeroportuaria. El Air Transport Summit reunió el 30 de septiembre en Lima a autorid ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Schindler Perú, Main Sponsor del Nexo Summit 2026, destaca su liderazgo en movilidad urbana e inmobiliaria",
    "url": "https://agenciaorbita.org/2026/10/06/schindler-peru-main-sponsor-del-nexo-summit-2026-destaca-su-liderazgo-en-movilidad-urbana-e-inmobiliaria/",
    "medio": "Agencia de Noticias Órbita",
    "publicado": "Mon, 05 Oct 2026 17:00:00 GMT",
    "resumen": "El 9 y 10 de septiembre se llevó a cabo Nexo Summit 2026, la conferencia inmobiliaria más importante del país, evento en el que Schindler Perú participó en la categoría de main sponsor (patrocinador p ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "El Air Transport Summit reunió en Lima a autoridades y líderes de la aviación regional",
+   "url": "https://www.aviacionnews.com/2026/10/el-air-transport-summit-reunio-en-lima-a-autoridades-y-lideres-de-la-aviacion-regional/",
+   "medio": "Aviación News",
+   "publicado": "Thu, 01 Oct 2026 11:03:00 GMT",
+   "resumen": "El encuentro, organizado por ACI-LAC, OACI y CLAC, abordó conectividad, seguridad operacional, tecnología y economía aeroportuaria. El Air Transport Summit reunió el 30 de septiembre en Lima a autorid ...",
    "fecha_mencionada": ""
   }
  ],
@@ -11061,7 +11063,6 @@
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
   "opportunitiesforyouth:pportunity-with-full-scholarship-to-the-2027-youth-assembly-in-geneva-": "2026-09-26T08:43-05:00",
   "devpost:30781": "2026-09-26T08:43-05:00",
-  "wikicfp:201653": "2026-09-26T08:43-05:00",
   "wikicfp:202465": "2026-09-26T08:43-05:00",
   "wikicfp:201377": "2026-09-26T08:43-05:00",
   "devpost:30992": "2026-09-26T08:43-05:00",
@@ -11255,7 +11256,6 @@
   "eb:2003527457559": "2026-10-16T21:41-05:00",
   "eb:2003540173593": "2026-10-17T02:29-05:00",
   "opportunitiesforyouth:eate-a-manifesto-for-a-safe-clean-healthy-and-sustainable-environment-": "2026-10-17T07:40-05:00",
-  "devpost:31511": "2026-10-17T07:40-05:00",
   "eb:2003535860693": "2026-10-17T12:44-05:00",
   "devpost:31773": "2026-10-17T17:51-05:00",
   "eb:2003562626751": "2026-10-18T07:58-05:00",
@@ -11271,7 +11271,6 @@
   "devpost:31777": "2026-10-18T17:45-05:00",
   "devpost:31789": "2026-10-18T17:45-05:00",
   "meetup:317040531": "2026-10-18T21:56-05:00",
-  "devpost:31793": "2026-10-18T21:56-05:00",
-  "devpost:31795": "2026-10-18T21:56-05:00"
+  "devpost:31793": "2026-10-18T21:56-05:00"
  }
 }
