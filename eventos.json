@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-19T16:58-05:00",
+ "actualizado": "2026-10-19T22:05-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 41
+   "n": 43
   },
   "Eventbrite": {
    "ok": true,
-   "n": 55
+   "n": 54
   },
   "Eventbrite online": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 391,
+ "revisados": 392,
  "top": 55,
  "eventos": [
   {
@@ -175,33 +175,6 @@
    "puntaje": 22,
    "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Se postula en línea",
    "visto_desde": "2026-10-17T07:40-05:00"
-  },
-  {
-   "id": "luma:evt-zmNdUbRiQVfLBVR",
-   "titulo": "Notion Meetup Lima",
-   "inicio": "2026-10-19T18:00-05:00",
-   "fin": "2026-10-19T21:00-05:00",
-   "lugar": "San Isidro, Perú",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/notion-6vkm",
-   "fuente": "Luma",
-   "organizador": "Notion Community Lima",
-   "descripcion": "Notion está evolucionando rápido. En este Meetup vamos a descubrir sus novedades y explorar cómo Custom Agents, Notion Worker y Notion AI pueden abrir nuevas posibilidades para trabajar, automatizar y mejorar procesos.\nEn esta sesión aprenderás:\n🤖 Qué son los Custom Agents y cómo puedes aprovecharlos.\n\n⚙️ Qué propone Notion Worker y qué nuevas posibilidades habilita.\n\n🏢 Ideas y casos de uso de Notion para agencias.\n\n¿Para quién es?\nPara personas que ya usan Notion, profesionales, equipos y agencias que quieren conocer sus nuevas capacidades y encontrar formas de trabajar mejor con la plataforma.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/j3/439c5a16-27b4-4afa-bc3d-eba4a6bbc637.png",
-   "inscripcion": "https://lu.ma/notion-6vkm",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 24,
-   "afinidad": 8,
-   "puntaje": 32,
-   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Gratis",
-   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "luma:evt-Pu600eKM3RJzhcy",
@@ -874,7 +847,7 @@
    "organizador": "Belén Muñoz",
    "descripcion": "Claves estratégicas y medidas prácticas para transformar tu alojamiento turístico en un negocio eficiente, responsable y competitivo",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193237311%2F443213693348%2F1%2Foriginal.20260911-074648?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ffbdac8ccf0e5235fade89f70513242a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193237311%2F443213693348%2F1%2Foriginal.20260911-074648?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d74e686603ae7ea261a0fe62ba41c107",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -905,7 +878,7 @@
    "organizador": "COMMUNITY OF INSURANCE",
    "descripcion": "Sabadell Seguros combina tecnología y escucha para mejorar la experiencia del cliente, personalizar la atención y aumentar la retención.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193639605%2F137153727275%2F1%2Foriginal.20260916-103451?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=071f08b381a68f41544eb208f883e48f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193639605%2F137153727275%2F1%2Foriginal.20260916-103451?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1a6f6a7e87657758a17839fd52dec01f",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1138,6 +1111,33 @@
    "puntaje": 40,
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-10-13T15:30-05:00"
+  },
+  {
+   "id": "luma:evt-BUWxtNHZIGLOJpz",
+   "titulo": "Tecnología del futuro HP",
+   "inicio": "2026-10-22T19:00-05:00",
+   "fin": "2026-10-22T23:00-05:00",
+   "lugar": "La Molina, Perú",
+   "distrito": "La Molina",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/cj0q63kg",
+   "fuente": "Luma",
+   "organizador": "Miguel Angel Orbes Zolezzi",
+   "descripcion": "Tenemos el gusto de invitarte a esta cena exclusiva en la que presentaremos la nueva línea de impresión y las ultimas novedades en computo HP, preparada para los retos del futuro en seguridad, eficiencia e inteligencia artificial.",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/vo/f7d1ce1d-9e03-42d0-b133-ef2c52d19051.png",
+   "inscripcion": "https://lu.ma/cj0q63kg",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 18,
+   "afinidad": 8,
+   "puntaje": 26,
+   "por_que": "Presencial en Lima · Afín: Inteligencia artificial · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-10-19T22:05-05:00"
   },
   {
    "id": "pucp:presentacion-del-libro-conservadurismos-religiosos-y-politica-en-el-peru-05102026175239",
@@ -1527,6 +1527,36 @@
    "puntaje": 39,
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-10-05T16:48-05:00"
+  },
+  {
+   "id": "luma:evt-zNdCbcSHnIPDrvJ",
+   "titulo": "EdLab  & Unacem",
+   "inicio": "2026-10-24T08:00-05:00",
+   "fin": "2026-10-24T17:00-05:00",
+   "lugar": "Santiago de Surco, Perú",
+   "distrito": "Santiago de Surco",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/7pxk8oz7",
+   "fuente": "Luma",
+   "organizador": "Andrea salas, Rocio",
+   "descripcion": "✨ ¿Quieres resolver los retos reales de tu día a día como docente mientras aprendes a usar IA para liberar tiempo y enfocarte en lo que mas importa?¡Únete a la EdLab para docentes, organizada por Aidea en alianza con Unacem!  Un espacio práctico y colaborativo donde trabajarás desafíos educativos reales y aprenderás de Inteligencia Artificial.  📅 Fecha: Sábado 24 de octubre 📍 Lugar: UPC, Lima – Perú\n🎯 Modalidad: Presencial  📥 Postula ahora | Cupos limitados\nImportante: Revisaremos tu postulación y te contactaremos pronto. Recuerda que en esta edición damos prioridad a docentes de colegios de Lima Sur. Si no es tu caso, tu postulación quedará en lista de espera y te avisaremos si se libera un",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/kh/ea90bf72-d34a-411f-8411-d5a3bcb98903.png",
+   "inscripcion": "https://lu.ma/7pxk8oz7",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 25,
+   "afinidad": 8,
+   "puntaje": 33,
+   "por_que": "Presencial en Lima · Afín: Inteligencia artificial · Universidad · Gratis",
+   "original": {
+    "titulo": "EdLab <Aidea> & Unacem"
+   },
+   "visto_desde": "2026-10-19T22:05-05:00"
   },
   {
    "id": "eb:2003184764555",
@@ -2195,7 +2225,7 @@
    "organizador": "POSSO by Mr Marcel",
    "descripcion": "Una conversación en directo sobre el futuro del diseño, la estrategia y el valor del talento en la era de la inteligencia.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=60621865371de2fdc0edd0b850f8f915",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6616e37ba48d62278cf4913e4b4e54b4",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2393,7 +2423,7 @@
    "organizador": "Equidad de Género ITSON",
    "descripcion": "Objetivo:  Generar una plataforma intelectual para el análisis, reflexión y discusión de ideas y tendencias en el ámbito de la Instituciona",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194390256%2F39675977232%2F1%2Foriginal.20260925-203623?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.96&fp-y=0.39&s=6aed7e8f131f40c2dbcae8dd97f17771",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194390256%2F39675977232%2F1%2Foriginal.20260925-203623?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.96&fp-y=0.39&s=38d6fddb0cfb278ae9035d6e88f57d38",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3420,7 +3450,7 @@
    "organizador": "Más Voces en Diseño México",
    "descripcion": "Reunión virtual comunidad Más Voces en Diseño México.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196130959%2F302405960838%2F1%2Foriginal.20261019-202004?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6c5fb19799a754613fa0f1cbb9c7b73d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196130959%2F302405960838%2F1%2Foriginal.20261019-202004?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c2c4e764c3bb55d0cc8d62bfdbd1f238",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4058,7 +4088,7 @@
    "organizador": "LATIN AMERICAN DESIGN",
    "descripcion": "LADFEST X. NOW IN LIMA.\nCelebra los 10 años del Latin American Design Festival este 06 y 07 de noviembre de 2026.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b8729d4b9562a1ae09d8ab9ee7cf6c47",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=afae269f99864aa92b9af2ca1be6bbb5",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-ladfest-x-2026-1995168675216",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4446,7 +4476,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4037bc17149716d609edd59c3199863a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4d6a4bea9b5d6fd895a6d4e549ae6bce",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4636,7 +4666,7 @@
    "organizador": "Black Alpaca Security Conference",
    "descripcion": "A kickass cybersecurity conference for curious minds eager to explore, learn, and connect in a dynamic and engaging setting!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=83e7c861a96cec95e69ed86629c05fea",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=939cdadc208e59fccb14818e6d0b5174",
    "inscripcion": "https://www.eventbrite.com.pe/e/black-alpaca-security-conference-2026-tickets-2000906328692",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4649,36 +4679,6 @@
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima",
    "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "eb:2003335308837",
-   "titulo": "Ven a la Cumbre Millonarios Conscientes 2026 Lima Perú",
-   "inicio": "2026-11-14T09:00-05:00",
-   "fin": "",
-   "lugar": "Convexia Expo Center, 4406 Avenida Javier Prado Este",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/ven-a-la-cumbre-millonarios-conscientes-2026-lima-peru-tickets-2003335308837",
-   "fuente": "Eventbrite",
-   "organizador": "Javi Rodriguez",
-   "descripcion": "Evento Crecimiento Personal y Transformación de 2 días. Mentalidad, Motivación, Consciencia, Negocio, Emprendimiento, Pareja -> Más Informac",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196088669%2F3012886124689%2F1%2Foriginal.20261019-124313?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=83a05a8e9330ca2e99978e55e75ff5b0",
-   "inscripcion": "https://www.eventbrite.com/e/ven-a-la-cumbre-millonarios-conscientes-2026-lima-peru-tickets-2003335308837",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 24,
-   "afinidad": 4,
-   "puntaje": 28,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
-   "original": {
-    "fin": "2026-11-14T22:00-05:00"
-   },
-   "visto_desde": "2026-10-13T08:24-05:00"
   },
   {
    "id": "eb:2003510824810",
@@ -5548,6 +5548,34 @@
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima",
    "visto_desde": "2026-09-29T22:37-05:00"
+  },
+  {
+   "id": "luma:evt-crpVGg06NULnKJY",
+   "titulo": "SEMCOMP 2026",
+   "inicio": "2026-11-30T10:00-05:00",
+   "fin": "2026-12-04T18:00-05:00",
+   "lugar": "Av. Carlos Germán Amezaga #375, Cercado de Lima, Lima, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/cykb4w6b",
+   "fuente": "Luma",
+   "organizador": "SEMCOMP_UNMSM 2026",
+   "descripcion": "¡LA SEMCOMP ESTÁ CADA VEZ MÁS CERCA!\nPor primera vez llega la SEMCOMP UNMSM 🇵🇪.\nNo te pierdas ninguna actualización:\nÚnete a nuestra comunidad y síguenos en todos nuestros canales oficiales:\nCanal de WhatsApp: https://whatsapp.com/channel/0029Vb8pcp61iUxfTwuKCs1b\nInstagram: https://www.instagram.com/semcompunmsm?cplk=Z3JqYW91bXVzZmhv\nLinkedIn: https://www.linkedin.com/company/semcomp-unmsm/\nTodos los accesos en nuestro Linktree: https://linktr.ee/semcompunmsm\nInspirada en el formato de los encuentros universitarios de computación y tecnología más emblemáticos de la región, la Semana de la Computación aterriza en San Marcos para reunir a la comunidad académica, estudiantes y apasionados del s",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/03/3b4a835d-1e90-49f5-a13d-e66294c38153.jpg",
+   "inscripcion": "https://lu.ma/cykb4w6b",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-10-19T22:05-05:00"
   },
   {
    "id": "wikicfp:200050",
@@ -8218,31 +8246,6 @@
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "pucp:taller-de-autorretratos-cinematograficos-09102026112115",
-   "titulo": "Taller de Autorretratos cinematográficos",
-   "inicio": "2026-10-19T15:00-05:00",
-   "fin": "2026-10-19T17:00-05:00",
-   "lugar": "Estudios Generales Letras (Pabellón L)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/taller-de-autorretratos-cinematograficos-09102026112115/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Desde la Oficina de Promoción Social y Actividades Culturales - Oprosac, en colaboración con el Cine Club Letras PUCP, presentamos una nueva edición del ciclo de talleres formativos “Directoras creando cine”, una propuesta que busca generar espacios de aprendizaje, reflexión y creación audiovisual d",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Portal_DCI_2_d4dff8543b.png",
-   "inscripcion": "https://forms.gle/h1KeVWM3yYaBiKTaA",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
-  },
-  {
    "id": "pucp:taller-de-primeros-auxilios-psicologicos-2026-2",
    "titulo": "Taller de Primeros Auxilios Psicológicos 2026-2",
    "inicio": "2026-10-20T14:00-05:00",
@@ -8318,6 +8321,31 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "pucp:taller-de-autorretratos-cinematograficos-09102026112115",
+   "titulo": "Taller de Autorretratos cinematográficos",
+   "inicio": "2026-10-21T15:00-05:00",
+   "fin": "2026-10-21T17:00-05:00",
+   "lugar": "Estudios Generales Letras (Pabellón L)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/taller-de-autorretratos-cinematograficos-09102026112115/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Desde la Oficina de Promoción Social y Actividades Culturales - Oprosac, en colaboración con el Cine Club Letras PUCP, presentamos una nueva edición del ciclo de talleres formativos “Directoras creando cine”, una propuesta que busca generar espacios de aprendizaje, reflexión y creación audiovisual d",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Portal_DCI_2_d4dff8543b.png",
+   "inscripcion": "https://forms.gle/h1KeVWM3yYaBiKTaA",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
+  },
+  {
    "id": "luma:evt-bSyD36jyhCHFzg1",
    "titulo": "Evento para Repartidores PedidosYa con Takenos",
    "inicio": "2026-10-22T10:00-05:00",
@@ -8380,7 +8408,7 @@
    "organizador": "Ermantourage UK",
    "descripcion": "Connect with other locals over coffee! Meet a new friend in your city. A different cafe each gathering!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=41c63decc8c3960d0e164307bbc210de",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa8e3e4933db165428ed9864b11725aa",
    "inscripcion": "https://www.eventbrite.com/e/the-comeunity-project-lima-coffee-with-strangers-tickets-1984736924569",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8530,7 +8558,7 @@
    "organizador": "Croksy",
    "descripcion": "Descubre nuestra nueva línea para los pequeños de la casa, llena de vibrantes colores y divertidos diseños: Croksy Kids.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=51010f3c5c78ec42a8e5989da33f159f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1eb2b337ddc3ab1f5b5a82cd7513eb92",
    "inscripcion": "https://www.eventbrite.com/e/entradas-lanzamiento-linea-para-ninos-croksy-kids-2002957885955",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8555,7 +8583,7 @@
    "organizador": "",
    "descripcion": "Ven y disfruta de una experiencia especial para descubrir regalos personalizados y compartir momentos inolvidables.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195488381%2F3017190562301%2F1%2Foriginal.20261009-225126?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e05474b51bf5a9e6f4d79325f64172f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195488381%2F3017190562301%2F1%2Foriginal.20261009-225126?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=428fea9926c20bd311393bebe1db4c1f",
    "inscripcion": "https://www.eventbrite.com/e/dia-de-la-sorpresa-tickets-2003223825387",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8655,7 +8683,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b95e88f68c35e5273e2da11e89e4793c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254435458",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8680,7 +8708,7 @@
    "organizador": "caminodevida",
    "descripcion": "Bautismo punto cdv",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188136107%2F2593824077661%2F1%2Foriginal.20260703-043023?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6fe48d096fd6214309cab086f1db764f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188136107%2F2593824077661%2F1%2Foriginal.20260703-043023?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9f3b3725664692ccf66f8bfa4a714fea",
    "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-punto-cdv-registration-2003570909525",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8830,7 +8858,7 @@
    "organizador": "",
    "descripcion": "¡Ven a disfrutar música, baile y pura jarana en vivo junto a Fuego Criollo!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f981fdaf00ec37d8ff53631615ac5c02",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f4f100446e0778d8ad7c3d33817468b4",
    "inscripcion": "https://www.eventbrite.es/e/fuego-y-jarana-con-fuego-criollo-tickets-2003293488752",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8980,7 +9008,7 @@
    "organizador": "Burpsuite Day Peru",
    "descripcion": "El primer evento de la comunidad Burp Suite en el Perú. Charlas técnicas de AppSec y pentesting. 7 de noviembre, INICTEL-UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9c21874f822d85d9b64e69a738719a6b",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=889ea049d6c1213d15abca73d4f5ec0f",
    "inscripcion": "https://www.eventbrite.com.pe/e/burpsuite-day-peru-2026-tickets-1999138227253",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9814,7 +9842,7 @@
    "organizador": "Glow Up Peru",
    "descripcion": "Get ready to shine bright like a diamond at GLOW UP PERÚ 2026, where your beauty will reach new heights!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171624158%2F461107855766%2F1%2Foriginal.20251124-075432?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.47&fp-y=0.139&s=bb38d2fdef128f12711b14cbd9d164ce",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171624158%2F461107855766%2F1%2Foriginal.20251124-075432?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.47&fp-y=0.139&s=9cc5ee4ef1aac64e603786721b0f5ed5",
    "inscripcion": "https://www.eventbrite.com/e/glow-up-peru-2026-tickets-1975272313663",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9864,7 +9892,7 @@
    "organizador": "",
    "descripcion": "¿Quieres estar en la mejor fiesta del año? \n\nEstá fiesta se a estado planeando desde inicio de año y es la fiesta que más promete",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192783457%2F3013078503983%2F1%2Foriginal.20260905-184007?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.517&fp-y=0.279&s=0e875259796859fc7fadadab2755fdee",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192783457%2F3013078503983%2F1%2Foriginal.20260905-184007?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.517&fp-y=0.279&s=bee7e36d283f4c4cf8d9a9b18f7ddcc3",
    "inscripcion": "https://www.eventbrite.com/e/halloween-edition-tickets-1999863310998",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10676,8 +10704,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-19T16:58-05:00",
-  "revisados": 236,
+  "fecha": "2026-10-19T22:05-05:00",
+  "revisados": 237,
   "corregidos": 19,
   "avisos": 3,
   "archivados": 4,
@@ -10721,6 +10749,14 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://www.eventbrite.com.mx/e/programa-de-capacitacion-bcmx2026-tickets-2003627528875"
+   },
+   {
+    "id": "luma:evt-zNdCbcSHnIPDrvJ",
+    "titulo": "EdLab  & Unacem",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "titulo: tenía HTML o acentos rotos",
+    "url": "https://lu.ma/7pxk8oz7"
    },
    {
     "id": "eb:2003515262082",
@@ -10811,14 +10847,6 @@
     "url": "https://lu.ma/po57s1qc"
    },
    {
-    "id": "eb:2003335308837",
-    "titulo": "Ven a la Cumbre Millonarios Conscientes 2026 Lima Perú",
-    "fuente": "Eventbrite",
-    "nivel": "corregido",
-    "detalle": "hora de término no creíble (09:00–22:00)",
-    "url": "https://www.eventbrite.com/e/ven-a-la-cumbre-millonarios-conscientes-2026-lima-peru-tickets-2003335308837"
-   },
-   {
     "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
     "titulo": "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit 2026",
     "fuente": "Institucional",
@@ -10892,21 +10920,13 @@
    }
   ],
   "enlaces": {
-   "comprobados": 6,
+   "comprobados": 33,
    "rotos": 6,
    "sin_comprobar": 0
   },
   "fuentes_a_revisar": []
  },
  "por_confirmar": [
-  {
-   "titulo": "ALO Lift reúne a representantes de 8 países en la Cumbre de Las Américas 2026",
-   "url": "https://mineriaenergia.com/alo-lift-reune-a-representantes-de-8-paises-en-la-cumbre-de-las-americas-2026/",
-   "medio": "mineriaenergia",
-   "publicado": "Mon, 19 Oct 2026 14:19:00 GMT",
-   "resumen": "El encuentro, realizado del 14 al 16 de octubre en Lima, Perú, fortaleció la integración regional de ALO Group, promoviendo el intercambio de experiencias y la colaboración entre equipos comerciales y ...",
-   "fecha_mencionada": ""
-  },
   {
    "titulo": "Cumbre Infracon Perú 2026 destacó potencial del país para inversiones en infraestructura",
    "url": "https://andina.pe/agencia/noticia-cumbre-infracon-peru-2026-destaco-potencial-del-pais-para-inversiones-infraestructura-1096417.aspx",
@@ -10916,83 +10936,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "El XII Foro Gerencias Legales reunirá en Lima a directivos jurídicos de IBM, Uber, CEMEX y otras multinacionales",
-   "url": "https://www.lawyerpress.com/2026/10/13/el-xii-foro-gerencias-legales-reunira-en-lima-a-directivos-juridicos-de-ibm-uber-cemex-y-otras-multinacionales/",
-   "medio": "Lawyerpress",
-   "publicado": "Tue, 13 Oct 2026 08:44:00 GMT",
-   "resumen": "Organizado por Gericó Associates, el encuentro se celebrará el 28 de octubre y abordará los nuevos riesgos empresariales, la inteligencia artificial, el arbitraje internacional y la evolución del ...",
-   "fecha_mencionada": "2026-10-28T00:00-05:00"
-  },
-  {
-   "titulo": "IAGR anuncia a los patrocinadores de su Conferencia Anual 2026 para Lima, Perú",
-   "url": "https://www.soloazar.com/es/categoria/eventos/iagr-anuncia-a-los-patrocinadores-de-su-conferencia-anual-2026-para-lima-peru",
-   "medio": "soloazar",
-   "publicado": "Thu, 08 Oct 2026 05:00:00 GMT",
-   "resumen": "(Lima).- La Asociación Internacional de Reguladores del Juego (IAGR) anunció a los patrocinadores para su conferencia del 19 al 22 de octubre de 2026 en el JW Marriott Lima, reuniendo a líderes normat ...",
-   "fecha_mencionada": "2026-10-19T00:00-05:00"
-  },
-  {
-   "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
-   "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
-   "medio": "Infobae",
-   "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
-   "resumen": "La feria ofrecerá conversatorios, encuentros con escritores, presentaciones de novedades editoriales, talleres, cuentacuentos, recitales de poesía y espectáculos musicales ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Fondo Editorial del Congreso en la 8.ª Feria Metropolitana del Libro Lima Lee 2026",
-   "url": "https://andina.pe/agencia/noticia-fondo-editorial-del-congreso-la-8ª-feria-metropolitana-del-libro-lima-lee-2026-1096076.aspx",
-   "medio": "Agencia Peruana de Noticias | ANDINA",
-   "publicado": "Thu, 15 Oct 2026 07:52:00 GMT",
-   "resumen": "El Fondo Editorial del Congreso (FEC) participará en la 8.ª Feria Metropolitana del Libro Lima Lee 2026, evento editorial organizado por la Municipalidad de Lima que abrirá sus puertas del viernes 16 ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "De Valladolid a Lima: UNI consiguió la sede de congreso internacional de urbanismo para 2027",
-   "url": "https://larepublica.pe/sociedad/2026/10/05/de-valladolid-a-lima-uni-consiguio-la-sede-de-congreso-internacional-de-urbanismo-para-2027-390245",
-   "medio": "La República",
-   "publicado": "Mon, 05 Oct 2026 07:42:00 GMT",
-   "resumen": "Este encuentro, centrado en la forma urbana y el cambio climático, reunirá a investigadores de diversas disciplinas para abordar la resiliencia de las ciudades ante crisis ambientales.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
-   "resumen": "Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. El en ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Retail Media Summit llega por primera vez a Perú: “Connected Commerce” reunirá a la industria el 20 de octubre",
-   "url": "https://roastbrief.com.mx/2026/10/retail-media-summit-llega-por-primera-vez-a-peru-connected-commerce-reunira-a-la-industria-el-20-de-octubre/",
-   "medio": "Roastbrief",
-   "publicado": "Tue, 13 Oct 2026 09:24:00 GMT",
-   "resumen": "Octubre, 2026. El próximo martes 20 de octubre se realizará en Lima la primera edición peruana del Retail Media Summit ...",
-   "fecha_mencionada": "2026-10-20T00:00-05:00"
-  },
-  {
-   "titulo": "Soberanía de la IA y liderazgo de TI marcaron el Red Hat Summit Connect 2026 Lima",
-   "url": "https://www.revistaeconomia.com/soberania-de-la-ia-y-liderazgo-de-ti-marcaron-el-red-hat-summit-connect-2026-lima/",
-   "medio": "Revista Economía",
-   "publicado": "Thu, 15 Oct 2026 10:06:00 GMT",
-   "resumen": "El Red Hat Summit Connect 2026 se realiza también en Montevideo, Buenos Aires, Santiago, Ciudad de México, São Paulo y Bogotá.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
-   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
-   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Schindler Perú, Main Sponsor del Nexo Summit 2026, destaca su liderazgo en movilidad urbana e inmobiliaria",
-   "url": "https://agenciaorbita.org/2026/10/06/schindler-peru-main-sponsor-del-nexo-summit-2026-destaca-su-liderazgo-en-movilidad-urbana-e-inmobiliaria/",
-   "medio": "Agencia de Noticias Órbita",
-   "publicado": "Mon, 05 Oct 2026 17:00:00 GMT",
-   "resumen": "El 9 y 10 de septiembre se llevó a cabo Nexo Summit 2026, la conferencia inmobiliaria más importante del país, evento en el que Schindler Perú participó en la categoría de main sponsor (patrocinador p ...",
+   "titulo": "ALO Lift reúne a representantes de 8 países en la Cumbre de Las Américas 2026",
+   "url": "https://mineriaenergia.com/alo-lift-reune-a-representantes-de-8-paises-en-la-cumbre-de-las-americas-2026/",
+   "medio": "mineriaenergia",
+   "publicado": "Mon, 19 Oct 2026 14:19:00 GMT",
+   "resumen": "El encuentro, realizado del 14 al 16 de octubre en Lima, Perú, fortaleció la integración regional de ALO Group, promoviendo el intercambio de experiencias y la colaboración entre equipos comerciales y ...",
    "fecha_mencionada": ""
   }
  ],
@@ -11153,7 +11101,6 @@
  },
  "primera_vez": {
   "luma:evt-ECtnfob42pfw7zA": "2026-09-24T21:06-05:00",
-  "luma:evt-zmNdUbRiQVfLBVR": "2026-09-24T21:06-05:00",
   "meetup:315593600": "2026-09-24T21:06-05:00",
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:tejiendo-redes-de-encuentro-para-estudiantes": "2026-09-24T21:10-05:00",
@@ -11306,7 +11253,6 @@
   "inst:sni-webinar-contratos-laborales-a-plazo-fijo-gu-a-pr-ctica-p:2026-10-29": "2026-10-12T17:23-05:00",
   "luma:evt-uMLHeVK4IAWybmd": "2026-10-13T00:05-05:00",
   "eb:2003346622677": "2026-10-13T08:24-05:00",
-  "eb:2003335308837": "2026-10-13T08:24-05:00",
   "tedx:70615": "2026-10-13T08:24-05:00",
   "tedx:70296": "2026-10-13T08:24-05:00",
   "pucp:el-tribunal-de-justicia-de-la-can-supranacionalidad-competencias-y-tutela-del-particular-12102026145909": "2026-10-13T15:30-05:00",
@@ -11383,6 +11329,9 @@
   "pucp:taller-de-gestion-de-estres-2026-2": "2026-10-19T16:58-05:00",
   "luma:evt-fjJKrLjuluVAIeT": "2026-10-19T16:58-05:00",
   "opportunitydesk:rtunitydesk-org-2026-10-19-twas-research-professors-in-ldcs-2026-2027-": "2026-10-19T16:58-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-10-19-fait-fellowship-2027-": "2026-10-19T16:58-05:00"
+  "opportunitydesk:https-opportunitydesk-org-2026-10-19-fait-fellowship-2027-": "2026-10-19T16:58-05:00",
+  "luma:evt-BUWxtNHZIGLOJpz": "2026-10-19T22:05-05:00",
+  "luma:evt-zNdCbcSHnIPDrvJ": "2026-10-19T22:05-05:00",
+  "luma:evt-crpVGg06NULnKJY": "2026-10-19T22:05-05:00"
  }
 }
