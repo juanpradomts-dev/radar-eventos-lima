@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T13:52-05:00",
+ "actualizado": "2026-10-23T18:45-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 51
+   "n": 49
   },
   "IEEE Perú": {
    "ok": true,
@@ -39,7 +39,8 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10
+   "n": 10,
+   "cache": "2026-10-23T13:51-05:00"
   },
   "TEDx": {
    "ok": true,
@@ -58,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 393,
+ "revisados": 391,
  "top": 55,
  "eventos": [
   {
@@ -295,33 +296,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "pucp:1826-el-ultimo-acto-de-la-independencia-y-el-sueno-de-la-unidad-latinoamericana-19102026145753",
-   "titulo": "1826: El último acto de la independencia y el sueño de la unidad latinoamericana",
-   "inicio": "2026-10-23T09:00-05:00",
-   "fin": "2026-10-23T18:00-05:00",
-   "lugar": "Complejo Mac Gregor (Pabellón N)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/1826-el-ultimo-acto-de-la-independencia-y-el-sueno-de-la-unidad-latinoamericana-19102026145753/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Este seminario constituye una actividad académica de especial relavancia institucional en vista de las celebraciones del Bicentenario del Congreso de Panamá. Está orientado a promover la reflexion rigurosa sobre los procesos históricos vinculados con los últimos actos de la independencia sudamericana, con la consolidación inicial del orden republicano, así como con la necesidad de mantener la unidad americana ante posibles intentos de reconquista por parte de las potencias europeas. Busca asimismo propiciar el diálogo internacional entre especialistas, investigadores/as, docentes, estudiantes y público interesado en el estudio de este período fundamental de nuestra historia, con el fin de da",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
-   "inscripcion": "https://forms.gle/27jSkpFoeJGip5cc6",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 35,
-   "afinidad": 8,
-   "puntaje": 43,
-   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
-   "visto_desde": "2026-10-20T16:10-05:00"
-  },
-  {
    "id": "opportunitydesk:esk-org-2026-10-23-global-changemakers-media-impact-academy-2026-2027-",
    "titulo": "Global Changemakers Media Impact Academy 2026/2027",
    "tipo": "convocatoria",
@@ -349,62 +323,6 @@
    "puntaje": 26,
    "por_que": "Abre puertas (beca/programa) · Afín: Competencias · Afín: Gestión de proyectos · Se postula en línea",
    "visto_desde": "2026-10-23T13:52-05:00"
-  },
-  {
-   "id": "pucp:viernes-economico-y-financiero-gas-transicion-energetica-y-ambiente-19102026164024",
-   "titulo": "Viernes Económico y Financiero \"Gas, Transición energética y Ambiente\"",
-   "inicio": "2026-10-23T14:00-05:00",
-   "fin": "2026-10-23T16:00-05:00",
-   "lugar": "Auditorio de Ciencias Sociales (Gustavo Gutiérrez Merino)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/viernes-economico-y-financiero-gas-transicion-energetica-y-ambiente-19102026164024/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El gas natural puede contribuir a la transición energética del Perú al sustituir combustibles más contaminantes, reducir emisiones frente al carbón y al petróleo y mejorar la seguridad energética. El país cuenta con importantes reservas, especialmente en Camisea y hay posibilidades de nuevos yacimientos. Sin embargo, el gas sigue siendo un combustible fósil con emisiones de CO₂ y la explotación gasífera en la Amazonía implica riesgos para la biodiversidad y los pueblos indígenas. Paralelamente, el Perú posee un gran potencial para desarrollar energías alternativas, particularmente la solar. ¿Cuáles son las políticas más adecuadas en este contexto complejo?\n \nExpositora | Ysabel Calderón (Per",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Imagen_para_agenda_PUCP_3_af48555431.jpg",
-   "inscripcion": "https://bit.ly/3VDijAN",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Investigación y ciencia"
-   ],
-   "valor": 35,
-   "afinidad": 18,
-   "puntaje": 53,
-   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
-   "visto_desde": "2026-10-20T16:10-05:00"
-  },
-  {
-   "id": "luma:evt-ECtnfob42pfw7zA",
-   "titulo": "⛏️ Taller de Difusión de Resultados \"DATA AIX\" – SUP 12G 🚀",
-   "inicio": "2026-10-23T16:00-05:00",
-   "fin": "2026-10-23T17:00-05:00",
-   "lugar": "Av. Túpac Amaru 210, Rímac",
-   "distrito": "Rímac",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/nu1hru5x",
-   "fuente": "Luma",
-   "organizador": "STARTUP UNI, José Torres Valenzuela",
-   "descripcion": "💼 Difusión de Resultados – DATA AIX\nSistema de exploración minera con IA para análisis de variables geológicas.\nTe invitamos a conocer los resultados del proyecto desarrollado por DATA AIX, una iniciativa orientada al desarrollo de una solución tecnológica basada en inteligencia artificial para la exploración y análisis de información geológica.\n🔎 Durante el taller conocerás:\n📈 Los resultados del proyecto🚀 Sus principales avances y logros💡 La solución desarrollada y sus principales funcionalidades🧪 El proceso de desarrollo y validación📊 Los aprendizajes obtenidos durante el proyecto\n💰 Proyecto cofinanciado por ProInnóvate – Ministerio de la Producción, en el marco de Startup Perú 12G.\n👨‍💻 CE",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/5k/40d9c220-e685-4828-b88a-2274169cf699.jpg",
-   "inscripcion": "https://lu.ma/nu1hru5x",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Datos y analítica",
-    "Tecnología e IA"
-   ],
-   "valor": 35,
-   "afinidad": 30,
-   "puntaje": 65,
-   "por_que": "Afín: Datos y machine learning · Formativo · Presencial en Lima · Afín: Inteligencia artificial",
-   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "eb:2003627528875",
@@ -517,62 +435,6 @@
    "puntaje": 39,
    "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Empresa reconocida",
    "visto_desde": "2026-09-24T21:06-05:00"
-  },
-  {
-   "id": "devpost:30992",
-   "titulo": "Build, Ship, Shape: Amazon Developer Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-08-31T00:00-05:00",
-   "fin": "2026-10-23T23:59-05:00",
-   "cierre": "2026-10-23T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://amazonappdev2026.devpost.com/",
-   "inscripcion": "https://amazonappdev2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Amazon",
-   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended, Productivity. Premios: $138,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/047/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 24,
-   "afinidad": 29,
-   "puntaje": 53,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:31617",
-   "titulo": "IEEE Hack For Humanity",
-   "tipo": "hackathon",
-   "inicio": "2026-10-11T00:00-05:00",
-   "fin": "2026-10-23T23:59-05:00",
-   "cierre": "2026-10-23T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://ieee-ai-hack-for-humanity.devpost.com/",
-   "inscripcion": "https://ieee-ai-hack-for-humanity.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "IEEE Charlotte Section",
-   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Social Good. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/522/077/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 26,
-   "afinidad": 26,
-   "puntaje": 52,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gremio o institución · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-22T18:51-05:00"
   },
   {
    "id": "pucp:feape-2026-05102026102819",
@@ -1046,6 +908,34 @@
    "visto_desde": "2026-10-18T17:45-05:00"
   },
   {
+   "id": "devpost:31617",
+   "titulo": "IEEE Hack For Humanity",
+   "tipo": "hackathon",
+   "inicio": "2026-10-11T00:00-05:00",
+   "fin": "2026-10-24T23:59-05:00",
+   "cierre": "2026-10-24T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://ieee-ai-hack-for-humanity.devpost.com/",
+   "inscripcion": "https://ieee-ai-hack-for-humanity.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "IEEE Charlotte Section",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/522/077/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 26,
+   "afinidad": 26,
+   "puntaje": 52,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gremio o institución · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-22T18:51-05:00"
+  },
+  {
    "id": "eb:2003208227734",
    "titulo": "Pizza Lab Experience",
    "inicio": "2026-10-25T17:00-05:00",
@@ -1435,7 +1325,7 @@
    "organizador": "POSSO by Mr Marcel",
    "descripcion": "Una conversación en directo sobre el futuro del diseño, la estrategia y el valor del talento en la era de la inteligencia.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe6430f4f254fe21137ca72af85e6f6a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=434&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7c05b75bb1a88f5ffd61e3c1ef9acbf0",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1491,7 +1381,7 @@
    "organizador": "AIDIS Argentina",
    "descripcion": "Desafíos, experiencias y oportunidades que están redefiniendo el futuro de la ingeniería ambiental y sanitaria en la región.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195705772%2F1444481018573%2F1%2Foriginal.20261013-165221?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.417&fp-y=0.194&s=09522c5270aa4657ceaa42142ba71daa",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195705772%2F1444481018573%2F1%2Foriginal.20261013-165221?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.417&fp-y=0.194&s=00c93092d0d690b0f71de03997aedf0b",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1617,33 +1507,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-04T15:49-05:00"
-  },
-  {
-   "id": "devpost:31792",
-   "titulo": "Hack to the Future",
-   "tipo": "hackathon",
-   "inicio": "2026-10-20T00:00-05:00",
-   "fin": "2026-10-27T23:59-05:00",
-   "cierre": "2026-10-27T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://hack-to-the-missing-future-ai.devpost.com/",
-   "inscripcion": "https://hack-to-the-missing-future-ai.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HackathonForEveryone",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/605/103/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-23T03:28-05:00"
   },
   {
    "id": "eb:1982108679417",
@@ -2410,6 +2273,34 @@
    "puntaje": 31,
    "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
    "visto_desde": "2026-09-27T16:59-05:00"
+  },
+  {
+   "id": "luma:evt-hI9cDJTENcdEbct",
+   "titulo": "Blueprint #02 con Rodrigo Chaname & Luis Cusihuallpa",
+   "inicio": "2026-10-29T18:00-05:00",
+   "fin": "2026-10-29T19:30-05:00",
+   "lugar": "Jr. Medrano Silva 165, Barranco",
+   "distrito": "Barranco",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/j3w1awfc",
+   "fuente": "Luma",
+   "organizador": "UTEC Ventures",
+   "descripcion": "Hace cuatro años, Rodrigo empezaba a trabajar en el sistema de anuncios de Meta en San Francisco, y Luis invertía en startups desde Salkantay Ventures en Lima.\nSobre Rodrigo y Luis:\nHoy construyen juntos una compañía de AI en San Francisco. Todavía está en stealth, ellos son founders de Harvard y Dartmouth y que ya han levantado capital de ángeles como David Vélez (Nubank), Matías Woloski (Auth0) y Sebastián Mejía (Rappi). En el camino, Rodrigo pasó cuatro años en Meta resolviendo problemas de bidding, ranking y calibración. Luis trabajó en EY-Parthenon en Boston y fundó Peru Abroad.\nRodrigo y Luis se sentarán con nosotros para conversar sobre cómo se arma una compañía de AI hoy, qué los lle",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/ea/2dbad746-33f2-470d-aaa3-353f298a3227.png",
+   "inscripcion": "https://lu.ma/j3w1awfc",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 25,
+   "afinidad": 12,
+   "puntaje": 37,
+   "por_que": "Presencial en Lima · Afín: Inteligencia artificial · Universidad · Gratis",
+   "visto_desde": "2026-10-23T18:45-05:00"
   },
   {
    "id": "luma:evt-Q4R9XnDQPqNQhbn",
@@ -3309,7 +3200,7 @@
   },
   {
    "id": "luma:evt-EWQveZIQpnqMTyH",
-   "titulo": "Blueprint con Adolfo Valdivieso (Palo Alto Collaboration Co.)",
+   "titulo": "Blueprint #03 con Adolfo Valdivieso (Palo Alto Collaboration Co.)",
    "inicio": "2026-11-03T18:00-05:00",
    "fin": "2026-11-03T19:30-05:00",
    "lugar": "Barranco, Perú",
@@ -3320,7 +3211,7 @@
    "organizador": "UTEC Ventures, Kevin",
    "descripcion": "En 2014, la oficina de Adolfo era una mesa en el UTEC Garage. Estaba construyendo Tullpi como parte de la primera generación de UTEC Ventures.\nDoce años después vive en Palo Alto y es co-founder de Palo Alto Collaboration Co., donde construye Paco, un agente que trabaja dentro de los equipos de producto, y Pana, un agente personal para cada persona. Llegar ahí le tomó ocho productos distintos. En el camino estudió física en la UNI, hizo su MBA en Stanford y fue CTO de cuatro startups, entre ellas Cometa y Space AG.\nAdolfo se sentará con nosotros a cenar para hablar de lo que intentó antes de que algo funcionara, de cómo es construir en Silicon Valley hoy y de hacia dónde cree que va todo est",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/5e/6474cbd0-91c1-4415-8c67-a0df6edb52b5.png",
+   "imagen": "https://images.lumacdn.com/uploads/d4/05c4c9c7-ca49-4573-9a9b-0e4fdb1596cc.png",
    "inscripcion": "https://lu.ma/j7oqny7d",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
@@ -3933,7 +3824,7 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/p3rwlp1b",
    "fuente": "Luma",
-   "organizador": "Creative Friends Perú, Gianmarco Guerrero Menacho",
+   "organizador": "Yoselyn Solano, Gianmarco Guerrero Menacho",
    "descripcion": "¡evento gratuito!\n𝗡𝗼𝘁𝗶𝗼𝗻 𝗦𝘁𝘂𝗱𝗲𝗻𝘁𝘀 𝗦𝘂𝗺𝗺𝗶𝘁 es una experiencia diseñada para ayudar a las personas a pasar del caos a la claridad, construyendo sistemas simples, visuales y funcionales para su vida y trabajo.\nHoy, Notion está transformando la manera en que organizamos información, gestionamos proyectos y damos seguimiento a nuestras ideas, permitiendo que cualquier persona cree su propio sistema sin necesidad de herramientas complejas.\nConoce más en: https://www.instagram.com/creativefriendspe/\nhttps://www.linkedin.com/company/creativefriendsperu/\nhttps://www.instagram.com/yoselynsolano/",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/8l/74694856-63f9-40c0-9dbd-ae6f10b31da9.png",
@@ -5079,7 +4970,7 @@
    "organizador": "HUG Perú",
    "descripcion": "Segundo meetup presencial de HashiCorp User Group Perú: charlas, experiencias y networking sobre Terraform, Vault y DevOps.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195772314%2F3017638582643%2F1%2Foriginal.20261014-121002?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0e90a6d18ec4075c4f9eca1c74c4fc3b",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195772314%2F3017638582643%2F1%2Foriginal.20261014-121002?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d56c82f3b19c1f1ab78c67b795cd0ef8",
    "inscripcion": "https://www.eventbrite.com/e/hug-peru-meetup-presencial-tickets-2003402159790",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -6037,6 +5928,33 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-20T11:15-05:00"
+  },
+  {
+   "id": "luma:evt-FpMXsIt3VijlANC",
+   "titulo": "The Future of Money & the Law",
+   "inicio": "2026-12-22T17:00-05:00",
+   "fin": "2026-12-22T22:00-05:00",
+   "lugar": "Av. José Larco 770, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/qmgjctwo",
+   "fuente": "Luma",
+   "organizador": "ALTOKEN × DDPAY",
+   "descripcion": "An invitation-only evening for the people making real decisions in tokenization, payments and regulation in Peru: asset owners, investors, regulated platforms, builders, lawyers and regulators. One room, one evening.\nTHREE CONVERSATIONS\nPayments & treasury, hosted by DDPAY.io: cross-border B2B payments and treasury management.\n\nReal-world assets, hosted by ALTOKEN.io: tokenizing real estate, debt and equity in Latin America.\n\nRegulation & trust: what regulation means for builders, investors and asset owners, and where it's heading.\n\nTHE EVENING\nDoors open at 5:00 PM (Lima time) · Panel I: the new generation · Panel II: the veterans · Conversations continue until 10:00 PM.\nACCESS\n100 seats. R",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/hc/bc05da50-3894-4cf7-b178-64c7ee063769.png",
+   "inscripcion": "https://lu.ma/qmgjctwo",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Gratis",
+   "visto_desde": "2026-10-23T18:45-05:00"
   },
   {
    "id": "wikicfp:192324",
@@ -8426,31 +8344,6 @@
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "pucp:emocionarte-amigos-adorables-mini-peluches-de-fieltro-y-felpa",
-   "titulo": "Emocionarte - Amigos adorables: mini peluches de fieltro y felpa",
-   "inicio": "2026-10-23T15:00-05:00",
-   "fin": "2026-10-23T17:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/emocionarte-amigos-adorables-mini-peluches-de-fieltro-y-felpa/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "En este taller aprenderás técnicas sencillas de costura para elaborar un adorable peluche eligiendo entre fieltro y felpa. Además de llevarte a casa un amiguito único hecho por ti, disfrutarás y potenciarás tu paciencia y el gusto por el trabajo artesanal paso a paso.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/emocionarte_y_tejiendo_eff0d4983b.png",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=073&i=11631",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
-  },
-  {
    "id": "eb:2003070332285",
    "titulo": "Gran cierra puertas",
    "inicio": "2026-10-24T09:00-05:00",
@@ -8513,7 +8406,7 @@
    "organizador": "Croksy",
    "descripcion": "Descubre nuestra nueva línea para los pequeños de la casa, llena de vibrantes colores y divertidos diseños: Croksy Kids.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=93d73309e1529b802133a546aa96330c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1eb2b337ddc3ab1f5b5a82cd7513eb92",
    "inscripcion": "https://www.eventbrite.com/e/entradas-lanzamiento-linea-para-ninos-croksy-kids-2002957885955",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8688,7 +8581,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b95e88f68c35e5273e2da11e89e4793c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254435458",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8738,7 +8631,7 @@
    "organizador": "estudiantes del Intituto Certus",
    "descripcion": "Trae a tu niño a ser parte de estos espacios lúdicos y pedagógicos donde prenderan mediante el juego, la experimentación y la interacción",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195988588%2F3018024795339%2F1%2Foriginal.20261017-025825?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=235f29da2a7a836072727b839594b78f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195988588%2F3018024795339%2F1%2Foriginal.20261017-025825?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=82c000a5f374e62010073a323a506d02",
    "inscripcion": "https://www.eventbrite.com/e/feria-educativa-para-ninos-especiales-tickets-2003537351151",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8799,6 +8692,31 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
+   "id": "pucp:presentacion-del-libro-la-fuerza-de-la-educacion-23102026162852",
+   "titulo": "Presentación del libro “La fuerza de la educación”",
+   "inicio": "2026-10-28T17:00-05:00",
+   "fin": "2026-10-28T19:00-05:00",
+   "lugar": "Auditorio Gustavo Gutiérrez (Facultad de Ciencias Sociales)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/presentacion-del-libro-la-fuerza-de-la-educacion-23102026162852/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La Facultad de Educación y la Facultad de Ciencias Sociales de la PUCP invitan a la comunidad universitaria y al público interesado a participar en la presentación de La fuerza de la educación, obra de Flor Pablo Medina.\n\nUn espacio para encontrarnos y reflexionar sobre el papel transformador de la ",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLScF55jaAYVkpeaSqyQ3oU81Qe0-9EkNOqH3wUaFyOS1lzucDQ/viewform",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
   },
   {
    "id": "eb:2001593555205",
@@ -9113,7 +9031,7 @@
    "organizador": "Burpsuite Day Peru",
    "descripcion": "El primer evento de la comunidad Burp Suite en el Perú. Charlas técnicas de AppSec y pentesting. 7 de noviembre, INICTEL-UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=73ce9984146532b666cee130195508e2",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=889ea049d6c1213d15abca73d4f5ec0f",
    "inscripcion": "https://www.eventbrite.com.pe/e/burpsuite-day-peru-2026-tickets-1999138227253",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9138,7 +9056,7 @@
    "organizador": "Frequency: The Secret of Everything",
    "descripcion": "Más que una película: un viaje inmersivo hacia la frecuencia, la consciencia y las fuerzas invisibles que dan forma a la realidad.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182340534%2F2998879864403%2F1%2Foriginal.20260416-171045?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e46a4dec8eb12d62a385a6759e6c3861",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182340534%2F2998879864403%2F1%2Foriginal.20260416-171045?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e3ca4265ca693a12ba2aabd83b671c88",
    "inscripcion": "https://www.eventbrite.com/e/frequency-the-secret-of-everything-screening-in-lima-peru-tickets-2003684725953",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9494,33 +9412,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31124",
-   "titulo": "SVYCA Youth for Earth (Y4E) Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-09-20T00:00-05:00",
-   "fin": "2026-10-23T23:59-05:00",
-   "cierre": "2026-10-23T23:59-05:00",
-   "lugar": "Stanford University",
-   "distrito": "Stanford University",
-   "modalidad": "Presencial",
-   "url": "https://svycay4e.devpost.com/",
-   "inscripcion": "https://svycay4e.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Silicon Valley Youth Climate Action",
-   "descripcion": "Hackathon presencial en Stanford University. Temas: Social Good. Premios: $550.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/428/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 9,
-   "puntaje": 32,
-   "por_que": "Competencia · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31484",
    "titulo": "2026-2027 Fall ESE Senior Design",
    "tipo": "hackathon",
@@ -9715,6 +9606,90 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31061",
+   "titulo": "Gator Hack V - AI Days 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-23T00:00-05:00",
+   "fin": "2026-10-25T23:59-05:00",
+   "cierre": "2026-10-25T23:59-05:00",
+   "lugar": "Newell Hall, University of Florida",
+   "distrito": "Newell Hall",
+   "modalidad": "Presencial",
+   "url": "https://gatorhack2026.devpost.com/",
+   "inscripcion": "https://gatorhack2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "University of Florida",
+   "descripcion": "Hackathon presencial en Newell Hall, University of Florida. Temas: Education. Premios: $6,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/288/165/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 18,
+   "puntaje": 41,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:30071",
+   "titulo": "HarborHack 2026 - Agent In The Loop",
+   "tipo": "hackathon",
+   "inicio": "2026-10-23T00:00-05:00",
+   "fin": "2026-10-25T23:59-05:00",
+   "cierre": "2026-10-25T23:59-05:00",
+   "lugar": "College of Charleston, Harbor Walk",
+   "distrito": "College of Charleston",
+   "modalidad": "Presencial",
+   "url": "https://harborhack-2026.devpost.com/",
+   "inscripcion": "https://harborhack-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Charlestonhacks",
+   "descripcion": "Hackathon presencial en College of Charleston, Harbor Walk. Temas: Machine Learning/AI, Open Ended, Beginner Friendly. Premios: $1,500.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/829/092/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 26,
+   "puntaje": 42,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31165",
+   "titulo": "2026 AI for Good Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-23T00:00-05:00",
+   "fin": "2026-10-25T23:59-05:00",
+   "cierre": "2026-10-25T23:59-05:00",
+   "lugar": "The Link",
+   "distrito": "The Link",
+   "modalidad": "Presencial",
+   "url": "https://2026ai4goodhackathon.devpost.com/",
+   "inscripcion": "https://2026ai4goodhackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Florida Data Science for Social Good",
+   "descripcion": "Hackathon presencial en The Link. Temas: Machine Learning/AI, Social Good, Music/Art. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/185/970/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 33,
+   "puntaje": 49,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "opportunitiesforyouth:advisory-board-2027-2028-applications-open-for-young-people-worldwide-",
    "titulo": "Born This Way Foundation Youth Advisory Board 2027–2028: Applications Open for Young People Worldwide",
    "tipo": "voluntariado",
@@ -9783,7 +9758,7 @@
    "organizador": "willians orihuela y celinda challa",
    "descripcion": "Descubra el pitch empresarial de Lumia, una tienda online de belleza y cuidado personal enfocada en calidad y experiencia digital.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=28064e9b930cd602edd1c53a901b13fd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b85741703c1f96b3406cb57dfb06ac0e",
    "inscripcion": "https://www.eventbrite.com/e/pitch-empresarial-tienda-lumia-belleza-y-cuidado-personal-tickets-2003273856030",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10353,34 +10328,6 @@
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31152",
-   "titulo": "Cornell Six Sigma Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-10-16T00:00-05:00",
-   "fin": "2026-10-23T23:59-05:00",
-   "cierre": "2026-10-23T23:59-05:00",
-   "lugar": "Upson Hall 116",
-   "distrito": "Upson Hall 116",
-   "modalidad": "Presencial",
-   "url": "https://six-sigma-hackathon.devpost.com/",
-   "inscripcion": "https://six-sigma-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Cornell University",
-   "descripcion": "Hackathon presencial en Upson Hall 116. Temas: Machine Learning/AI, Social Good, Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/181/786/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 23,
-   "afinidad": 40,
-   "puntaje": 63,
-   "por_que": "Afín: Supply chain y operaciones · Competencia · Afín: Datos y machine learning · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31320",
    "titulo": "uXperience Design Jam sponsored by Sunlife",
    "tipo": "hackathon",
@@ -10406,6 +10353,34 @@
    "afinidad": 6,
    "puntaje": 22,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31845",
+   "titulo": "SpartHill Hacks 2026: IBM AI Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-10-23T00:00-05:00",
+   "fin": "2026-10-24T23:59-05:00",
+   "cierre": "2026-10-24T23:59-05:00",
+   "lugar": "SJSU - Spartan Complex",
+   "distrito": "SJSU - Spartan Complex",
+   "modalidad": "Presencial",
+   "url": "https://sparthill-ibm-2026.devpost.com/",
+   "inscripcion": "https://sparthill-ibm-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "IBM",
+   "descripcion": "Hackathon presencial en SJSU - Spartan Complex. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/645/031/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 21,
+   "afinidad": 33,
+   "puntaje": 54,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:el-cemduc-presenta-jarana-en-la-pucp-al-ritmo-de-tradicion-y-sentir-criollo-06102026101427",
@@ -10674,14 +10649,14 @@
  ],
  "perfil": true,
  "recomendados": [
-  "luma:evt-ECtnfob42pfw7zA",
   "luma:evt-NIUpTb3Lm9dhr8a",
   "inst:comexper-seminario-digitalizaci-n:2026-11-03",
   "pucp:treponema-pallidum-que-revela-el-adn-antiguo-sobre-la-diversificacion-de-la-treponematosis-22102026144617",
   "devpost:31052",
   "devpost:30790",
   "devpost:29114",
-  "luma:evt-ziEFOKk5km9v3cB"
+  "luma:evt-ziEFOKk5km9v3cB",
+  "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-13102026145930"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
@@ -10704,8 +10679,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-23T13:52-05:00",
-  "revisados": 244,
+  "fecha": "2026-10-23T18:45-05:00",
+  "revisados": 241,
   "corregidos": 18,
   "avisos": 4,
   "archivados": 3,
@@ -10912,7 +10887,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 15,
+   "comprobados": 6,
    "rotos": 5,
    "sin_comprobar": 0
   },
@@ -10936,14 +10911,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "ALO Lift reúne a representantes de 8 países en la Cumbre de Las Américas 2026",
-   "url": "https://mineriaenergia.com/alo-lift-reune-a-representantes-de-8-paises-en-la-cumbre-de-las-americas-2026/",
-   "medio": "mineriaenergia",
-   "publicado": "Mon, 19 Oct 2026 14:19:00 GMT",
-   "resumen": "El encuentro, realizado del 14 al 16 de octubre en Lima, Perú, fortaleció la integración regional de ALO Group, promoviendo el intercambio de experiencias y la colaboración entre equipos comerciales y ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "El XII Foro Gerencias Legales reunirá en Lima a directivos jurídicos de IBM, Uber, CEMEX y otras multinacionales",
    "url": "https://www.lawyerpress.com/2026/10/13/el-xii-foro-gerencias-legales-reunira-en-lima-a-directivos-juridicos-de-ibm-uber-cemex-y-otras-multinacionales/",
    "medio": "Lawyerpress",
@@ -10957,14 +10924,6 @@
    "medio": "Agencia Peruana de Noticias | ANDINA",
    "publicado": "Thu, 15 Oct 2026 07:52:00 GMT",
    "resumen": "El Fondo Editorial del Congreso (FEC) participará en la 8.ª Feria Metropolitana del Libro Lima Lee 2026, evento editorial organizado por la Municipalidad de Lima que abrirá sus puertas del viernes 16 ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
-   "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
-   "medio": "Infobae",
-   "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
-   "resumen": "La feria ofrecerá conversatorios, encuentros con escritores, presentaciones de novedades editoriales, talleres, cuentacuentos, recitales de poesía y espectáculos musicales ...",
    "fecha_mencionada": ""
   },
   {
@@ -11013,6 +10972,22 @@
    "medio": "Revista Economía",
    "publicado": "Thu, 15 Oct 2026 10:06:00 GMT",
    "resumen": "El Red Hat Summit Connect 2026 se realiza también en Montevideo, Buenos Aires, Santiago, Ciudad de México, São Paulo y Bogotá.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Lima Lee 2026: diez días de feria del libro en el Museo Metropolitano",
+   "url": "https://peru21.pe/cultura/lima-lee-2026-diez-dias-de-feria-del-libro-en-el-museo-metropolitano/",
+   "medio": "Perú.21",
+   "publicado": "Sun, 11 Oct 2026 00:06:00 GMT",
+   "resumen": "Feria del libro tendrá más de 40 stands y alrededor de 70 actividades. Reunirá a editoriales, librerías y autores.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
+   "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
+   "medio": "RPP",
+   "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
+   "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
    "fecha_mencionada": ""
   }
  ],
@@ -11178,7 +11153,6 @@
   }
  },
  "primera_vez": {
-  "luma:evt-ECtnfob42pfw7zA": "2026-09-24T21:06-05:00",
   "meetup:315593600": "2026-09-24T21:06-05:00",
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:tejiendo-redes-de-encuentro-para-estudiantes": "2026-09-24T21:10-05:00",
@@ -11194,7 +11168,6 @@
   "opportunitiesforyouth:pportunity-with-full-scholarship-to-the-2027-youth-assembly-in-geneva-": "2026-09-26T08:43-05:00",
   "wikicfp:202465": "2026-09-26T08:43-05:00",
   "wikicfp:201377": "2026-09-26T08:43-05:00",
-  "devpost:30992": "2026-09-26T08:43-05:00",
   "devpost:30447": "2026-09-26T08:43-05:00",
   "wikicfp:200074": "2026-09-26T08:43-05:00",
   "devpost:30984": "2026-09-26T08:43-05:00",
@@ -11369,8 +11342,6 @@
   "meetup:317060770": "2026-10-20T11:15-05:00",
   "devpost:30789": "2026-10-20T11:15-05:00",
   "pucp:vive-la-semana-de-clases-modelo-gratuitas-en-idiomas-pucp-del-20-al-26-de-octubre-19102026130424": "2026-10-20T16:10-05:00",
-  "pucp:1826-el-ultimo-acto-de-la-independencia-y-el-sueno-de-la-unidad-latinoamericana-19102026145753": "2026-10-20T16:10-05:00",
-  "pucp:viernes-economico-y-financiero-gas-transicion-energetica-y-ambiente-19102026164024": "2026-10-20T16:10-05:00",
   "pucp:trabajo-social-y-salud-19102026065102": "2026-10-20T16:10-05:00",
   "luma:evt-STeODLDBF0cRffm": "2026-10-20T16:10-05:00",
   "devpost:31664": "2026-10-20T16:10-05:00",
@@ -11408,7 +11379,6 @@
   "luma:evt-lQxK9Jqu5IPxkmP": "2026-10-22T18:51-05:00",
   "luma:evt-EWQveZIQpnqMTyH": "2026-10-22T22:02-05:00",
   "luma:evt-y0pdNsU00YOT2Zp": "2026-10-23T03:28-05:00",
-  "devpost:31792": "2026-10-23T03:28-05:00",
   "opportunitydesk:s-opportunitydesk-org-2026-10-23-raisina-young-fellows-programme-2027-": "2026-10-23T03:28-05:00",
   "eb:2003710192123": "2026-10-23T09:02-05:00",
   "luma:evt-vb7UxWGeJNPL46M": "2026-10-23T09:02-05:00",
@@ -11418,6 +11388,8 @@
   "pucp:ceremonia-de-conmemoracion-de-los-50-anos-de-la-maestria-en-economia-23102026093037": "2026-10-23T13:52-05:00",
   "opportunitydesk:unitydesk-org-2026-10-23-matter-groundwork-innovator-accelerator-2027-": "2026-10-23T13:52-05:00",
   "opportunitydesk:nitydesk-org-2026-10-23-world-food-forum-youth-policy-board-2027-2028-": "2026-10-23T13:52-05:00",
-  "opportunitydesk:g-2026-10-23-columbia-university-italian-academy-fellowship-2027-2028-": "2026-10-23T13:52-05:00"
+  "opportunitydesk:g-2026-10-23-columbia-university-italian-academy-fellowship-2027-2028-": "2026-10-23T13:52-05:00",
+  "luma:evt-hI9cDJTENcdEbct": "2026-10-23T18:45-05:00",
+  "luma:evt-FpMXsIt3VijlANC": "2026-10-23T18:45-05:00"
  }
 }
