@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-22T22:02-05:00",
+ "actualizado": "2026-10-23T03:28-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 49
+   "n": 50
   },
   "Eventbrite": {
    "ok": true,
-   "n": 58
+   "n": 56
   },
   "Eventbrite online": {
    "ok": true,
@@ -39,8 +39,7 @@
   },
   "Opportunities for Youth": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-10-22T18:50-05:00"
+   "n": 10
   },
   "TEDx": {
    "ok": true,
@@ -48,7 +47,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 14
+   "n": 13
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 393,
+ "revisados": 391,
  "top": 55,
  "eventos": [
   {
@@ -177,34 +176,6 @@
    "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
-   "id": "eb:1976583565653",
-   "titulo": "Certificación para Equipos y Grupos con LEGO® SERIOUS PLAY® Lima",
-   "inicio": "2026-10-21T09:00-05:00",
-   "fin": "2026-10-23T18:00-05:00",
-   "lugar": "CO-Labora Coworking | Salas de Conferencia, Reuniones, Salas de Capacitación, 878 Avenida Andrés Aramburú",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
-   "fuente": "Eventbrite",
-   "organizador": "Strategic Play®",
-   "descripcion": "Programa de certificación en la metodología LEGO® SERIOUS PLAY® avalado por The Global Federation of LSP Master Trainers.",
-   "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185130443%2F292069486484%2F1%2Foriginal.20260521-133831?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.375&s=707821ce8e616cc4405b627a44c05922",
-   "inscripcion": "https://www.eventbrite.co/e/entradas-certificacion-para-equipos-y-grupos-con-lego-serious-play-lima-1976583565653",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 25,
-   "afinidad": 0,
-   "puntaje": 25,
-   "por_que": "Formativo · Presencial en Lima · Con certificado",
-   "visto_desde": "2026-09-24T21:23-05:00"
-  },
-  {
    "id": "inst:sni-prueba-institucional-sni:2026-10-22",
    "titulo": "Prueba Institucional Sni",
    "tipo": "evento",
@@ -266,41 +237,6 @@
    "puntaje": 35,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Con premio",
    "visto_desde": "2026-10-22T14:04-05:00"
-  },
-  {
-   "id": "inst:sni-webinar-planilla-electr-nica:2026-10-22",
-   "titulo": "Webinar: Planilla electrónica",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-22T16:00-05:00",
-   "fin": "",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/22.10-post-320x400.jpg",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Virtual",
-   "original": {
-    "fin": "2026-10-22T23:50-05:00"
-   },
-   "visto_desde": "2026-10-22T03:19-05:00"
   },
   {
    "id": "wikicfp:202465",
@@ -707,7 +643,7 @@
    "organizador": "Security BSides Perú",
    "descripcion": "Conferencia Anual del Capítulo Peruano de Security BSides.  Seguridad Defensiva y Ofensiva desde el 2018.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195426247%2F181887874570%2F1%2Foriginal.20261009-042110?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=de9aa29ca0788959fdc2ee536fc5fcad",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195426247%2F181887874570%2F1%2Foriginal.20261009-042110?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a5b5247f9eb4ce7d9b8c85cf182a21bf",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-security-bsides-peru-2026-ai-is-coming-after-you-2003184764555",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -872,7 +808,7 @@
    "organizador": "",
    "descripcion": "expande tu mente y tus habilidades  este sábado, asiste y conoce mas de 05 formas en las cuales podrás crear fuentes de ingresos en esta era",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195957174%2F3017969993392%2F1%2Foriginal.20261016-165145?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.487&fp-y=0.912&s=8d86337af4324c50c3e33691302761c7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195957174%2F3017969993392%2F1%2Foriginal.20261016-165145?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.487&fp-y=0.912&s=ebfa63cbf6afe5006152f60a3753f4cc",
    "inscripcion": "https://www.eventbrite.com/e/super-sabado-octubre-tickets-2003515262082",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1000,6 +936,33 @@
    "visto_desde": "2026-10-20T11:15-05:00"
   },
   {
+   "id": "luma:evt-y0pdNsU00YOT2Zp",
+   "titulo": "STARTWEEN by START Perú",
+   "inicio": "2026-10-24T20:00-05:00",
+   "fin": "2026-10-25T01:00-05:00",
+   "lugar": "Santiago de Surco, Perú",
+   "distrito": "Santiago de Surco",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/pla2i2uq",
+   "fuente": "Luma",
+   "organizador": "START PERÚ",
+   "descripcion": "✦\n🎃🕸️ STARTWEEN: Halloween Edition 🕸️🎃\nHolaaa este 24 de octubre abrimos las puertas de nuestro espacio embrujado para celebrar Halloween y, de paso, el cumpleaños de nuestro board member Gustavo Cosme 🥳\n¿Qué te espera?- Una noche de integración.- Concurso de disfraces por equipos.- Bocaditos, bebidas y sorpresas.- Música elegida por nosotros (¡agrega tus canciones a la playlist!).\nLugar:  Inscríbete 👻Fecha: 24 de octubreHora: 8:00 p. m.\nUn par de reglas del STARTWEEN: ¡Venir disfrazado es obligatorio! La temática es libre, así que deja volar tu creatividad 🧛‍♂️\nTenemos solo 12 cupos para invitados externos 👀\nTu entrada es traer bocaditos para compartir\n🎧 Agrega las canciones que quieres esc",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/8u/00008c1a-4074-4961-aa42-533d49f96aeb.png",
+   "inscripcion": "https://lu.ma/pla2i2uq",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 26,
+   "afinidad": 6,
+   "puntaje": 32,
+   "por_que": "Competencia · Presencial en Lima · Gratis · Afín: Competencias",
+   "visto_desde": "2026-10-23T03:28-05:00"
+  },
+  {
    "id": "devpost:31139",
    "titulo": "Neighborhood Hacks",
    "tipo": "hackathon",
@@ -1066,7 +1029,7 @@
    "organizador": "",
    "descripcion": "Una experiencia interactiva y gastronómica donde los asistentes dejan de ser simples comensales y se convierten en \"científicos pizzeros\".",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195834620%2F3017130963006%2F1%2Foriginal.20261015-014143?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6a17593cfa85e532ec1b1f183a51cf10",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195834620%2F3017130963006%2F1%2Foriginal.20261015-014143?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=29810b46053a387e9511ce9305b10d1c",
    "inscripcion": "https://www.eventbrite.com/e/pizza-lab-experience-tickets-2003208227734",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1390,7 +1353,7 @@
    "organizador": "icreatia.es",
    "descripcion": "Leica captura la realidad → Pro Scan Essential lleva esa realidad a SketchUp → SketchUp la convierte en un modelo útil.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195776308%2F95012362293%2F1%2Foriginal.20261014-131714?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.526&s=e597cc7ecb7e33438ca19df5f9f53d8d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195776308%2F95012362293%2F1%2Foriginal.20261014-131714?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.526&s=47d1bad71bd567b08d566b6ef6796e3e",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1472,7 +1435,7 @@
    "organizador": "POSSO by Mr Marcel",
    "descripcion": "Una conversación en directo sobre el futuro del diseño, la estrategia y el valor del talento en la era de la inteligencia.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&w=434&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7c05b75bb1a88f5ffd61e3c1ef9acbf0",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194275222%2F212797620744%2F1%2Foriginal.20260924-124344?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a22adb8c4c5fd175cfe0f564e3005155",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1555,7 +1518,7 @@
    "organizador": "Maxi Costantinis",
    "descripcion": "Sin saber programar, sin contratar a nadie y sin gastar dinero, te enseñamos el paso a paso de como desarrollar tu sitio web en 10 minutos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195611619%2F93900046205%2F1%2Foriginal.20261012-152917?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.11&fp-y=0.287&s=14857e46fb20080b4a3005c34f84456c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195611619%2F93900046205%2F1%2Foriginal.20261012-152917?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.11&fp-y=0.287&s=d8f0e331a824fa662874b67188370e9d",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1656,6 +1619,33 @@
    "visto_desde": "2026-10-04T15:49-05:00"
   },
   {
+   "id": "devpost:31792",
+   "titulo": "Hack to the Future",
+   "tipo": "hackathon",
+   "inicio": "2026-10-20T00:00-05:00",
+   "fin": "2026-10-27T23:59-05:00",
+   "cierre": "2026-10-27T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://hack-to-the-missing-future-ai.devpost.com/",
+   "inscripcion": "https://hack-to-the-missing-future-ai.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "HackathonForEveryone",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/605/103/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-23T03:28-05:00"
+  },
+  {
    "id": "eb:1982108679417",
    "titulo": "Procurement Innovation Day - Lima",
    "inicio": "2026-10-28T09:00-05:00",
@@ -1668,7 +1658,7 @@
    "organizador": "Agile Procurement",
    "descripcion": "Innovación y tecnología para Compras en un evento con networking de talla mundial",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193328333%2F1395286984083%2F1%2Foriginal.20260912-124038?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.987&s=d85f0ae45ccb0d133acc6e68a68459d0",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193328333%2F1395286984083%2F1%2Foriginal.20260912-124038?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.987&s=ece64cbc3e704b66fe51761f902b0072",
    "inscripcion": "https://www.eventbrite.es/e/entradas-procurement-innovation-day-lima-1982108679417",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1991,35 +1981,6 @@
    "puntaje": 28,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-10T06:47-05:00"
-  },
-  {
-   "id": "opportunitydesk:s-opportunitydesk-org-2026-10-22-usefp-fulbright-scholar-program-2027-",
-   "titulo": "USEFP Fulbright Scholar Program 2027 (Funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-10-28T23:59-05:00",
-   "fin": "2026-10-28T23:59-05:00",
-   "cierre": "2026-10-28T23:59-05:00",
-   "publicado": "2026-10-22T07:34-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/22/usefp-fulbright-scholar-program-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/22/usefp-fulbright-scholar-program-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: October 28, 2026 Applications are open for the USEFP Fulbright Scholar Program 2027. This U.S. Government program funds up to 10 months of lectureship, post-doctoral research, or a combination of the two at a U.S. college or university with one fully covered dependent. Persons selected are expected to share information about Pakistani society and [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional",
-    "Investigación y ciencia"
-   ],
-   "valor": 27,
-   "afinidad": 20,
-   "puntaje": 47,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Afín: Investigación · Universidad",
-   "visto_desde": "2026-10-22T09:28-05:00"
   },
   {
    "id": "ieee:584211",
@@ -2460,7 +2421,7 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/qgaydqcv",
    "fuente": "Luma",
-   "organizador": "Notion Community Lima",
+   "organizador": "Replit Perú",
    "descripcion": "¡Acompáñanos en nuestro Building Nights mensual!\nCompartiremos un espacio para construir ideas, proyectos y productos usando Replit mientras construimos en comunidad.\n\n¿Qué podrás hacer aquí?\nDesarrollar tu proyecto usando Replit.\n\nGrabar contenido BuildInPublic\n\nConectar con otros builders y comunidades.\n\n¿Qué te regalaremos?\nCréditos de Replit para que desarrolles tu idea.\n\nStickers de Replit.\n\nMuchas bebidas y buena música mientras desarrollas.\n\nNuestro SponsorWallbit ha llegado para acompañarnos en esta Building Night y engreírnos con regalos como:\nPlan Pro gratis por 3 meses.\n\nTarjeta física Visa Platinum gratis.\n\nSolo créate una cuenta en Wallbit y empieza a sacarle provecho a tu nueva",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/9h/be8dd7a4-40ab-4c94-be8a-403338671486.png",
@@ -2900,7 +2861,7 @@
   {
    "id": "luma:evt-hAU9B1n3SCRvd2x",
    "titulo": "Demo Day - Beca AI Talent 2DA Generación",
-   "inicio": "2026-10-31T12:30-05:00",
+   "inicio": "2026-10-31T12:45-05:00",
    "fin": "2026-10-31T18:00-05:00",
    "lugar": "C. Barcelona 240, San Isidro",
    "distrito": "San Isidro",
@@ -3174,6 +3135,35 @@
    "puntaje": 52,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-27T22:10-05:00"
+  },
+  {
+   "id": "opportunitydesk:s-opportunitydesk-org-2026-10-23-raisina-young-fellows-programme-2027-",
+   "titulo": "Raisina Young Fellows Programme 2027 (Fully-funded)",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-02T23:59-05:00",
+   "fin": "2026-11-02T23:59-05:00",
+   "cierre": "2026-11-02T23:59-05:00",
+   "publicado": "2026-10-23T02:54-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/23/raisina-young-fellows-programme-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/23/raisina-young-fellows-programme-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 2, 2026 Applications are open for the Raisina Young Fellows Programme 2027. The Raisina Young Fellows Programme convenes emerging leaders from around the world to discuss current political, economic, and social issues, with a particular focus on Asia. Fellows engage directly with senior political, business, and academic figures, gaining insights and building networks [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Investigación y ciencia"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-10-23T03:28-05:00"
   },
   {
    "id": "inst:comexper-seminario-digitalizaci-n:2026-11-03",
@@ -3628,7 +3618,7 @@
   },
   {
    "id": "luma:evt-PzI45Si6Cc8OJgh",
-   "titulo": "Aniversario BioActiva | Diez años impulsando la innovación",
+   "titulo": "Diez años de BioActiva: conexiones y retos para la innovación tecnológica en el Perú",
    "inicio": "2026-11-05T17:00-05:00",
    "fin": "2026-11-05T19:30-05:00",
    "lugar": "camara 3, Av. Camino Real 1037, San Isidro",
@@ -3637,20 +3627,21 @@
    "url": "https://lu.ma/qton7i22",
    "fuente": "Luma",
    "organizador": "BioActiva Perú",
-   "descripcion": "Un encuentro para conectar los retos de I+D+i con innovación multisector y cocrear una agenda para actuar desde ahora, mostrando cómo se articula el ecosistema. BioActiva cumple 10 años y lo celebra poniendo a conversar a sector público, academia y privado.\nLugar: NOS San Isidro\n\nFecha : jueves 5 de noviembre, de 5 a 7:30 pm",
+   "descripcion": "BioActiva cumple 10 años promoviendo conexiones e innovación para el sector productivo, e impulsando la I+D+i en el Perú, y lo celebramos con una tarde para conectar a quienes hacen que esto ocurra: empresas, academia, startups, instituciones y especialistas.\nBioActiva cumple 10 años promoviendo conexiones e innovación para el sector productivo, e impulsando la I+D+i en el Perú, y lo celebramos con una tarde para conectar a quienes hacen que esto ocurra: empresas, academia, startups, instituciones y especialistas.\nQué vas a vivir:\nLlegada y networking: conexiones, música y un recorrido por los proyectos de estos diez años.\n\nRueda de desafíos: citas rotativas de 5 minutos, en un espacio tranq",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/yo/bf56a2f9-60d4-41dc-aa8a-3544c0a370db.jpg",
+   "imagen": "https://images.lumacdn.com/uploads/6z/9511048b-01e2-4408-bdbf-fb122f8710e3.png",
    "inscripcion": "https://lu.ma/qton7i22",
    "fuente_url": "https://lu.ma/lima",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
-    "Negocios y emprendimiento"
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
    ],
-   "valor": 24,
+   "valor": 26,
    "afinidad": 6,
-   "puntaje": 30,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
+   "puntaje": 32,
+   "por_que": "Competencia · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-10-20T05:51-05:00"
   },
   {
@@ -3725,7 +3716,7 @@
    "organizador": "LATIN AMERICAN DESIGN",
    "descripcion": "LADFEST X. NOW IN LIMA.\nCelebra los 10 años del Latin American Design Festival este 06 y 07 de noviembre de 2026.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b8729d4b9562a1ae09d8ab9ee7cf6c47",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ef41922965b92fab27b379d62fe4266f",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-ladfest-x-2026-1995168675216",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3752,7 +3743,7 @@
    "organizador": "",
    "descripcion": "Únete al Foro Rescate Tributario para descubrir cómo ahorrar en tus impuestos en 2026 y mejorar tus finanzas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=93cac7a5c473e524f22bb1a9bca7ea5a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=96d97ca422e3968045d280cf714b793b",
    "inscripcion": "https://www.eventbrite.com/e/foro-rescate-tributario-ahorro-tributario-2026-tickets-2002634957066",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3889,7 +3880,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Expotextil Runways: living platforms where design, tech & sustainability meet. Showcasing the best of Peruvian & global fashion to the world",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=189aa283fdeaf8e5c267ce55440e2ad8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0c84b16c9ad9ab32b2a8d71580005d41",
    "inscripcion": "https://www.eventbrite.com/e/pasarelas-expotextil-tickets-1988046593879",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4033,7 +4024,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "Tres martes en vivo para construir tu modelo de competencias: diccionario, perfiles, entrevistas con evidencia, evaluación y tablero.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f353e0b83794063b9700ffb90550856a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b7546a25503ab554e2da14fd5311e5fe",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4225,7 +4216,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-1-tickets-2003540173593",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4254,7 +4245,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4037bc17149716d609edd59c3199863a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4d6a4bea9b5d6fd895a6d4e549ae6bce",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4443,7 +4434,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-2-tickets-2003510824810",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4978,7 +4969,7 @@
    "organizador": "HUG Perú",
    "descripcion": "Segundo meetup presencial de HashiCorp User Group Perú: charlas, experiencias y networking sobre Terraform, Vault y DevOps.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195772314%2F3017638582643%2F1%2Foriginal.20261014-121002?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d56c82f3b19c1f1ab78c67b795cd0ef8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195772314%2F3017638582643%2F1%2Foriginal.20261014-121002?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ec82229e94455c70b07675242f716de8",
    "inscripcion": "https://www.eventbrite.com/e/hug-peru-meetup-presencial-tickets-2003402159790",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -5669,7 +5660,7 @@
    "organizador": "estudiantes del Intituto Certus",
    "descripcion": "Creatividad es pensar en nuevas ideas. Innovación es hacer cosas nuevas.\"  ven y se parte de esta feria",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195985983%2F3018024795339%2F1%2Foriginal.20261017-012056?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c8f908af42524e82e0fd34f7010caa87",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195985983%2F3018024795339%2F1%2Foriginal.20261017-012056?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9e46b5df3c242dae01c96b8c0ba5ed6d",
    "inscripcion": "https://www.eventbrite.com/e/feria-tecnologica-universitaria-2026-tickets-2003535860693",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8298,31 +8289,6 @@
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "eb:2002315077297",
-   "titulo": "Daniela De Izcue Live",
-   "inicio": "2026-10-22T21:00-05:00",
-   "fin": "2026-10-22T23:30-05:00",
-   "lugar": "Sala Osma, 203 Av. Pedro de Osma",
-   "distrito": "Barranco",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/daniela-de-izcue-live-tickets-2002315077297",
-   "fuente": "Eventbrite",
-   "organizador": "DIZC Co.",
-   "descripcion": "Daniela De Izcue, Peruvian Latin pop artist, presents her debut album, \"Mi Momento\", live with her all-female band.",
-   "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194392665%2F1110895703423%2F1%2Foriginal.20260925-211151?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1e3319a98ca6b59f276c3f8da59b4a42",
-   "inscripcion": "https://www.eventbrite.com.pe/e/daniela-de-izcue-live-tickets-2002315077297",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Evento sin formato claro"
-  },
-  {
    "id": "pucp:emocionarte-amigos-adorables-mini-peluches-de-fieltro-y-felpa",
    "titulo": "Emocionarte - Amigos adorables: mini peluches de fieltro y felpa",
    "inicio": "2026-10-23T15:00-05:00",
@@ -8410,7 +8376,7 @@
    "organizador": "Croksy",
    "descripcion": "Descubre nuestra nueva línea para los pequeños de la casa, llena de vibrantes colores y divertidos diseños: Croksy Kids.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1eb2b337ddc3ab1f5b5a82cd7513eb92",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195102254%2F3016597575246%2F1%2Foriginal.20261005-180713?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=93d73309e1529b802133a546aa96330c",
    "inscripcion": "https://www.eventbrite.com/e/entradas-lanzamiento-linea-para-ninos-croksy-kids-2002957885955",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8635,7 +8601,7 @@
    "organizador": "estudiantes del Intituto Certus",
    "descripcion": "Trae a tu niño a ser parte de estos espacios lúdicos y pedagógicos donde prenderan mediante el juego, la experimentación y la interacción",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195988588%2F3018024795339%2F1%2Foriginal.20261017-025825?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=235f29da2a7a836072727b839594b78f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195988588%2F3018024795339%2F1%2Foriginal.20261017-025825?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=82c000a5f374e62010073a323a506d02",
    "inscripcion": "https://www.eventbrite.com/e/feria-educativa-para-ninos-especiales-tickets-2003537351151",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8810,7 +8776,7 @@
    "organizador": "",
    "descripcion": "¡Ven a disfrutar música, baile y pura jarana en vivo junto a Fuego Criollo!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f4f100446e0778d8ad7c3d33817468b4",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f981fdaf00ec37d8ff53631615ac5c02",
    "inscripcion": "https://www.eventbrite.es/e/fuego-y-jarana-con-fuego-criollo-tickets-2003293488752",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8960,7 +8926,7 @@
    "organizador": "IntekTV",
    "descripcion": "Descubre cómo el ecosistema Blackmagic está transformando la enseñanza audiovisual y abriendo nuevas oportunidades profesionales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f23f1a79904dd25053237844c25a7b88",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d25ce87be83320a35b0b10bb1864490f",
    "inscripcion": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-academia-tickets-2002243178245",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9085,7 +9051,7 @@
    "organizador": "",
    "descripcion": "Somos una empresa, dedica al rubro de Construccion y Acabados, realizamos todo tipo de proyectos, que desee para su hogar.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=4db93be566d2ee94c2f59ca82f0c6e13",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=723ef18fb1bd3e4bb2d8fe781b421019",
    "inscripcion": "https://www.eventbrite.com/e/entradas-perfect-home-2003322947865",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9160,7 +9126,7 @@
    "organizador": "Ermantourage UK",
    "descripcion": "Connect with other locals over coffee! Meet a new friend in your city. A different cafe each gathering!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=03be7893bd239a257f487229eb5956e9",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa8e3e4933db165428ed9864b11725aa",
    "inscripcion": "https://www.eventbrite.com/e/the-comeunity-project-lima-coffee-with-strangers-tickets-1984736925572",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9712,7 +9678,7 @@
    "organizador": "willians orihuela y celinda challa",
    "descripcion": "Descubra el pitch empresarial de Lumia, una tienda online de belleza y cuidado personal enfocada en calidad y experiencia digital.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=64a9fd3704e65f639905a0d151733732",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b85741703c1f96b3406cb57dfb06ac0e",
    "inscripcion": "https://www.eventbrite.com/e/pitch-empresarial-tienda-lumia-belleza-y-cuidado-personal-tickets-2003273856030",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9740,7 +9706,7 @@
    "organizador": "La Taza Dorada",
    "descripcion": "Taller presencial desde cero: cata acogedora de filtrados y café de especialidad para estudiantes y principiantes.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=c9d2eac7df802bab7ce2b846568a74b7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=75a5a577613699d500dda5f02f40a5ca",
    "inscripcion": "https://www.eventbrite.com/e/taller-de-cata-de-filtrados-y-cafe-de-especialidad-tickets-2003208116401",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9815,7 +9781,7 @@
    "organizador": "Glow Up Peru",
    "descripcion": "Get ready to shine bright like a diamond at GLOW UP PERÚ 2026, where your beauty will reach new heights!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171624158%2F461107855766%2F1%2Foriginal.20251124-075432?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.47&fp-y=0.139&s=acae847cdf363af2b55d179e1fcc36ff",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171624158%2F461107855766%2F1%2Foriginal.20251124-075432?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.47&fp-y=0.139&s=9cc5ee4ef1aac64e603786721b0f5ed5",
    "inscripcion": "https://www.eventbrite.com/e/glow-up-peru-2026-tickets-1975272315669",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9865,7 +9831,7 @@
    "organizador": "",
    "descripcion": "¿Quieres estar en la mejor fiesta del año? \n\nEstá fiesta se a estado planeando desde inicio de año y es la fiesta que más promete",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192783457%2F3013078503983%2F1%2Foriginal.20260905-184007?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.517&fp-y=0.279&s=60df80db8910f5ebf78efe06dfd0f9e2",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192783457%2F3013078503983%2F1%2Foriginal.20260905-184007?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.517&fp-y=0.279&s=0e875259796859fc7fadadab2755fdee",
    "inscripcion": "https://www.eventbrite.com/e/halloween-edition-tickets-1999863310998",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9890,7 +9856,7 @@
    "organizador": "Zarella",
    "descripcion": "Get spooky cute vibes and creepy-cute crafts all in one fun workshop you won't want to miss! It is a 100% hands-on, handmade workshop",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193483660%2F2912043267641%2F1%2Foriginal.20260914-195228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1238aa61158b6a952fe1c2671ab902ec",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193483660%2F2912043267641%2F1%2Foriginal.20260914-195228?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=47c3a7f9bd670c9b03a5f4bfd82e57d3",
    "inscripcion": "https://www.eventbrite.com.pe/e/cripi-kawaii-workshop-tickets-2002341968730",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9940,7 +9906,7 @@
    "organizador": "NEVORA",
    "descripcion": "Acompañanos a celebrar la inaguración de nuestra primera tienda y la nueva colección de nuestros buzos baggy   ¡los esperamos!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=fc03c1fa27f9ca2215529a41e1975838",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=212538966032fcfb0ebae67a83284465",
    "inscripcion": "https://www.eventbrite.com/e/apertura-oficial-y-lanzamiento-de-nuestra-nueva-coleccion-tickets-2003074310183",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -10003,20 +9969,20 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:1981186914393",
+   "id": "eb:1981186915396",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-22T23:00-05:00",
-   "fin": "2026-10-23T13:00-05:00",
+   "inicio": "2026-10-23T23:00-05:00",
+   "fin": "2026-10-24T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186914393",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186915396",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima, where you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186914393",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186915396",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -10335,34 +10301,6 @@
    "por_que": "Afín: Supply chain y operaciones · Competencia · Afín: Datos y machine learning · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31732",
-   "titulo": "Build The Next Big Thing with AI - Devmarketplace",
-   "tipo": "hackathon",
-   "inicio": "2026-10-19T00:00-05:00",
-   "fin": "2026-10-22T23:59-05:00",
-   "cierre": "2026-10-22T23:59-05:00",
-   "lugar": "NED University",
-   "distrito": "NED University",
-   "modalidad": "Presencial",
-   "url": "https://build-next-big-thing-with-ai.devpost.com/",
-   "inscripcion": "https://build-next-big-thing-with-ai.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "devmarketplace",
-   "descripcion": "Hackathon presencial en NED University. Temas: Databases, Machine Learning/AI, Web. Premios: ₹ 100,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/116/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 23,
-   "afinidad": 30,
-   "puntaje": 53,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31320",
    "titulo": "uXperience Design Jam sponsored by Sunlife",
    "tipo": "hackathon",
@@ -10670,7 +10608,7 @@
   "PERUMIN": 1,
   "ESAN — eventos": 2,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 6,
+  "Sociedad Nacional de Industrias": 5,
   "AmCham Perú": 3,
   "ComexPerú": 1
  },
@@ -10686,9 +10624,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-22T22:02-05:00",
+  "fecha": "2026-10-23T03:28-05:00",
   "revisados": 239,
-  "corregidos": 19,
+  "corregidos": 18,
   "avisos": 4,
   "archivados": 3,
   "problemas": [
@@ -10706,14 +10644,6 @@
     "fuente": "Institucional",
     "nivel": "corregido",
     "detalle": "la descripción solo repetía el título",
-    "url": "https://sni.org.pe/eventos/"
-   },
-   {
-    "id": "inst:sni-webinar-planilla-electr-nica:2026-10-22",
-    "titulo": "Webinar: Planilla electrónica",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:50)",
     "url": "https://sni.org.pe/eventos/"
    },
    {
@@ -10902,7 +10832,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 5,
+   "comprobados": 4,
    "rotos": 5,
    "sin_comprobar": 0
   },
@@ -10915,6 +10845,22 @@
    "medio": "Crónica Viva",
    "publicado": "Mon, 19 Oct 2026 17:00:00 GMT",
    "resumen": "La presidenta Keiko Fujimori y el mandatario ecuatoriano Daniel Noboa firmaron la Declaración Presidencial de Lima 2026 en Palacio de Gobierno, al cerrar el XVII Gabinete Binacional, para fortalecer ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Cumbre Infracon Perú 2026 destacó potencial del país para inversiones en infraestructura",
+   "url": "https://andina.pe/agencia/noticia-cumbre-infracon-peru-2026-destaco-potencial-del-pais-para-inversiones-infraestructura-1096417.aspx",
+   "medio": "Agencia Peruana de Noticias | ANDINA",
+   "publicado": "Sat, 17 Oct 2026 17:00:00 GMT",
+   "resumen": "La cumbre del sector infraestructura “Infracon Perú 2026” destacó con éxito el potencial para las inversiones que se necesitan para cerrar las brechas y se abordaron los desafíos que enfrenta el país ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "ALO Lift reúne a representantes de 8 países en la Cumbre de Las Américas 2026",
+   "url": "https://mineriaenergia.com/alo-lift-reune-a-representantes-de-8-paises-en-la-cumbre-de-las-americas-2026/",
+   "medio": "mineriaenergia",
+   "publicado": "Mon, 19 Oct 2026 14:19:00 GMT",
+   "resumen": "El encuentro, realizado del 14 al 16 de octubre en Lima, Perú, fortaleció la integración regional de ALO Group, promoviendo el intercambio de experiencias y la colaboración entre equipos comerciales y ...",
    "fecha_mencionada": ""
   },
   {
@@ -10987,22 +10933,6 @@
    "medio": "Revista Economía",
    "publicado": "Thu, 15 Oct 2026 10:06:00 GMT",
    "resumen": "El Red Hat Summit Connect 2026 se realiza también en Montevideo, Buenos Aires, Santiago, Ciudad de México, São Paulo y Bogotá.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Expotextil Perú prepara su edición 2026 con más de 250 expositores y 21 000 visitantes",
-   "url": "https://pe.fashionnetwork.com/news/Expotextil-peru-prepara-su-edicion-2026-con-mas-de-250-expositores-y-21-000-visitantes,1878405.html",
-   "medio": "FashionNetwork.com Perú",
-   "publicado": "Thu, 22 Oct 2026 14:18:00 GMT",
-   "resumen": "La feria internacional regresa a Lima del 5 al 8 de noviembre, con una agenda centrada en tecnología, competitividad y nuevos negocios para la industria textil.",
-   "fecha_mencionada": "2026-11-05T00:00-05:00"
-  },
-  {
-   "titulo": "Feria Nacional Vocacional de las Artes 2026: ¿Dónde estudiar una carrera artística en Lima?",
-   "url": "https://caretas.pe/cultura/feria-nacional-vocacional-de-las-artes-2026-donde-estudiar-una-carrera-artistica-en-lima/",
-   "medio": "Caretas",
-   "publicado": "Thu, 22 Oct 2026 09:15:00 GMT",
-   "resumen": "Elegir una carrera artística también implica conocer dónde estudiar, qué especialidades existen y cuáles son las oportunidades de desarrollo profesional. Con ese objetivo, la Feria Nacional Vocacional ...",
    "fecha_mencionada": ""
   }
  ],
@@ -11175,7 +11105,6 @@
   "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037": "2026-09-24T21:10-05:00",
   "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233": "2026-09-24T21:10-05:00",
   "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
-  "eb:1976583565653": "2026-09-24T21:23-05:00",
   "eb:1982108679417": "2026-09-24T21:23-05:00",
   "meetup:ljgqztyjcnbgc": "2026-09-24T22:14-05:00",
   "meetup:315593613": "2026-09-24T22:14-05:00",
@@ -11386,10 +11315,8 @@
   "luma:evt-XcsR4BU8Hoog9JQ": "2026-10-21T18:55-05:00",
   "devpost:31515": "2026-10-21T18:55-05:00",
   "eb:2003742708380": "2026-10-21T18:55-05:00",
-  "inst:sni-webinar-planilla-electr-nica:2026-10-22": "2026-10-22T03:19-05:00",
   "luma:evt-Q4R9XnDQPqNQhbn": "2026-10-22T03:19-05:00",
   "opportunitydesk:-airc-non-resident-research-fellowship-in-ai-and-social-sciences-2027-": "2026-10-22T09:28-05:00",
-  "opportunitydesk:s-opportunitydesk-org-2026-10-22-usefp-fulbright-scholar-program-2027-": "2026-10-22T09:28-05:00",
   "opportunitydesk:nitydesk-org-2026-10-22-new-york-city-urban-fellows-program-2027-2028-": "2026-10-22T09:28-05:00",
   "opportunitydesk:unitydesk-org-2026-10-22-si-scholarship-for-global-professionals-2027-": "2026-10-22T09:28-05:00",
   "opportunitydesk:ts-fellowships-and-other-opportunities-currently-open-october-22-2026-": "2026-10-22T14:04-05:00",
@@ -11403,6 +11330,9 @@
   "pucp:dialogo-academico-sobre-las-relaciones-bilaterales-y-sus-perspectivas-22102026130904": "2026-10-22T18:51-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-11-09": "2026-10-22T18:51-05:00",
   "luma:evt-lQxK9Jqu5IPxkmP": "2026-10-22T18:51-05:00",
-  "luma:evt-EWQveZIQpnqMTyH": "2026-10-22T22:02-05:00"
+  "luma:evt-EWQveZIQpnqMTyH": "2026-10-22T22:02-05:00",
+  "luma:evt-y0pdNsU00YOT2Zp": "2026-10-23T03:28-05:00",
+  "devpost:31792": "2026-10-23T03:28-05:00",
+  "opportunitydesk:s-opportunitydesk-org-2026-10-23-raisina-young-fellows-programme-2027-": "2026-10-23T03:28-05:00"
  }
 }
