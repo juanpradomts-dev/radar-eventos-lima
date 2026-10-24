@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-23T18:45-05:00",
+ "actualizado": "2026-10-23T21:59-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 50
+   "n": 49
   },
   "Eventbrite": {
    "ok": true,
@@ -15,11 +15,11 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 12
+   "n": 11
   },
   "PUCP": {
    "ok": true,
-   "n": 49
+   "n": 48
   },
   "IEEE Perú": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 391,
+ "revisados": 388,
  "top": 55,
  "eventos": [
   {
@@ -339,7 +339,7 @@
    "organizador": "BROADCAST MÉXICO",
    "descripcion": "¡Aprende todo sobre las tecnologías disruptivas, telecomunicaciones, radiodifusión y TIC's en nuestro evento BROADCAST MÉXICO 2026!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196160299%2F208222120886%2F1%2Foriginal.20261020-044857?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bbe06f171b5b32c587b8275cae349d74",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196160299%2F208222120886%2F1%2Foriginal.20261020-044857?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8665440b630a5f7ba9d3a9b99447f616",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -353,88 +353,6 @@
     "titulo": "PROGRAMA DE CAPACITACIÓN BCMX2026"
    },
    "visto_desde": "2026-10-19T16:58-05:00"
-  },
-  {
-   "id": "pucp:primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447",
-   "titulo": "Primer Encuentro del Derecho Laboral y la Fotografía Documental",
-   "inicio": "2026-10-23T17:30-05:00",
-   "fin": "2026-10-23T19:30-05:00",
-   "lugar": "Campus PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Los días 22 y 23 de octubre de 2026, la Sala de Audiencias de la Facultad de Derecho de la PUCP será sede del Primer Encuentro del Derecho del Trabajo y la Fotografía Documental, organizada por la Comisión de Arte y Derecho y Angela Escobar Huanca, egresada de la Facultad de Derecho de la PUCP. La propuesta busca acercar los temas sensibles del derecho desde la puerta de la fotografía documental, para trasladar los problemas jurídicos y conectar con ellos desde la fuerza de la imagen.\nLas ponencias. Durante dos jornadas, especialistas de la academia, la judicatura, el sector público y privado y la Organización Internacional de Trabajo interpretarán el trabajo a través de fotografías document",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/portada_evento_e552a0c4f9.jpg",
-   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSdIFpww1ej0KZcRaBQkaXk1qg5mfnx-bsKbHMzvunfuTrAuHQ/viewform",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 33,
-   "afinidad": 6,
-   "puntaje": 39,
-   "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-10-21T14:07-05:00"
-  },
-  {
-   "id": "luma:evt-flZZ639xKb0jOmH",
-   "titulo": "Más allá de las notas: lidera tu futuro✨",
-   "inicio": "2026-10-23T19:00-05:00",
-   "fin": "2026-10-23T21:00-05:00",
-   "lugar": "Jr. Medrano Silva 165, Barranco",
-   "distrito": "Barranco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/rurovfhp",
-   "fuente": "Luma",
-   "organizador": "Colaboratorio UTEC",
-   "descripcion": "🚀 ¿Crees que sacar buenas notas es suficiente para destacar en tu futuro profesional?\nLa universidad va mucho más allá de los exámenes. 🧠✨ Descubre cómo potenciar tu pensamiento crítico, desarrollar tus habilidades de liderazgo y aprender a tomar mejores decisiones dentro y fuera de las aulas.\nNos acompaña Carlos Pérez Charly filósofo práctico, consultor en desarrollo organizacional y fundador de Philosophia Consulting, para compartir herramientas que te ayudarán a enfrentar desafíos, trabajar mejor en equipo y construir tu propio camino profesional. 💡\nDe tener cualquier consulta o requerir ingresar en auto, puedes comunicarte conmigo al número 945146739.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/f0/cf08dd17-6d3a-4c80-8d2d-9010c70b1bc9.png",
-   "inscripcion": "https://lu.ma/rurovfhp",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 25,
-   "afinidad": 5,
-   "puntaje": 30,
-   "por_que": "Presencial en Lima · Universidad · Gratis · Afín: Liderazgo y oratoria",
-   "visto_desde": "2026-10-16T21:41-05:00"
-  },
-  {
-   "id": "meetup:315593600",
-   "titulo": "Sesión 03: Zero Trust para Agentes",
-   "inicio": "2026-10-23T19:00-05:00",
-   "fin": "2026-10-23T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/msperu/events/315593600/",
-   "fuente": "Meetup",
-   "organizador": "Microsoft User Group Perú",
-   "descripcion": "Acceso, permisos y OAuth cuando no hay un humano al otro lado del login\nQué vas a aprender\n\n Por qué el MFA, pensado para un humano con un dispositivo conocido, no significa nada para un agente que actúa con client credentials.\n Los cuatro patrones de acceso de agente que existen hoy (delegado, autónomo, agent user, blueprint CA) y cuál usa cada uno de tus proveedores.\n Qué es el \"OAuth consent drift\": permisos de alto privilegio acumulados sin que nadie los haya aprobado explícitamente.\n Por qué el gateway de IA de tu organización es ahora infraestructura crítica de identidad, y qué pasa cuando nadie lo audita (6.2% de instancias expuestas sin autenticación, verificado en DEF CON 34).\n Caso",
-   "gratis": null,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/msperu/events/315593600/",
-   "fuente_url": "https://www.meetup.com/msperu/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Investigación y ciencia"
-   ],
-   "valor": 27,
-   "afinidad": 12,
-   "puntaje": 39,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Empresa reconocida",
-   "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
    "id": "pucp:feape-2026-05102026102819",
@@ -1243,7 +1161,7 @@
    "organizador": "icreatia.es",
    "descripcion": "Leica captura la realidad → Pro Scan Essential lleva esa realidad a SketchUp → SketchUp la convierte en un modelo útil.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195776308%2F95012362293%2F1%2Foriginal.20261014-131714?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.526&s=47d1bad71bd567b08d566b6ef6796e3e",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195776308%2F95012362293%2F1%2Foriginal.20261014-131714?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.526&s=19d9f9fb35fa177f3caaf97e502a85ce",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1381,7 +1299,7 @@
    "organizador": "AIDIS Argentina",
    "descripcion": "Desafíos, experiencias y oportunidades que están redefiniendo el futuro de la ingeniería ambiental y sanitaria en la región.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195705772%2F1444481018573%2F1%2Foriginal.20261013-165221?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.417&fp-y=0.194&s=00c93092d0d690b0f71de03997aedf0b",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195705772%2F1444481018573%2F1%2Foriginal.20261013-165221?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.417&fp-y=0.194&s=09522c5270aa4657ceaa42142ba71daa",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1846,6 +1764,34 @@
    "visto_desde": "2026-10-10T06:47-05:00"
   },
   {
+   "id": "eb:1999735020277",
+   "titulo": "ELE 2026 | XII Encuentro de Líderes Empresariales – 29 Oct. Jornada 1",
+   "inicio": "2026-10-29T08:00-05:00",
+   "fin": "2026-10-29T13:00-05:00",
+   "lugar": "Av. Arequipa 2356, 2356 Avenida Arequipa",
+   "distrito": "Lince",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-29-oct-jornada-1-tickets-1999735020277",
+   "fuente": "Eventbrite",
+   "organizador": "CAENE",
+   "descripcion": "Un encuentro de acceso limitado con CEOs, presidentes y referentes del país. Conecta con quienes hoy están definiendo el futuro del Perú.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193113722%2F3010476896322%2F1%2Foriginal.20260909-232127?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=842fd65a9a6ab618991b5fda22bc2725",
+   "inscripcion": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-29-oct-jornada-1-tickets-1999735020277",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 16,
+   "afinidad": 0,
+   "puntaje": 16,
+   "por_que": "Networking · Gratis",
+   "visto_desde": "2026-10-23T21:59-05:00"
+  },
+  {
    "id": "ieee:584211",
    "titulo": "Nextgen Innovators 2026",
    "inicio": "2026-10-29T08:00-05:00",
@@ -1959,34 +1905,6 @@
    "puntaje": 52,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
    "visto_desde": "2026-10-20T16:10-05:00"
-  },
-  {
-   "id": "eb:1999814908224",
-   "titulo": "ELE 2026 | XII Encuentro de Líderes Empresariales – 29 Oct. Jornada 2",
-   "inicio": "2026-10-29T14:00-05:00",
-   "fin": "2026-10-29T19:00-05:00",
-   "lugar": "Av. Arequipa 2356, 2356 Avenida Arequipa",
-   "distrito": "Lince",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-29-oct-jornada-2-tickets-1999814908224",
-   "fuente": "Eventbrite",
-   "organizador": "CAENE",
-   "descripcion": "Un encuentro de acceso limitado con CEOs, presidentes y referentes del país. Conecta con quienes hoy están definiendo el futuro del Perú.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193113781%2F3010476896322%2F1%2Foriginal.20260909-232246?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=696837b40d0372ffb324e5a905b55462",
-   "inscripcion": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-29-oct-jornada-2-tickets-1999814908224",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 16,
-   "afinidad": 0,
-   "puntaje": 16,
-   "por_que": "Networking · Gratis",
-   "visto_desde": "2026-10-20T21:59-05:00"
   },
   {
    "id": "luma:evt-bVxokymWkHNwhur",
@@ -2439,34 +2357,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "eb:2000205996981",
-   "titulo": "ELE 2026 | XII Encuentro de Líderes Empresariales – 30 Oct. Jornada 3",
-   "inicio": "2026-10-30T08:00-05:00",
-   "fin": "2026-10-30T13:00-05:00",
-   "lugar": "Av. Arequipa 2356, 2356 Avenida Arequipa",
-   "distrito": "Lince",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-30-oct-jornada-3-tickets-2000205996981",
-   "fuente": "Eventbrite",
-   "organizador": "CAENE",
-   "descripcion": "Un encuentro de acceso limitado con CEOs, presidentes y referentes del país. Conecta con quienes hoy están definiendo el futuro del Perú.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193113846%2F3010476896322%2F1%2Foriginal.20260909-232335?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f80382486625a01c379bcb0472a82f0",
-   "inscripcion": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-30-oct-jornada-3-tickets-2000205996981",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 16,
-   "afinidad": 0,
-   "puntaje": 16,
-   "por_que": "Networking · Gratis",
-   "visto_desde": "2026-10-16T02:50-05:00"
-  },
-  {
    "id": "luma:evt-ziEFOKk5km9v3cB",
    "titulo": "Open Lab🔬|#30-oct",
    "inicio": "2026-10-30T09:30-05:00",
@@ -2579,6 +2469,34 @@
     "titulo": "LA DECANATRÓN UNMSM 2"
    },
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "eb:2000264678499",
+   "titulo": "ELE 2026 | XII Encuentro de Líderes Empresariales – 30 Oct. Jornada 4",
+   "inicio": "2026-10-30T14:00-05:00",
+   "fin": "2026-10-30T19:00-05:00",
+   "lugar": "Av. Arequipa 2356, 2356 Avenida Arequipa",
+   "distrito": "Lince",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-30-oct-jornada-4-tickets-2000264678499",
+   "fuente": "Eventbrite",
+   "organizador": "CAENE",
+   "descripcion": "Un encuentro de acceso limitado con CEOs, presidentes y referentes del país. Conecta con quienes hoy están definiendo el futuro del Perú.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193113897%2F3010476896322%2F1%2Foriginal.20260909-232415?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9ca6c479671cba44f5198aa1839e26e3",
+   "inscripcion": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-30-oct-jornada-4-tickets-2000264678499",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 16,
+   "afinidad": 0,
+   "puntaje": 16,
+   "por_que": "Networking · Gratis",
+   "visto_desde": "2026-10-23T21:59-05:00"
   },
   {
    "id": "meetup:315593613",
@@ -3690,7 +3608,7 @@
    "organizador": "LATIN AMERICAN DESIGN",
    "descripcion": "LADFEST X. NOW IN LIMA.\nCelebra los 10 años del Latin American Design Festival este 06 y 07 de noviembre de 2026.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=afae269f99864aa92b9af2ca1be6bbb5",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b8729d4b9562a1ae09d8ab9ee7cf6c47",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-ladfest-x-2026-1995168675216",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -4246,7 +4164,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4037bc17149716d609edd59c3199863a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=b3f1a7f5e1b4d9a5d5a4f9e8ce557aaa",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4695,7 +4613,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "¿Te imaginás crear anuncios publicitarios con personas que no existen, videos hiperrealistas y voces profesionales, sin utilizar cámaras,",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=434&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=34133bfa50de0032498808939be3a293",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d576c113898c71fb45de927181d83f4",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -5414,7 +5332,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=c253c5afba1560b86d681b9d24956355",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -5425,6 +5343,33 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-10-21T18:55-05:00"
+  },
+  {
+   "id": "pucp:primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447",
+   "titulo": "Primer Encuentro del Derecho Laboral y la Fotografía Documental",
+   "inicio": "2026-11-26T12:30-05:00",
+   "fin": "2026-11-26T14:30-05:00",
+   "lugar": "Campus PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Los días 22 y 23 de octubre de 2026, la Sala de Audiencias de la Facultad de Derecho de la PUCP será sede del Primer Encuentro del Derecho del Trabajo y la Fotografía Documental, organizada por la Comisión de Arte y Derecho y Angela Escobar Huanca, egresada de la Facultad de Derecho de la PUCP. La propuesta busca acercar los temas sensibles del derecho desde la puerta de la fotografía documental, para trasladar los problemas jurídicos y conectar con ellos desde la fuerza de la imagen.\nLas ponencias. Durante dos jornadas, especialistas de la academia, la judicatura, el sector público y privado y la Organización Internacional de Trabajo interpretarán el trabajo a través de fotografías document",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/portada_evento_e552a0c4f9.jpg",
+   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSdIFpww1ej0KZcRaBQkaXk1qg5mfnx-bsKbHMzvunfuTrAuHQ/viewform",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 33,
+   "afinidad": 6,
+   "puntaje": 39,
+   "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-10-21T14:07-05:00"
   },
   {
    "id": "luma:evt-CFnnzJpzLLYgAPo",
@@ -8981,7 +8926,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Feria Internacional de Proveedores de la Industria Textil y Confecciones.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ecf2b82e33fcfea75fb6c33f359c2463",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=001dfba204fcefc50d070ae8f3ca9098",
    "inscripcion": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084066665",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9006,7 +8951,7 @@
    "organizador": "IntekTV",
    "descripcion": "Descubre cómo el ecosistema Blackmagic está transformando la enseñanza audiovisual y abriendo nuevas oportunidades profesionales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d25ce87be83320a35b0b10bb1864490f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe2591b2f911dde84a279162c0cdca28",
    "inscripcion": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-academia-tickets-2002243178245",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9495,33 +9440,6 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31411",
-   "titulo": "RenderJuice Blender Animation & Programmatic Rendering Contest",
-   "tipo": "hackathon",
-   "inicio": "2026-10-14T00:00-05:00",
-   "fin": "2026-10-31T23:59-05:00",
-   "cierre": "2026-10-31T23:59-05:00",
-   "lugar": "New York, NY",
-   "distrito": "New York",
-   "modalidad": "Presencial",
-   "url": "https://programmatic-rendering-contest.devpost.com/",
-   "inscripcion": "https://programmatic-rendering-contest.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "RenderJuice",
-   "descripcion": "Hackathon presencial en New York, NY. Temas: Design, Music/Art, Open Ended. Premios: $1,500.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/341/415/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31736",
    "titulo": "CreateAThon",
    "tipo": "hackathon",
@@ -9548,6 +9466,33 @@
    "afinidad": 26,
    "puntaje": 42,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31411",
+   "titulo": "RenderJuice Blender Animation & Programmatic Rendering Contest",
+   "tipo": "hackathon",
+   "inicio": "2026-10-14T00:00-05:00",
+   "fin": "2026-10-31T23:59-05:00",
+   "cierre": "2026-10-31T23:59-05:00",
+   "lugar": "New York, NY",
+   "distrito": "New York",
+   "modalidad": "Presencial",
+   "url": "https://programmatic-rendering-contest.devpost.com/",
+   "inscripcion": "https://programmatic-rendering-contest.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "RenderJuice",
+   "descripcion": "Hackathon presencial en New York, NY. Temas: Design, Music/Art, Open Ended. Premios: $1,500.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/341/415/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31694",
@@ -9604,6 +9549,33 @@
    "afinidad": 26,
    "puntaje": 42,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:29871",
+   "titulo": "Cal Hacks 13.0",
+   "tipo": "hackathon",
+   "inicio": "2026-10-23T00:00-05:00",
+   "fin": "2026-10-25T23:59-05:00",
+   "cierre": "2026-10-25T23:59-05:00",
+   "lugar": "Palace of Fine Arts",
+   "distrito": "Palace of Fine Arts",
+   "modalidad": "Presencial",
+   "url": "https://cal-hacks-13-0.devpost.com/",
+   "inscripcion": "https://cal-hacks-13-0.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Cal Hacks",
+   "descripcion": "Hackathon presencial en Palace of Fine Arts. Temas: Beginner Friendly, Social Good, Open Ended. Premios: $83,328.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/519/078/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31061",
@@ -9688,6 +9660,33 @@
    "afinidad": 33,
    "puntaje": 49,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:29117",
+   "titulo": "SBUHacks 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-10-23T00:00-05:00",
+   "fin": "2026-10-25T23:59-05:00",
+   "cierre": "2026-10-25T23:59-05:00",
+   "lugar": " Frank Melville Jr. Memorial Library",
+   "distrito": " Frank Melville Jr. Memorial Library",
+   "modalidad": "Presencial",
+   "url": "https://sbuhacks-2026.devpost.com/",
+   "inscripcion": "https://sbuhacks-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Stony Brook Computing Society",
+   "descripcion": "Hackathon presencial en  Frank Melville Jr. Memorial Library. Temas: Beginner Friendly, Social Good, Open Ended. Premios: $1,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/491/851/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "opportunitiesforyouth:advisory-board-2027-2028-applications-open-for-young-people-worldwide-",
@@ -10272,62 +10271,6 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31626",
-   "titulo": "Hackathon Agéntico SoftwareChido 2026B",
-   "tipo": "hackathon",
-   "inicio": "2026-10-05T00:00-05:00",
-   "fin": "2026-11-25T23:59-05:00",
-   "cierre": "2026-11-25T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://hackathon-agentico-2026b.devpost.com/",
-   "inscripcion": "https://hackathon-agentico-2026b.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ITESO",
-   "descripcion": "Hackathon online. Temas: Education, Machine Learning/AI. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 29,
-   "puntaje": 48,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31725",
-   "titulo": "Society of Software Engineers | 2nd Annual Halloween Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-10-15T00:00-05:00",
-   "fin": "2026-10-24T23:59-05:00",
-   "cierre": "2026-10-24T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://sose-halloween-hackathon-2.devpost.com/",
-   "inscripcion": "https://sose-halloween-hackathon-2.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Society of Software Engineers",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 9,
-   "puntaje": 28,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31320",
    "titulo": "uXperience Design Jam sponsored by Sunlife",
    "tipo": "hackathon",
@@ -10565,33 +10508,6 @@
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad"
   },
   {
-   "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
-   "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS",
-   "inicio": "2026-10-21T09:00-05:00",
-   "fin": "2026-10-23T21:00-05:00",
-   "lugar": "Facultad de Arquitectura y Urbanismo (Pabellón T)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Arquitectura PUCP y Arquitectura UC presentan el Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISENSOS, que se proyecta como una plataforma académica desde el Sur Global, orientada a compartir experiencias y desafíos en la enseñanza y aprendizaje en arquitectura y urbanismo. El Congreso se realizará del 21 al 23 de octubre de 2026 en el Campus PUCP en Lima, Perú.\nDurante estos tres días, se desarrollarán conferencias magistrales, presentaciones de ponencias y afiches, mesas de discusión, y acciones pedagógicas. A través de estos espacios de conversación ampliada se busca mirar hacia el futuro con la elaboración de un manifiesto conjunto y una publicac",
-   "gratis": false,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/duotono_2_78de8866cc.jpg",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=048&i=353",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 29,
-   "afinidad": 12,
-   "puntaje": 41,
-   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad",
-   "motivo": "no pasó la verificación: enlace roto (404)"
-  },
-  {
    "id": "pucp:circulo-de-escucha-lo-que-nos-sostiene",
    "titulo": "Círculo de escucha: \"Lo que nos sostiene\"",
    "inicio": "2026-10-28T15:00-05:00",
@@ -10679,11 +10595,11 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-23T18:45-05:00",
-  "revisados": 241,
+  "fecha": "2026-10-23T21:59-05:00",
+  "revisados": 238,
   "corregidos": 18,
   "avisos": 4,
-  "archivados": 3,
+  "archivados": 2,
   "problemas": [
    {
     "id": "pucp:vive-la-semana-de-clases-modelo-gratuitas-en-idiomas-pucp-del-20-al-26-de-octubre-19102026130424",
@@ -10846,14 +10762,6 @@
     "url": "https://events.vtools.ieee.org/m/581551"
    },
    {
-    "id": "pucp:congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405",
-    "titulo": "Congreso Internacional de Pedagogías en Arquitectura y Urbanismo en Red – PRÁCTICAS Y DISE",
-    "fuente": "PUCP",
-    "nivel": "archivado",
-    "detalle": "enlace roto (404) en dos revisiones seguidas",
-    "url": "https://agenda.pucp.edu.pe/evento/congreso-internacional-de-pedagogias-en-arquitectura-y-urbanismo-en-red-practicas-y-disensos-14092026172405/"
-   },
-   {
     "id": "pucp:circulo-de-escucha-lo-que-nos-sostiene",
     "titulo": "Círculo de escucha: \"Lo que nos sostiene\"",
     "fuente": "PUCP",
@@ -10887,8 +10795,8 @@
    }
   ],
   "enlaces": {
-   "comprobados": 6,
-   "rotos": 5,
+   "comprobados": 3,
+   "rotos": 4,
    "sin_comprobar": 0
   },
   "fuentes_a_revisar": []
@@ -10911,6 +10819,14 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "ALO Lift reúne a representantes de 8 países en la Cumbre de Las Américas 2026",
+   "url": "https://mineriaenergia.com/alo-lift-reune-a-representantes-de-8-paises-en-la-cumbre-de-las-americas-2026/",
+   "medio": "mineriaenergia",
+   "publicado": "Mon, 19 Oct 2026 14:19:00 GMT",
+   "resumen": "El encuentro, realizado del 14 al 16 de octubre en Lima, Perú, fortaleció la integración regional de ALO Group, promoviendo el intercambio de experiencias y la colaboración entre equipos comerciales y ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "El XII Foro Gerencias Legales reunirá en Lima a directivos jurídicos de IBM, Uber, CEMEX y otras multinacionales",
    "url": "https://www.lawyerpress.com/2026/10/13/el-xii-foro-gerencias-legales-reunira-en-lima-a-directivos-juridicos-de-ibm-uber-cemex-y-otras-multinacionales/",
    "medio": "Lawyerpress",
@@ -10924,6 +10840,14 @@
    "medio": "Agencia Peruana de Noticias | ANDINA",
    "publicado": "Thu, 15 Oct 2026 07:52:00 GMT",
    "resumen": "El Fondo Editorial del Congreso (FEC) participará en la 8.ª Feria Metropolitana del Libro Lima Lee 2026, evento editorial organizado por la Municipalidad de Lima que abrirá sus puertas del viernes 16 ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
+   "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
+   "medio": "Infobae",
+   "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
+   "resumen": "La feria ofrecerá conversatorios, encuentros con escritores, presentaciones de novedades editoriales, talleres, cuentacuentos, recitales de poesía y espectáculos musicales ...",
    "fecha_mencionada": ""
   },
   {
@@ -10972,22 +10896,6 @@
    "medio": "Revista Economía",
    "publicado": "Thu, 15 Oct 2026 10:06:00 GMT",
    "resumen": "El Red Hat Summit Connect 2026 se realiza también en Montevideo, Buenos Aires, Santiago, Ciudad de México, São Paulo y Bogotá.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Lima Lee 2026: diez días de feria del libro en el Museo Metropolitano",
-   "url": "https://peru21.pe/cultura/lima-lee-2026-diez-dias-de-feria-del-libro-en-el-museo-metropolitano/",
-   "medio": "Perú.21",
-   "publicado": "Sun, 11 Oct 2026 00:06:00 GMT",
-   "resumen": "Feria del libro tendrá más de 40 stands y alrededor de 70 actividades. Reunirá a editoriales, librerías y autores.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
-   "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
-   "medio": "RPP",
-   "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
-   "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
    "fecha_mencionada": ""
   }
  ],
@@ -11153,7 +11061,6 @@
   }
  },
  "primera_vez": {
-  "meetup:315593600": "2026-09-24T21:06-05:00",
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:tejiendo-redes-de-encuentro-para-estudiantes": "2026-09-24T21:10-05:00",
   "pucp:xxiv-jornadas-internacionales-de-psicologia-educacional-02072026140037": "2026-09-24T21:10-05:00",
@@ -11299,7 +11206,6 @@
   "luma:evt-GTCgFP6nHo6yU0X": "2026-10-15T18:33-05:00",
   "luma:evt-hAU9B1n3SCRvd2x": "2026-10-15T21:48-05:00",
   "ieee:581551": "2026-10-15T21:48-05:00",
-  "eb:2000205996981": "2026-10-16T02:50-05:00",
   "pucp:destejer-latinoamerica-15102026182259": "2026-10-16T08:44-05:00",
   "wikicfp:203780": "2026-10-16T08:44-05:00",
   "eb:2003515262082": "2026-10-16T13:38-05:00",
@@ -11310,7 +11216,6 @@
   "pucp:mas-alla-del-criterio-de-lawson-la-ignicion-como-trayectoria-dinamica-16102026165045": "2026-10-16T18:15-05:00",
   "pucp:feria-de-proyectos-finalistas-del-crea-3-0-desafio-gamer-16102026113038": "2026-10-16T18:15-05:00",
   "luma:evt-es6opVnCfpnSrDb": "2026-10-16T18:15-05:00",
-  "luma:evt-flZZ639xKb0jOmH": "2026-10-16T21:41-05:00",
   "eb:2003527457559": "2026-10-16T21:41-05:00",
   "eb:2003540173593": "2026-10-17T02:29-05:00",
   "opportunitiesforyouth:eate-a-manifesto-for-a-safe-clean-healthy-and-sustainable-environment-": "2026-10-17T07:40-05:00",
@@ -11348,7 +11253,6 @@
   "devpost:31797": "2026-10-20T16:10-05:00",
   "pucp:primer-congreso-latinoamericano-de-etica-en-la-abogacia-y-la-ensenanza-del-derecho-19102026174533": "2026-10-20T16:10-05:00",
   "luma:evt-xIYT5GvHGMC7Ikf": "2026-10-20T21:59-05:00",
-  "eb:1999814908224": "2026-10-20T21:59-05:00",
   "pucp:webinar-iso-13485-de-la-exigencia-regulatoria-a-la-gestion-estrategica-de-los-dispositivos-medicos-20102026145151": "2026-10-20T21:59-05:00",
   "eb:2003402159790": "2026-10-20T21:59-05:00",
   "meetup:ppkhbvyjcqbzb": "2026-10-20T21:59-05:00",
@@ -11390,6 +11294,8 @@
   "opportunitydesk:nitydesk-org-2026-10-23-world-food-forum-youth-policy-board-2027-2028-": "2026-10-23T13:52-05:00",
   "opportunitydesk:g-2026-10-23-columbia-university-italian-academy-fellowship-2027-2028-": "2026-10-23T13:52-05:00",
   "luma:evt-hI9cDJTENcdEbct": "2026-10-23T18:45-05:00",
-  "luma:evt-FpMXsIt3VijlANC": "2026-10-23T18:45-05:00"
+  "luma:evt-FpMXsIt3VijlANC": "2026-10-23T18:45-05:00",
+  "eb:1999735020277": "2026-10-23T21:59-05:00",
+  "eb:2000264678499": "2026-10-23T21:59-05:00"
  }
 }
