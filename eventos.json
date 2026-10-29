@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-28T19:35-05:00",
+ "actualizado": "2026-10-29T04:15-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 44
+   "n": 43
   },
   "Eventbrite": {
    "ok": true,
@@ -11,11 +11,11 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 24
+   "n": 22
   },
   "Meetup": {
    "ok": true,
-   "n": 11
+   "n": 10
   },
   "PUCP": {
    "ok": true,
@@ -48,7 +48,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 8
+   "n": 7
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 370,
+ "revisados": 365,
  "top": 55,
  "eventos": [
   {
@@ -203,65 +203,6 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
-   "id": "inst:sni-taller-presentaci-n-de-estados-financieros-bajo-niif:2026-10-27",
-   "titulo": "Taller: PRESENTACIÓN DE ESTADOS FINANCIEROS BAJO NIIF",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-27T19:00-05:00",
-   "fin": "2026-10-28T22:00-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/PRESENTACION-DE-ESTADOS-FINANCIEROS-BAJO-NIIF-img.png",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 32,
-   "afinidad": 0,
-   "puntaje": 32,
-   "por_que": "Formativo · Evento institucional · Presencial en Lima",
-   "visto_desde": "2026-10-12T17:23-05:00"
-  },
-  {
-   "id": "eb:2002312352146",
-   "titulo": "IX Congreso Internacional de Género",
-   "inicio": "2026-10-28T09:45-05:00",
-   "fin": "2026-10-29T15:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.mx/e/ix-congreso-internacional-de-genero-tickets-2002312352146",
-   "inscripcion": "https://www.eventbrite.com.mx/e/ix-congreso-internacional-de-genero-tickets-2002312352146",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Equidad de Género ITSON",
-   "descripcion": "Objetivo:  Generar una plataforma intelectual para el análisis, reflexión y discusión de ideas y tendencias en el ámbito de la Instituciona",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194390256%2F39675977232%2F1%2Foriginal.20260925-203623?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.96&fp-y=0.39&s=6aed7e8f131f40c2dbcae8dd97f17771",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 23,
-   "afinidad": 12,
-   "puntaje": 35,
-   "por_que": "Formativo · Afín: Investigación · Gratis · Virtual",
-   "visto_desde": "2026-10-02T04:19-05:00"
-  },
-  {
    "id": "opportunitydesk:rg-2026-10-28-23-hot-job-opportunities-currently-open-october-28-2026-",
    "titulo": "23 Hot Job Opportunities Currently Open – October 28, 2026",
    "tipo": "convocatoria",
@@ -288,95 +229,6 @@
    "puntaje": 21,
    "por_que": "Abre puertas (beca/programa) · Empresa reconocida · Se postula en línea",
    "visto_desde": "2026-10-28T13:09-05:00"
-  },
-  {
-   "id": "eb:2002831931221",
-   "titulo": "Congreso Internacional de Educación 2026",
-   "inicio": "2026-10-28T18:00-05:00",
-   "fin": "2026-10-28T21:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.mx/e/congreso-internacional-de-educacion-2026-tickets-2002831931221",
-   "inscripcion": "https://www.eventbrite.com.mx/e/congreso-internacional-de-educacion-2026-tickets-2002831931221",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "unidad eDUCA",
-   "descripcion": "Únete al Congreso Internacional de Educación 2026 en línea y descubre lo último en innovación educativa.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195480798%2F2999541127065%2F1%2Foriginal.20261009-203820?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.442&fp-y=0.108&s=b8b97b4064801e6090b292385a08f5d3",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 16,
-   "puntaje": 39,
-   "por_que": "Formativo · Afín: Investigación · Gratis · Afín: Emprendimiento y finanzas",
-   "original": {
-    "titulo": "CONGRESO INTERNACIONAL DE EDUCACIÓN 2026"
-   },
-   "visto_desde": "2026-10-04T22:39-05:00"
-  },
-  {
-   "id": "luma:evt-uMLHeVK4IAWybmd",
-   "titulo": "🏛️ Foro Hipotecario 2026",
-   "inicio": "2026-10-28T18:30-05:00",
-   "fin": "2026-10-28T22:00-05:00",
-   "lugar": "Avenida Agustín de la Rosa Toro 1193, San Borja",
-   "distrito": "San Borja",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/hjltvjf5",
-   "fuente": "Luma",
-   "organizador": "Martin Miguel Alberto Camacho Pacheco",
-   "descripcion": "Conecta, aprende y descubre nuevas oportunidades de negocio inmobiliario.\nLa Academia CCH te invita a un encuentro presencial diseñado para agentes inmobiliarios, brókers, inversionistas y emprendedores que buscan ampliar sus conocimientos y generar nuevas oportunidades.\n🎤 Nuestros ponentes:\n🏗️ Gustavo Espinoza – Arq. SelvaDesarrollo inmobiliario para el turismo.Descubre las oportunidades de inversión y desarrollo que ofrece el sector turístico.\n🏦 Martín Camacho – Bróker HipotecarioEl crédito hipotecario como herramienta de venta.Aprende a utilizar el financiamiento hipotecario para impulsar tus cierres inmobiliarios.\n📅 Fecha: Miércoles 28 de octubre de 2026🕡 Hora: 6:30 p. m.📍 Lugar: Av. La ",
-   "gratis": false,
-   "imagen": "https://images.lumacdn.com/uploads/xv/02b9cf8b-1e98-4b4c-9a50-a22600455872.jpg",
-   "inscripcion": "https://lu.ma/hjltvjf5",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
-   ],
-   "valor": 21,
-   "afinidad": 8,
-   "puntaje": 29,
-   "por_que": "Networking · Presencial en Lima · Afín: Inteligencia artificial · Bajo costo",
-   "original": {
-    "titulo": "🏛️ FORO HIPOTECARIO 2026"
-   },
-   "visto_desde": "2026-10-13T00:05-05:00"
-  },
-  {
-   "id": "meetup:317141141",
-   "titulo": "🎃 AWS Horror Stories: Pesadillas en la Nube 👻",
-   "inicio": "2026-10-28T19:00-05:00",
-   "fin": "2026-10-28T22:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/awsperu/events/317141141/",
-   "fuente": "Meetup",
-   "organizador": "AWS User Group Peru",
-   "descripcion": "🎃 AWS Horror Stories: Pesadillas en la Nube 👻\n¡Este Halloween, los sustos también llegan a la nube! ☁️\n\n📅 Fecha: Miércoles 28 de octubre de 2026\n🕖 Hora: 7:00 p. m. – 10:00 p. m.\n📍 Lugar: Av. Santo Toribio 115, piso 8, San Isidro, Lima\n🎟️ Ingreso: Gratuito | Aforo limitado\n\n¿Alguna vez un despliegue en producción te quitó el sueño? ¿Una factura de AWS te dio un buen susto? ¿O te encontraste con un error que parecía no tener explicación? 😱\n\nEn el mundo de la tecnología también tenemos nuestras propias historias de terror, y qué mejor ocasión que Halloween para reunirnos y compartirlas. Este miércoles nos volvemos a encontrar en una edición especial de nuestro Meetup de AWS User Group Perú.\n\nSe",
-   "gratis": true,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/awsperu/events/317141141/",
-   "fuente_url": "https://www.meetup.com/awsperu/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Networking · Presencial en Lima · Gratis · Empresa reconocida",
-   "visto_desde": "2026-10-26T03:26-05:00"
   },
   {
    "id": "eb:1999735020277",
@@ -711,7 +563,7 @@
    "organizador": "Universidad de San Buenaventura Medellín",
    "descripcion": "Descubre qué te hace diferente y aprende a comunicarlo con claridad en este encuentro online.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196137617%2F87708585251%2F1%2Foriginal.20261019-213042?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.173&s=28f2af559b6950b3180ab3227ca3cd41",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196137617%2F87708585251%2F1%2Foriginal.20261019-213042?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.173&s=95d753b0a96b7d35a57d0b20c4e97f2d",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -821,7 +673,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "Un programa práctico en vivo donde aprenderás a utilizar Claude para investigar, analizar información, crear contenido, automatizar tareas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191618222%2F257811272973%2F1%2Foriginal.20260821-191405?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a4e4ed1af821006f2c62436ce350e0c6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191618222%2F257811272973%2F1%2Foriginal.20260821-191405?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f6161db0dcd59634eb99f142c605b692",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -877,7 +729,7 @@
    "organizador": "AULABIERTA",
    "descripcion": "Periodismo explicativo especializado con IA\nInteligencia artificial para periodistas: calidad y autoría",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196808494%2F256438124752%2F1%2Foriginal.20261028-212625?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.352&s=e4664b01eb0f8bbf05ed30e22d12b1e1",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196808494%2F256438124752%2F1%2Foriginal.20261028-212625?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.352&s=40265136d377ac802a8ce55c1edc3924",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1464,7 +1316,7 @@
    "organizador": "Más Voces en Diseño México",
    "descripcion": "Reunión virtual comunidad Más Voces en Diseño México.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196130959%2F302405960838%2F1%2Foriginal.20261019-202004?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6c5fb19799a754613fa0f1cbb9c7b73d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196130959%2F302405960838%2F1%2Foriginal.20261019-202004?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c2c4e764c3bb55d0cc8d62bfdbd1f238",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2358,7 +2210,7 @@
    "organizador": "ICIC",
    "descripcion": "Serie de seminarios web para pequeñas empresas",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=b60bf879dde73acca4a22c4ab676cb61",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=656f8a3f65b32b4293b4b3184b283cf2",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2720,7 +2572,7 @@
    "organizador": "",
    "descripcion": "Únete al Foro Rescate Tributario para descubrir cómo ahorrar en tus impuestos en 2026 y mejorar tus finanzas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=80ccbe4d38cc6bd9f3bb6732eabe908d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=96d97ca422e3968045d280cf714b793b",
    "inscripcion": "https://www.eventbrite.com/e/foro-rescate-tributario-ahorro-tributario-2026-tickets-2002634957066",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2885,7 +2737,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Expotextil Runways: living platforms where design, tech & sustainability meet. Showcasing the best of Peruvian & global fashion to the world",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=189aa283fdeaf8e5c267ce55440e2ad8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0c84b16c9ad9ab32b2a8d71580005d41",
    "inscripcion": "https://www.eventbrite.com/e/pasarelas-expotextil-tickets-1988046593879",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3029,7 +2881,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "Tres martes en vivo para construir tu modelo de competencias: diccionario, perfiles, entrevistas con evidencia, evaluación y tablero.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f353e0b83794063b9700ffb90550856a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a699e8c53a824188278ab96f14fef0c3",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3362,7 +3214,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4d6a4bea9b5d6fd895a6d4e549ae6bce",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=b3f1a7f5e1b4d9a5d5a4f9e8ce557aaa",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3579,7 +3431,7 @@
    "organizador": "Black Alpaca Security Conference",
    "descripcion": "A kickass cybersecurity conference for curious minds eager to explore, learn, and connect in a dynamic and engaging setting!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=83e7c861a96cec95e69ed86629c05fea",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61f15a6eaea1039e54e14a0afa2120e8",
    "inscripcion": "https://www.eventbrite.com.pe/e/black-alpaca-security-conference-2026-tickets-2000906328692",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3950,7 +3802,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "¿Te imaginás crear anuncios publicitarios con personas que no existen, videos hiperrealistas y voces profesionales, sin utilizar cámaras,",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d576c113898c71fb45de927181d83f4",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=34e2e4dfeb24a162bcfb4f174c3c9028",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4719,7 +4571,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=434&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=974df7a6b38db314ee5dfcc77674aaf7",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4801,7 +4653,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=84a90458746b7a4829bbf2d1b1f297ae",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -5064,33 +4916,31 @@
    "visto_desde": "2026-10-19T22:05-05:00"
   },
   {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-10-27-idrc-john-g-bene-fellowship-2026-",
-   "titulo": "IDRC John G. Bene Fellowship 2026 (up to $30,000 CAD)",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-30T23:59-05:00",
+   "id": "devpost:31682",
+   "titulo": "CSC Winter Sparkathon",
+   "tipo": "hackathon",
+   "inicio": "2026-10-29T00:00-05:00",
    "fin": "2026-11-30T23:59-05:00",
    "cierre": "2026-11-30T23:59-05:00",
-   "publicado": "2026-10-27T13:20-05:00",
    "lugar": "",
    "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 30, 2026 Applications are open for the IDRC John G. Bene Fellowship 2026. The Bene fellowship, a bequest from the estate of John G. Bene, is offered to Canadians and permanent residents of Canada pursuing master’s or doctoral studies at a Canadian university. Candidates should have an academic background that combines an interest [...]",
-   "gratis": false,
-   "imagen": "",
+   "modalidad": "Virtual",
+   "url": "https://csc-winter-sparkathon.devpost.com/",
+   "inscripcion": "https://csc-winter-sparkathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "The Webb Schools CSC",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Social Good. Premios: $100.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/557/957/datas/medium_square.png",
    "categorias": [
-    "Idiomas, becas e internacional",
-    "Investigación y ciencia"
+    "Competencias y hackathons"
    ],
-   "valor": 27,
-   "afinidad": 12,
-   "puntaje": 39,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Plazo claro",
-   "visto_desde": "2026-10-27T16:45-05:00"
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-29T04:15-05:00"
   },
   {
    "id": "wikicfp:200050",
@@ -8349,7 +8199,7 @@
    "organizador": "IntekTV",
    "descripcion": "Experimenta un workflow completo de producción en vivo con herramientas Blackmagic Design aplicadas a eventos, streaming  y televisión.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194316579%2F172988898758%2F1%2Foriginal.20260924-204813?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c8d78be718965615b04b452b1469ddb2",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194316579%2F172988898758%2F1%2Foriginal.20260924-204813?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fae8b985aede470baf077e64d966b3ac",
    "inscripcion": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-produccion-en-vivo-tickets-2002225687931",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8499,7 +8349,7 @@
    "organizador": "Burpsuite Day Peru",
    "descripcion": "El primer evento de la comunidad Burp Suite en el Perú. Charlas técnicas de AppSec y pentesting. 7 de noviembre, INICTEL-UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=889ea049d6c1213d15abca73d4f5ec0f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9c21874f822d85d9b64e69a738719a6b",
    "inscripcion": "https://www.eventbrite.com.pe/e/burpsuite-day-peru-2026-tickets-1999138227253",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8724,7 +8574,7 @@
    "organizador": "",
    "descripcion": "Somos una empresa, dedica al rubro de Construccion y Acabados, realizamos todo tipo de proyectos, que desee para su hogar.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=723ef18fb1bd3e4bb2d8fe781b421019",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=4db93be566d2ee94c2f59ca82f0c6e13",
    "inscripcion": "https://www.eventbrite.com/e/entradas-perfect-home-2003322947865",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9592,20 +9442,20 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:1981186920411",
+   "id": "eb:1981186921414",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-28T23:00-05:00",
-   "fin": "2026-10-29T13:00-05:00",
+   "inicio": "2026-10-29T23:00-05:00",
+   "fin": "2026-10-30T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186920411",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186921414",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima at 11AM you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186920411",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186921414",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -9671,6 +9521,34 @@
    "afinidad": 0,
    "puntaje": 27,
    "por_que": "Abre puertas (beca/programa) · Gremio o institución · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitydesk:unitydesk-org-2026-10-29-world-health-organisation-summer-school-2027-",
+   "titulo": "World Health Organisation (WHO) Summer School 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-23T23:59-05:00",
+   "fin": "2026-11-23T23:59-05:00",
+   "cierre": "2026-11-23T23:59-05:00",
+   "publicado": "2026-10-29T04:08-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/10/29/world-health-organisation-summer-school-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/10/29/world-health-organisation-summer-school-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 23, 2026 Applications are open for the World Health Organisation (WHO) Summer School 2027. The Division of Prevention and Health Promotion of the WHO Regional Office for Europe, the WHO Collaborating Centre at Université Côte d’Azur, and Ulysseus European University are now accept",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Abre puertas (beca/programa) · Universidad · Plazo claro · Se postula en línea"
   },
   {
    "id": "wikicfp:194196",
@@ -9807,34 +9685,6 @@
    "afinidad": 6,
    "puntaje": 22,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31896",
-   "titulo": "Solix AI Hackathon 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-26T00:00-05:00",
-   "fin": "2026-10-28T23:59-05:00",
-   "cierre": "2026-10-28T23:59-05:00",
-   "lugar": "Qualcomm Institute, UC San Diego",
-   "distrito": "Qualcomm Institute",
-   "modalidad": "Presencial",
-   "url": "https://solix-ai-hackathon-2026.devpost.com/",
-   "inscripcion": "https://solix-ai-hackathon-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Solix ",
-   "descripcion": "Hackathon presencial en Qualcomm Institute, UC San Diego. Temas: Health, Machine Learning/AI, Social Good. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/715/931/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 33,
-   "puntaje": 49,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31910",
@@ -10317,7 +10167,7 @@
   "PERUMIN": 1,
   "ESAN — eventos": 1,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 2,
+  "Sociedad Nacional de Industrias": 1,
   "AmCham Perú": 2,
   "ComexPerú": 1
  },
@@ -10333,28 +10183,12 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-28T19:35-05:00",
-  "revisados": 226,
-  "corregidos": 12,
+  "fecha": "2026-10-29T04:15-05:00",
+  "revisados": 221,
+  "corregidos": 10,
   "avisos": 8,
   "archivados": 3,
   "problemas": [
-   {
-    "id": "eb:2002831931221",
-    "titulo": "Congreso Internacional de Educación 2026",
-    "fuente": "Eventbrite online",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://www.eventbrite.com.mx/e/congreso-internacional-de-educacion-2026-tickets-2002831931221"
-   },
-   {
-    "id": "luma:evt-uMLHeVK4IAWybmd",
-    "titulo": "🏛️ Foro Hipotecario 2026",
-    "fuente": "Luma",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://lu.ma/hjltvjf5"
-   },
    {
     "id": "ieee:584211",
     "titulo": "Nextgen Innovators 2026",
@@ -10525,7 +10359,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 20,
+   "comprobados": 12,
    "rotos": 9,
    "sin_comprobar": 0
   },
@@ -10605,14 +10439,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "EXPOMIEL 2026: Apicultores peruanos se reúnen para traer a Lima miel y derivados",
-   "url": "https://ojo.pe/mujer/expomiel-2026-apicultores-peruanos-se-reunen-para-traer-a-lima-miel-y-derivados-web-ojo-print-noticia/",
-   "medio": "Diario OJO",
-   "publicado": "Wed, 28 Oct 2026 10:25:00 GMT",
-   "resumen": "Desde este jueves 29 de octubre al domingo 01 de noviembre será desarrollada la Feria EXPOMIEL 2026 en la Alameda 28 de julio del Centro de Lima, un espacio donde podrán conocer los productos que trae ...",
-   "fecha_mencionada": "2026-10-29T00:00-05:00"
-  },
-  {
    "titulo": "Lima Lee 2026: diez días de feria del libro en el Museo Metropolitano",
    "url": "https://peru21.pe/cultura/lima-lee-2026-diez-dias-de-feria-del-libro-en-el-museo-metropolitano/",
    "medio": "Perú.21",
@@ -10627,6 +10453,14 @@
    "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
    "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
    "fecha_mencionada": ""
+  },
+  {
+   "titulo": "EXPOMIEL 2026: Apicultores peruanos se reúnen para traer a Lima miel y derivados",
+   "url": "https://ojo.pe/mujer/expomiel-2026-apicultores-peruanos-se-reunen-para-traer-a-lima-miel-y-derivados-web-ojo-print-noticia/",
+   "medio": "Diario OJO",
+   "publicado": "Wed, 28 Oct 2026 10:25:00 GMT",
+   "resumen": "Desde este jueves 29 de octubre al domingo 01 de noviembre será desarrollada la Feria EXPOMIEL 2026 en la Alameda 28 de julio del Centro de Lima, un espacio donde podrán conocer los productos que trae ...",
+   "fecha_mencionada": "2026-10-29T00:00-05:00"
   }
  ],
  "inscripciones_abiertas": [
@@ -10862,10 +10696,8 @@
   "devpost:31054": "2026-09-30T12:29-05:00",
   "eb:2002634957066": "2026-09-30T12:29-05:00",
   "devpost:31302": "2026-10-01T15:06-05:00",
-  "eb:2002312352146": "2026-10-02T04:19-05:00",
   "eb:2002800032812": "2026-10-02T12:19-05:00",
   "pucp:ceremonia-de-homenaje-a-exalumnos-distinguidos-01102026190840": "2026-10-02T16:45-05:00",
-  "eb:2002831931221": "2026-10-04T22:39-05:00",
   "ieee:582367": "2026-10-05T08:24-05:00",
   "wikicfp:203568": "2026-10-05T08:24-05:00",
   "wikicfp:192324": "2026-10-05T16:48-05:00",
@@ -10882,9 +10714,7 @@
   "meetup:316938345": "2026-10-11T16:25-05:00",
   "luma:evt-jfsSWBTWWcWlJEa": "2026-10-12T09:14-05:00",
   "devpost:31619": "2026-10-12T17:23-05:00",
-  "inst:sni-taller-presentaci-n-de-estados-financieros-bajo-niif:2026-10-27": "2026-10-12T17:23-05:00",
   "inst:sni-webinar-contratos-laborales-a-plazo-fijo-gu-a-pr-ctica-p:2026-10-29": "2026-10-12T17:23-05:00",
-  "luma:evt-uMLHeVK4IAWybmd": "2026-10-13T00:05-05:00",
   "tedx:70615": "2026-10-13T08:24-05:00",
   "tedx:70296": "2026-10-13T08:24-05:00",
   "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-13102026145930": "2026-10-14T09:18-05:00",
@@ -10975,7 +10805,6 @@
   "eb:2003710622410": "2026-10-25T13:03-05:00",
   "devpost:31504": "2026-10-25T18:01-05:00",
   "devpost:31667": "2026-10-25T18:01-05:00",
-  "meetup:317141141": "2026-10-26T03:26-05:00",
   "devpost:26475": "2026-10-26T03:26-05:00",
   "opportunitiesforyouth:teers-program-2023become-un-volunteer-and-gain-global-work-experience-": "2026-10-26T10:47-05:00",
   "devpost:31883": "2026-10-26T10:47-05:00",
@@ -10998,7 +10827,6 @@
   "luma:evt-YaqyHF2bmUjZTVN": "2026-10-27T16:45-05:00",
   "luma:evt-B7mmXMtiInjCfw3": "2026-10-27T16:45-05:00",
   "eb:2003985337089": "2026-10-27T16:45-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-10-27-idrc-john-g-bene-fellowship-2026-": "2026-10-27T16:45-05:00",
   "eb:2003631495740": "2026-10-27T22:40-05:00",
   "devpost:31606": "2026-10-27T22:40-05:00",
   "pucp:jornadas-internacionales-de-derecho-tributario-27102026144057": "2026-10-27T22:40-05:00",
@@ -11017,6 +10845,7 @@
   "devpost:31580": "2026-10-28T19:35-05:00",
   "luma:evt-JiRrWkG5kLFYgrh": "2026-10-28T19:35-05:00",
   "luma:evt-35luDjH0LSAHwRM": "2026-10-28T19:35-05:00",
-  "devpost:30819": "2026-10-28T19:35-05:00"
+  "devpost:30819": "2026-10-28T19:35-05:00",
+  "devpost:31682": "2026-10-29T04:15-05:00"
  }
 }
