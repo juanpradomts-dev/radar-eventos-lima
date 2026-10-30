@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-29T23:01-05:00",
+ "actualizado": "2026-10-30T07:00-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 37
+   "n": 36
   },
   "Eventbrite": {
    "ok": true,
@@ -15,7 +15,7 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 11
+   "n": 8
   },
   "PUCP": {
    "ok": true,
@@ -38,9 +38,9 @@
    "n": 10
   },
   "Opportunities for Youth": {
-   "ok": true,
-   "n": 10,
-   "cache": "2026-10-27T16:44-05:00"
+   "ok": false,
+   "n": 0,
+   "error": "robots.txt no permite https://opportunitiesforyouth.org/category/volunteering/feed/"
   },
   "TEDx": {
    "ok": true,
@@ -48,7 +48,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 9
+   "n": 7
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 361,
+ "revisados": 345,
  "top": 55,
  "eventos": [
   {
@@ -174,33 +174,6 @@
    "puntaje": 15,
    "por_que": "Voluntariado · Evento sin formato claro · Virtual",
    "visto_desde": "2026-10-26T10:47-05:00"
-  },
-  {
-   "id": "wikicfp:200074",
-   "titulo": "EA 2026 : 17th International Conference on Artificial Evolution",
-   "tipo": "call for papers",
-   "inicio": "2026-10-27T00:00-05:00",
-   "fin": "2026-10-29T23:59-05:00",
-   "cierre": "",
-   "lugar": "Nice, France",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200074&copyownerid=13149",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200074&copyownerid=13149",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: 17th International Conference on Artificial Evolution. Lugar: Nice, France. Fechas del congreso: Oct 27, 2026 - Oct 29, 2026.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 17,
-   "afinidad": 8,
-   "puntaje": 25,
-   "por_que": "Formativo · Afín: Investigación · Se postula en línea",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "opportunitydesk:rg-2026-10-28-23-hot-job-opportunities-currently-open-october-28-2026-",
@@ -343,41 +316,6 @@
    "visto_desde": "2026-10-15T13:52-05:00"
   },
   {
-   "id": "inst:sni-webinar-contratos-laborales-a-plazo-fijo-gu-a-pr-ctica-p:2026-10-29",
-   "titulo": "Webinar: Contratos laborales a plazo fijo: guía práctica para empleadores",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-10-29T16:00-05:00",
-   "fin": "",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/ontratos-laborales-a-plazo-fijo-guia-practica-parae-mpleadores-img.png",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Virtual",
-   "original": {
-    "fin": "2026-10-29T23:50-05:00"
-   },
-   "visto_desde": "2026-10-12T17:23-05:00"
-  },
-  {
    "id": "ieee:576578",
    "titulo": "MTT Week PERU 2026 – Innovación en Telecomunicaciones, Espacio y RF",
    "inicio": "2026-10-29T17:00-05:00",
@@ -420,7 +358,7 @@
    "organizador": "AULABIERTA",
    "descripcion": "Periodismo explicativo especializado con IA\nInteligencia artificial para periodistas: calidad y autoría",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196808494%2F256438124752%2F1%2Foriginal.20261028-212625?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.352&s=83ca08ea1289a11754a648f19c2292e3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196808494%2F256438124752%2F1%2Foriginal.20261028-212625?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.352&s=ab33f887ce48e924837452db1c88d515",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -432,34 +370,6 @@
    "puntaje": 49,
    "por_que": "Afín: Datos y machine learning · Formativo · Afín: Inteligencia artificial · Gratis",
    "visto_desde": "2026-10-28T19:35-05:00"
-  },
-  {
-   "id": "luma:evt-w2PDAV0SrPCud35",
-   "titulo": "BBQ Tech Lima",
-   "inicio": "2026-10-29T19:30-05:00",
-   "fin": "2026-10-29T23:00-05:00",
-   "lugar": "Barranco, Perú",
-   "distrito": "Barranco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/uf2koc4q",
-   "fuente": "Luma",
-   "organizador": "Amaris",
-   "descripcion": "Una parrilla para líderes de tecnología del Perú, sin slides ni pitch. Solo buena carne, cervezas y conversación honesta sobre lo que estamos viviendo en nuestros equipos.\nSi lideras tecnología, datos o producto en tu empresa, me encantaría verte ahí.Cupos limitados",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/yt/26cbd351-6c7a-49ba-b83a-a951828fa2af.jpg",
-   "inscripcion": "https://lu.ma/uf2koc4q",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 18,
-   "afinidad": 12,
-   "puntaje": 30,
-   "por_que": "Afín: Datos y machine learning · Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-10-14T14:10-05:00"
   },
   {
    "id": "wikicfp:194547",
@@ -643,7 +553,7 @@
    "organizador": "CAENE",
    "descripcion": "Un encuentro de acceso limitado con CEOs, presidentes y referentes del país. Conecta con quienes hoy están definiendo el futuro del Perú.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193113897%2F3010476896322%2F1%2Foriginal.20260909-232415?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=57c73641b99d989c25bbbf4fe96fb552",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193113897%2F3010476896322%2F1%2Foriginal.20260909-232415?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9ca6c479671cba44f5198aa1839e26e3",
    "inscripcion": "https://www.eventbrite.com.pe/e/ele-2026-xii-encuentro-de-lideres-empresariales-30-oct-jornada-4-tickets-2000264678499",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -771,33 +681,6 @@
    "visto_desde": "2026-09-30T12:29-05:00"
   },
   {
-   "id": "devpost:31515",
-   "titulo": "CodeSprint by Elite Coders",
-   "tipo": "hackathon",
-   "inicio": "2026-09-25T00:00-05:00",
-   "fin": "2026-10-30T23:59-05:00",
-   "cierre": "2026-10-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://codesprint-by-elitecoders.devpost.com/",
-   "inscripcion": "https://codesprint-by-elitecoders.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "elite coders",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Web. Premios: ₹ 30,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-21T18:55-05:00"
-  },
-  {
    "id": "opportunitiesforyouth:tional-un-volunteer-assignment-panama-city-12-months-full-time-onsite-",
    "titulo": "UNICEF Regional Youth Engagement Specialist Volunteer Opportunity in Panama (2026) International UN Volunteer Assignment | Panama City | 12 Months | Full-Time, Onsite",
    "tipo": "voluntariado",
@@ -871,7 +754,7 @@
    "organizador": "Más Voces en Diseño México",
    "descripcion": "Reunión virtual comunidad Más Voces en Diseño México.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196130959%2F302405960838%2F1%2Foriginal.20261019-202004?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6c5fb19799a754613fa0f1cbb9c7b73d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196130959%2F302405960838%2F1%2Foriginal.20261019-202004?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c2c4e764c3bb55d0cc8d62bfdbd1f238",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -967,6 +850,33 @@
    "puntaje": 29,
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Becas y posgrado",
    "visto_desde": "2026-10-29T23:01-05:00"
+  },
+  {
+   "id": "meetup:317202302",
+   "titulo": "Saturday - Let's practice English (Rustica - First Floor Terrace)",
+   "inicio": "2026-10-31T18:00-05:00",
+   "fin": "2026-10-31T20:00-05:00",
+   "lugar": "",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.meetup.com/practice-english-saturday/events/317202302/",
+   "fuente": "Meetup",
+   "organizador": "Let’s Practice English (Saturdays)",
+   "descripcion": "Join us this Saturday to practice English at Rustica in Miraflores (Next to Kennedy Park)!\nPlease note: There are two Rustica locations on Calle de las Pizzas. We'll be at the one on Pasaje Figari.\n\nWe'll be meeting to practice English/Spanish, talk, meet new people, and share cultures. Intermediate and advanced English levels are welcome — Spanish is not a must if you can speak English! Free admission, but you must order at least a soft drink since we're meeting at a café. 😎😊\n\nAnd don't rush home after the meetup! Afterward, a group of us usually goes for a casual, inexpensive dinner somewhere nearby. It's a great chance to keep chatting, get to know everyone better, and continue the evenin",
+   "gratis": true,
+   "imagen": "",
+   "inscripcion": "https://www.meetup.com/practice-english-saturday/events/317202302/",
+   "fuente_url": "https://www.meetup.com/practice-english-saturday/events/ical/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis",
+   "visto_desde": "2026-10-30T07:00-05:00"
   },
   {
    "id": "devpost:31627",
@@ -1764,7 +1674,7 @@
    "organizador": "ICIC",
    "descripcion": "Serie de seminarios web para pequeñas empresas",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=b60bf879dde73acca4a22c4ab676cb61",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=a4b5b16766973ac3416241d5b355de4c",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2126,7 +2036,7 @@
    "organizador": "",
    "descripcion": "Únete al Foro Rescate Tributario para descubrir cómo ahorrar en tus impuestos en 2026 y mejorar tus finanzas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=96d97ca422e3968045d280cf714b793b",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194737063%2F3015821234638%2F1%2Foriginal.20260930-161645?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.581&fp-y=0.4&s=80ccbe4d38cc6bd9f3bb6732eabe908d",
    "inscripcion": "https://www.eventbrite.com/e/foro-rescate-tributario-ahorro-tributario-2026-tickets-2002634957066",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2319,7 +2229,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Expotextil Runways: living platforms where design, tech & sustainability meet. Showcasing the best of Peruvian & global fashion to the world",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0c84b16c9ad9ab32b2a8d71580005d41",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2d492065ed8914904f3dc6296a0ede4b",
    "inscripcion": "https://www.eventbrite.com/e/pasarelas-expotextil-tickets-1988046593879",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2462,7 +2372,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "Tres martes en vivo para construir tu modelo de competencias: diccionario, perfiles, entrevistas con evidencia, evaluación y tablero.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1dc028e3568c4c846453e8b88e1f858f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b7546a25503ab554e2da14fd5311e5fe",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2766,7 +2676,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bca935c320be8371a690966eed9a7511",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-1-tickets-2003540173593",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2795,7 +2705,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4a8b501f214da3982fcd27aaa0122900",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4d6a4bea9b5d6fd895a6d4e549ae6bce",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3039,7 +2949,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bca935c320be8371a690966eed9a7511",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-2-tickets-2003510824810",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3123,7 +3033,7 @@
    "organizador": "Greenfield Group",
    "descripcion": "Aprende IA aplicada a la gestión empresarial desde cero. Evento online para estudiantes y principiantes: sin experiencia, solo curiosad.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=b5cae151eb882dd4bd13662e799440c6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=204f7508913023a35994629699d28c49",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3383,7 +3293,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "¿Te imaginás crear anuncios publicitarios con personas que no existen, videos hiperrealistas y voces profesionales, sin utilizar cámaras,",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d576c113898c71fb45de927181d83f4",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=34e2e4dfeb24a162bcfb4f174c3c9028",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3930,7 +3840,7 @@
    "organizador": "",
    "descripcion": "La Casita del Saber es un emprendimiento educativo inclusivo y seguro diseñado para apoyar el aprendizaje de niños con necesidades educativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9d41cc27030031b2597aa867399ff43a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=26732154bc91402cbc52d4dcd72e3e28",
    "inscripcion": "https://www.eventbrite.com/e/la-casita-del-saber-tickets-2003426586852",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3943,33 +3853,6 @@
    "puntaje": 22,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-10-14T14:10-05:00"
-  },
-  {
-   "id": "meetup:ppkhbvyjcpbcc",
-   "titulo": "Speak Up - Conversation Club",
-   "inicio": "2026-11-21T17:00-05:00",
-   "fin": "2026-11-21T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/speak-up-conversation-club/events/ppkhbvyjcpbcc/",
-   "fuente": "Meetup",
-   "organizador": "Speak Up - Conversation Club",
-   "descripcion": "Welcome to Speak Up Conversation Club! 🇬🇧☕\n\nLooking for a fun way to practice English and meet new people in Lima?\n\nJoin Speak Up Conversation Club, where you'll improve your speaking skills in a relaxed and friendly environment while connecting with locals, expats, travelers, and English learners from different backgrounds.\n\nWho is this event for?\n✅ Adults (18+)\n✅ All English levels are welcome (Beginner, Intermediate, and Advanced)\n✅ Anyone who enjoys meeting new people, practicing English, and having meaningful conversations\n\nWhat can you expect?\n✅ Icebreaker activities\n✅ Fun games and trivia\n✅ Guided conversation tables\n✅ Coffee break with beverages and a variety of snacks\n✅ Karaoke and ",
-   "gratis": false,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/speak-up-conversation-club/events/ppkhbvyjcpbcc/",
-   "fuente_url": "https://www.meetup.com/speak-up-conversation-club/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Networking · Presencial en Lima",
-   "visto_desde": "2026-09-24T22:14-05:00"
   },
   {
    "id": "devpost:31789",
@@ -4183,7 +4066,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=fae44e5896d2793788d888a5a4ee2dbb",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=98149458ee473e40a1f608f81046be95",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4501,33 +4384,6 @@
    "visto_desde": "2026-10-24T21:51-05:00"
   },
   {
-   "id": "meetup:ljgqztyjcpblc",
-   "titulo": "Speak Up - Conversation Club",
-   "inicio": "2026-11-28T17:00-05:00",
-   "fin": "2026-11-28T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/speak-up-conversation-club/events/ljgqztyjcpblc/",
-   "fuente": "Meetup",
-   "organizador": "Speak Up - Conversation Club",
-   "descripcion": "Welcome to Speak Up Conversation Club! 🇬🇧☕\n\nLooking for a fun way to practice English and meet new people in Lima?\n\nJoin Speak Up Conversation Club, where you'll improve your speaking skills in a relaxed and friendly environment while connecting with locals, expats, travelers, and English learners from different backgrounds.\n\nWho is this event for?\n✅ Adults (18+)\n✅ All English levels are welcome (Beginner, Intermediate, and Advanced)\n✅ Anyone who enjoys meeting new people, practicing English, and having meaningful conversations\n\nWhat can you expect?\n✅ Icebreaker activities\n✅ Fun games and trivia\n✅ Guided conversation tables\n✅ Coffee break with beverages and a variety of snacks\n✅ Karaoke and ",
-   "gratis": false,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/speak-up-conversation-club/events/ljgqztyjcpblc/",
-   "fuente_url": "https://www.meetup.com/speak-up-conversation-club/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Networking · Presencial en Lima",
-   "visto_desde": "2026-09-29T22:37-05:00"
-  },
-  {
    "id": "luma:evt-crpVGg06NULnKJY",
    "titulo": "SEMCOMP 2026",
    "inicio": "2026-11-30T10:00-05:00",
@@ -4653,7 +4509,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4918,33 +4774,6 @@
    "visto_desde": "2026-10-29T12:57-05:00"
   },
   {
-   "id": "meetup:ppkhbvyjcqbzb",
-   "titulo": "Speak Up - Conversation Club",
-   "inicio": "2026-12-19T17:00-05:00",
-   "fin": "2026-12-19T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/speak-up-conversation-club/events/ppkhbvyjcqbzb/",
-   "fuente": "Meetup",
-   "organizador": "Speak Up - Conversation Club",
-   "descripcion": "Welcome to Speak Up Conversation Club! 🇬🇧☕\n\nLooking for a fun way to practice English and meet new people in Lima?\n\nJoin Speak Up Conversation Club, where you'll improve your speaking skills in a relaxed and friendly environment while connecting with locals, expats, travelers, and English learners from different backgrounds.\n\nWho is this event for?\n✅ Adults (18+)\n✅ All English levels are welcome (Beginner, Intermediate, and Advanced)\n✅ Anyone who enjoys meeting new people, practicing English, and having meaningful conversations\n\nWhat can you expect?\n✅ Icebreaker activities\n✅ Fun games and trivia\n✅ Guided conversation tables\n✅ Coffee break with beverages and a variety of snacks\n✅ Karaoke and ",
-   "gratis": false,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/speak-up-conversation-club/events/ppkhbvyjcqbzb/",
-   "fuente_url": "https://www.meetup.com/speak-up-conversation-club/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Networking · Presencial en Lima",
-   "visto_desde": "2026-10-20T21:59-05:00"
-  },
-  {
    "id": "devpost:30789",
    "titulo": "Arbiter Hacks V1",
    "tipo": "hackathon",
@@ -5026,33 +4855,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-27T12:18-05:00"
-  },
-  {
-   "id": "meetup:ljgqztyjcqbjc",
-   "titulo": "Speak Up - Conversation Club",
-   "inicio": "2026-12-26T17:00-05:00",
-   "fin": "2026-12-26T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/speak-up-conversation-club/events/ljgqztyjcqbjc/",
-   "fuente": "Meetup",
-   "organizador": "Speak Up - Conversation Club",
-   "descripcion": "Welcome to Speak Up Conversation Club! 🇬🇧☕\n\nLooking for a fun way to practice English and meet new people in Lima?\n\nJoin Speak Up Conversation Club, where you'll improve your speaking skills in a relaxed and friendly environment while connecting with locals, expats, travelers, and English learners from different backgrounds.\n\nWho is this event for?\n✅ Adults (18+)\n✅ All English levels are welcome (Beginner, Intermediate, and Advanced)\n✅ Anyone who enjoys meeting new people, practicing English, and having meaningful conversations\n\nWhat can you expect?\n✅ Icebreaker activities\n✅ Fun games and trivia\n✅ Guided conversation tables\n✅ Coffee break with beverages and a variety of snacks\n✅ Karaoke and ",
-   "gratis": false,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/speak-up-conversation-club/events/ljgqztyjcqbjc/",
-   "fuente_url": "https://www.meetup.com/speak-up-conversation-club/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Networking · Presencial en Lima",
-   "visto_desde": "2026-10-27T22:40-05:00"
   },
   {
    "id": "wikicfp:192324",
@@ -5973,37 +5775,6 @@
   }
  ],
  "archivo": [
-  {
-   "id": "inst:universidad-esan-conferencia-informativa-pee-en-derecho-para:2026-10-29",
-   "titulo": "Conferencia informativa: PEE en Derecho para los Negocios",
-   "tipo": "admisión",
-   "institucional": false,
-   "escala": "media",
-   "inicio": "2026-10-29T00:00-05:00",
-   "fin": "2026-10-29T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.esan.edu.pe/eventos/",
-   "inscripcion": "https://www.esan.edu.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://www.esan.edu.pe/eventos/",
-   "organizador": "Universidad ESAN",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "motivo": "admisión: promociona una maestría o diplomado pagado",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis · (Promociona un programa pagado)"
-  },
   {
    "id": "inst:universidad-esan-conferencia-informativa-del-pae-en-tributac:2026-11-12",
    "titulo": "Conferencia Informativa del PAE en Tributación Empresarial",
@@ -7664,6 +7435,33 @@
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
   },
   {
+   "id": "wikicfp:200074",
+   "titulo": "EA 2026 : 17th International Conference on Artificial Evolution",
+   "tipo": "call for papers",
+   "inicio": "2026-10-27T00:00-05:00",
+   "fin": "2026-10-29T23:59-05:00",
+   "cierre": "",
+   "lugar": "Nice, France",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200074&copyownerid=13149",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200074&copyownerid=13149",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: 17th International Conference on Artificial Evolution. Lugar: Nice, France. Fechas del congreso: Oct 27, 2026 - Oct 29, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "congreso ya realizado",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 17,
+   "afinidad": 8,
+   "puntaje": 25,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
+  },
+  {
    "id": "insc:5172781fb296",
    "titulo": "CientíficaMUN 2026: Inscripción de Delegaciones",
    "tipo": "convocatoria",
@@ -8203,7 +8001,7 @@
    "organizador": "Royal College of Art",
    "descripcion": "Meet the RCA! The world's 1 art & design university, will be visiting Lima",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a745467912e2650f81115e1a74d3bf0a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61b84b8b0476a41d896334a34d974c24",
    "inscripcion": "https://www.eventbrite.co.uk/e/meet-the-royal-college-of-art-in-lima-tickets-2003150172088",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8278,7 +8076,7 @@
    "organizador": "",
    "descripcion": "Somos una empresa, dedica al rubro de Construccion y Acabados, realizamos todo tipo de proyectos, que desee para su hogar.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=fd325900eba52115a08b0eb53044ddb2",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=723ef18fb1bd3e4bb2d8fe781b421019",
    "inscripcion": "https://www.eventbrite.com/e/entradas-perfect-home-2003322947865",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8453,7 +8251,7 @@
    "organizador": "Ermantourage UK",
    "descripcion": "Connect with other locals over coffee! Meet a new friend in your city. A different cafe each gathering!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=41c63decc8c3960d0e164307bbc210de",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa8e3e4933db165428ed9864b11725aa",
    "inscripcion": "https://www.eventbrite.com/e/the-comeunity-project-lima-coffee-with-strangers-tickets-1984736925572",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8503,7 +8301,7 @@
    "organizador": "",
    "descripcion": "Ven a descubrir tu sabor favorito en persona con una experiencia deliciosa junto a PapaMía.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b55c1e53001fdb8993ff71b53cbbd716",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dd5f43b78feb4fc1068e5ed7d4b27f7a",
    "inscripcion": "https://www.eventbrite.com/e/papamia-food-experience-descubre-tu-sabor-favorito-tickets-2003279097708",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8542,92 +8340,6 @@
    "afinidad": 0,
    "puntaje": 23,
    "por_que": "Abre puertas (beca/programa) · Gremio o institución · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
-   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-12T23:59-05:00",
-   "fin": "2026-09-12T23:59-05:00",
-   "cierre": "2026-09-12T23:59-05:00",
-   "publicado": "2026-09-04T14:38-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
-   "gratis": false,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Tecnología e IA"
-   ],
-   "valor": 36,
-   "afinidad": 28,
-   "puntaje": 64,
-   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Voluntariado · Afín: Investigación"
-  },
-  {
-   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-10-01-commonwealth-youth-2026-",
-   "titulo": "Commonwealth Youth Council Wellbeing Champions 2026: Join the “Are You Okay?” Youth Mental Health Campaign Across the Commonwealth",
-   "tipo": "voluntariado",
-   "inicio": "2026-10-04T23:59-05:00",
-   "fin": "2026-10-04T23:59-05:00",
-   "cierre": "2026-10-04T23:59-05:00",
-   "publicado": "2026-10-01T00:57-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/10/01/commonwealth-youth-2026/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/10/01/commonwealth-youth-2026/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Applications are now open for young people across the Commonwealth to become Wellbeing Champions for the Commonwealth Youth Council’s “Are You Okay?” Campaign, a Commonwealth-wide youth mental health and wellbeing initiative focused on starting conversations, listening to young people, strengthening",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Formativo · Voluntariado · Plazo claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:eking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium-",
-   "titulo": "Call for Application Readers for the 2027 Mandela Washington Fellowship (Honorarium available)",
-   "tipo": "voluntariado",
-   "inicio": "2026-10-13T23:59-05:00",
-   "fin": "2026-10-13T23:59-05:00",
-   "cierre": "2026-10-13T23:59-05:00",
-   "publicado": "2026-09-26T05:03-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/26/u-s-department-of-state-and-irex-seeking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/26/u-s-department-of-state-and-irex-seeking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Deadline: October 13, 2026 IREX is seeking academic, professional, and regional experts to serve as application readers for the 2027 Mandela Washington Fellowship for Young African Leaders. About the Mandela Washington Fellowship The Mandela Washington Fellowship for Young African Leaders is the fla",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 28,
-   "afinidad": 12,
-   "puntaje": 40,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Voluntariado · Plazo claro"
   },
   {
    "id": "devpost:31484",
@@ -8891,7 +8603,7 @@
    "organizador": "willians orihuela y celinda challa",
    "descripcion": "Descubra el pitch empresarial de Lumia, una tienda online de belleza y cuidado personal enfocada en calidad y experiencia digital.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b85741703c1f96b3406cb57dfb06ac0e",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=64a9fd3704e65f639905a0d151733732",
    "inscripcion": "https://www.eventbrite.com/e/pitch-empresarial-tienda-lumia-belleza-y-cuidado-personal-tickets-2003273856030",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9044,7 +8756,7 @@
    "organizador": "",
    "descripcion": "Dinner with Strangers series for locals who love all things horror, supernatural, and paranormal. Share your story at the dinner table!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1060474313%2F2816517062451%2F1%2Foriginal.20250625-170222?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa6be494d503aadb7eaf131a06db2593",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1060474313%2F2816517062451%2F1%2Foriginal.20250625-170222?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bc5459536777750605b2e32dc97b00cb",
    "inscripcion": "https://www.eventbrite.com/e/foodies-fears-dinner-with-strangers-lima-tickets-1901677762379",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9232,20 +8944,20 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:1981186921414",
+   "id": "eb:1981186922417",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-29T23:00-05:00",
-   "fin": "2026-10-30T13:00-05:00",
+   "inicio": "2026-10-30T23:00-05:00",
+   "fin": "2026-10-31T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186921414",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186922417",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima at 11AM you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186921414",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186922417",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -9255,63 +8967,6 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
-   "id": "opportunitiesforyouth:ntor-africas-next-generation-of-ai-technology-and-business-innovators-",
-   "titulo": "Timbuktoo Africa UniPods Mentor Network 2026: Apply to Mentor Africa’s Next Generation of AI, Technology and Business Innovators",
-   "tipo": "voluntariado",
-   "inicio": "2026-10-21T12:25-05:00",
-   "fin": "2026-10-21T12:25-05:00",
-   "cierre": "",
-   "publicado": "2026-10-21T12:25-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/10/21/timbuktoo-africa-unipods-mentor-network-2026-apply-to-mentor-africas-next-generation-of-ai-technology-and-business-innovators/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/10/21/timbuktoo-africa-unipods-mentor-network-2026-apply-to-mentor-africas-next-generation-of-ai-technology-and-business-innovators/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Africa’s innovation ecosystem continues to grow, creating new opportunities for young entrepreneurs, technology enthusiasts, researchers, and aspiring business leaders to develop solutions to the continent’s challenges. However, turning an innovative idea into a successful venture often requires mor",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Africa)",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 15,
-   "afinidad": 12,
-   "puntaje": 27,
-   "por_que": "Afín: Inteligencia artificial · Voluntariado · Evento sin formato claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
-   "titulo": "EvalYouth Asia 2026 Core Group: Call for Applications for Young and Emerging Evaluators",
-   "tipo": "voluntariado",
-   "inicio": "2026-09-16T15:31-05:00",
-   "fin": "2026-09-16T15:31-05:00",
-   "cierre": "",
-   "publicado": "2026-09-16T15:31-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "EvalYouth Asia (EYA) has opened applications for its 2026 Core Group, inviting passionate young and emerging evaluators to take an active leadership role in strengthening evaluation practice, youth leadership, networking, and collaboration across the Asia-Pacific region. This is a volunteer leadersh",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Asia)",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 21,
-   "afinidad": 0,
-   "puntaje": 21,
-   "por_que": "Networking · Voluntariado · Se postula en línea"
   },
   {
    "id": "opportunitydesk:unitydesk-org-2026-10-29-world-health-organisation-summer-school-2027-",
@@ -9504,6 +9159,33 @@
    "afinidad": 30,
    "puntaje": 49,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31881",
+   "titulo": "Hack With Karthik",
+   "tipo": "hackathon",
+   "inicio": "2026-10-30T00:00-05:00",
+   "fin": "2026-11-01T23:59-05:00",
+   "cierre": "2026-11-01T23:59-05:00",
+   "lugar": "Al-Amen",
+   "distrito": "Al-Amen",
+   "modalidad": "Presencial",
+   "url": "https://hack-with-karthik.devpost.com/",
+   "inscripcion": "https://hack-with-karthik.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "None",
+   "descripcion": "Hackathon presencial en Al-Amen. Temas: Design, Education, Music/Art. Premios: ₹ 0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/706/163/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31811",
@@ -9789,7 +9471,7 @@
    "organizador": "AWS Student Builder Group UNI",
    "descripcion": "Un día de charlas, workshops y comunidad sobre cloud e IA, organizado por estudiantes del AWS Student Builder Group UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=4947bfa70477611befac2e5ee3039f58",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=ff03716ec626363368db29cefaf9cd26",
    "inscripcion": "https://www.eventbrite.com.pe/e/aws-student-community-day-lima-2026-tickets-2003893051059",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9803,6 +9485,149 @@
    "puntaje": 51,
    "por_que": "Afín: Datos y machine learning · Networking · Presencial en Lima · Afín: Inteligencia artificial",
    "motivo": "no pasó la verificación: duplicado de «AWS Student Community Day Lima» (Meetup)"
+  },
+  {
+   "id": "opportunitiesforyouth:pus-ambassador-program-2026-paid-student-opportunities-with-anthropic-",
+   "titulo": "Claude Campus Ambassador Program 2026 – Paid Student Opportunities with Anthropic",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-12T23:59-05:00",
+   "fin": "2026-09-12T23:59-05:00",
+   "cierre": "2026-09-12T23:59-05:00",
+   "publicado": "2026-09-04T14:38-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/04/claude-campus-ambassador-program-2026-paid-student-opportunities-with-anthropic/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Anthropic is inviting undergraduate, graduate, PhD students and postdoctoral researchers to apply for its Claude Campus Ambassador Program. Selected ambassadors will receive a USD 3,600 cash stipend while leading AI-focused activities, workshops, discussions and research events on campus. Key Detail",
+   "gratis": false,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Tecnología e IA"
+   ],
+   "valor": 36,
+   "afinidad": 28,
+   "puntaje": 64,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Voluntariado · Afín: Investigación"
+  },
+  {
+   "id": "opportunitiesforyouth:https-opportunitiesforyouth-org-2026-10-01-commonwealth-youth-2026-",
+   "titulo": "Commonwealth Youth Council Wellbeing Champions 2026: Join the “Are You Okay?” Youth Mental Health Campaign Across the Commonwealth",
+   "tipo": "voluntariado",
+   "inicio": "2026-10-04T23:59-05:00",
+   "fin": "2026-10-04T23:59-05:00",
+   "cierre": "2026-10-04T23:59-05:00",
+   "publicado": "2026-10-01T00:57-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/10/01/commonwealth-youth-2026/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/10/01/commonwealth-youth-2026/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Applications are now open for young people across the Commonwealth to become Wellbeing Champions for the Commonwealth Youth Council’s “Are You Okay?” Campaign, a Commonwealth-wide youth mental health and wellbeing initiative focused on starting conversations, listening to young people, strengthening",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Formativo · Voluntariado · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:eking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium-",
+   "titulo": "Call for Application Readers for the 2027 Mandela Washington Fellowship (Honorarium available)",
+   "tipo": "voluntariado",
+   "inicio": "2026-10-13T23:59-05:00",
+   "fin": "2026-10-13T23:59-05:00",
+   "cierre": "2026-10-13T23:59-05:00",
+   "publicado": "2026-09-26T05:03-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/26/u-s-department-of-state-and-irex-seeking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/26/u-s-department-of-state-and-irex-seeking-readers-for-2025-yali-fellowship-applicationsearn-an-honorarium/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Deadline: October 13, 2026 IREX is seeking academic, professional, and regional experts to serve as application readers for the 2027 Mandela Washington Fellowship for Young African Leaders. About the Mandela Washington Fellowship The Mandela Washington Fellowship for Young African Leaders is the fla",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 28,
+   "afinidad": 12,
+   "puntaje": 40,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Voluntariado · Plazo claro"
+  },
+  {
+   "id": "opportunitiesforyouth:ntor-africas-next-generation-of-ai-technology-and-business-innovators-",
+   "titulo": "Timbuktoo Africa UniPods Mentor Network 2026: Apply to Mentor Africa’s Next Generation of AI, Technology and Business Innovators",
+   "tipo": "voluntariado",
+   "inicio": "2026-10-21T12:25-05:00",
+   "fin": "2026-10-21T12:25-05:00",
+   "cierre": "",
+   "publicado": "2026-10-21T12:25-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/10/21/timbuktoo-africa-unipods-mentor-network-2026-apply-to-mentor-africas-next-generation-of-ai-technology-and-business-innovators/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/10/21/timbuktoo-africa-unipods-mentor-network-2026-apply-to-mentor-africas-next-generation-of-ai-technology-and-business-innovators/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Africa’s innovation ecosystem continues to grow, creating new opportunities for young entrepreneurs, technology enthusiasts, researchers, and aspiring business leaders to develop solutions to the continent’s challenges. However, turning an innovative idea into a successful venture often requires mor",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Africa)",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 15,
+   "afinidad": 12,
+   "puntaje": 27,
+   "por_que": "Afín: Inteligencia artificial · Voluntariado · Evento sin formato claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:26-core-group-call-for-applications-for-young-and-emerging-evaluators-",
+   "titulo": "EvalYouth Asia 2026 Core Group: Call for Applications for Young and Emerging Evaluators",
+   "tipo": "voluntariado",
+   "inicio": "2026-09-16T15:31-05:00",
+   "fin": "2026-09-16T15:31-05:00",
+   "cierre": "",
+   "publicado": "2026-09-16T15:31-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/09/16/evalyouth-asia-2026-core-group-call-for-applications-for-young-and-emerging-evaluators/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "EvalYouth Asia (EYA) has opened applications for its 2026 Core Group, inviting passionate young and emerging evaluators to take an active leadership role in strengthening evaluation practice, youth leadership, networking, and collaboration across the Asia-Pacific region. This is a volunteer leadersh",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Asia)",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 21,
+   "afinidad": 0,
+   "puntaje": 21,
+   "por_que": "Networking · Voluntariado · Se postula en línea"
   }
  ],
  "perfil": true,
@@ -9819,9 +9644,9 @@
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
   "PERUMIN": 1,
-  "ESAN — eventos": 2,
+  "ESAN — eventos": 1,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 1,
+  "Sociedad Nacional de Industrias": 0,
   "AmCham Perú": 3,
   "ComexPerú": 1
  },
@@ -9837,20 +9662,12 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-29T23:01-05:00",
-  "revisados": 216,
-  "corregidos": 9,
+  "fecha": "2026-10-30T07:00-05:00",
+  "revisados": 204,
+  "corregidos": 8,
   "avisos": 7,
   "archivados": 4,
   "problemas": [
-   {
-    "id": "inst:sni-webinar-contratos-laborales-a-plazo-fijo-gu-a-pr-ctica-p:2026-10-29",
-    "titulo": "Webinar: Contratos laborales a plazo fijo: guía práctica para empleadores",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:50)",
-    "url": "https://sni.org.pe/eventos/"
-   },
    {
     "id": "luma:evt-3Izz5QELco5iG9O",
     "titulo": "La Decanatrón UNMSM 2",
@@ -10005,7 +9822,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 16,
+   "comprobados": 1,
    "rotos": 9,
    "sin_comprobar": 0
   },
@@ -10101,11 +9918,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "MML inaugura feria Lima Lee 2026: más 70 actividades gratuitas para todas las edades",
-   "url": "https://andina.pe/agencia/noticia-mml-inaugura-feria-lima-lee-2026-mas-70-actividades-gratuitas-para-todas-las-edades-1096247.aspx",
-   "medio": "Agencia Peruana de Noticias | ANDINA",
-   "publicado": "Thu, 15 Oct 2026 17:01:00 GMT",
-   "resumen": "La Municipalidad Metropolitana de Lima inaugurará este viernes 16 de octubre la Feria Metropolitana del Libro Lima Lee 2026, una propuesta cultural que reunirá a lectores, escritores, editoriales y li ...",
+   "titulo": "Feria Nacional Vocacional de las Artes 2026: ¿Dónde estudiar una carrera artística en Lima?",
+   "url": "https://caretas.pe/cultura/feria-nacional-vocacional-de-las-artes-2026-donde-estudiar-una-carrera-artistica-en-lima/",
+   "medio": "Caretas",
+   "publicado": "Thu, 22 Oct 2026 09:15:00 GMT",
+   "resumen": "Elegir una carrera artística también implica conocer dónde estudiar, qué especialidades existen y cuáles son las oportunidades de desarrollo profesional. Con ese objetivo, la Feria Nacional Vocacional ...",
    "fecha_mencionada": ""
   }
  ],
@@ -10276,11 +10093,9 @@
   "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233": "2026-09-24T21:10-05:00",
   "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
   "meetup:315593613": "2026-09-24T22:14-05:00",
-  "meetup:ppkhbvyjcpbcc": "2026-09-24T22:14-05:00",
   "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00",
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
   "opportunitiesforyouth:pportunity-with-full-scholarship-to-the-2027-youth-assembly-in-geneva-": "2026-09-26T08:43-05:00",
-  "wikicfp:200074": "2026-09-26T08:43-05:00",
   "wikicfp:194547": "2026-09-26T08:43-05:00",
   "devpost:30790": "2026-09-26T08:43-05:00",
   "wikicfp:202973": "2026-09-26T08:43-05:00",
@@ -10335,7 +10150,6 @@
   "eb:1992830143605": "2026-09-28T16:40-05:00",
   "luma:evt-9BkR7E9Zyumrox9": "2026-09-28T22:49-05:00",
   "eb:2001083241844": "2026-09-29T10:06-05:00",
-  "meetup:ljgqztyjcpblc": "2026-09-29T22:37-05:00",
   "devpost:31054": "2026-09-30T12:29-05:00",
   "eb:2002634957066": "2026-09-30T12:29-05:00",
   "devpost:31302": "2026-10-01T15:06-05:00",
@@ -10354,11 +10168,9 @@
   "meetup:316938345": "2026-10-11T16:25-05:00",
   "luma:evt-jfsSWBTWWcWlJEa": "2026-10-12T09:14-05:00",
   "devpost:31619": "2026-10-12T17:23-05:00",
-  "inst:sni-webinar-contratos-laborales-a-plazo-fijo-gu-a-pr-ctica-p:2026-10-29": "2026-10-12T17:23-05:00",
   "tedx:70615": "2026-10-13T08:24-05:00",
   "tedx:70296": "2026-10-13T08:24-05:00",
   "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-13102026145930": "2026-10-14T09:18-05:00",
-  "luma:evt-w2PDAV0SrPCud35": "2026-10-14T14:10-05:00",
   "pucp:primer-encuentro-de-docentes-rsu-en-la-pucp-14102026090125": "2026-10-14T14:10-05:00",
   "luma:evt-HA2P4MoqZ6Ly8br": "2026-10-14T14:10-05:00",
   "eb:2003426586852": "2026-10-14T14:10-05:00",
@@ -10405,13 +10217,11 @@
   "pucp:primer-congreso-latinoamericano-de-etica-en-la-abogacia-y-la-ensenanza-del-derecho-19102026174533": "2026-10-20T16:10-05:00",
   "pucp:webinar-iso-13485-de-la-exigencia-regulatoria-a-la-gestion-estrategica-de-los-dispositivos-medicos-20102026145151": "2026-10-20T21:59-05:00",
   "eb:2003402159790": "2026-10-20T21:59-05:00",
-  "meetup:ppkhbvyjcqbzb": "2026-10-20T21:59-05:00",
   "luma:evt-CFnnzJpzLLYgAPo": "2026-10-21T09:20-05:00",
   "pucp:primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447": "2026-10-21T14:07-05:00",
   "eb:2003727646329": "2026-10-21T14:07-05:00",
   "luma:evt-INRh9a83ZDl1nNe": "2026-10-21T14:07-05:00",
   "eb:2003706120946": "2026-10-21T14:07-05:00",
-  "devpost:31515": "2026-10-21T18:55-05:00",
   "eb:2003742708380": "2026-10-21T18:55-05:00",
   "luma:evt-ziEFOKk5km9v3cB": "2026-10-22T14:04-05:00",
   "devpost:31552": "2026-10-22T14:04-05:00",
@@ -10457,7 +10267,6 @@
   "luma:evt-B7mmXMtiInjCfw3": "2026-10-27T16:45-05:00",
   "eb:2003985337089": "2026-10-27T16:45-05:00",
   "pucp:jornadas-internacionales-de-derecho-tributario-27102026144057": "2026-10-27T22:40-05:00",
-  "meetup:ljgqztyjcqbjc": "2026-10-27T22:40-05:00",
   "opportunitydesk:rg-2026-10-28-23-hot-job-opportunities-currently-open-october-28-2026-": "2026-10-28T13:09-05:00",
   "meetup:317175185": "2026-10-28T13:09-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-11-09": "2026-10-28T13:09-05:00",
@@ -10481,6 +10290,7 @@
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-10-29T17:21-05:00",
   "meetup:317197495": "2026-10-29T23:01-05:00",
   "luma:evt-FvLvhaqmG2oHMsT": "2026-10-29T23:01-05:00",
-  "devpost:30340": "2026-10-29T23:01-05:00"
+  "devpost:30340": "2026-10-29T23:01-05:00",
+  "meetup:317202302": "2026-10-30T07:00-05:00"
  }
 }
