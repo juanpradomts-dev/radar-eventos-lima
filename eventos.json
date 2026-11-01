@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T22:54-05:00",
+ "actualizado": "2026-11-01T07:32-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 44
+   "n": 43
   },
   "Eventbrite online": {
    "ok": true,
@@ -48,7 +48,8 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 7
+   "n": 12,
+   "revisar": "los problemas subieron de 20% a 60%"
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +60,7 @@
    "n": 0
   }
  },
- "revisados": 332,
+ "revisados": 336,
  "top": 55,
  "eventos": [
   {
@@ -203,62 +204,6 @@
    "visto_desde": "2026-10-30T13:01-05:00"
   },
   {
-   "id": "devpost:31793",
-   "titulo": "AQX Sports Analytics Data Bowl 4.0",
-   "tipo": "hackathon",
-   "inicio": "2026-10-18T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "2026-11-01T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://aqxanalyticsfour.devpost.com/",
-   "inscripcion": "https://aqxanalyticsfour.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Devpost",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Databases, Gaming. Premios: $50.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/547/datas/medium_square.png",
-   "categorias": [
-    "Datos y analítica",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 24,
-   "puntaje": 43,
-   "por_que": "Afín: Datos y machine learning · Competencia · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-18T21:56-05:00"
-  },
-  {
-   "id": "devpost:31942",
-   "titulo": "INCEPTION 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-10-31T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "2026-11-01T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://inception2026.devpost.com/",
-   "inscripcion": "https://inception2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HIMATIFA UPN \"Veteran\" Jawa Timur",
-   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Mobile, Web. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/761/994/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 26,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T06:35-05:00"
-  },
-  {
    "id": "devpost:31779",
    "titulo": "TRMI X Lovhack : Multiplayer Everything Hackathon",
    "tipo": "hackathon",
@@ -313,33 +258,6 @@
    "puntaje": 52,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-31T15:55-05:00"
-  },
-  {
-   "id": "devpost:31760",
-   "titulo": "Mergetober",
-   "tipo": "hackathon",
-   "inicio": "2026-10-31T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "2026-11-01T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://mergetober.devpost.com/",
-   "inscripcion": "https://mergetober.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hacker's Unity",
-   "descripcion": "Hackathon online. Temas: Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T06:35-05:00"
   },
   {
    "id": "luma:evt-HCs3WC7xfMoBy4r",
@@ -1084,7 +1002,7 @@
    "organizador": "ICIC",
    "descripcion": "Serie de seminarios web para pequeñas empresas",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=b60bf879dde73acca4a22c4ab676cb61",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=395c98d481b85d34e3781d5a4c38bfe7",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1151,6 +1069,41 @@
    "puntaje": 42,
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Becas y posgrado · Universidad",
    "visto_desde": "2026-10-16T08:44-05:00"
+  },
+  {
+   "id": "inst:sni-webinar-responsabilidad-penal-del-gerente-general-ante-u:2026-11-05",
+   "titulo": "Webinar: Responsabilidad penal del gerente general ante un accidente de trabajo",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-05T16:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/Responsabilidad-penal-del-gerente-general-ante-un-accidente-de-trabajo-img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-11-05T23:50-05:00"
+   },
+   "visto_desde": "2026-11-01T07:32-05:00"
   },
   {
    "id": "luma:evt-PzI45Si6Cc8OJgh",
@@ -1324,6 +1277,34 @@
    "visto_desde": "2026-10-28T13:09-05:00"
   },
   {
+   "id": "devpost:31580",
+   "titulo": "Ostad Presents YUNet AIgnite Buildathon 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-11-05T23:59-05:00",
+   "cierre": "2026-11-05T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://yunet-aignite26.devpost.com/",
+   "inscripcion": "https://yunet-aignite26.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Youth Upskill Network - YUNet",
+   "descripcion": "Hackathon online. Temas: Education, Low/No Code, Machine Learning/AI. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/544/995/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-28T19:35-05:00"
+  },
+  {
    "id": "devpost:31748",
    "titulo": "Girls Who Code HHS Hackathon 2026",
    "tipo": "hackathon",
@@ -1377,34 +1358,6 @@
    "puntaje": 37,
    "por_que": "Competencia · Afín: Inteligencia artificial · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-31T06:35-05:00"
-  },
-  {
-   "id": "devpost:31580",
-   "titulo": "Ostad Presents YUNet AIgnite Buildathon 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-01T00:00-05:00",
-   "fin": "2026-11-05T23:59-05:00",
-   "cierre": "2026-11-05T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://yunet-aignite26.devpost.com/",
-   "inscripcion": "https://yunet-aignite26.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Youth Upskill Network - YUNet",
-   "descripcion": "Hackathon online. Temas: Education, Low/No Code, Machine Learning/AI. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/544/995/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 26,
-   "puntaje": 45,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-28T19:35-05:00"
   },
   {
    "id": "wikicfp:202973",
@@ -1907,6 +1860,41 @@
    "visto_desde": "2026-10-30T16:54-05:00"
   },
   {
+   "id": "inst:sni-webinar-procedimiento-legal-para-la-obtenci-n-del-certif:2026-11-10",
+   "titulo": "Webinar: Procedimiento Legal para la Obtención del Certificado de Inspección Técnica de Seguridad en Edificaciones (ITSE)",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-10T16:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/Procedimiento-Legal-para-la-Obtencion-del-Certificado-img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 30,
+   "afinidad": 0,
+   "puntaje": 30,
+   "por_que": "Formativo · Evento institucional · Virtual · Con certificado",
+   "original": {
+    "fin": "2026-11-10T23:50-05:00"
+   },
+   "visto_desde": "2026-11-01T07:32-05:00"
+  },
+  {
    "id": "eb:1999731916995",
    "titulo": "Curso: RRHH por Competencias · Curso en vivo (3 encuentros)",
    "inicio": "2026-11-10T17:30-05:00",
@@ -1990,6 +1978,34 @@
    "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
+   "id": "devpost:31060",
+   "titulo": "Agentic Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-11-10T23:59-05:00",
+   "cierre": "2026-11-10T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://agentic-hackathon.devpost.com/",
+   "inscripcion": "https://agentic-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Devin",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended, Web. Premios: $480.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/139/026/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 29,
+   "puntaje": 48,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-31T22:54-05:00"
+  },
+  {
    "id": "devpost:31883",
    "titulo": "Datanova 2026 Global Data-thon",
    "tipo": "hackathon",
@@ -2019,34 +2035,6 @@
     "titulo": "DATANOVA 2026 GLOBAL DATA-THON"
    },
    "visto_desde": "2026-10-26T10:47-05:00"
-  },
-  {
-   "id": "devpost:31060",
-   "titulo": "Agentic Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-11-01T00:00-05:00",
-   "fin": "2026-11-10T23:59-05:00",
-   "cierre": "2026-11-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://agentic-hackathon.devpost.com/",
-   "inscripcion": "https://agentic-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Devin",
-   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended, Web. Premios: $480.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/139/026/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 29,
-   "puntaje": 48,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T22:54-05:00"
   },
   {
    "id": "tedx:70101",
@@ -2213,6 +2201,41 @@
    "visto_desde": "2026-10-30T16:54-05:00"
   },
   {
+   "id": "inst:sni-webinar-de-los-atributos-al-valor-c-mo-diferenciar-produ:2026-11-12",
+   "titulo": "Webinar: De los atributos al valor: Cómo diferenciar productos y fortalecer su competitividad",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-12T15:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/De-los-atributos-al-valor-IMG-505x400.png",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-11-12T23:50-05:00"
+   },
+   "visto_desde": "2026-11-01T07:32-05:00"
+  },
+  {
    "id": "devpost:31302",
    "titulo": "PayPal AI Hackathon",
    "tipo": "hackathon",
@@ -2310,7 +2333,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=b3f1a7f5e1b4d9a5d5a4f9e8ce557aaa",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4037bc17149716d609edd59c3199863a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2583,7 +2606,7 @@
    "organizador": "Black Alpaca Security Conference",
    "descripcion": "A kickass cybersecurity conference for curious minds eager to explore, learn, and connect in a dynamic and engaging setting!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=939cdadc208e59fccb14818e6d0b5174",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61f15a6eaea1039e54e14a0afa2120e8",
    "inscripcion": "https://www.eventbrite.com.pe/e/black-alpaca-security-conference-2026-tickets-2000906328692",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2722,7 +2745,7 @@
    "organizador": "Greenfield Group",
    "descripcion": "Aprende IA aplicada a la gestión empresarial desde cero. Evento online para estudiantes y principiantes: sin experiencia, solo curiosad.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=204f7508913023a35994629699d28c49",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=7a8cd656de7338409078fa0b47d6bc99",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3008,7 +3031,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "¿Te imaginás crear anuncios publicitarios con personas que no existen, videos hiperrealistas y voces profesionales, sin utilizar cámaras,",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d576c113898c71fb45de927181d83f4",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=34e2e4dfeb24a162bcfb4f174c3c9028",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3132,6 +3155,41 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
+   "id": "inst:sni-webinar-saldo-a-favor-del-exportador:2026-11-18",
+   "titulo": "Webinar: Saldo a favor del exportador",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-18T17:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/SALDO-A-FAVOR-DEL-EXPORTADOR-img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-11-18T23:50-05:00"
+   },
+   "visto_desde": "2026-11-01T07:32-05:00"
+  },
+  {
    "id": "luma:evt-LK4GiG7MqIgvrsF",
    "titulo": "💧 Agua que transforma",
    "inicio": "2026-11-18T18:00-05:00",
@@ -3230,7 +3288,7 @@
    "organizador": "CENTRO | Diseño, Cine y Televisión",
    "descripcion": "La Especialidad en Comunicación y estilismo de moda invita a una masterclass sobre cómo la dirección creativa transforma una idea abstracta",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194150910%2F242578370882%2F1%2Foriginal.20260922-231949?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.695&fp-y=0.43&s=a4deddfade01490929ba624c43738165",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194150910%2F242578370882%2F1%2Foriginal.20260922-231949?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.695&fp-y=0.43&s=6eaae838a5d1498fb1e0bc6f0775cb4d",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3923,7 +3981,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=8d552ad21d088114d370b1f407202c2f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=fae44e5896d2793788d888a5a4ee2dbb",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3934,6 +3992,40 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-10-11T12:31-05:00"
+  },
+  {
+   "id": "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25",
+   "titulo": "Webinar: Calidad en los procesos para una empresa industrial",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-25T17:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/Calidad-en-los-procesos-para-una-empresa-industrial-IMG1-1.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Ingeniería y operaciones"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-11-25T23:50-05:00"
+   },
+   "visto_desde": "2026-11-01T07:32-05:00"
   },
   {
    "id": "devpost:31737",
@@ -4005,7 +4097,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=c253c5afba1560b86d681b9d24956355",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4296,6 +4388,34 @@
    "visto_desde": "2026-10-29T04:15-05:00"
   },
   {
+   "id": "devpost:31733",
+   "titulo": "305 Veterans Hackathon Edition November 2026 — 305Hackathons.vercel.app",
+   "tipo": "hackathon",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://305veteransnov2026.devpost.com/",
+   "inscripcion": "https://305veteransnov2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "GOOGLE DEVELOPER GROUP AT FIU",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Education. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/105/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 24,
+   "afinidad": 9,
+   "puntaje": 33,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Empresa reconocida · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-01T07:32-05:00"
+  },
+  {
    "id": "devpost:31808",
    "titulo": "#BuildHybridAI 2026",
    "tipo": "hackathon",
@@ -4377,6 +4497,34 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-10-21T14:07-05:00"
+  },
+  {
+   "id": "devpost:31960",
+   "titulo": "ML Empowerment Build Challenge 4.0",
+   "tipo": "hackathon",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-12-02T23:59-05:00",
+   "cierre": "2026-12-02T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://ml-build-challenge-4.devpost.com/",
+   "inscripcion": "https://ml-build-challenge-4.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ML Empowerment Foundation",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/767/299/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 35,
+   "puntaje": 54,
+   "por_que": "Afín: Datos y machine learning · Competencia · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-01T07:32-05:00"
   },
   {
    "id": "devpost:31667",
@@ -4769,6 +4917,34 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-27T12:18-05:00"
+  },
+  {
+   "id": "devpost:31787",
+   "titulo": "GenHacks",
+   "tipo": "hackathon",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-12-26T23:59-05:00",
+   "cierre": "2026-12-26T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://genhacks-open.devpost.com/",
+   "inscripcion": "https://genhacks-open.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Shail & Sharaf",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, IoT, Machine Learning/AI. Premios: $CAD 1,050.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/766/254/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-01T07:32-05:00"
   },
   {
    "id": "wikicfp:192324",
@@ -7403,31 +7579,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:2003293488752",
-   "titulo": "FUEGO Y JARANA CON FUEGO CRIOLLO!",
-   "inicio": "2026-10-31T07:30-05:00",
-   "fin": "2026-10-31T23:30-05:00",
-   "lugar": "San Isidro, Av. Camino Real 312 San Isidro",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.es/e/fuego-y-jarana-con-fuego-criollo-tickets-2003293488752",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "¡Ven a disfrutar música, baile y pura jarana en vivo junto a Fuego Criollo!",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195601564%2F283379467200%2F1%2Foriginal.20261012-132324?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.372&s=f4f100446e0778d8ad7c3d33817468b4",
-   "inscripcion": "https://www.eventbrite.es/e/fuego-y-jarana-con-fuego-criollo-tickets-2003293488752",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · (Poca información)"
-  },
-  {
    "id": "eb:1982892091624",
    "titulo": "Solo travellers: casual hangout in Lima (4pm)",
    "inicio": "2026-11-01T16:00-05:00",
@@ -8617,20 +8768,20 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:1981186923420",
+   "id": "eb:1981186924423",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-10-31T23:00-05:00",
-   "fin": "2026-11-01T13:00-05:00",
+   "inicio": "2026-11-01T23:00-05:00",
+   "fin": "2026-11-02T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186923420",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186924423",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima at 11AM you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186923420",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186924423",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8779,31 +8930,32 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31881",
-   "titulo": "Hack With Karthik",
+   "id": "devpost:31719",
+   "titulo": "Scope-AI-Thon 2026 - AI for Detection of Acute Patient Deterioration",
    "tipo": "hackathon",
-   "inicio": "2026-10-30T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "2026-11-01T23:59-05:00",
-   "lugar": "Al-Amen",
-   "distrito": "Al-Amen",
-   "modalidad": "Presencial",
-   "url": "https://hack-with-karthik.devpost.com/",
-   "inscripcion": "https://hack-with-karthik.devpost.com/",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-11-14T23:59-05:00",
+   "cierre": "2026-11-14T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://scope-ai-thon-2026.devpost.com/",
+   "inscripcion": "https://scope-ai-thon-2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "None",
-   "descripcion": "Hackathon presencial en Al-Amen. Temas: Design, Education, Music/Art. Premios: ₹ 0.",
+   "organizador": "mcgill university",
+   "descripcion": "Hackathon online. Temas: Design, Health, Machine Learning/AI. Premios: $CAD 1,400.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/706/163/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/622/830/datas/medium_square.jpg",
    "motivo": "solo por invitación",
    "categorias": [
+    "Tecnología e IA",
     "Competencias y hackathons"
    ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+   "valor": 26,
+   "afinidad": 30,
+   "puntaje": 56,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31811",
@@ -8887,7 +9039,7 @@
    "id": "insc:8eca04457016",
    "titulo": "Concurso «Modelo Educativo de la Científica»",
    "tipo": "evento",
-   "inicio": "2026-06-09T00:00-05:00",
+   "inicio": "2026-05-17T00:00-05:00",
    "fin": "2026-06-23T23:59-05:00",
    "cierre": "",
    "lugar": "",
@@ -9033,7 +9185,7 @@
    "organizador": "AWS Student Builder Group UNI",
    "descripcion": "Un día de charlas, workshops y comunidad sobre cloud e IA, organizado por estudiantes del AWS Student Builder Group UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=ff03716ec626363368db29cefaf9cd26",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=4947bfa70477611befac2e5ee3039f58",
    "inscripcion": "https://www.eventbrite.com.pe/e/aws-student-community-day-lima-2026-tickets-2003893051059",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9200,15 +9352,15 @@
   "meetup:315593619",
   "luma:evt-AIPfW5LkvQuWiVA",
   "pucp:quinto-reto-de-innovacion-ambiental-14102026121313",
-  "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233",
-  "devpost:31841"
+  "devpost:31960",
+  "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
   "PERUMIN": 1,
   "ESAN — eventos": 1,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 0,
+  "Sociedad Nacional de Industrias": 5,
   "AmCham Perú": 3,
   "ComexPerú": 1
  },
@@ -9224,9 +9376,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-10-31T22:54-05:00",
-  "revisados": 202,
-  "corregidos": 5,
+  "fecha": "2026-11-01T07:32-05:00",
+  "revisados": 207,
+  "corregidos": 10,
   "avisos": 7,
   "archivados": 3,
   "problemas": [
@@ -9239,12 +9391,28 @@
     "url": "https://agenda.pucp.edu.pe/evento/dialogo-academico-sobre-las-relaciones-bilaterales-y-sus-perspectivas-22102026130904/"
    },
    {
+    "id": "inst:sni-webinar-responsabilidad-penal-del-gerente-general-ante-u:2026-11-05",
+    "titulo": "Webinar: Responsabilidad penal del gerente general ante un accidente de trabajo",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
     "id": "luma:evt-INRh9a83ZDl1nNe",
     "titulo": "El Futuro Es Experiencia",
     "fuente": "Luma",
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://lu.ma/6942nuls"
+   },
+   {
+    "id": "inst:sni-webinar-procedimiento-legal-para-la-obtenci-n-del-certif:2026-11-10",
+    "titulo": "Webinar: Procedimiento Legal para la Obtención del Certificado de Inspección Técnica de Se",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
    },
    {
     "id": "devpost:31883",
@@ -9255,12 +9423,36 @@
     "url": "https://datanova-2026-global-data-thon.devpost.com/"
    },
    {
+    "id": "inst:sni-webinar-de-los-atributos-al-valor-c-mo-diferenciar-produ:2026-11-12",
+    "titulo": "Webinar: De los atributos al valor: Cómo diferenciar productos y fortalecer su competitivi",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
     "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
     "titulo": "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit 2026",
     "fuente": "Institucional",
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://pmi.org.pe/"
+   },
+   {
+    "id": "inst:sni-webinar-saldo-a-favor-del-exportador:2026-11-18",
+    "titulo": "Webinar: Saldo a favor del exportador",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
+    "id": "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25",
+    "titulo": "Webinar: Calidad en los procesos para una empresa industrial",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
    },
    {
     "id": "ieee:581551",
@@ -9352,11 +9544,16 @@
    }
   ],
   "enlaces": {
-   "comprobados": 3,
+   "comprobados": 4,
    "rotos": 8,
    "sin_comprobar": 0
   },
-  "fuentes_a_revisar": []
+  "fuentes_a_revisar": [
+   {
+    "fuente": "Institucional",
+    "detalle": "los problemas subieron de 20% a 60%"
+   }
+  ]
  },
  "por_confirmar": [
   {
@@ -9373,6 +9570,22 @@
    "medio": "Agencia Peruana de Noticias | ANDINA",
    "publicado": "Sat, 17 Oct 2026 17:00:00 GMT",
    "resumen": "La cumbre del sector infraestructura “Infracon Perú 2026” destacó con éxito el potencial para las inversiones que se necesitan para cerrar las brechas y se abordaron los desafíos que enfrenta el país ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "PERÚ LLEGA A CUMBRE MINERA MUNDIAL CON DELEGACIÓN MÁS NUMEROSA DE SU HISTORIA",
+   "url": "https://www.rcrperu.com/peru-llega-a-cumbre-minera-mundial-con-delegacion-mas-numerosa-de-su-historia/",
+   "medio": "RCR Peru",
+   "publicado": "Sun, 25 Oct 2026 16:17:00 GMT",
+   "resumen": "Fuente: Agencia Andina Misión integrada por más de 60 representantes públicos y privados inició actividades en IMARC 2026 Lima, 25 de octubre 2026.- La mayor delegación peruana de su historia particip ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "ALO Lift reúne a representantes de 8 países en la Cumbre de Las Américas 2026",
+   "url": "https://mineriaenergia.com/alo-lift-reune-a-representantes-de-8-paises-en-la-cumbre-de-las-americas-2026/",
+   "medio": "mineriaenergia",
+   "publicado": "Mon, 19 Oct 2026 14:19:00 GMT",
+   "resumen": "El encuentro, realizado del 14 al 16 de octubre en Lima, Perú, fortaleció la integración regional de ALO Group, promoviendo el intercambio de experiencias y la colaboración entre equipos comerciales y ...",
    "fecha_mencionada": ""
   },
   {
@@ -9598,6 +9811,21 @@
   },
   "Seminario: Aspectos esenciales durante la supervisión ambiental y ejemplos prácticos": {
    "2026": "2026-10-27"
+  },
+  "Webinar: Responsabilidad penal del gerente general ante un accidente de trabajo": {
+   "2026": "2026-11-05"
+  },
+  "Webinar: Procedimiento Legal para la Obtención del Certificado de Inspección Técnica de Seguridad en Edificaciones (ITSE)": {
+   "2026": "2026-11-10"
+  },
+  "Webinar: De los atributos al valor: Cómo diferenciar productos y fortalecer su competitividad": {
+   "2026": "2026-11-12"
+  },
+  "Webinar: Saldo a favor del exportador": {
+   "2026": "2026-11-18"
+  },
+  "Webinar: Calidad en los procesos para una empresa industrial": {
+   "2026": "2026-11-25"
   }
  },
  "primera_vez": {
@@ -9703,7 +9931,6 @@
   "devpost:31796": "2026-10-18T15:00-05:00",
   "devpost:31737": "2026-10-18T15:00-05:00",
   "devpost:31789": "2026-10-18T17:45-05:00",
-  "devpost:31793": "2026-10-18T21:56-05:00",
   "inst:comexper-seminario-digitalizaci-n:2026-11-03": "2026-10-19T11:27-05:00",
   "luma:evt-fjJKrLjuluVAIeT": "2026-10-19T16:58-05:00",
   "luma:evt-crpVGg06NULnKJY": "2026-10-19T22:05-05:00",
@@ -9786,8 +10013,6 @@
   "eb:2004156669549": "2026-10-30T22:46-05:00",
   "devpost:31489": "2026-10-30T22:46-05:00",
   "devpost:31187": "2026-10-30T22:46-05:00",
-  "devpost:31942": "2026-10-31T06:35-05:00",
-  "devpost:31760": "2026-10-31T06:35-05:00",
   "devpost:31946": "2026-10-31T06:35-05:00",
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-10-31T06:35-05:00",
   "opportunitydesk:esk-org-2026-10-31-mastercard-foundation-scholars-program-at-auc-2027-": "2026-10-31T11:43-05:00",
@@ -9802,6 +10027,14 @@
   "luma:evt-HCs3WC7xfMoBy4r": "2026-10-31T18:56-05:00",
   "devpost:31480": "2026-10-31T18:56-05:00",
   "devpost:31060": "2026-10-31T22:54-05:00",
-  "devpost:27097": "2026-10-31T22:54-05:00"
+  "devpost:27097": "2026-10-31T22:54-05:00",
+  "inst:sni-webinar-responsabilidad-penal-del-gerente-general-ante-u:2026-11-05": "2026-11-01T07:32-05:00",
+  "inst:sni-webinar-procedimiento-legal-para-la-obtenci-n-del-certif:2026-11-10": "2026-11-01T07:32-05:00",
+  "inst:sni-webinar-de-los-atributos-al-valor-c-mo-diferenciar-produ:2026-11-12": "2026-11-01T07:32-05:00",
+  "inst:sni-webinar-saldo-a-favor-del-exportador:2026-11-18": "2026-11-01T07:32-05:00",
+  "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25": "2026-11-01T07:32-05:00",
+  "devpost:31733": "2026-11-01T07:32-05:00",
+  "devpost:31960": "2026-11-01T07:32-05:00",
+  "devpost:31787": "2026-11-01T07:32-05:00"
  }
 }
