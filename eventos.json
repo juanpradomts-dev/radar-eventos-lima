@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-01T14:21-05:00",
+ "actualizado": "2026-11-01T19:13-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 38
+   "n": 39
   },
   "Eventbrite": {
    "ok": true,
@@ -31,7 +31,8 @@
   },
   "WikiCFP": {
    "ok": true,
-   "n": 92
+   "n": 92,
+   "cache": "2026-11-01T14:20-05:00"
   },
   "Opportunity Desk": {
    "ok": true,
@@ -59,7 +60,7 @@
    "n": 0
   }
  },
- "revisados": 336,
+ "revisados": 337,
  "top": 55,
  "eventos": [
   {
@@ -201,62 +202,6 @@
    "puntaje": 32,
    "por_que": "Formativo · Afín: Investigación · Universidad · Se postula en línea",
    "visto_desde": "2026-10-30T13:01-05:00"
-  },
-  {
-   "id": "devpost:31779",
-   "titulo": "TRMI X Lovhack : Multiplayer Everything Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-10-31T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "2026-11-01T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://lovhack-trmi-2026.devpost.com/",
-   "inscripcion": "https://lovhack-trmi-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Lovhack",
-   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended, Web. Premios: $300.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/705/173/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 29,
-   "puntaje": 48,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T15:55-05:00"
-  },
-  {
-   "id": "devpost:31841",
-   "titulo": "Global AI Hackathon - Devcon 2026 By Mel",
-   "tipo": "hackathon",
-   "inicio": "2026-10-31T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "2026-11-01T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://trick-or-build.devpost.com/",
-   "inscripcion": "https://trick-or-build.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Agentic Day (co-hosted with Mel)",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/725/405/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 33,
-   "puntaje": 52,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T15:55-05:00"
   },
   {
    "id": "luma:evt-HCs3WC7xfMoBy4r",
@@ -791,6 +736,34 @@
    "visto_desde": "2026-10-15T18:33-05:00"
   },
   {
+   "id": "luma:evt-D4g7N5dLCEVm66o",
+   "titulo": "Inteligencia Artificial en acción: agentes inteligentes y nuevas formas de aprender",
+   "inicio": "2026-11-04T15:30-05:00",
+   "fin": "2026-11-04T17:30-05:00",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/43p2olvl",
+   "fuente": "Luma",
+   "organizador": "ENEISOFT - UNMSM",
+   "descripcion": "🎙️ Ponentes: Henry Keniding y Andrés Cáceres📍 Modalidad: Presencial🤖 Tema: Inteligencia Artificial, Educación y Automatización\nLa inteligencia artificial está transformando tanto la manera en que trabajamos como la forma en que aprendemos. Desde la automatización de procesos mediante agentes inteligentes hasta su incorporación en los estudios universitarios, estamos frente a nuevas oportunidades y desafíos.\nEn este evento exploraremos dos perspectivas complementarias sobre el impacto de la IA: su aplicación en entornos empresariales y su papel en la formación académica. Conoceremos herramientas, aplicaciones y criterios para aprovechar estas tecnologías de manera efectiva y responsable.\n🎙️ P",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/gallery-images/dd/4042727d-8671-483c-81b0-5c178916a196.png",
+   "inscripcion": "https://lu.ma/43p2olvl",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Investigación y ciencia"
+   ],
+   "valor": 25,
+   "afinidad": 20,
+   "puntaje": 45,
+   "por_que": "Afín: Inteligencia artificial · Presencial en Lima · Afín: Investigación · Universidad",
+   "visto_desde": "2026-11-01T19:13-05:00"
+  },
+  {
    "id": "eb:2002800032812",
    "titulo": "Webinar PMIBA:  La rueda del éxito en equipos de alto rendimiento",
    "inicio": "2026-11-04T17:00-05:00",
@@ -875,6 +848,34 @@
    "puntaje": 41,
    "por_que": "Afín: Inteligencia artificial · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-10-24T12:49-05:00"
+  },
+  {
+   "id": "devpost:31815",
+   "titulo": "Neural Storm",
+   "tipo": "hackathon",
+   "inicio": "2026-11-02T00:00-05:00",
+   "fin": "2026-11-04T23:59-05:00",
+   "cierre": "2026-11-04T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://neuralstorm.devpost.com/",
+   "inscripcion": "https://neuralstorm.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "JNTUH",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI. Premios: ₹ 20,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/625/473/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 26,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-01T19:13-05:00"
   },
   {
    "id": "luma:evt-B7mmXMtiInjCfw3",
@@ -1001,7 +1002,7 @@
    "organizador": "ICIC",
    "descripcion": "Serie de seminarios web para pequeñas empresas",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=b60bf879dde73acca4a22c4ab676cb61",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=395c98d481b85d34e3781d5a4c38bfe7",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2303,7 +2304,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-1-tickets-2003540173593",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2441,7 +2442,7 @@
    "organizador": "GROW",
    "descripcion": "\"Crece y descubre cómo lograr tus metas\"",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196995808%2F225169246126%2F1%2Foriginal.20261031-185831?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=edf880f2be3394b642b547731c2b0163",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196995808%2F225169246126%2F1%2Foriginal.20261031-185831?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a54f58173eedb4e0f60940777c74200d",
    "inscripcion": "https://www.eventbrite.com.pe/e/conferencia-gratuita-de-liderazgo-cambia-tu-rumbo-tickets-2004170365514",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2605,7 +2606,7 @@
    "organizador": "Black Alpaca Security Conference",
    "descripcion": "A kickass cybersecurity conference for curious minds eager to explore, learn, and connect in a dynamic and engaging setting!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=939cdadc208e59fccb14818e6d0b5174",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61f15a6eaea1039e54e14a0afa2120e8",
    "inscripcion": "https://www.eventbrite.com.pe/e/black-alpaca-security-conference-2026-tickets-2000906328692",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2632,7 +2633,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-2-tickets-2003510824810",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3030,7 +3031,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "¿Te imaginás crear anuncios publicitarios con personas que no existen, videos hiperrealistas y voces profesionales, sin utilizar cámaras,",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=55bd938b05fd0392afb14bacca6fd78e",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d576c113898c71fb45de927181d83f4",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3532,7 +3533,7 @@
    "organizador": "HUG Perú",
    "descripcion": "Segundo meetup presencial de HashiCorp User Group Perú: charlas, experiencias y networking sobre Terraform, Vault y DevOps.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195772314%2F3017638582643%2F1%2Foriginal.20261014-121002?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ec82229e94455c70b07675242f716de8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195772314%2F3017638582643%2F1%2Foriginal.20261014-121002?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d56c82f3b19c1f1ab78c67b795cd0ef8",
    "inscripcion": "https://www.eventbrite.com/e/hug-peru-meetup-presencial-tickets-2003402159790",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3980,7 +3981,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=fae44e5896d2793788d888a5a4ee2dbb",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4485,7 +4486,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -7578,31 +7579,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:1982892091624",
-   "titulo": "Solo travellers: casual hangout in Lima (4pm)",
-   "inicio": "2026-11-01T16:00-05:00",
-   "fin": "2026-11-01T18:00-05:00",
-   "lugar": "Las Tradiciones Park, 821 Avenida Ricardo Palma",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892091624",
-   "fuente": "Eventbrite",
-   "organizador": "Curious to Change",
-   "descripcion": "No pressure, no plan. Just new friends. Weekly get together to meet, chat, and create connections with other curious peeps.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177291423%2F2830687274421%2F1%2Foriginal.20260211-165217?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C133%2C1920%2C960&s=de00a65eb372d3977b16b62dbb8796e2",
-   "inscripcion": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892091624",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "luma:evt-GTL5VSKBwG9KE5G",
    "titulo": "Sesión 03/11",
    "inicio": "2026-11-03T06:30-05:00",
@@ -7715,7 +7691,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Feria Internacional de Proveedores de la Industria Textil y Confecciones.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ecf2b82e33fcfea75fb6c33f359c2463",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4c3847af18eb8c80cb71000f33b74ace",
    "inscripcion": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084066665",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7840,7 +7816,7 @@
    "organizador": "Burpsuite Day Peru",
    "descripcion": "El primer evento de la comunidad Burp Suite en el Perú. Charlas técnicas de AppSec y pentesting. 7 de noviembre, INICTEL-UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=73ce9984146532b666cee130195508e2",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=889ea049d6c1213d15abca73d4f5ec0f",
    "inscripcion": "https://www.eventbrite.com.pe/e/burpsuite-day-peru-2026-tickets-1999138227253",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7876,6 +7852,31 @@
    "afinidad": 0,
    "puntaje": 12,
    "por_que": "Presencial en Lima · Evento sin formato claro"
+  },
+  {
+   "id": "eb:1982892092627",
+   "titulo": "Solo travellers: casual hangout in Lima (4pm)",
+   "inicio": "2026-11-08T16:00-05:00",
+   "fin": "2026-11-08T18:00-05:00",
+   "lugar": "Las Tradiciones Park, 821 Avenida Ricardo Palma",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892092627",
+   "fuente": "Eventbrite",
+   "organizador": "Curious to Change",
+   "descripcion": "No pressure, no plan. Just new friends. Weekly get together to meet, chat, and create connections with other curious peeps.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177291423%2F2830687274421%2F1%2Foriginal.20260211-165217?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C133%2C1920%2C960&s=de00a65eb372d3977b16b62dbb8796e2",
+   "inscripcion": "https://www.eventbrite.co.uk/e/solo-travellers-casual-hangout-in-lima-4pm-tickets-1982892092627",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
    "id": "pucp:feria-tercio-espacio-de-visibilizacion-participacion-y-encuentro-estudiantil-05102026130106",
@@ -8015,7 +8016,7 @@
    "organizador": "",
    "descripcion": "Éclat te invita a descubrir Fruity Volcano, una creación exclusiva que llega para conquistar a los amantes del chocolate.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=488f8c8b811763c1087b9f6b5ad1cd48",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=29b40b320a5efd1ece8e7d134bf72133",
    "inscripcion": "https://www.eventbrite.com.pe/e/fruity-volcano-tickets-2003226162377",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8356,31 +8357,59 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30731",
-   "titulo": "LarpHacks",
+   "id": "devpost:31825",
+   "titulo": "FSB AI Build-a-thon Event 02",
    "tipo": "hackathon",
    "inicio": "2026-11-01T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "2026-11-01T23:59-05:00",
-   "lugar": "Toronto",
-   "distrito": "Toronto",
+   "fin": "2026-11-03T23:59-05:00",
+   "cierre": "2026-11-03T23:59-05:00",
+   "lugar": "Farmer School of Business",
+   "distrito": "Farmer School of Business",
    "modalidad": "Presencial",
-   "url": "https://larphacks.devpost.com/",
-   "inscripcion": "https://larphacks.devpost.com/",
+   "url": "https://fsb-ai-buildathon-02.devpost.com/",
+   "inscripcion": "https://fsb-ai-buildathon-02.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "larphacks",
-   "descripcion": "Hackathon presencial en Toronto. Temas: Beginner Friendly, Machine Learning/AI, Web. Premios: $21,394.",
+   "organizador": "Farmer School of Business, Miami Univers",
+   "descripcion": "Hackathon presencial en Farmer School of Business. Temas: Beginner Friendly, Low/No Code, Open Ended. Premios: $500.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/982/889/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/629/683/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Tecnología e IA",
-    "Competencias y hackathons"
+    "Negocios y emprendimiento"
    ],
    "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
+   "afinidad": 18,
+   "puntaje": 34,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31435",
+   "titulo": "Redhawk Builds 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-11-08T23:59-05:00",
+   "cierre": "2026-11-08T23:59-05:00",
+   "lugar": "McVey Data Science Building",
+   "distrito": "McVey Data Science Building",
+   "modalidad": "Presencial",
+   "url": "https://redhawk-builds-2026.devpost.com/",
+   "inscripcion": "https://redhawk-builds-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Miami",
+   "descripcion": "Hackathon presencial en McVey Data Science Building. Temas: Fintech, Machine Learning/AI. Premios: $3,500.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 16,
+   "afinidad": 30,
+   "puntaje": 46,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
@@ -8654,7 +8683,7 @@
    "organizador": "NEVORA",
    "descripcion": "Acompañanos a celebrar la inaguración de nuestra primera tienda y la nueva colección de nuestros buzos baggy   ¡los esperamos!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=212538966032fcfb0ebae67a83284465",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=fc03c1fa27f9ca2215529a41e1975838",
    "inscripcion": "https://www.eventbrite.com/e/apertura-oficial-y-lanzamiento-de-nuestra-nueva-coleccion-tickets-2003074310183",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9375,7 +9404,7 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-01T14:21-05:00",
+  "fecha": "2026-11-01T19:13-05:00",
   "revisados": 207,
   "corregidos": 10,
   "avisos": 7,
@@ -9559,11 +9588,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Cumbre Infracon Perú 2026 destacó potencial del país para inversiones en infraestructura",
-   "url": "https://andina.pe/agencia/noticia-cumbre-infracon-peru-2026-destaco-potencial-del-pais-para-inversiones-infraestructura-1096417.aspx",
-   "medio": "Agencia Peruana de Noticias | ANDINA",
-   "publicado": "Sat, 17 Oct 2026 17:00:00 GMT",
-   "resumen": "La cumbre del sector infraestructura “Infracon Perú 2026” destacó con éxito el potencial para las inversiones que se necesitan para cerrar las brechas y se abordaron los desafíos que enfrenta el país ...",
+   "titulo": "PERÚ LLEGA A CUMBRE MINERA MUNDIAL CON DELEGACIÓN MÁS NUMEROSA DE SU HISTORIA",
+   "url": "https://www.rcrperu.com/peru-llega-a-cumbre-minera-mundial-con-delegacion-mas-numerosa-de-su-historia/",
+   "medio": "RCR Peru",
+   "publicado": "Sun, 25 Oct 2026 16:17:00 GMT",
+   "resumen": "Fuente: Agencia Andina Misión integrada por más de 60 representantes públicos y privados inició actividades en IMARC 2026 Lima, 25 de octubre 2026.- La mayor delegación peruana de su historia particip ...",
    "fecha_mencionada": ""
   },
   {
@@ -9604,22 +9633,6 @@
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
    "resumen": "Por Redacción EC 15/09/2026, 08:15 p.m. Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "La Cámara de Comercio Suiza en el Perú reunirá a directivos de grandes empresas en su cumbre de innovación",
-   "url": "https://www.infobae.com/peru/2026/10/27/la-camara-de-comercio-suiza-en-el-peru-reunira-a-directivos-de-grandes-empresas-en-su-cumbre-de-innovacion/",
-   "medio": "Infobae",
-   "publicado": "Tue, 27 Oct 2026 10:27:00 GMT",
-   "resumen": "El encuentro anual se realizará el 4 de noviembre en San Isidro, con paneles sobre minería, salud e inteligencia artificial dirigidos a líderes corporativos y especialistas del sector privado nacional ...",
-   "fecha_mencionada": "2026-11-04T00:00-05:00"
-  },
-  {
-   "titulo": "OMODA & JAECOO supera las 1,200 unidades en Perú y presenta nuevos desarrollos tecnológicos en su International User Summit 2026",
-   "url": "https://automundo.pe/2026/10/31/omoda-jaecoo-supera-las-1200-unidades-en-peru-y-presenta-nuevos-desarrollos-tecnologicos-en-su-international-user-summit-2026/",
-   "medio": "automundo",
-   "publicado": "Sat, 31 Oct 2026 14:30:00 GMT",
-   "resumen": "● En solo siete meses, la marca alcanzó este hito comercial y obtuvo el “Set Sail Spearhead Award” durante el International User Summit 2026. El encuentro también fue escenario de la presentación de a ...",
    "fecha_mencionada": ""
   },
   {
@@ -9998,8 +10011,6 @@
   "opportunitydesk:-opportunitydesk-org-2026-10-31-irex-community-solutions-program-2027-": "2026-10-31T11:43-05:00",
   "opportunitydesk:2026-10-31-mastercard-foundation-scholars-program-at-sciences-po-2027-": "2026-10-31T11:43-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-10-31-mit-summer-research-program-2027-": "2026-10-31T11:43-05:00",
-  "devpost:31779": "2026-10-31T15:55-05:00",
-  "devpost:31841": "2026-10-31T15:55-05:00",
   "eb:2004170365514": "2026-10-31T15:55-05:00",
   "luma:evt-pbPNpjkOOt8UAwY": "2026-10-31T15:55-05:00",
   "luma:evt-HCs3WC7xfMoBy4r": "2026-10-31T18:56-05:00",
@@ -10013,6 +10024,8 @@
   "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25": "2026-11-01T07:32-05:00",
   "devpost:31733": "2026-11-01T07:32-05:00",
   "devpost:31960": "2026-11-01T07:32-05:00",
-  "devpost:31787": "2026-11-01T07:32-05:00"
+  "devpost:31787": "2026-11-01T07:32-05:00",
+  "luma:evt-D4g7N5dLCEVm66o": "2026-11-01T19:13-05:00",
+  "devpost:31815": "2026-11-01T19:13-05:00"
  }
 }
