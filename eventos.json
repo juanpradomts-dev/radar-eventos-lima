@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-01T19:13-05:00",
+ "actualizado": "2026-11-02T05:28-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 39
+   "n": 41
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 16
+   "n": 17
   },
   "Meetup": {
    "ok": true,
@@ -31,8 +31,7 @@
   },
   "WikiCFP": {
    "ok": true,
-   "n": 92,
-   "cache": "2026-11-01T14:20-05:00"
+   "n": 92
   },
   "Opportunity Desk": {
    "ok": true,
@@ -60,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 337,
+ "revisados": 340,
  "top": 55,
  "eventos": [
   {
@@ -146,33 +145,6 @@
    "puntaje": 15,
    "por_que": "Voluntariado · Evento sin formato claro · Virtual",
    "visto_desde": "2026-10-26T10:47-05:00"
-  },
-  {
-   "id": "wikicfp:194547",
-   "titulo": "ICRTT 2026 : 2026 3rd International Conference on Rail Transit and Transportation",
-   "tipo": "call for papers",
-   "inicio": "2026-10-30T00:00-05:00",
-   "fin": "2026-11-01T23:59-05:00",
-   "cierre": "",
-   "lugar": "Xiamen, China",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194547&copyownerid=182680",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194547&copyownerid=182680",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: 2026 3rd International Conference on Rail Transit and Transportation. Lugar: Xiamen, China. Fechas del congreso: Oct 30, 2026 - Nov 1, 2026.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 17,
-   "afinidad": 8,
-   "puntaje": 25,
-   "por_que": "Formativo · Afín: Investigación · Se postula en línea",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "opportunitydesk:r-economics-pre-doctoral-fellows-program-at-yale-university-2027-2028-",
@@ -1002,7 +974,7 @@
    "organizador": "ICIC",
    "descripcion": "Serie de seminarios web para pequeñas empresas",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=395c98d481b85d34e3781d5a4c38bfe7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=b60bf879dde73acca4a22c4ab676cb61",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1148,7 +1120,7 @@
    "organizador": "AULABIERTA",
    "descripcion": "Periodismo explicativo especializado con IA\nLABORATORIO EDITORIAL\nDIPLOMADO DE PERIODISMO\n5 NOVIEMBRE 26 5:00 PM CDMX",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196971089%2F256438124752%2F1%2Foriginal.20261031-021541?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.848&s=87dc5b8487012831676449f59397db2a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196971089%2F256438124752%2F1%2Foriginal.20261031-021541?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.848&s=c30033c99eb6799e19ce31d952fb781a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1428,7 +1400,7 @@
    "organizador": "LATIN AMERICAN DESIGN",
    "descripcion": "LADFEST X. NOW IN LIMA.\nCelebra los 10 años del Latin American Design Festival este 06 y 07 de noviembre de 2026.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=afae269f99864aa92b9af2ca1be6bbb5",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ef41922965b92fab27b379d62fe4266f",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-ladfest-x-2026-1995168675216",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2062,6 +2034,34 @@
    "puntaje": 19,
    "por_que": "Presencial en Lima · Universidad · Evento sin formato claro",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "eb:2004204425388",
+   "titulo": "Webinar gratuito: Lográ nuevas oportunidades con tu marca profesional e IA",
+   "inicio": "2026-11-11T17:00-05:00",
+   "fin": "2026-11-11T18:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/webinar-gratuito-logra-nuevas-oportunidades-con-tu-marca-profesional-e-ia-tickets-2004204425388",
+   "inscripcion": "https://www.eventbrite.com.ar/e/webinar-gratuito-logra-nuevas-oportunidades-con-tu-marca-profesional-e-ia-tickets-2004204425388",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Advise Consultores",
+   "descripcion": "En este webinar gratuito juntamos tres miradas que casi nunca se sientan en la misma mesa: Recursos Humanos, marketing e IA",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197050657%2F257811272973%2F1%2Foriginal.20261102-020429?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=50ad80577735c9cd73a6b08120b24aed",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-11-02T05:28-05:00"
   },
   {
    "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo",
@@ -2745,7 +2745,7 @@
    "organizador": "Greenfield Group",
    "descripcion": "Aprende IA aplicada a la gestión empresarial desde cero. Evento online para estudiantes y principiantes: sin experiencia, solo curiosad.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=204f7508913023a35994629699d28c49",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=7a8cd656de7338409078fa0b47d6bc99",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3521,6 +3521,34 @@
    "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
+   "id": "luma:evt-Hop1W6U8xHfksr8",
+   "titulo": "[Charla] Todo empezó siendo otra cosa 🌀 con TBD",
+   "inicio": "2026-11-19T18:30-05:00",
+   "fin": "2026-11-19T20:00-05:00",
+   "lugar": "Av. José Pardo 200, Miraflores",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/uw3z1hpl",
+   "fuente": "Luma",
+   "organizador": "Mutaciones",
+   "descripcion": "Todo empezó siendo otra cosa: la chamba que aceptaste “mientras tanto”, el proyecto de fin de semana que de pronto tenía clientes, la idea que nadie entendía hasta que un día sí. 👀\n¿Qué pasa en el medio, entre el antes y el después? Esa parte casi nunca entra en un post de logros.\nEn este meetup, 5 personas de la comunidad nos cuentan su mutación en 10 minutos cada una: qué se transformó, qué decisión marcó el giro, qué ganaron, qué les costó y qué aprendieron en el camino. Historias de cualquier rubro, contadas por quienes las vivieron, sin pitch y sin filtro de LinkedIn.\nEsta vez lxs speakers salen de una open call, así que vas a escuchar a gente que quizás todavía no conoces (y esa es la ",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/hz/c6f11058-1054-4aa0-b561-00ab3188e3bb.png",
+   "inscripcion": "https://lu.ma/uw3z1hpl",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis",
+   "visto_desde": "2026-11-02T05:28-05:00"
+  },
+  {
    "id": "eb:2003402159790",
    "titulo": "HUG Perú – Meetup Presencial",
    "inicio": "2026-11-19T19:00-05:00",
@@ -3981,7 +4009,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=fae44e5896d2793788d888a5a4ee2dbb",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4135,6 +4163,37 @@
    "puntaje": 39,
    "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-10-21T14:07-05:00"
+  },
+  {
+   "id": "luma:evt-heQySSVPAFajESL",
+   "titulo": "Start Tank Universitario",
+   "inicio": "2026-11-26T14:00-05:00",
+   "fin": "2026-11-26T17:00-05:00",
+   "lugar": "UNI, Puerta Nº 5, Rímac",
+   "distrito": "Rímac",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/yj5tp4fe",
+   "fuente": "Luma",
+   "organizador": "Franco Sanchez, Hult Prize at UNI",
+   "descripcion": "🦈 ¿Tienes madera de inversionista? Únete como espectador al Shark Tank Universitario y decide el futuro de la innovación.\n¡El Wall Street de la sostenibilidad llega a la UNI! Olvídate de las charlas magistrales tradicionales. Hult Prize at UNI te invita a ser parte del público en una simulación de inversión interactiva en tiempo real. Ven a evaluar los proyectos de 5 equipos universitarios enfocados en los ODS y toma el control del mercado como un verdadero \"Inversionista de Tribuna\".\n💰 Recibe tu Capital Semilla: Al ingresar al auditorio como público y escanear nuestro código QR, tu billetera virtual se cargará automáticamente con $10,000 Hult Coins.\n📈 Invierte en Tiempo Real: Mientras obser",
+   "gratis": false,
+   "imagen": "https://images.lumacdn.com/uploads/l1/19c745c3-c6f7-47b7-91bd-561e312e46bb.png",
+   "inscripcion": "https://lu.ma/yj5tp4fe",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 22,
+   "afinidad": 4,
+   "puntaje": 26,
+   "por_que": "Networking · Presencial en Lima · Universidad · Con premio · (Parece venta)",
+   "original": {
+    "titulo": "START TANK UNIVERSITARIO"
+   },
+   "visto_desde": "2026-11-02T05:28-05:00"
   },
   {
    "id": "luma:evt-CFnnzJpzLLYgAPo",
@@ -4486,7 +4545,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -7552,6 +7611,33 @@
    "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
+   "id": "wikicfp:194547",
+   "titulo": "ICRTT 2026 : 2026 3rd International Conference on Rail Transit and Transportation",
+   "tipo": "call for papers",
+   "inicio": "2026-10-30T00:00-05:00",
+   "fin": "2026-11-01T23:59-05:00",
+   "cierre": "",
+   "lugar": "Xiamen, China",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194547&copyownerid=182680",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194547&copyownerid=182680",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: 2026 3rd International Conference on Rail Transit and Transportation. Lugar: Xiamen, China. Fechas del congreso: Oct 30, 2026 - Nov 1, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "congreso ya realizado",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 17,
+   "afinidad": 8,
+   "puntaje": 25,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea"
+  },
+  {
    "id": "insc:5172781fb296",
    "titulo": "CientíficaMUN 2026: Inscripción de Delegaciones",
    "tipo": "convocatoria",
@@ -7691,7 +7777,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Feria Internacional de Proveedores de la Industria Textil y Confecciones.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4c3847af18eb8c80cb71000f33b74ace",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ecf2b82e33fcfea75fb6c33f359c2463",
    "inscripcion": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084066665",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8016,7 +8102,7 @@
    "organizador": "",
    "descripcion": "Éclat te invita a descubrir Fruity Volcano, una creación exclusiva que llega para conquistar a los amantes del chocolate.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=29b40b320a5efd1ece8e7d134bf72133",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=488f8c8b811763c1087b9f6b5ad1cd48",
    "inscripcion": "https://www.eventbrite.com.pe/e/fruity-volcano-tickets-2003226162377",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8316,7 +8402,7 @@
    "organizador": "",
    "descripcion": "Ven a descubrir tu sabor favorito en persona con una experiencia deliciosa junto a PapaMía.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b55c1e53001fdb8993ff71b53cbbd716",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dd5f43b78feb4fc1068e5ed7d4b27f7a",
    "inscripcion": "https://www.eventbrite.com/e/papamia-food-experience-descubre-tu-sabor-favorito-tickets-2003279097708",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8796,20 +8882,20 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "eb:1981186924423",
+   "id": "eb:1981186925426",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-01T23:00-05:00",
-   "fin": "2026-11-02T13:00-05:00",
+   "inicio": "2026-11-02T23:00-05:00",
+   "fin": "2026-11-03T13:00-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186924423",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186925426",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima at 11AM you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186924423",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186925426",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8836,7 +8922,7 @@
    "fuente": "Opportunity Desk",
    "fuente_url": "https://opportunitydesk.org/",
    "organizador": "",
-   "descripcion": "Meet Joy Nwaeze, a Nigerian climate policy advocate and corporate social responsibility expert working to improve how governments, organisations, and communities respond to climate change. Joy is the founder of Africa Upcycle Community, a nonprofit organisation that works on waste management, climat",
+   "descripcion": "Meet Joy Nwaeze is a daughter of Jesus Christ, a Nigerian climate policy advocate and corporate social responsibility expert working to improve how governments, organisations, and communities respond to climate change. Joy is the founder of Africa Upcycle Community, a nonprofit organisation that wor",
    "gratis": null,
    "imagen": "",
    "motivo": "restringido a otro país o región (Nigeria)",
@@ -9379,9 +9465,9 @@
   "pucp:treponema-pallidum-que-revela-el-adn-antiguo-sobre-la-diversificacion-de-la-treponematosis-22102026144617",
   "meetup:315593619",
   "luma:evt-AIPfW5LkvQuWiVA",
+  "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
   "pucp:quinto-reto-de-innovacion-ambiental-14102026121313",
-  "devpost:31960",
-  "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233"
+  "devpost:31960"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
@@ -9404,9 +9490,9 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-01T19:13-05:00",
-  "revisados": 207,
-  "corregidos": 10,
+  "fecha": "2026-11-02T05:28-05:00",
+  "revisados": 209,
+  "corregidos": 11,
   "avisos": 7,
   "archivados": 3,
   "problemas": [
@@ -9481,6 +9567,14 @@
     "nivel": "corregido",
     "detalle": "hora de término de relleno (23:50)",
     "url": "https://sni.org.pe/eventos/"
+   },
+   {
+    "id": "luma:evt-heQySSVPAFajESL",
+    "titulo": "Start Tank Universitario",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://lu.ma/yj5tp4fe"
    },
    {
     "id": "ieee:581551",
@@ -9572,7 +9666,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 3,
+   "comprobados": 4,
    "rotos": 8,
    "sin_comprobar": 0
   },
@@ -9585,14 +9679,6 @@
    "medio": "Crónica Viva",
    "publicado": "Mon, 19 Oct 2026 17:00:00 GMT",
    "resumen": "La presidenta Keiko Fujimori y el mandatario ecuatoriano Daniel Noboa firmaron la Declaración Presidencial de Lima 2026 en Palacio de Gobierno, al cerrar el XVII Gabinete Binacional, para fortalecer ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "PERÚ LLEGA A CUMBRE MINERA MUNDIAL CON DELEGACIÓN MÁS NUMEROSA DE SU HISTORIA",
-   "url": "https://www.rcrperu.com/peru-llega-a-cumbre-minera-mundial-con-delegacion-mas-numerosa-de-su-historia/",
-   "medio": "RCR Peru",
-   "publicado": "Sun, 25 Oct 2026 16:17:00 GMT",
-   "resumen": "Fuente: Agencia Andina Misión integrada por más de 60 representantes públicos y privados inició actividades en IMARC 2026 Lima, 25 de octubre 2026.- La mayor delegación peruana de su historia particip ...",
    "fecha_mencionada": ""
   },
   {
@@ -9612,12 +9698,20 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Lima Lee 2026: diez días de feria del libro en el Museo Metropolitano",
-   "url": "https://peru21.pe/cultura/lima-lee-2026-diez-dias-de-feria-del-libro-en-el-museo-metropolitano/",
-   "medio": "Perú.21",
-   "publicado": "Sun, 11 Oct 2026 00:06:00 GMT",
-   "resumen": "Feria del libro tendrá más de 40 stands y alrededor de 70 actividades. Reunirá a editoriales, librerías y autores.",
+   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
+   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
+   "medio": "El Comercio",
+   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
+   "resumen": "Por Redacción EC 15/09/2026, 08:15 p.m. Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders ...",
    "fecha_mencionada": ""
+  },
+  {
+   "titulo": "La Cámara de Comercio Suiza en el Perú reunirá a directivos de grandes empresas en su cumbre de innovación",
+   "url": "https://www.infobae.com/peru/2026/10/27/la-camara-de-comercio-suiza-en-el-peru-reunira-a-directivos-de-grandes-empresas-en-su-cumbre-de-innovacion/",
+   "medio": "Infobae",
+   "publicado": "Tue, 27 Oct 2026 10:27:00 GMT",
+   "resumen": "El encuentro anual se realizará el 4 de noviembre en San Isidro, con paneles sobre minería, salud e inteligencia artificial dirigidos a líderes corporativos y especialistas del sector privado nacional ...",
+   "fecha_mencionada": "2026-11-04T00:00-05:00"
   },
   {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
@@ -9628,11 +9722,27 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
-   "resumen": "Por Redacción EC 15/09/2026, 08:15 p.m. Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders ...",
+   "titulo": "El Retail Media Summit Perú reunió a líderes de la industria en su primera edición",
+   "url": "https://insiderlatam.com/el-retail-media-summit-peru-reunio-a-lideres-de-la-industria-en-su-primera-edicion/",
+   "medio": "Insider Latam",
+   "publicado": "Mon, 26 Oct 2026 12:01:00 GMT",
+   "resumen": "La primera edición del Retail Media Summit Perú se llevó a cabo en Lima con aforo completo. El encuentro organizado por Mediática e Inbrax reunió a líderes de la industria para analizar el futuro del ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "OMODA & JAECOO supera las 1,200 unidades en Perú y presenta nuevos desarrollos tecnológicos en su International User Summit 2026",
+   "url": "https://automundo.pe/2026/10/31/omoda-jaecoo-supera-las-1200-unidades-en-peru-y-presenta-nuevos-desarrollos-tecnologicos-en-su-international-user-summit-2026/",
+   "medio": "automundo",
+   "publicado": "Sat, 31 Oct 2026 14:30:00 GMT",
+   "resumen": "● En solo siete meses, la marca alcanzó este hito comercial y obtuvo el “Set Sail Spearhead Award” durante el International User Summit 2026. El encuentro también fue escenario de la presentación de a ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Lima Lee 2026: diez días de feria del libro en el Museo Metropolitano",
+   "url": "https://peru21.pe/cultura/lima-lee-2026-diez-dias-de-feria-del-libro-en-el-museo-metropolitano/",
+   "medio": "Perú.21",
+   "publicado": "Sun, 11 Oct 2026 00:06:00 GMT",
+   "resumen": "Feria del libro tendrá más de 40 stands y alrededor de 70 actividades. Reunirá a editoriales, librerías y autores.",
    "fecha_mencionada": ""
   },
   {
@@ -9641,6 +9751,22 @@
    "medio": "Infobae",
    "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
    "resumen": "La feria ofrecerá conversatorios, encuentros con escritores, presentaciones de novedades editoriales, talleres, cuentacuentos, recitales de poesía y espectáculos musicales ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "EXPOMIEL 2026 en Lima: feria de miel tendrá ingreso gratis y reunirá a apicultores del Perú",
+   "url": "https://diariocorreo.pe/edicion/lima/expomiel-2026-en-lima-feria-de-miel-tendra-ingreso-gratis-y-reunira-a-apicultores-del-peru-noticia/",
+   "medio": "Diario Correo",
+   "publicado": "Mon, 26 Oct 2026 08:55:00 GMT",
+   "resumen": "La Alameda 28 de Julio, en el Cercado de Lima, recibirá a productores de distintas regiones del país que ofrecerán miel, polen, propóleo, cosméticos y otros derivados apícolas. La feria también inclui ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "MML inaugura feria Lima Lee 2026: más 70 actividades gratuitas para todas las edades",
+   "url": "https://andina.pe/agencia/noticia-mml-inaugura-feria-lima-lee-2026-mas-70-actividades-gratuitas-para-todas-las-edades-1096247.aspx",
+   "medio": "Agencia Peruana de Noticias | ANDINA",
+   "publicado": "Thu, 15 Oct 2026 17:01:00 GMT",
+   "resumen": "La Municipalidad Metropolitana de Lima inaugurará este viernes 16 de octubre la Feria Metropolitana del Libro Lima Lee 2026, una propuesta cultural que reunirá a lectores, escritores, editoriales y li ...",
    "fecha_mencionada": ""
   }
  ],
@@ -9826,7 +9952,6 @@
   "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
   "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00",
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
-  "wikicfp:194547": "2026-09-26T08:43-05:00",
   "wikicfp:202973": "2026-09-26T08:43-05:00",
   "tedx:70101": "2026-09-26T08:43-05:00",
   "wikicfp:199892": "2026-09-26T08:43-05:00",
@@ -10026,6 +10151,9 @@
   "devpost:31960": "2026-11-01T07:32-05:00",
   "devpost:31787": "2026-11-01T07:32-05:00",
   "luma:evt-D4g7N5dLCEVm66o": "2026-11-01T19:13-05:00",
-  "devpost:31815": "2026-11-01T19:13-05:00"
+  "devpost:31815": "2026-11-01T19:13-05:00",
+  "eb:2004204425388": "2026-11-02T05:28-05:00",
+  "luma:evt-Hop1W6U8xHfksr8": "2026-11-02T05:28-05:00",
+  "luma:evt-heQySSVPAFajESL": "2026-11-02T05:28-05:00"
  }
 }
