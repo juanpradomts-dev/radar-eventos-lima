@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-02T05:28-05:00",
+ "actualizado": "2026-11-02T16:18-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 41
+   "n": 44
   },
   "Eventbrite": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 51
+   "n": 53
   },
   "IEEE Perú": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 340,
+ "revisados": 345,
  "top": 55,
  "eventos": [
   {
@@ -147,33 +147,61 @@
    "visto_desde": "2026-10-26T10:47-05:00"
   },
   {
-   "id": "opportunitydesk:r-economics-pre-doctoral-fellows-program-at-yale-university-2027-2028-",
-   "titulo": "Tobin Center/Economics Pre-Doctoral Fellows Program at Yale University 2027-2028",
+   "id": "opportunitydesk:g-2026-11-02-text-to-speech-careers-roles-and-skills-in-ai-voice-work-",
+   "titulo": "Text to Speech Careers: Roles and Skills in AI Voice Work",
    "tipo": "convocatoria",
-   "inicio": "2026-10-30T08:03-05:00",
-   "fin": "2026-10-30T08:03-05:00",
+   "inicio": "2026-11-01T19:00-05:00",
+   "fin": "2026-11-01T19:00-05:00",
    "cierre": "",
-   "publicado": "2026-10-30T08:03-05:00",
+   "publicado": "2026-11-01T19:00-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/30/tobin-center-economics-pre-doctoral-fellows-program-at-yale-university-2027-2028/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/30/tobin-center-economics-pre-doctoral-fellows-program-at-yale-university-2027-2028/",
+   "url": "https://opportunitydesk.org/2026/11/02/text-to-speech-careers-roles-and-skills-in-ai-voice-work/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/text-to-speech-careers-roles-and-skills-in-ai-voice-work/",
    "fuente": "Opportunity Desk",
    "fuente_url": "https://opportunitydesk.org/",
    "organizador": "",
-   "descripcion": "Deadline: On Rolling Basis Applications are open for the Tobin Center/Economics Pre-Doctoral Fellows Program at Yale University 2027-2028. The Tobin Center / Economics Pre-Doctoral Fellows Program at Yale University supports policy-relevant economics research by providing a high-quality education and training experience for individuals with bachelor’s or master’s degrees who are considering pursuing a Ph.D. in [...]",
+   "descripcion": "Text to Speech and wider AI voice technology are changing how training courses, product tutorials, apps and customer service lines get their audio. The World Economic Forum’s Future of Jobs Report 2025 states that “AI and big data top the list of fastest-growing skills”, and audio production is one of the places where that shift [...]",
    "gratis": null,
    "imagen": "",
    "categorias": [
-    "Investigación y ciencia",
+    "Tecnología e IA",
+    "Datos y analítica"
+   ],
+   "valor": 17,
+   "afinidad": 24,
+   "puntaje": 41,
+   "por_que": "Formativo · Afín: Datos y machine learning · Afín: Inteligencia artificial · Se postula en línea",
+   "visto_desde": "2026-11-02T16:18-05:00"
+  },
+  {
+   "id": "opportunitydesk:-journey-doing-a-placement-based-masters-dissertation-in-sierra-leone-",
+   "titulo": "Beyond the Classroom: My Journey Doing a Placement-Based Master’s Dissertation in Sierra Leone",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-02T05:54-05:00",
+   "fin": "2026-11-02T05:54-05:00",
+   "cierre": "",
+   "publicado": "2026-11-02T05:54-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/02/beyond-the-classroom-my-journey-doing-a-placement-based-masters-dissertation-in-sierra-leone/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/beyond-the-classroom-my-journey-doing-a-placement-based-masters-dissertation-in-sierra-leone/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "“I come as one, but I stand as ten thousand.” These words by Maya Angelou have been a lifelong mantra for me. They remind me that wherever I go, I carry the experiences, lessons and contributions of the people and communities who have shaped my journey. When I began my master’s degree in Africa and [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
     "Idiomas, becas e internacional"
    ],
-   "valor": 24,
-   "afinidad": 8,
-   "puntaje": 32,
-   "por_que": "Formativo · Afín: Investigación · Universidad · Se postula en línea",
-   "visto_desde": "2026-10-30T13:01-05:00"
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Abre puertas (beca/programa) · Gremio o institución · Se postula en línea",
+   "visto_desde": "2026-11-02T16:18-05:00"
   },
   {
    "id": "luma:evt-HCs3WC7xfMoBy4r",
@@ -285,90 +313,6 @@
    "puntaje": 48,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-23T13:52-05:00"
-  },
-  {
-   "id": "devpost:31400",
-   "titulo": "YouCam API Skin AI & eCommerce VTO Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-09-29T00:00-05:00",
-   "fin": "2026-11-02T23:59-05:00",
-   "cierre": "2026-11-02T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
-   "inscripcion": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Perfect Corp",
-   "descripcion": "Hackathon online. Temas: AR/VR, E-commerce/Retail, Machine Learning/AI. Premios: $6,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/375/196/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 19,
-   "afinidad": 33,
-   "puntaje": 52,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-09-27T22:10-05:00"
-  },
-  {
-   "id": "opportunitydesk:esk-org-2026-10-31-mastercard-foundation-scholars-program-at-auc-2027-",
-   "titulo": "Mastercard Foundation Scholars Program at American University of Cairo (AUC) Spring 2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-02T23:59-05:00",
-   "fin": "2026-11-02T23:59-05:00",
-   "cierre": "2026-11-02T23:59-05:00",
-   "publicado": "2026-10-31T07:38-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-auc-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-auc-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 2, 2026 Applications for the Mastercard Foundation Scholars Program at American University of Cairo (AUC) 2027 are now open. The Mastercard Foundation Scholars Program at American University of Cairo (AUC) provides full scholarships and comprehensive support to talented young people from across Africa, enabling them to pursue higher education while developing their leadership [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Abre puertas (beca/programa) · Universidad · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-31T11:43-05:00"
-  },
-  {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-10-30-black-wealth-club-2026-2027-",
-   "titulo": "Black Wealth Club 2026-2027 for Emerging Leaders",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-02T23:59-05:00",
-   "fin": "2026-11-02T23:59-05:00",
-   "cierre": "2026-11-02T23:59-05:00",
-   "publicado": "2026-10-30T09:03-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/30/black-wealth-club-2026-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/30/black-wealth-club-2026-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 2, 2026 Applications are open for the Black Wealth Club 2026-2027 for Emerging Leaders. The Black Wealth Club (BWC) was established to help the Black community in Canada build wealth and reinvest it in their environment. By bringing together a cohort of emerging Black leaders with inspiring speakers and industry professionals on a [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 0,
-   "puntaje": 20,
-   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-30T13:01-05:00"
   },
   {
    "id": "inst:comexper-seminario-digitalizaci-n:2026-11-03",
@@ -624,33 +568,6 @@
    "puntaje": 50,
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
    "visto_desde": "2026-10-14T14:10-05:00"
-  },
-  {
-   "id": "pucp:campana-de-donacion-de-sangre-ins-san-borja",
-   "titulo": "Campaña de Donación de Sangre - INS San Borja",
-   "inicio": "2026-11-04T09:00-05:00",
-   "fin": "2026-11-05T16:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/campana-de-donacion-de-sangre-ins-san-borja/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Participa en la campaña de donación de sangre, organizada en coordinación con el Instituto Nacional de Salud (INS) de San Borja. Una iniciativa que promueve la solidaridad y el compromiso con la salud, contribuyendo a salvar vidas a través de la donación voluntaria de sangre.\nLugar: jardín Frente al departamento de Humanidades",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/donacion_eaa9692b39.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/campana-de-donacion-de-sangre-ins-san-borja/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-10-26T17:14-05:00"
   },
   {
    "id": "pucp:distincion-de-doctor-honoris-causa-al-doctor-mircea-cartarescu-28102026153951",
@@ -960,6 +877,88 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
+   "id": "pucp:pataton-2026",
+   "titulo": "Bendición de Patitas 2026",
+   "inicio": "2026-11-05T12:00-05:00",
+   "fin": "2026-11-05T15:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/pataton-2026/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La comunidad PUCP está invitada a participar en la Bendición de patitas 2026, una iniciativa solidaria que promueve el cuidado y la tenencia responsable de los animales. Además de brindar un espacio para la bendición de perros y gatos, el evento busca reunir donaciones de alimentos para contribuir al bienestar de los animales que más lo necesitan.\nPara participar, es necesario realizar una preinscripción, presentar el carné de vacunación vigente de la mascota y llevar una donación de alimentos para perros o gatos.\nLugar: Jardines Lidera - Facultad de Psicología",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/pataton_21bd3418b9.jpg",
+   "inscripcion": "https://forms.gle/GcA9gVxE3oHcVMdP8",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo"
+   ],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-11-02T16:18-05:00"
+  },
+  {
+   "id": "pucp:presentacion-del-centro-basque-de-investigacion-en-matematica-aplicada-bcam-del-pais-vasco-espana-02112026104458",
+   "titulo": "Presentación del Centro Basque de investigación en Matemática Aplicada (BCAM)del país Vasco, España",
+   "inicio": "2026-11-05T12:00-05:00",
+   "fin": "2026-11-05T13:00-05:00",
+   "lugar": "BCAM ",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/presentacion-del-centro-basque-de-investigacion-en-matematica-aplicada-bcam-del-pais-vasco-espana-02112026104458/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Director del BCAM, José A. Lozano científico realizará una presentación del Centro y de las posibilidades de realizar pasantías, maestría y/o doctorados. \nEl Basque Center for Applied Mathematics (BCAM) es un centro de investigación ubicado en Bilbao cuya misión es desarrollar investigación interdisciplinar de alta calidad en Matemáticas Aplicadas. Reconocido como Centro de Excelencia Severo Ochoa, reúne a investigadores con perfiles muy diversos que trabajan en áreas como el análisis, la optimización, la resolución numérica, la simulación computacional, el aprendizaje automático y la inteligencia artificial.\nPara los estudiantes de matemática o física, el BCAM ofrece una vía muy atractiv",
+   "gratis": null,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://pucp.zoom.us/j/2643185274?omn=96095552455",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Tecnología e IA"
+   ],
+   "valor": 29,
+   "afinidad": 28,
+   "puntaje": 57,
+   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Afín: Inteligencia artificial",
+   "visto_desde": "2026-11-02T16:18-05:00"
+  },
+  {
+   "id": "pucp:identidades-en-movimiento-analisis-de-la-fluidez-en-la-autoidentificacion-etnica-indigena-en-el-peru-29102026204150",
+   "titulo": "Identidades en movimiento:Análisis de la fluidez en la autoidentificación étnica indígena en el Perú",
+   "inicio": "2026-11-05T12:30-05:00",
+   "fin": "2026-11-05T14:00-05:00",
+   "lugar": "Sala de Reuniones del piso 9 del Complejo de Ciencias Sociales",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/identidades-en-movimiento-analisis-de-la-fluidez-en-la-autoidentificacion-etnica-indigena-en-el-peru-29102026204150/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Les invitamos cordialmente a la próxima sesión del ciclo de conversatorios “La investigación en el Departamento de Ciencias Sociales”, un espacio en el que nuestros docentes comparten los hallazgos más recientes de sus investigaciones.\n \nEn esta edición, David Sulmont, docente de la Sección Sociología y jefe del Departamento de Ciencias Sociales, presentará su investigación: \"Identidades en movimiento: Análisis de la fluidez en la autoidentificación étnica indígena en el Perú a partir del Panel ENAHO 2020 - 2024\".\n \nA continuación, les compartimos un breve resumen del tema que se abordará:\nLas estimaciones transversales de las estadísticas oficiales sitúan la población indígena del Perú en t",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://forms.gle/Qf7bH3EbhxomLjwr5",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 25,
+   "afinidad": 8,
+   "puntaje": 33,
+   "por_que": "Presencial en Lima · Afín: Investigación · Universidad · Gratis",
+   "visto_desde": "2026-11-02T16:18-05:00"
+  },
+  {
    "id": "eb:2003727646329",
    "titulo": "Sesión 3 - IA para pequeñas empresas",
    "inicio": "2026-11-05T13:00-05:00",
@@ -1120,7 +1119,7 @@
    "organizador": "AULABIERTA",
    "descripcion": "Periodismo explicativo especializado con IA\nLABORATORIO EDITORIAL\nDIPLOMADO DE PERIODISMO\n5 NOVIEMBRE 26 5:00 PM CDMX",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196971089%2F256438124752%2F1%2Foriginal.20261031-021541?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.848&s=c30033c99eb6799e19ce31d952fb781a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196971089%2F256438124752%2F1%2Foriginal.20261031-021541?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.848&s=17c3716cc9fc8d2eaa0785036a7ac976",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1400,7 +1399,7 @@
    "organizador": "LATIN AMERICAN DESIGN",
    "descripcion": "LADFEST X. NOW IN LIMA.\nCelebra los 10 años del Latin American Design Festival este 06 y 07 de noviembre de 2026.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ef41922965b92fab27b379d62fe4266f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=afae269f99864aa92b9af2ca1be6bbb5",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-ladfest-x-2026-1995168675216",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1468,6 +1467,34 @@
    "puntaje": 43,
    "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-10-16T18:15-05:00"
+  },
+  {
+   "id": "luma:evt-tXv8Klg96RE9VAD",
+   "titulo": "Innovación que transforma: IA, blockchain y el futuro de los negocios",
+   "inicio": "2026-11-06T14:30-05:00",
+   "fin": "2026-11-06T17:30-05:00",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/v62v3wfo",
+   "fuente": "Luma",
+   "organizador": "ENEISOFT - UNMSM",
+   "descripcion": "🎙️ Ponentes: Sheila Ccahua, Brenda Hidalgo y Mayte Castillo📍 Modalidad: Presencial🚀 Tema: Inteligencia Artificial, Blockchain e Innovación Tecnológica\n¿Cómo están transformando las nuevas tecnologías la manera en que las organizaciones toman decisiones, generan valor y aprovechan sus recursos?\nEn esta jornada exploraremos tres perspectivas sobre el impacto de la innovación tecnológica en el mundo real: desde el uso de la inteligencia artificial para convertir datos en decisiones estratégicas, pasando por la tokenización de la riqueza peruana, hasta la construcción de agentes inteligentes capaces de aprovechar grandes fuentes de conocimiento.\nA través de estas ponencias conoceremos herramient",
+   "gratis": true,
+   "imagen": "https://images.unsplash.com/photo-1773301885514-a1ef2fd93f43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHw5fHxjdWJlfGVufDB8fHx8MTc5MzQ4MjM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+   "inscripcion": "https://lu.ma/v62v3wfo",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 34,
+   "afinidad": 30,
+   "puntaje": 64,
+   "por_que": "Abre puertas (beca/programa) · Afín: Datos y machine learning · Afín: Inteligencia artificial · Presencial en Lima",
+   "visto_desde": "2026-11-02T16:18-05:00"
   },
   {
    "id": "meetup:315593616",
@@ -1592,7 +1619,7 @@
    "organizador": "Concepto 360 SAC",
    "descripcion": "Expotextil Runways: living platforms where design, tech & sustainability meet. Showcasing the best of Peruvian & global fashion to the world",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0c84b16c9ad9ab32b2a8d71580005d41",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182828672%2F2985592953560%2F1%2Foriginal.20260422-224228?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=189aa283fdeaf8e5c267ce55440e2ad8",
    "inscripcion": "https://www.eventbrite.com/e/pasarelas-expotextil-tickets-1988046593879",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1605,6 +1632,37 @@
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-09-26T09:22-05:00"
+  },
+  {
+   "id": "luma:evt-XcBPdzj7hvWoeoO",
+   "titulo": "The Future File",
+   "inicio": "2026-11-07T16:30-05:00",
+   "fin": "2026-11-07T19:00-05:00",
+   "lugar": "Referencia Óvalo Infantas, Cruce de la Av. Alfredo Mendiola y, Av. 2 de Octubre en, Los Olivos",
+   "distrito": "Los Olivos",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/ipm7xmdc",
+   "fuente": "Luma",
+   "organizador": "Club de Emprendimiento e Innovación",
+   "descripcion": "THE FUTURE FILE | EL EXPEDIENTE DE TU FUTURO\nLas decisiones de hoy serán la evidencia de quién serás mañana.\nEl Club de Emprendimiento e Innovación de la Universidad Científica del Sur presenta THE FUTURE FILE, una experiencia que conecta el desarrollo profesional con los desafíos reales del mundo laboral. A través de una ponencia magistral y una experiencia interactiva junto a Laboral AI, descubrirás cómo desarrollar tus habilidades, identificar oportunidades, adaptarte al cambio y demostrar tu potencial ante las organizaciones.\n¿Qué encontrarás?\nUna ponencia magistral sobre habilidades, empleabilidad, adaptación y liderazgo.\n\nUna experiencia interactiva con Laboral AI: escenarios de selecc",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/fw/50923fb0-136d-42e8-9de9-058fb9db8d04.jpg",
+   "inscripcion": "https://lu.ma/ipm7xmdc",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 25,
+   "afinidad": 17,
+   "puntaje": 42,
+   "por_que": "Presencial en Lima · Afín: Inteligencia artificial · Universidad · Gratis",
+   "original": {
+    "titulo": "THE FUTURE FILE"
+   },
+   "visto_desde": "2026-11-02T16:18-05:00"
   },
   {
    "id": "devpost:31627",
@@ -1632,6 +1690,33 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-05T23:27-05:00"
+  },
+  {
+   "id": "devpost:31705",
+   "titulo": "2026 UXC NYU Fall Design-a-thon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-02T00:00-05:00",
+   "fin": "2026-11-07T23:59-05:00",
+   "cierre": "2026-11-07T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://uxc-fall-2026-design-a-thon.devpost.com/",
+   "inscripcion": "https://uxc-fall-2026-design-a-thon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "New York University",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Design, Education. Premios: $1,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/589/447/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 26,
+   "afinidad": 6,
+   "puntaje": 32,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-02T16:18-05:00"
   },
   {
    "id": "opportunitydesk:rtunitydesk-org-2026-10-31-women-in-ocean-food-innovation-studio-2027-",
@@ -1674,7 +1759,7 @@
    "fuente": "Meetup",
    "organizador": "English Practice Club 🎉✨",
    "descripcion": "Join us on Sunday at 11:30 AM for Breakfast/Lunch or a McCoffee while we practice English in Lince, Lima!\nWe’ll be meeting at McDonald’s, located at Plaza Vea Risso, to practice English/Spanish by talking, meeting new people, and sharing cultures. All English levels are welcome — everyone’s invited! 😎😊\nSince it’s a noon meetup and we’ll be using the space, please try to order at least a McCoffee or something so the place is happy to host us. ☕🥐🙏 https://chat.whatsapp.com/KGsBhzFyekw6gU1PuKRagS\n🎲 Fun activies during this meetup!\n\n1. 🗣️ Conversation Rotations: Talk in groups of 2–3 for 10 minutes, then switch partners to practice with different people and accents.\n2. 🎯 Find Someone Who: move a",
-   "gratis": false,
+   "gratis": null,
    "imagen": "",
    "inscripcion": "https://www.meetup.com/lince-english-group/events/316938345/",
    "fuente_url": "https://www.meetup.com/lince-english-group/events/ical/",
@@ -1683,10 +1768,10 @@
    "categorias": [
     "Idiomas, becas e internacional"
    ],
-   "valor": 21,
+   "valor": 18,
    "afinidad": 0,
-   "puntaje": 21,
-   "por_que": "Networking · Presencial en Lima · Bajo costo",
+   "puntaje": 18,
+   "por_que": "Networking · Presencial en Lima",
    "visto_desde": "2026-10-11T16:25-05:00"
   },
   {
@@ -2050,7 +2135,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "En este webinar gratuito juntamos tres miradas que casi nunca se sientan en la misma mesa: Recursos Humanos, marketing e IA",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197050657%2F257811272973%2F1%2Foriginal.20261102-020429?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=50ad80577735c9cd73a6b08120b24aed",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197050657%2F257811272973%2F1%2Foriginal.20261102-020429?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=42765cef94bf42ec831f951574811c4e",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2089,6 +2174,34 @@
    "puntaje": 35,
    "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-10-26T17:14-05:00"
+  },
+  {
+   "id": "pucp:investigar-con-ia-practicas-responsables-en-la-produccion-de-conocimiento-cientifico-02112026112719",
+   "titulo": "Investigar con IA: prácticas responsables en la producción de conocimiento científico",
+   "inicio": "2026-11-11T17:00-05:00",
+   "fin": "2026-11-11T19:00-05:00",
+   "lugar": "Vía Zoom",
+   "distrito": "San Miguel",
+   "modalidad": "Virtual",
+   "url": "https://agenda.pucp.edu.pe/evento/investigar-con-ia-practicas-responsables-en-la-produccion-de-conocimiento-cientifico-02112026112719/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "La Oficina de Ética de la Investigación e Integridad Científica te invita a participar en la conferencia «Investigar con IA: prácticas responsables en la producción de conocimiento científico»\n\nLa conferencia abordará las oportunidades y desafíos del uso de la inteligencia artificial (IA) en la investigación y la producción de conocimiento científico. Asimismo, se reflexionará sobre las buenas prácticas para su aplicación responsable, promoviendo la transparencia, la integridad académica y la adecuada atribución de contribuciones.\n\nExpositor:\nManuel Etesse PhD\nDocente del Departamento Académico de Educación PUCP\n\nSe entregará constancia de participación.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_b741e310ab.jpg",
+   "inscripcion": "https://zoom.us/webinar/register/WN_4fR4pqM8Sy-ESQf3fppOxA#/registration",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Tecnología e IA"
+   ],
+   "valor": 33,
+   "afinidad": 20,
+   "puntaje": 53,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Afín: Investigación · Universidad",
+   "visto_desde": "2026-11-02T16:18-05:00"
   },
   {
    "id": "luma:evt-vb7UxWGeJNPL46M",
@@ -2458,33 +2571,6 @@
    "visto_desde": "2026-10-31T15:55-05:00"
   },
   {
-   "id": "wikicfp:199892",
-   "titulo": "CORAJ 2026 : 4th International Conference on Operations Research and Applications",
-   "tipo": "call for papers",
-   "inicio": "2026-11-14T00:00-05:00",
-   "fin": "2026-11-15T23:59-05:00",
-   "cierre": "",
-   "lugar": "Melbourne, Australia",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199892&copyownerid=33993",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199892&copyownerid=33993",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: 4th International Conference on Operations Research and Applications. Lugar: Melbourne, Australia. Fechas del congreso: Nov 14, 2026 - Nov 15, 2026.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 17,
-   "afinidad": 12,
-   "puntaje": 29,
-   "por_que": "Formativo · Afín: Investigación · Se postula en línea",
-   "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
    "id": "tedx:69227",
    "titulo": "TEDxTukuy",
    "tipo": "evento",
@@ -2745,7 +2831,7 @@
    "organizador": "Greenfield Group",
    "descripcion": "Aprende IA aplicada a la gestión empresarial desde cero. Evento online para estudiantes y principiantes: sin experiencia, solo curiosad.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=7a8cd656de7338409078fa0b47d6bc99",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=204f7508913023a35994629699d28c49",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2841,33 +2927,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-18T07:58-05:00"
-  },
-  {
-   "id": "devpost:31495",
-   "titulo": "IceHacks",
-   "tipo": "hackathon",
-   "inicio": "2026-11-08T00:00-05:00",
-   "fin": "2026-11-15T23:59-05:00",
-   "cierre": "2026-11-15T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://icehacks.devpost.com/",
-   "inscripcion": "https://icehacks.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "CodeStarters",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Open Ended. Premios: $17,150.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/491/441/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-30T16:54-05:00"
   },
   {
    "id": "wikicfp:191885",
@@ -3031,7 +3090,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "¿Te imaginás crear anuncios publicitarios con personas que no existen, videos hiperrealistas y voces profesionales, sin utilizar cámaras,",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d576c113898c71fb45de927181d83f4",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d3198e028f7b0aa1a42f124540032fe",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3232,7 +3291,7 @@
    "organizador": "Centro Ajal",
    "descripcion": "Conecta con profesionales en este webinar online sobre ética en el desarrollo de IA y podrás ganar becas para próximos cursos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1be595b369767d72e246ba9c27cb1d29",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7c3d6b5f5dca8ee2fd55dddef3f7efe4",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3881,35 +3940,6 @@
    "visto_desde": "2026-10-26T17:14-05:00"
   },
   {
-   "id": "opportunitydesk:rtunitydesk-org-2026-10-30-telemachus-athena-mentoring-programme-2027-",
-   "titulo": "Call for Mentees: Telemachus & Athena Mentoring Programme 2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-23T23:59-05:00",
-   "fin": "2026-11-23T23:59-05:00",
-   "cierre": "2026-11-23T23:59-05:00",
-   "publicado": "2026-10-30T09:21-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/30/telemachus-athena-mentoring-programme-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/30/telemachus-athena-mentoring-programme-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 23, 2026 Applications are open for mentees to join the Telemachus & Athena Mentoring Programme 2027. The mentoring programmes ‘Telemachus’ and ‘Athena’ connect mentees with thought leaders and social-impact focused individuals. Telemachus benefits youth between 18-29 from around the world, while Athena focuses on women above the age of 22 and without setting [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 8,
-   "puntaje": 28,
-   "por_que": "Abre puertas (beca/programa) · Afín: Liderazgo y oratoria · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-30T13:01-05:00"
-  },
-  {
    "id": "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214",
    "titulo": "¿Qué necesito para presentar mi proyecto ante uno de los Comités de Ética de la Investigación PUCP?",
    "inicio": "2026-11-24T12:00-05:00",
@@ -3964,35 +3994,6 @@
    "puntaje": 47,
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad",
    "visto_desde": "2026-09-25T18:45-05:00"
-  },
-  {
-   "id": "opportunitydesk:-opportunitydesk-org-2026-10-31-irex-community-solutions-program-2027-",
-   "titulo": "IREX Community Solutions Program (CSP) 2026-2027 (Fully-funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-24T23:59-05:00",
-   "fin": "2026-11-24T23:59-05:00",
-   "cierre": "2026-11-24T23:59-05:00",
-   "publicado": "2026-10-31T08:19-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/31/irex-community-solutions-program-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/31/irex-community-solutions-program-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 24, 2026 Applications are open for the IREX Community Solutions Program (CSP) 2026-2027. The Community Solutions Program (CSP) is a professional leadership development program for experienced, results-oriented community leaders working to advance locally driven regional economic growth and community prosperity. CSP equips participants with practical leadership and technical skills, professional connections, and hands-on [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 0,
-   "puntaje": 20,
-   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-31T11:43-05:00"
   },
   {
    "id": "eb:2001057110685",
@@ -4125,7 +4126,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=c253c5afba1560b86d681b9d24956355",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4503,6 +4504,35 @@
    "visto_desde": "2026-10-29T12:57-05:00"
   },
   {
+   "id": "opportunitydesk:opments-in-ai-for-social-economic-and-policy-research-conference-2027-",
+   "titulo": "Call for Submissions: New Developments in AI for Social, Economic, and Policy Research Conference 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-30T23:59-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "publicado": "2026-11-02T07:24-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 30, 2026 Submissions are invited for the New Developments in AI for Social, Economic, and Policy Research Conference 2027. Artificial intelligence is reshaping how work is organized, performed, valued, and governed. These changes extend beyond the adoption of new tools: they may alter the division of labor between people and machines, transform occupations and [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Investigación y ciencia"
+   ],
+   "valor": 27,
+   "afinidad": 24,
+   "puntaje": 51,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Afín: Investigación · Universidad",
+   "visto_desde": "2026-11-02T16:18-05:00"
+  },
+  {
    "id": "wikicfp:200050",
    "titulo": "ACML 2026 : 18th Asian Conference on Machine Learning",
    "tipo": "call for papers",
@@ -4545,7 +4575,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0ac470167e5e73578ff70745dc684ba",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4612,6 +4642,34 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-25T18:01-05:00"
+  },
+  {
+   "id": "opportunitydesk:ttps-opportunitydesk-org-2026-11-02-erase-indifference-challenge-2026-",
+   "titulo": "Erase Indifference Challenge 2026 (€90,000 prize)",
+   "tipo": "convocatoria",
+   "inicio": "2026-12-04T23:59-05:00",
+   "fin": "2026-12-04T23:59-05:00",
+   "cierre": "2026-12-04T23:59-05:00",
+   "publicado": "2026-11-02T07:06-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/02/erase-indifference-challenge-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/erase-indifference-challenge-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: December 4, 2026 Applications are invited for the Erase Indifference Challenge 2026. The Erase Indifference Challenge is a global initiative to recognize and reward initiatives that have been implemented in practice and have demonstrated tangible results and impact in addressing indifference to discrimination. This may include different forms of discrimination, such as racism, antisemitism, [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 24,
+   "afinidad": 9,
+   "puntaje": 33,
+   "por_que": "Abre puertas (beca/programa) · Afín: Competencias · Con premio · Plazo claro",
+   "visto_desde": "2026-11-02T16:18-05:00"
   },
   {
    "id": "ieee:581586",
@@ -4684,7 +4742,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Seguimos investigando y desmontando mitos en módulos fotovoltaicos, inversores, conectores, baterías...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=138ccd8bf2b4a17674be988bbf795218",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=65cafa2e56d3d41cdd89e23c47075b2b",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4723,6 +4781,34 @@
    "puntaje": 51,
    "por_que": "Afín: Datos y machine learning · Networking · Presencial en Lima · Afín: Inteligencia artificial",
    "visto_desde": "2026-10-12T09:14-05:00"
+  },
+  {
+   "id": "devpost:31642",
+   "titulo": "AWS MSP AI Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-02T00:00-05:00",
+   "fin": "2026-12-11T23:59-05:00",
+   "cierre": "2026-12-11T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://aws-agentic-msp.devpost.com/",
+   "inscripcion": "https://aws-agentic-msp.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "AWS",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Productivity, Web. Premios: $64,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/715/013/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 24,
+   "afinidad": 33,
+   "puntaje": 57,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-02T16:18-05:00"
   },
   {
    "id": "tedx:70615",
@@ -4810,60 +4896,32 @@
    "visto_desde": "2026-10-15T21:48-05:00"
   },
   {
-   "id": "opportunitydesk:2026-10-31-mastercard-foundation-scholars-program-at-sciences-po-2027-",
-   "titulo": "Mastercard Foundation Scholars Program at Sciences Po 2027 (Fully-funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-14T23:59-05:00",
-   "fin": "2026-12-14T23:59-05:00",
-   "cierre": "2026-12-14T23:59-05:00",
-   "publicado": "2026-10-31T09:24-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-sciences-po-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-sciences-po-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 14, 2026 Applications are open for the Mastercard Foundation Scholars Program at Sciences Po 2027. The Mastercard Foundation Scholars Program at Sciences Po is designed for students from the African continent who wish to pursue a two-year Master’s degree at Sciences Po. Across its various Master’s programmes, each Graduate School offers students a [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 25,
-   "afinidad": 0,
-   "puntaje": 25,
-   "por_que": "Abre puertas (beca/programa) · Empresa reconocida · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-31T11:43-05:00"
-  },
-  {
-   "id": "devpost:31480",
-   "titulo": "AI Agents for Founders Challenge — HETIC 2026",
+   "id": "devpost:31083",
+   "titulo": "QNX Global Hackathon",
    "tipo": "hackathon",
-   "inicio": "2026-11-04T00:00-05:00",
-   "fin": "2026-12-18T23:59-05:00",
-   "cierre": "2026-12-18T23:59-05:00",
+   "inicio": "2026-11-02T00:00-05:00",
+   "fin": "2026-12-15T23:59-05:00",
+   "cierre": "2026-12-15T23:59-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Virtual",
-   "url": "https://ai-agents-founders-hetic-26.devpost.com/",
-   "inscripcion": "https://ai-agents-founders-hetic-26.devpost.com/",
+   "url": "https://qnx.devpost.com/",
+   "inscripcion": "https://qnx.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HETIC",
-   "descripcion": "Hackathon online. Temas: Low/No Code, Machine Learning/AI, Productivity. Premios: €997.",
+   "organizador": "QNX",
+   "descripcion": "Hackathon online. Temas: IoT, Machine Learning/AI, Open Ended. Premios: $50,000.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/043/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/522/477/datas/medium_square.jpg",
    "categorias": [
     "Tecnología e IA",
     "Competencias y hackathons"
    ],
    "valor": 19,
-   "afinidad": 39,
-   "puntaje": 58,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T18:56-05:00"
+   "afinidad": 29,
+   "puntaje": 48,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-02T16:18-05:00"
   },
   {
    "id": "devpost:30789",
@@ -4892,35 +4950,6 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-20T11:15-05:00"
-  },
-  {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-10-30-gbd-fellowship-2027-",
-   "titulo": "Global Burden of Disease (GBD) Fellowship 2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-21T23:59-05:00",
-   "fin": "2026-12-21T23:59-05:00",
-   "cierre": "2026-12-21T23:59-05:00",
-   "publicado": "2026-10-30T08:30-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 21, 2026 Applications are open for the Global Burden of Disease (GBD) Fellowship 2027. The GBD Fellowship is an early-career, cohort-based postdoctoral training program at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington in Seattle. It is built for researchers who want careers in health metrics and who [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 28,
-   "afinidad": 12,
-   "puntaje": 40,
-   "por_que": "Formativo · Afín: Becas y posgrado · Universidad · Plazo claro",
-   "visto_desde": "2026-10-30T13:01-05:00"
   },
   {
    "id": "luma:evt-FpMXsIt3VijlANC",
@@ -5031,33 +5060,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Virtual",
    "visto_desde": "2026-10-05T16:48-05:00"
-  },
-  {
-   "id": "devpost:27097",
-   "titulo": "evensonarisnord",
-   "tipo": "hackathon",
-   "inicio": "2026-12-31T00:00-05:00",
-   "fin": "2026-12-31T23:59-05:00",
-   "cierre": "2026-12-31T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://evensonarisnord.devpost.com/",
-   "inscripcion": "https://evensonarisnord.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HoustonHacks2026",
-   "descripcion": "Hackathon online. Temas: Communication, Databases. Premios: $150.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/858/918/datas/medium_square.jpeg",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T22:54-05:00"
   },
   {
    "id": "devpost:31108",
@@ -5281,35 +5283,6 @@
    "visto_desde": "2026-10-27T06:28-05:00"
   },
   {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-10-31-mit-summer-research-program-2027-",
-   "titulo": "MIT Summer Research Program (MSRP) 2027 (stipend available)",
-   "tipo": "convocatoria",
-   "inicio": "2027-01-19T23:59-05:00",
-   "fin": "2027-01-19T23:59-05:00",
-   "cierre": "2027-01-19T23:59-05:00",
-   "publicado": "2026-10-31T07:56-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: January 19, 2027 Applications are open for the MIT Summer Research Program (MSRP) 2027. The MIT Summer Research Program (MSRP) is a competitive summer initiative designed to promote the value of graduate education, broaden participation in the research enterprise, and prepare and recruit exceptional undergraduate students for graduate study at MIT and beyond. Launched [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Investigación · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-10-31T11:43-05:00"
-  },
-  {
    "id": "wikicfp:194517",
    "titulo": "ICMT 2027 : Springer--2027 11th International Conference on Manufacturing Technologies (ICMT 2027)",
    "tipo": "call for papers",
@@ -5336,33 +5309,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:30340",
-   "titulo": "HackTitan",
-   "tipo": "hackathon",
-   "inicio": "2027-02-02T00:00-05:00",
-   "fin": "2027-02-04T23:59-05:00",
-   "cierre": "2027-02-04T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://hacktitan.devpost.com/",
-   "inscripcion": "https://hacktitan.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "IWU",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Databases, DevOps. Premios: $10,000.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-29T23:01-05:00"
   },
   {
    "id": "wikicfp:200092",
@@ -6513,6 +6459,34 @@
    "afinidad": 12,
    "puntaje": 29,
    "por_que": "Formativo · Afín: Investigación · Se postula en línea"
+  },
+  {
+   "id": "wikicfp:180864",
+   "titulo": "PPMSA@IDEAL 2024 : Special Session on Predictive and Prescriptive Models for Smart Cities’ Applications at the 25th International Conference on Intelligent Data Engineering and Automated Learning",
+   "tipo": "call for papers",
+   "inicio": "2024-11-20T00:00-05:00",
+   "fin": "2024-11-22T23:59-05:00",
+   "cierre": "",
+   "lugar": "Valencia, Spain",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=180864&copyownerid=187594",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=180864&copyownerid=187594",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: Special Session on Predictive and Prescriptive Models for Smart Cities’ Applications at the 25th International Conference on Intelligent Data Engineering and Automated Learning. Lugar: Valencia, Spain. Fechas del congreso: Nov 20, 2024 - Nov 22, 2024.",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "congreso ya realizado",
+   "categorias": [
+    "Datos y analítica",
+    "Investigación y ciencia"
+   ],
+   "valor": 17,
+   "afinidad": 26,
+   "puntaje": 43,
+   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:184780",
@@ -7827,7 +7801,7 @@
    "organizador": "IntekTV",
    "descripcion": "Descubre cómo el ecosistema Blackmagic está transformando la enseñanza audiovisual y abriendo nuevas oportunidades profesionales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d25ce87be83320a35b0b10bb1864490f",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe2591b2f911dde84a279162c0cdca28",
    "inscripcion": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-academia-tickets-2002243178245",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8077,7 +8051,7 @@
    "organizador": "Royal College of Art",
    "descripcion": "Meet the RCA! The world's 1 art & design university, will be visiting Lima",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61b84b8b0476a41d896334a34d974c24",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=437a8d96e53500e9bdffe0605a53e189",
    "inscripcion": "https://www.eventbrite.co.uk/e/meet-the-royal-college-of-art-in-lima-tickets-2003150172088",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8177,7 +8151,7 @@
    "organizador": "",
    "descripcion": "Somos una empresa, dedica al rubro de Construccion y Acabados, realizamos todo tipo de proyectos, que desee para su hogar.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=723ef18fb1bd3e4bb2d8fe781b421019",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=4db93be566d2ee94c2f59ca82f0c6e13",
    "inscripcion": "https://www.eventbrite.com/e/entradas-perfect-home-2003322947865",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8352,7 +8326,7 @@
    "organizador": "Ermantourage UK",
    "descripcion": "Connect with other locals over coffee! Meet a new friend in your city. A different cafe each gathering!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa8e3e4933db165428ed9864b11725aa",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=03be7893bd239a257f487229eb5956e9",
    "inscripcion": "https://www.eventbrite.com/e/the-comeunity-project-lima-coffee-with-strangers-tickets-1984736925572",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8402,7 +8376,7 @@
    "organizador": "",
    "descripcion": "Ven a descubrir tu sabor favorito en persona con una experiencia deliciosa junto a PapaMía.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dd5f43b78feb4fc1068e5ed7d4b27f7a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195583208%2F3017393393248%2F1%2Foriginal.20261012-071548?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b55c1e53001fdb8993ff71b53cbbd716",
    "inscripcion": "https://www.eventbrite.com/e/papamia-food-experience-descubre-tu-sabor-favorito-tickets-2003279097708",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8707,6 +8681,31 @@
    "por_que": "Formativo · Presencial en Lima · Universidad"
   },
   {
+   "id": "luma:evt-kbh5eIimrqdSgqk",
+   "titulo": "Dollars over Dinner: Lima",
+   "inicio": "2026-11-04T19:30-05:00",
+   "fin": "2026-11-04T22:00-05:00",
+   "lugar": "San Isidro, Perú",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/1upet7l9",
+   "fuente": "Luma",
+   "organizador": "Augustus National Bank",
+   "descripcion": "Augustus recently received OCC conditional approval and has raised $210M from Tiger and Peter Thiel's Valar. We are building high-quality, direct USD clearing infrastructure for banks and fintechs and are a member of SWIFT.",
+   "gratis": false,
+   "imagen": "https://images.lumacdn.com/uploads/7x/03f30483-1959-40a8-84c9-3f2f1770e937.png",
+   "inscripcion": "https://lu.ma/1upet7l9",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (dinner)",
+   "categorias": [],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Evento sin formato claro"
+  },
+  {
    "id": "eb:1901677762379",
    "titulo": "Foodies & Fears : Dinner with Strangers Lima",
    "inicio": "2026-11-09T19:00-05:00",
@@ -8907,32 +8906,145 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "opportunitydesk:joy-nwaeze-from-nigeria-is-od-young-person-of-the-month-november-2026-",
-   "titulo": "Joy Nwaeze from Nigeria is OD Young Person of the Month – November 2026",
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-02-waaw-foundation-scholarship-2027-",
+   "titulo": "WAAW Foundation Scholarship 2027 for Female College Students in Africa",
    "tipo": "convocatoria",
-   "inicio": "2026-10-31T07:23-05:00",
-   "fin": "2026-10-31T07:23-05:00",
+   "inicio": "2026-11-02T15:33-05:00",
+   "fin": "2026-11-02T15:33-05:00",
    "cierre": "",
-   "publicado": "2026-10-31T07:23-05:00",
+   "publicado": "2026-11-02T15:33-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/10/31/joy-nwaeze-from-nigeria-is-od-young-person-of-the-month-november-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/10/31/joy-nwaeze-from-nigeria-is-od-young-person-of-the-month-november-2026/",
+   "url": "https://opportunitydesk.org/2026/11/02/waaw-foundation-scholarship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/waaw-foundation-scholarship-2027/",
    "fuente": "Opportunity Desk",
    "fuente_url": "https://opportunitydesk.org/",
    "organizador": "",
-   "descripcion": "Meet Joy Nwaeze is a daughter of Jesus Christ, a Nigerian climate policy advocate and corporate social responsibility expert working to improve how governments, organisations, and communities respond to climate change. Joy is the founder of Africa Upcycle Community, a nonprofit organisation that wor",
+   "descripcion": "Deadline: Unspecified Applications are open for the WAAW Foundation Scholarship 2027. WAAW Foundation Scholarship enables female college students in Africa to pursue their studies in a STEM-related course. With this scholarship, you are free to focus on achieving your academic goal and volunteer to ",
    "gratis": null,
    "imagen": "",
-   "motivo": "restringido a otro país o región (Nigeria)",
+   "motivo": "restringido a otro país o región (Africa)",
    "categorias": [
-    "Negocios y emprendimiento"
+    "Idiomas, becas e internacional",
+    "Investigación y ciencia"
    ],
-   "valor": 23,
+   "valor": 16,
+   "afinidad": 12,
+   "puntaje": 28,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Se postula en línea"
+  },
+  {
+   "id": "opportunitydesk:s-opportunitydesk-org-2026-11-02-eep-africa-rising-energy-leader-2026-",
+   "titulo": "EEP Africa Rising Energy Leader 2026",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-20T23:59-05:00",
+   "fin": "2026-11-20T23:59-05:00",
+   "cierre": "2026-11-20T23:59-05:00",
+   "publicado": "2026-11-02T16:09-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/02/eep-africa-rising-energy-leader-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/eep-africa-rising-energy-leader-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 20, 2026 Applications are open for the EEP Africa Rising Energy Leader 2026. The Rising Energy Leader award shines a spotlight on young professionals who are leading the clean energy transition in Africa. Up to a maximum of five (5) nominees will be selected for recognition. The w",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Africa)",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 24,
    "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Abre puertas (beca/programa) · Gremio o institución · Se postula en línea"
+   "puntaje": 24,
+   "por_que": "Abre puertas (beca/programa) · Con premio · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-02-planet-health-film-fund-2027-",
+   "titulo": "Planet Health Film Fund 2027 (£20,000 award)",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-16T23:59-05:00",
+   "fin": "2026-11-16T23:59-05:00",
+   "cierre": "2026-11-16T23:59-05:00",
+   "publicado": "2026-11-02T08:57-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/02/planet-health-film-fund-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/planet-health-film-fund-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 16, 2026 Applications are open for the Planet Health Film Fund 2027. Earthrise and Bupa, with sustainability partner BAFTA Albert and SXSW London, are launching the Planet Health Film Fund, supporting five filmmakers to create original short documentaries exploring the deep, often",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Abre puertas (beca/programa) · Con premio · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitydesk:1-02-colansa-fund-for-healthy-food-environments-in-latin-america-2026-",
+   "titulo": "Colansa Fund for Healthy Food Environments in Latin America 2026",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-20T23:59-05:00",
+   "fin": "2026-11-20T23:59-05:00",
+   "cierre": "2026-11-20T23:59-05:00",
+   "publicado": "2026-11-02T08:29-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/02/colansa-fund-for-healthy-food-environments-in-latin-america-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/colansa-fund-for-healthy-food-environments-in-latin-america-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 20, 2026 Applications are invited for the Colansa Fund for Healthy Food Environments in Latin America 2026. This call funds projects at the national level, presented and executed by a single organization in one of the 14 eligible countries: Argentina, Bolivia, Chile, Costa Rica, E",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitydesk:portunitydesk-org-2026-11-02-land-and-soil-management-award-2026-2027-",
+   "titulo": "Land and Soil Management Award 2026/2027 (€5,000 award)",
+   "tipo": "convocatoria",
+   "inicio": "2027-01-31T23:59-05:00",
+   "fin": "2027-01-31T23:59-05:00",
+   "cierre": "2027-01-31T23:59-05:00",
+   "publicado": "2026-11-02T08:45-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/02/land-and-soil-management-award-2026-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/02/land-and-soil-management-award-2026-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: January 31, 2027 Applications are open for the Land and Soil Management Award 2026/2027. The prize rewards land use and soil management practices mitigating soil threats i.e. soil degradation, erosion, reduction of organic matter content, diffuse contamination, and compaction as well as th",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Abre puertas (beca/programa) · Universidad · Con premio · Plazo claro"
   },
   {
    "id": "wikicfp:194196",
@@ -9100,6 +9212,60 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:23621",
+   "titulo": "Test Hackathon - Didit KYC",
+   "tipo": "hackathon",
+   "inicio": "2026-11-02T00:00-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://kyc-test.devpost.com/",
+   "inscripcion": "https://kyc-test.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Devpost",
+   "descripcion": "Hackathon online. Temas: Communication, Productivity. Premios: $232.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 9,
+   "puntaje": 28,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31929",
+   "titulo": "Mock PlutoHacks",
+   "tipo": "hackathon",
+   "inicio": "2026-11-02T00:00-05:00",
+   "fin": "2026-11-03T23:59-05:00",
+   "cierre": "2026-11-03T23:59-05:00",
+   "lugar": "Davie, FL, USA",
+   "distrito": "Davie",
+   "modalidad": "Presencial",
+   "url": "https://mock-plutohacks.devpost.com/",
+   "inscripcion": "https://mock-plutohacks.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Girls Who Code BCC",
+   "descripcion": "Hackathon presencial en Davie, FL, USA. Temas: Beginner Friendly. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/760/420/datas/medium_square.jpg",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "pucp:concierto-por-los-55-anos-de-ee-gg-cc-27102026162202",
    "titulo": "Concierto por los 55 años de EE.GG.CC.",
    "inicio": "2026-11-19T12:00-05:00",
@@ -9230,33 +9396,6 @@
    "afinidad": 12,
    "puntaje": 41,
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad"
-  },
-  {
-   "id": "pucp:taller-de-gestion-de-estres-2026-2",
-   "titulo": "Taller de Gestión de estrés 2026-2",
-   "inicio": "2026-11-02T14:00-05:00",
-   "fin": "2026-11-02T16:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/taller-de-gestion-de-estres-2026-2/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Este taller te invita a reconocer y manejar tu estrés a través de técnicas prácticas de respiración, relajación y mindfulness. Mediante ejercicios guiados y espacios de autocuidado, podrás reducir la tensión, mejorar tu bienestar emocional y fortalecer recursos personales para afrontar con mayor equilibrio las demandas académicas y del día a día.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Tu_bienestar_importa_57b6e0380e.jpg",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=066&i=6437&ec=1",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "motivo": "no pasó la verificación: enlace roto (404)"
   },
   {
    "id": "pucp:leon-xiv-en-el-peru-una-reflexion-interdisciplinaria-sobre-su-primera-enciclica-magnifica-humanitas-22102026103924",
@@ -9461,13 +9600,13 @@
  "perfil": true,
  "recomendados": [
   "ieee:582367",
+  "luma:evt-tXv8Klg96RE9VAD",
   "inst:comexper-seminario-digitalizaci-n:2026-11-03",
   "pucp:treponema-pallidum-que-revela-el-adn-antiguo-sobre-la-diversificacion-de-la-treponematosis-22102026144617",
   "meetup:315593619",
+  "pucp:presentacion-del-centro-basque-de-investigacion-en-matematica-aplicada-bcam-del-pais-vasco-espana-02112026104458",
   "luma:evt-AIPfW5LkvQuWiVA",
-  "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
-  "pucp:quinto-reto-de-innovacion-ambiental-14102026121313",
-  "devpost:31960"
+  "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
@@ -9490,11 +9629,11 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-02T05:28-05:00",
-  "revisados": 209,
-  "corregidos": 11,
+  "fecha": "2026-11-02T16:18-05:00",
+  "revisados": 206,
+  "corregidos": 12,
   "avisos": 7,
-  "archivados": 3,
+  "archivados": 2,
   "problemas": [
    {
     "id": "pucp:dialogo-academico-sobre-las-relaciones-bilaterales-y-sus-perspectivas-22102026130904",
@@ -9519,6 +9658,14 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://lu.ma/6942nuls"
+   },
+   {
+    "id": "luma:evt-XcBPdzj7hvWoeoO",
+    "titulo": "The Future File",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://lu.ma/ipm7xmdc"
    },
    {
     "id": "inst:sni-webinar-procedimiento-legal-para-la-obtenci-n-del-certif:2026-11-10",
@@ -9601,14 +9748,6 @@
     "url": "https://www.eventbrite.com.pe/e/aws-student-community-day-lima-2026-tickets-2003893051059"
    },
    {
-    "id": "pucp:taller-de-gestion-de-estres-2026-2",
-    "titulo": "Taller de Gestión de estrés 2026-2",
-    "fuente": "PUCP",
-    "nivel": "archivado",
-    "detalle": "enlace roto (404) en dos revisiones seguidas",
-    "url": "https://agenda.pucp.edu.pe/evento/taller-de-gestion-de-estres-2026-2/"
-   },
-   {
     "id": "pucp:distincion-de-doctor-honoris-causa-al-doctor-mircea-cartarescu-28102026153951",
     "titulo": "Distinción de Doctor Honoris Causa al doctor Mircea Cărtărescu",
     "fuente": "PUCP",
@@ -9666,21 +9805,13 @@
    }
   ],
   "enlaces": {
-   "comprobados": 4,
-   "rotos": 8,
+   "comprobados": 13,
+   "rotos": 7,
    "sin_comprobar": 0
   },
   "fuentes_a_revisar": []
  },
  "por_confirmar": [
-  {
-   "titulo": "Fujimori y Noboa firmaron la Declaración de Lima 2026 en una cumbre binacional",
-   "url": "https://www.cronicaviva.com.pe/keiko-fujimori-y-daniel-noboa-firman-la-declaracion-de-lima-2026-en-cumbre-binacional/",
-   "medio": "Crónica Viva",
-   "publicado": "Mon, 19 Oct 2026 17:00:00 GMT",
-   "resumen": "La presidenta Keiko Fujimori y el mandatario ecuatoriano Daniel Noboa firmaron la Declaración Presidencial de Lima 2026 en Palacio de Gobierno, al cerrar el XVII Gabinete Binacional, para fortalecer ...",
-   "fecha_mencionada": ""
-  },
   {
    "titulo": "Gobierno de Keiko Fujimori: analistas evaluarán sus primeros 100 días en un foro en Lima",
    "url": "https://caretas.pe/politica/gobierno-de-keiko-fujimori-analistas-evaluaran-sus-primeros-100-dias-en-un-foro-en-lima/",
@@ -9690,28 +9821,20 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "CCL presenta avances de la economía circular en el Perú durante Foro Internacional en Bolivia",
+   "url": "https://www.revistaeconomia.com/ccl-presenta-avances-de-la-economia-circular-en-el-peru-durante-foro-internacional-en-bolivia/",
+   "medio": "Revista Economía",
+   "publicado": "Mon, 02 Nov 2026 06:00:00 GMT",
+   "resumen": "La Cámara de Comercio de Lima (CCL) participó en el Foro Internacional de Economía Circular 2026, denominado “Más allá del reciclaje: Economía Circular como ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "Lima será sede del Latam Epayment Summit 2026: El evento financiero que reunirá a más de 350 soluciones de pagos",
    "url": "https://www.revistaeconomia.com/lima-sera-sede-del-latam-epayment-summit-2026-el-evento-financiero-que-reunira-a-mas-de-350-soluciones-de-pagos/",
    "medio": "Revista Economía",
    "publicado": "Thu, 22 Oct 2026 10:33:00 GMT",
    "resumen": "El foro reunirá a más de 1.000 líderes y altos ejecutivos del sistema financiero y de pagos de Latinoamérica, con más de 60 expositores de más de 10 países.",
    "fecha_mencionada": ""
-  },
-  {
-   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
-   "resumen": "Por Redacción EC 15/09/2026, 08:15 p.m. Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "La Cámara de Comercio Suiza en el Perú reunirá a directivos de grandes empresas en su cumbre de innovación",
-   "url": "https://www.infobae.com/peru/2026/10/27/la-camara-de-comercio-suiza-en-el-peru-reunira-a-directivos-de-grandes-empresas-en-su-cumbre-de-innovacion/",
-   "medio": "Infobae",
-   "publicado": "Tue, 27 Oct 2026 10:27:00 GMT",
-   "resumen": "El encuentro anual se realizará el 4 de noviembre en San Isidro, con paneles sobre minería, salud e inteligencia artificial dirigidos a líderes corporativos y especialistas del sector privado nacional ...",
-   "fecha_mencionada": "2026-11-04T00:00-05:00"
   },
   {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
@@ -9751,22 +9874,6 @@
    "medio": "Infobae",
    "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
    "resumen": "La feria ofrecerá conversatorios, encuentros con escritores, presentaciones de novedades editoriales, talleres, cuentacuentos, recitales de poesía y espectáculos musicales ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "EXPOMIEL 2026 en Lima: feria de miel tendrá ingreso gratis y reunirá a apicultores del Perú",
-   "url": "https://diariocorreo.pe/edicion/lima/expomiel-2026-en-lima-feria-de-miel-tendra-ingreso-gratis-y-reunira-a-apicultores-del-peru-noticia/",
-   "medio": "Diario Correo",
-   "publicado": "Mon, 26 Oct 2026 08:55:00 GMT",
-   "resumen": "La Alameda 28 de Julio, en el Cercado de Lima, recibirá a productores de distintas regiones del país que ofrecerán miel, polen, propóleo, cosméticos y otros derivados apícolas. La feria también inclui ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "MML inaugura feria Lima Lee 2026: más 70 actividades gratuitas para todas las edades",
-   "url": "https://andina.pe/agencia/noticia-mml-inaugura-feria-lima-lee-2026-mas-70-actividades-gratuitas-para-todas-las-edades-1096247.aspx",
-   "medio": "Agencia Peruana de Noticias | ANDINA",
-   "publicado": "Thu, 15 Oct 2026 17:01:00 GMT",
-   "resumen": "La Municipalidad Metropolitana de Lima inaugurará este viernes 16 de octubre la Feria Metropolitana del Libro Lima Lee 2026, una propuesta cultural que reunirá a lectores, escritores, editoriales y li ...",
    "fecha_mencionada": ""
   }
  ],
@@ -9954,7 +10061,6 @@
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
   "wikicfp:202973": "2026-09-26T08:43-05:00",
   "tedx:70101": "2026-09-26T08:43-05:00",
-  "wikicfp:199892": "2026-09-26T08:43-05:00",
   "tedx:69227": "2026-09-26T08:43-05:00",
   "tedx:68902": "2026-09-26T08:43-05:00",
   "wikicfp:191885": "2026-09-26T08:43-05:00",
@@ -9995,7 +10101,6 @@
   "eb:1999731916995": "2026-09-27T16:59-05:00",
   "ieee:561590": "2026-09-27T17:17-05:00",
   "ieee:575172": "2026-09-27T17:17-05:00",
-  "devpost:31400": "2026-09-27T22:10-05:00",
   "wikicfp:203462": "2026-09-28T07:42-05:00",
   "luma:evt-B8EX8PEoPH2UZrV": "2026-09-28T16:03-05:00",
   "eb:1992830143605": "2026-09-28T16:40-05:00",
@@ -10086,7 +10191,6 @@
   "devpost:26475": "2026-10-26T03:26-05:00",
   "opportunitiesforyouth:teers-program-2023become-un-volunteer-and-gain-global-work-experience-": "2026-10-26T10:47-05:00",
   "devpost:31883": "2026-10-26T10:47-05:00",
-  "pucp:campana-de-donacion-de-sangre-ins-san-borja": "2026-10-26T17:14-05:00",
   "eb:2003916622562": "2026-10-26T17:14-05:00",
   "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo": "2026-10-26T17:14-05:00",
   "pucp:taller-de-taller-de-entrevistas-de-trabajo-2026-2": "2026-10-26T17:14-05:00",
@@ -10114,34 +10218,22 @@
   "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-10-29T12:57-05:00",
   "devpost:31808": "2026-10-29T12:57-05:00",
   "luma:evt-FvLvhaqmG2oHMsT": "2026-10-29T23:01-05:00",
-  "devpost:30340": "2026-10-29T23:01-05:00",
-  "opportunitydesk:r-economics-pre-doctoral-fellows-program-at-yale-university-2027-2028-": "2026-10-30T13:01-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-10-30-black-wealth-club-2026-2027-": "2026-10-30T13:01-05:00",
   "luma:evt-LK4GiG7MqIgvrsF": "2026-10-30T13:01-05:00",
-  "opportunitydesk:rtunitydesk-org-2026-10-30-telemachus-athena-mentoring-programme-2027-": "2026-10-30T13:01-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-10-30-gbd-fellowship-2027-": "2026-10-30T13:01-05:00",
   "luma:evt-cCVHEwaAsyzxCBx": "2026-10-30T16:54-05:00",
   "luma:evt-hFHyMRndRhIa28E": "2026-10-30T16:54-05:00",
   "luma:evt-hGTluWAJa3qCMH0": "2026-10-30T16:54-05:00",
   "luma:evt-FSa3lVb6033VV29": "2026-10-30T16:54-05:00",
-  "devpost:31495": "2026-10-30T16:54-05:00",
   "eb:2004150104914": "2026-10-30T16:54-05:00",
   "eb:2004156669549": "2026-10-30T22:46-05:00",
   "devpost:31489": "2026-10-30T22:46-05:00",
   "devpost:31187": "2026-10-30T22:46-05:00",
   "devpost:31946": "2026-10-31T06:35-05:00",
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-10-31T06:35-05:00",
-  "opportunitydesk:esk-org-2026-10-31-mastercard-foundation-scholars-program-at-auc-2027-": "2026-10-31T11:43-05:00",
   "opportunitydesk:rtunitydesk-org-2026-10-31-women-in-ocean-food-innovation-studio-2027-": "2026-10-31T11:43-05:00",
-  "opportunitydesk:-opportunitydesk-org-2026-10-31-irex-community-solutions-program-2027-": "2026-10-31T11:43-05:00",
-  "opportunitydesk:2026-10-31-mastercard-foundation-scholars-program-at-sciences-po-2027-": "2026-10-31T11:43-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-10-31-mit-summer-research-program-2027-": "2026-10-31T11:43-05:00",
   "eb:2004170365514": "2026-10-31T15:55-05:00",
   "luma:evt-pbPNpjkOOt8UAwY": "2026-10-31T15:55-05:00",
   "luma:evt-HCs3WC7xfMoBy4r": "2026-10-31T18:56-05:00",
-  "devpost:31480": "2026-10-31T18:56-05:00",
   "devpost:31060": "2026-10-31T22:54-05:00",
-  "devpost:27097": "2026-10-31T22:54-05:00",
   "inst:sni-webinar-responsabilidad-penal-del-gerente-general-ante-u:2026-11-05": "2026-11-01T07:32-05:00",
   "inst:sni-webinar-procedimiento-legal-para-la-obtenci-n-del-certif:2026-11-10": "2026-11-01T07:32-05:00",
   "inst:sni-webinar-de-los-atributos-al-valor-c-mo-diferenciar-produ:2026-11-12": "2026-11-01T07:32-05:00",
@@ -10154,6 +10246,19 @@
   "devpost:31815": "2026-11-01T19:13-05:00",
   "eb:2004204425388": "2026-11-02T05:28-05:00",
   "luma:evt-Hop1W6U8xHfksr8": "2026-11-02T05:28-05:00",
-  "luma:evt-heQySSVPAFajESL": "2026-11-02T05:28-05:00"
+  "luma:evt-heQySSVPAFajESL": "2026-11-02T05:28-05:00",
+  "opportunitydesk:g-2026-11-02-text-to-speech-careers-roles-and-skills-in-ai-voice-work-": "2026-11-02T16:18-05:00",
+  "opportunitydesk:-journey-doing-a-placement-based-masters-dissertation-in-sierra-leone-": "2026-11-02T16:18-05:00",
+  "pucp:pataton-2026": "2026-11-02T16:18-05:00",
+  "pucp:presentacion-del-centro-basque-de-investigacion-en-matematica-aplicada-bcam-del-pais-vasco-espana-02112026104458": "2026-11-02T16:18-05:00",
+  "pucp:identidades-en-movimiento-analisis-de-la-fluidez-en-la-autoidentificacion-etnica-indigena-en-el-peru-29102026204150": "2026-11-02T16:18-05:00",
+  "luma:evt-tXv8Klg96RE9VAD": "2026-11-02T16:18-05:00",
+  "luma:evt-XcBPdzj7hvWoeoO": "2026-11-02T16:18-05:00",
+  "devpost:31705": "2026-11-02T16:18-05:00",
+  "pucp:investigar-con-ia-practicas-responsables-en-la-produccion-de-conocimiento-cientifico-02112026112719": "2026-11-02T16:18-05:00",
+  "opportunitydesk:opments-in-ai-for-social-economic-and-policy-research-conference-2027-": "2026-11-02T16:18-05:00",
+  "opportunitydesk:ttps-opportunitydesk-org-2026-11-02-erase-indifference-challenge-2026-": "2026-11-02T16:18-05:00",
+  "devpost:31642": "2026-11-02T16:18-05:00",
+  "devpost:31083": "2026-11-02T16:18-05:00"
  }
 }
