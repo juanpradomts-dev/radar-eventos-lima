@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-11-03T08:30-05:00",
+ "actualizado": "2026-11-03T15:46-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 44
+   "n": 43
   },
   "Eventbrite": {
    "ok": true,
-   "n": 43
+   "n": 45
   },
   "Eventbrite online": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 54
+   "n": 56
   },
   "IEEE Perú": {
    "ok": true,
@@ -48,7 +48,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 12
+   "n": 17
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 347,
+ "revisados": 355,
  "top": 55,
  "eventos": [
   {
@@ -485,6 +485,33 @@
    "visto_desde": "2026-11-01T19:13-05:00"
   },
   {
+   "id": "pucp:presentacion-de-la-revista-conexion-n-25-democracia-plataformas-y-elecciones-en-latinoamerica-03112026101908",
+   "titulo": "Presentación de la revista Conexión N.° 25: Democracia, plataformas y elecciones en Latinoamérica.",
+   "inicio": "2026-11-04T16:00-05:00",
+   "fin": "2026-11-04T17:30-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/presentacion-de-la-revista-conexion-n-25-democracia-plataformas-y-elecciones-en-latinoamerica-03112026101908/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Departamento Académico de Comunicaciones tiene el agrado de invitarlos a participar en la presentación virtual de la revista Conexión N.° 25: Democracia, plataformas y elecciones en Latinoamérica.\n \nDurante el encuentro, participarán las editoras del dossier temático —la Dra. Ana Bizberge, docente e investigadora del Departamento Académico de Comunicaciones; la Dra. Nadia Koziner (Argentina); y la Dra. Helena Martins (Brasil)—, así como también se presentarán las ponencias de las y los autores de la revista.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://forms.gle/MGJkFgNxvBrhms6v6",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
    "id": "eb:2002800032812",
    "titulo": "Webinar PMIBA:  La rueda del éxito en equipos de alto rendimiento",
    "inicio": "2026-11-04T17:00-05:00",
@@ -655,6 +682,33 @@
    "visto_desde": "2026-09-24T21:10-05:00"
   },
   {
+   "id": "pucp:campana-de-donacion-de-sangre-ins-san-borja",
+   "titulo": "Campaña de Donación de Sangre",
+   "inicio": "2026-11-05T09:00-05:00",
+   "fin": "2026-11-05T16:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/campana-de-donacion-de-sangre-ins-san-borja/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Participa en la campaña de donación de sangre, organizada en coordinación con el el Hospital de Emergencias Villa El Salvador (HEVES). Una iniciativa que promueve la solidaridad y el compromiso con la salud, contribuyendo a salvar vidas a través de la donación voluntaria de sangre.\nLugar: jardín Frente al departamento de Humanidades",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/sangee_8bedbce355.png",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/campana-de-donacion-de-sangre-ins-san-borja/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
    "id": "eb:2003985337089",
    "titulo": "Prelanzamiento de MyIntelli AI | Webinar exclusivo",
    "inicio": "2026-11-05T10:00-05:00",
@@ -669,7 +723,7 @@
    "organizador": "MyIntelli",
    "descripcion": "Conoce la nueva plataforma para gestionar a tu fuerza laboral con IA. Trabaje donde trabaje tu equipo, todo desde un lugar.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196712271%2F2630738230511%2F1%2Foriginal.20261027-192211?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.072&fp-y=0.502&s=7083d263e9a5d78e7e569f54fa4b61c6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196712271%2F2630738230511%2F1%2Foriginal.20261027-192211?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.072&fp-y=0.502&s=4fee709b931b8fb20f0f52a92708df0a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -872,6 +926,33 @@
    "puntaje": 42,
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Becas y posgrado · Universidad",
    "visto_desde": "2026-10-16T08:44-05:00"
+  },
+  {
+   "id": "pucp:conversatorio-jovenes-en-microesferas-publicas-compartir-y-debatir-informacion-politica-sin-riesgo-03112026105538",
+   "titulo": "Conversatorio Jóvenes en microesferas públicas: compartir y debatir información política sin riesgo",
+   "inicio": "2026-11-05T15:00-05:00",
+   "fin": "2026-11-05T17:00-05:00",
+   "lugar": "PUCP",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/conversatorio-jovenes-en-microesferas-publicas-compartir-y-debatir-informacion-politica-sin-riesgo-03112026105538/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El encuentro, organizado por el Grupo de Investigación Comunicación y Subjetividades del Departamento Académico de Comunicaciones, contará con la participación de la ponente internacional Dra. Rosalía Winocur, profesora titular e investigadora de la Facultad de Información y Comunicación de la Universidad de la República (Uruguay).",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://forms.gle/CuuhhVTECQNGBwqJ9",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 31,
+   "afinidad": 8,
+   "puntaje": 39,
+   "por_que": "Networking · Presencial en Lima · Afín: Investigación · Universidad",
+   "visto_desde": "2026-11-03T15:46-05:00"
   },
   {
    "id": "inst:sni-webinar-responsabilidad-penal-del-gerente-general-ante-u:2026-11-05",
@@ -1203,7 +1284,7 @@
    "organizador": "Space Generation Advisory Council",
    "descripcion": "Explora el futuro del sector espacial junto al SGAC. Conecta con estudiantes, jóvenes profesionales y líderes de la industria.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196613409%2F2880310351331%2F1%2Foriginal.20261026-172110?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.068&fp-y=0.556&s=703a8089fcfc80b48ba8903c28035897",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196613409%2F2880310351331%2F1%2Foriginal.20261026-172110?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.068&fp-y=0.556&s=520606b4b17dad0df4c8d5ee55be569a",
    "inscripcion": "https://www.eventbrite.co.uk/e/sgperu-2026-registration-2003916622562",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1231,7 +1312,7 @@
    "organizador": "LATIN AMERICAN DESIGN",
    "descripcion": "LADFEST X. NOW IN LIMA.\nCelebra los 10 años del Latin American Design Festival este 06 y 07 de noviembre de 2026.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=afae269f99864aa92b9af2ca1be6bbb5",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190207243%2F132460440641%2F1%2Foriginal.20260803-162741?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ef41922965b92fab27b379d62fe4266f",
    "inscripcion": "https://www.eventbrite.com.pe/e/entradas-ladfest-x-2026-1995168675216",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1796,7 +1877,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "Tres martes en vivo para construir tu modelo de competencias: diccionario, perfiles, entrevistas con evidencia, evaluación y tablero.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b7546a25503ab554e2da14fd5311e5fe",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192630786%2F257811272973%2F1%2Foriginal.20260903-222123?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1dc028e3568c4c846453e8b88e1f858f",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1992,7 +2073,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "En este webinar gratuito juntamos tres miradas que casi nunca se sientan en la misma mesa: Recursos Humanos, marketing e IA",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197050657%2F257811272973%2F1%2Foriginal.20261102-020429?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=50ad80577735c9cd73a6b08120b24aed",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197050657%2F257811272973%2F1%2Foriginal.20261102-020429?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=12b93cc4289b7352df461240dfaf2652",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2152,6 +2233,37 @@
    "visto_desde": "2026-11-01T07:32-05:00"
   },
   {
+   "id": "inst:sni-webinar-derecho-a-la-intimidad-y-protecci-n-de-datos-per:2026-11-12",
+   "titulo": "Webinar: Derecho a la intimidad y protección de datos personales en el ámbito laboral",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-12T16:00-05:00",
+   "fin": "2026-11-12T17:30-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/11/img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Datos y analítica"
+   ],
+   "valor": 27,
+   "afinidad": 18,
+   "puntaje": 45,
+   "por_que": "Afín: Datos y machine learning · Formativo · Evento institucional · Virtual",
+   "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
    "id": "pucp:el-rol-de-uncitral-en-la-modernizacion-y-armonizacion-del-derecho-mercantil-internacional-02112026134048",
    "titulo": "El rol de UNCITRAL en la modernización y armonización del Derecho Mercantil Internacional",
    "inicio": "2026-11-12T18:00-05:00",
@@ -2276,7 +2388,7 @@
    "organizador": "Microsoft Speakers Hub en Español",
    "descripcion": "AI Virtual Days reúne a la comunidad hispana para compartir conocimiento, experiencias y casos reales sobre Inteligencia Artificial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=4037bc17149716d609edd59c3199863a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195997076%2F2782983559651%2F1%2Foriginal.20261017-105122?crop=focalpoint&fit=crop&w=306&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.998&fp-y=0.096&s=b3f1a7f5e1b4d9a5d5a4f9e8ce557aaa",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2299,7 +2411,7 @@
    "url": "https://lu.ma/5k84pggu",
    "fuente": "Luma",
    "organizador": "Unlearning Summit",
-   "descripcion": "¿Y si tu próxima gran idea empieza por cuestionar cómo haces negocios?\n💡 Explora nuevas oportunidades de mercado, conoce la experiencia de emprender en Brasil y descubre cómo automatizar tu negocio con IA mediante un ejercicio en vivo.\n🎯 ¿Para quién es?\nEmprendedores, startups, empresarios, profesionales, estudiantes y mentes curiosas que buscan aplicar innovación e inteligencia artificial a sus negocios.\n🗓️ Agenda\n2:45 p. m. | Registro\n3:10 p. m. | Bienvenida\n3:15 p. m. | Estudio Destape Regional: Las Nuevas Reglas de Consumo en Lima y Macro RegionesJorge Izaguirre — Consumer Truth.\n4:00 p. m. | Emprender en Brasil: ¿Qué tan retador es?Pedro Mattia 🇧🇷— TECNOPUC, Porto Alegre.\n4:30 p. m. | P",
+   "descripcion": "¿Y si tu próxima gran idea empieza por cuestionar cómo haces negocios?\n💡 Explora nuevas oportunidades de mercado, conoce la experiencia de emprender en Brasil y descubre cómo automatizar tu negocio con IA mediante un ejercicio en vivo.\n🎯 ¿Para quién es?\nEmprendedores, startups, empresarios, profesionales, estudiantes y mentes curiosas que buscan aplicar innovación e inteligencia artificial a sus negocios.\n🗓️ Agenda\n2:45 p. m. | Registro\n3:10 p. m. | Bienvenida\n3:15 p. m. | Estudio Destape Regional: Las Nuevas Reglas de Consumo en Lima y Macro RegionesJorge Izaguirre — Gerente de Investigación Consumer Truth.\n4:00 p. m. | Emprender en Brasil: ¿Qué tan retador es?Pedro Mattia 🇧🇷— TECNOPUC, Por",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/r6/f159467e-3a0d-44eb-9125-48eb132107a9.png",
    "inscripcion": "https://lu.ma/5k84pggu",
@@ -2311,9 +2423,9 @@
     "Tecnología e IA"
    ],
    "valor": 24,
-   "afinidad": 18,
-   "puntaje": 42,
-   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Gratis",
+   "afinidad": 26,
+   "puntaje": 50,
+   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Afín: Investigación",
    "visto_desde": "2026-10-30T16:54-05:00"
   },
   {
@@ -2412,7 +2524,7 @@
    "organizador": "GROW",
    "descripcion": "\"Crece y descubre cómo lograr tus metas\"",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196995808%2F225169246126%2F1%2Foriginal.20261031-185831?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=affd2672bfddb62918bab60ca92d5ee4",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196995808%2F225169246126%2F1%2Foriginal.20261031-185831?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a54f58173eedb4e0f60940777c74200d",
    "inscripcion": "https://www.eventbrite.com.pe/e/conferencia-gratuita-de-liderazgo-cambia-tu-rumbo-tickets-2004170365514",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2672,6 +2784,34 @@
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-10-26T17:14-05:00"
+  },
+  {
+   "id": "pucp:mas-alla-de-los-graficos-y-los-dados-repensar-la-ensenanza-de-la-estadistica-y-la-probabilidad-03112026121807",
+   "titulo": "Más allá de los gráficos y los dados: repensar la enseñanza de la estadística y la probabilidad",
+   "inicio": "2026-11-14T10:00-05:00",
+   "fin": "2026-11-14T11:00-05:00",
+   "lugar": "Sala Zoom",
+   "distrito": "San Miguel",
+   "modalidad": "Virtual",
+   "url": "https://agenda.pucp.edu.pe/evento/mas-alla-de-los-graficos-y-los-dados-repensar-la-ensenanza-de-la-estadistica-y-la-probabilidad-03112026121807/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Este evento forma parte de nuestro ciclo “Educación Matemática y Estadística en Debate”, organizado por los docentes del Área de Matemática del Departamento Académico de Educación de la PUCP.\nEspecialistas:\nClaudia Vásquez Ortiz: Profesora asociada de la Pontificia Universidad Católica de Chile (Campus Villarrica). Doctora con especialización en Didáctica de la Matemática por la Universidad de Girona (España).\n \nWebinar: Más allá de los gráficos y los dados: repensar la enseñanza de la estadística y la probabilidad en el aula escolar\n\nMartín Malaspina Quevedo: Docente TC en el Departamento Académico de Educación de la PUCP. Doctor en Educación por la Universidad de Girona (España).",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/form_cabecera_agenda_pucp_55164db83e.png",
+   "inscripcion": "https://zoom.us/webinar/register/WN_q46AKDQGRLekMRQ-wb3VyQ",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Datos y analítica",
+    "Investigación y ciencia"
+   ],
+   "valor": 30,
+   "afinidad": 23,
+   "puntaje": 53,
+   "por_que": "Afín: Datos y machine learning · Formativo · Universidad · Gratis",
+   "visto_desde": "2026-11-03T15:46-05:00"
   },
   {
    "id": "eb:2003504797783",
@@ -3015,6 +3155,41 @@
    "visto_desde": "2026-10-08T13:20-05:00"
   },
   {
+   "id": "inst:sni-webinar-proyecto-de-reglamento-de-los-valores-m-ximos-ad:2026-11-17",
+   "titulo": "Webinar: Proyecto de reglamento de los valores máximos admisibles para vertimientos no domésticos en industria – comentarios y recomendaciones",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-17T16:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/11/PROYECTO-DE-REGLAMENTO-DE-LOS-VALORES-img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-11-17T23:50-05:00"
+   },
+   "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
    "id": "devpost:31797",
    "titulo": "Green Shift Hacks",
    "tipo": "hackathon",
@@ -3098,6 +3273,41 @@
    "visto_desde": "2026-09-24T21:06-05:00"
   },
   {
+   "id": "inst:sni-webinar-tercerizaci-n-y-contratistas-en-plantas-industri:2026-11-18",
+   "titulo": "Webinar: Tercerización y contratistas en plantas industriales: cómo evitar contingencias laborales",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-18T16:00-05:00",
+   "fin": "",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/11/Tercerizacion-y-contratistas-en-plantas-industriales-como-evitar-contingencias-laborales-img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "original": {
+    "fin": "2026-11-18T23:50-05:00"
+   },
+   "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
    "id": "inst:sni-webinar-saldo-a-favor-del-exportador:2026-11-18",
    "titulo": "Webinar: Saldo a favor del exportador",
    "tipo": "evento",
@@ -3175,7 +3385,7 @@
    "organizador": "Centro Ajal",
    "descripcion": "Conecta con profesionales en este webinar online sobre ética en el desarrollo de IA y podrás ganar becas para próximos cursos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1be595b369767d72e246ba9c27cb1d29",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7c3d6b5f5dca8ee2fd55dddef3f7efe4",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3231,7 +3441,7 @@
    "organizador": "CENTRO | Diseño, Cine y Televisión",
    "descripcion": "La Especialidad en Comunicación y estilismo de moda invita a una masterclass sobre cómo la dirección creativa transforma una idea abstracta",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194150910%2F242578370882%2F1%2Foriginal.20260922-231949?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.695&fp-y=0.43&s=2cd881c3fe530d8770bd82c0473a4391",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194150910%2F242578370882%2F1%2Foriginal.20260922-231949?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.695&fp-y=0.43&s=a4deddfade01490929ba624c43738165",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3466,6 +3676,34 @@
    "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
+   "id": "pucp:formacion-universitaria-en-tiempos-de-ia-retos-y-posibilidades-03112026120609",
+   "titulo": "“Formación universitaria en tiempos de IA: retos y posibilidades”.",
+   "inicio": "2026-11-19T15:00-05:00",
+   "fin": "2026-11-19T16:00-05:00",
+   "lugar": "Aula 100 - Primer piso del Aulario (Complejo de Innovación Académica)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/formacion-universitaria-en-tiempos-de-ia-retos-y-posibilidades-03112026120609/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Departamento Académico de Teología, la Facultad de Ciencias e Ingeniería, la Facultad de Letras y Ciencias Humanas y el Instituto de Desarrollo Humano de América Latina (IDHAL) de la PUCP les invitan a participar en el conversatorio “Formación universitaria en tiempos de IA: retos y posibilidades”.\n \nEste encuentro forma parte de la iniciativa “Proteger lo humano en tiempos de IA: Diálogos sobre Magnifica Humanitas”, que busca profundizar en el mensaje de esta carta encíclica del papa León XIV y generar espacios de conversación sobre la condición humana en la era de la inteligencia artificial.\nParticipan:\nDra. Daniela Wurst | Estudios Generales Letras\nDr. Ezequiel Koile | Facultad de Letr",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Miniaturas_Agenda_PUCP_21_bfdee8c4c6.png",
+   "inscripcion": "https://forms.gle/ofZutnjZPkYYw91x7",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 31,
+   "afinidad": 12,
+   "puntaje": 43,
+   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Universidad",
+   "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
    "id": "luma:evt-Hop1W6U8xHfksr8",
    "titulo": "[Charla] Todo empezó siendo otra cosa 🌀 con TBD",
    "inicio": "2026-11-19T18:30-05:00",
@@ -3476,7 +3714,7 @@
    "url": "https://lu.ma/uw3z1hpl",
    "fuente": "Luma",
    "organizador": "Mutaciones",
-   "descripcion": "Todo empezó siendo otra cosa: la chamba que aceptaste “mientras tanto”, el proyecto de fin de semana que de pronto tenía clientes, la idea que nadie entendía hasta que un día sí. 👀\n¿Qué pasa en el medio, entre el antes y el después? Esa parte casi nunca entra en un post de logros.\nEn este meetup, 5 personas de la comunidad nos cuentan su mutación en 10 minutos cada una: qué se transformó, qué decisión marcó el giro, qué ganaron, qué les costó y qué aprendieron en el camino. Historias de cualquier rubro, contadas por quienes las vivieron, sin pitch y sin filtro de LinkedIn.\nEsta vez lxs speakers salen de una open call, así que vas a escuchar a gente que quizás todavía no conoces (y esa es la ",
+   "descripcion": "El side project que se volvió chamba. El equipo que se achicó y aprendió a hacer de todo. El emprendimiento que terminó vendiendo algo que nadie había planeado. El equipo que pivoteó.\nEl 2026 nos movió el piso a varixs, y en este meetup queremos contar cómo mutamos. Esta vez el escenario es de la comunidad: speakers que nos contarán qué eran antes, qué son ahora y qué aprendieron en el medio, incluido lo que salió mal.\n📅 19 de noviembre\n⏰ 7:00 pm\n📍 Mutalab\n🎤 Sobre lxs speakers\nAhora mismo estamos seleccionando a lxs speakers entre las postulaciones de la comunidad. Muy pronto anunciamos quiénes suben al escenario. 👀\nLa entrada es libre, previo registro. Puedes venir con quien quieras.",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/hz/c6f11058-1054-4aa0-b561-00ab3188e3bb.png",
    "inscripcion": "https://lu.ma/uw3z1hpl",
@@ -3484,13 +3722,12 @@
    "tipo": "evento",
    "cierre": "",
    "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
+    "Negocios y emprendimiento"
    ],
    "valor": 28,
-   "afinidad": 0,
-   "puntaje": 28,
-   "por_que": "Formativo · Presencial en Lima · Gratis",
+   "afinidad": 4,
+   "puntaje": 32,
+   "por_que": "Formativo · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-11-02T05:28-05:00"
   },
   {
@@ -3519,6 +3756,38 @@
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-10-20T21:59-05:00"
+  },
+  {
+   "id": "inst:sni-webinar-salud-mental-de-los-trabajadores-en-el-entorno-l:2026-11-20",
+   "titulo": "Webinar: Salud mental de los trabajadores en el entorno laboral",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-20T16:00-05:00",
+   "fin": "2026-11-20T17:30-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Virtual",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/11/SALUD-MENTAL-DE-LOS-TRABAJADORES-EN-EL-ENTORNO-LABORAL-img.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 27,
+   "afinidad": 0,
+   "puntaje": 27,
+   "por_que": "Formativo · Evento institucional · Virtual",
+   "visto_desde": "2026-11-03T15:46-05:00"
   },
   {
    "id": "luma:evt-kUuxDz4Ju4YbeH4",
@@ -3670,7 +3939,7 @@
    "organizador": "",
    "descripcion": "La Casita del Saber es un emprendimiento educativo inclusivo y seguro diseñado para apoyar el aprendizaje de niños con necesidades educativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2092c3cb3cc9948453e466dce8b5d880",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=26732154bc91402cbc52d4dcd72e3e28",
    "inscripcion": "https://www.eventbrite.com/e/la-casita-del-saber-tickets-2003426586852",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3798,6 +4067,66 @@
    "visto_desde": "2026-10-15T02:57-05:00"
   },
   {
+   "id": "inst:sni-taller-cierre-contable-y-tributario-2026-principales-con:2026-11-23",
+   "titulo": "Taller: Cierre contable y tributario 2026: Principales consideraciones y recomendaciones",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-23T19:00-05:00",
+   "fin": "2026-11-25T22:00-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://sni.org.pe/eventos/",
+   "inscripcion": "https://sni.org.pe/eventos/",
+   "fuente": "Institucional",
+   "fuente_url": "https://sni.org.pe/eventos/",
+   "organizador": "SNI",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://sni.org.pe/wp-content/uploads/2026/11/CIERRE-CONTABLE-Y-TRIBUTARIO-2026-PRINCIPALES-CONSIDERACIONES-Y-IMG.jpg",
+   "extraido_por": "json-ld",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 32,
+   "afinidad": 0,
+   "puntaje": 32,
+   "por_que": "Formativo · Evento institucional · Presencial en Lima",
+   "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
+   "id": "luma:evt-kJGSKKnp3sDtGxb",
+   "titulo": "Feria del Voluntariado – Congreso de la República",
+   "inicio": "2026-11-24T09:00-05:00",
+   "fin": "2026-11-24T13:00-05:00",
+   "lugar": "Av. Abancay cdra. 2, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/e4vvu3bm",
+   "fuente": "Luma",
+   "organizador": "Oficina de Voluntariado del Congreso de la República",
+   "descripcion": "¿Quieres ser parte del cambio? 🌱🐾🤝Te invitamos a la Feria de Voluntariado, un espacio creado para que jóvenes y ciudadanos descubran cómo pueden transformar su entorno a través del servicio.\nOrganizada por la Oficina de Voluntariado del Congreso de la República, esta feria reúne a instituciones, colectivos y programas sociales.\nAquí podrás:\n🔹 Conocer iniciativas reales de impacto social.🔹 Conectarte con organizaciones que buscan voluntarios como tú.🔹 Participar en actividades educativas, solidarias y formativas🔹 Inspirarte a tomar acción por tu comunidad.\nYa seas estudiante, profesional o una persona con ganas de aportar, esta feria es para ti.¡Te esperamos para que encuentres tu causa y sum",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/ft/4d741317-7112-4afd-8972-124bc7ad64e0.png",
+   "inscripcion": "https://lu.ma/e4vvu3bm",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Investigación y ciencia"
+   ],
+   "valor": 28,
+   "afinidad": 12,
+   "puntaje": 40,
+   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Gratis",
+   "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
    "id": "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214",
    "titulo": "¿Qué necesito para presentar mi proyecto ante uno de los Comités de Ética de la Investigación PUCP?",
    "inicio": "2026-11-24T12:00-05:00",
@@ -3868,7 +4197,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=98149458ee473e40a1f608f81046be95",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3984,7 +4313,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=84a90458746b7a4829bbf2d1b1f297ae",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4431,7 +4760,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4540,7 +4869,7 @@
    "organizador": "estudiantes del Intituto Certus",
    "descripcion": "Creatividad es pensar en nuevas ideas. Innovación es hacer cosas nuevas.\"  ven y se parte de esta feria",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195985983%2F3018024795339%2F1%2Foriginal.20261017-012056?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9e46b5df3c242dae01c96b8c0ba5ed6d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195985983%2F3018024795339%2F1%2Foriginal.20261017-012056?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8648889a4f9f24063287a773de4c3717",
    "inscripcion": "https://www.eventbrite.com/e/feria-tecnologica-universitaria-2026-tickets-2003535860693",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7550,56 +7879,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "luma:evt-GTL5VSKBwG9KE5G",
-   "titulo": "Sesión 03/11",
-   "inicio": "2026-11-03T06:30-05:00",
-   "fin": "2026-11-03T09:30-05:00",
-   "lugar": "Mal. 28 de Julio 385, Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/gq41pzyp",
-   "fuente": "Luma",
-   "organizador": "BNI Valor",
-   "descripcion": "Sesión presencial BNI Valor\nPagos por Yape al 915315357",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/ui/fd3e2296-7f3f-4d73-baa4-c330e8793602.png",
-   "inscripcion": "https://lu.ma/gq41pzyp",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
-   "id": "luma:evt-lhhOnYGNnFofh5C",
-   "titulo": "REIC – RTC | Developers Breakfast",
-   "inicio": "2026-11-03T08:00-05:00",
-   "fin": "2026-11-03T10:00-05:00",
-   "lugar": "Av. Jorge Basadre Grohmann 595, San Isidro",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/gxkemuw7",
-   "fuente": "Luma",
-   "organizador": "Kenza, Alberto Gonzales",
-   "descripcion": "REIC y RTC te invitan a un desayuno ejecutivo para conversar sobre alternativas de financiamiento que permitan impulsar nuevos proyectos inmobiliarios.\nUn espacio de encuentro para desarrolladores, constructoras, promotores inmobiliarios y profesionales del sector que buscan explorar nuevas oportuni",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/er/ab279cc1-2b95-4b74-bfa3-3ddf6c0cc3f5.png",
-   "inscripcion": "https://lu.ma/gxkemuw7",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis"
-  },
-  {
    "id": "eb:1976412296382",
    "titulo": "Gringo Tuesdays Language Exchange Lima",
    "inicio": "2026-11-03T17:00-05:00",
@@ -7812,7 +8091,7 @@
    "organizador": "Frequency: The Secret of Everything",
    "descripcion": "Más que una película: un viaje inmersivo hacia la frecuencia, la consciencia y las fuerzas invisibles que dan forma a la realidad.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182340534%2F2998879864403%2F1%2Foriginal.20260416-171045?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a5b5686d64c66269d1fa1ab914673fdd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182340534%2F2998879864403%2F1%2Foriginal.20260416-171045?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e46a4dec8eb12d62a385a6759e6c3861",
    "inscripcion": "https://www.eventbrite.com/e/frequency-the-secret-of-everything-screening-in-lima-peru-tickets-2003684725953",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7823,6 +8102,31 @@
    "afinidad": 0,
    "puntaje": 12,
    "por_que": "Presencial en Lima · Evento sin formato claro"
+  },
+  {
+   "id": "eb:2004314493605",
+   "titulo": "VOLVER RUN CLUB",
+   "inicio": "2026-11-08T08:30-05:00",
+   "fin": "2026-11-08T09:30-05:00",
+   "lugar": "Puente de la Paz, Puente de la Paz",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/volver-run-club-tickets-2004314493605",
+   "fuente": "Eventbrite",
+   "organizador": "Fabiola Chen",
+   "descripcion": "Join LIMA RUN CLUB in person for a fun run, good company, and great vibes!",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197191850%2F3017820394479%2F1%2Foriginal.20261103-180418?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.058&fp-y=0.263&s=4e7425c91b666d1977bf0f79e87f9f3c",
+   "inscripcion": "https://www.eventbrite.com.pe/e/volver-run-club-tickets-2004314493605",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis"
   },
   {
    "id": "eb:1982892092627",
@@ -7875,31 +8179,6 @@
    "por_que": "Networking · Presencial en Lima · Universidad"
   },
   {
-   "id": "pucp:activacion-reescribiendo-el-felices-para-siempre-reflexionando-sobre-el-amor-romantico",
-   "titulo": "Activación: \"Reescribiendo el felices para siempre: Reflexionando sobre el amor romántico\"",
-   "inicio": "2026-11-12T12:30-05:00",
-   "fin": "2026-11-12T14:30-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/activacion-reescribiendo-el-felices-para-siempre-reflexionando-sobre-el-amor-romantico/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Reflexionar sobre los mitos del amor romántico y promover vínculos basados en el respeto, los límites, la autonomía y el cuidado mutuo.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/cer_cont_eb6cda3f7f.jpg",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/activacion-reescribiendo-el-felices-para-siempre-reflexionando-sobre-el-amor-romantico/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
-  },
-  {
    "id": "luma:evt-LTVttR3Ht2qGLMG",
    "titulo": "Aprende a IMPORTAR EXPRESS paso a paso",
    "inicio": "2026-11-12T13:00-05:00",
@@ -7925,6 +8204,31 @@
    "por_que": "Formativo · Presencial en Lima · (Parece venta)"
   },
   {
+   "id": "pucp:foro-publico-en-lima-proyecto-de-memoria-transgeneracional-02112026183618",
+   "titulo": "Foro público en Lima - Proyecto de memoria transgeneracional",
+   "inicio": "2026-11-13T17:00-05:00",
+   "fin": "2026-11-13T19:15-05:00",
+   "lugar": "NOS PUCP (Av. Camino Real 1037, San Isidro) - Auditorio 2D ",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/foro-publico-en-lima-proyecto-de-memoria-transgeneracional-02112026183618/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El proyecto “Memoria transgeneracional: diálogo, género e incidencia para fortalecer los procesos democráticos y de justicia” reunió a integrantes de las organizaciones de víctimas del conflicto armado interno, ANFASEP y FRAVIPH, y a jóvenes estudiantes de Ayacucho, Huancavelica y Lima, en un espaci",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/forolima_Mesa_de_trabajo_1_eabe1dd1aa.png",
+   "inscripcion": "https://forms.gle/QySwULRm47ChDWcz5",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 31,
+   "afinidad": 0,
+   "puntaje": 31,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
+  },
+  {
    "id": "eb:2003992351068",
    "titulo": "Clash of Chefs FINAL 2026",
    "inicio": "2026-11-14T20:00-05:00",
@@ -7937,7 +8241,7 @@
    "organizador": "ACER Conectando Oportunidades",
    "descripcion": "Clash of Chefs FINAL 2026",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195197134%2F247355092501%2F1%2Foriginal.20261006-170212?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3e101c0c466b39c1f27adc20ff38d85d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195197134%2F247355092501%2F1%2Foriginal.20261006-170212?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d81f1b8d451037c8ee04fa432bc982fa",
    "inscripcion": "https://www.eventbrite.com.br/e/clash-of-chefs-final-2026-tickets-2003992351068",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7962,7 +8266,7 @@
    "organizador": "Royal College of Art",
    "descripcion": "Meet the RCA! The world's 1 art & design university, will be visiting Lima",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=437a8d96e53500e9bdffe0605a53e189",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61b84b8b0476a41d896334a34d974c24",
    "inscripcion": "https://www.eventbrite.co.uk/e/meet-the-royal-college-of-art-in-lima-tickets-2003150172088",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7987,7 +8291,7 @@
    "organizador": "",
    "descripcion": "Éclat te invita a descubrir Fruity Volcano, una creación exclusiva que llega para conquistar a los amantes del chocolate.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=29b40b320a5efd1ece8e7d134bf72133",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195493945%2F3017195821862%2F1%2Foriginal.20261010-012139?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=488f8c8b811763c1087b9f6b5ad1cd48",
    "inscripcion": "https://www.eventbrite.com.pe/e/fruity-volcano-tickets-2003226162377",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8187,7 +8491,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61d4d0a20688a44f11b8895fa422b992",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254436461",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8237,7 +8541,7 @@
    "organizador": "Ermantourage UK",
    "descripcion": "Connect with other locals over coffee! Meet a new friend in your city. A different cafe each gathering!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa8e3e4933db165428ed9864b11725aa",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=41c63decc8c3960d0e164307bbc210de",
    "inscripcion": "https://www.eventbrite.com/e/the-comeunity-project-lima-coffee-with-strangers-tickets-1984736925572",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8384,6 +8688,34 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31980",
+   "titulo": "Mini VikingHacks",
+   "tipo": "hackathon",
+   "inicio": "2026-11-03T00:00-05:00",
+   "fin": "2026-11-05T23:59-05:00",
+   "cierre": "2026-11-05T23:59-05:00",
+   "lugar": "Irvington High School",
+   "distrito": "Irvington High School",
+   "modalidad": "Presencial",
+   "url": "https://mini-vikinghacks.devpost.com/",
+   "inscripcion": "https://mini-vikinghacks.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Viking Hacks",
+   "descripcion": "Hackathon presencial en Irvington High School. Temas: E-commerce/Retail, Low/No Code, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/783/463/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 6,
+   "puntaje": 22,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:30463",
    "titulo": "DeveloperWeek 2027 Hackathon",
    "tipo": "hackathon",
@@ -8479,7 +8811,7 @@
    "organizador": "La Taza Dorada",
    "descripcion": "Taller presencial desde cero: cata acogedora de filtrados y café de especialidad para estudiantes y principiantes.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=75a5a577613699d500dda5f02f40a5ca",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=c9d2eac7df802bab7ce2b846568a74b7",
    "inscripcion": "https://www.eventbrite.com/e/taller-de-cata-de-filtrados-y-cafe-de-especialidad-tickets-2003208116401",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8515,31 +8847,6 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
-   "id": "pucp:taller-tejiendo-bienestar-vincha-a-crochet",
-   "titulo": "Taller Tejiendo bienestar - Vincha a crochet",
-   "inicio": "2026-11-11T15:00-05:00",
-   "fin": "2026-11-11T17:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/taller-tejiendo-bienestar-vincha-a-crochet/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Curso/Taller · Interdisciplinarias · Bienestar PUCP · Dirección de Asuntos Estudiantiles",
-   "gratis": null,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/emocionarte_y_tejiendo_4d8e9dcf96.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/taller-tejiendo-bienestar-vincha-a-crochet/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (crochet)",
-   "categorias": [],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Formativo · Presencial en Lima · Universidad"
   },
   {
    "id": "pucp:tejiendo-bienestar-decora-tu-arbol-baston-de-caramelo-a-crochet",
@@ -8629,7 +8936,7 @@
    "organizador": "",
    "descripcion": "Dinner with Strangers series for locals who love all things horror, supernatural, and paranormal. Share your story at the dinner table!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1060474313%2F2816517062451%2F1%2Foriginal.20250625-170222?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e37e3118bc3efec217202a0cb8073259",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1060474313%2F2816517062451%2F1%2Foriginal.20250625-170222?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa6be494d503aadb7eaf131a06db2593",
    "inscripcion": "https://www.eventbrite.com/e/foodies-fears-dinner-with-strangers-lima-tickets-1901677762379",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8654,7 +8961,7 @@
    "organizador": "NEVORA",
    "descripcion": "Acompañanos a celebrar la inaguración de nuestra primera tienda y la nueva colección de nuestros buzos baggy   ¡los esperamos!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=212538966032fcfb0ebae67a83284465",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=fc03c1fa27f9ca2215529a41e1975838",
    "inscripcion": "https://www.eventbrite.com/e/apertura-oficial-y-lanzamiento-de-nuestra-nueva-coleccion-tickets-2003074310183",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8779,7 +9086,7 @@
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima at 11AM you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
    "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-1981186926429",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8934,6 +9241,34 @@
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Empresa reconocida · Plazo claro"
   },
   {
+   "id": "opportunitydesk:2026-11-03-backing-international-small-restaurants-grant-program-2026-",
+   "titulo": "Backing International Small Restaurants Grant Program 2026",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-16T23:59-05:00",
+   "fin": "2026-11-16T23:59-05:00",
+   "cierre": "2026-11-16T23:59-05:00",
+   "publicado": "2026-11-02T20:16-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 16, 2026 Applications are open for the Backing International Small Restaurants Grant Program 2026. The International Downtown Association Foundation recognizes that small restaurants are vital to thriving communities. The Backing International Small Restaurants grant program, supp",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea"
+  },
+  {
    "id": "opportunitydesk:https-opportunitydesk-org-2026-11-02-planet-health-film-fund-2027-",
    "titulo": "Planet Health Film Fund 2027 (£20,000 award)",
    "tipo": "convocatoria",
@@ -8960,34 +9295,6 @@
    "afinidad": 0,
    "puntaje": 24,
    "por_que": "Abre puertas (beca/programa) · Con premio · Plazo claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitydesk:portunitydesk-org-2026-11-02-land-and-soil-management-award-2026-2027-",
-   "titulo": "Land and Soil Management Award 2026/2027 (€5,000 award)",
-   "tipo": "convocatoria",
-   "inicio": "2027-01-31T23:59-05:00",
-   "fin": "2027-01-31T23:59-05:00",
-   "cierre": "2027-01-31T23:59-05:00",
-   "publicado": "2026-11-02T08:45-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/02/land-and-soil-management-award-2026-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/02/land-and-soil-management-award-2026-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: January 31, 2027 Applications are open for the Land and Soil Management Award 2026/2027. The prize rewards land use and soil management practices mitigating soil threats i.e. soil degradation, erosion, reduction of organic matter content, diffuse contamination, and compaction as well as th",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "sin afinidad",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Abre puertas (beca/programa) · Universidad · Con premio · Plazo claro"
   },
   {
    "id": "wikicfp:194196",
@@ -9098,33 +9405,6 @@
    "afinidad": 30,
    "puntaje": 56,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:23621",
-   "titulo": "Test Hackathon - Didit KYC",
-   "tipo": "hackathon",
-   "inicio": "2026-11-02T00:00-05:00",
-   "fin": "2026-11-30T23:59-05:00",
-   "cierre": "2026-11-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://kyc-test.devpost.com/",
-   "inscripcion": "https://kyc-test.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Devpost",
-   "descripcion": "Hackathon online. Temas: Communication, Productivity. Premios: $232.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 9,
-   "puntaje": 28,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31929",
@@ -9341,60 +9621,6 @@
    "motivo": "no pasó la verificación: enlace roto (404)"
   },
   {
-   "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo",
-   "titulo": "Taller de CV: Potencia tu Herramienta para el Empleo",
-   "inicio": "2026-11-11T17:00-05:00",
-   "fin": "2026-11-11T19:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/taller-de-cv-potencia-tu-herramienta-para-el-empleo/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Este taller busca que los participantes comprendan la importancia de elaborar un currículum vitae (CV) claro, estructurado y adaptado a diferentes tipos de ofertas laborales. A través de ejercicios prácticos, identificarán las secciones esenciales de un CV profesional, reconocerán los criterios que los reclutadores valoran e identificarán la metodología STAR como una forma efectiva de comunicar logros y experiencias relevantes.\nLugar: Z101",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_3000b87ede.png",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=066&i=6000&ec=1",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "motivo": "no pasó la verificación: enlace roto (404)"
-  },
-  {
-   "id": "pucp:taller-de-taller-de-entrevistas-de-trabajo-2026-2",
-   "titulo": "Taller de Taller de Entrevistas de Trabajo 2026-2",
-   "inicio": "2026-11-12T10:00-05:00",
-   "fin": "2026-11-12T12:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/taller-de-taller-de-entrevistas-de-trabajo-2026-2/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Este taller busca que los participantes comprendan los fundamentos de las entrevistas laborales individuales y grupales, reconociendo su importancia dentro del proceso de selección. A través de ejercicios prácticos, reflexionarán sobre sus recursos.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_3000b87ede.png",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=066&i=6001&ec=1",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "motivo": "no pasó la verificación: enlace roto (404)"
-  },
-  {
    "id": "pucp:taller-manejo-de-la-ansiedad-2026-2",
    "titulo": "Taller Manejo de la ansiedad 2026-2",
    "inicio": "2026-11-17T11:00-05:00",
@@ -9489,7 +9715,7 @@
    "organizador": "AWS Student Builder Group UNI",
    "descripcion": "Un día de charlas, workshops y comunidad sobre cloud e IA, organizado por estudiantes del AWS Student Builder Group UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=ff03716ec626363368db29cefaf9cd26",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=4947bfa70477611befac2e5ee3039f58",
    "inscripcion": "https://www.eventbrite.com.pe/e/aws-student-community-day-lima-2026-tickets-2003893051059",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9664,7 +9890,7 @@
   "PERUMIN": 1,
   "ESAN — eventos": 1,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 5,
+  "Sociedad Nacional de Industrias": 10,
   "AmCham Perú": 3,
   "ComexPerú": 1
  },
@@ -9680,11 +9906,11 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-03T08:30-05:00",
-  "revisados": 208,
-  "corregidos": 12,
+  "fecha": "2026-11-03T15:46-05:00",
+  "revisados": 217,
+  "corregidos": 14,
   "avisos": 2,
-  "archivados": 7,
+  "archivados": 5,
   "problemas": [
    {
     "id": "pucp:dialogo-academico-sobre-las-relaciones-bilaterales-y-sus-perspectivas-22102026130904",
@@ -9751,6 +9977,22 @@
     "url": "https://pmi.org.pe/"
    },
    {
+    "id": "inst:sni-webinar-proyecto-de-reglamento-de-los-valores-m-ximos-ad:2026-11-17",
+    "titulo": "Webinar: Proyecto de reglamento de los valores máximos admisibles para vertimientos no dom",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
+    "id": "inst:sni-webinar-tercerizaci-n-y-contratistas-en-plantas-industri:2026-11-18",
+    "titulo": "Webinar: Tercerización y contratistas en plantas industriales: cómo evitar contingencias l",
+    "fuente": "Institucional",
+    "nivel": "corregido",
+    "detalle": "hora de término de relleno (23:50)",
+    "url": "https://sni.org.pe/eventos/"
+   },
+   {
     "id": "inst:sni-webinar-saldo-a-favor-del-exportador:2026-11-18",
     "titulo": "Webinar: Saldo a favor del exportador",
     "fuente": "Institucional",
@@ -9815,22 +10057,6 @@
     "url": "https://agenda.pucp.edu.pe/evento/leon-xiv-en-el-peru-una-reflexion-interdisciplinaria-sobre-su-primera-enciclica-magnifica-humanitas-22102026103924/"
    },
    {
-    "id": "pucp:taller-de-cv-potencia-tu-herramienta-para-el-empleo",
-    "titulo": "Taller de CV: Potencia tu Herramienta para el Empleo",
-    "fuente": "PUCP",
-    "nivel": "archivado",
-    "detalle": "enlace roto (404) en dos revisiones seguidas",
-    "url": "https://agenda.pucp.edu.pe/evento/taller-de-cv-potencia-tu-herramienta-para-el-empleo/"
-   },
-   {
-    "id": "pucp:taller-de-taller-de-entrevistas-de-trabajo-2026-2",
-    "titulo": "Taller de Taller de Entrevistas de Trabajo 2026-2",
-    "fuente": "PUCP",
-    "nivel": "archivado",
-    "detalle": "enlace roto (404) en dos revisiones seguidas",
-    "url": "https://agenda.pucp.edu.pe/evento/taller-de-taller-de-entrevistas-de-trabajo-2026-2/"
-   },
-   {
     "id": "pucp:taller-manejo-de-la-ansiedad-2026-2",
     "titulo": "Taller Manejo de la ansiedad 2026-2",
     "fuente": "PUCP",
@@ -9856,8 +10082,8 @@
    }
   ],
   "enlaces": {
-   "comprobados": 38,
-   "rotos": 7,
+   "comprobados": 9,
+   "rotos": 5,
    "sin_comprobar": 2
   },
   "fuentes_a_revisar": []
@@ -9896,19 +10122,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "IA en las empresas: lo que dejó el Digital & AI Summit de NTT Data en Lima",
-   "url": "https://gestion.pe/economia/empresas/el-digital-ai-summit-de-ntt-data-reunio-a-lideres-en-lima-para-debatir-el-impacto-de-la-ia-en-las-empresas-noticia/",
-   "medio": "gestion",
-   "publicado": "Fri, 01 May 2026 04:31:00 GMT",
-   "resumen": "El Digital & AI Summit Lima 2026, organizado por NTT Data, se realizó este martes 28 en el Centro de Convenciones de Lima y reunió a ejecutivos, expertos tecnológicos y líderes empresariales ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
    "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
    "medio": "DiarioBitcoin",
    "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
    "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "IA en las empresas: lo que dejó el Digital & AI Summit de NTT Data en Lima",
+   "url": "https://gestion.pe/economia/empresas/el-digital-ai-summit-de-ntt-data-reunio-a-lideres-en-lima-para-debatir-el-impacto-de-la-ia-en-las-empresas-noticia/",
+   "medio": "gestion",
+   "publicado": "Fri, 01 May 2026 04:31:00 GMT",
+   "resumen": "El Digital & AI Summit Lima 2026, organizado por NTT Data, se realizó este martes 28 en el Centro de Convenciones de Lima y reunió a ejecutivos, expertos tecnológicos y líderes empresariales ...",
    "fecha_mencionada": ""
   },
   {
@@ -9925,6 +10151,14 @@
    "medio": "Infobae",
    "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
    "resumen": "La feria ofrecerá conversatorios, encuentros con escritores, presentaciones de novedades editoriales, talleres, cuentacuentos, recitales de poesía y espectáculos musicales ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "MML inaugura feria Lima Lee 2026: más 70 actividades gratuitas para todas las edades",
+   "url": "https://andina.pe/agencia/noticia-mml-inaugura-feria-lima-lee-2026-mas-70-actividades-gratuitas-para-todas-las-edades-1096247.aspx",
+   "medio": "Agencia Peruana de Noticias | ANDINA",
+   "publicado": "Thu, 15 Oct 2026 17:01:00 GMT",
+   "resumen": "La Municipalidad Metropolitana de Lima inaugurará este viernes 16 de octubre la Feria Metropolitana del Libro Lima Lee 2026, una propuesta cultural que reunirá a lectores, escritores, editoriales y li ...",
    "fecha_mencionada": ""
   },
   {
@@ -10109,6 +10343,21 @@
   },
   "Webinar: Calidad en los procesos para una empresa industrial": {
    "2026": "2026-11-25"
+  },
+  "Webinar: Derecho a la intimidad y protección de datos personales en el ámbito laboral": {
+   "2026": "2026-11-12"
+  },
+  "Webinar: Proyecto de reglamento de los valores máximos admisibles para vertimientos no domésticos en industria – comentarios y recomendaciones": {
+   "2026": "2026-11-17"
+  },
+  "Webinar: Tercerización y contratistas en plantas industriales: cómo evitar contingencias laborales": {
+   "2026": "2026-11-18"
+  },
+  "Webinar: Salud mental de los trabajadores en el entorno laboral": {
+   "2026": "2026-11-20"
+  },
+  "Taller: Cierre contable y tributario 2026: Principales consideraciones y recomendaciones": {
+   "2026": "2026-11-23"
   }
  },
  "primera_vez": {
@@ -10315,6 +10564,17 @@
   "opportunitydesk:esk-org-2026-11-03-home-grown-solutions-agribusiness-accelerator-2027-": "2026-11-03T08:30-05:00",
   "devpost:30340": "2026-11-03T08:30-05:00",
   "opportunitydesk:esk-org-2026-11-03-loreal-unesco-for-women-in-science-us-program-2027-": "2026-11-03T08:30-05:00",
-  "opportunitydesk:-harvard-pollman-fellowship-in-real-estate-and-urban-development-2027-": "2026-11-03T08:30-05:00"
+  "opportunitydesk:-harvard-pollman-fellowship-in-real-estate-and-urban-development-2027-": "2026-11-03T08:30-05:00",
+  "pucp:presentacion-de-la-revista-conexion-n-25-democracia-plataformas-y-elecciones-en-latinoamerica-03112026101908": "2026-11-03T15:46-05:00",
+  "pucp:campana-de-donacion-de-sangre-ins-san-borja": "2026-11-03T15:46-05:00",
+  "pucp:conversatorio-jovenes-en-microesferas-publicas-compartir-y-debatir-informacion-politica-sin-riesgo-03112026105538": "2026-11-03T15:46-05:00",
+  "inst:sni-webinar-derecho-a-la-intimidad-y-protecci-n-de-datos-per:2026-11-12": "2026-11-03T15:46-05:00",
+  "pucp:mas-alla-de-los-graficos-y-los-dados-repensar-la-ensenanza-de-la-estadistica-y-la-probabilidad-03112026121807": "2026-11-03T15:46-05:00",
+  "inst:sni-webinar-proyecto-de-reglamento-de-los-valores-m-ximos-ad:2026-11-17": "2026-11-03T15:46-05:00",
+  "inst:sni-webinar-tercerizaci-n-y-contratistas-en-plantas-industri:2026-11-18": "2026-11-03T15:46-05:00",
+  "pucp:formacion-universitaria-en-tiempos-de-ia-retos-y-posibilidades-03112026120609": "2026-11-03T15:46-05:00",
+  "inst:sni-webinar-salud-mental-de-los-trabajadores-en-el-entorno-l:2026-11-20": "2026-11-03T15:46-05:00",
+  "inst:sni-taller-cierre-contable-y-tributario-2026-principales-con:2026-11-23": "2026-11-03T15:46-05:00",
+  "luma:evt-kJGSKKnp3sDtGxb": "2026-11-03T15:46-05:00"
  }
 }
