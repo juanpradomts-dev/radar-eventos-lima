@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T14:27-05:00",
+ "actualizado": "2026-11-05T20:23-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,11 +7,11 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 46
+   "n": 47
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 16
+   "n": 15
   },
   "Meetup": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 50
+   "n": 46
   },
   "IEEE Perú": {
    "ok": true,
@@ -60,7 +60,7 @@
    "n": 0
   }
  },
- "revisados": 349,
+ "revisados": 345,
  "top": 55,
  "eventos": [
   {
@@ -176,89 +176,6 @@
    "visto_desde": "2026-11-04T14:16-05:00"
   },
   {
-   "id": "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233",
-   "titulo": "Congreso Latinoamericano de Evaluación y Medición Psicológica",
-   "inicio": "2026-11-03T08:00-05:00",
-   "fin": "2026-11-05T20:00-05:00",
-   "lugar": "Campus PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Con gran entusiasmo, les damos la bienvenida al Congreso Latinoamericano de Evaluación y Medición Psicológica, que se realizará del 3 al 5 de noviembre de 2026 en la Pontificia Universidad Católica del Perú (PUCP), en la ciudad de Lima, Perú. Este espacio académico reunirá a investigadores, docentes, profesionales y estudiantes interesados en los avances contemporáneos de la evaluación, la medición y la psicometría en América Latina.\n \nLa Pontificia Universidad Católica del Perú, reconocida por su compromiso con la excelencia académica, la investigación y la proyección internacional, será la sede de este encuentro, ofreciendo un entorno propicio para el intercambio científico, la colaboració",
-   "gratis": false,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Diseno_sin_titulo_11_d72ad06b0f.png",
-   "inscripcion": "https://clemp2026.pucp.edu.pe/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 24,
-   "puntaje": 53,
-   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Afín: Becas y posgrado",
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "pucp:link-ing-pucp-2026-25082026175920",
-   "titulo": "LinkING PUCP 2026",
-   "inicio": "2026-11-05T09:00-05:00",
-   "fin": "2026-11-05T18:00-05:00",
-   "lugar": "Departamento de Ingeniería – Sección Ingeniería Industrial (Pabellón O)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/link-ing-pucp-2026-25082026175920/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Celebra su quinta edición consolidándose como un espacio de encuentro y articulación entre la academia, la industria y la sociedad.\nLinkING se constituye como una plataforma que pone en valor el talento y conocimiento de la PUCP, promoviendo el diálogo, la colaboración y la innovación para contribuir a la construcción de un futuro sostenible desde la ingeniería.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/imagen_591x400_2ebfe968f0.jpeg",
-   "inscripcion": "https://emprende.pucp.edu.pe/linking/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 31,
-   "afinidad": 12,
-   "puntaje": 43,
-   "por_que": "Networking · Presencial en Lima · Afín: Investigación · Universidad",
-   "visto_desde": "2026-09-24T21:10-05:00"
-  },
-  {
-   "id": "pucp:campana-de-donacion-de-sangre-ins-san-borja",
-   "titulo": "Campaña de Donación de Sangre",
-   "inicio": "2026-11-05T09:00-05:00",
-   "fin": "2026-11-05T16:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/campana-de-donacion-de-sangre-ins-san-borja/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Participa en la campaña de donación de sangre, organizada en coordinación con el el Hospital de Emergencias Villa El Salvador (HEVES). Una iniciativa que promueve la solidaridad y el compromiso con la salud, contribuyendo a salvar vidas a través de la donación voluntaria de sangre.\nLugar: jardín Frente al departamento de Humanidades",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/sangee_8bedbce355.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/campana-de-donacion-de-sangre-ins-san-borja/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-11-03T15:46-05:00"
-  },
-  {
    "id": "opportunitydesk:05-15-global-scholarship-opportunities-currently-open-november-5-2026-",
    "titulo": "15 Global Scholarship Opportunities Currently Open – November 5, 2026",
    "tipo": "convocatoria",
@@ -344,61 +261,6 @@
    "visto_desde": "2026-11-05T14:27-05:00"
   },
   {
-   "id": "pucp:pataton-2026",
-   "titulo": "Bendición de Patitas 2026",
-   "inicio": "2026-11-05T12:00-05:00",
-   "fin": "2026-11-05T15:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/pataton-2026/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "La comunidad PUCP está invitada a participar en la Bendición de patitas 2026, una iniciativa solidaria que promueve el cuidado y la tenencia responsable de los animales. Además de brindar un espacio para la bendición de perros y gatos, el evento busca reunir donaciones de alimentos para contribuir al bienestar de los animales que más lo necesitan.\nPara participar, es necesario realizar una preinscripción, presentar el carné de vacunación vigente de la mascota y llevar una donación de alimentos para perros o gatos.\nLugar: Jardines Lidera - Facultad de Psicología",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/pataton_21bd3418b9.jpg",
-   "inscripcion": "https://forms.gle/GcA9gVxE3oHcVMdP8",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-11-02T16:18-05:00"
-  },
-  {
-   "id": "eb:2003727646329",
-   "titulo": "Sesión 3 - IA para pequeñas empresas",
-   "inicio": "2026-11-05T13:00-05:00",
-   "fin": "2026-11-05T15:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com/e/sesion-3-ia-para-pequenas-empresas-tickets-2003727646329",
-   "inscripcion": "https://www.eventbrite.com/e/sesion-3-ia-para-pequenas-empresas-tickets-2003727646329",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "ICIC",
-   "descripcion": "Serie de seminarios web para pequeñas empresas",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195121096%2F2815671071681%2F1%2Foriginal.20261005-211733?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.019&fp-y=0.477&s=a4b5b16766973ac3416241d5b355de4c",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 12,
-   "puntaje": 35,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
-   "visto_desde": "2026-10-21T14:07-05:00"
-  },
-  {
    "id": "eb:1988133470730",
    "titulo": "Semana de la Industria Textil",
    "inicio": "2026-11-05T14:00-05:00",
@@ -424,61 +286,6 @@
    "puntaje": 28,
    "por_que": "Formativo · Presencial en Lima · Gratis",
    "visto_desde": "2026-09-26T09:22-05:00"
-  },
-  {
-   "id": "pucp:destejer-latinoamerica-15102026182259",
-   "titulo": "Destejer Latinoamérica",
-   "inicio": "2026-11-05T15:00-05:00",
-   "fin": "2026-11-05T19:00-05:00",
-   "lugar": "Facultad de Arte y Diseño (Pabellón Y)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/destejer-latinoamerica-15102026182259/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El encuentro tiene como objetivo generar conversaciones en torno al arte, la moda y el diseño latinoamericanos en el contexto postcolonial contemporáneo, con la participación de profesionales y académicas de trayectoria nacional e internacional. En sus dos años de realización, ha logrado convocar a una comunidad diversa y propiciar diálogos que conectan experiencias que no suelen encontrarse, posicionando a la universidad como un espacio de intercambio horizontal entre lo académico, lo profesional y los saberes tradicionales. En esta edición, el eje temático propone imaginar futuros posibles desde lo colectivo, integrando perspectivas diversas que articulen lo ancestral y lo contemporáneo.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
-   "inscripcion": "https://forms.gle/mtyhkUP9f9iPNQwF7",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 34,
-   "afinidad": 8,
-   "puntaje": 42,
-   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Becas y posgrado · Universidad",
-   "visto_desde": "2026-10-16T08:44-05:00"
-  },
-  {
-   "id": "pucp:conversatorio-jovenes-en-microesferas-publicas-compartir-y-debatir-informacion-politica-sin-riesgo-03112026105538",
-   "titulo": "Conversatorio Jóvenes en microesferas públicas: compartir y debatir información política sin riesgo",
-   "inicio": "2026-11-05T15:00-05:00",
-   "fin": "2026-11-05T17:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/conversatorio-jovenes-en-microesferas-publicas-compartir-y-debatir-informacion-politica-sin-riesgo-03112026105538/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El encuentro, organizado por el Grupo de Investigación Comunicación y Subjetividades del Departamento Académico de Comunicaciones, contará con la participación de la ponente internacional Dra. Rosalía Winocur, profesora titular e investigadora de la Facultad de Información y Comunicación de la Universidad de la República (Uruguay).",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
-   "inscripcion": "https://forms.gle/CuuhhVTECQNGBwqJ9",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 31,
-   "afinidad": 8,
-   "puntaje": 39,
-   "por_que": "Networking · Presencial en Lima · Afín: Investigación · Universidad",
-   "visto_desde": "2026-11-03T15:46-05:00"
   },
   {
    "id": "inst:sni-webinar-responsabilidad-penal-del-gerente-general-ante-u:2026-11-05",
@@ -514,34 +321,6 @@
     "fin": "2026-11-05T23:50-05:00"
    },
    "visto_desde": "2026-11-01T07:32-05:00"
-  },
-  {
-   "id": "luma:evt-PzI45Si6Cc8OJgh",
-   "titulo": "Diez años de BioActiva: conexiones y retos para la innovación tecnológica en el Perú",
-   "inicio": "2026-11-05T17:00-05:00",
-   "fin": "2026-11-05T19:30-05:00",
-   "lugar": "camara 3, Av. Camino Real 1037, San Isidro",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/qton7i22",
-   "fuente": "Luma",
-   "organizador": "BioActiva Perú",
-   "descripcion": "BioActiva cumple 10 años promoviendo conexiones e innovación para el sector productivo, e impulsando la I+D+i en el Perú, y lo celebramos con una tarde para conectar a quienes hacen que esto ocurra: empresas, academia, startups, instituciones y especialistas.\nBioActiva cumple 10 años promoviendo conexiones e innovación para el sector productivo, e impulsando la I+D+i en el Perú, y lo celebramos con una tarde para conectar a quienes hacen que esto ocurra: empresas, academia, startups, instituciones y especialistas.\nQué vas a vivir:\nLlegada y networking: conexiones, música y un recorrido por los proyectos de estos diez años.\n\nRueda de desafíos: citas rotativas de 5 minutos, en un espacio tranq",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/6z/9511048b-01e2-4408-bdbf-fb122f8710e3.png",
-   "inscripcion": "https://lu.ma/qton7i22",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
-   ],
-   "valor": 26,
-   "afinidad": 6,
-   "puntaje": 32,
-   "por_que": "Competencia · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
-   "visto_desde": "2026-10-20T05:51-05:00"
   },
   {
    "id": "eb:2004156669549",
@@ -714,34 +493,6 @@
    "visto_desde": "2026-10-28T13:09-05:00"
   },
   {
-   "id": "devpost:31946",
-   "titulo": "Remote Control AI",
-   "tipo": "hackathon",
-   "inicio": "2026-10-31T00:00-05:00",
-   "fin": "2026-11-05T23:59-05:00",
-   "cierre": "2026-11-05T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://remote-control-ai.devpost.com/",
-   "inscripcion": "https://remote-control-ai.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "avacado",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/757/452/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 18,
-   "puntaje": 37,
-   "por_que": "Competencia · Afín: Inteligencia artificial · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T06:35-05:00"
-  },
-  {
    "id": "wikicfp:202973",
    "titulo": "DILSCM 2026 : 2026 8th International Academic Conference on Digital and Intelligent Transportation and Logistics Supply Chain Management",
    "tipo": "call for papers",
@@ -796,6 +547,62 @@
    "puntaje": 22,
    "por_que": "Networking · Presencial en Lima · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-10-26T17:14-05:00"
+  },
+  {
+   "id": "pucp:link-ing-pucp-2026-25082026175920",
+   "titulo": "LinkING PUCP 2026",
+   "inicio": "2026-11-06T09:00-05:00",
+   "fin": "2026-11-06T18:00-05:00",
+   "lugar": "Departamento de Ingeniería – Sección Ingeniería Industrial (Pabellón O)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/link-ing-pucp-2026-25082026175920/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Celebra su quinta edición consolidándose como un espacio de encuentro y articulación entre la academia, la industria y la sociedad.\nLinkING se constituye como una plataforma que pone en valor el talento y conocimiento de la PUCP, promoviendo el diálogo, la colaboración y la innovación para contribuir a la construcción de un futuro sostenible desde la ingeniería.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/imagen_591x400_2ebfe968f0.jpeg",
+   "inscripcion": "https://emprende.pucp.edu.pe/linking/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 31,
+   "afinidad": 12,
+   "puntaje": 43,
+   "por_que": "Networking · Presencial en Lima · Afín: Investigación · Universidad",
+   "visto_desde": "2026-09-24T21:10-05:00"
+  },
+  {
+   "id": "pucp:destejer-latinoamerica-15102026182259",
+   "titulo": "Destejer Latinoamérica",
+   "inicio": "2026-11-06T10:00-05:00",
+   "fin": "2026-11-06T17:00-05:00",
+   "lugar": "Facultad de Arte y Diseño (Pabellón Y)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/destejer-latinoamerica-15102026182259/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El encuentro tiene como objetivo generar conversaciones en torno al arte, la moda y el diseño latinoamericanos en el contexto postcolonial contemporáneo, con la participación de profesionales y académicas de trayectoria nacional e internacional. En sus dos años de realización, ha logrado convocar a una comunidad diversa y propiciar diálogos que conectan experiencias que no suelen encontrarse, posicionando a la universidad como un espacio de intercambio horizontal entre lo académico, lo profesional y los saberes tradicionales. En esta edición, el eje temático propone imaginar futuros posibles desde lo colectivo, integrando perspectivas diversas que articulen lo ancestral y lo contemporáneo.",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100.jpg",
+   "inscripcion": "https://forms.gle/mtyhkUP9f9iPNQwF7",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 34,
+   "afinidad": 8,
+   "puntaje": 42,
+   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Becas y posgrado · Universidad",
+   "visto_desde": "2026-10-16T08:44-05:00"
   },
   {
    "id": "luma:evt-RJDofFGQKiYJQ6q",
@@ -1342,7 +1149,7 @@
    "organizador": "icreatia.es",
    "descripcion": "La inteligencia artificial permite generar imágenes sorprendentes en segundos, pero ¿son realmente fieles al producto que queremos fabricar?",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197165191%2F95012362293%2F1%2Foriginal.20261103-122840?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5016af3ae396b1f4143dd2f2526743ce",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197165191%2F95012362293%2F1%2Foriginal.20261103-122840?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d54a58937ce7bc846534b7b4b65fdfd0",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2193,7 +2000,7 @@
    "organizador": "GROW",
    "descripcion": "\"Crece y descubre cómo lograr tus metas\"",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196995808%2F225169246126%2F1%2Foriginal.20261031-185831?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=edf880f2be3394b642b547731c2b0163",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196995808%2F225169246126%2F1%2Foriginal.20261031-185831?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a54f58173eedb4e0f60940777c74200d",
    "inscripcion": "https://www.eventbrite.com.pe/e/conferencia-gratuita-de-liderazgo-cambia-tu-rumbo-tickets-2004170365514",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -2481,6 +2288,33 @@
    "puntaje": 53,
    "por_que": "Afín: Datos y machine learning · Formativo · Universidad · Gratis",
    "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
+   "id": "eb:2004335494419",
+   "titulo": "IOS Lab 101 Preparando el Terreno para Pentesting de Apps IPA",
+   "inicio": "2026-11-14T10:15-05:00",
+   "fin": "2026-11-14T13:00-05:00",
+   "lugar": "NOS PUCP, 1037 Avenida Camino Real",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/ios-lab-101-preparando-el-terreno-para-pentesting-de-apps-ipa-tickets-2004335494419",
+   "fuente": "Eventbrite",
+   "organizador": "Black Alpaca Security Conference",
+   "descripcion": "Workshop - Black Alpaca Security Conference",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226059%2F2780666603701%2F1%2Foriginal.20261104-013548?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b1e59b20e101e0b8c6df2f86589502e7",
+   "inscripcion": "https://www.eventbrite.com.pe/e/ios-lab-101-preparando-el-terreno-para-pentesting-de-apps-ipa-tickets-2004335494419",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis",
+   "visto_desde": "2026-11-05T20:23-05:00"
   },
   {
    "id": "eb:2003504797783",
@@ -3082,7 +2916,7 @@
    "organizador": "Centro Ajal",
    "descripcion": "Conecta con profesionales en este webinar online sobre ética en el desarrollo de IA y podrás ganar becas para próximos cursos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1be595b369767d72e246ba9c27cb1d29",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7c3d6b5f5dca8ee2fd55dddef3f7efe4",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3486,6 +3320,33 @@
    "visto_desde": "2026-11-03T15:46-05:00"
   },
   {
+   "id": "pucp:presentacion-del-libro-y-la-vida-vencera-estudios-en-homenaje-a-felipe-zegarra-russo-05112026160408",
+   "titulo": "Presentación del libro “¡Y la vida vencerá! Estudios en homenaje a Felipe Zegarra Russo”",
+   "inicio": "2026-11-20T18:00-05:00",
+   "fin": "2026-11-20T20:00-05:00",
+   "lugar": "Auditorio de EEGGLL",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/presentacion-del-libro-y-la-vida-vencera-estudios-en-homenaje-a-felipe-zegarra-russo-05112026160408/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Departamento Académico de Teología de la PUCP, Estudios Generales Letras, el Instituto Bartolomé de Las Casas y el Centro de Estudios y Publicaciones les invita a participar en la presentación del libro “¡Y la vida vencerá! Estudios en homenaje a Felipe Zegarra Russo”, una publicación que nace de la admiración, el cariño y el agradecimiento hacia el P. Felipe Zegarra, en reconocimiento a su trayectoria como teólogo, docente, sacerdote y acompañante de comunidades cristianas.\nEste volumen recoge diversos estudios que dialogan con las principales preocupaciones que marcaron su reflexión teológica: la espiritualidad, la ecología integral y el desarrollo humano integral. Asimismo, destaca su ",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Miniaturas_Agenda_PUCP_23_8bd2e5d079.png",
+   "inscripcion": "https://forms.gle/TKJLfmFkzwyC64iJ8",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 25,
+   "afinidad": 0,
+   "puntaje": 25,
+   "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-11-05T20:23-05:00"
+  },
+  {
    "id": "luma:evt-kUuxDz4Ju4YbeH4",
    "titulo": "Stellar After Office: Lab de Proyectos + Road to Instawards",
    "inicio": "2026-11-20T18:30-05:00",
@@ -3635,7 +3496,7 @@
    "organizador": "",
    "descripcion": "La Casita del Saber es un emprendimiento educativo inclusivo y seguro diseñado para apoyar el aprendizaje de niños con necesidades educativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=26732154bc91402cbc52d4dcd72e3e28",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2092c3cb3cc9948453e466dce8b5d880",
    "inscripcion": "https://www.eventbrite.com/e/la-casita-del-saber-tickets-2003426586852",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3832,7 +3693,7 @@
    "url": "https://lu.ma/e4vvu3bm",
    "fuente": "Luma",
    "organizador": "Oficina de Voluntariado del Congreso de la República",
-   "descripcion": "¿Quieres ser parte del cambio? 🌱🐾🤝Te invitamos a la Feria de Voluntariado, un espacio creado para que jóvenes y ciudadanos descubran cómo pueden transformar su entorno a través del servicio.\nOrganizada por la Oficina de Voluntariado del Congreso de la República, esta feria reúne a instituciones, colectivos y programas sociales.\nAquí podrás:\n🔹 Conocer iniciativas reales de impacto social.🔹 Conectarte con organizaciones que buscan voluntarios como tú.🔹 Participar en actividades educativas, solidarias y formativas🔹 Inspirarte a tomar acción por tu comunidad.\nYa seas estudiante, profesional o una persona con ganas de aportar, esta feria es para ti.¡Te esperamos para que encuentres tu causa y sum",
+   "descripcion": "¿Quieres ser parte del cambio? 🌱🐾🤝Te invitamos a la Feria de Voluntariado 2026, un espacio creado para que jóvenes y ciudadanos descubran cómo pueden transformar su entorno a través del servicio.\nOrganizada por la Oficina de Voluntariado del Congreso de la República, esta feria reúne a instituciones, colectivos y programas sociales.\nAquí podrás:\n🔹 Conocer iniciativas reales de impacto social.🔹 Conectarte con organizaciones que buscan voluntarios como tú.🔹 Participar en actividades educativas, solidarias y formativas🔹 Inspirarte a tomar acción por tu comunidad.\nYa seas estudiante, profesional o una persona con ganas de aportar, esta feria es para ti.¡Te esperamos para que encuentres tu causa ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/ft/4d741317-7112-4afd-8972-124bc7ad64e0.png",
    "inscripcion": "https://lu.ma/e4vvu3bm",
@@ -4119,7 +3980,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=84a90458746b7a4829bbf2d1b1f297ae",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4731,7 +4592,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4882,6 +4743,34 @@
    "puntaje": 22,
    "por_que": "Networking · Presencial en Lima · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-10-17T12:44-05:00"
+  },
+  {
+   "id": "eb:2004449804323",
+   "titulo": "Voluntariado con niños y abuelos en Lima",
+   "inicio": "2026-12-05T14:00-05:00",
+   "fin": "2026-12-05T16:00-05:00",
+   "lugar": "Jirón Gral. Isaac Recavarren 188, 188 Jirón General Isaac Recavarren",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/voluntariado-con-ninos-y-abuelos-en-lima-tickets-2004449804323",
+   "fuente": "Eventbrite",
+   "organizador": "Huellas ONG",
+   "descripcion": "Compartí juegos, risas y tiempo de calidad con chicos y abuelos que se sienten solos en esta jornada de voluntariado presencial",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197382332%2F1082019636043%2F1%2Foriginal.20261105-212124?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.292&fp-y=0.375&s=50d18f4d94dd526ca3dd24ac3bfc7c60",
+   "inscripcion": "https://www.eventbrite.com/e/voluntariado-con-ninos-y-abuelos-en-lima-tickets-2004449804323",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis",
+   "visto_desde": "2026-11-05T20:23-05:00"
   },
   {
    "id": "eb:2003710622410",
@@ -7909,45 +7798,20 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:2002225687931",
-   "titulo": "Blackmagic Week Perú 2026 - Producción en Vivo",
-   "inicio": "2026-11-05T10:00-05:00",
-   "fin": "2026-11-05T16:00-05:00",
-   "lugar": "UTP Lima Centro - Auditorio Torre sede Central, 116 Avenida Petit Thouars",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-produccion-en-vivo-tickets-2002225687931",
-   "fuente": "Eventbrite",
-   "organizador": "IntekTV",
-   "descripcion": "Experimenta un workflow completo de producción en vivo con herramientas Blackmagic Design aplicadas a eventos, streaming  y televisión.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194316579%2F172988898758%2F1%2Foriginal.20260924-204813?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fae8b985aede470baf077e64d966b3ac",
-   "inscripcion": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-produccion-en-vivo-tickets-2002225687931",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
-   "id": "eb:1977084066665",
+   "id": "eb:1977084081710",
    "titulo": "Feria Expotextil Perú",
-   "inicio": "2026-11-05T12:30-05:00",
+   "inicio": "2026-11-05T20:00-05:00",
    "fin": "2026-11-05T20:30-05:00",
    "lugar": "Centro de Exposiciones Jockey, Centro de Exposiciones Jockey",
    "distrito": "Santiago de Surco",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084066665",
+   "url": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084081710",
    "fuente": "Eventbrite",
    "organizador": "Concepto 360 SAC",
    "descripcion": "Feria Internacional de Proveedores de la Industria Textil y Confecciones.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4c3847af18eb8c80cb71000f33b74ace",
-   "inscripcion": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084066665",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ecf2b82e33fcfea75fb6c33f359c2463",
+   "inscripcion": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084081710",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -7959,45 +7823,20 @@
    "por_que": "Networking · Presencial en Lima · Gratis"
   },
   {
-   "id": "pucp:jornada-de-bienestar-express",
-   "titulo": "Jornada de bienestar express",
-   "inicio": "2026-11-05T13:00-05:00",
-   "fin": "2026-11-05T14:45-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/jornada-de-bienestar-express/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "En esta jornada express, nos acercaremos a la naturaleza a través de nuestros sentidos y de la narración de historias para compartir al aire libre. Nos tomaremos una pausa para observar nuestro entorno y disfrutar de un momento de conexión y encuentro con otras personas. \nLugar: Jardín de Tesorería",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/express_jardin_18ddbad1a1.jpg",
-   "inscripcion": "https://forms.gle/CzWQYih9WWZAH3Ki6",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
-  },
-  {
-   "id": "eb:2004335825409",
+   "id": "eb:2004335827415",
    "titulo": "The Only Fre Food Tasting Tours in Lima",
-   "inicio": "2026-11-05T17:00-05:00",
-   "fin": "2026-11-05T18:30-05:00",
+   "inicio": "2026-11-05T20:00-05:00",
+   "fin": "2026-11-05T21:30-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335825409",
+   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335827415",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1f1400f4cf2db314112f32037d5ea934",
-   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335825409",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5c89cbf8ac24172dd7ab356b1c8eb291",
+   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335827415",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8021,7 +7860,7 @@
    "organizador": "IntekTV",
    "descripcion": "Descubre cómo el ecosistema Blackmagic está transformando la enseñanza audiovisual y abriendo nuevas oportunidades profesionales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe2591b2f911dde84a279162c0cdca28",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194319456%2F172988898758%2F1%2Foriginal.20260924-212437?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d25ce87be83320a35b0b10bb1864490f",
    "inscripcion": "https://www.eventbrite.com/e/blackmagic-week-peru-2026-academia-tickets-2002243178245",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8096,7 +7935,7 @@
    "organizador": "Burpsuite Day Peru",
    "descripcion": "El primer evento de la comunidad Burp Suite en el Perú. Charlas técnicas de AppSec y pentesting. 7 de noviembre, INICTEL-UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=73ce9984146532b666cee130195508e2",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192162584%2F3010342744789%2F1%2Foriginal.20260829-020425?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=889ea049d6c1213d15abca73d4f5ec0f",
    "inscripcion": "https://www.eventbrite.com.pe/e/burpsuite-day-peru-2026-tickets-1999138227253",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8171,7 +8010,7 @@
    "organizador": "Fabiola Chen",
    "descripcion": "Join LIMA RUN CLUB in person for a fun run, good company, and great vibes!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197191850%2F3017820394479%2F1%2Foriginal.20261103-180418?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.058&fp-y=0.263&s=4e7425c91b666d1977bf0f79e87f9f3c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197191850%2F3017820394479%2F1%2Foriginal.20261103-180418?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.058&fp-y=0.263&s=c1ceea68598d02585dcae10c8be174b2",
    "inscripcion": "https://www.eventbrite.com.pe/e/volver-run-club-tickets-2004314493605",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8321,7 +8160,7 @@
    "organizador": "ACER Conectando Oportunidades",
    "descripcion": "Clash of Chefs FINAL 2026",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195197134%2F247355092501%2F1%2Foriginal.20261006-170212?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f696be2791c293eaf55cb7f5e9e14d26",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195197134%2F247355092501%2F1%2Foriginal.20261006-170212?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d81f1b8d451037c8ee04fa432bc982fa",
    "inscripcion": "https://www.eventbrite.com.br/e/clash-of-chefs-final-2026-tickets-2003992351068",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8346,7 +8185,7 @@
    "organizador": "Royal College of Art",
    "descripcion": "Meet the RCA! The world's 1 art & design university, will be visiting Lima",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61b84b8b0476a41d896334a34d974c24",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=437a8d96e53500e9bdffe0605a53e189",
    "inscripcion": "https://www.eventbrite.co.uk/e/meet-the-royal-college-of-art-in-lima-tickets-2003150172088",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8571,7 +8410,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61d4d0a20688a44f11b8895fa422b992",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254436461",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8657,6 +8496,31 @@
    "afinidad": 0,
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis"
+  },
+  {
+   "id": "luma:evt-ng5m2kWZsZcROmn",
+   "titulo": "Charla \"Protección y Estructuración Patrimonial en un mundo en transformación\"con nuestro Socio Premium UBS",
+   "inicio": "2026-12-03T08:30-05:00",
+   "fin": "2026-12-03T10:30-05:00",
+   "lugar": "Av. Gral. Felipe Salaverry 3240, San Isidro",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/wbpw9itw",
+   "fuente": "Luma",
+   "organizador": "SwissCham Perú",
+   "descripcion": "UBS y SwissCham Perú los invitan a una charla sobre la protección y estructuración patrimonial en un mundo en transformación.",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/m6/86e62eea-6b0d-4db6-9bab-152ed7590278.png",
+   "inscripcion": "https://lu.ma/wbpw9itw",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis"
   },
   {
    "id": "eb:2003279097708",
@@ -8823,6 +8687,34 @@
    "por_que": "Formativo · Afín: Competencias · Universidad · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31836",
+   "titulo": "Ship It: The Product Builders' Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-05T00:00-05:00",
+   "fin": "2026-11-05T23:59-05:00",
+   "cierre": "2026-11-05T23:59-05:00",
+   "lugar": "Mixpanel HQ",
+   "distrito": "Mixpanel HQ",
+   "modalidad": "Presencial",
+   "url": "https://ship-it-hackathon.devpost.com/",
+   "inscripcion": "https://ship-it-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Mixpanel",
+   "descripcion": "Hackathon presencial en Mixpanel HQ. Temas: Low/No Code, Machine Learning/AI. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/644/133/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 16,
+   "afinidad": 29,
+   "puntaje": 45,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:30500",
    "titulo": "DSH Hacks V2 ($100k+ in prizes!)",
    "tipo": "hackathon",
@@ -8862,7 +8754,7 @@
    "organizador": "willians orihuela y celinda challa",
    "descripcion": "Descubra el pitch empresarial de Lumia, una tienda online de belleza y cuidado personal enfocada en calidad y experiencia digital.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b85741703c1f96b3406cb57dfb06ac0e",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195578453%2F3017372332850%2F1%2Foriginal.20261012-035918?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=64a9fd3704e65f639905a0d151733732",
    "inscripcion": "https://www.eventbrite.com/e/pitch-empresarial-tienda-lumia-belleza-y-cuidado-personal-tickets-2003273856030",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9103,20 +8995,20 @@
    "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
-   "id": "eb:2004334203558",
+   "id": "eb:2004334204561",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-05T18:00-05:00",
-   "fin": "2026-11-05T19:30-05:00",
+   "inicio": "2026-11-05T20:00-05:00",
+   "fin": "2026-11-05T21:30-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334203558",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334204561",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334203558",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334204561",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -9547,7 +9439,7 @@
    "organizador": "AWS Student Builder Group UNI",
    "descripcion": "Un día de charlas, workshops y comunidad sobre cloud e IA, organizado por estudiantes del AWS Student Builder Group UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=ff03716ec626363368db29cefaf9cd26",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=4947bfa70477611befac2e5ee3039f58",
    "inscripcion": "https://www.eventbrite.com.pe/e/aws-student-community-day-lima-2026-tickets-2003893051059",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9714,8 +9606,8 @@
   "devpost:31480",
   "luma:evt-AIPfW5LkvQuWiVA",
   "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
-  "devpost:31642",
-  "pucp:quinto-reto-de-innovacion-ambiental-14102026121313"
+  "pucp:primer-congreso-latinoamericano-de-etica-en-la-abogacia-y-la-ensenanza-del-derecho-19102026174533",
+  "devpost:31642"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
@@ -9738,8 +9630,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-05T14:27-05:00",
-  "revisados": 219,
+  "fecha": "2026-11-05T20:23-05:00",
+  "revisados": 215,
   "corregidos": 14,
   "avisos": 1,
   "archivados": 5,
@@ -9906,7 +9798,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 13,
+   "comprobados": 7,
    "rotos": 4,
    "sin_comprobar": 3
   },
@@ -9922,14 +9814,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Gobierno de Keiko Fujimori: analistas evaluarán sus primeros 100 días en un foro en Lima",
-   "url": "https://caretas.pe/politica/gobierno-de-keiko-fujimori-analistas-evaluaran-sus-primeros-100-dias-en-un-foro-en-lima/",
-   "medio": "Caretas",
-   "publicado": "Thu, 29 Oct 2026 08:55:00 GMT",
-   "resumen": "El Centro para la Democracia Social realizará un foro para analizar los primeros 100 días del gobierno de Keiko Fujimori.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Lima será sede del Latam Epayment Summit 2026: El evento financiero que reunirá a más de 350 soluciones de pagos",
    "url": "https://www.revistaeconomia.com/lima-sera-sede-del-latam-epayment-summit-2026-el-evento-financiero-que-reunira-a-mas-de-350-soluciones-de-pagos/",
    "medio": "Revista Economía",
@@ -9938,19 +9822,19 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "Gobierno de Keiko Fujimori: analistas evaluarán sus primeros 100 días en un foro en Lima",
+   "url": "https://caretas.pe/politica/gobierno-de-keiko-fujimori-analistas-evaluaran-sus-primeros-100-dias-en-un-foro-en-lima/",
+   "medio": "Caretas",
+   "publicado": "Thu, 29 Oct 2026 08:55:00 GMT",
+   "resumen": "El Centro para la Democracia Social realizará un foro para analizar los primeros 100 días del gobierno de Keiko Fujimori.",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "CCL presenta avances de la economía circular en el Perú durante Foro Internacional en Bolivia",
    "url": "https://www.revistaeconomia.com/ccl-presenta-avances-de-la-economia-circular-en-el-peru-durante-foro-internacional-en-bolivia/",
    "medio": "Revista Economía",
    "publicado": "Mon, 02 Nov 2026 06:00:00 GMT",
    "resumen": "La Cámara de Comercio de Lima (CCL) participó en el Foro Internacional de Economía Circular 2026, denominado “Más allá del reciclaje: Economía Circular como ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Foro GLI Latam 2026: salud de la mujer y enfoque de género marcan agenda económica regional en Lima",
-   "url": "https://elcomercio.pe/economia/peru/foro-gli-latam-2026-salud-de-la-mujer-y-enfoque-de-genero-marcan-agenda-economica-regional-en-lima-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Sat, 30 May 2026 01:35:00 GMT",
-   "resumen": "Lima se convirtió esta semana en el centro de una de las principales discusiones sobre desarrollo económico e inclusión en la región. Durante tres días, el Foro GLI Latam 2026 reunió a más de mil ...",
    "fecha_mencionada": ""
   },
   {
@@ -9970,19 +9854,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
-   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
-   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "¿Quiénes participan en el LATAM Media Leaders Summit 2026? Estos son los líderes de medios que están a Lima",
    "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-estos-son-los-lideres-de-medios-que-llegaran-a-lima-noticia/",
    "medio": "El Comercio",
    "publicado": "Tue, 15 Sep 2026 13:20:00 GMT",
    "resumen": "A solo horas de la edición 2026 del LATAM Media Leaders Summit, un encuentro exclusivo para quienes toman decisiones críticas en la industria de los medios, compartimos la lista oficial de expositores ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
+   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
+   "medio": "DiarioBitcoin",
+   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
+   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
    "fecha_mencionada": ""
   },
   {
@@ -10007,6 +9891,14 @@
    "medio": "Agencia Peruana de Noticias | ANDINA",
    "publicado": "Thu, 15 Oct 2026 17:01:00 GMT",
    "resumen": "La Municipalidad Metropolitana de Lima inaugurará este viernes 16 de octubre la Feria Metropolitana del Libro Lima Lee 2026, una propuesta cultural que reunirá a lectores, escritores, editoriales y li ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "EXPOMIEL 2026 en Lima: feria de miel tendrá ingreso gratis y reunirá a apicultores del Perú",
+   "url": "https://diariocorreo.pe/edicion/lima/expomiel-2026-en-lima-feria-de-miel-tendra-ingreso-gratis-y-reunira-a-apicultores-del-peru-noticia/",
+   "medio": "Diario Correo",
+   "publicado": "Mon, 26 Oct 2026 08:55:00 GMT",
+   "resumen": "La Alameda 28 de Julio, en el Cercado de Lima, recibirá a productores de distintas regiones del país que ofrecerán miel, polen, propóleo, cosméticos y otros derivados apícolas. La feria también inclui ...",
    "fecha_mencionada": ""
   }
  ],
@@ -10202,7 +10094,6 @@
  },
  "primera_vez": {
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
-  "pucp:congreso-latinoamericano-de-evaluacion-y-medicion-psicologica-30072026111233": "2026-09-24T21:10-05:00",
   "pucp:link-ing-pucp-2026-25082026175920": "2026-09-24T21:10-05:00",
   "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00",
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
@@ -10294,7 +10185,6 @@
   "devpost:31789": "2026-10-18T17:45-05:00",
   "luma:evt-fjJKrLjuluVAIeT": "2026-10-19T16:58-05:00",
   "luma:evt-crpVGg06NULnKJY": "2026-10-19T22:05-05:00",
-  "luma:evt-PzI45Si6Cc8OJgh": "2026-10-20T05:51-05:00",
   "devpost:31795": "2026-10-20T05:51-05:00",
   "wikicfp:203835": "2026-10-20T05:51-05:00",
   "wikicfp:203833": "2026-10-20T05:51-05:00",
@@ -10306,7 +10196,6 @@
   "eb:2003402159790": "2026-10-20T21:59-05:00",
   "luma:evt-CFnnzJpzLLYgAPo": "2026-10-21T09:20-05:00",
   "pucp:primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447": "2026-10-21T14:07-05:00",
-  "eb:2003727646329": "2026-10-21T14:07-05:00",
   "luma:evt-INRh9a83ZDl1nNe": "2026-10-21T14:07-05:00",
   "eb:2003706120946": "2026-10-21T14:07-05:00",
   "eb:2003742708380": "2026-10-21T18:55-05:00",
@@ -10345,7 +10234,6 @@
   "eb:2004156669549": "2026-10-30T22:46-05:00",
   "devpost:31489": "2026-10-30T22:46-05:00",
   "devpost:31187": "2026-10-30T22:46-05:00",
-  "devpost:31946": "2026-10-31T06:35-05:00",
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-10-31T06:35-05:00",
   "eb:2004170365514": "2026-10-31T15:55-05:00",
   "luma:evt-pbPNpjkOOt8UAwY": "2026-10-31T15:55-05:00",
@@ -10361,7 +10249,6 @@
   "eb:2004204425388": "2026-11-02T05:28-05:00",
   "luma:evt-Hop1W6U8xHfksr8": "2026-11-02T05:28-05:00",
   "luma:evt-heQySSVPAFajESL": "2026-11-02T05:28-05:00",
-  "pucp:pataton-2026": "2026-11-02T16:18-05:00",
   "luma:evt-tXv8Klg96RE9VAD": "2026-11-02T16:18-05:00",
   "luma:evt-XcBPdzj7hvWoeoO": "2026-11-02T16:18-05:00",
   "devpost:31705": "2026-11-02T16:18-05:00",
@@ -10374,8 +10261,6 @@
   "eb:2003527458562": "2026-11-02T23:59-05:00",
   "luma:evt-qDyg6BqcLOVy7jH": "2026-11-02T23:59-05:00",
   "eb:2004283520965": "2026-11-03T08:30-05:00",
-  "pucp:campana-de-donacion-de-sangre-ins-san-borja": "2026-11-03T15:46-05:00",
-  "pucp:conversatorio-jovenes-en-microesferas-publicas-compartir-y-debatir-informacion-politica-sin-riesgo-03112026105538": "2026-11-03T15:46-05:00",
   "inst:sni-webinar-derecho-a-la-intimidad-y-protecci-n-de-datos-per:2026-11-12": "2026-11-03T15:46-05:00",
   "pucp:mas-alla-de-los-graficos-y-los-dados-repensar-la-ensenanza-de-la-estadistica-y-la-probabilidad-03112026121807": "2026-11-03T15:46-05:00",
   "inst:sni-webinar-proyecto-de-reglamento-de-los-valores-m-ximos-ad:2026-11-17": "2026-11-03T15:46-05:00",
@@ -10417,6 +10302,9 @@
   "devpost:32017": "2026-11-05T14:27-05:00",
   "opportunitydesk:rtunitydesk-org-2026-11-05-ix-wai-early-career-development-grant-2027-": "2026-11-05T14:27-05:00",
   "opportunitydesk:5-crassh-visiting-fellowships-for-scholars-from-the-global-south-2027-": "2026-11-05T14:27-05:00",
-  "devpost:31974": "2026-11-05T14:27-05:00"
+  "devpost:31974": "2026-11-05T14:27-05:00",
+  "eb:2004335494419": "2026-11-05T20:23-05:00",
+  "pucp:presentacion-del-libro-y-la-vida-vencera-estudios-en-homenaje-a-felipe-zegarra-russo-05112026160408": "2026-11-05T20:23-05:00",
+  "eb:2004449804323": "2026-11-05T20:23-05:00"
  }
 }
