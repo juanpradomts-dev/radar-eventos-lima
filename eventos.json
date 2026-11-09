@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T19:30-05:00",
+ "actualizado": "2026-11-09T05:50-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,11 +7,11 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 38
+   "n": 37
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 16
+   "n": 19
   },
   "Meetup": {
    "ok": true,
@@ -31,8 +31,7 @@
   },
   "WikiCFP": {
    "ok": true,
-   "n": 91,
-   "cache": "2026-11-04T14:15-05:00"
+   "n": 92
   },
   "Opportunity Desk": {
    "ok": true,
@@ -60,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 334,
+ "revisados": 337,
  "top": 55,
  "eventos": [
   {
@@ -146,34 +145,6 @@
    "puntaje": 15,
    "por_que": "Voluntariado · Evento sin formato claro · Virtual",
    "visto_desde": "2026-10-26T10:47-05:00"
-  },
-  {
-   "id": "wikicfp:202973",
-   "titulo": "DILSCM 2026 : 2026 8th International Academic Conference on Digital and Intelligent Transportation and Logistics Supply Chain Management",
-   "tipo": "call for papers",
-   "inicio": "2026-11-06T00:00-05:00",
-   "fin": "2026-11-08T23:59-05:00",
-   "cierre": "",
-   "lugar": "Jiangmen, China",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202973&copyownerid=163220",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202973&copyownerid=163220",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: 2026 8th International Academic Conference on Digital and Intelligent Transportation and Logistics Supply Chain Management. Lugar: Jiangmen, China. Fechas del congreso: Nov 6, 2026 - Nov 8, 2026.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 17,
-   "afinidad": 26,
-   "puntaje": 43,
-   "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "opportunitydesk:all-for-judges-join-the-od-impact-challenge-2026-global-judging-panel-",
@@ -290,34 +261,6 @@
    "puntaje": 43,
    "por_que": "Formativo · Presencial en Lima · Afín: Becas y posgrado · Universidad",
    "visto_desde": "2026-11-03T20:01-05:00"
-  },
-  {
-   "id": "luma:evt-HA2P4MoqZ6Ly8br",
-   "titulo": "The Hunter Games",
-   "inicio": "2026-11-09T17:00-05:00",
-   "fin": "2026-11-09T19:00-05:00",
-   "lugar": "Rímac, Perú",
-   "distrito": "Rímac",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/3vfk6euj",
-   "fuente": "Luma",
-   "organizador": "LEAD UNI",
-   "descripcion": "Una competencia académica presencial en la que equipos multidisciplinarios de distintas universidades resuelven desafíos técnicos e industriales reales.\nLa competencia se desarrolla en 3 rondas eliminatorias de dificultad progresiva: los equipos analizan casos, presentan sus soluciones contra reloj y responden las preguntas de un jurado experto.🗣️ PÚBLICOEl evento está dirigido a estudiantes de pregrado de todas las facultades de diferentes universidades que buscan reforzar su espíritu analítico y liderazgo que deseen poner a prueba su capacidad de resolución de problemas bajo presión y expandir su red de contactos.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/gq/19d2e6ef-3d2f-4c86-89bd-dd853037ec9b.png",
-   "inscripcion": "https://lu.ma/3vfk6euj",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Competencias y hackathons",
-    "Investigación y ciencia"
-   ],
-   "valor": 33,
-   "afinidad": 11,
-   "puntaje": 44,
-   "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-10-14T14:10-05:00"
   },
   {
    "id": "pucp:jornadas-internacionales-de-derecho-tributario-27102026144057",
@@ -1382,7 +1325,7 @@
    "organizador": "GROW",
    "descripcion": "\"Crece y descubre cómo lograr tus metas\"",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196995808%2F225169246126%2F1%2Foriginal.20261031-185831?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=edf880f2be3394b642b547731c2b0163",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196995808%2F225169246126%2F1%2Foriginal.20261031-185831?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a54f58173eedb4e0f60940777c74200d",
    "inscripcion": "https://www.eventbrite.com.pe/e/conferencia-gratuita-de-liderazgo-cambia-tu-rumbo-tickets-2004170365514",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1396,6 +1339,33 @@
    "puntaje": 36,
    "por_que": "Formativo · Presencial en Lima · Afín: Liderazgo y oratoria · Gratis",
    "visto_desde": "2026-10-31T15:55-05:00"
+  },
+  {
+   "id": "wikicfp:199892",
+   "titulo": "CORAJ 2026 : 4th International Conference on Operations Research and Applications",
+   "tipo": "call for papers",
+   "inicio": "2026-11-14T00:00-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "",
+   "lugar": "Melbourne, Australia",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199892&copyownerid=33993",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199892&copyownerid=33993",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: 4th International Conference on Operations Research and Applications. Lugar: Melbourne, Australia. Fechas del congreso: Nov 14, 2026 - Nov 15, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 17,
+   "afinidad": 12,
+   "puntaje": 29,
+   "por_que": "Formativo · Afín: Investigación · Se postula en línea",
+   "visto_desde": "2026-11-09T05:50-05:00"
   },
   {
    "id": "tedx:69227",
@@ -1839,6 +1809,33 @@
    "visto_desde": "2026-11-07T23:00-05:00"
   },
   {
+   "id": "devpost:31495",
+   "titulo": "IceHacks",
+   "tipo": "hackathon",
+   "inicio": "2026-11-08T00:00-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://icehacks.devpost.com/",
+   "inscripcion": "https://icehacks.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "CodeStarters",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Open Ended. Premios: $17,150.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/491/441/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-09T05:50-05:00"
+  },
+  {
    "id": "devpost:31187",
    "titulo": "STEMergent Hacks 2026",
    "tipo": "hackathon",
@@ -1984,6 +1981,34 @@
     "titulo": "XVIII CONGRESO INTERNACIONAL DE DIRECCIÓN DE PROYECTOS - FUTURE EXPERIENCE SUMMIT 2026"
    },
    "visto_desde": "2026-11-07T12:22-05:00"
+  },
+  {
+   "id": "eb:2004572743036",
+   "titulo": "Webinar: IA para emprendedores",
+   "inicio": "2026-11-16T12:30-05:00",
+   "fin": "2026-11-16T13:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-webinar-ia-para-emprendedores-2004572743036",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-ia-para-emprendedores-2004572743036",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Asociación mentorDay",
+   "descripcion": "Webinar incluido en la edición 114 del Programa de Aceleración de mentorDay dedicado a la IA para emprendedores",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197575903%2F135597904219%2F1%2Foriginal.jpg?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=95ce33c0f189b6cd24de18f8a1896fde",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 16,
+   "puntaje": 39,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Afín: Emprendimiento y finanzas",
+   "visto_desde": "2026-11-09T05:50-05:00"
   },
   {
    "id": "ieee:575172",
@@ -2616,6 +2641,33 @@
    "visto_desde": "2026-10-26T17:14-05:00"
   },
   {
+   "id": "eb:2004573094086",
+   "titulo": "Webinar: Desarrollo Tecnológico",
+   "inicio": "2026-11-19T12:30-05:00",
+   "fin": "2026-11-19T13:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-webinar-desarrollo-tecnologico-2004573094086",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-desarrollo-tecnologico-2004573094086",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Asociación mentorDay",
+   "descripcion": "Webinar incluido en la edición 114 del Programa de Aceleración de mentorDay dedicado al Desarrollo Tecnológico",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197576795%2F135597904219%2F1%2Foriginal.jpg?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=1d8ef06aad8b95db875b02e346dc5e22",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-11-09T05:50-05:00"
+  },
+  {
    "id": "pucp:activacion-zona-zen-encuentra-el-equilibrio-en-tus-examenes",
    "titulo": "Activación Zona Zen: encuentra el equilibrio en tus exámenes",
    "inicio": "2026-11-19T12:30-05:00",
@@ -2992,7 +3044,7 @@
    "organizador": "AccessEDnpo",
    "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Social Good. Premios: $225.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/624/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/825/268/datas/medium_square.png",
    "categorias": [
     "Competencias y hackathons"
    ],
@@ -3368,6 +3420,34 @@
    "visto_desde": "2026-11-04T20:19-05:00"
   },
   {
+   "id": "eb:2004573463190",
+   "titulo": "Webinar: Haz que tu empresa sea más Sostenible",
+   "inicio": "2026-11-24T11:30-05:00",
+   "fin": "2026-11-24T12:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.es/e/entradas-webinar-haz-que-tu-empresa-sea-mas-sostenible-2004573463190",
+   "inscripcion": "https://www.eventbrite.es/e/entradas-webinar-haz-que-tu-empresa-sea-mas-sostenible-2004573463190",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Aceleradora mentorDay",
+   "descripcion": "Webinar incluido en la edición 114 del Programa de Aceleración de mentorDay",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197577568%2F135597904219%2F1%2Foriginal.jpg?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=05060dabaa34773c6bfddcaa8b0811bf",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-11-09T05:50-05:00"
+  },
+  {
    "id": "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214",
    "titulo": "¿Qué necesito para presentar mi proyecto ante uno de los Comités de Ética de la Investigación PUCP?",
    "inicio": "2026-11-24T12:00-05:00",
@@ -3465,7 +3545,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=98149458ee473e40a1f608f81046be95",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4332,7 +4412,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4583,7 +4663,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Seguimos investigando y desmontando mitos en módulos fotovoltaicos, inversores, conectores, baterías...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e94d68edf0e8e80f19705b83ce8b46fe",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=138ccd8bf2b4a17674be988bbf795218",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4846,6 +4926,33 @@
    "puntaje": 48,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-02T16:18-05:00"
+  },
+  {
+   "id": "devpost:32060",
+   "titulo": "Silicon Valley Buildathon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-08T00:00-05:00",
+   "fin": "2026-12-15T23:59-05:00",
+   "cierre": "2026-12-15T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://silicon-valley-buildathon.devpost.com/",
+   "inscripcion": "https://silicon-valley-buildathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Silicon Hacks Team",
+   "descripcion": "Hackathon online. Temas: Open Ended, Beginner Friendly, Low/No Code. Premios: $500.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/825/168/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-09T05:50-05:00"
   },
   {
    "id": "devpost:31480",
@@ -6304,33 +6411,6 @@
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
-   "id": "wikicfp:170786",
-   "titulo": "ECMS 2023 : 37th International ECMS Conference on Modelling and Simulation",
-   "tipo": "call for papers",
-   "inicio": "2023-06-20T00:00-05:00",
-   "fin": "2023-06-23T23:59-05:00",
-   "cierre": "",
-   "lugar": "Florence (Italy)",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170786&copyownerid=160874",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170786&copyownerid=160874",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: 37th International ECMS Conference on Modelling and Simulation. Lugar: Florence (Italy). Fechas del congreso: Jun 20, 2023 - Jun 23, 2023.",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "congreso ya realizado",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 17,
-   "afinidad": 20,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
-  },
-  {
    "id": "wikicfp:171176",
    "titulo": "Autotestcon 2023 : Autotestcon 2023",
    "tipo": "call for papers",
@@ -6494,34 +6574,6 @@
    "afinidad": 12,
    "puntaje": 29,
    "por_que": "Formativo · Afín: Investigación · Se postula en línea"
-  },
-  {
-   "id": "wikicfp:180864",
-   "titulo": "PPMSA@IDEAL 2024 : Special Session on Predictive and Prescriptive Models for Smart Cities’ Applications at the 25th International Conference on Intelligent Data Engineering and Automated Learning",
-   "tipo": "call for papers",
-   "inicio": "2024-11-20T00:00-05:00",
-   "fin": "2024-11-22T23:59-05:00",
-   "cierre": "",
-   "lugar": "Valencia, Spain",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=180864&copyownerid=187594",
-   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=180864&copyownerid=187594",
-   "fuente": "WikiCFP",
-   "fuente_url": "http://www.wikicfp.com/cfp/",
-   "organizador": "",
-   "descripcion": "Call for papers: Special Session on Predictive and Prescriptive Models for Smart Cities’ Applications at the 25th International Conference on Intelligent Data Engineering and Automated Learning. Lugar: Valencia, Spain. Fechas del congreso: Nov 20, 2024 - Nov 22, 2024.",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "congreso ya realizado",
-   "categorias": [
-    "Datos y analítica",
-    "Investigación y ciencia"
-   ],
-   "valor": 17,
-   "afinidad": 26,
-   "puntaje": 43,
-   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
    "id": "wikicfp:184780",
@@ -7208,6 +7260,61 @@
    "por_que": "Afín: Datos y machine learning · Formativo · Afín: Investigación · Se postula en línea"
   },
   {
+   "id": "wikicfp:190662",
+   "titulo": "IEEE ICTLE 2026 : IEEE--2026 14th International Conference on Traffic and Logistics Engineering (ICTLE 2026)",
+   "tipo": "call for papers",
+   "inicio": "2026-08-21T00:00-05:00",
+   "fin": "2026-08-23T23:59-05:00",
+   "cierre": "",
+   "lugar": "Macau, China",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=190662&copyownerid=13881",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=190662&copyownerid=13881",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: IEEE--2026 14th International Conference on Traffic and Logistics Engineering (ICTLE 2026). Lugar: Macau, China. Fechas del congreso: Aug 21, 2026 - Aug 23, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "congreso ya realizado",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 24,
+   "afinidad": 26,
+   "puntaje": 50,
+   "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Gremio o institución"
+  },
+  {
+   "id": "wikicfp:190660",
+   "titulo": "IEEE ICIIL 2026 : IEEE--2026 12th International Conference on Innovation and Industrial Logistics (ICIIL 2026)",
+   "tipo": "call for papers",
+   "inicio": "2026-08-21T00:00-05:00",
+   "fin": "2026-08-23T23:59-05:00",
+   "cierre": "",
+   "lugar": "Macau, China",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=190660&copyownerid=13881",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=190660&copyownerid=13881",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: IEEE--2026 12th International Conference on Innovation and Industrial Logistics (ICIIL 2026). Lugar: Macau, China. Fechas del congreso: Aug 21, 2026 - Aug 23, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "congreso ya realizado",
+   "categorias": [
+    "Ingeniería y operaciones",
+    "Investigación y ciencia"
+   ],
+   "valor": 24,
+   "afinidad": 26,
+   "puntaje": 50,
+   "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Gremio o institución"
+  },
+  {
    "id": "wikicfp:192606",
    "titulo": "AI4RAILS 2026 : 7th International Workshop on Artificial Intelligence for Railways",
    "tipo": "call for papers",
@@ -7592,6 +7699,34 @@
    "por_que": "Formativo · Afín: Investigación · Se postula en línea"
   },
   {
+   "id": "wikicfp:202973",
+   "titulo": "DILSCM 2026 : 2026 8th International Academic Conference on Digital and Intelligent Transportation and Logistics Supply Chain Management",
+   "tipo": "call for papers",
+   "inicio": "2026-11-06T00:00-05:00",
+   "fin": "2026-11-08T23:59-05:00",
+   "cierre": "",
+   "lugar": "Jiangmen, China",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202973&copyownerid=163220",
+   "inscripcion": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202973&copyownerid=163220",
+   "fuente": "WikiCFP",
+   "fuente_url": "http://www.wikicfp.com/cfp/",
+   "organizador": "",
+   "descripcion": "Call for papers: 2026 8th International Academic Conference on Digital and Intelligent Transportation and Logistics Supply Chain Management. Lugar: Jiangmen, China. Fechas del congreso: Nov 6, 2026 - Nov 8, 2026.",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "congreso ya realizado",
+   "categorias": [
+    "Investigación y ciencia",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 17,
+   "afinidad": 26,
+   "puntaje": 43,
+   "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea"
+  },
+  {
    "id": "insc:5172781fb296",
    "titulo": "CientíficaMUN 2026: Inscripción de Delegaciones",
    "tipo": "convocatoria",
@@ -7619,45 +7754,20 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:1977084121830",
-   "titulo": "Feria Expotextil Perú",
-   "inicio": "2026-11-08T16:00-05:00",
-   "fin": "2026-11-08T20:30-05:00",
-   "lugar": "Centro de Exposiciones Jockey, Centro de Exposiciones Jockey",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084121830",
-   "fuente": "Eventbrite",
-   "organizador": "Concepto 360 SAC",
-   "descripcion": "Feria Internacional de Proveedores de la Industria Textil y Confecciones.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172407105%2F2985592953560%2F1%2Foriginal.20251205-192725?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ecf2b82e33fcfea75fb6c33f359c2463",
-   "inscripcion": "https://www.eventbrite.com/e/feria-expotextil-peru-tickets-1977084121830",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis"
-  },
-  {
-   "id": "eb:2004335835439",
+   "id": "eb:2004335837445",
    "titulo": "The Only Fre Food Tasting Tours in Lima",
-   "inicio": "2026-11-08T18:00-05:00",
-   "fin": "2026-11-08T19:30-05:00",
+   "inicio": "2026-11-09T17:00-05:00",
+   "fin": "2026-11-09T18:30-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335835439",
+   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335837445",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
    "gratis": false,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
-   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335835439",
+   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335837445",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8056,7 +8166,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61d4d0a20688a44f11b8895fa422b992",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254436461",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8564,6 +8674,31 @@
    "por_que": "Networking · Presencial en Lima · Universidad"
   },
   {
+   "id": "luma:evt-ZqKEc47VofOeogB",
+   "titulo": "Desayuno & Taller de Skincare",
+   "inicio": "2026-11-14T10:00-05:00",
+   "fin": "2026-11-14T12:00-05:00",
+   "lugar": "Av. Sta. Cruz 381, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/je74a7jj",
+   "fuente": "Luma",
+   "organizador": "Lou Botanicals",
+   "descripcion": "https://www.loubotanicals.pe/",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/n7/5c7c5498-c3dd-4a14-a7f1-29beebd015c8.png",
+   "inscripcion": "https://lu.ma/je74a7jj",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (skincare)",
+   "categorias": [],
+   "valor": 28,
+   "afinidad": 0,
+   "puntaje": 28,
+   "por_que": "Formativo · Presencial en Lima · Gratis"
+  },
+  {
    "id": "luma:evt-UUAgJL3T3e9ikwj",
    "titulo": "Desayuno & Taller de Skincare",
    "inicio": "2026-11-21T08:30-05:00",
@@ -8614,20 +8749,20 @@
    "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
-   "id": "eb:2004334209576",
+   "id": "eb:2004334211582",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-08T18:00-05:00",
-   "fin": "2026-11-08T19:30-05:00",
+   "inicio": "2026-11-09T18:00-05:00",
+   "fin": "2026-11-09T19:30-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334209576",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334211582",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334209576",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334211582",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8777,33 +8912,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31912",
-   "titulo": "WWC Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-11-03T00:00-05:00",
-   "fin": "2026-11-09T23:59-05:00",
-   "cierre": "2026-11-09T23:59-05:00",
-   "lugar": "Fiji",
-   "distrito": "Fiji",
-   "modalidad": "Presencial",
-   "url": "https://wwc-hackathon.devpost.com/",
-   "inscripcion": "https://wwc-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "School",
-   "descripcion": "Hackathon presencial en Fiji. Temas: Gaming. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 9,
-   "puntaje": 25,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31890",
    "titulo": "Blockchain Innovation Challenge powered by Stellar",
    "tipo": "hackathon",
@@ -8856,33 +8964,6 @@
    "valor": 19,
    "afinidad": 9,
    "puntaje": 28,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:31991",
-   "titulo": "iOSC Hackathon: Fall 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-08T00:00-05:00",
-   "fin": "2026-11-08T23:59-05:00",
-   "cierre": "2026-11-08T23:59-05:00",
-   "lugar": "SOS B44",
-   "distrito": "SOS B44",
-   "modalidad": "Presencial",
-   "url": "https://iosc-end-of-semester-hackathon.devpost.com/",
-   "inscripcion": "https://iosc-end-of-semester-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "iOSC",
-   "descripcion": "Hackathon presencial en SOS B44. Temas: Mobile, AR/VR, Open Ended. Premios: $100.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/808/042/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 9,
-   "puntaje": 25,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
@@ -9388,8 +9469,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-08T19:29-05:00",
-  "revisados": 209,
+  "fecha": "2026-11-09T05:50-05:00",
+  "revisados": 213,
   "corregidos": 11,
   "avisos": 1,
   "archivados": 5,
@@ -9532,7 +9613,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 6,
+   "comprobados": 10,
    "rotos": 4,
    "sin_comprobar": 5
   },
@@ -9548,11 +9629,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Lima Lee 2026: diez días de feria del libro en el Museo Metropolitano",
-   "url": "https://peru21.pe/cultura/lima-lee-2026-diez-dias-de-feria-del-libro-en-el-museo-metropolitano/",
-   "medio": "Perú.21",
-   "publicado": "Sun, 11 Oct 2026 00:06:00 GMT",
-   "resumen": "Feria del libro tendrá más de 40 stands y alrededor de 70 actividades. Reunirá a editoriales, librerías y autores.",
+   "titulo": "Riesgos, inteligencia artificial y arbitraje: el XII Foro Gerencias Legales Lima 2026 marca la agenda de los General Counsel de la región",
+   "url": "https://estadodiario.com/noticias/riesgos-inteligencia-artificial-y-arbitraje-el-xii-foro-gerencias-legales-lima-2026-marca-la-agenda-de-los-general-counsel-de-la-region/",
+   "medio": "EstadoDiario",
+   "publicado": "Fri, 06 Nov 2026 05:47:00 GMT",
+   "resumen": "Líderes jurídicos, General Counsel y responsables legales y de cumplimiento de compañías con operaciones en Perú, Colombia, México y Estados Unidos se dieron cita en el XII Foro Gerencias Legales Lima ...",
    "fecha_mencionada": ""
   },
   {
@@ -9580,19 +9661,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "IA en las empresas: lo que dejó el Digital & AI Summit de NTT Data en Lima",
-   "url": "https://gestion.pe/economia/empresas/el-digital-ai-summit-de-ntt-data-reunio-a-lideres-en-lima-para-debatir-el-impacto-de-la-ia-en-las-empresas-noticia/",
-   "medio": "gestion",
-   "publicado": "Fri, 01 May 2026 04:31:00 GMT",
-   "resumen": "El Digital & AI Summit Lima 2026, organizado por NTT Data, se realizó este martes 28 en el Centro de Convenciones de Lima y reunió a ejecutivos, expertos tecnológicos y líderes empresariales ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
    "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
    "medio": "DiarioBitcoin",
    "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
    "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "IA en las empresas: lo que dejó el Digital & AI Summit de NTT Data en Lima",
+   "url": "https://gestion.pe/economia/empresas/el-digital-ai-summit-de-ntt-data-reunio-a-lideres-en-lima-para-debatir-el-impacto-de-la-ia-en-las-empresas-noticia/",
+   "medio": "gestion",
+   "publicado": "Fri, 01 May 2026 04:31:00 GMT",
+   "resumen": "El Digital & AI Summit Lima 2026, organizado por NTT Data, se realizó este martes 28 en el Centro de Convenciones de Lima y reunió a ejecutivos, expertos tecnológicos y líderes empresariales ...",
    "fecha_mencionada": ""
   },
   {
@@ -9604,11 +9685,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "LATAM Media Leaders Summit 2026: repasa las mejores imágenes que dejó el primer día del evento",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-las-mejores-imagenes-que-dejo-el-primer-dia-del-evento-apuesplan-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Wed, 16 Sep 2026 02:19:00 GMT",
-   "resumen": "Líderes de medios de América Latina y otros países se reunieron este martes 15 setiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. Pregúntale a Merlín IA ...",
+   "titulo": "Lima Lee 2026: diez días de feria del libro en el Museo Metropolitano",
+   "url": "https://peru21.pe/cultura/lima-lee-2026-diez-dias-de-feria-del-libro-en-el-museo-metropolitano/",
+   "medio": "Perú.21",
+   "publicado": "Sun, 11 Oct 2026 00:06:00 GMT",
+   "resumen": "Feria del libro tendrá más de 40 stands y alrededor de 70 actividades. Reunirá a editoriales, librerías y autores.",
    "fecha_mencionada": ""
   },
   {
@@ -9822,7 +9903,6 @@
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00",
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
-  "wikicfp:202973": "2026-09-26T08:43-05:00",
   "tedx:70101": "2026-09-26T08:43-05:00",
   "tedx:69227": "2026-09-26T08:43-05:00",
   "tedx:68902": "2026-09-26T08:43-05:00",
@@ -9877,7 +9957,6 @@
   "luma:evt-jfsSWBTWWcWlJEa": "2026-10-12T09:14-05:00",
   "tedx:70615": "2026-10-13T08:24-05:00",
   "tedx:70296": "2026-10-13T08:24-05:00",
-  "luma:evt-HA2P4MoqZ6Ly8br": "2026-10-14T14:10-05:00",
   "eb:2003426586852": "2026-10-14T14:10-05:00",
   "pucp:quinto-reto-de-innovacion-ambiental-14102026121313": "2026-10-14T18:38-05:00",
   "eb:2003441279799": "2026-10-15T02:57-05:00",
@@ -10025,6 +10104,12 @@
   "inst:c-mara-de-comercio-americana-del-per-ciclo-sunafil-cumplimie:2026-11-10": "2026-11-08T19:30-05:00",
   "eb:2004554970879": "2026-11-08T19:30-05:00",
   "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-11-08T19:30-05:00",
-  "devpost:31974": "2026-11-08T19:30-05:00"
+  "devpost:31974": "2026-11-08T19:30-05:00",
+  "wikicfp:199892": "2026-11-09T05:50-05:00",
+  "devpost:31495": "2026-11-09T05:50-05:00",
+  "eb:2004572743036": "2026-11-09T05:50-05:00",
+  "eb:2004573094086": "2026-11-09T05:50-05:00",
+  "eb:2004573463190": "2026-11-09T05:50-05:00",
+  "devpost:32060": "2026-11-09T05:50-05:00"
  }
 }
