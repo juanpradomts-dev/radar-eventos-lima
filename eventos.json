@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T00:42-05:00",
+ "actualizado": "2026-11-10T09:10-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -463,34 +463,6 @@
    "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
-   "id": "devpost:31060",
-   "titulo": "Agentic Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-11-01T00:00-05:00",
-   "fin": "2026-11-10T23:59-05:00",
-   "cierre": "2026-11-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://agentic-hackathon.devpost.com/",
-   "inscripcion": "https://agentic-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Devin",
-   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended, Web. Premios: $480.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/139/026/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 29,
-   "puntaje": 48,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-31T22:54-05:00"
-  },
-  {
    "id": "devpost:31831",
    "titulo": "Ctrl+V Hackathon",
    "tipo": "hackathon",
@@ -548,33 +520,6 @@
     "titulo": "DATANOVA 2026 GLOBAL DATA-THON"
    },
    "visto_desde": "2026-10-26T10:47-05:00"
-  },
-  {
-   "id": "devpost:32023",
-   "titulo": "IBM Db2Hack 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-05T00:00-05:00",
-   "fin": "2026-11-10T23:59-05:00",
-   "cierre": "2026-11-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://ibm-db2hack-2026.devpost.com/",
-   "inscripcion": "https://ibm-db2hack-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "IBM",
-   "descripcion": "Hackathon online. Temas: Databases. Premios: ₹ 0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/792/503/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 24,
-   "afinidad": 6,
-   "puntaje": 30,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Empresa reconocida · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-08T14:21-05:00"
   },
   {
    "id": "tedx:70101",
@@ -673,7 +618,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "En este webinar gratuito juntamos tres miradas que casi nunca se sientan en la misma mesa: Recursos Humanos, marketing e IA",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197050657%2F257811272973%2F1%2Foriginal.20261102-020429?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=12b93cc4289b7352df461240dfaf2652",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197050657%2F257811272973%2F1%2Foriginal.20261102-020429?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=50ad80577735c9cd73a6b08120b24aed",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -713,6 +658,34 @@
    "puntaje": 53,
    "por_que": "Formativo · Afín: Inteligencia artificial · Afín: Investigación · Universidad",
    "visto_desde": "2026-11-02T16:18-05:00"
+  },
+  {
+   "id": "devpost:31060",
+   "titulo": "Agentic Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-11-11T23:59-05:00",
+   "cierre": "2026-11-11T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://agentic-hackathon.devpost.com/",
+   "inscripcion": "https://agentic-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Devin",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended, Web. Premios: $480.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/139/026/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 29,
+   "puntaje": 48,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-31T22:54-05:00"
   },
   {
    "id": "ieee:561590",
@@ -3634,7 +3607,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=98149458ee473e40a1f608f81046be95",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3778,7 +3751,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=84a90458746b7a4829bbf2d1b1f297ae",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4604,34 +4577,6 @@
    "visto_desde": "2026-11-06T13:51-05:00"
   },
   {
-   "id": "opportunitydesk:tydesk-org-2026-11-07-mcw-global-young-leaders-fellowship-2027-funded-",
-   "titulo": "MCW Global Young Leaders Fellowship 2027 (Funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-03T23:59-05:00",
-   "fin": "2026-12-03T23:59-05:00",
-   "cierre": "2026-12-03T23:59-05:00",
-   "publicado": "2026-11-07T17:14-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 3, 2026 Applications are open for the MCW Global Young Leaders Fellowship 2027. The Fellowship Program aims to mobilize young people with the skills and resources needed to create and implement vision plans in the areas of education, health, and economic security. MCW Global’s Young Leaders Fellowship begins with the Community Needs Assessment [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-07T23:00-05:00"
-  },
-  {
    "id": "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04",
    "titulo": "EdTech Hub",
    "tipo": "evento",
@@ -4746,6 +4691,34 @@
    "visto_desde": "2026-11-08T14:21-05:00"
   },
   {
+   "id": "opportunitydesk:rtunitydesk-org-2026-11-10-obama-foundation-leaders-program-2027-2028-",
+   "titulo": "Obama Foundation Leaders Program 2027-2028",
+   "tipo": "convocatoria",
+   "inicio": "2026-12-04T23:59-05:00",
+   "fin": "2026-12-04T23:59-05:00",
+   "cierre": "2026-12-04T23:59-05:00",
+   "publicado": "2026-11-10T07:52-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/10/obama-foundation-leaders-program-2027-2028/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/10/obama-foundation-leaders-program-2027-2028/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: December 4, 2026 Applications are open for the Obama Foundation Leaders Program 2027-2028. The Obama Foundation Leaders Program is an eight-month, global virtual leadership development journey. Designed for changemakers aged 24 to 45 across various sectors, the program brings together diverse cohorts to collaborate, share insights, and strengthen their values-based leadership. The program is [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-10T09:10-05:00"
+  },
+  {
    "id": "ieee:581586",
    "titulo": "WIE UNAJ Social Innovation Hackathon",
    "inicio": "2026-12-05T09:00-05:00",
@@ -4856,6 +4829,34 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-08T07:41-05:00"
+  },
+  {
+   "id": "devpost:31973",
+   "titulo": "Deck the Pixels",
+   "tipo": "hackathon",
+   "inicio": "2026-11-10T00:00-05:00",
+   "fin": "2026-12-07T23:59-05:00",
+   "cierre": "2026-12-07T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://deckthepixels.devpost.com/",
+   "inscripcion": "https://deckthepixels.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Google",
+   "descripcion": "Hackathon online. Temas: Design, Machine Learning/AI, Low/No Code. Premios: $25,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/779/699/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 24,
+   "afinidad": 26,
+   "puntaje": 50,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-10T09:10-05:00"
   },
   {
    "id": "eb:2003710622410",
@@ -5664,34 +5665,6 @@
    "puntaje": 25,
    "por_que": "Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-09-generation-regen-challenge-2027-",
-   "titulo": "Generation Regen Challenge to Attend the One Young World Summit 2027 (Fully-funded)",
-   "tipo": "convocatoria",
-   "inicio": "2027-02-24T23:59-05:00",
-   "fin": "2027-02-24T23:59-05:00",
-   "cierre": "2027-02-24T23:59-05:00",
-   "publicado": "2026-11-09T07:43-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/09/generation-regen-challenge-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/09/generation-regen-challenge-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: February 24, 2027 Applications are open for the Generation Regen Challenge 2027. Agriculture is a cornerstone of economic resilience in Canada, the U.S., contributing significantly to GDP, supporting millions of jobs, and playing a vital role in global food security. As the sector evolves, regenerative agriculture is emerging as a powerful climate-smart approach to [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 20,
-   "afinidad": 9,
-   "puntaje": 29,
-   "por_que": "Abre puertas (beca/programa) · Afín: Competencias · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-09T16:52-05:00"
   },
   {
    "id": "wikicfp:201347",
@@ -9041,6 +9014,34 @@
    "por_que": "Abre puertas (beca/programa) · Se postula en línea"
   },
   {
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-10-cactus-internship-program-2027-",
+   "titulo": "Computation & Cognition Tübingen Summer (CaCTüS) Internship Program 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-16T23:59-05:00",
+   "fin": "2026-11-16T23:59-05:00",
+   "cierre": "2026-11-16T23:59-05:00",
+   "publicado": "2026-11-10T08:25-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/10/cactus-internship-program-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/10/cactus-internship-program-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 16, 2026 Applications are open for the Computation & Cognition Tübingen Summer (CaCTüS) Internship Program 2027. The CaCTüS Internship program aims to boost the careers of talented students who experience significant difficulties in their pursuit of higher education and scientific",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea"
+  },
+  {
    "id": "wikicfp:194196",
    "titulo": "IJMVSC 2026 : The International Journal of Managing Value and Supply Chains",
    "tipo": "call for papers",
@@ -9710,8 +9711,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-10T00:41-05:00",
-  "revisados": 220,
+  "fecha": "2026-11-10T09:10-05:00",
+  "revisados": 219,
   "corregidos": 13,
   "avisos": 1,
   "archivados": 4,
@@ -9862,9 +9863,9 @@
    }
   ],
   "enlaces": {
-   "comprobados": 29,
+   "comprobados": 35,
    "rotos": 3,
-   "sin_comprobar": 5
+   "sin_comprobar": 3
   },
   "fuentes_a_revisar": []
  },
@@ -9939,6 +9940,14 @@
    "medio": "Perú.21",
    "publicado": "Sun, 11 Oct 2026 00:06:00 GMT",
    "resumen": "Feria del libro tendrá más de 40 stands y alrededor de 70 actividades. Reunirá a editoriales, librerías y autores.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Lima acogerá la Feria del Libro Ricardo Palma con actividades culturales y literarias",
+   "url": "https://www.diariolibre.com/revista/cultura/2026/11/10/autores-internacionales-en-la-feria-del-libro-ricardo-palma/3716283",
+   "medio": "Diario Libre",
+   "publicado": "Mon, 09 Nov 2026 23:48:00 GMT",
+   "resumen": "La feria homenajeará a figuras destacadas como Harry Belevan y Federico Kauffmann Doig, además de incluir actividades para toda la familia ...",
    "fecha_mencionada": ""
   },
   {
@@ -10335,10 +10344,8 @@
   "pucp:primer-intercambio-de-experiencias-sobre-vinculacion-e-impacto-social-de-la-investigacion-2026-06112026130501": "2026-11-06T19:38-05:00",
   "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16": "2026-11-07T12:22-05:00",
   "luma:evt-vOSTaDMFpsEOUdc": "2026-11-07T23:00-05:00",
-  "opportunitydesk:tydesk-org-2026-11-07-mcw-global-young-leaders-fellowship-2027-funded-": "2026-11-07T23:00-05:00",
   "luma:evt-GU3iJqrB6BRKcNQ": "2026-11-08T07:41-05:00",
   "devpost:31972": "2026-11-08T07:41-05:00",
-  "devpost:32023": "2026-11-08T14:21-05:00",
   "devpost:31504": "2026-11-08T14:21-05:00",
   "devpost:31733": "2026-11-08T14:21-05:00",
   "devpost:31993": "2026-11-08T14:21-05:00",
@@ -10367,12 +10374,13 @@
   "luma:evt-I4mWZZwvfYsGvZ9": "2026-11-09T16:52-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-11-09-icann-fellowship-program-2027-": "2026-11-09T16:52-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-11-09-qnx-global-hackathon-2026-": "2026-11-09T16:52-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-11-09-generation-regen-challenge-2027-": "2026-11-09T16:52-05:00",
   "inst:sni-webinar-tratamiento-de-las-sanciones-a-los-trabajadores-:2026-11-19": "2026-11-10T00:42-05:00",
   "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26": "2026-11-10T00:42-05:00",
   "meetup:317363284": "2026-11-10T00:42-05:00",
   "luma:evt-LYBDdhSpzrtFOhZ": "2026-11-10T00:42-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04": "2026-11-10T00:42-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11": "2026-11-10T00:42-05:00"
+  "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11": "2026-11-10T00:42-05:00",
+  "opportunitydesk:rtunitydesk-org-2026-11-10-obama-foundation-leaders-program-2027-2028-": "2026-11-10T09:10-05:00",
+  "devpost:31973": "2026-11-10T09:10-05:00"
  }
 }
