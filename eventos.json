@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-10T23:15-05:00",
+ "actualizado": "2026-11-11T08:26-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 46
+   "n": 47
   },
   "Eventbrite": {
    "ok": true,
@@ -44,11 +44,11 @@
   },
   "TEDx": {
    "ok": true,
-   "n": 6
+   "n": 5
   },
   "Institucionales": {
    "ok": true,
-   "n": 14
+   "n": 16
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 343,
+ "revisados": 345,
  "top": 55,
  "eventos": [
   {
@@ -145,96 +145,6 @@
    "puntaje": 15,
    "por_que": "Voluntariado · Evento sin formato claro · Virtual",
    "visto_desde": "2026-10-26T10:47-05:00"
-  },
-  {
-   "id": "inst:sni-webinar-procedimiento-legal-para-la-obtenci-n-del-certif:2026-11-10",
-   "titulo": "Webinar: Procedimiento Legal para la Obtención del Certificado de Inspección Técnica de Seguridad en Edificaciones (ITSE)",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-11-10T16:00-05:00",
-   "fin": "",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/Procedimiento-Legal-para-la-Obtencion-del-Certificado-img.jpg",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 30,
-   "afinidad": 0,
-   "puntaje": 30,
-   "por_que": "Formativo · Evento institucional · Virtual · Con certificado",
-   "original": {
-    "fin": "2026-11-10T23:50-05:00"
-   },
-   "visto_desde": "2026-11-01T07:32-05:00"
-  },
-  {
-   "id": "devpost:31664",
-   "titulo": "Herhack",
-   "tipo": "hackathon",
-   "inicio": "2026-10-17T00:00-05:00",
-   "fin": "2026-11-10T23:59-05:00",
-   "cierre": "2026-11-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://herhack.devpost.com/",
-   "inscripcion": "https://herhack.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Echelon institute of technology",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Blockchain, Open Ended. Premios: ₹ 200,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/553/888/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-20T16:10-05:00"
-  },
-  {
-   "id": "tedx:70101",
-   "titulo": "TEDxUPC",
-   "tipo": "evento",
-   "inicio": "2026-11-11T00:00-05:00",
-   "fin": "2026-11-11T00:00-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.ted.com/tedx/events/70101",
-   "inscripcion": "https://www.ted.com/tedx/events/70101",
-   "fuente": "TEDx",
-   "fuente_url": "https://www.ted.com/tedx/events",
-   "organizador": "TEDxUPC",
-   "descripcion": "Evento TEDx (University) en Lima. Disponibilidad: SPACESAVAILABLE.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Presencial en Lima · Universidad · Evento sin formato claro",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "luma:evt-44EWZHXnEjegUhA",
@@ -429,33 +339,6 @@
    "puntaje": 28,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-10T16:11-05:00"
-  },
-  {
-   "id": "devpost:32023",
-   "titulo": "IBM Db2Hack 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-05T00:00-05:00",
-   "fin": "2026-11-11T23:59-05:00",
-   "cierre": "2026-11-11T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://ibm-db2hack-2026.devpost.com/",
-   "inscripcion": "https://ibm-db2hack-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "IBM",
-   "descripcion": "Hackathon online. Temas: Databases. Premios: ₹ 0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/792/503/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 24,
-   "afinidad": 6,
-   "puntaje": 30,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Empresa reconocida · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-10T23:15-05:00"
   },
   {
    "id": "ieee:561590",
@@ -816,7 +699,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-1-tickets-2003540173593",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1258,7 +1141,7 @@
    "organizador": "Black Alpaca Security Conference",
    "descripcion": "A kickass cybersecurity conference for curious minds eager to explore, learn, and connect in a dynamic and engaging setting!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=939cdadc208e59fccb14818e6d0b5174",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61f15a6eaea1039e54e14a0afa2120e8",
    "inscripcion": "https://www.eventbrite.com.pe/e/black-alpaca-security-conference-2026-tickets-2000906328692",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1285,7 +1168,7 @@
    "organizador": "GDG Lima",
    "descripcion": "DevFest Lima 2026 es la conferencia tecnológica más importante organizada por Google Developer Group (GDG) Lima, como parte de la iniciativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=764db20b13f7caede2fa09b7c43ec7d6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195952922%2F69190952881%2F1%2Foriginal.20261016-155646?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a50a384859c8310d1296d287420fb7d3",
    "inscripcion": "https://www.eventbrite.es/e/devfest-lima-dia-2-tickets-2003510824810",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1480,7 +1363,7 @@
    "organizador": "Greenfield Group",
    "descripcion": "Aprende IA aplicada a la gestión empresarial desde cero. Evento online para estudiantes y principiantes: sin experiencia, solo curiosad.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=204f7508913023a35994629699d28c49",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195939301%2F3017938882127%2F1%2Foriginal.20261016-125155?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.478&s=b5cae151eb882dd4bd13662e799440c6",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1522,33 +1405,6 @@
    "visto_desde": "2026-11-08T19:30-05:00"
   },
   {
-   "id": "eb:2004692185291",
-   "titulo": "Voluntariado con niños y adultos mayores en Callao",
-   "inicio": "2026-11-14T14:00-05:00",
-   "fin": "2026-11-14T16:00-05:00",
-   "lugar": "Las Dalias 156, 156 Las Dalias",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692185291",
-   "fuente": "Eventbrite",
-   "organizador": "Huellas ONG",
-   "descripcion": "Brinda un rato de tu fin de semana para combatir la soledad con juegos y sonrisas junto a abuelos y niños en esta actividad presencial.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738082%2F1082019636043%2F1%2Foriginal.20261111-023137?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533&fp-y=0.399&s=9429659e7fb17dff1504ac44440f8c4e",
-   "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692185291",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-11-10T23:15-05:00"
-  },
-  {
    "id": "eb:2004692295621",
    "titulo": "Voluntariado con niños y abuelos en San Miguel",
    "inicio": "2026-11-14T14:00-05:00",
@@ -1576,6 +1432,33 @@
    "visto_desde": "2026-11-10T23:15-05:00"
   },
   {
+   "id": "eb:2004692185291",
+   "titulo": "Voluntariado con niños y adultos mayores en Callao",
+   "inicio": "2026-11-14T14:00-05:00",
+   "fin": "2026-11-14T16:00-05:00",
+   "lugar": "Las Dalias 156, 156 Las Dalias",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692185291",
+   "fuente": "Eventbrite",
+   "organizador": "Huellas ONG",
+   "descripcion": "Brinda un rato de tu fin de semana para combatir la soledad con juegos y sonrisas junto a abuelos y niños en esta actividad presencial.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738082%2F1082019636043%2F1%2Foriginal.20261111-023137?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533&fp-y=0.399&s=9429659e7fb17dff1504ac44440f8c4e",
+   "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692185291",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-11-10T23:15-05:00"
+  },
+  {
    "id": "eb:2004692050889",
    "titulo": "Voluntariado con abuelos y niños en Miraflores",
    "inicio": "2026-11-14T14:00-05:00",
@@ -1588,7 +1471,7 @@
    "organizador": "Huellas ONG",
    "descripcion": "Haz espacio en tu fin de semana para llevar juegos y sonrisas a abuelos y niños que necesitan compañía en este encuentro presencial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197737689%2F1082019636043%2F1%2Foriginal.20261111-022434?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.137&s=e4149a6f8b5bed77b42c40384165bfba",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197737689%2F1082019636043%2F1%2Foriginal.20261111-022434?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.137&s=542dc114a89f262a088ba6b07d7ade06",
    "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-abuelos-y-ninos-en-miraflores-tickets-2004692050889",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1615,7 +1498,7 @@
    "organizador": "Black Alpaca Security Conference",
    "descripcion": "Workshop - Black Alpaca Security Conference",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197565662%2F2780666603701%2F1%2Foriginal.20261109-034946?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a06ccdf558f5f0b347e8b894a4449668",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197565662%2F2780666603701%2F1%2Foriginal.20261109-034946?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e245acea21e051a4b417f4dfd7ccc76d",
    "inscripcion": "https://www.eventbrite.com.pe/e/traffic-analysis-with-burp-suite-and-proxies-tickets-2004567115203",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1827,6 +1710,34 @@
    "visto_desde": "2026-10-18T07:58-05:00"
   },
   {
+   "id": "devpost:31964",
+   "titulo": "DataJam 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-09T00:00-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://datajam-2026.devpost.com/",
+   "inscripcion": "https://datajam-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "SFU Data Science Student Society",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "categorias": [
+    "Datos y analítica",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 18,
+   "puntaje": 37,
+   "por_que": "Competencia · Afín: Datos y machine learning · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-11T08:26-05:00"
+  },
+  {
    "id": "wikicfp:191885",
    "titulo": "GCIE 2026 : Global Conference on Industrial Engineering",
    "tipo": "call for papers",
@@ -2027,6 +1938,36 @@
    "puntaje": 52,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-22T14:04-05:00"
+  },
+  {
+   "id": "luma:evt-HGuqbPD6BINjlNe",
+   "titulo": "Ras Week Edición 2026",
+   "inicio": "2026-11-17T08:00-05:00",
+   "fin": "2026-11-21T19:00-05:00",
+   "lugar": "Santa Anita, Av. Cascanueces 2221, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/srkz7py3",
+   "fuente": "Luma",
+   "organizador": "RAS PERÚ",
+   "descripcion": "🤖⚡ ¡Bienvenido/a a la RAS WEEK 2026!La RAS WEEK es una semana de ponencias, workshops y talleres de robótica y automatización donde los capítulos IEEE RAS de distintas universidades nos reunimos para aprender, compartir y hacer comunidad.¿Qué encontrarás durante la semana?1. Ponencias: charlas de especialistas sobre robótica, automatización e inteligencia artificial.2. Workshops: sesiones prácticas guiadas para aprender nuevas herramientas.3. Talleres: actividades donde pondrás manos a la obra con proyectos reales.📅 Del Martes 17 al Sábado 21 de Noviembre🕐 9 am a 6 pm 📍Martes: (Tecsup)📍Miercoles: (UTEC)📍Jueves: Auditorio FCI (PUCP)📍Viernes: (UPC)📍Sábado:  (URP)⚠️ IMPORTANTE: Llena este formu",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/m9/77daa6ff-3135-4778-8545-547e6a63e0d7.png",
+   "inscripcion": "https://lu.ma/srkz7py3",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA"
+   ],
+   "valor": 34,
+   "afinidad": 8,
+   "puntaje": 42,
+   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Inteligencia artificial · Universidad",
+   "original": {
+    "titulo": "RAS WEEK EDICIÓN 2026"
+   },
+   "visto_desde": "2026-11-11T08:26-05:00"
   },
   {
    "id": "eb:2003163842978",
@@ -3122,7 +3063,7 @@
    "organizador": "",
    "descripcion": "La Casita del Saber es un emprendimiento educativo inclusivo y seguro diseñado para apoyar el aprendizaje de niños con necesidades educativa",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9d41cc27030031b2597aa867399ff43a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195807439%2F3017723940998%2F1%2Foriginal.20261014-190347?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=26732154bc91402cbc52d4dcd72e3e28",
    "inscripcion": "https://www.eventbrite.com/e/la-casita-del-saber-tickets-2003426586852",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3246,6 +3187,37 @@
    "visto_desde": "2026-10-18T15:00-05:00"
   },
   {
+   "id": "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23",
+   "titulo": "Sustainability Immersion Trip: Moving from Concept to Strategy",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-11-23T00:00-05:00",
+   "fin": "2026-11-27T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
+   "inscripcion": "https://amcham.org.pe/evento/amcham-immersion-trip-sostenibilidad-2026-sustainable-development-moving-from-concept-to-strategy/",
+   "fuente": "Institucional",
+   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
+   "organizador": "Cámara de Comercio Americana del Perú",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/08/1-1-scaled.jpg",
+   "extraido_por": "sitemap + fecha en texto",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
+   "visto_desde": "2026-11-11T08:26-05:00"
+  },
+  {
    "id": "eb:2003441279799",
    "titulo": "MECATRONIC PEREZ: Motor fest,",
    "inicio": "2026-11-23T10:00-05:00",
@@ -3330,35 +3302,6 @@
    "puntaje": 32,
    "por_que": "Formativo · Evento institucional · Presencial en Lima",
    "visto_desde": "2026-11-03T15:46-05:00"
-  },
-  {
-   "id": "opportunitydesk:itydesk-org-2026-11-09-morgridge-acceleration-program-fellowship-2027-",
-   "titulo": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-23T23:59-05:00",
-   "fin": "2026-11-23T23:59-05:00",
-   "cierre": "2026-11-23T23:59-05:00",
-   "publicado": "2026-11-09T14:35-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 23, 2026 Applications are open for the Morgridge Acceleration Program (MAP) Fellowship 2027. The Morgridge Acceleration Program (MAP) Fellowship is a six-month consulting and leadership program for early- to mid-career professionals ready to step beyond their day-to-day work and take on something that matters. Selected MAP Fellows are matched one-on-one with an accomplished [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-09T16:52-05:00"
   },
   {
    "id": "luma:evt-kJGSKKnp3sDtGxb",
@@ -4294,6 +4237,35 @@
    "visto_desde": "2026-11-08T14:21-05:00"
   },
   {
+   "id": "opportunitydesk:sk-org-2026-11-11-global-youth-mental-health-research-fellowship-2027-",
+   "titulo": "Global Youth Mental Health Research Fellowship 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-30T23:59-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "publicado": "2026-11-11T01:55-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/11/global-youth-mental-health-research-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/11/global-youth-mental-health-research-fellowship-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 30, 2026 Applications are open for the Global Youth Mental Health Research Fellowship 2027. This fellowship is aimed at identifying emerging leaders in child and adolescent mental health in Pakistan. It provides world-class training, mentorship, networking, and hands-on global mental health research opportunities to early-career professionals from across Pakistan. Fellows are expected to [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional",
+    "Investigación y ciencia"
+   ],
+   "valor": 28,
+   "afinidad": 24,
+   "puntaje": 52,
+   "por_que": "Formativo · Afín: Investigación · Afín: Becas y posgrado · Universidad",
+   "visto_desde": "2026-11-11T08:26-05:00"
+  },
+  {
    "id": "wikicfp:200050",
    "titulo": "ACML 2026 : 18th Asian Conference on Machine Learning",
    "tipo": "call for papers",
@@ -4571,6 +4543,37 @@
    "visto_desde": "2026-11-06T13:51-05:00"
   },
   {
+   "id": "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04",
+   "titulo": "EdTech Hub",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-12-04T00:00-05:00",
+   "fin": "2026-12-04T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://amcham.org.pe/evento/curso-1-introduccion-a-la-ia-moderna/",
+   "inscripcion": "https://amcham.org.pe/evento/curso-1-introduccion-a-la-ia-moderna/",
+   "fuente": "Institucional",
+   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
+   "organizador": "Cámara de Comercio Americana del Perú",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/10/2390_ws.jpg",
+   "extraido_por": "sitemap + fecha en texto",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
+   "visto_desde": "2026-11-11T08:26-05:00"
+  },
+  {
    "id": "devpost:31667",
    "titulo": "Kiroween 2026",
    "tipo": "hackathon",
@@ -4654,34 +4657,6 @@
    "visto_desde": "2026-11-08T14:21-05:00"
   },
   {
-   "id": "opportunitydesk:rtunitydesk-org-2026-11-10-obama-foundation-leaders-program-2027-2028-",
-   "titulo": "Obama Foundation Leaders Program 2027-2028",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-04T23:59-05:00",
-   "fin": "2026-12-04T23:59-05:00",
-   "cierre": "2026-12-04T23:59-05:00",
-   "publicado": "2026-11-10T07:52-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/10/obama-foundation-leaders-program-2027-2028/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/10/obama-foundation-leaders-program-2027-2028/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 4, 2026 Applications are open for the Obama Foundation Leaders Program 2027-2028. The Obama Foundation Leaders Program is an eight-month, global virtual leadership development journey. Designed for changemakers aged 24 to 45 across various sectors, the program brings together diverse cohorts to collaborate, share insights, and strengthen their values-based leadership. The program is [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 0,
-   "puntaje": 20,
-   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-10T09:10-05:00"
-  },
-  {
    "id": "ieee:581586",
    "titulo": "WIE UNAJ Social Innovation Hackathon",
    "inicio": "2026-12-05T09:00-05:00",
@@ -4736,34 +4711,6 @@
    "puntaje": 22,
    "por_que": "Networking · Presencial en Lima · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-10-17T12:44-05:00"
-  },
-  {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-09-icann-fellowship-program-2027-",
-   "titulo": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-05T23:59-05:00",
-   "fin": "2026-12-05T23:59-05:00",
-   "cierre": "2026-12-05T23:59-05:00",
-   "publicado": "2026-11-09T15:06-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 5, 2026 Applications are open for the ICANN Fellowship Program 2027. The goal of the ICANN Fellowship Program is to strengthen the representation of the multistakeholder model by fostering opportunities for individuals from underserved and underrepresented communities to become active participants in the ICANN community. Fellows are exposed to the workings of the [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-09T16:52-05:00"
   },
   {
    "id": "devpost:31973",
@@ -4850,6 +4797,34 @@
    "visto_desde": "2026-11-08T07:41-05:00"
   },
   {
+   "id": "opportunitydesk:sk-org-2026-11-11-commonwealth-shared-scholarship-programme-2027-2028-",
+   "titulo": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded)",
+   "tipo": "convocatoria",
+   "inicio": "2026-12-08T23:59-05:00",
+   "fin": "2026-12-08T23:59-05:00",
+   "cierre": "2026-12-08T23:59-05:00",
+   "publicado": "2026-11-11T01:37-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: December 8, 2026 Applications are open for the Commonwealth Shared Scholarship Programme 2027/2028. The Commonwealth Shared Scholarship programme is one of three Master’s programmes offered by the Commonwealth Scholarship Commission. The Commonwealth Scholarship Commission in the UK (CSC) provides the UK government scholarship scheme led by international development objectives. It operates within the framework [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-11T08:26-05:00"
+  },
+  {
    "id": "eb:2003710622410",
    "titulo": "Otros 10 mitos MÁS sobre la energía solar fotovoltaica",
    "inicio": "2026-12-09T11:00-05:00",
@@ -4903,6 +4878,37 @@
    "puntaje": 49,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-08T14:21-05:00"
+  },
+  {
+   "id": "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11",
+   "titulo": "EdTech Hub",
+   "tipo": "evento",
+   "institucional": true,
+   "escala": "media",
+   "inicio": "2026-12-11T00:00-05:00",
+   "fin": "2026-12-11T23:59-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "ciudad": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://amcham.org.pe/evento/curso-2-aspectos-basicos-de-la-inteligencia-artificial/",
+   "inscripcion": "https://amcham.org.pe/evento/curso-2-aspectos-basicos-de-la-inteligencia-artificial/",
+   "fuente": "Institucional",
+   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
+   "organizador": "Cámara de Comercio Americana del Perú",
+   "descripcion": "",
+   "gratis": null,
+   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/10/2390_ws.jpg",
+   "extraido_por": "sitemap + fecha en texto",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 29,
+   "afinidad": 0,
+   "puntaje": 29,
+   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
+   "visto_desde": "2026-11-11T08:26-05:00"
   },
   {
    "id": "luma:evt-jfsSWBTWWcWlJEa",
@@ -5126,35 +5132,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-09T05:50-05:00"
-  },
-  {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-09-qnx-global-hackathon-2026-",
-   "titulo": "QNX Global Hackathon 2026 ($50,000 in prizes)",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-15T23:59-05:00",
-   "fin": "2026-12-15T23:59-05:00",
-   "cierre": "2026-12-15T23:59-05:00",
-   "publicado": "2026-11-09T15:37-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/09/qnx-global-hackathon-2026/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/09/qnx-global-hackathon-2026/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 15, 2026 Applications are open for the QNX Global Hackathon 2026. For decades, QNX has been running the systems people bet their lives on, from medical devices and factory floors to trains, robots, and more than 275 million vehicles. It guarantees not just that your code runs, but exactly when. Now QNX 8.0 [...]",
-   "gratis": false,
-   "imagen": "",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 24,
-   "afinidad": 9,
-   "puntaje": 33,
-   "por_que": "Abre puertas (beca/programa) · Afín: Competencias · Con premio · Plazo claro",
-   "visto_desde": "2026-11-09T16:52-05:00"
   },
   {
    "id": "devpost:31480",
@@ -5516,6 +5493,34 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "opportunitydesk:ttps-opportunitydesk-org-2026-11-11-pladis-accelerator-programme-2026-",
+   "titulo": "Pladis Accelerator Programme 2026",
+   "tipo": "convocatoria",
+   "inicio": "2027-01-15T23:59-05:00",
+   "fin": "2027-01-15T23:59-05:00",
+   "cierre": "2027-01-15T23:59-05:00",
+   "publicado": "2026-11-11T02:54-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/11/pladis-accelerator-programme-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/11/pladis-accelerator-programme-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: January 15, 2027 Applications are open for the Pladis Accelerator Programme 2026. If you’re building a food, process, or ingredient technology that can make snacking more indulgent yet affordable, healthier, more sustainable, or nutritionally superior, the pladis Accelerator programme is the perfect platform for you. Apply now and earn the opportunity to work with [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-11T08:26-05:00"
   },
   {
    "id": "wikicfp:194517",
@@ -8144,7 +8149,7 @@
    "organizador": "Royal College of Art",
    "descripcion": "Meet the RCA! The world's 1 art & design university, will be visiting Lima",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a745467912e2650f81115e1a74d3bf0a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61b84b8b0476a41d896334a34d974c24",
    "inscripcion": "https://www.eventbrite.co.uk/e/meet-the-royal-college-of-art-in-lima-tickets-2003150172088",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8394,7 +8399,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61d4d0a20688a44f11b8895fa422b992",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254436461",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8444,7 +8449,7 @@
    "organizador": "Ermantourage UK",
    "descripcion": "Connect with other locals over coffee! Meet a new friend in your city. A different cafe each gathering!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=03be7893bd239a257f487229eb5956e9",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa8e3e4933db165428ed9864b11725aa",
    "inscripcion": "https://www.eventbrite.com/e/the-comeunity-project-lima-coffee-with-strangers-tickets-1984736925572",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8683,7 +8688,7 @@
    "organizador": "La Taza Dorada",
    "descripcion": "Taller presencial desde cero: cata acogedora de filtrados y café de especialidad para estudiantes y principiantes.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=75a5a577613699d500dda5f02f40a5ca",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=c9d2eac7df802bab7ce2b846568a74b7",
    "inscripcion": "https://www.eventbrite.com/e/taller-de-cata-de-filtrados-y-cafe-de-especialidad-tickets-2003208116401",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8925,8 +8930,8 @@
    "titulo": "Free Walking Tour of Lima, Perú",
    "inicio": "2026-11-11T18:00-05:00",
    "fin": "2026-11-11T19:30-05:00",
-   "lugar": "McDonald's, 599 Jirón de la Unión",
-   "distrito": "Lima",
+   "lugar": "Tourist Information Center, 799 Avenida José Larco",
+   "distrito": "Miraflores",
    "modalidad": "Presencial",
    "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334215594",
    "fuente": "Eventbrite",
@@ -8946,33 +8951,61 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "opportunitydesk:g-2026-11-09-chatham-house-research-fellow-africa-programme-2026-2027-",
-   "titulo": "Chatham House Research Fellow Africa Programme 2026-2027",
+   "id": "opportunitydesk:rg-2026-11-11-afdb-group-shou-scholarship-masters-degree-program-2027-",
+   "titulo": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027",
    "tipo": "convocatoria",
-   "inicio": "2026-11-09T16:16-05:00",
-   "fin": "2026-11-09T16:16-05:00",
-   "cierre": "",
-   "publicado": "2026-11-09T16:16-05:00",
+   "inicio": "2026-11-17T23:59-05:00",
+   "fin": "2026-11-17T23:59-05:00",
+   "cierre": "2026-11-17T23:59-05:00",
+   "publicado": "2026-11-11T02:35-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/09/chatham-house-research-fellow-africa-programme-2026-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/09/chatham-house-research-fellow-africa-programme-2026-2027/",
+   "url": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
    "fuente": "Opportunity Desk",
    "fuente_url": "https://opportunitydesk.org/",
    "organizador": "",
-   "descripcion": "Deadline: Ongoing Applications are open for the Chatham House Research Fellow Africa Programme 2026-2027. Housed within Chatham House, the Africa Programme supports improved understanding of politics, security, economies and socio-economic change across Africa, as well as the shifting geopolitics an",
+   "descripcion": "Deadline: November 17, 2026 Applications are open for the African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027. In line with the Bank’s Ten-Year Strategy (2024-2033), the scholarship programme seeks to strengthen Africa’s human capital and multilingual com",
    "gratis": null,
    "imagen": "",
-   "motivo": "restringido a otro país o región (Africa)",
+   "motivo": "restringido a otro país o región (African)",
    "categorias": [
-    "Investigación y ciencia",
     "Idiomas, becas e internacional"
    ],
-   "valor": 16,
+   "valor": 27,
    "afinidad": 12,
-   "puntaje": 28,
-   "por_que": "Abre puertas (beca/programa) · Afín: Investigación · Se postula en línea"
+   "puntaje": 39,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Plazo claro"
+  },
+  {
+   "id": "opportunitydesk:opportunitydesk-org-2026-11-11-awf-geospatial-leaders-fellowship-2027-",
+   "titulo": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-12-14T23:59-05:00",
+   "fin": "2026-12-14T23:59-05:00",
+   "cierre": "2026-12-14T23:59-05:00",
+   "publicado": "2026-11-11T01:29-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: December 14, 2026 Applications are open for the African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027. The AWF Geospatial Leaders Fellowship is a ten-month Pan-African programme that brings together mid-level conservation GIS professionals from NGOs, government agencies, res",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (African)",
+   "categorias": [
+    "Idiomas, becas e internacional",
+    "Datos y analítica"
+   ],
+   "valor": 20,
+   "afinidad": 32,
+   "puntaje": 52,
+   "por_que": "Abre puertas (beca/programa) · Afín: Datos y machine learning · Afín: Becas y posgrado · Afín: Investigación"
   },
   {
    "id": "opportunitydesk:itydesk-org-2026-11-10-debt-accountability-journalism-fellowship-2027-",
@@ -9222,6 +9255,33 @@
    "afinidad": 26,
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31526",
+   "titulo": "GWC Projects Program Fall 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-09T00:00-05:00",
+   "fin": "2026-11-18T23:59-05:00",
+   "cierre": "2026-11-18T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://projects-program-fall-2026.devpost.com/",
+   "inscripcion": "https://projects-program-fall-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Girls Who Code UCF",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/830/152/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:concierto-por-los-55-anos-de-ee-gg-cc-27102026162202",
@@ -9657,8 +9717,8 @@
   "PERUMIN": 1,
   "ESAN — eventos": 1,
   "PMI Lima": 1,
-  "Sociedad Nacional de Industrias": 11,
-  "AmCham Perú": 0,
+  "Sociedad Nacional de Industrias": 10,
+  "AmCham Perú": 3,
   "ComexPerú": 0
  },
  "se_viene": [
@@ -9673,20 +9733,12 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-10T23:15-05:00",
+  "fecha": "2026-11-11T08:26-05:00",
   "revisados": 219,
   "corregidos": 14,
   "avisos": 2,
   "archivados": 4,
   "problemas": [
-   {
-    "id": "inst:sni-webinar-procedimiento-legal-para-la-obtenci-n-del-certif:2026-11-10",
-    "titulo": "Webinar: Procedimiento Legal para la Obtención del Certificado de Inspección Técnica de Se",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:50)",
-    "url": "https://sni.org.pe/eventos/"
-   },
    {
     "id": "inst:sni-webinar-de-los-atributos-al-valor-c-mo-diferenciar-produ:2026-11-12",
     "titulo": "Webinar: De los atributos al valor: Cómo diferenciar productos y fortalecer su competitivi",
@@ -9718,6 +9770,14 @@
     "nivel": "corregido",
     "detalle": "título en MAYÚSCULAS → formato legible",
     "url": "https://pmi.org.pe/"
+   },
+   {
+    "id": "luma:evt-HGuqbPD6BINjlNe",
+    "titulo": "Ras Week Edición 2026",
+    "fuente": "Luma",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://lu.ma/srkz7py3"
    },
    {
     "id": "inst:sni-webinar-proyecto-de-reglamento-de-los-valores-m-ximos-ad:2026-11-17",
@@ -9841,7 +9901,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 14,
+   "comprobados": 10,
    "rotos": 4,
    "sin_comprobar": 3
   },
@@ -10145,7 +10205,6 @@
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00",
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
-  "tedx:70101": "2026-09-26T08:43-05:00",
   "tedx:69227": "2026-09-26T08:43-05:00",
   "tedx:68902": "2026-09-26T08:43-05:00",
   "wikicfp:191885": "2026-09-26T08:43-05:00",
@@ -10223,7 +10282,6 @@
   "wikicfp:203835": "2026-10-20T05:51-05:00",
   "wikicfp:203833": "2026-10-20T05:51-05:00",
   "devpost:30789": "2026-10-20T11:15-05:00",
-  "devpost:31664": "2026-10-20T16:10-05:00",
   "devpost:31797": "2026-10-20T16:10-05:00",
   "pucp:primer-congreso-latinoamericano-de-etica-en-la-abogacia-y-la-ensenanza-del-derecho-19102026174533": "2026-10-20T16:10-05:00",
   "eb:2003402159790": "2026-10-20T21:59-05:00",
@@ -10258,7 +10316,6 @@
   "eb:2004170365514": "2026-10-31T15:55-05:00",
   "luma:evt-pbPNpjkOOt8UAwY": "2026-10-31T15:55-05:00",
   "devpost:31060": "2026-10-31T22:54-05:00",
-  "inst:sni-webinar-procedimiento-legal-para-la-obtenci-n-del-certif:2026-11-10": "2026-11-01T07:32-05:00",
   "inst:sni-webinar-de-los-atributos-al-valor-c-mo-diferenciar-produ:2026-11-12": "2026-11-01T07:32-05:00",
   "inst:sni-webinar-saldo-a-favor-del-exportador:2026-11-18": "2026-11-01T07:32-05:00",
   "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25": "2026-11-01T07:32-05:00",
@@ -10332,15 +10389,11 @@
   "devpost:32060": "2026-11-09T05:50-05:00",
   "meetup:317354446": "2026-11-09T16:52-05:00",
   "pucp:presentacion-anual-del-cemduc-por-la-alegria-de-nuestros-carnavales-06112026172411": "2026-11-09T16:52-05:00",
-  "opportunitydesk:itydesk-org-2026-11-09-morgridge-acceleration-program-fellowship-2027-": "2026-11-09T16:52-05:00",
   "eb:2004581058909": "2026-11-09T16:52-05:00",
   "luma:evt-I4mWZZwvfYsGvZ9": "2026-11-09T16:52-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-11-09-icann-fellowship-program-2027-": "2026-11-09T16:52-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-11-09-qnx-global-hackathon-2026-": "2026-11-09T16:52-05:00",
   "inst:sni-webinar-tratamiento-de-las-sanciones-a-los-trabajadores-:2026-11-19": "2026-11-10T00:42-05:00",
   "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26": "2026-11-10T00:42-05:00",
   "luma:evt-LYBDdhSpzrtFOhZ": "2026-11-10T00:42-05:00",
-  "opportunitydesk:rtunitydesk-org-2026-11-10-obama-foundation-leaders-program-2027-2028-": "2026-11-10T09:10-05:00",
   "devpost:31973": "2026-11-10T09:10-05:00",
   "devpost:31680": "2026-11-10T16:11-05:00",
   "opportunitydesk:ortunitydesk-org-2026-11-10-wave-winter-research-fellowship-2026-2027-": "2026-11-10T16:11-05:00",
@@ -10352,13 +10405,20 @@
   "opportunitydesk:https-opportunitydesk-org-2026-11-10-nature-culture-fellowship-2027-": "2026-11-10T16:11-05:00",
   "devpost:32079": "2026-11-10T16:11-05:00",
   "opportunitydesk:rtunitydesk-org-2026-11-10-career-pathways-initiative-fellowship-2027-": "2026-11-10T16:11-05:00",
-  "devpost:32023": "2026-11-10T23:15-05:00",
   "luma:evt-AkFuK0GxgPpatUc": "2026-11-10T23:15-05:00",
   "eb:2004692185291": "2026-11-10T23:15-05:00",
   "eb:2004692295621": "2026-11-10T23:15-05:00",
   "eb:2004692050889": "2026-11-10T23:15-05:00",
   "eb:2004567115203": "2026-11-10T23:15-05:00",
   "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16": "2026-11-10T23:15-05:00",
-  "devpost:31974": "2026-11-10T23:15-05:00"
+  "devpost:31974": "2026-11-10T23:15-05:00",
+  "devpost:31964": "2026-11-11T08:26-05:00",
+  "luma:evt-HGuqbPD6BINjlNe": "2026-11-11T08:26-05:00",
+  "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-11-11T08:26-05:00",
+  "opportunitydesk:sk-org-2026-11-11-global-youth-mental-health-research-fellowship-2027-": "2026-11-11T08:26-05:00",
+  "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04": "2026-11-11T08:26-05:00",
+  "opportunitydesk:sk-org-2026-11-11-commonwealth-shared-scholarship-programme-2027-2028-": "2026-11-11T08:26-05:00",
+  "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11": "2026-11-11T08:26-05:00",
+  "opportunitydesk:ttps-opportunitydesk-org-2026-11-11-pladis-accelerator-programme-2026-": "2026-11-11T08:26-05:00"
  }
 }
