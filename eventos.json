@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-11-12T00:28-05:00",
+ "actualizado": "2026-11-12T09:31-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 47
+   "n": 49
   },
   "Eventbrite": {
    "ok": true,
-   "n": 42
+   "n": 43
   },
   "Eventbrite online": {
    "ok": true,
@@ -15,7 +15,7 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 4
+   "n": 5
   },
   "PUCP": {
    "ok": true,
@@ -35,8 +35,7 @@
   },
   "Opportunity Desk": {
    "ok": true,
-   "n": 10,
-   "cache": "2026-11-11T16:42-05:00"
+   "n": 10
   },
   "Opportunities for Youth": {
    "ok": false,
@@ -60,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 349,
+ "revisados": 353,
  "top": 55,
  "eventos": [
   {
@@ -741,35 +740,6 @@
    "puntaje": 36,
    "por_que": "Formativo · Presencial en Lima · Afín: Liderazgo y oratoria · Gratis",
    "visto_desde": "2026-10-31T15:55-05:00"
-  },
-  {
-   "id": "opportunitydesk:ortunitydesk-org-2026-11-10-wave-winter-research-fellowship-2026-2027-",
-   "titulo": "Wave Winter Research Fellowship 2026-2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-13T23:59-05:00",
-   "fin": "2026-11-13T23:59-05:00",
-   "cierre": "2026-11-13T23:59-05:00",
-   "publicado": "2026-11-10T10:31-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/10/wave-winter-research-fellowship-2026-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/10/wave-winter-research-fellowship-2026-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 13, 2026 Applications are open for the Wave Winter Research Fellowship 2026-2027. The Wave Winter Research Fellowship (November 15, 2026 – January 15, 2027) is an 8-week scientific research and engineering incubator guided directly by Regeneron ISEF winners and International Olympiad medalists. Unlike paid research programs, participation is completely free ($0 application fee, [...]",
-   "gratis": false,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 23,
-   "afinidad": 24,
-   "puntaje": 47,
-   "por_que": "Abre puertas (beca/programa) · Afín: Investigación · Afín: Becas y posgrado · Plazo claro",
-   "visto_desde": "2026-11-10T16:11-05:00"
   },
   {
    "id": "tedx:69227",
@@ -1546,6 +1516,63 @@
    "visto_desde": "2026-10-18T07:58-05:00"
   },
   {
+   "id": "devpost:31964",
+   "titulo": "DataJam 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-09T00:00-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://datajam-2026.devpost.com/",
+   "inscripcion": "https://datajam-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "SFU Data Science Student Society",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "categorias": [
+    "Datos y analítica",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 18,
+   "puntaje": 37,
+   "por_que": "Competencia · Afín: Datos y machine learning · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-12T09:31-05:00"
+  },
+  {
+   "id": "opportunitydesk:-org-2026-11-12-allpeoplebehappy-volunteer-service-award-program-2027-",
+   "titulo": "AllPeopleBeHappy Volunteer Service Award Program 2027 (Funded)",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-15T23:59-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
+   "publicado": "2026-11-12T06:54-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/12/allpeoplebehappy-volunteer-service-award-program-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/12/allpeoplebehappy-volunteer-service-award-program-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 15, 2026 Applications are open for the AllPeopleBeHappy Volunteer Service Award Program 2027. AllPeopleBeHappy is proud to launch their second year Volunteer Service Award program, open to any individuals 18 years of age and older who are interested in cultural immersion and professional development through serving, learning, and living in a host community. [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Abre puertas (beca/programa) · Con premio · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-12T09:31-05:00"
+  },
+  {
    "id": "wikicfp:191885",
    "titulo": "GCIE 2026 : Global Conference on Industrial Engineering",
    "tipo": "call for papers",
@@ -2074,7 +2101,7 @@
    "organizador": "Agencia Reinicia",
    "descripcion": "WhatsApp repartidos entre mil números y ninguna conversación llegando al CRM. Conecta esos mensajes con tu Zoho CRM y crea agentes de IA.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197250533%2F257295855128%2F1%2Foriginal.20261104-114454?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c49898539791e4ef31a356074843371a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197250533%2F257295855128%2F1%2Foriginal.20261104-114454?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9053f5c109a724c0bf3824a838b4681c",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2228,7 +2255,7 @@
    "organizador": "Centro Ajal",
    "descripcion": "Conecta con profesionales en este webinar online sobre ética en el desarrollo de IA y podrás ganar becas para próximos cursos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fb5fbd86656f3bc62d5ead985f0e7cf1",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1be595b369767d72e246ba9c27cb1d29",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2394,7 +2421,7 @@
    "organizador": "Beatriz Hoyos",
    "descripcion": "Capacitación gratuita en vivo por Zoom para agentes: 3 habilidades para convertir más prospectos en contratos. Te invita Beatriz Hoyos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197802845%2F713589200593%2F1%2Foriginal.20261111-215702?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ba2146064513bb6a79f50497832d35fd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197802845%2F713589200593%2F1%2Foriginal.20261111-215702?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d117836914d94f93ecd30567d55725e",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3431,7 +3458,7 @@
    "organizador": "Odoo ERP",
    "descripcion": "Descubre cómo centralizar la operativa de oficina técnica, compras, logística y finanzas en una única plataforma en tiempo real.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197584666%2F2674499530211%2F1%2Foriginal.20261109-115309?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.491&fp-y=0.164&s=e7da5ccc95b1bb133752fa0eb6f7c58d",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197584666%2F2674499530211%2F1%2Foriginal.20261109-115309?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.491&fp-y=0.164&s=59c9a91610fbc643fde102f3c899ff90",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3630,7 +3657,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=84a90458746b7a4829bbf2d1b1f297ae",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4072,6 +4099,34 @@
    "visto_desde": "2026-10-29T23:01-05:00"
   },
   {
+   "id": "luma:evt-S1WUd1vCAsQaF4V",
+   "titulo": "Microsoft Fabric's Birthday",
+   "inicio": "2026-11-28T09:00-05:00",
+   "fin": "2026-11-28T13:00-05:00",
+   "lugar": "Av.Victor Andres Belaunde 147, Torre Real 2 Via Principal 133 Torre Real Dos - Piso 9, Lima 27, San Isidro",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/sn4bbbrx",
+   "fuente": "Luma",
+   "organizador": "FUG Lima Perú, MUG Perú",
+   "descripcion": "¡Noviembre de Microsoft Fabric! 🎉🎂\n✨Este mes Microsoft Fabric cumple 1 año más desde que fue anunciado con GA oficialmente para todos.\nAcompáñanos a festejar este hito con demos en vivo, sorpresas y un espacio ideal para conectar con otros apasionados de los datos y la tecnología.\n📅 Sábado 28 de noviembre de 2026\n⏰ 9:00 a. m. - 1:00 p. m.\n📍 Oficinas de Microsoft Perú\nRegístrate aquí👉\n¡No te lo pierdas! 🙌\nNOTA: Recuerda que contamos con aforo limitado, por lo cual para que puedas disfrutar una buena experiencia te recomendamos que llegues temprano para asegurar tu lugar. Te esperamos 💚\nMicrosoftFabric DataPlatform data",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/7x/dc441796-f150-4912-8f11-c039ebdbc5a2.png",
+   "inscripcion": "https://lu.ma/sn4bbbrx",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Datos y analítica",
+    "Tecnología e IA"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Afín: Datos y machine learning · Presencial en Lima · Gratis · Empresa reconocida",
+   "visto_desde": "2026-11-12T09:31-05:00"
+  },
+  {
    "id": "meetup:317124918",
    "titulo": "AWS Student Community Day Lima",
    "inicio": "2026-11-28T09:00-05:00",
@@ -4236,35 +4291,6 @@
    "puntaje": 33,
    "por_que": "Competencia · Afín: Competencias · Gratis · Empresa reconocida · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-08T14:21-05:00"
-  },
-  {
-   "id": "opportunitydesk:sk-org-2026-11-11-global-youth-mental-health-research-fellowship-2027-",
-   "titulo": "Global Youth Mental Health Research Fellowship 2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-30T23:59-05:00",
-   "fin": "2026-11-30T23:59-05:00",
-   "cierre": "2026-11-30T23:59-05:00",
-   "publicado": "2026-11-11T01:55-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/11/global-youth-mental-health-research-fellowship-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/11/global-youth-mental-health-research-fellowship-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: November 30, 2026 Applications are open for the Global Youth Mental Health Research Fellowship 2027. This fellowship is aimed at identifying emerging leaders in child and adolescent mental health in Pakistan. It provides world-class training, mentorship, networking, and hands-on global mental health research opportunities to early-career professionals from across Pakistan. Fellows are expected to [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional",
-    "Investigación y ciencia"
-   ],
-   "valor": 28,
-   "afinidad": 24,
-   "puntaje": 52,
-   "por_que": "Formativo · Afín: Investigación · Afín: Becas y posgrado · Universidad",
-   "visto_desde": "2026-11-11T08:26-05:00"
   },
   {
    "id": "wikicfp:200050",
@@ -4826,34 +4852,6 @@
    "visto_desde": "2026-11-11T16:43-05:00"
   },
   {
-   "id": "opportunitydesk:sk-org-2026-11-11-commonwealth-shared-scholarship-programme-2027-2028-",
-   "titulo": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-08T23:59-05:00",
-   "fin": "2026-12-08T23:59-05:00",
-   "cierre": "2026-12-08T23:59-05:00",
-   "publicado": "2026-11-11T01:37-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 8, 2026 Applications are open for the Commonwealth Shared Scholarship Programme 2027/2028. The Commonwealth Shared Scholarship programme is one of three Master’s programmes offered by the Commonwealth Scholarship Commission. The Commonwealth Scholarship Commission in the UK (CSC) provides the UK government scholarship scheme led by international development objectives. It operates within the framework [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-11T08:26-05:00"
-  },
-  {
    "id": "eb:2003710622410",
    "titulo": "Otros 10 mitos MÁS sobre la energía solar fotovoltaica",
    "inicio": "2026-12-09T11:00-05:00",
@@ -5022,6 +5020,34 @@
    "puntaje": 48,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-12T00:28-05:00"
+  },
+  {
+   "id": "opportunitydesk:-opportunitydesk-org-2026-11-12-thrive-capital-summer-fellowship-2027-",
+   "titulo": "Thrive Capital Summer Fellowship 2027 ($100,000 salary)",
+   "tipo": "convocatoria",
+   "inicio": "2026-12-11T23:59-05:00",
+   "fin": "2026-12-11T23:59-05:00",
+   "cierre": "2026-12-11T23:59-05:00",
+   "publicado": "2026-11-12T06:02-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: December 11, 2026 Applications are invited for the Thrive Capital Summer Fellowship 2027. The Fellowship is an opportunity for exceptional college students to pursue their own curiosities, develop conviction in their ideas, with support from the people and collective resources of Thrive. In addition to exploring their own projects, they want fellows to have [...]",
+   "gratis": false,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-12T09:31-05:00"
   },
   {
    "id": "tedx:70615",
@@ -5580,6 +5606,35 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "opportunitydesk:ttps-opportunitydesk-org-2026-11-12-gratitude-network-fellowship-2027-",
+   "titulo": "Gratitude Network Fellowship 2027",
+   "tipo": "convocatoria",
+   "inicio": "2027-01-15T23:59-05:00",
+   "fin": "2027-01-15T23:59-05:00",
+   "cierre": "2027-01-15T23:59-05:00",
+   "publicado": "2026-11-12T07:05-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: January 15, 2027 Applications are invited for the Gratitude Network Fellowship 2027. The Gratitude Network Fellowship is a highly selective, 13 month program designed to accelerate the growth and impact of ambitious nonprofit leaders and their organizations. Each year, they select ~30 exceptional global nonprofit leaders and their organizations to become our Fellows through a [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-12T09:31-05:00"
+  },
+  {
    "id": "opportunitydesk:ttps-opportunitydesk-org-2026-11-11-pladis-accelerator-programme-2026-",
    "titulo": "Pladis Accelerator Programme 2026",
    "tipo": "convocatoria",
@@ -5634,35 +5689,6 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "opportunitydesk:rtunitydesk-org-2026-11-10-career-pathways-initiative-fellowship-2027-",
-   "titulo": "Career Pathways Initiative Fellowship 2027",
-   "tipo": "convocatoria",
-   "inicio": "2027-01-29T23:59-05:00",
-   "fin": "2027-01-29T23:59-05:00",
-   "cierre": "2027-01-29T23:59-05:00",
-   "publicado": "2026-11-10T10:05-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: January 29, 2027 Applications are open for the Career Pathways Initiative Fellowship 2027. Are you a first-generation, low-income (FGLI) undergraduate college student looking for an internship or your first job? Tired of spending hours on job applications and hearing nothing back? You’re not alone. Over 80% of jobs are filled through networking, yet access to professional [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-10T16:11-05:00"
   },
   {
    "id": "devpost:31873",
@@ -6051,33 +6077,6 @@
    "puntaje": 25,
    "por_que": "Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "devpost:31974",
-   "titulo": "PhysTech 2027: Physical Activity and Technology Hack Day",
-   "tipo": "hackathon",
-   "inicio": "2026-11-04T00:00-05:00",
-   "fin": "2027-06-26T23:59-05:00",
-   "cierre": "2027-06-26T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://phystech2027.devpost.com/",
-   "inscripcion": "https://phystech2027.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Binnovative",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Health, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/788/274/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-10T23:15-05:00"
   },
   {
    "id": "wikicfp:203796",
@@ -8104,6 +8103,31 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
+   "id": "luma:evt-old39JXRZQkwSnv",
+   "titulo": "BEBIEMBRE 🥃👑",
+   "inicio": "2026-11-12T00:00-05:00",
+   "fin": "2026-11-14T22:00-05:00",
+   "lugar": "W47J+R5F, Cieneguilla",
+   "distrito": "Cieneguilla",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/ofdg0t7i",
+   "fuente": "Luma",
+   "organizador": "CHOCOFEST PROD.",
+   "descripcion": "¡El cartel ya está confirmado! 🎶🔥\n🎤 MARVIN SALAS, más conocido como EL ZAPEROKITO.\n🎶 CHIMPILLA Y LA MARAVILLA ORQUESTA COMPLETA, ¡con todo su repertorio para poner a bailar a todos!\n📅 SÁBADO 14 DE NOVIEMBRE\n🎉 BEBIEMBRE: LA FIESTA DEL MES\nUna producción de LA 87 PRODUCCIONES & CHOCOFEST.",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/6a/a09e39ce-c289-4600-8755-2fa27a770451.jpg",
+   "inscripcion": "https://lu.ma/ofdg0t7i",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
    "id": "pucp:feria-tercio-espacio-de-visibilizacion-participacion-y-encuentro-estudiantil-05102026130106",
    "titulo": "Feria Tercio: espacio de visibilización, participación y encuentro estudiantil",
    "inicio": "2026-11-12T12:00-05:00",
@@ -8391,7 +8415,7 @@
    "organizador": "",
    "descripcion": "Somos una empresa, dedica al rubro de Construccion y Acabados, realizamos todo tipo de proyectos, que desee para su hogar.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=723ef18fb1bd3e4bb2d8fe781b421019",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=fd325900eba52115a08b0eb53044ddb2",
    "inscripcion": "https://www.eventbrite.com/e/entradas-perfect-home-2003322947865",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8504,6 +8528,31 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "eb:2004764139508",
+   "titulo": "prueba",
+   "inicio": "2026-11-23T10:00-05:00",
+   "fin": "2026-11-24T12:00-05:00",
+   "lugar": "Mal. Sur 469, 469 Malecón Sur",
+   "distrito": "Punta Negra",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com/e/prueba-tickets-2004764139508",
+   "fuente": "Eventbrite",
+   "organizador": "",
+   "descripcion": "Prueba: un encuentro presencial para pasarla bien, compartir y disfrutar en buena compañía.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197840596%2F3021102729105%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=a678d351b04eba11b17e3637c6a12465",
+   "inscripcion": "https://www.eventbrite.com/e/prueba-tickets-2004764139508",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis"
+  },
+  {
    "id": "eb:1985254436461",
    "titulo": "Foodies + New Friends: Miraflores | The Comeunity Project",
    "inicio": "2026-11-25T19:00-05:00",
@@ -8516,7 +8565,7 @@
    "organizador": "Ermantourage NYC",
    "descripcion": "Alone in the city? Make more connections with locals over a night out at dinner. You sign up, we book the table based on your preferences.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61d4d0a20688a44f11b8895fa422b992",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179900979%2F2645192174801%2F1%2Foriginal.20260315-235755?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7f5e0a7237fe9992eacc359820803ddd",
    "inscripcion": "https://www.eventbrite.com/e/foodies-new-friends-miraflores-the-comeunity-project-tickets-1985254436461",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8902,7 +8951,7 @@
    "organizador": "NEVORA",
    "descripcion": "Acompañanos a celebrar la inaguración de nuestra primera tienda y la nueva colección de nuestros buzos baggy   ¡los esperamos!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=fc03c1fa27f9ca2215529a41e1975838",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=b680c52089e6cf9c7aa2ad7048f6e094",
    "inscripcion": "https://www.eventbrite.com/e/apertura-oficial-y-lanzamiento-de-nuestra-nueva-coleccion-tickets-2003074310183",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9121,61 +9170,60 @@
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea"
   },
   {
-   "id": "opportunitydesk:rg-2026-11-11-afdb-group-shou-scholarship-masters-degree-program-2027-",
-   "titulo": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027",
+   "id": "opportunitydesk:esk-org-2026-11-12-walk-of-water-photostory-contest-2026-out-of-sight-",
+   "titulo": "Walk of Water Photostory Contest 2026: Out of Sight ($9,000 prize pool)",
    "tipo": "convocatoria",
-   "inicio": "2026-11-17T23:59-05:00",
-   "fin": "2026-11-17T23:59-05:00",
-   "cierre": "2026-11-17T23:59-05:00",
-   "publicado": "2026-11-11T02:35-05:00",
+   "inicio": "2026-11-20T23:59-05:00",
+   "fin": "2026-11-20T23:59-05:00",
+   "cierre": "2026-11-20T23:59-05:00",
+   "publicado": "2026-11-12T08:20-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
+   "url": "https://opportunitydesk.org/2026/11/12/walk-of-water-photostory-contest-2026-out-of-sight/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/12/walk-of-water-photostory-contest-2026-out-of-sight/",
    "fuente": "Opportunity Desk",
    "fuente_url": "https://opportunitydesk.org/",
    "organizador": "",
-   "descripcion": "Deadline: November 17, 2026 Applications are open for the African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027. In line with the Bank’s Ten-Year Strategy (2024-2033), the scholarship programme seeks to strengthen Africa’s human capital and multilingual com",
-   "gratis": null,
+   "descripcion": "Deadline: November 20, 2026 Applications are open for the Walk of Water Photostory Contest 2026: Out of Sight. This sixth edition’s theme, “Out of Sight,” spans the full breadth of water and health, how water shapes health, longevity and well-being, and shines its brightest light on the part nobody ",
+   "gratis": false,
    "imagen": "",
-   "motivo": "restringido a otro país o región (African)",
+   "motivo": "sin afinidad",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
-   "valor": 27,
-   "afinidad": 12,
-   "puntaje": 39,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Plazo claro"
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Abre puertas (beca/programa) · Con premio · Plazo claro · Se postula en línea"
   },
   {
-   "id": "opportunitydesk:opportunitydesk-org-2026-11-11-awf-geospatial-leaders-fellowship-2027-",
-   "titulo": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027",
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-12-iwmf-kim-wall-memorial-fund-2027-",
+   "titulo": "IWMF Kim Wall Memorial Fund 2027 (up to $5,000)",
    "tipo": "convocatoria",
-   "inicio": "2026-12-14T23:59-05:00",
-   "fin": "2026-12-14T23:59-05:00",
-   "cierre": "2026-12-14T23:59-05:00",
-   "publicado": "2026-11-11T01:29-05:00",
+   "inicio": "2026-12-06T23:59-05:00",
+   "fin": "2026-12-06T23:59-05:00",
+   "cierre": "2026-12-06T23:59-05:00",
+   "publicado": "2026-11-12T04:28-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
+   "url": "https://opportunitydesk.org/2026/11/12/iwmf-kim-wall-memorial-fund-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/12/iwmf-kim-wall-memorial-fund-2027/",
    "fuente": "Opportunity Desk",
    "fuente_url": "https://opportunitydesk.org/",
    "organizador": "",
-   "descripcion": "Deadline: December 14, 2026 Applications are open for the African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027. The AWF Geospatial Leaders Fellowship is a ten-month Pan-African programme that brings together mid-level conservation GIS professionals from NGOs, government agencies, res",
-   "gratis": null,
+   "descripcion": "Deadline: December 6, 2026 Applications are open for the Kim Wall Memorial Fund 2027. The IWMF’s Kim Wall Memorial Fund will provide $5,000 grants to journalists whose work embodies the spirit of Kim’s reporting. The grant will fund women or nonbinary reporters covering subculture, broadly defined, ",
+   "gratis": false,
    "imagen": "",
-   "motivo": "restringido a otro país o región (African)",
+   "motivo": "sin afinidad",
    "categorias": [
-    "Idiomas, becas e internacional",
-    "Datos y analítica"
+    "Idiomas, becas e internacional"
    ],
-   "valor": 20,
-   "afinidad": 32,
-   "puntaje": 52,
-   "por_que": "Abre puertas (beca/programa) · Afín: Datos y machine learning · Afín: Becas y posgrado · Afín: Investigación"
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea · Bajo costo"
   },
   {
    "id": "wikicfp:194196",
@@ -9847,7 +9895,7 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-12T00:28-05:00",
+  "fecha": "2026-11-12T09:31-05:00",
   "revisados": 223,
   "corregidos": 14,
   "avisos": 2,
@@ -10015,7 +10063,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 13,
+   "comprobados": 7,
    "rotos": 4,
    "sin_comprobar": 2
   },
@@ -10028,6 +10076,14 @@
    "medio": "RCR Peru",
    "publicado": "Thu, 05 Nov 2026 15:18:00 GMT",
    "resumen": "Fuente: Nota de prensa Un espacio para repensar los modelos de gestión, fortalecer el liderazgo institucional y convertir las ideas en cambios que trasciendan las aulas. Lima, 05 de noviembre 2026.- L ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Lima será sede de la Cumbre del Deporte 2027 y reafirma su liderazgo en la región",
+   "url": "https://libero.pe/deportes/2026/05/08/lima-sera-sede-de-cumbre-del-deporte-2027-reafirma-su-liderazgo-en-region-183936",
+   "medio": "Libero",
+   "publicado": "Fri, 08 May 2026 06:02:00 GMT",
+   "resumen": "Lima fue elegida como sede de la Cumbre del Deporte 2027, uno de los encuentros más importantes para el análisis y fortalecimiento de las políticas públicas deportivas en la región. La designación se ...",
    "fecha_mencionada": ""
   },
   {
@@ -10044,14 +10100,6 @@
    "medio": "Caretas",
    "publicado": "Thu, 29 Oct 2026 08:55:00 GMT",
    "resumen": "El Centro para la Democracia Social realizará un foro para analizar los primeros 100 días del gobierno de Keiko Fujimori.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Foro GLI Latam 2026: salud de la mujer y enfoque de género marcan agenda económica regional en Lima",
-   "url": "https://elcomercio.pe/economia/peru/foro-gli-latam-2026-salud-de-la-mujer-y-enfoque-de-genero-marcan-agenda-economica-regional-en-lima-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Sat, 30 May 2026 01:35:00 GMT",
-   "resumen": "Lima se convirtió esta semana en el centro de una de las principales discusiones sobre desarrollo económico e inclusión en la región. Durante tres días, el Foro GLI Latam 2026 reunió a más de mil ...",
    "fecha_mencionada": ""
   },
   {
@@ -10095,14 +10143,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
-   "resumen": "Por Redacción EC 15/09/2026, 08:15 p.m. Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Lima Lee 2026: diez días de feria del libro en el Museo Metropolitano",
    "url": "https://peru21.pe/cultura/lima-lee-2026-diez-dias-de-feria-del-libro-en-el-museo-metropolitano/",
    "medio": "Perú.21",
@@ -10116,6 +10156,14 @@
    "medio": "Infobae",
    "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
    "resumen": "La feria ofrecerá conversatorios, encuentros con escritores, presentaciones de novedades editoriales, talleres, cuentacuentos, recitales de poesía y espectáculos musicales ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "EXPOMIEL 2026 en Lima: feria de miel tendrá ingreso gratis y reunirá a apicultores del Perú",
+   "url": "https://diariocorreo.pe/edicion/lima/expomiel-2026-en-lima-feria-de-miel-tendra-ingreso-gratis-y-reunira-a-apicultores-del-peru-noticia/",
+   "medio": "Diario Correo",
+   "publicado": "Mon, 26 Oct 2026 08:55:00 GMT",
+   "resumen": "La Alameda 28 de Julio, en el Cercado de Lima, recibirá a productores de distintas regiones del país que ofrecerán miel, polen, propóleo, cosméticos y otros derivados apícolas. La feria también inclui ...",
    "fecha_mencionada": ""
   }
  ],
@@ -10503,26 +10551,21 @@
   "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26": "2026-11-10T00:42-05:00",
   "luma:evt-LYBDdhSpzrtFOhZ": "2026-11-10T00:42-05:00",
   "devpost:31973": "2026-11-10T09:10-05:00",
-  "opportunitydesk:ortunitydesk-org-2026-11-10-wave-winter-research-fellowship-2026-2027-": "2026-11-10T16:11-05:00",
   "luma:evt-mhO2ZEMkO5PC0hK": "2026-11-10T16:11-05:00",
   "luma:evt-PawIe56IAD27kye": "2026-11-10T16:11-05:00",
   "ieee:592921": "2026-11-10T16:11-05:00",
   "pucp:xiv-encuentro-de-arte-artesania-y-diseno-culturas-del-hacer-redes-y-saberes-para-la-transformacion-09112026181827": "2026-11-10T16:11-05:00",
   "ieee:592919": "2026-11-10T16:11-05:00",
   "devpost:32079": "2026-11-10T16:11-05:00",
-  "opportunitydesk:rtunitydesk-org-2026-11-10-career-pathways-initiative-fellowship-2027-": "2026-11-10T16:11-05:00",
   "luma:evt-AkFuK0GxgPpatUc": "2026-11-10T23:15-05:00",
   "eb:2004692185291": "2026-11-10T23:15-05:00",
   "eb:2004692295621": "2026-11-10T23:15-05:00",
   "eb:2004692050889": "2026-11-10T23:15-05:00",
   "eb:2004567115203": "2026-11-10T23:15-05:00",
   "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16": "2026-11-10T23:15-05:00",
-  "devpost:31974": "2026-11-10T23:15-05:00",
   "luma:evt-HGuqbPD6BINjlNe": "2026-11-11T08:26-05:00",
   "inst:c-mara-de-comercio-americana-del-per-sustainability-immersio:2026-11-23": "2026-11-11T08:26-05:00",
-  "opportunitydesk:sk-org-2026-11-11-global-youth-mental-health-research-fellowship-2027-": "2026-11-11T08:26-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04": "2026-11-11T08:26-05:00",
-  "opportunitydesk:sk-org-2026-11-11-commonwealth-shared-scholarship-programme-2027-2028-": "2026-11-11T08:26-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11": "2026-11-11T08:26-05:00",
   "opportunitydesk:ttps-opportunitydesk-org-2026-11-11-pladis-accelerator-programme-2026-": "2026-11-11T08:26-05:00",
   "ieee:592987": "2026-11-11T16:43-05:00",
@@ -10537,6 +10580,11 @@
   "opportunitydesk:sk-org-2026-11-11-anh-academy-science-policy-fellowships-2027-round-3-": "2026-11-11T16:43-05:00",
   "eb:2004736375465": "2026-11-12T00:28-05:00",
   "devpost:32024": "2026-11-12T00:28-05:00",
-  "devpost:32026": "2026-11-12T00:28-05:00"
+  "devpost:32026": "2026-11-12T00:28-05:00",
+  "devpost:31964": "2026-11-12T09:31-05:00",
+  "opportunitydesk:-org-2026-11-12-allpeoplebehappy-volunteer-service-award-program-2027-": "2026-11-12T09:31-05:00",
+  "luma:evt-S1WUd1vCAsQaF4V": "2026-11-12T09:31-05:00",
+  "opportunitydesk:-opportunitydesk-org-2026-11-12-thrive-capital-summer-fellowship-2027-": "2026-11-12T09:31-05:00",
+  "opportunitydesk:ttps-opportunitydesk-org-2026-11-12-gratitude-network-fellowship-2027-": "2026-11-12T09:31-05:00"
  }
 }
