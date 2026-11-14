@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T23:38-05:00",
+ "actualizado": "2026-11-14T07:53-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -43,7 +43,7 @@
   },
   "TEDx": {
    "ok": true,
-   "n": 5
+   "n": 4
   },
   "Institucionales": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 364,
+ "revisados": 363,
  "top": 55,
  "eventos": [
   {
@@ -199,33 +199,6 @@
    "puntaje": 36,
    "por_que": "Afín: Inteligencia artificial · Networking · Gratis · Empresa reconocida",
    "visto_desde": "2026-09-29T10:06-05:00"
-  },
-  {
-   "id": "tedx:69227",
-   "titulo": "TEDxTukuy",
-   "tipo": "evento",
-   "inicio": "2026-11-14T00:00-05:00",
-   "fin": "2026-11-14T00:00-05:00",
-   "cierre": "",
-   "lugar": "La Molina",
-   "distrito": "La Molina",
-   "modalidad": "Presencial",
-   "url": "https://www.ted.com/tedx/events/69227",
-   "inscripcion": "https://www.ted.com/tedx/events/69227",
-   "fuente": "TEDx",
-   "fuente_url": "https://www.ted.com/tedx/events",
-   "organizador": "TEDxTukuy",
-   "descripcion": "Evento TEDx (Standard) en La Molina. Disponibilidad: SPACESAVAILABLE.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
    "id": "luma:evt-fjJKrLjuluVAIeT",
@@ -736,7 +709,7 @@
    "organizador": "Huellas ONG",
    "descripcion": "Haz espacio en tu fin de semana para llevar juegos y sonrisas a abuelos y niños que necesitan compañía en este encuentro presencial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197737689%2F1082019636043%2F1%2Foriginal.20261111-022434?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.137&s=542dc114a89f262a088ba6b07d7ade06",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197737689%2F1082019636043%2F1%2Foriginal.20261111-022434?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.137&s=e4149a6f8b5bed77b42c40384165bfba",
    "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-abuelos-y-ninos-en-miraflores-tickets-2004692050889",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1304,7 +1277,7 @@
    "organizador": "Advise Consultores",
    "descripcion": "¿Te imaginás crear anuncios publicitarios con personas que no existen, videos hiperrealistas y voces profesionales, sin utilizar cámaras,",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=34e2e4dfeb24a162bcfb4f174c3c9028",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195389158%2F257811272973%2F1%2Foriginal.20261008-175924?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=55bd938b05fd0392afb14bacca6fd78e",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1798,7 +1771,7 @@
    "organizador": "Centro Ajal",
    "descripcion": "Conecta con profesionales en este webinar online sobre ética en el desarrollo de IA y podrás ganar becas para próximos cursos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fb5fbd86656f3bc62d5ead985f0e7cf1",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960839%2F202752763520%2F1%2Foriginal.20261030-214327?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1be595b369767d72e246ba9c27cb1d29",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2020,7 +1993,7 @@
    "organizador": "Beatriz Hoyos",
    "descripcion": "Capacitación gratuita en vivo por Zoom para agentes: 3 habilidades para convertir más prospectos en contratos. Te invita Beatriz Hoyos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197802845%2F713589200593%2F1%2Foriginal.20261111-215702?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=863435b85700c400759a0647bf652869",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197802845%2F713589200593%2F1%2Foriginal.20261111-215702?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ba2146064513bb6a79f50497832d35fd",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2494,7 +2467,7 @@
    "organizador": "HUG Perú",
    "descripcion": "Segundo meetup presencial de HashiCorp User Group Perú: charlas, experiencias y networking sobre Terraform, Vault y DevOps.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195772314%2F3017638582643%2F1%2Foriginal.20261014-121002?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d56c82f3b19c1f1ab78c67b795cd0ef8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195772314%2F3017638582643%2F1%2Foriginal.20261014-121002?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ec82229e94455c70b07675242f716de8",
    "inscripcion": "https://www.eventbrite.com/e/hug-peru-meetup-presencial-tickets-2003402159790",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3194,7 +3167,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=5a8434edb2240137fca4262198819cf3",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3365,7 +3338,7 @@
    "organizador": "Román Calápiz",
    "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=60b32eac045d90d2cdbf16ba8ad84312",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184548138%2F256438124752%2F1%2Foriginal.20260513-220254?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.2&s=9acedd56b7b88fadd5f33113ac83fb49",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4224,34 +4197,6 @@
    "visto_desde": "2026-11-08T14:21-05:00"
   },
   {
-   "id": "devpost:31733",
-   "titulo": "305 Veterans Hackathon Edition November 2026 — 305Hackathons.vercel.app",
-   "tipo": "hackathon",
-   "inicio": "2026-11-01T00:00-05:00",
-   "fin": "2026-11-30T23:59-05:00",
-   "cierre": "2026-11-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://305veteransnov2026.devpost.com/",
-   "inscripcion": "https://305veteransnov2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "GOOGLE DEVELOPER GROUP AT FIU",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Cybersecurity, Education. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/105/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 24,
-   "afinidad": 9,
-   "puntaje": 33,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Empresa reconocida · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-08T14:21-05:00"
-  },
-  {
    "id": "wikicfp:200050",
    "titulo": "ACML 2026 : 18th Asian Conference on Machine Learning",
    "tipo": "call for papers",
@@ -4294,7 +4239,7 @@
    "organizador": "AMERIC AC",
    "descripcion": "Sesión técnica online con el Ing. Enrique Maldonado sobre principios, aplicaciones y diseño de vigas frías en hospitales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=c945071b72e08d29bab15b4aab775f11",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=c407ce90d27e238f2564d7589d0df29a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -5164,7 +5109,7 @@
    "organizador": "Fundación CMR",
    "descripcion": "Un espacio de encuentro y aprendizaje para fortalecer a las organizaciones que trabajan por el bienestar y desarrollo de la primera infancia",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197228125%2F544170612279%2F1%2Foriginal.20261104-021536?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eefdaefb0b45dfba4a86104c20f92cdc",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197228125%2F544170612279%2F1%2Foriginal.20261104-021536?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=43bd5aabff4b4521a0113d431ef6b6c6",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -5357,7 +5302,7 @@
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
    "organizador": "Tech Council - Jain Univeristy",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Web. Premios: ₹ 250,000.",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Web. Premios: ₹ 0.",
    "gratis": true,
    "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
    "categorias": [
@@ -8174,7 +8119,7 @@
    "organizador": "Royal College of Art",
    "descripcion": "Meet the RCA! The world's 1 art & design university, will be visiting Lima",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=61b84b8b0476a41d896334a34d974c24",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195377355%2F256392517722%2F1%2Foriginal.20261008-154955?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a745467912e2650f81115e1a74d3bf0a",
    "inscripcion": "https://www.eventbrite.co.uk/e/meet-the-royal-college-of-art-in-lima-tickets-2003150172088",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9055,7 +9000,7 @@
    "organizador": "",
    "descripcion": "Dinner with Strangers series for locals who love all things horror, supernatural, and paranormal. Share your story at the dinner table!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1060474313%2F2816517062451%2F1%2Foriginal.20250625-170222?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa6be494d503aadb7eaf131a06db2593",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1060474313%2F2816517062451%2F1%2Foriginal.20250625-170222?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e37e3118bc3efec217202a0cb8073259",
    "inscripcion": "https://www.eventbrite.com/e/foodies-fears-dinner-with-strangers-lima-tickets-1901677772409",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9524,6 +9469,34 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:30506",
+   "titulo": "Unfair Weekend 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-12T00:00-05:00",
+   "fin": "2026-11-14T23:59-05:00",
+   "cierre": "2026-11-14T23:59-05:00",
+   "lugar": "ISM University, Vilnius",
+   "distrito": "ISM University",
+   "modalidad": "Presencial",
+   "url": "https://unfair-weekend.devpost.com/",
+   "inscripcion": "https://unfair-weekend.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ISM University",
+   "descripcion": "Hackathon presencial en ISM University, Vilnius. Temas: Low/No Code, Machine Learning/AI, Open Ended. Premios: €7,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/824/957/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 26,
+   "puntaje": 49,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31746",
    "titulo": "University Blockchain Conference Hackathon 2026",
    "tipo": "hackathon",
@@ -9552,34 +9525,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:32075",
-   "titulo": "Georgia Tech SGA x CoLL - Campus Solutions Challenge 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-13T00:00-05:00",
-   "fin": "2026-11-15T23:59-05:00",
-   "cierre": "2026-11-15T23:59-05:00",
-   "lugar": "Georgia Tech - Global Learning Center",
-   "distrito": "Georgia Tech - Global Learning Center",
-   "modalidad": "Presencial",
-   "url": "https://gt-campus-solutions-f26.devpost.com/",
-   "inscripcion": "https://gt-campus-solutions-f26.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Georgia Tech Student Government",
-   "descripcion": "Hackathon presencial en Georgia Tech - Global Learning Center. Temas: Beginner Friendly, Education, Open Ended. Premios: $15,000.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/890/502/datas/medium_square.jpg",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 9,
-   "puntaje": 25,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:32117",
    "titulo": "Emory Hacks 2026",
    "tipo": "hackathon",
@@ -9606,6 +9551,34 @@
    "afinidad": 6,
    "puntaje": 22,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:32075",
+   "titulo": "Georgia Tech SGA x CoLL - Campus Solutions Challenge 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-13T00:00-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
+   "lugar": "Georgia Tech - Global Learning Center",
+   "distrito": "Georgia Tech - Global Learning Center",
+   "modalidad": "Presencial",
+   "url": "https://gt-campus-solutions-f26.devpost.com/",
+   "inscripcion": "https://gt-campus-solutions-f26.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Georgia Tech Student Government",
+   "descripcion": "Hackathon presencial en Georgia Tech - Global Learning Center. Temas: Beginner Friendly, Education, Open Ended. Premios: $15,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/890/502/datas/medium_square.jpg",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 16,
+   "afinidad": 9,
+   "puntaje": 25,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:concierto-por-los-55-anos-de-ee-gg-cc-27102026162202",
@@ -9912,8 +9885,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-13T23:38-05:00",
-  "revisados": 228,
+  "fecha": "2026-11-14T07:53-05:00",
+  "revisados": 226,
   "corregidos": 12,
   "avisos": 2,
   "archivados": 5,
@@ -10072,37 +10045,13 @@
    }
   ],
   "enlaces": {
-   "comprobados": 19,
+   "comprobados": 2,
    "rotos": 4,
    "sin_comprobar": 1
   },
   "fuentes_a_revisar": []
  },
  "por_confirmar": [
-  {
-   "titulo": "UCV INAUGURA LA VII CUMBRE ACADÉMICOS 2026 CON EXPERTOS DE LA UNIVERSIDAD DE OXFORD",
-   "url": "https://www.rcrperu.com/ucv-inaugura-la-vii-cumbre-academicos-2026-con-expertos-de-la-universidad-de-oxford/",
-   "medio": "RCR Peru",
-   "publicado": "Thu, 05 Nov 2026 15:18:00 GMT",
-   "resumen": "Fuente: Nota de prensa Un espacio para repensar los modelos de gestión, fortalecer el liderazgo institucional y convertir las ideas en cambios que trasciendan las aulas. Lima, 05 de noviembre 2026.- L ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Lima será sede de la Cumbre del Deporte 2027 y reafirma su liderazgo en la región",
-   "url": "https://elperuano.pe/noticia/295183-lima-sera-sede-de-la-cumbre-del-deporte-2027-y-reafirma-su-liderazgo-en-la-region",
-   "medio": "El Peruano",
-   "publicado": "Thu, 07 May 2026 02:53:00 GMT",
-   "resumen": "El país albergará este foro internacional estratégico, que convertirá a Lima en la capital de América del deporte para la difusión de políticas públicas deportivas, como antesala a Lima 2027.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Riesgos, inteligencia artificial y arbitraje: el XII Foro Gerencias Legales Lima 2026 marca la agenda de los General Counsel de la región",
-   "url": "https://estadodiario.com/noticias/riesgos-inteligencia-artificial-y-arbitraje-el-xii-foro-gerencias-legales-lima-2026-marca-la-agenda-de-los-general-counsel-de-la-region/",
-   "medio": "EstadoDiario",
-   "publicado": "Fri, 06 Nov 2026 05:47:00 GMT",
-   "resumen": "Líderes jurídicos, General Counsel y responsables legales y de cumplimiento de compañías con operaciones en Perú, Colombia, México y Estados Unidos se dieron cita en el XII Foro Gerencias Legales Lima ...",
-   "fecha_mencionada": ""
-  },
   {
    "titulo": "FIL Lima 2026: nuestro top de libros recomendados para leer en esta edición de la feria",
    "url": "https://elcomercio.pe/eldominical/actualidad/fil-lima-2026-top-de-libros-recomendados-de-la-feria-internacional-del-libro-de-lima-noticia/",
@@ -10152,6 +10101,14 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "LATAM Media Leaders Summit 2026: repasa las mejores imágenes que dejó el primer día del evento",
+   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-las-mejores-imagenes-que-dejo-el-primer-dia-del-evento-apuesplan-noticia/",
+   "medio": "El Comercio",
+   "publicado": "Wed, 16 Sep 2026 02:19:00 GMT",
+   "resumen": "Líderes de medios de América Latina y otros países se reunieron este martes 15 setiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. Pregúntale a Merlín IA ...",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
    "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
    "medio": "DiarioBitcoin",
@@ -10160,19 +10117,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
-   "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
-   "medio": "RPP",
-   "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
-   "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Retail Media Summit Perú 2026: una industria lista para conectar el futuro del comercio",
    "url": "https://www.americatv.com.pe/noticias/util-e-interesante/retail-media-summit-peru-2026-industria-lista-conectar-futuro-comercio-n523776",
    "medio": "América Televisión",
    "publicado": "Thu, 22 Oct 2026 23:33:00 GMT",
    "resumen": "La primera edición del encuentro, organizado por Mediática junto a Inbrax, reunió a líderes de marcas, retailers, agencias y empresas tecnológicas para analizar el potencial del Retail Media y el Conn ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "EXPOMIEL 2026 en Lima: feria de miel tendrá ingreso gratis y reunirá a apicultores del Perú",
+   "url": "https://diariocorreo.pe/edicion/lima/expomiel-2026-en-lima-feria-de-miel-tendra-ingreso-gratis-y-reunira-a-apicultores-del-peru-noticia/",
+   "medio": "Diario Correo",
+   "publicado": "Mon, 26 Oct 2026 08:55:00 GMT",
+   "resumen": "La Alameda 28 de Julio, en el Cercado de Lima, recibirá a productores de distintas regiones del país que ofrecerán miel, polen, propóleo, cosméticos y otros derivados apícolas. La feria también inclui ...",
    "fecha_mencionada": ""
   }
  ],
@@ -10376,7 +10333,6 @@
   "luma:evt-UhOSACnxJDx7rRM": "2026-09-24T21:06-05:00",
   "pucp:que-necesito-para-presentar-mi-proyecto-ante-uno-de-los-comites-de-etica-de-la-investigacion-pucp-07082026111214": "2026-09-25T14:05-05:00",
   "pucp:congreso-de-filosofia-de-la-tecnologia-25092026151452": "2026-09-25T18:45-05:00",
-  "tedx:69227": "2026-09-26T08:43-05:00",
   "tedx:68902": "2026-09-26T08:43-05:00",
   "wikicfp:191885": "2026-09-26T08:43-05:00",
   "wikicfp:191884": "2026-09-26T08:43-05:00",
@@ -10519,7 +10475,6 @@
   "luma:evt-vOSTaDMFpsEOUdc": "2026-11-07T23:00-05:00",
   "luma:evt-GU3iJqrB6BRKcNQ": "2026-11-08T07:41-05:00",
   "devpost:31972": "2026-11-08T07:41-05:00",
-  "devpost:31733": "2026-11-08T14:21-05:00",
   "devpost:31993": "2026-11-08T14:21-05:00",
   "devpost:31794": "2026-11-08T14:21-05:00",
   "devpost:32009": "2026-11-08T14:21-05:00",
