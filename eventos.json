@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T19:40-05:00",
+ "actualizado": "2026-11-15T05:19-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
@@ -7,15 +7,15 @@
   },
   "Eventbrite": {
    "ok": true,
-   "n": 38
+   "n": 37
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 20
+   "n": 21
   },
   "Meetup": {
    "ok": true,
-   "n": 4
+   "n": 3
   },
   "PUCP": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 351,
+ "revisados": 350,
  "top": 55,
  "eventos": [
   {
@@ -203,33 +203,6 @@
    "visto_desde": "2026-11-14T14:41-05:00"
   },
   {
-   "id": "meetup:317354446",
-   "titulo": "Saturday - Let's practice English (Rustica - First Floor Terrace)",
-   "inicio": "2026-11-14T18:00-05:00",
-   "fin": "2026-11-14T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/practice-english-saturday/events/317354446/",
-   "fuente": "Meetup",
-   "organizador": "Let’s Practice English (Saturdays)",
-   "descripcion": "Join us this Saturday to practice English at Rustica in Miraflores (Next to Kennedy Park)!\nPlease note: There are two Rustica locations on Calle de las Pizzas. We'll be at the one on Pasaje Figari.\n\nWe'll be meeting to practice English/Spanish, talk, meet new people, and share cultures. Intermediate and advanced English levels are welcome — Spanish is not a must if you can speak English! Free admission, but you must order at least a soft drink since we're meeting at a café. 😎😊\n\nAnd don't rush home after the meetup! Afterward, a group of us usually goes for a casual, inexpensive dinner somewhere nearby. It's a great chance to keep chatting, get to know everyone better, and continue the evenin",
-   "gratis": true,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/practice-english-saturday/events/317354446/",
-   "fuente_url": "https://www.meetup.com/practice-english-saturday/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis",
-   "visto_desde": "2026-11-09T16:52-05:00"
-  },
-  {
    "id": "devpost:31495",
    "titulo": "IceHacks",
    "tipo": "hackathon",
@@ -311,6 +284,34 @@
    "puntaje": 45,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-10-18T07:58-05:00"
+  },
+  {
+   "id": "devpost:32099",
+   "titulo": "Imperial AI Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-14T00:00-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://imperial-ai-hackathon.devpost.com/",
+   "inscripcion": "https://imperial-ai-hackathon.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Imperial AI Society",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI. Premios: £0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/853/475/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 33,
+   "puntaje": 52,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Competencias · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-15T05:19-05:00"
   },
   {
    "id": "devpost:31823",
@@ -1358,7 +1359,7 @@
    "organizador": "Beatriz Hoyos",
    "descripcion": "Capacitación gratuita en vivo por Zoom para agentes: 3 habilidades para convertir más prospectos en contratos. Te invita Beatriz Hoyos.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197802845%2F713589200593%2F1%2Foriginal.20261111-215702?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ba2146064513bb6a79f50497832d35fd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197802845%2F713589200593%2F1%2Foriginal.20261111-215702?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8ad82026bf35afac00e369426f2a2329",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2071,33 +2072,6 @@
    "visto_desde": "2026-11-14T19:40-05:00"
   },
   {
-   "id": "eb:2004692186294",
-   "titulo": "Voluntariado con niños y adultos mayores en Callao",
-   "inicio": "2026-11-21T14:00-05:00",
-   "fin": "2026-11-21T16:00-05:00",
-   "lugar": "Las Dalias 156, 156 Las Dalias",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692186294",
-   "fuente": "Eventbrite",
-   "organizador": "Huellas ONG",
-   "descripcion": "Brinda un rato de tu fin de semana para combatir la soledad con juegos y sonrisas junto a abuelos y niños en esta actividad presencial.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738082%2F1082019636043%2F1%2Foriginal.20261111-023137?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533&fp-y=0.399&s=9429659e7fb17dff1504ac44440f8c4e",
-   "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692186294",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-11-14T19:40-05:00"
-  },
-  {
    "id": "eb:2004692296624",
    "titulo": "Voluntariado con niños y abuelos en San Miguel",
    "inicio": "2026-11-21T14:00-05:00",
@@ -2112,6 +2086,33 @@
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738358%2F1082019636043%2F1%2Foriginal.20261111-023558?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=31454a2148932d929448ebf45b3ef9b1",
    "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-abuelos-en-san-miguel-tickets-2004692296624",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-11-14T19:40-05:00"
+  },
+  {
+   "id": "eb:2004692186294",
+   "titulo": "Voluntariado con niños y adultos mayores en Callao",
+   "inicio": "2026-11-21T14:00-05:00",
+   "fin": "2026-11-21T16:00-05:00",
+   "lugar": "Las Dalias 156, 156 Las Dalias",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692186294",
+   "fuente": "Eventbrite",
+   "organizador": "Huellas ONG",
+   "descripcion": "Brinda un rato de tu fin de semana para combatir la soledad con juegos y sonrisas junto a abuelos y niños en esta actividad presencial.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738082%2F1082019636043%2F1%2Foriginal.20261111-023137?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533&fp-y=0.399&s=9429659e7fb17dff1504ac44440f8c4e",
+   "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692186294",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -4849,7 +4850,7 @@
    "organizador": "Fundación CMR",
    "descripcion": "Un espacio de encuentro y aprendizaje para fortalecer a las organizaciones que trabajan por el bienestar y desarrollo de la primera infancia",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197228125%2F544170612279%2F1%2Foriginal.20261104-021536?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eefdaefb0b45dfba4a86104c20f92cdc",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197228125%2F544170612279%2F1%2Foriginal.20261104-021536?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b99e68355f46b34f63f980ef733125ec",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -5111,6 +5112,33 @@
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Virtual",
    "visto_desde": "2026-10-05T16:48-05:00"
+  },
+  {
+   "id": "eb:1992934666235",
+   "titulo": "WEBINAR GRATUITO: KPIs Diseño de Indicadores (45 min)",
+   "inicio": "2026-12-29T22:00-05:00",
+   "fin": "2026-12-29T22:45-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/webinar-gratuito-kpis-diseno-de-indicadores-45-min-tickets-1992934666235",
+   "inscripcion": "https://www.eventbrite.com.ar/e/webinar-gratuito-kpis-diseno-de-indicadores-45-min-tickets-1992934666235",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "B&D Gestión Empresarial Integral",
+   "descripcion": "Aprende todo sobre Diseño de Indicadores en solo 45 minutos, ¡y sin costo!",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188009428%2F319168373075%2F1%2Foriginal.20260701-153539?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bde23da1dbd6fc4ee0be7d2c60ee8400",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-11-15T05:19-05:00"
   },
   {
    "id": "devpost:31108",
@@ -7745,31 +7773,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:2004335854496",
-   "titulo": "The Only Fre Food Tasting Tours in Lima",
-   "inicio": "2026-11-14T20:00-05:00",
-   "fin": "2026-11-14T21:30-05:00",
-   "lugar": "McDonald's, 599 Jirón de la Unión",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335854496",
-   "fuente": "Eventbrite",
-   "organizador": "Viajens Machupicchu",
-   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
-   "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
-   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335854496",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Evento sin formato claro"
-  },
-  {
    "id": "eb:1982892093630",
    "titulo": "Solo travellers: casual hangout in Lima (4pm)",
    "inicio": "2026-11-15T16:00-05:00",
@@ -7795,6 +7798,31 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
+   "id": "eb:2004335855499",
+   "titulo": "The Only Fre Food Tasting Tours in Lima",
+   "inicio": "2026-11-15T17:00-05:00",
+   "fin": "2026-11-15T18:30-05:00",
+   "lugar": "McDonald's, 599 Jirón de la Unión",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335855499",
+   "fuente": "Eventbrite",
+   "organizador": "Viajens Machupicchu",
+   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
+   "gratis": false,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
+   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335855499",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Evento sin formato claro"
+  },
+  {
    "id": "eb:2004611786817",
    "titulo": "VIVA EL PERREO ZION & LENNOX (Tributo Oficial)",
    "inicio": "2026-11-15T22:00-05:00",
@@ -7807,7 +7835,7 @@
    "organizador": "PLANET VES",
    "descripcion": "Este Domingo 15  Noviembre, VIVA EL PERREO con ZION & LENNOX (Tributo Oficial) Los Mejores Clásicos del Reggaeton se vive en RGTON KINGS!!",
    "gratis": true,
-   "imagen": "",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198001749%2F2017348999033%2F1%2Foriginal.20261115-024905?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1c70aa3724617a13f85416e15c65f5ac",
    "inscripcion": "https://www.eventbrite.com.pe/e/viva-el-perreo-zion-lennox-tributo-oficial-tickets-2004611786817",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8516,6 +8544,34 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31107",
+   "titulo": "Hack The Nest",
+   "tipo": "hackathon",
+   "inicio": "2026-11-14T00:00-05:00",
+   "fin": "2026-11-15T23:59-05:00",
+   "cierre": "2026-11-15T23:59-05:00",
+   "lugar": "EMU Student Center and Halle Library",
+   "distrito": "EMU Student Center and Halle Library",
+   "modalidad": "Presencial",
+   "url": "https://hack-the-nest.devpost.com/",
+   "inscripcion": "https://hack-the-nest.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Google Developer Group on Campus at EMU",
+   "descripcion": "Hackathon presencial en EMU Student Center and Halle Library. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/163/295/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 21,
+   "afinidad": 26,
+   "puntaje": 47,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:32109",
    "titulo": "sunhacks 2026",
    "tipo": "hackathon",
@@ -8543,31 +8599,32 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:30500",
-   "titulo": "DSH Hacks V2 ($100k+ in prizes!)",
+   "id": "devpost:31879",
+   "titulo": "Immerse the Bay 2026",
    "tipo": "hackathon",
-   "inicio": "2026-06-24T00:00-05:00",
+   "inicio": "2026-11-14T00:00-05:00",
    "fin": "2026-11-15T23:59-05:00",
    "cierre": "2026-11-15T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://dsh-hacks-v2.devpost.com/",
-   "inscripcion": "https://dsh-hacks-v2.devpost.com/",
+   "lugar": "Stanford University",
+   "distrito": "Stanford University",
+   "modalidad": "Presencial",
+   "url": "https://immerse-the-bay-2026.devpost.com/",
+   "inscripcion": "https://immerse-the-bay-2026.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "STEMise",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Open Ended. Premios: $0.",
-   "gratis": false,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/152/677/datas/medium_square.png",
-   "motivo": "recreativo o de venta (100k)",
+   "organizador": "Stanford XR",
+   "descripcion": "Hackathon presencial en Stanford University. Temas: AR/VR, Beginner Friendly, Machine Learning/AI. Premios: $1,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/705/553/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
    "categorias": [
+    "Tecnología e IA",
     "Competencias y hackathons"
    ],
-   "valor": 13,
-   "afinidad": 6,
-   "puntaje": 19,
-   "por_que": "Competencia · Afín: Competencias · Con premio · Plazo claro · (Hackathon global sin vínculo con el Perú)"
+   "valor": 23,
+   "afinidad": 26,
+   "puntaje": 49,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "eb:2003273856030",
@@ -8698,31 +8755,6 @@
    "por_que": "Networking · Presencial en Lima"
   },
   {
-   "id": "eb:2003074310183",
-   "titulo": "Apertura oficial y lanzamiento de nuestra nueva colección",
-   "inicio": "2026-11-14T18:00-05:00",
-   "fin": "2026-11-14T22:00-05:00",
-   "lugar": "Apertura oficial y lanzamiento de nuestra nueva colección, De la Roca De Vergallo 493 , Magdalena del Mar",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/apertura-oficial-y-lanzamiento-de-nuestra-nueva-coleccion-tickets-2003074310183",
-   "fuente": "Eventbrite",
-   "organizador": "NEVORA",
-   "descripcion": "Acompañanos a celebrar la inaguración de nuestra primera tienda y la nueva colección de nuestros buzos baggy   ¡los esperamos!",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195287986%2F3016738049732%2F1%2Foriginal.20261007-154551?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.506&fp-y=0.097&s=fc03c1fa27f9ca2215529a41e1975838",
-   "inscripcion": "https://www.eventbrite.com/e/apertura-oficial-y-lanzamiento-de-nuestra-nueva-coleccion-tickets-2003074310183",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (lanzamiento de)",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "pucp:activacion-abrazando-a-quienes-viven-en-nuestra-memoria-misa",
    "titulo": "Activación Abrazando a quienes viven en nuestra memoria (misa)",
    "inicio": "2026-11-27T13:00-05:00",
@@ -8823,20 +8855,20 @@
    "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
-   "id": "eb:2004334222615",
+   "id": "eb:2004334223618",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-14T20:00-05:00",
-   "fin": "2026-11-14T21:30-05:00",
+   "inicio": "2026-11-15T18:00-05:00",
+   "fin": "2026-11-15T19:30-05:00",
    "lugar": "Tourist Information Center, 799 Avenida José Larco",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334222615",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334223618",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334222615",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334223618",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -9016,33 +9048,6 @@
    "afinidad": 20,
    "puntaje": 37,
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
-  },
-  {
-   "id": "devpost:31915",
-   "titulo": "BUHACK 2.0",
-   "tipo": "hackathon",
-   "inicio": "2026-11-12T00:00-05:00",
-   "fin": "2026-11-14T23:59-05:00",
-   "cierre": "2026-11-14T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://buhack-2.devpost.com/",
-   "inscripcion": "https://buhack-2.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HKBU Coding Club",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Low/No Code, Web. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/727/171/datas/medium_square.PNG",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31746",
@@ -9237,34 +9242,6 @@
    "afinidad": 6,
    "puntaje": 22,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:32052",
-   "titulo": "DevFest Hackathon 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-14T00:00-05:00",
-   "fin": "2026-11-15T23:59-05:00",
-   "cierre": "2026-11-15T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://ucsc-devfest2026.devpost.com/",
-   "inscripcion": "https://ucsc-devfest2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Google Developer Groups on Campus UCSC",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 24,
-   "afinidad": 29,
-   "puntaje": 53,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "pucp:concierto-por-los-55-anos-de-ee-gg-cc-27102026162202",
@@ -9523,7 +9500,7 @@
    "organizador": "AWS Student Builder Group UNI",
    "descripcion": "Un día de charlas, workshops y comunidad sobre cloud e IA, organizado por estudiantes del AWS Student Builder Group UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=ff03716ec626363368db29cefaf9cd26",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=4947bfa70477611befac2e5ee3039f58",
    "inscripcion": "https://www.eventbrite.com.pe/e/aws-student-community-day-lima-2026-tickets-2003893051059",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -9571,8 +9548,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-14T19:40-05:00",
-  "revisados": 215,
+  "fecha": "2026-11-15T05:19-05:00",
+  "revisados": 216,
   "corregidos": 17,
   "avisos": 2,
   "archivados": 5,
@@ -9771,7 +9748,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 21,
+   "comprobados": 7,
    "rotos": 4,
    "sin_comprobar": 1
   },
@@ -9779,19 +9756,11 @@
  },
  "por_confirmar": [
   {
-   "titulo": "FIL Lima 2026: nuestro top de libros recomendados para leer en esta edición de la feria",
-   "url": "https://elcomercio.pe/eldominical/actualidad/fil-lima-2026-top-de-libros-recomendados-de-la-feria-internacional-del-libro-de-lima-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Thu, 23 Jul 2026 07:55:00 GMT",
-   "resumen": "El Centro de Exposiciones Jockey de Surco alberga, desde este 22 de julio, la edición número 30 de la Feria Internacional del Libro de Lima. Estos son algunos títulos imperdibles para buscar en la FIL ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
-   "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
-   "medio": "RPP",
-   "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
-   "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
+   "titulo": "Riesgos, inteligencia artificial y arbitraje: el XII Foro Gerencias Legales Lima 2026 marca la agenda de los General Counsel de la región",
+   "url": "https://estadodiario.com/noticias/riesgos-inteligencia-artificial-y-arbitraje-el-xii-foro-gerencias-legales-lima-2026-marca-la-agenda-de-los-general-counsel-de-la-region/",
+   "medio": "EstadoDiario",
+   "publicado": "Fri, 06 Nov 2026 05:47:00 GMT",
+   "resumen": "Líderes jurídicos, General Counsel y responsables legales y de cumplimiento de compañías con operaciones en Perú, Colombia, México y Estados Unidos se dieron cita en el XII Foro Gerencias Legales Lima ...",
    "fecha_mencionada": ""
   },
   {
@@ -9800,6 +9769,14 @@
    "medio": "Perú.21",
    "publicado": "Sun, 11 Oct 2026 00:06:00 GMT",
    "resumen": "Feria del libro tendrá más de 40 stands y alrededor de 70 actividades. Reunirá a editoriales, librerías y autores.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "FIL Lima 2026: fechas, precios de entradas, invitados y lo que debes saber sobre la nueva edición de la Feria Internacional del Libro",
+   "url": "https://rpp.pe/cultura/literatura/fil-lima-2026-cuando-empieza-sede-invitados-y-que-se-sabe-feria-internacional-del-libro-noticia-1693447",
+   "medio": "RPP",
+   "publicado": "Thu, 30 Jul 2026 09:15:00 GMT",
+   "resumen": "La Feria Internacional del Libro de Lima celebra este año su 30 aniversario con una importante novedad: cambia de sede al Centro de Exposiciones Jockey. Conoce las fechas, precios de entradas, ...",
    "fecha_mencionada": ""
   },
   {
@@ -9819,14 +9796,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
-   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
-   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "LATAM Media Leaders Summit 2026: repasa las mejores imágenes que dejó el primer día del evento",
    "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-las-mejores-imagenes-que-dejo-el-primer-dia-del-evento-apuesplan-noticia/",
    "medio": "El Comercio",
@@ -9835,11 +9804,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Retail Media Summit Perú 2026: una industria lista para conectar el futuro del comercio",
-   "url": "https://www.americatv.com.pe/noticias/util-e-interesante/retail-media-summit-peru-2026-industria-lista-conectar-futuro-comercio-n523776",
-   "medio": "América Televisión",
-   "publicado": "Thu, 22 Oct 2026 23:33:00 GMT",
-   "resumen": "La primera edición del encuentro, organizado por Mediática junto a Inbrax, reunió a líderes de marcas, retailers, agencias y empresas tecnológicas para analizar el potencial del Retail Media y el Conn ...",
+   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
+   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
+   "medio": "DiarioBitcoin",
+   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
+   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ac ...",
    "fecha_mencionada": ""
   },
   {
@@ -9848,6 +9817,14 @@
    "medio": "Infobae",
    "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
    "resumen": "La feria ofrecerá conversatorios, encuentros con escritores, presentaciones de novedades editoriales, talleres, cuentacuentos, recitales de poesía y espectáculos musicales ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Expovida Lima 2026 reunirá lo mejor de la producción de café, cacao y otros productos del desarrollo alternativo",
+   "url": "https://www.peruinforma.com/expovida-lima-2026-reunira-lo-mejor-de-la-produccion-de-cafe-cacao-y-otros-productos-del-desarrollo-alternativo/",
+   "medio": "Perú Informa",
+   "publicado": "Thu, 12 Nov 2026 12:19:00 GMT",
+   "resumen": "En el marco de sus 30 años de creación institucional, la Comisión Nacional para el Desarrollo y Vida sin Drogas (Devida) realizará la V Expovida Lima 2026, una feria que pondrá en vitrina el esfuerzo, ...",
    "fecha_mencionada": ""
   },
   {
@@ -10194,7 +10171,6 @@
   "eb:2004573094086": "2026-11-09T05:50-05:00",
   "eb:2004573463190": "2026-11-09T05:50-05:00",
   "devpost:32060": "2026-11-09T05:50-05:00",
-  "meetup:317354446": "2026-11-09T16:52-05:00",
   "pucp:presentacion-anual-del-cemduc-por-la-alegria-de-nuestros-carnavales-06112026172411": "2026-11-09T16:52-05:00",
   "eb:2004581058909": "2026-11-09T16:52-05:00",
   "luma:evt-I4mWZZwvfYsGvZ9": "2026-11-09T16:52-05:00",
@@ -10265,6 +10241,8 @@
   "eb:2004554961852": "2026-11-14T19:40-05:00",
   "eb:2004692186294": "2026-11-14T19:40-05:00",
   "eb:2004692296624": "2026-11-14T19:40-05:00",
-  "eb:2004692051892": "2026-11-14T19:40-05:00"
+  "eb:2004692051892": "2026-11-14T19:40-05:00",
+  "devpost:32099": "2026-11-15T05:19-05:00",
+  "eb:1992934666235": "2026-11-15T05:19-05:00"
  }
 }
