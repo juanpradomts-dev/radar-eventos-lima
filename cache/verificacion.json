@@ -1,25 +1,5 @@
 [
  {
-  "fecha": "2026-11-07T23:00-05:00",
-  "revisados": 201,
-  "corregidos": 11,
-  "avisos": 1,
-  "archivados": 5,
-  "tasas": {
-   "Eventbrite": 0.07,
-   "WikiCFP": 0.0,
-   "Opportunity Desk": 0.0,
-   "Devpost": 0.03,
-   "Institucional": 0.5,
-   "PUCP": 0.11,
-   "Luma": 0.05,
-   "Eventbrite online": 0.0,
-   "TEDx": 0.0,
-   "IEEE Perú": 0.2,
-   "Meetup": 0.0
-  }
- },
- {
   "fecha": "2026-11-08T07:41-05:00",
   "revisados": 202,
   "corregidos": 11,
@@ -609,6 +589,26 @@
    "Eventbrite": 0.18,
    "Meetup": 0.0,
    "IEEE Perú": 0.67
+  }
+ },
+ {
+  "fecha": "2026-11-18T06:00-05:00",
+  "revisados": 220,
+  "corregidos": 19,
+  "avisos": 3,
+  "archivados": 5,
+  "tasas": {
+   "Institucional": 0.55,
+   "Eventbrite online": 0.0,
+   "Luma": 0.09,
+   "Opportunity Desk": 0.0,
+   "PUCP": 0.09,
+   "Devpost": 0.02,
+   "TEDx": 0.0,
+   "Eventbrite": 0.18,
+   "Meetup": 0.0,
+   "IEEE Perú": 0.67,
+   "WikiCFP": 0.0
   }
  }
 ]
