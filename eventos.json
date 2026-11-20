@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-19T14:53-05:00",
+ "actualizado": "2026-11-19T21:00-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 62
+   "n": 59
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 17
+   "n": 16
   },
   "Meetup": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "PUCP": {
    "ok": true,
-   "n": 42
+   "n": 37
   },
   "IEEE Perú": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 354,
+ "revisados": 345,
  "top": 55,
  "eventos": [
   {
@@ -237,33 +237,6 @@
    "visto_desde": "2026-09-26T09:22-05:00"
   },
   {
-   "id": "pucp:activacion-tu-bienestar-importa-se-un-promotor-de-bienestar",
-   "titulo": "Activación Tu bienestar importa: Sé un promotor de bienestar",
-   "inicio": "2026-11-19T12:00-05:00",
-   "fin": "2026-11-19T15:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/activacion-tu-bienestar-importa-se-un-promotor-de-bienestar/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "¡Anímate a ser parte de los voluntariados 2027! Acércate a la activación de los Promotores de Bienestar y conoce las oportunidades para involucrarte en iniciativas que promueven el compromiso social, la participación estudiantil y el bienestar de nuestra comunidad universitaria.\nLugar: Jardin de Tesorería",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/tu_bienest_78a3d8b20a.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/activacion-tu-bienestar-importa-se-un-promotor-de-bienestar/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-10-26T17:14-05:00"
-  },
-  {
    "id": "opportunitydesk:s-fellowships-and-other-opportunities-currently-open-november-19-2026-",
    "titulo": "20 Scholarships, Grants, Fellowships and Other Opportunities Currently Open – November 19, 2026",
    "tipo": "convocatoria",
@@ -291,118 +264,6 @@
    "puntaje": 43,
    "por_que": "Abre puertas (beca/programa) · Afín: Investigación · Afín: Becas y posgrado · Gremio o institución",
    "visto_desde": "2026-11-19T14:53-05:00"
-  },
-  {
-   "id": "luma:evt-7wud3zUbU4nSmjp",
-   "titulo": "Tangem Campus PUCP",
-   "inicio": "2026-11-19T14:00-05:00",
-   "fin": "2026-11-19T16:00-05:00",
-   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/dmgzhk8l",
-   "fuente": "Luma",
-   "organizador": "Jennifer Gabriela, Club Blockchain PUCP",
-   "descripcion": "¿Sabes realmente cómo se protegen los activos digitales y qué ocurre detrás de escena cuando gestionas tus propias claves criptográficas?\nTe invitamos a Tangem Campus, una sesión teórico-práctica diseñada para acercar la ciberseguridad aplicada y la tecnología blockchain al entorno universitario. En esta jornada exploraremos cómo funciona la autocustodia real, qué vulnerabilidades existen hoy en día en el ecosistema digital y cómo prevenir estafas o ataques mediante el uso de hardware especializado.\n💡 ¿Qué aprenderás en esta sesión?\nFundamentos de Seguridad y Criptografía: Cómo funcionan las claves privadas y por qué la custodia tradicional conlleva riesgos.\n\nAutocustodia en Hardware: Arquit",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/aq/91ba52ae-7f65-4126-bf95-81e96eba10ff.png",
-   "inscripcion": "https://lu.ma/dmgzhk8l",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Investigación y ciencia"
-   ],
-   "valor": 34,
-   "afinidad": 0,
-   "puntaje": 34,
-   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad · Gratis · (Evitas «web3»)",
-   "visto_desde": "2026-11-13T16:10-05:00"
-  },
-  {
-   "id": "luma:evt-pbPNpjkOOt8UAwY",
-   "titulo": "Visita técnica: ROCA ✨",
-   "inicio": "2026-11-19T14:00-05:00",
-   "fin": "2026-11-19T17:30-05:00",
-   "lugar": "Av. Manuel Olguín 325, Santiago de Surco",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/3jkvjvh7",
-   "fuente": "Luma",
-   "organizador": "IEEE RE UTP - Eventos",
-   "descripcion": "La tecnología médica desempeña un papel fundamental en el diagnóstico, tratamiento y atención de los pacientes, integrando innovación e ingeniería para transformar los servicios de salud. 🩺⚙️\nTe invitamos a participar en una visita técnica a ROCA, empresa peruana especializada en soluciones de equipamiento médico y representante de importantes marcas internacionales como GE HealthCare, Stryker, Elekta y Brainlab.\nDurante esta experiencia podrás conocer las tecnologías y equipos utilizados en distintas especialidades médicas, así como descubrir cómo la ingeniería biomédica contribuye al desarrollo del sector salud. 🔬✨¡VACANTES LIMITADAS!\n🔗 Conoce nuestras próximas actividades y síguenos en to",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/5n/d580e029-c176-4a5a-8fab-df04a05db268.jpg",
-   "inscripcion": "https://lu.ma/3jkvjvh7",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 25,
-   "afinidad": 4,
-   "puntaje": 29,
-   "por_que": "Presencial en Lima · Gremio o institución · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-10-31T15:55-05:00"
-  },
-  {
-   "id": "pucp:primer-congreso-latinoamericano-de-etica-en-la-abogacia-y-la-ensenanza-del-derecho-19102026174533",
-   "titulo": "Primer Congreso Latinoamericano de Ética en la Abogacía y la Enseñanza del Derecho",
-   "inicio": "2026-11-19T15:00-05:00",
-   "fin": "2026-11-19T20:30-05:00",
-   "lugar": "Nos - PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/primer-congreso-latinoamericano-de-etica-en-la-abogacia-y-la-ensenanza-del-derecho-19102026174533/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El I Congreso Latinoamericano de Ética Profesional en la Abogacía y la Enseñanza del Derecho tiene como tema central la Ética en el Arbitraje. Se trata de un asunto complejo de gran relevancia para el ejercicio profesional y la confianza en este mecanismo de resolución de controversias.\n\nEl arbitraje plantea importantes desafíos éticos vinculados con los conflictos de intereses, los deberes de representación, la corrupción y los usos fraudulentos de este mecanismo, el financiamiento del arbitraje, el papel de las instituciones arbitrales y la eficacia de la regulación ética. Asimismo, invita a reflexionar sobre los retos que plantean el uso de la inteligencia artificial y la enseñanza de la ",
-   "gratis": false,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/pieza_591x400_286381d44e.jpg",
-   "inscripcion": "https://ares.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=048&id=355&a=&l=&cis=&on=&lp=",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Tecnología e IA"
-   ],
-   "valor": 29,
-   "afinidad": 28,
-   "puntaje": 57,
-   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Afín: Inteligencia artificial",
-   "visto_desde": "2026-10-20T16:10-05:00"
-  },
-  {
-   "id": "pucp:formacion-universitaria-en-tiempos-de-ia-retos-y-posibilidades-03112026120609",
-   "titulo": "“Formación universitaria en tiempos de IA: retos y posibilidades”.",
-   "inicio": "2026-11-19T15:00-05:00",
-   "fin": "2026-11-19T16:00-05:00",
-   "lugar": "Aula 100 - Primer piso del Aulario (Complejo de Innovación Académica)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/formacion-universitaria-en-tiempos-de-ia-retos-y-posibilidades-03112026120609/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El Departamento Académico de Teología, la Facultad de Ciencias e Ingeniería, la Facultad de Letras y Ciencias Humanas y el Instituto de Desarrollo Humano de América Latina (IDHAL) de la PUCP les invitan a participar en el conversatorio “Formación universitaria en tiempos de IA: retos y posibilidades”.\n \nEste encuentro forma parte de la iniciativa “Proteger lo humano en tiempos de IA: Diálogos sobre Magnifica Humanitas”, que busca profundizar en el mensaje de esta carta encíclica del papa León XIV y generar espacios de conversación sobre la condición humana en la era de la inteligencia artificial.\nParticipan:\nDra. Daniela Wurst | Estudios Generales Letras\nDr. Ezequiel Koile | Facultad de Letr",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Miniaturas_Agenda_PUCP_21_bfdee8c4c6.png",
-   "inscripcion": "https://forms.gle/ofZutnjZPkYYw91x7",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 31,
-   "afinidad": 12,
-   "puntaje": 43,
-   "por_que": "Afín: Inteligencia artificial · Networking · Presencial en Lima · Universidad",
-   "visto_desde": "2026-11-03T15:46-05:00"
   },
   {
    "id": "inst:sni-webinar-tratamiento-de-las-sanciones-a-los-trabajadores-:2026-11-19",
@@ -438,33 +299,6 @@
     "fin": "2026-11-19T23:50-05:00"
    },
    "visto_desde": "2026-11-10T00:42-05:00"
-  },
-  {
-   "id": "luma:evt-Hop1W6U8xHfksr8",
-   "titulo": "[Meetup] Todo empezó siendo otra cosa 🌀 con la comunidad mutante",
-   "inicio": "2026-11-19T18:30-05:00",
-   "fin": "2026-11-19T20:00-05:00",
-   "lugar": "Av. José Pardo 200, Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/uw3z1hpl",
-   "fuente": "Luma",
-   "organizador": "Mutaciones",
-   "descripcion": "El side project que se volvió chamba. El equipo que se achicó y aprendió a hacer de todo. El emprendimiento que terminó vendiendo algo que nadie había planeado. El equipo que pivoteó.\nEl 2026 nos movió el piso a varixs, y en este meetup queremos contar cómo mutamos. Esta vez el escenario es de la comunidad: speakers que nos contarán qué eran antes, qué son ahora y qué aprendieron en el medio, incluido lo que salió mal.\n📅 Jueves 19 de noviembre⏰ 6:30 pm 📍  Mutalab\n🎤 Sobre lxs speakers\nEstas son las 5 personas de la comunidad que suben al escenario:\nViviana Rojas (PersonalBranding.pe y Becca.group): momtrepreneur, de YouTube a startup edtech\n\nGerardo Arroyo (Simplexity Lab): de perseguir un fu",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/fc/5051b763-0ae3-4ce0-8319-4680a5d7b8f4.png",
-   "inscripcion": "https://lu.ma/uw3z1hpl",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 33,
-   "afinidad": 4,
-   "puntaje": 37,
-   "por_que": "Formativo · Presencial en Lima · Gratis · Empresa reconocida",
-   "visto_desde": "2026-11-02T05:28-05:00"
   },
   {
    "id": "luma:evt-j2x21xq6M6bWXW5",
@@ -550,58 +384,60 @@
    "visto_desde": "2026-10-20T21:59-05:00"
   },
   {
-   "id": "eb:2004968620115",
-   "titulo": "Webinar: Crisis Energética en Ecuador",
-   "inicio": "2026-11-19T19:00-05:00",
-   "fin": "2026-11-19T20:00-05:00",
+   "id": "opportunitydesk:unitydesk-org-2026-11-20-oxford-said-future-leaders-scholarships-2027-",
+   "titulo": "Oxford Saïd Future Leaders Scholarships 2027",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-19T20:40-05:00",
+   "fin": "2026-11-19T20:40-05:00",
+   "cierre": "",
+   "publicado": "2026-11-19T20:40-05:00",
    "lugar": "",
    "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com/e/entradas-webinar-crisis-energetica-en-ecuador-2004968620115",
-   "inscripcion": "https://www.eventbrite.com/e/entradas-webinar-crisis-energetica-en-ecuador-2004968620115",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Educación Continua UCSG",
-   "descripcion": "Nueva normativa, energía solar, baterías y eficiencia energética",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198186682%2F2073732399253%2F1%2Foriginal.20261117-193647?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.503&fp-y=0.507&s=aa8cc79db1f42a9fc9db1c208d4bdaa2",
-   "tipo": "evento",
-   "cierre": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/20/oxford-said-future-leaders-scholarships-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/20/oxford-said-future-leaders-scholarships-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: On Rolling Basis Applications are open for the Oxford Saïd Future Leaders Scholarships 2027. The Oxford Saïd Future Leaders Scholarships are prestigious awards to honour the achievements and support the ambitions of our brightest and best MBA students, who will go on to become future leaders in their different fields. They are supported by [...]",
+   "gratis": null,
+   "imagen": "",
    "categorias": [
-    "Ingeniería y operaciones"
+    "Idiomas, becas e internacional"
    ],
-   "valor": 23,
-   "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Formativo · Gratis · Virtual",
-   "visto_desde": "2026-11-17T21:43-05:00"
+   "valor": 20,
+   "afinidad": 8,
+   "puntaje": 28,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Con premio · Se postula en línea",
+   "visto_desde": "2026-11-19T21:00-05:00"
   },
   {
-   "id": "pucp:sesiones-de-cultura-china-trimestre-2026-4-11112026105324",
-   "titulo": "Sesiones de Cultura China trimestre 2026-4",
-   "inicio": "2026-11-19T19:30-05:00",
-   "fin": "2026-11-19T20:30-05:00",
-   "lugar": "Plataforma: Zoom",
+   "id": "pucp:primer-congreso-latinoamericano-de-etica-en-la-abogacia-y-la-ensenanza-del-derecho-19102026174533",
+   "titulo": "Primer Congreso Latinoamericano de Ética en la Abogacía y la Enseñanza del Derecho",
+   "inicio": "2026-11-20T15:00-05:00",
+   "fin": "2026-11-20T20:30-05:00",
+   "lugar": "Nos - PUCP",
    "distrito": "San Miguel",
-   "modalidad": "Virtual",
-   "url": "https://agenda.pucp.edu.pe/evento/sesiones-de-cultura-china-trimestre-2026-4-11112026105324/",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/primer-congreso-latinoamericano-de-etica-en-la-abogacia-y-la-ensenanza-del-derecho-19102026174533/",
    "fuente": "PUCP",
    "organizador": "PUCP",
-   "descripcion": "El Instituto Confucio de la Pontificia Universidad Católica del Perú, entidad comprometida con la enseñanza y difusión de la lengua y la cultura china, te invita a participar en las Sesiones de Cultura China del trimestre 2026-4, que se llevarán a cabo de forma virtual a través de la plataforma ZOOM. Las inscripciones estarán disponibles exclusivamente a través de nuestra página web durante las fechas programadas.\n \n➤ Las flores de Xunpu: tradición, belleza y turismo cultural\n● Fecha de inscripción: Desde el martes 10 de noviembre\n● Fecha de la sesión: Martes 17 de noviembre\n● Horario: 05:00 pm a 06:00 pm\n● Idioma: Inglés\n● Plataforma: Zoom\nAcceso gratuito previa inscripción – CUPOS LIMITADO",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/AGENDA_PUCP_OF_f88fcdc2be.png",
-   "inscripcion": "https://confucio.pucp.edu.pe/actividades/sesiones-de-cultura-china-trimestre-2026-4/",
+   "descripcion": "El I Congreso Latinoamericano de Ética Profesional en la Abogacía y la Enseñanza del Derecho tiene como tema central la Ética en el Arbitraje. Se trata de un asunto complejo de gran relevancia para el ejercicio profesional y la confianza en este mecanismo de resolución de controversias.\n\nEl arbitraje plantea importantes desafíos éticos vinculados con los conflictos de intereses, los deberes de representación, la corrupción y los usos fraudulentos de este mecanismo, el financiamiento del arbitraje, el papel de las instituciones arbitrales y la eficacia de la regulación ética. Asimismo, invita a reflexionar sobre los retos que plantean el uso de la inteligencia artificial y la enseñanza de la ",
+   "gratis": false,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/pieza_591x400_286381d44e.jpg",
+   "inscripcion": "https://ares.pucp.edu.pe/pucp/procinsc/piwinsrp/piwinsrp?accion=Inscripcion&tp=048&id=355&a=&l=&cis=&on=&lp=",
    "fuente_url": "https://agenda.pucp.edu.pe/",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
-    "Idiomas, becas e internacional"
+    "Investigación y ciencia",
+    "Tecnología e IA"
    ],
-   "valor": 30,
-   "afinidad": 0,
-   "puntaje": 30,
-   "por_que": "Formativo · Universidad · Gratis · Virtual",
-   "visto_desde": "2026-11-11T16:43-05:00"
+   "valor": 29,
+   "afinidad": 28,
+   "puntaje": 57,
+   "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Afín: Inteligencia artificial",
+   "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
    "id": "pucp:taller-sobre-el-timeo-de-platon-10112026184630",
@@ -799,38 +635,6 @@
    "puntaje": 29,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-19T14:53-05:00"
-  },
-  {
-   "id": "luma:evt-4aoOh8hJZeJwY36",
-   "titulo": "Hackaton-ai-leadupn",
-   "inicio": "2026-11-21T02:00-05:00",
-   "fin": "2026-11-21T08:00-05:00",
-   "lugar": "Av. El Sol 461, San Juan de Lurigancho",
-   "distrito": "San Juan de Lurigancho",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/o67tke0o",
-   "fuente": "Luma",
-   "organizador": "Dominid Muñoz",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/gallery-images/o6/663909da-e85d-4475-ad36-ab72b057cc75",
-   "inscripcion": "https://lu.ma/o67tke0o",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 26,
-   "afinidad": 21,
-   "puntaje": 47,
-   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Presencial en Lima",
-   "original": {
-    "titulo": "HACKATON-AI-LEADUPN"
-   },
-   "hora_dudosa": true,
-   "visto_desde": "2026-11-15T13:26-05:00"
   },
   {
    "id": "eb:2004826902233",
@@ -1068,7 +872,7 @@
    "organizador": "Huellas ONG",
    "descripcion": "Haz espacio en tu fin de semana para llevar juegos y sonrisas a abuelos y niños que necesitan compañía en este encuentro presencial.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197737689%2F1082019636043%2F1%2Foriginal.20261111-022434?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.137&s=e4149a6f8b5bed77b42c40384165bfba",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197737689%2F1082019636043%2F1%2Foriginal.20261111-022434?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.137&s=542dc114a89f262a088ba6b07d7ade06",
    "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-abuelos-y-ninos-en-miraflores-tickets-2004692051892",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -1507,6 +1311,33 @@
     "titulo": "MÁS ALLÁ DE LAS FRONTERAS"
    },
    "visto_desde": "2026-11-18T14:53-05:00"
+  },
+  {
+   "id": "pucp:sesiones-de-cultura-china-trimestre-2026-4-11112026105324",
+   "titulo": "Sesiones de Cultura China trimestre 2026-4",
+   "inicio": "2026-11-23T16:00-05:00",
+   "fin": "2026-11-23T17:00-05:00",
+   "lugar": "Plataforma: Zoom",
+   "distrito": "San Miguel",
+   "modalidad": "Virtual",
+   "url": "https://agenda.pucp.edu.pe/evento/sesiones-de-cultura-china-trimestre-2026-4-11112026105324/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Instituto Confucio de la Pontificia Universidad Católica del Perú, entidad comprometida con la enseñanza y difusión de la lengua y la cultura china, te invita a participar en las Sesiones de Cultura China del trimestre 2026-4, que se llevarán a cabo de forma virtual a través de la plataforma ZOOM. Las inscripciones estarán disponibles exclusivamente a través de nuestra página web durante las fechas programadas.\n \n➤ Las flores de Xunpu: tradición, belleza y turismo cultural\n● Fecha de inscripción: Desde el martes 10 de noviembre\n● Fecha de la sesión: Martes 17 de noviembre\n● Horario: 05:00 pm a 06:00 pm\n● Idioma: Inglés\n● Plataforma: Zoom\nAcceso gratuito previa inscripción – CUPOS LIMITADO",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/AGENDA_PUCP_OF_f88fcdc2be.png",
+   "inscripcion": "https://confucio.pucp.edu.pe/actividades/sesiones-de-cultura-china-trimestre-2026-4/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 30,
+   "afinidad": 0,
+   "puntaje": 30,
+   "por_que": "Formativo · Universidad · Gratis · Virtual",
+   "visto_desde": "2026-11-11T16:43-05:00"
   },
   {
    "id": "luma:evt-GU3iJqrB6BRKcNQ",
@@ -2090,7 +1921,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=98149458ee473e40a1f608f81046be95",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2117,7 +1948,7 @@
    "organizador": "Barcelona Finance School (BFS)",
    "descripcion": "Descubre cómo la evaluación económica, el acceso al mercado y la IA transforman el sector salud. Presentación oficial del Executive Program.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198149605%2F3020868399198%2F1%2Foriginal.20261117-105909?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=447d38d9a3a2dc4a9088270f7b218281",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198149605%2F3020868399198%2F1%2Foriginal.20261117-105909?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0ce997e77a7fe29a86661e2fda0dd83e",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2289,7 +2120,7 @@
    "organizador": "GROW",
    "descripcion": "\"Crece y descubre cómo lograr tus metas\"",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198215497%2F225169246126%2F1%2Foriginal.20261118-032021?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=90a928df2d14d533d2c5644a032c94f6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198215497%2F225169246126%2F1%2Foriginal.20261118-032021?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7aa80c55851d3c1a28bd21dddce9283a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2427,7 +2258,7 @@
    "organizador": "Circle Generation",
    "descripcion": "Taller gratuito y experiencial de 90 minutos para explorar y practicar temas de liderazgo relacional y redes colaborativas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197815402%2F2033445612073%2F1%2Foriginal.20261112-020211?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a95f321662834500d58544b7849e1f88",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197815402%2F2033445612073%2F1%2Foriginal.20261112-020211?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6d8a4dd3ddc704f283b3c6a4762fd6c8",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3232,7 +3063,7 @@
   },
   {
    "id": "luma:evt-bEHDOc6gMyTteRU",
-   "titulo": "Build with Claude Lima pt.3",
+   "titulo": "[PRESENCIAL] Build with Claude Lima pt.3",
    "inicio": "2026-11-28T14:30-05:00",
    "fin": "2026-11-28T19:00-05:00",
    "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
@@ -3477,6 +3308,34 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-15T19:40-05:00"
+  },
+  {
+   "id": "opportunitydesk:k-org-2026-11-20-ias-person-centred-care-global-advocacy-academy-2027-",
+   "titulo": "IAS Person-Centred Care Global Advocacy Academy 2027 (Funded)",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-30T23:59-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "publicado": "2026-11-19T20:53-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/20/ias-person-centred-care-global-advocacy-academy-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/20/ias-person-centred-care-global-advocacy-academy-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: November 30, 2026 Applications are invited for the IAS Person-Centred Care Global Advocacy Academy 2027. The International AIDS Society (IAS) will award up to 20 fellowships to suitable candidates to engage in a series of interactive sessions over three days. Academy fellows will explore the evidence for, and implementation of, person-centred care for people [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Abre puertas (beca/programa) · Con premio · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-19T21:00-05:00"
   },
   {
    "id": "wikicfp:200050",
@@ -4066,6 +3925,34 @@
    "visto_desde": "2026-10-17T12:44-05:00"
   },
   {
+   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-19-rest-resilience-fellowship-2027-",
+   "titulo": "Rest & Resilience Fellowship 2027 (Fully-funded)",
+   "tipo": "convocatoria",
+   "inicio": "2026-12-06T23:59-05:00",
+   "fin": "2026-12-06T23:59-05:00",
+   "cierre": "2026-12-06T23:59-05:00",
+   "publicado": "2026-11-19T15:09-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/19/rest-resilience-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/19/rest-resilience-fellowship-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: December 6, 2026 Applications are open for the Rest & Resilience Fellowship 2027. They invite two journalists from countries with restricted press and information freedoms to Berlin for a six-month stay. During their time in Berlin, the media professionals can take a break from their daily responsibilities, recover from difficult working conditions, and broaden [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 12,
+   "puntaje": 32,
+   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-19T21:00-05:00"
+  },
+  {
    "id": "devpost:31973",
    "titulo": "Deck the Pixels",
    "tipo": "hackathon",
@@ -4641,7 +4528,7 @@
    "organizador": "Fundación CMR",
    "descripcion": "Un espacio de encuentro y aprendizaje para fortalecer a las organizaciones que trabajan por el bienestar y desarrollo de la primera infancia",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197228125%2F544170612279%2F1%2Foriginal.20261104-021536?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eefdaefb0b45dfba4a86104c20f92cdc",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197228125%2F544170612279%2F1%2Foriginal.20261104-021536?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b99e68355f46b34f63f980ef733125ec",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4734,34 +4621,6 @@
    "afinidad": 12,
    "puntaje": 32,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-19T14:53-05:00"
-  },
-  {
-   "id": "opportunitydesk:tps-opportunitydesk-org-2026-11-19-waf-global-internship-program-2027-",
-   "titulo": "World Agriculture Forum (WAF) Global Internship Program 2027",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-15T23:59-05:00",
-   "fin": "2026-12-15T23:59-05:00",
-   "cierre": "2026-12-15T23:59-05:00",
-   "publicado": "2026-11-19T08:49-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/19/waf-global-internship-program-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/19/waf-global-internship-program-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 15, 2026 Are you passionate about global agriculture, research, policy, trade, technology, innovation, and agribusinesses? The World Agriculture Forum is inviting applications for its global internship program. The internship program is for a period of three months, starting from January 15, 2027. This is your chance to contribute to global research and gain [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 20,
-   "afinidad": 8,
-   "puntaje": 28,
-   "por_que": "Abre puertas (beca/programa) · Afín: Investigación · Plazo claro · Se postula en línea",
    "visto_desde": "2026-11-19T14:53-05:00"
   },
   {
@@ -5123,34 +4982,6 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-11-15T05:19-05:00"
-  },
-  {
-   "id": "opportunitydesk:ps-opportunitydesk-org-2026-11-19-morris-b-abram-fellowship-2027-2028-",
-   "titulo": "Morris B. Abram Fellowship 2027-2028",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-31T23:59-05:00",
-   "fin": "2026-12-31T23:59-05:00",
-   "cierre": "2026-12-31T23:59-05:00",
-   "publicado": "2026-11-19T06:34-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/19/morris-b-abram-fellowship-2027-2028/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/19/morris-b-abram-fellowship-2027-2028/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 31, 2026 Applications are open for the Morris B. Abram Fellowship 2027-2028. The fellowship is designed to train recent college graduates. Previous UN Watch Fellows have gone on to distinguished careers in law, government, diplomacy, human rights, and journalism. UN Watch is a non-governmental organization that monitors the performance of the United Nations according [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-19T14:53-05:00"
   },
   {
    "id": "devpost:31108",
@@ -5539,34 +5370,6 @@
    "puntaje": 25,
    "por_que": "Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
-  },
-  {
-   "id": "opportunitydesk:pportunitydesk-org-2026-11-19-john-m-belk-impact-fellowship-2027-2028-",
-   "titulo": "John M. Belk Impact Fellowship 2027-2028 (Paid)",
-   "tipo": "convocatoria",
-   "inicio": "2027-03-05T23:59-05:00",
-   "fin": "2027-03-05T23:59-05:00",
-   "cierre": "2027-03-05T23:59-05:00",
-   "publicado": "2026-11-19T04:42-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/19/john-m-belk-impact-fellowship-2027-2028/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/19/john-m-belk-impact-fellowship-2027-2028/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: March 5, 2027 Applications are open for the John M. Belk Impact Fellowship 2027-2028. The John M. Belk Impact Fellowship is a 10-month (August-May), paid program that provides hands-on experience for students currently enrolled in community college, undergraduate, or graduate programs in North Carolina. Building on the success of the John M. Belk Scholarship [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-19T06:02-05:00"
   },
   {
    "id": "wikicfp:201347",
@@ -7950,56 +7753,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "pucp:feria-compartiendo-lo-que-somos-2026-2",
-   "titulo": "Feria Compartiendo lo que somos 2026-2",
-   "inicio": "2026-11-19T12:00-05:00",
-   "fin": "2026-11-19T15:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/feria-compartiendo-lo-que-somos-2026-2/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Participa en esta feria que promueve el encuentro, la integración y el reconocimiento de la diversidad de nuestra comunidad universitaria. Un espacio para compartir experiencias, fortalecer vínculos y conocer iniciativas que contribuyen a construir una comunidad más inclusiva y solidaria en la PUCP.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/compartiendo_lo_que_somos_fc22d1a369.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/feria-compartiendo-lo-que-somos-2026-2/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis"
-  },
-  {
-   "id": "eb:2004335867535",
-   "titulo": "The Only Fre Food Tasting Tours in Lima",
-   "inicio": "2026-11-19T17:00-05:00",
-   "fin": "2026-11-19T18:30-05:00",
-   "lugar": "McDonald's, 599 Jirón de la Unión",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335867535",
-   "fuente": "Eventbrite",
-   "organizador": "Viajens Machupicchu",
-   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
-   "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
-   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335867535",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Evento sin formato claro"
-  },
-  {
    "id": "eb:2003322947865",
    "titulo": "PERFECT HOME",
    "inicio": "2026-11-19T19:00-05:00",
@@ -8014,6 +7767,31 @@
    "gratis": false,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=723ef18fb1bd3e4bb2d8fe781b421019",
    "inscripcion": "https://www.eventbrite.com/e/entradas-perfect-home-2003322947865",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Evento sin formato claro"
+  },
+  {
+   "id": "eb:2004335869541",
+   "titulo": "The Only Fre Food Tasting Tours in Lima",
+   "inicio": "2026-11-19T20:00-05:00",
+   "fin": "2026-11-19T21:30-05:00",
+   "lugar": "McDonald's, 599 Jirón de la Unión",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335869541",
+   "fuente": "Eventbrite",
+   "organizador": "Viajens Machupicchu",
+   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
+   "gratis": false,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
+   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335869541",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8223,6 +8001,31 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
+   "id": "luma:evt-xcKeZ9CGzkQFPKb",
+   "titulo": "Lemon en Barranco",
+   "inicio": "2026-11-24T19:00-05:00",
+   "fin": "2026-11-24T23:30-05:00",
+   "lugar": "Jr 28 de Julio, 203, Barranco",
+   "distrito": "Barranco",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/zyi2s246",
+   "fuente": "Luma",
+   "organizador": "Lemon",
+   "descripcion": "Los esperamos a todos en un nuevo evento de Lemon en Barranco. Tenemos tragos para los 100 primeros que lleguen, comida y muchos premios 🎁\nLos esperamos para hablar con el equipo, aprender más sobre acciones, bitcoin, lemon y todas las novedades 🍋",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/yy/afb9e929-7e3a-40f1-aeb9-84e6b15a9f30.png",
+   "inscripcion": "https://lu.ma/zyi2s246",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 22,
+   "afinidad": 0,
+   "puntaje": 22,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro · Con premio"
   },
   {
    "id": "eb:1985254436461",
@@ -8487,7 +8290,7 @@
    "organizador": "Misión Más Vida",
    "descripcion": "¡Regresa nuestro teatro de Navidad! Una historia llena de risas, trampas y el valor de la familia.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197957759%2F3020459549142%2F1%2Foriginal.20261114-004021?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d7d00fbaa160a173f1f53f328d356675",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197957759%2F3020459549142%2F1%2Foriginal.20261114-004021?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a99cd87a6d87b37cc50b8cab384356a7",
    "inscripcion": "https://www.eventbrite.com/e/mi-pobre-angelito-tickets-2004833002479",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8735,7 +8538,7 @@
    "organizador": "La Taza Dorada",
    "descripcion": "Taller presencial desde cero: cata acogedora de filtrados y café de especialidad para estudiantes y principiantes.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=75a5a577613699d500dda5f02f40a5ca",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195454484%2F3017131388967%2F1%2Foriginal.20261009-150332?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.537&fp-y=0.57&s=c9d2eac7df802bab7ce2b846568a74b7",
    "inscripcion": "https://www.eventbrite.com/e/taller-de-cata-de-filtrados-y-cafe-de-especialidad-tickets-2003208116401",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8950,20 +8753,20 @@
    "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
-   "id": "eb:2004334231642",
+   "id": "eb:2004334232645",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-19T18:00-05:00",
-   "fin": "2026-11-19T19:30-05:00",
+   "inicio": "2026-11-19T20:00-05:00",
+   "fin": "2026-11-19T21:30-05:00",
    "lugar": "Tourist Information Center, 799 Avenida José Larco",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334231642",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334232645",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334231642",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334232645",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -9229,31 +9032,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "pucp:concierto-por-los-55-anos-de-ee-gg-cc-27102026162202",
-   "titulo": "Concierto por los 55 años de EE.GG.CC.",
-   "inicio": "2026-11-19T12:00-05:00",
-   "fin": "2026-11-19T15:00-05:00",
-   "lugar": "Estudios Generales Ciencias (Pabellón E)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/concierto-por-los-55-anos-de-ee-gg-cc-27102026162202/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Concierto · Cultura · Estudios Generales Ciencias",
-   "gratis": null,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/conciertoegc_f61fc9fb17.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/concierto-por-los-55-anos-de-ee-gg-cc-27102026162202/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "tipo de evento no formativo (Concierto)",
-   "categorias": [],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
-  },
-  {
    "id": "pucp:concierto-de-gala-2026-de-las-bandas-pucp-13112026173006",
    "titulo": "Concierto de Gala 2026 de las Bandas PUCP",
    "inicio": "2026-11-21T18:00-05:00",
@@ -9438,37 +9216,10 @@
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad"
   },
   {
-   "id": "pucp:belcorp-dinamica-de-seleccion-inhouse",
-   "titulo": "Belcorp | Dinámica de selección - Inhouse",
-   "inicio": "2026-11-19T12:00-05:00",
-   "fin": "2026-11-19T15:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/belcorp-dinamica-de-seleccion-inhouse/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Participa en la dinámica de selección de Belcorp, una oportunidad para conocer de cerca sus procesos de reclutamiento y demostrar tus habilidades en un entorno profesional. Una experiencia que te permitirá acercarte al mundo laboral y conocer las oportunidades de desarrollo profesional que ofrece la empresa.\nLugar: Z312",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/dinm_3000b87ede.png",
-   "inscripcion": "http://campusvirtual.pucp.edu.pe/pucp/procinsc/jsp/Inscripcion.jsp?t=032&i=35669",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "motivo": "no pasó la verificación: enlace roto (404)"
-  },
-  {
    "id": "pucp:xiv-encuentro-de-arte-artesania-y-diseno-culturas-del-hacer-redes-y-saberes-para-la-transformacion-09112026181827",
    "titulo": "XIV Encuentro de Arte, Artesanía y Diseño Culturas del hacer: redes y saberes para la transformación",
-   "inicio": "2026-11-19T14:00-05:00",
-   "fin": "2026-11-19T19:00-05:00",
+   "inicio": "2026-11-20T15:00-05:00",
+   "fin": "2026-11-20T20:00-05:00",
    "lugar": "Auditorio de la Facultad de Arte y Diseño",
    "distrito": "San Miguel",
    "modalidad": "Presencial",
@@ -9581,11 +9332,11 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-19T14:53-05:00",
-  "revisados": 219,
-  "corregidos": 17,
-  "avisos": 3,
-  "archivados": 4,
+  "fecha": "2026-11-19T21:00-05:00",
+  "revisados": 211,
+  "corregidos": 16,
+  "avisos": 2,
+  "archivados": 3,
   "problemas": [
    {
     "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
@@ -9602,22 +9353,6 @@
     "nivel": "corregido",
     "detalle": "hora de término de relleno (23:50)",
     "url": "https://sni.org.pe/eventos/"
-   },
-   {
-    "id": "luma:evt-4aoOh8hJZeJwY36",
-    "titulo": "Hackaton-ai-leadupn",
-    "fuente": "Luma",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://lu.ma/o67tke0o"
-   },
-   {
-    "id": "luma:evt-4aoOh8hJZeJwY36",
-    "titulo": "Hackaton-ai-leadupn",
-    "fuente": "Luma",
-    "nivel": "aviso",
-    "detalle": "presencial de madrugada (02:00): se muestra 'por confirmar'",
-    "url": "https://lu.ma/o67tke0o"
    },
    {
     "id": "eb:2004826902233",
@@ -9756,14 +9491,6 @@
     "url": "https://www.eventbrite.com.pe/e/aws-student-community-day-lima-2026-tickets-2003893051059"
    },
    {
-    "id": "pucp:belcorp-dinamica-de-seleccion-inhouse",
-    "titulo": "Belcorp | Dinámica de selección - Inhouse",
-    "fuente": "PUCP",
-    "nivel": "archivado",
-    "detalle": "enlace roto (404) en dos revisiones seguidas",
-    "url": "https://agenda.pucp.edu.pe/evento/belcorp-dinamica-de-seleccion-inhouse/"
-   },
-   {
     "id": "pucp:xiv-encuentro-de-arte-artesania-y-diseno-culturas-del-hacer-redes-y-saberes-para-la-transformacion-09112026181827",
     "titulo": "XIV Encuentro de Arte, Artesanía y Diseño Culturas del hacer: redes y saberes para la tran",
     "fuente": "PUCP",
@@ -9781,21 +9508,13 @@
    }
   ],
   "enlaces": {
-   "comprobados": 18,
-   "rotos": 3,
+   "comprobados": 7,
+   "rotos": 2,
    "sin_comprobar": 0
   },
   "fuentes_a_revisar": []
  },
  "por_confirmar": [
-  {
-   "titulo": "Riesgos, inteligencia artificial y arbitraje: el XII Foro Gerencias Legales Lima 2026 marca la agenda de los General Counsel de la región",
-   "url": "https://estadodiario.com/noticias/riesgos-inteligencia-artificial-y-arbitraje-el-xii-foro-gerencias-legales-lima-2026-marca-la-agenda-de-los-general-counsel-de-la-region/",
-   "medio": "EstadoDiario",
-   "publicado": "Fri, 06 Nov 2026 05:47:00 GMT",
-   "resumen": "Líderes jurídicos, General Counsel y responsables legales y de cumplimiento de compañías con operaciones en Perú, Colombia, México y Estados Unidos se dieron cita en el XII Foro Gerencias Legales Lima ...",
-   "fecha_mencionada": ""
-  },
   {
    "titulo": "Perú y China analizarán oportunidades económicas del Asia-Pacífico en foro internacional",
    "url": "https://andina.pe/agencia/noticia-peru-y-china-analizaran-oportunidades-economicas-del-asiapacifico-foro-internacional-1100406.aspx",
@@ -9805,19 +9524,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Concluye el Blockchain Summit Latam 2026: Lima, São Paulo y Bogotá serán los destinos del tour para 2027",
-   "url": "https://www.diariobitcoin.com/eventos/concluye-el-blockchain-summit-latam-2026-lima-sao-paulo-y-bogota-seran-los-destinos-del-tour-para-2027/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Sat, 07 Nov 2026 11:54:00 GMT",
-   "resumen": "El Blockchain Summit Latam Colombia 2026 llegó a su fin con los mensajes de agradecimiento y clausura de Rodrigo Sainz, fundador y CEO del evento, y de Óscar Jaramillo, director del Programa de Finanz ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "NTT Data realizará Digital & AI Summit Lima 2026 el 28 de abril en Lima",
    "url": "https://gestion.pe/economia/empresas/empresa-ntt-data-realizara-digital-ai-summit-lima-2026-el-28-de-abril-en-san-borja-lima-noticia/",
    "medio": "gestion",
    "publicado": "Wed, 15 Apr 2026 11:18:00 GMT",
    "resumen": "La empresa NTT Data realizará el próximo martes 28 de abril el evento “Digital & AI Summit Lima 2026”, una jornada enfocada en analizar el impacto de la inteligencia artificial y la transformación ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Concluye el Blockchain Summit Latam 2026: Lima, São Paulo y Bogotá serán los destinos del tour para 2027",
+   "url": "https://www.diariobitcoin.com/eventos/concluye-el-blockchain-summit-latam-2026-lima-sao-paulo-y-bogota-seran-los-destinos-del-tour-para-2027/",
+   "medio": "DiarioBitcoin",
+   "publicado": "Sat, 07 Nov 2026 11:54:00 GMT",
+   "resumen": "El Blockchain Summit Latam Colombia 2026 llegó a su fin con los mensajes de agradecimiento y clausura de Rodrigo Sainz, fundador y CEO del evento, y de Óscar Jaramillo, director del Programa de Finanz ...",
    "fecha_mencionada": ""
   },
   {
@@ -9837,19 +9556,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
-   "medio": "El Comercio",
-   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
-   "resumen": "Por Redacción EC 15/09/2026, 08:15 p.m. Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
    "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
    "medio": "Infobae",
    "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
    "resumen": "La Municipalidad de Lima organizará la Feria Metropolitana del Libro Lima Lee 2026 del viernes 16 al domingo 25 de octubre en el Museo Metropolitano de Lima, ubicado en la avenida 28 de Julio 700, en ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Más de 400 mil personas se dedican a la artesanía en Perú y el 76% son mujeres: feria en Lima reunirá a expositores de 25 regiones",
+   "url": "https://www.infobae.com/peru/2026/11/16/mas-de-400-mil-personas-se-dedican-a-la-artesania-en-peru-y-el-76-son-mujeres-feria-en-lima-reunira-a-expositores-de-25-regiones/",
+   "medio": "Infobae",
+   "publicado": "Mon, 16 Nov 2026 08:04:00 GMT",
+   "resumen": "El Mincetur organiza la Feria Nacional De Nuestras Manos en Miraflores. Las 92 unidades económicas que integran el encuentro abarcan asociaciones, empresas artesanales, una cooperativa y personas natu ...",
    "fecha_mencionada": ""
   },
   {
@@ -10125,22 +9844,18 @@
   "devpost:31667": "2026-10-25T18:01-05:00",
   "devpost:26475": "2026-10-26T03:26-05:00",
   "opportunitiesforyouth:teers-program-2023become-un-volunteer-and-gain-global-work-experience-": "2026-10-26T10:47-05:00",
-  "pucp:activacion-tu-bienestar-importa-se-un-promotor-de-bienestar": "2026-10-26T17:14-05:00",
   "devpost:31907": "2026-10-27T12:18-05:00",
   "devpost:31572": "2026-10-27T12:18-05:00",
   "devpost:31682": "2026-10-29T04:15-05:00",
   "luma:evt-FvLvhaqmG2oHMsT": "2026-10-29T23:01-05:00",
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-10-31T06:35-05:00",
-  "luma:evt-pbPNpjkOOt8UAwY": "2026-10-31T15:55-05:00",
   "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25": "2026-11-01T07:32-05:00",
   "devpost:31960": "2026-11-01T07:32-05:00",
   "devpost:31787": "2026-11-01T07:32-05:00",
-  "luma:evt-Hop1W6U8xHfksr8": "2026-11-02T05:28-05:00",
   "luma:evt-heQySSVPAFajESL": "2026-11-02T05:28-05:00",
   "devpost:31642": "2026-11-02T16:18-05:00",
   "devpost:31083": "2026-11-02T16:18-05:00",
   "luma:evt-qDyg6BqcLOVy7jH": "2026-11-02T23:59-05:00",
-  "pucp:formacion-universitaria-en-tiempos-de-ia-retos-y-posibilidades-03112026120609": "2026-11-03T15:46-05:00",
   "inst:sni-webinar-salud-mental-de-los-trabajadores-en-el-entorno-l:2026-11-20": "2026-11-03T15:46-05:00",
   "inst:sni-taller-cierre-contable-y-tributario-2026-principales-con:2026-11-23": "2026-11-03T15:46-05:00",
   "luma:evt-kJGSKKnp3sDtGxb": "2026-11-03T15:46-05:00",
@@ -10193,7 +9908,6 @@
   "luma:evt-QiBDlQKMKpC4aYs": "2026-11-12T23:46-05:00",
   "luma:evt-vzmJVstMP5JW7wq": "2026-11-12T23:46-05:00",
   "eb:2004615065624": "2026-11-13T08:49-05:00",
-  "luma:evt-7wud3zUbU4nSmjp": "2026-11-13T16:10-05:00",
   "luma:evt-xEqahOvc9JiK2vR": "2026-11-13T16:10-05:00",
   "luma:evt-BRHZHVuBBggmfWa": "2026-11-13T16:10-05:00",
   "pucp:emprende-pucp-2026-13112026121105": "2026-11-13T16:10-05:00",
@@ -10216,7 +9930,6 @@
   "eb:2004692296624": "2026-11-14T19:40-05:00",
   "eb:2004692051892": "2026-11-14T19:40-05:00",
   "eb:1992934666235": "2026-11-15T05:19-05:00",
-  "luma:evt-4aoOh8hJZeJwY36": "2026-11-15T13:26-05:00",
   "devpost:30456": "2026-11-15T13:26-05:00",
   "devpost:31993": "2026-11-15T13:26-05:00",
   "devpost:31733": "2026-11-15T13:26-05:00",
@@ -10235,7 +9948,6 @@
   "opportunitiesforyouth:r-interest-for-international-and-regional-civil-society-organizations-": "2026-11-17T01:09-05:00",
   "luma:evt-PwUYuc95F7HlzyZ": "2026-11-17T01:09-05:00",
   "eb:2003527459565": "2026-11-17T01:09-05:00",
-  "eb:2004968620115": "2026-11-17T21:43-05:00",
   "pucp:talleres-de-cultura-china-trimestre-2026-4-17112026115557": "2026-11-17T21:43-05:00",
   "pucp:futuro-en-practica-13112026181628": "2026-11-17T21:43-05:00",
   "pucp:plataformas-digitales-en-iberoamerica-gobernanza-poder-y-mercado-17112026152417": "2026-11-17T21:43-05:00",
@@ -10256,7 +9968,6 @@
   "devpost:31886": "2026-11-18T14:53-05:00",
   "devpost:31974": "2026-11-18T21:13-05:00",
   "devpost:32061": "2026-11-19T06:02-05:00",
-  "opportunitydesk:pportunitydesk-org-2026-11-19-john-m-belk-impact-fellowship-2027-2028-": "2026-11-19T06:02-05:00",
   "opportunitydesk:s-fellowships-and-other-opportunities-currently-open-november-19-2026-": "2026-11-19T14:53-05:00",
   "devpost:32155": "2026-11-19T14:53-05:00",
   "eb:2005087109520": "2026-11-19T14:53-05:00",
@@ -10270,8 +9981,9 @@
   "ieee:595272": "2026-11-19T14:53-05:00",
   "luma:evt-ymyX3k2zUlqYCqU": "2026-11-19T14:53-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-11-19-rsf-berlin-fellowship-2027-": "2026-11-19T14:53-05:00",
-  "opportunitydesk:tps-opportunitydesk-org-2026-11-19-waf-global-internship-program-2027-": "2026-11-19T14:53-05:00",
   "opportunitydesk:org-2026-11-19-global-citizen-prize-2027-cisco-youth-leadership-award-": "2026-11-19T14:53-05:00",
-  "opportunitydesk:ps-opportunitydesk-org-2026-11-19-morris-b-abram-fellowship-2027-2028-": "2026-11-19T14:53-05:00"
+  "opportunitydesk:unitydesk-org-2026-11-20-oxford-said-future-leaders-scholarships-2027-": "2026-11-19T21:00-05:00",
+  "opportunitydesk:k-org-2026-11-20-ias-person-centred-care-global-advocacy-academy-2027-": "2026-11-19T21:00-05:00",
+  "opportunitydesk:https-opportunitydesk-org-2026-11-19-rest-resilience-fellowship-2027-": "2026-11-19T21:00-05:00"
  }
 }
