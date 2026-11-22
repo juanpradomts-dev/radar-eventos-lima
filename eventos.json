@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-11-22T05:39-05:00",
+ "actualizado": "2026-11-22T13:58-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 57
+   "n": 58
   },
   "Eventbrite": {
    "ok": true,
-   "n": 28
+   "n": 27
   },
   "Eventbrite online": {
    "ok": true,
@@ -23,7 +23,7 @@
   },
   "IEEE Perú": {
    "ok": true,
-   "n": 16
+   "n": 17
   },
   "Devpost": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 324,
+ "revisados": 325,
  "top": 55,
  "eventos": [
   {
@@ -174,63 +174,6 @@
    "visto_desde": "2026-11-18T14:53-05:00"
   },
   {
-   "id": "luma:evt-26kt0ALVhVCO6A6",
-   "titulo": "Lead Expedition: Sobre Ruedas",
-   "inicio": "2026-11-22T09:30-05:00",
-   "fin": "2026-11-22T12:30-05:00",
-   "lugar": "Av Diagonal, Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/kav2vhh8",
-   "fuente": "Luma",
-   "organizador": "LEAD UTP",
-   "descripcion": "¿Listo para salir de la rutina y llevar tus habilidades al siguiente nivel? 🔥\nÚnete a LEAD Expedition: Sobre Ruedas, una experiencia 100% presencial diseñada para explotar tu liderazgo, mejorar tu networking y romperla trabajando en equipo en un entorno totalmente diferente. Olvídese de las cuatro paredes de una oficina o aula: rodaremos juntos por el malecón y las calles de Miraflores combinando el movimiento, el desarrollo profesional y la conexión en equipo.\n⚠️ Cupos limitados a 15 personas. Así que si te animas, no te quedes pensándolo, ¡asegura tu lugar!\n¡Prepárate para los retos que tenemos preparados en el camino!🚲\n📍 ¿Dónde y cuándo nos vemos?\nFecha: 22 de noviembreHora de encuentro: ",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/sp/c65d5e3f-7c49-4978-9398-1ac2f4dfaa3a.jpg",
-   "inscripcion": "https://lu.ma/kav2vhh8",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 24,
-   "afinidad": 5,
-   "puntaje": 29,
-   "por_que": "Networking · Presencial en Lima · Gratis · Afín: Liderazgo y oratoria",
-   "original": {
-    "titulo": "LEAD EXPEDITION: SOBRE RUEDAS"
-   },
-   "visto_desde": "2026-11-14T14:41-05:00"
-  },
-  {
-   "id": "meetup:316938345",
-   "titulo": "Sunday - Let's practice English (MacCoffee-Plaza Vea Risso)",
-   "inicio": "2026-11-22T11:30-05:00",
-   "fin": "2026-11-22T13:30-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/lince-english-group/events/316938345/",
-   "fuente": "Meetup",
-   "organizador": "English Practice Club 🎉✨",
-   "descripcion": "Join us on Sunday at 11:30 AM for Breakfast/Lunch or a McCoffee while we practice English in Lince, Lima!\nWe’ll be meeting at McDonald’s, located at Plaza Vea Risso, to practice English/Spanish by talking, meeting new people, and sharing cultures. All English levels are welcome — everyone’s invited! 😎😊\nSince it’s a noon meetup and we’ll be using the space, please try to order at least a McCoffee or something so the place is happy to host us. ☕🥐🙏 https://chat.whatsapp.com/KGsBhzFyekw6gU1PuKRagS\n🎲 Fun activies during this meetup!\n\n1. 🗣️ Conversation Rotations: Talk in groups of 2–3 for 10 minutes, then switch partners to practice with different people and accents.\n2. 🎯 Find Someone Who: move a",
-   "gratis": null,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/lince-english-group/events/316938345/",
-   "fuente_url": "https://www.meetup.com/lince-english-group/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Networking · Presencial en Lima",
-   "visto_desde": "2026-10-11T16:25-05:00"
-  },
-  {
    "id": "devpost:31721",
    "titulo": "EvoHacks 2",
    "tipo": "hackathon",
@@ -256,65 +199,6 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-21T13:37-05:00"
-  },
-  {
-   "id": "devpost:31549",
-   "titulo": "Kuk Virtual Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-11-15T00:00-05:00",
-   "fin": "2026-11-22T23:59-05:00",
-   "cierre": "2026-11-22T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://kuk-virtual-hackathon.devpost.com/",
-   "inscripcion": "https://kuk-virtual-hackathon.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Kelab UMNO Korea",
-   "descripcion": "Hackathon online. Temas: Databases, Machine Learning/AI, Productivity. Premios: $800.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 29,
-   "puntaje": 48,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
-   "original": {
-    "titulo": "KUK VIRTUAL HACKATHON"
-   },
-   "visto_desde": "2026-11-15T19:40-05:00"
-  },
-  {
-   "id": "devpost:32133",
-   "titulo": "Creators AI Winter Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-11-19T00:00-05:00",
-   "fin": "2026-11-22T23:59-05:00",
-   "cierre": "2026-11-22T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://creators-ai-winter-challenge.devpost.com/",
-   "inscripcion": "https://creators-ai-winter-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Creators AI ",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/966/592/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 25,
-   "puntaje": 44,
-   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-22T05:39-05:00"
   },
   {
    "id": "eb:2003441279799",
@@ -684,6 +568,34 @@
    "visto_desde": "2026-11-14T14:41-05:00"
   },
   {
+   "id": "ieee:596508",
+   "titulo": "Conferencia Internacional: Proteccion de Datos, Inteligencia Artificial e Ingenieria en la Era de la Transformación Digital 💻🌐",
+   "inicio": "2026-11-24T10:00-05:00",
+   "fin": "2026-11-24T13:00-05:00",
+   "lugar": "Av. Arequipa 660, Lima 15046.",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://events.vtools.ieee.org/m/596508",
+   "inscripcion": "https://forms.cloud.microsoft/r/Aq7XLwszNd",
+   "fuente": "IEEE Perú",
+   "fuente_url": "https://events.vtools.ieee.org/",
+   "organizador": "IEEE · Universidad Tecnologica del Peru",
+   "descripcion": "📢 ¡UTP te invita a participar en una Conferencia Internacional!\n\r\nSé parte de este espacio académico en el que se abordará una temática de gran relevancia y actualidad:\n\r\n💻 Protección de Datos, Inteligencia Artificial e Ingeniería de Sistemas en la Era de la Transformación Digital.\n\r\nSe contará con la participación de destacados ponentes de la Institución Universitaria Oriente de Caldas (UNIOC):\n\r\n🎓 Mag. José Leonardo Giraldo Gómez\n🎓 Mag. James IR Salazar Torres\n\r\n📅 Fecha: 24 de noviembre de 2026\n🕙 Hora: 10:00 a. m.\n📍 Lugar: UTP – Campus Pacífico, Auditorio del piso 11.\n📌 Dirección: Av. Arequipa 660, Lima 15046.\n👥 Modalidad: Presencial.",
+   "gratis": true,
+   "imagen": "",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Datos y analítica"
+   ],
+   "valor": 27,
+   "afinidad": 30,
+   "puntaje": 57,
+   "por_que": "Afín: Datos y machine learning · Formativo · Afín: Inteligencia artificial · Universidad",
+   "visto_desde": "2026-11-22T13:58-05:00"
+  },
+  {
    "id": "ieee:593800",
    "titulo": "Visita Técnica IPEN",
    "inicio": "2026-11-24T10:00-05:00",
@@ -1017,6 +929,34 @@
    "visto_desde": "2026-11-22T05:39-05:00"
   },
   {
+   "id": "devpost:32133",
+   "titulo": "Creators AI Winter Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-11-19T00:00-05:00",
+   "fin": "2026-11-24T23:59-05:00",
+   "cierre": "2026-11-24T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://creators-ai-winter-challenge.devpost.com/",
+   "inscripcion": "https://creators-ai-winter-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Creators AI ",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/966/592/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 25,
+   "puntaje": 44,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-22T05:39-05:00"
+  },
+  {
    "id": "eb:2004581058909",
    "titulo": "Webinar - Cómo llevar al siguiente nivel tu empresa constructora con Odoo",
    "inicio": "2026-11-25T10:00-05:00",
@@ -1215,6 +1155,33 @@
    "puntaje": 45,
    "por_que": "Afín: Supply chain y operaciones · Presencial en Lima · Afín: Investigación · Gremio o institución",
    "visto_desde": "2026-11-04T20:19-05:00"
+  },
+  {
+   "id": "meetup:317539689",
+   "titulo": "McDonalds - Let's practice English (MacCoffee-Plaza Vea Risso)",
+   "inicio": "2026-11-25T15:00-05:00",
+   "fin": "2026-11-25T17:00-05:00",
+   "lugar": "",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.meetup.com/lince-english-group/events/317539689/",
+   "fuente": "Meetup",
+   "organizador": "English Practice Club 🎉✨",
+   "descripcion": "Join us on Sunday at 11:30 AM for Breakfast/Lunch or a McCoffee while we practice English in Lince, Lima!\nWe’ll be meeting at McDonald’s, located at Plaza Vea Risso, to practice English/Spanish by talking, meeting new people, and sharing cultures. All English levels are welcome — everyone’s invited! 😎😊\nSince it’s a noon meetup and we’ll be using the space, please try to order at least a McCoffee or something so the place is happy to host us. ☕🥐🙏 https://chat.whatsapp.com/KGsBhzFyekw6gU1PuKRagS\n🎲 Fun activies during this meetup!\n\n1. 🗣️ Conversation Rotations: Talk in groups of 2–3 for 10 minutes, then switch partners to practice with different people and accents.\n2. 🎯 Find Someone Who: move a",
+   "gratis": false,
+   "imagen": "",
+   "inscripcion": "https://www.meetup.com/lince-english-group/events/317539689/",
+   "fuente_url": "https://www.meetup.com/lince-english-group/events/ical/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 21,
+   "afinidad": 0,
+   "puntaje": 21,
+   "por_que": "Networking · Presencial en Lima · Bajo costo",
+   "visto_desde": "2026-11-22T13:58-05:00"
   },
   {
    "id": "pucp:conversatorio-entre-algoritmos-y-violencias-genero-y-poder-en-las-plataformas-digitales-11112026101822",
@@ -1569,7 +1536,7 @@
    "organizador": "Academia Nacional de Ingeniería",
    "descripcion": "LOS INGENIEROS QUE EL PAIS Y EL MUNDO NECESITAN. Desafíos, reflexiones y propuestas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197432999%2F221084714153%2F1%2Foriginal.20261106-151956?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.064&fp-y=0.335&s=6307dde977d5fbf143efd6ea7e73e00c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197432999%2F221084714153%2F1%2Foriginal.20261106-151956?crop=focalpoint&fit=crop&w=258&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.064&fp-y=0.335&s=b72305d30b618ad902eb620d9eebff4e",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2490,33 +2457,6 @@
    "visto_desde": "2026-11-21T19:53-05:00"
   },
   {
-   "id": "eb:2004692187297",
-   "titulo": "Voluntariado con niños y adultos mayores en Callao",
-   "inicio": "2026-11-28T14:00-05:00",
-   "fin": "2026-11-28T16:00-05:00",
-   "lugar": "Las Dalias 156, 156 Las Dalias",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692187297",
-   "fuente": "Eventbrite",
-   "organizador": "Huellas ONG",
-   "descripcion": "Brinda un rato de tu fin de semana para combatir la soledad con juegos y sonrisas junto a abuelos y niños en esta actividad presencial.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738082%2F1082019636043%2F1%2Foriginal.20261111-023137?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533&fp-y=0.399&s=9429659e7fb17dff1504ac44440f8c4e",
-   "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692187297",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-11-21T19:53-05:00"
-  },
-  {
    "id": "eb:2004692297627",
    "titulo": "Voluntariado con niños y abuelos en San Miguel",
    "inicio": "2026-11-28T14:00-05:00",
@@ -2531,6 +2471,33 @@
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738358%2F1082019636043%2F1%2Foriginal.20261111-023558?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=31454a2148932d929448ebf45b3ef9b1",
    "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-abuelos-en-san-miguel-tickets-2004692297627",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-11-21T19:53-05:00"
+  },
+  {
+   "id": "eb:2004692187297",
+   "titulo": "Voluntariado con niños y adultos mayores en Callao",
+   "inicio": "2026-11-28T14:00-05:00",
+   "fin": "2026-11-28T16:00-05:00",
+   "lugar": "Las Dalias 156, 156 Las Dalias",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692187297",
+   "fuente": "Eventbrite",
+   "organizador": "Huellas ONG",
+   "descripcion": "Brinda un rato de tu fin de semana para combatir la soledad con juegos y sonrisas junto a abuelos y niños en esta actividad presencial.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738082%2F1082019636043%2F1%2Foriginal.20261111-023137?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533&fp-y=0.399&s=9429659e7fb17dff1504ac44440f8c4e",
+   "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692187297",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -2962,6 +2929,34 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "luma:evt-dpCxoHt7wrmyZxY",
+   "titulo": "Evento \"Gobierno de la Inteligencia Artificial: Riesgos y principales desafíos\"",
+   "inicio": "2026-12-01T08:00-05:00",
+   "fin": "2026-12-01T10:00-05:00",
+   "lugar": "Av. Gral. Felipe Salaverry 3240, San Isidro",
+   "distrito": "San Isidro",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/m8g0ery9",
+   "fuente": "Luma",
+   "organizador": "SwissCham Perú",
+   "descripcion": "🤖 ¿Está su organización preparada para gestionar los riesgos de la Inteligencia Artificial?\nDesde el Comité de Compliance de SwissCham Perú, junto a nuestro Socio Premium EY Perú, los invitamos a la charla “Gobierno de la Inteligencia Artificial: Riesgos y principales desafíos”.\nLa sesión estará a cargo de Óscar Meléndez, Forensic & Integrity Services Partner de EY Perú, quien compartirá su experiencia y perspectivas sobre los principales retos que enfrentan las organizaciones ante la creciente incorporación de la Inteligencia Artificial en sus operaciones.\n📌 Conozca cómo abordar los desafíos relacionados con la gobernanza, la ética, la seguridad y el cumplimiento normativo. Asimismo, descub",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/tt/f9afbdf7-0fd6-451d-9fad-4c7172e8a8cc.jpg",
+   "inscripcion": "https://lu.ma/m8g0ery9",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 28,
+   "afinidad": 12,
+   "puntaje": 40,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Presencial en Lima · Gratis",
+   "visto_desde": "2026-11-22T13:58-05:00"
+  },
+  {
    "id": "luma:evt-fmpjYmcJsCj4OOn",
    "titulo": "[BIW] Ronda de trabajo: Encadenamiento de Programas",
    "inicio": "2026-12-01T14:30-05:00",
@@ -3379,6 +3374,34 @@
    "puntaje": 36,
    "por_que": "Afín: Supply chain y operaciones · Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-11-19T14:53-05:00"
+  },
+  {
+   "id": "luma:evt-zRqcFuFPPg5X15B",
+   "titulo": "GRAN FINAL | Desafío AETHERA",
+   "inicio": "2026-12-04T11:00-05:00",
+   "fin": "2026-12-04T13:00-05:00",
+   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/8p2gruvf",
+   "fuente": "Luma",
+   "organizador": "Contacto E-QUIPU",
+   "descripcion": "Gran Final del Desafío AETHERA | Puentes del Futuro\n¡El talento de Perú y Chile se reúne para una gran final! 🚀\nDespués de semanas de aprendizajes, mentorías y trabajo en equipo, los finalistas del Concurso Binacional de Innovación “Puentes del Futuro” llegan a Lima para presentar sus soluciones y demostrar cómo la inteligencia artificial puede contribuir a mejorar la salud mental y el bienestar de los estudiantes universitarios.\n💡 Te invitamos a ser parte de esta experiencia, conocer las propuestas de los equipos finalistas y acompañarlos mientras presentan sus proyectos ante un jurado de especialistas de ambos países.\n¡Ven a descubrir las ideas que nacen cuando el talento joven de Perú y C",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/lw/f7acb33b-0046-435d-a263-ca4b7c37244b.png",
+   "inscripcion": "https://lu.ma/8p2gruvf",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo",
+    "Tecnología e IA"
+   ],
+   "valor": 33,
+   "afinidad": 18,
+   "puntaje": 51,
+   "por_que": "Competencia · Presencial en Lima · Afín: Inteligencia artificial · Universidad",
+   "visto_desde": "2026-11-22T13:58-05:00"
   },
   {
    "id": "ieee:595577",
@@ -7353,45 +7376,20 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:2003372822040",
-   "titulo": "TALLER DE MASAJES",
-   "inicio": "2026-11-22T10:00-05:00",
-   "fin": "2026-11-22T12:00-05:00",
-   "lugar": "San Juan de Lurigancho, San Juan de Lurigancho",
-   "distrito": "San Juan de Lurigancho",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com/e/taller-de-masajes-tickets-2003372822040",
-   "fuente": "Eventbrite",
-   "organizador": "",
-   "descripcion": "Un spa acogedor ofrece un taller de masajes reconfortantes para aprender a aplicarlos en casa con amigos y familia.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195722271%2F3017598007592%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=06c58cba69bfd4ade2985819bf8a2a93",
-   "inscripcion": "https://www.eventbrite.com/e/taller-de-masajes-tickets-2003372822040",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 28,
-   "afinidad": 0,
-   "puntaje": 28,
-   "por_que": "Formativo · Presencial en Lima · Gratis"
-  },
-  {
-   "id": "eb:2003991847562",
+   "id": "eb:2003991848565",
    "titulo": "Bautismo cdv Miraflores",
-   "inicio": "2026-11-22T11:30-05:00",
-   "fin": "2026-11-22T12:00-05:00",
+   "inicio": "2026-11-22T13:30-05:00",
+   "fin": "2026-11-22T14:00-05:00",
    "lugar": "Mal. de la Reserva 535, 535 Malecón de la Reserva",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-2003991847562",
+   "url": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-2003991848565",
    "fuente": "Eventbrite",
    "organizador": "caminodevida",
    "descripcion": "Bautismo cdv",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184629970%2F319397189657%2F1%2Foriginal.20220313-180751?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C60%2C1920%2C960&s=b374aec580ee7019be45a60257f932d1",
-   "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-2003991847562",
+   "inscripcion": "https://www.eventbrite.com.pe/e/bautismo-cdv-miraflores-registration-2003991848565",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -7665,7 +7663,7 @@
    "organizador": "Ermantourage UK",
    "descripcion": "Connect with other locals over coffee! Meet a new friend in your city. A different cafe each gathering!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa8e3e4933db165428ed9864b11725aa",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=03be7893bd239a257f487229eb5956e9",
    "inscripcion": "https://www.eventbrite.com/e/the-comeunity-project-lima-coffee-with-strangers-tickets-1984736925572",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7865,7 +7863,7 @@
    "organizador": "",
    "descripcion": "Somos una empresa, dedica al rubro de Construccion y Acabados, realizamos todo tipo de proyectos, que desee para su hogar.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=723ef18fb1bd3e4bb2d8fe781b421019",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195654323%2F3017496175724%2F1%2Foriginal.20261013-005602?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.515&fp-y=0.728&s=fd325900eba52115a08b0eb53044ddb2",
    "inscripcion": "https://www.eventbrite.com/e/entradas-perfect-home-2003322948868",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7890,7 +7888,7 @@
    "organizador": "Misión Más Vida",
    "descripcion": "¡Regresa nuestro teatro de Navidad! Una historia llena de risas, trampas y el valor de la familia.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197957759%2F3020459549142%2F1%2Foriginal.20261114-004021?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a99cd87a6d87b37cc50b8cab384356a7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197957759%2F3020459549142%2F1%2Foriginal.20261114-004021?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d7d00fbaa160a173f1f53f328d356675",
    "inscripcion": "https://www.eventbrite.com/e/mi-pobre-angelito-tickets-2004833002479",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8015,23 +8013,51 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31884",
-   "titulo": "START Hack League Munich 2026",
+   "id": "devpost:32179",
+   "titulo": "Free AWS Courses & Certifications for Students – NASSCOM Initiative",
    "tipo": "hackathon",
-   "inicio": "2026-11-21T00:00-05:00",
-   "fin": "2026-11-22T23:59-05:00",
-   "cierre": "2026-11-22T23:59-05:00",
-   "lugar": "TUM Audimax",
-   "distrito": "TUM Audimax",
+   "inicio": "2026-11-19T00:00-05:00",
+   "fin": "2026-11-26T23:59-05:00",
+   "cierre": "2026-11-26T23:59-05:00",
+   "lugar": "REMOTE",
+   "distrito": "REMOTE",
    "modalidad": "Presencial",
-   "url": "https://start-hack-league-munich-2026.devpost.com/",
-   "inscripcion": "https://start-hack-league-munich-2026.devpost.com/",
+   "url": "https://free-aws-courses.devpost.com/",
+   "inscripcion": "https://free-aws-courses.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "START Munich",
-   "descripcion": "Hackathon presencial en TUM Audimax. Temas: Beginner Friendly, Databases, Machine Learning/AI. Premios: €4,000.",
+   "organizador": "shekunj",
+   "descripcion": "Hackathon presencial en REMOTE. Temas: Education, Productivity, Web. Premios: $0.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/708/174/datas/medium_square.jpg",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/966/855/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 21,
+   "afinidad": 6,
+   "puntaje": 27,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Empresa reconocida · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:32129",
+   "titulo": "Creator Economy Hack - powered by You.com",
+   "tipo": "hackathon",
+   "inicio": "2026-11-22T00:00-05:00",
+   "fin": "2026-11-22T23:59-05:00",
+   "cierre": "2026-11-22T23:59-05:00",
+   "lugar": "XDC",
+   "distrito": "XDC",
+   "modalidad": "Presencial",
+   "url": "https://creator-economy-you-hack.devpost.com/",
+   "inscripcion": "https://creator-economy-you-hack.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "localhost-nyc",
+   "descripcion": "Hackathon presencial en XDC. Temas: Machine Learning/AI, Web. Premios: $650.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Tecnología e IA",
@@ -8499,6 +8525,33 @@
    "por_que": "Formativo · Afín: Supply chain y operaciones · Afín: Investigación · Se postula en línea"
   },
   {
+   "id": "devpost:28603",
+   "titulo": "MCA 2026 projects",
+   "tipo": "hackathon",
+   "inicio": "2026-02-27T00:00-05:00",
+   "fin": "2026-12-25T23:59-05:00",
+   "cierre": "2026-12-25T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://mca-2026-projects.devpost.com/",
+   "inscripcion": "https://mca-2026-projects.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Mizzou Computing Association",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31626",
    "titulo": "Hackathon Agéntico SoftwareChido 2026B",
    "tipo": "hackathon",
@@ -8527,50 +8580,23 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31536",
-   "titulo": "Hack Western 13",
+   "id": "devpost:32217",
+   "titulo": "McGill CodeJam 16",
    "tipo": "hackathon",
-   "inicio": "2026-11-20T00:00-05:00",
+   "inicio": "2026-11-22T00:00-05:00",
    "fin": "2026-11-22T23:59-05:00",
    "cierre": "2026-11-22T23:59-05:00",
-   "lugar": "Ronald D. Schmeichel Building",
-   "distrito": "Ronald D. Schmeichel Building",
+   "lugar": "McGill University Trottier Building",
+   "distrito": "McGill University Trottier Building",
    "modalidad": "Presencial",
-   "url": "https://hack-western-13.devpost.com/",
-   "inscripcion": "https://hack-western-13.devpost.com/",
+   "url": "https://mcgill-codejam-16.devpost.com/",
+   "inscripcion": "https://mcgill-codejam-16.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Western",
-   "descripcion": "Hackathon presencial en Ronald D. Schmeichel Building. Temas: Beginner Friendly, Open Ended. Premios: $CAD 0.",
+   "organizador": "McGill ECSE",
+   "descripcion": "Hackathon presencial en McGill University Trottier Building. Temas: Beginner Friendly, Open Ended. Premios: $CAD 2,322.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/421/169/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:32153",
-   "titulo": "BostonHacks 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-21T00:00-05:00",
-   "fin": "2026-11-22T23:59-05:00",
-   "cierre": "2026-11-22T23:59-05:00",
-   "lugar": "Boston University",
-   "distrito": "Boston University",
-   "modalidad": "Presencial",
-   "url": "https://bostonhacks-2026.devpost.com/",
-   "inscripcion": "https://bostonhacks-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "BostonHacks",
-   "descripcion": "Hackathon presencial en Boston University. Temas: Beginner Friendly, Education, Lifehacks. Premios: $3,500.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/937/182/datas/medium_square.jpg",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/982/790/datas/medium_square.png",
    "motivo": "solo por invitación",
    "categorias": [
     "Competencias y hackathons"
@@ -8753,7 +8779,7 @@
   "devpost:31775",
   "ieee:595272",
   "devpost:31480",
-  "devpost:31642"
+  "ieee:596508"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
@@ -8776,28 +8802,12 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-22T05:39-05:00",
-  "revisados": 198,
-  "corregidos": 14,
+  "fecha": "2026-11-22T13:58-05:00",
+  "revisados": 199,
+  "corregidos": 12,
   "avisos": 1,
   "archivados": 2,
   "problemas": [
-   {
-    "id": "luma:evt-26kt0ALVhVCO6A6",
-    "titulo": "Lead Expedition: Sobre Ruedas",
-    "fuente": "Luma",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://lu.ma/kav2vhh8"
-   },
-   {
-    "id": "devpost:31549",
-    "titulo": "Kuk Virtual Hackathon",
-    "fuente": "Devpost",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://kuk-virtual-hackathon.devpost.com/"
-   },
    {
     "id": "ieee:593763",
     "titulo": "Visita Técnica Huawei",
@@ -8920,27 +8930,19 @@
    }
   ],
   "enlaces": {
-   "comprobados": 10,
+   "comprobados": 13,
    "rotos": 1,
-   "sin_comprobar": 0
+   "sin_comprobar": 1
   },
   "fuentes_a_revisar": []
  },
  "por_confirmar": [
   {
    "titulo": "Foro de CGTN Español en Lima aborda agenda APEC 2026 y plantea oportunidades para Perú y la región sudamericana",
-   "url": "https://espanol.cri.cn/2026/11/21/ARTI1795228855201452",
-   "medio": "cri",
-   "publicado": "Fri, 20 Nov 2026 18:40:00 GMT",
+   "url": "https://espanol.cgtn.com/2026/11/21/ARTI1795228855201452",
+   "medio": "CGTN en Español",
+   "publicado": "Fri, 20 Nov 2026 21:29:00 GMT",
    "resumen": "La conversación sobre el futuro de Asia-Pacífico también llega a América Latina. Lima acogió el Foro Internacional Shenzhen 2026, organizado por CGTN Español, para analizar cómo Perú y China pueden tr ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Cancillería: Perú fortaleció su presencia en el Asia Pacífico durante foro APEC 2026",
-   "url": "https://andina.pe/agencia/noticia-cancilleria-peru-fortalecio-su-presencia-el-asia-pacifico-durante-foro-apec-2026-1100983.aspx",
-   "medio": "Agencia Peruana de Noticias | ANDINA",
-   "publicado": "Fri, 20 Nov 2026 16:00:00 GMT",
-   "resumen": "El Perú fortaleció su presencia en el Asia Pacífico durante la participación de la presidenta Keiko Fujimori en el Foro APEC 2026, realizado en Shenzhen, China, manifestó la Cancillería ...",
    "fecha_mencionada": ""
   },
   {
@@ -8976,35 +8978,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Rodrigo Sainz: Blockchain Summit Latam volverá en 2027 con nuevo enfoque y cambios muy interesantes",
-   "url": "https://www.diariobitcoin.com/eventos/rodrigo-sainz-blockchain-summit-latam-volvera-en-2027-con-nuevo-enfoque-y-cambios-muy-interesantes/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Wed, 18 Nov 2026 08:47:00 GMT",
-   "resumen": "Tras el cierre del tour 2026 en Bogotá, DiarioBitcoin conversó nuevamente con Rodrigo Sainz, fundador y CEO del Blockchain Summit Latam, quien compartió su balance del paso del evento por Perú, Chile ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
-   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
-   "medio": "diariobitcoin",
-   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
-   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
    "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
    "medio": "Infobae",
    "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
    "resumen": "La Municipalidad de Lima organizará la Feria Metropolitana del Libro Lima Lee 2026 del viernes 16 al domingo 25 de octubre en el Museo Metropolitano de Lima, ubicado en la avenida 28 de Julio 700, en ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "La feria Sitdrone se transforma en DACS Perú 2026 con foco en drones, ciberseguridad y tecnología espacial",
-   "url": "https://www.infodefensa.com/texto-diario/mostrar/6095843/sitdrone-transforma-dacs-peru-2026-drones-ciberseguridad-tecnologia-espacial",
-   "medio": "Infodefensa",
-   "publicado": "Wed, 18 Nov 2026 03:01:00 GMT",
-   "resumen": "La edición de este año tendrá una mayor representación industrial. Participación industrial y sistemas de defensaEstados Unidos estará representado por 22 empresas, entre ellas L3 Harri ...",
    "fecha_mencionada": ""
   },
   {
@@ -9254,7 +9232,6 @@
   "wikicfp:192324": "2026-10-05T16:48-05:00",
   "ieee:581586": "2026-10-06T14:58-05:00",
   "eb:2001057110685": "2026-10-11T12:31-05:00",
-  "meetup:316938345": "2026-10-11T16:25-05:00",
   "luma:evt-jfsSWBTWWcWlJEa": "2026-10-12T09:14-05:00",
   "tedx:70615": "2026-10-13T08:24-05:00",
   "tedx:70296": "2026-10-13T08:24-05:00",
@@ -9347,7 +9324,6 @@
   "luma:evt-w1Mxk00lee1HFGW": "2026-11-13T23:38-05:00",
   "pucp:cuando-una-investigacion-juridica-debe-ser-evaluada-por-un-comite-de-etica-de-la-investigacion-13112026151628": "2026-11-13T23:38-05:00",
   "luma:evt-rlhyhVWB7Fgmlfy": "2026-11-13T23:38-05:00",
-  "luma:evt-26kt0ALVhVCO6A6": "2026-11-14T14:41-05:00",
   "ieee:593765": "2026-11-14T14:41-05:00",
   "ieee:593763": "2026-11-14T14:41-05:00",
   "ieee:593799": "2026-11-14T14:41-05:00",
@@ -9362,7 +9338,6 @@
   "devpost:31733": "2026-11-15T13:26-05:00",
   "devpost:32017": "2026-11-15T13:26-05:00",
   "devpost:31873": "2026-11-15T13:26-05:00",
-  "devpost:31549": "2026-11-15T19:40-05:00",
   "devpost:32072": "2026-11-15T19:40-05:00",
   "luma:evt-WlbCkhI5sTTohfe": "2026-11-16T05:33-05:00",
   "devpost:31683": "2026-11-16T05:33-05:00",
@@ -9419,6 +9394,10 @@
   "devpost:32133": "2026-11-22T05:39-05:00",
   "luma:evt-0T4FjSm2b4KI5UO": "2026-11-22T05:39-05:00",
   "devpost:32211": "2026-11-22T05:39-05:00",
-  "devpost:32155": "2026-11-22T05:39-05:00"
+  "devpost:32155": "2026-11-22T05:39-05:00",
+  "ieee:596508": "2026-11-22T13:58-05:00",
+  "meetup:317539689": "2026-11-22T13:58-05:00",
+  "luma:evt-dpCxoHt7wrmyZxY": "2026-11-22T13:58-05:00",
+  "luma:evt-zRqcFuFPPg5X15B": "2026-11-22T13:58-05:00"
  }
 }
