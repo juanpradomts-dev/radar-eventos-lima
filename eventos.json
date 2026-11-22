@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-21T19:53-05:00",
+ "actualizado": "2026-11-22T05:39-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 56
+   "n": 57
   },
   "Eventbrite": {
    "ok": true,
@@ -11,15 +11,15 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 17
+   "n": 16
   },
   "Meetup": {
    "ok": true,
-   "n": 5
+   "n": 4
   },
   "PUCP": {
    "ok": true,
-   "n": 27
+   "n": 25
   },
   "IEEE Perú": {
    "ok": true,
@@ -47,7 +47,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 8
+   "n": 7
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 328,
+ "revisados": 324,
  "top": 55,
  "eventos": [
   {
@@ -146,41 +146,6 @@
    "visto_desde": "2026-10-26T10:47-05:00"
   },
   {
-   "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
-   "titulo": "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit 2026",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-11-16T00:00-05:00",
-   "fin": "2026-11-21T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://pmi.org.pe/",
-   "inscripcion": "https://pmi.org.pe/",
-   "fuente": "Institucional",
-   "fuente_url": "https://pmi.org.pe/",
-   "organizador": "PMI Lima Perú Chapter",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "",
-   "extraido_por": "fecha en texto",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Investigación y ciencia"
-   ],
-   "valor": 39,
-   "afinidad": 18,
-   "puntaje": 57,
-   "por_que": "Formativo · Afín: Investigación · Evento institucional · Presencial en Lima",
-   "original": {
-    "titulo": "XVIII CONGRESO INTERNACIONAL DE DIRECCIÓN DE PROYECTOS - FUTURE EXPERIENCE SUMMIT 2026"
-   },
-   "visto_desde": "2026-11-10T23:15-05:00"
-  },
-  {
    "id": "opportunitiesforyouth:uncil-2026-27-applications-open-for-young-people-aged-14-18-worldwide-",
    "titulo": "TikTok Youth Council 2026/27: Apply to Join a Global Youth Advisory Council and Help Shape Online Safety, Policies and Digital Experiences",
    "tipo": "voluntariado",
@@ -206,33 +171,6 @@
    "afinidad": 0,
    "puntaje": 15,
    "por_que": "Voluntariado · Evento sin formato claro · Virtual",
-   "visto_desde": "2026-11-18T14:53-05:00"
-  },
-  {
-   "id": "meetup:317483288",
-   "titulo": "Saturday - Let's practice English (Rustica - First Floor Terrace)",
-   "inicio": "2026-11-21T18:00-05:00",
-   "fin": "2026-11-21T20:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/practice-english-saturday/events/317483288/",
-   "fuente": "Meetup",
-   "organizador": "Let’s Practice English (Saturdays)",
-   "descripcion": "Join us this Saturday to practice English at Rustica in Miraflores (Next to Kennedy Park)!\nPlease note: There are two Rustica locations on Calle de las Pizzas. We'll be at the one on Pasaje Figari.\n\nWe'll be meeting to practice English/Spanish, talk, meet new people, and share cultures. Intermediate and advanced English levels are welcome — Spanish is not a must if you can speak English! Free admission, but you must order at least a soft drink since we're meeting at a café. 😎😊\n\nAnd don't rush home after the meetup! Afterward, a group of us usually goes for a casual, inexpensive dinner somewhere nearby. It's a great chance to keep chatting, get to know everyone better, and continue the evenin",
-   "gratis": true,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/practice-english-saturday/events/317483288/",
-   "fuente_url": "https://www.meetup.com/practice-english-saturday/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-11-18T14:53-05:00"
   },
   {
@@ -320,33 +258,6 @@
    "visto_desde": "2026-11-21T13:37-05:00"
   },
   {
-   "id": "devpost:31620",
-   "titulo": "CrossPointX 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-20T00:00-05:00",
-   "fin": "2026-11-22T23:59-05:00",
-   "cierre": "2026-11-22T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://cpx2026.devpost.com/",
-   "inscripcion": "https://cpx2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Science Innovation Association of XJTLU",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Design, Education. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/762/412/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-20T20:57-05:00"
-  },
-  {
    "id": "devpost:31549",
    "titulo": "Kuk Virtual Hackathon",
    "tipo": "hackathon",
@@ -376,6 +287,34 @@
     "titulo": "KUK VIRTUAL HACKATHON"
    },
    "visto_desde": "2026-11-15T19:40-05:00"
+  },
+  {
+   "id": "devpost:32133",
+   "titulo": "Creators AI Winter Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-11-19T00:00-05:00",
+   "fin": "2026-11-22T23:59-05:00",
+   "cierre": "2026-11-22T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://creators-ai-winter-challenge.devpost.com/",
+   "inscripcion": "https://creators-ai-winter-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Creators AI ",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/966/592/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 25,
+   "puntaje": 44,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-22T05:39-05:00"
   },
   {
    "id": "eb:2003441279799",
@@ -603,6 +542,34 @@
    "puntaje": 32,
    "por_que": "Formativo · Evento institucional · Presencial en Lima",
    "visto_desde": "2026-11-03T15:46-05:00"
+  },
+  {
+   "id": "luma:evt-0T4FjSm2b4KI5UO",
+   "titulo": "Webinar - César Canales",
+   "inicio": "2026-11-23T19:30-05:00",
+   "fin": "2026-11-23T20:30-05:00",
+   "lugar": "Aparcamiento, Av. Ricardo Rivera Navarrete 395, San Isidro",
+   "distrito": "San Isidro",
+   "modalidad": "Virtual",
+   "url": "https://lu.ma/q9swlal7",
+   "fuente": "Luma",
+   "organizador": "Crezcamos Juntos",
+   "descripcion": "Descubre cómo transformar el liderazgo en una herramienta de inspiración, crecimiento y transformación, de la mano de César Canales, gerente general de TEK Perú.\nEn este webinar conocerás, desde una perspectiva estratégica y humana, cómo liderar con propósito, inspirar a los equipos y construir una cultura organizacional basada en valores, compromiso y visión compartida. Además, descubrirás cómo un liderazgo auténtico puede potenciar el talento, fortalecer las organizaciones y generar un impacto positivo y sostenible en el entorno empresarial. 🚀📌 Tema: Liderazgo con propósito👩‍🏫 Expositor: César Canales -  Gerente General de TEK Perú\n🗓️ Fecha: Lunes 23 de noviembre⏰ Hora: 7:30 p.m.📍 Modalida",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/0d/971fcb4b-a1c5-4a9a-917f-a4a7b979e49c.jpg",
+   "inscripcion": "https://lu.ma/q9swlal7",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Habilidades y liderazgo",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 23,
+   "afinidad": 5,
+   "puntaje": 28,
+   "por_que": "Formativo · Gratis · Afín: Liderazgo y oratoria · Virtual",
+   "visto_desde": "2026-11-22T05:39-05:00"
   },
   {
    "id": "opportunitiesforyouth:r-interest-for-international-and-regional-civil-society-organizations-",
@@ -1021,6 +988,33 @@
    "puntaje": 59,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Afín: Investigación · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-18T14:53-05:00"
+  },
+  {
+   "id": "devpost:32211",
+   "titulo": "Engineering Without Limits",
+   "tipo": "hackathon",
+   "inicio": "2026-11-22T00:00-05:00",
+   "fin": "2026-11-24T23:59-05:00",
+   "cierre": "2026-11-24T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://engineering-without-limits.devpost.com/",
+   "inscripcion": "https://engineering-without-limits.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Engineering Without Limits",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/979/669/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-22T05:39-05:00"
   },
   {
    "id": "eb:2004581058909",
@@ -2218,6 +2212,34 @@
    "visto_desde": "2026-10-27T12:18-05:00"
   },
   {
+   "id": "devpost:32155",
+   "titulo": "SMBP FinHack",
+   "tipo": "hackathon",
+   "inicio": "2026-11-18T00:00-05:00",
+   "fin": "2026-11-27T23:59-05:00",
+   "cierre": "2026-11-27T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://smbp-finhack.devpost.com/",
+   "inscripcion": "https://smbp-finhack.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Small Money, Big Plan",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Fintech, Open Ended. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/938/830/datas/medium_square.png",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 10,
+   "puntaje": 29,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-22T05:39-05:00"
+  },
+  {
    "id": "opportunitydesk:org-2026-11-21-dataphyte-foundation-infra-watch-media-fellowship-2027-",
    "titulo": "Dataphyte Foundation Infra-Watch Media Fellowship 2027",
    "tipo": "convocatoria",
@@ -3217,33 +3239,6 @@
    "visto_desde": "2026-11-19T14:53-05:00"
   },
   {
-   "id": "eb:2005159198139",
-   "titulo": "Webinar ¿Tu servicio enamora o simplemente cumple?",
-   "inicio": "2026-12-03T09:00-05:00",
-   "fin": "2026-12-03T10:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com/e/webinar-tu-servicio-enamora-o-simplemente-cumple-tickets-2005159198139",
-   "inscripcion": "https://www.eventbrite.com/e/webinar-tu-servicio-enamora-o-simplemente-cumple-tickets-2005159198139",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "",
-   "descripcion": "Cultura de servicio: el camino para transformar equipos y crear experiencias que dejan huella.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198465309%2F3006442371969%2F1%2Foriginal.20261121-234923?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=31c3e82dc7ad27b58e29b936a2e8b934",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Formativo · Gratis · Virtual",
-   "visto_desde": "2026-11-20T20:57-05:00"
-  },
-  {
    "id": "ieee:595272",
    "titulo": "BIONNOVATE 2026",
    "inicio": "2026-12-03T11:00-05:00",
@@ -3286,7 +3281,7 @@
    "organizador": "AEE Spain Chapter",
    "descripcion": "Llega otro caso de éxito de descarbonización de Calor Industrial de la serie EFICIENCIA ENERGÉTICA INDUSTRIAL de los Webinars de los Jueves",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198148346%2F848590389843%2F1%2Foriginal.20261117-103334?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8612227a63a359d1180229c863a1998c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198148346%2F848590389843%2F1%2Foriginal.20261117-103334?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=007c06cba29a4237b148894d85682b1b",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -7358,31 +7353,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:2004335875559",
-   "titulo": "The Only Fre Food Tasting Tours in Lima",
-   "inicio": "2026-11-21T20:00-05:00",
-   "fin": "2026-11-21T21:30-05:00",
-   "lugar": "McDonald's, 599 Jirón de la Unión",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335875559",
-   "fuente": "Eventbrite",
-   "organizador": "Viajens Machupicchu",
-   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
-   "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
-   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335875559",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Evento sin formato claro"
-  },
-  {
    "id": "eb:2003372822040",
    "titulo": "TALLER DE MASAJES",
    "inicio": "2026-11-22T10:00-05:00",
@@ -7456,6 +7426,31 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
+  },
+  {
+   "id": "eb:2004335876562",
+   "titulo": "The Only Fre Food Tasting Tours in Lima",
+   "inicio": "2026-11-22T17:00-05:00",
+   "fin": "2026-11-22T18:30-05:00",
+   "lugar": "McDonald's, 599 Jirón de la Unión",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335876562",
+   "fuente": "Eventbrite",
+   "organizador": "Viajens Machupicchu",
+   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
+   "gratis": false,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
+   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335876562",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
    "id": "eb:2003368441939",
@@ -8020,61 +8015,6 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:32163",
-   "titulo": "tidalBYTE '26",
-   "tipo": "hackathon",
-   "inicio": "2026-11-21T00:00-05:00",
-   "fin": "2026-11-21T23:59-05:00",
-   "cierre": "2026-11-21T23:59-05:00",
-   "lugar": "MSC Bethancourt",
-   "distrito": "MSC Bethancourt",
-   "modalidad": "Presencial",
-   "url": "https://tidalbyte-26.devpost.com/",
-   "inscripcion": "https://tidalbyte-26.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "tidalTAMU",
-   "descripcion": "Hackathon presencial en MSC Bethancourt. Temas: Beginner Friendly, Machine Learning/AI. Premios: $5,070.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/947/112/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 26,
-   "puntaje": 42,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:29847",
-   "titulo": "Cutie Hack 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-21T00:00-05:00",
-   "fin": "2026-11-21T23:59-05:00",
-   "cierre": "2026-11-21T23:59-05:00",
-   "lugar": "UC Riverside - Winston Chung Hall",
-   "distrito": "UC Riverside - Winston Chung Hall",
-   "modalidad": "Presencial",
-   "url": "https://cutie-hack-2026.devpost.com/",
-   "inscripcion": "https://cutie-hack-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ACM at UCR",
-   "descripcion": "Hackathon presencial en UC Riverside - Winston Chung Hall. Temas: Beginner Friendly, Open Ended, Social Good. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/915/817/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 16,
-   "afinidad": 6,
-   "puntaje": 22,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31884",
    "titulo": "START Hack League Munich 2026",
    "tipo": "hackathon",
@@ -8307,20 +8247,20 @@
    "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
-   "id": "eb:2004334236657",
+   "id": "eb:2004334237660",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-21T20:00-05:00",
-   "fin": "2026-11-21T21:30-05:00",
+   "inicio": "2026-11-22T18:00-05:00",
+   "fin": "2026-11-22T19:30-05:00",
    "lugar": "Tourist Information Center, 799 Avenida José Larco",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334236657",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334237660",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334236657",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334237660",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8641,56 +8581,6 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "pucp:concierto-de-gala-2026-de-las-bandas-pucp-13112026173006",
-   "titulo": "Concierto de Gala 2026 de las Bandas PUCP",
-   "inicio": "2026-11-21T18:00-05:00",
-   "fin": "2026-11-21T20:00-05:00",
-   "lugar": "Coliseo Polideportivo #ParadaSaludable",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/concierto-de-gala-2026-de-las-bandas-pucp-13112026173006/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Concierto · Cultura · Dirección de Asuntos Culturales · Cultura PUCP",
-   "gratis": null,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/AGENDA_PUCP_GRAFICA_DACU_1_75a000a33a.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/concierto-de-gala-2026-de-las-bandas-pucp-13112026173006/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "tipo de evento no formativo (Concierto)",
-   "categorias": [],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
-  },
-  {
-   "id": "pucp:orquesta-salsa-pucp-concierto-en-plaza-san-miguel-17112026165553",
-   "titulo": "Orquesta Salsa PUCP | Concierto en Plaza San Miguel",
-   "inicio": "2026-11-21T19:00-05:00",
-   "fin": "2026-11-21T20:00-05:00",
-   "lugar": "Centro Comercial Plaza San Miguel",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/orquesta-salsa-pucp-concierto-en-plaza-san-miguel-17112026165553/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Concierto · Cultura · CEMDUC · Dirección de Asuntos Culturales · Cultura PUCP",
-   "gratis": null,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/AGENDA_PUCP_GRAFICA_DACU_2f72f57626.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/orquesta-salsa-pucp-concierto-en-plaza-san-miguel-17112026165553/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "tipo de evento no formativo (Concierto)",
-   "categorias": [],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
-  },
-  {
    "id": "pucp:vi-edicion-celebrando-nuestra-musica-peruana-con-la-orquesta-banda-del-cemduc-17112026165405",
    "titulo": "VI Edición: Celebrando nuestra música peruana con la Orquesta Banda del CEMDUC",
    "inicio": "2026-11-23T19:00-05:00",
@@ -8863,13 +8753,13 @@
   "devpost:31775",
   "ieee:595272",
   "devpost:31480",
-  "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16"
+  "devpost:31642"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
   "PERUMIN": 1,
   "ESAN — eventos": 0,
-  "PMI Lima": 1,
+  "PMI Lima": 0,
   "Sociedad Nacional de Industrias": 4,
   "AmCham Perú": 2,
   "ComexPerú": 0
@@ -8886,20 +8776,12 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-21T19:53-05:00",
+  "fecha": "2026-11-22T05:39-05:00",
   "revisados": 198,
-  "corregidos": 15,
+  "corregidos": 14,
   "avisos": 1,
   "archivados": 2,
   "problemas": [
-   {
-    "id": "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16",
-    "titulo": "XVIII Congreso Internacional de Dirección de Proyectos - Future Experience Summit 2026",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://pmi.org.pe/"
-   },
    {
     "id": "luma:evt-26kt0ALVhVCO6A6",
     "titulo": "Lead Expedition: Sobre Ruedas",
@@ -9038,7 +8920,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 26,
+   "comprobados": 10,
    "rotos": 1,
    "sin_comprobar": 0
   },
@@ -9047,10 +8929,18 @@
  "por_confirmar": [
   {
    "titulo": "Foro de CGTN Español en Lima aborda agenda APEC 2026 y plantea oportunidades para Perú y la región sudamericana",
-   "url": "https://espanol.cgtn.com/2026/11/21/ARTI1795228855201452",
-   "medio": "CGTN en Español",
+   "url": "https://espanol.cri.cn/2026/11/21/ARTI1795228855201452",
+   "medio": "cri",
    "publicado": "Fri, 20 Nov 2026 18:40:00 GMT",
    "resumen": "La conversación sobre el futuro de Asia-Pacífico también llega a América Latina. Lima acogió el Foro Internacional Shenzhen 2026, organizado por CGTN Español, para analizar cómo Perú y China pueden tr ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Cancillería: Perú fortaleció su presencia en el Asia Pacífico durante foro APEC 2026",
+   "url": "https://andina.pe/agencia/noticia-cancilleria-peru-fortalecio-su-presencia-el-asia-pacifico-durante-foro-apec-2026-1100983.aspx",
+   "medio": "Agencia Peruana de Noticias | ANDINA",
+   "publicado": "Fri, 20 Nov 2026 16:00:00 GMT",
+   "resumen": "El Perú fortaleció su presencia en el Asia Pacífico durante la participación de la presidenta Keiko Fujimori en el Foro APEC 2026, realizado en Shenzhen, China, manifestó la Cancillería ...",
    "fecha_mencionada": ""
   },
   {
@@ -9062,35 +8952,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Concluye el Blockchain Summit Latam 2026: Lima, São Paulo y Bogotá serán los destinos del tour para 2027",
-   "url": "https://www.diariobitcoin.com/eventos/concluye-el-blockchain-summit-latam-2026-lima-sao-paulo-y-bogota-seran-los-destinos-del-tour-para-2027/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Sat, 07 Nov 2026 11:54:00 GMT",
-   "resumen": "El Blockchain Summit Latam Colombia 2026 llegó a su fin con los mensajes de agradecimiento y clausura de Rodrigo Sainz, fundador y CEO del evento, y de Óscar Jaramillo, director del Programa de Finanz ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Google Cloud Summit Perú 2026: ¿cuáles fueron los puntos claves?",
-   "url": "https://www.mercadonegro.pe/marketing/google-cloud-summit-puntos-claves/",
-   "medio": "Mercado Negro",
-   "publicado": "Fri, 20 Nov 2026 10:03:00 GMT",
-   "resumen": "En el encuentro celebrado el 19 de noviembre, presentó novedades tecnológicas en torno a la IA y su adopción y ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "NTT Data realizará Digital & AI Summit Lima 2026 el 28 de abril en Lima",
    "url": "https://gestion.pe/economia/empresas/empresa-ntt-data-realizara-digital-ai-summit-lima-2026-el-28-de-abril-en-san-borja-lima-noticia/",
    "medio": "gestion",
    "publicado": "Wed, 15 Apr 2026 11:18:00 GMT",
    "resumen": "La empresa NTT Data realizará el próximo martes 28 de abril el evento “Digital & AI Summit Lima 2026”, una jornada enfocada en analizar el impacto de la inteligencia artificial y la transformación ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Rodrigo Sainz: Blockchain Summit Latam volverá en 2027 con nuevo enfoque y cambios muy interesantes",
-   "url": "https://www.diariobitcoin.com/eventos/rodrigo-sainz-blockchain-summit-latam-volvera-en-2027-con-nuevo-enfoque-y-cambios-muy-interesantes/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Wed, 18 Nov 2026 08:47:00 GMT",
-   "resumen": "Tras el cierre del tour 2026 en Bogotá, DiarioBitcoin conversó nuevamente con Rodrigo Sainz, fundador y CEO del Blockchain Summit Latam, quien compartió su balance del paso del evento por Perú, Chile ...",
    "fecha_mencionada": ""
   },
   {
@@ -9102,11 +8968,27 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Retail Media Summit Perú 2026: una industria lista para conectar el futuro del comercio",
-   "url": "https://www.americatv.com.pe/noticias/util-e-interesante/retail-media-summit-peru-2026-industria-lista-conectar-futuro-comercio-n523776",
-   "medio": "América Televisión",
-   "publicado": "Thu, 22 Oct 2026 23:33:00 GMT",
-   "resumen": "La primera edición del encuentro, organizado por Mediática junto a Inbrax, reunió a líderes de marcas, retailers, agencias y empresas tecnológicas para analizar el potencial del Retail Media y el Conn ...",
+   "titulo": "LATAM Media Leaders Summit 2026: repasa las mejores imágenes que dejó el primer día del evento",
+   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-las-mejores-imagenes-que-dejo-el-primer-dia-del-evento-apuesplan-noticia/",
+   "medio": "El Comercio",
+   "publicado": "Wed, 16 Sep 2026 02:19:00 GMT",
+   "resumen": "Líderes de medios de América Latina y otros países se reunieron este martes 15 setiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. Pregúntale a Merlín IA ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Rodrigo Sainz: Blockchain Summit Latam volverá en 2027 con nuevo enfoque y cambios muy interesantes",
+   "url": "https://www.diariobitcoin.com/eventos/rodrigo-sainz-blockchain-summit-latam-volvera-en-2027-con-nuevo-enfoque-y-cambios-muy-interesantes/",
+   "medio": "DiarioBitcoin",
+   "publicado": "Wed, 18 Nov 2026 08:47:00 GMT",
+   "resumen": "Tras el cierre del tour 2026 en Bogotá, DiarioBitcoin conversó nuevamente con Rodrigo Sainz, fundador y CEO del Blockchain Summit Latam, quien compartió su balance del paso del evento por Perú, Chile ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Blockchain Summit Latam cerrará su gira “On Tour 2026” en Bogotá y consolida su expansión regional",
+   "url": "https://www.diariobitcoin.com/colombia/blockchain-summit-latam-cerrara-su-gira-on-tour-2026-en-bogota-y-consolida-su-expansion-regional/",
+   "medio": "diariobitcoin",
+   "publicado": "Tue, 29 Sep 2026 15:36:00 GMT",
+   "resumen": "Tras sus ediciones en Lima y Santiago, Blockchain Summit Latam culminará su gira On Tour 2026 en Bogotá, reuniendo a referentes de la banca, mercados de capitales, regulación, fintech, blockchain y ...",
    "fecha_mencionada": ""
   },
   {
@@ -9118,12 +9000,12 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Región Lima realizará feria para impulsar turismo, artesanía y exportaciones",
-   "url": "https://gacetaperutv.pe/2026/11/region-lima-realizara-feria-para-impulsar-turismo-artesania-y-exportaciones.html",
-   "medio": "gacetaperutv",
-   "publicado": "Sat, 21 Nov 2026 03:21:00 GMT",
-   "resumen": "La actividad se desarrollará en la Plaza Constitución, de 9 de la mañana a 3 de la tarde, el día 27 de noviembre ...",
-   "fecha_mencionada": "2026-11-27T00:00-05:00"
+   "titulo": "La feria Sitdrone se transforma en DACS Perú 2026 con foco en drones, ciberseguridad y tecnología espacial",
+   "url": "https://www.infodefensa.com/texto-diario/mostrar/6095843/sitdrone-transforma-dacs-peru-2026-drones-ciberseguridad-tecnologia-espacial",
+   "medio": "Infodefensa",
+   "publicado": "Wed, 18 Nov 2026 03:01:00 GMT",
+   "resumen": "La edición de este año tendrá una mayor representación industrial. Participación industrial y sistemas de defensaEstados Unidos estará representado por 22 empresas, entre ellas L3 Harri ...",
+   "fecha_mencionada": ""
   },
   {
    "titulo": "EXPOMIEL 2026 en Lima: feria de miel tendrá ingreso gratis y reunirá a apicultores del Perú",
@@ -9132,6 +9014,14 @@
    "publicado": "Mon, 26 Oct 2026 08:55:00 GMT",
    "resumen": "La Alameda 28 de Julio, en el Cercado de Lima, recibirá a productores de distintas regiones del país que ofrecerán miel, polen, propóleo, cosméticos y otros derivados apícolas. La feria también inclui ...",
    "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Región Lima realizará feria para impulsar turismo, artesanía y exportaciones",
+   "url": "https://gacetaperutv.pe/2026/11/region-lima-realizara-feria-para-impulsar-turismo-artesania-y-exportaciones.html",
+   "medio": "gacetaperutv",
+   "publicado": "Sat, 21 Nov 2026 03:21:00 GMT",
+   "resumen": "La actividad se desarrollará en la Plaza Constitución, de 9 de la mañana a 3 de la tarde, el día 27 de noviembre ...",
+   "fecha_mencionada": "2026-11-27T00:00-05:00"
   }
  ],
  "inscripciones_abiertas": [
@@ -9434,7 +9324,6 @@
   "devpost:31973": "2026-11-10T09:10-05:00",
   "ieee:592919": "2026-11-10T16:11-05:00",
   "devpost:32079": "2026-11-10T16:11-05:00",
-  "inst:pmi-lima-per-chapter-xviii-congreso-internacional-de-direcci:2026-11-16": "2026-11-10T23:15-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04": "2026-11-11T08:26-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11": "2026-11-11T08:26-05:00",
   "pucp:sesiones-de-cultura-china-trimestre-2026-4-11112026105324": "2026-11-11T16:43-05:00",
@@ -9491,7 +9380,6 @@
   "eb:2004991514593": "2026-11-18T06:00-05:00",
   "luma:evt-kYWDzvteeK1QQ5W": "2026-11-18T06:00-05:00",
   "opportunitiesforyouth:uncil-2026-27-applications-open-for-young-people-aged-14-18-worldwide-": "2026-11-18T14:53-05:00",
-  "meetup:317483288": "2026-11-18T14:53-05:00",
   "luma:evt-CipniDmmAonkTxA": "2026-11-18T14:53-05:00",
   "pucp:maestros-y-maestras-toda-la-vida-18112026120313": "2026-11-18T14:53-05:00",
   "devpost:31775": "2026-11-18T14:53-05:00",
@@ -9514,10 +9402,8 @@
   "ieee:595577": "2026-11-20T14:32-05:00",
   "opportunitydesk:tydesk-org-2026-11-20-nivea-connect-gen-z-research-grant-program-2026-": "2026-11-20T14:32-05:00",
   "opportunitydesk:tps-opportunitydesk-org-2026-11-20-klaus-j-jacobs-research-prize-2027-": "2026-11-20T14:32-05:00",
-  "devpost:31620": "2026-11-20T20:57-05:00",
   "luma:evt-T012UNCU0INRcw3": "2026-11-20T20:57-05:00",
   "luma:evt-kUuxDz4Ju4YbeH4": "2026-11-20T20:57-05:00",
-  "eb:2005159198139": "2026-11-20T20:57-05:00",
   "devpost:31826": "2026-11-21T05:35-05:00",
   "devpost:31721": "2026-11-21T13:37-05:00",
   "ieee:596016": "2026-11-21T13:37-05:00",
@@ -9529,6 +9415,10 @@
   "eb:2004692187297": "2026-11-21T19:53-05:00",
   "eb:2004692297627": "2026-11-21T19:53-05:00",
   "eb:2004692052895": "2026-11-21T19:53-05:00",
-  "devpost:31504": "2026-11-21T19:53-05:00"
+  "devpost:31504": "2026-11-21T19:53-05:00",
+  "devpost:32133": "2026-11-22T05:39-05:00",
+  "luma:evt-0T4FjSm2b4KI5UO": "2026-11-22T05:39-05:00",
+  "devpost:32211": "2026-11-22T05:39-05:00",
+  "devpost:32155": "2026-11-22T05:39-05:00"
  }
 }
