@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-22T20:22-05:00",
+ "actualizado": "2026-11-23T06:40-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 60
+   "n": 62
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 16
+   "n": 19
   },
   "Meetup": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 325,
+ "revisados": 330,
  "top": 55,
  "eventos": [
   {
@@ -667,7 +667,7 @@
    "organizador": "AdminProp",
    "descripcion": "Con Tamara Suken",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198325117%2F522799963621%2F1%2Foriginal.20261119-152620?crop=focalpoint&fit=crop&w=258&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e3ef882485386124c7a68231ba67c506",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198325117%2F522799963621%2F1%2Foriginal.20261119-152620?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4f6baf5f05b20198714e831bad119067",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -765,6 +765,33 @@
    "visto_desde": "2026-11-13T23:38-05:00"
   },
   {
+   "id": "eb:2005172693504",
+   "titulo": "Alimentación Consciente para el Bienestar | Coaching Nutricional",
+   "inicio": "2026-11-24T18:00-05:00",
+   "fin": "2026-11-24T20:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com.ar/e/alimentacion-consciente-para-el-bienestar-coaching-nutricional-tickets-2005172693504",
+   "inscripcion": "https://www.eventbrite.com.ar/e/alimentacion-consciente-para-el-bienestar-coaching-nutricional-tickets-2005172693504",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "Activación X",
+   "descripcion": "¿Y si pudieras transformar tu relación con la comida desde un lugar amable y sostenible?",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198429319%2F329921288251%2F1%2Foriginal.20261121-010638?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.629&fp-y=0.244&s=3c429becb21c7f2560ecb62774b03752",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Ingeniería y operaciones"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-11-23T06:40-05:00"
+  },
+  {
    "id": "pucp:maestros-y-maestras-toda-la-vida-18112026120313",
    "titulo": "Maestros y maestras, toda la vida",
    "inicio": "2026-11-24T18:00-05:00",
@@ -818,6 +845,34 @@
    "puntaje": 30,
    "por_que": "Competencia · Presencial en Lima · Gratis · Afín: Emprendimiento y finanzas",
    "visto_desde": "2026-11-16T05:33-05:00"
+  },
+  {
+   "id": "eb:2005248256515",
+   "titulo": "Tip de IA #5: El prompt perfecto no existe · Taller gratuito",
+   "inicio": "2026-11-24T19:00-05:00",
+   "fin": "2026-11-24T20:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/tip-de-ia-5-el-prompt-perfecto-no-existe-taller-gratuito-tickets-2005248256515",
+   "inscripcion": "https://www.eventbrite.com/e/tip-de-ia-5-el-prompt-perfecto-no-existe-taller-gratuito-tickets-2005248256515",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "AIBizAgility",
+   "descripcion": "Deje de buscar palabras mágicas. Aprenda cómo el contexto y un objetivo claro mejoran las respuestas de la IA. Gratis, en línea.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198514409%2F42129744202%2F1%2Foriginal.20261123-070856?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.075&fp-y=0.422&s=004c3016d792e5a899db188aa3e3b52c",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
+   "visto_desde": "2026-11-23T06:40-05:00"
   },
   {
    "id": "devpost:31798",
@@ -875,33 +930,6 @@
    "visto_desde": "2026-11-18T14:53-05:00"
   },
   {
-   "id": "devpost:32211",
-   "titulo": "Engineering Without Limits",
-   "tipo": "hackathon",
-   "inicio": "2026-11-22T00:00-05:00",
-   "fin": "2026-11-24T23:59-05:00",
-   "cierre": "2026-11-24T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://engineering-without-limits.devpost.com/",
-   "inscripcion": "https://engineering-without-limits.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Engineering Without Limits",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Open Ended. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/979/669/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-22T05:39-05:00"
-  },
-  {
    "id": "devpost:32133",
    "titulo": "Creators AI Winter Challenge",
    "tipo": "hackathon",
@@ -944,7 +972,7 @@
    "organizador": "Odoo ERP",
    "descripcion": "Descubre cómo centralizar la operativa de oficina técnica, compras, logística y finanzas en una única plataforma en tiempo real.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197584666%2F2674499530211%2F1%2Foriginal.20261109-115309?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.491&fp-y=0.164&s=59c9a91610fbc643fde102f3c899ff90",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197584666%2F2674499530211%2F1%2Foriginal.20261109-115309?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.491&fp-y=0.164&s=e7da5ccc95b1bb133752fa0eb6f7c58d",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -1048,14 +1076,14 @@
   },
   {
    "id": "eb:2004642773499",
-   "titulo": "Webinar: Executive Program en Evaluación Económica, Acceso a la Innovación",
+   "titulo": "Webinar: Cómo la IA transforma la Evaluación Económica Sanitaria",
    "inicio": "2026-11-25T11:00-05:00",
    "fin": "2026-11-25T12:00-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com/e/entradas-webinar-executive-program-en-evaluacion-economica-acceso-a-la-innovacion-2004642773499",
-   "inscripcion": "https://www.eventbrite.com/e/entradas-webinar-executive-program-en-evaluacion-economica-acceso-a-la-innovacion-2004642773499",
+   "url": "https://www.eventbrite.com/e/entradas-webinar-como-la-ia-transforma-la-evaluacion-economica-sanitaria-2004642773499",
+   "inscripcion": "https://www.eventbrite.com/e/entradas-webinar-como-la-ia-transforma-la-evaluacion-economica-sanitaria-2004642773499",
    "fuente": "Eventbrite online",
    "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
    "organizador": "Barcelona Finance School (BFS)",
@@ -1065,13 +1093,13 @@
    "tipo": "evento",
    "cierre": "",
    "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
    ],
    "valor": 23,
-   "afinidad": 14,
-   "puntaje": 37,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Afín: Emprendimiento y finanzas",
+   "afinidad": 12,
+   "puntaje": 35,
+   "por_que": "Formativo · Afín: Inteligencia artificial · Gratis · Virtual",
    "visto_desde": "2026-11-18T06:00-05:00"
   },
   {
@@ -1384,6 +1412,34 @@
    "visto_desde": "2026-10-21T18:55-05:00"
   },
   {
+   "id": "luma:evt-QKh3LnwQuK7NpTw",
+   "titulo": "Infosoft 2026",
+   "inicio": "2026-11-26T10:00-05:00",
+   "fin": "2026-11-28T16:00-05:00",
+   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/9687i94s",
+   "fuente": "Luma",
+   "organizador": "AAII",
+   "descripcion": "El evento académico insignia de Ingeniería Informática de la PUCP, organizado por la AAII, IEEE CS, Blockchain y GDP, vuelve con su edición 2026. Durante tres días, conferencias magistrales, talleres técnicos y stands de interacción reunirán a estudiantes, egresados y docentes con líderes de la industria e innovadores tecnológicos.\n📅 Fechas: 26, 27 y 28 de noviembre de 2026\n🕙 Horario: 10:00 a.m. a 4:00 p.m.\n📍 Lugar: Campus PUCP, explanada de la Biblioteca del CIA y auditorios o salones de la universidad\nVen a actualizarte en tecnologías de vanguardia, conocer proyectos de innovación y hacer networking con empresas que buscan talento. ¡Te esperamos!\n📩 Consultas: aaii@pucp.edu.pe",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/3h/064f8882-2743-47f6-9315-adda53c7322e.png",
+   "inscripcion": "https://lu.ma/9687i94s",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Tecnología e IA",
+    "Habilidades y liderazgo"
+   ],
+   "valor": 31,
+   "afinidad": 4,
+   "puntaje": 35,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-11-23T06:40-05:00"
+  },
+  {
    "id": "pucp:primer-intercambio-de-experiencias-sobre-vinculacion-e-impacto-social-de-la-investigacion-2026-06112026130501",
    "titulo": "Primer Intercambio de Experiencias sobre Vinculación e Impacto Social de la Investigación 2026",
    "inicio": "2026-11-26T10:00-05:00",
@@ -1509,7 +1565,7 @@
    "organizador": "Academia Nacional de Ingeniería",
    "descripcion": "LOS INGENIEROS QUE EL PAIS Y EL MUNDO NECESITAN. Desafíos, reflexiones y propuestas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197432999%2F221084714153%2F1%2Foriginal.20261106-151956?crop=focalpoint&fit=crop&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.064&fp-y=0.335&s=e3eddbc4c629a481fd6ff93ab25bbf4a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197432999%2F221084714153%2F1%2Foriginal.20261106-151956?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.064&fp-y=0.335&s=6307dde977d5fbf143efd6ea7e73e00c",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2124,34 +2180,6 @@
    "visto_desde": "2026-11-05T14:27-05:00"
   },
   {
-   "id": "devpost:31907",
-   "titulo": "Build Your First AI App",
-   "tipo": "hackathon",
-   "inicio": "2026-10-27T00:00-05:00",
-   "fin": "2026-11-27T23:59-05:00",
-   "cierre": "2026-11-27T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://build-your-first-ai-app.devpost.com/",
-   "inscripcion": "https://build-your-first-ai-app.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Yasir Insights",
-   "descripcion": "Hackathon online. Temas: Education, Machine Learning/AI, Web. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/723/285/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 30,
-   "puntaje": 49,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-27T12:18-05:00"
-  },
-  {
    "id": "devpost:32155",
    "titulo": "SMBP FinHack",
    "tipo": "hackathon",
@@ -2402,6 +2430,33 @@
    "visto_desde": "2026-11-19T14:53-05:00"
   },
   {
+   "id": "eb:2004692187297",
+   "titulo": "Voluntariado con niños y adultos mayores en Callao",
+   "inicio": "2026-11-28T14:00-05:00",
+   "fin": "2026-11-28T16:00-05:00",
+   "lugar": "Las Dalias 156, 156 Las Dalias",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692187297",
+   "fuente": "Eventbrite",
+   "organizador": "Huellas ONG",
+   "descripcion": "Brinda un rato de tu fin de semana para combatir la soledad con juegos y sonrisas junto a abuelos y niños en esta actividad presencial.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738082%2F1082019636043%2F1%2Foriginal.20261111-023137?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533&fp-y=0.399&s=9429659e7fb17dff1504ac44440f8c4e",
+   "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692187297",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 18,
+   "afinidad": 0,
+   "puntaje": 18,
+   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
+   "visto_desde": "2026-11-21T19:53-05:00"
+  },
+  {
    "id": "eb:2004554962855",
    "titulo": "Voluntariado con niños y abuelos en Lima",
    "inicio": "2026-11-28T14:00-05:00",
@@ -2444,33 +2499,6 @@
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738358%2F1082019636043%2F1%2Foriginal.20261111-023558?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=31454a2148932d929448ebf45b3ef9b1",
    "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-abuelos-en-san-miguel-tickets-2004692297627",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-11-21T19:53-05:00"
-  },
-  {
-   "id": "eb:2004692187297",
-   "titulo": "Voluntariado con niños y adultos mayores en Callao",
-   "inicio": "2026-11-28T14:00-05:00",
-   "fin": "2026-11-28T16:00-05:00",
-   "lugar": "Las Dalias 156, 156 Las Dalias",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692187297",
-   "fuente": "Eventbrite",
-   "organizador": "Huellas ONG",
-   "descripcion": "Brinda un rato de tu fin de semana para combatir la soledad con juegos y sonrisas junto a abuelos y niños en esta actividad presencial.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197738082%2F1082019636043%2F1%2Foriginal.20261111-023137?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533&fp-y=0.399&s=0350750fefe9301748357e76c5b99e9a",
-   "inscripcion": "https://www.eventbrite.com.ar/e/voluntariado-con-ninos-y-adultos-mayores-en-callao-tickets-2004692187297",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -2846,6 +2874,33 @@
    "visto_desde": "2026-11-21T19:53-05:00"
   },
   {
+   "id": "devpost:32215",
+   "titulo": "Acodemic X KeebsforWater Global SDG Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-23T00:00-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://hackathon-draft-32215.devpost.com/",
+   "inscripcion": "https://hackathon-draft-32215.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack Club",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Social Good. Premios: $35.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 9,
+   "puntaje": 28,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-23T06:40-05:00"
+  },
+  {
    "id": "opportunitydesk:k-org-2026-11-20-ias-person-centred-care-global-advocacy-academy-2027-",
    "titulo": "IAS Person-Centred Care Global Advocacy Academy 2027 (Funded)",
    "tipo": "convocatoria",
@@ -2972,7 +3027,7 @@
    "organizador": "AMERIC AC",
    "descripcion": "Sesión técnica online con el Ing. Enrique Maldonado sobre principios, aplicaciones y diseño de vigas frías en hospitales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=c407ce90d27e238f2564d7589d0df29a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=c945071b72e08d29bab15b4aab775f11",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3152,34 +3207,6 @@
    "visto_desde": "2026-11-19T14:53-05:00"
   },
   {
-   "id": "devpost:31960",
-   "titulo": "ML Empowerment Build Challenge 4.0 - Prizes and Certificates for EVERYONE",
-   "tipo": "hackathon",
-   "inicio": "2026-11-01T00:00-05:00",
-   "fin": "2026-12-02T23:59-05:00",
-   "cierre": "2026-12-02T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://ml-build-challenge-4.devpost.com/",
-   "inscripcion": "https://ml-build-challenge-4.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ML Empowerment Foundation",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/767/299/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 35,
-   "puntaje": 54,
-   "por_que": "Afín: Datos y machine learning · Competencia · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-01T07:32-05:00"
-  },
-  {
    "id": "luma:evt-3mBgG7aWiUITqdx",
    "titulo": "[BIW] Mirando al futuro",
    "inicio": "2026-12-03T08:30-05:00",
@@ -3205,6 +3232,33 @@
    "puntaje": 31,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-11-19T14:53-05:00"
+  },
+  {
+   "id": "eb:2005159198139",
+   "titulo": "Webinar ¿Tu servicio enamora o simplemente cumple?",
+   "inicio": "2026-12-03T09:00-05:00",
+   "fin": "2026-12-03T10:00-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://www.eventbrite.com/e/webinar-tu-servicio-enamora-o-simplemente-cumple-tickets-2005159198139",
+   "inscripcion": "https://www.eventbrite.com/e/webinar-tu-servicio-enamora-o-simplemente-cumple-tickets-2005159198139",
+   "fuente": "Eventbrite online",
+   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
+   "organizador": "",
+   "descripcion": "Cultura de servicio: el camino para transformar equipos y crear experiencias que dejan huella.",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198465309%2F3006442371969%2F1%2Foriginal.20261121-234923?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=31c3e82dc7ad27b58e29b936a2e8b934",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Negocios y emprendimiento"
+   ],
+   "valor": 23,
+   "afinidad": 0,
+   "puntaje": 23,
+   "por_que": "Formativo · Gratis · Virtual",
+   "visto_desde": "2026-11-23T06:40-05:00"
   },
   {
    "id": "ieee:595272",
@@ -3249,7 +3303,7 @@
    "organizador": "AEE Spain Chapter",
    "descripcion": "Llega otro caso de éxito de descarbonización de Calor Industrial de la serie EFICIENCIA ENERGÉTICA INDUSTRIAL de los Webinars de los Jueves",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198148346%2F848590389843%2F1%2Foriginal.20261117-103334?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f994936d3f89641de4f46c90381f2305",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198148346%2F848590389843%2F1%2Foriginal.20261117-103334?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=007c06cba29a4237b148894d85682b1b",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3556,7 +3610,7 @@
    "organizador": "estudiantes del Intituto Certus",
    "descripcion": "Creatividad es pensar en nuevas ideas. Innovación es hacer cosas nuevas.\"  ven y se parte de esta feria",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195985983%2F3018024795339%2F1%2Foriginal.20261017-012056?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8648889a4f9f24063287a773de4c3717",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195985983%2F3018024795339%2F1%2Foriginal.20261017-012056?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c8f908af42524e82e0fd34f7010caa87",
    "inscripcion": "https://www.eventbrite.com/e/feria-tecnologica-universitaria-2026-tickets-2003535860693",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -3728,7 +3782,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Seguimos investigando y desmontando mitos en módulos fotovoltaicos, inversores, conectores, baterías...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=138ccd8bf2b4a17674be988bbf795218",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e94d68edf0e8e80f19705b83ce8b46fe",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3739,6 +3793,34 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-10-25T13:03-05:00"
+  },
+  {
+   "id": "devpost:31907",
+   "titulo": "Build Your First AI App",
+   "tipo": "hackathon",
+   "inicio": "2026-10-27T00:00-05:00",
+   "fin": "2026-12-09T23:59-05:00",
+   "cierre": "2026-12-09T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://build-your-first-ai-app.devpost.com/",
+   "inscripcion": "https://build-your-first-ai-app.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Yasir Insights",
+   "descripcion": "Hackathon online. Temas: Education, Machine Learning/AI, Web. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/723/285/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 30,
+   "puntaje": 49,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-27T12:18-05:00"
   },
   {
    "id": "devpost:31796",
@@ -3810,7 +3892,7 @@
    "organizador": "ZirconTech",
    "descripcion": "Evento online sobre cómo usar IA para mejorar las ventas y optimizar el inventario.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198103865%2F2288947321483%2F1%2Foriginal.20261116-201618?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bc1d8bccb9abc1b8f85d657808e12de7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198103865%2F2288947321483%2F1%2Foriginal.20261116-201618?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=11d0e25f22a4426020a231f589dbedd6",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -4160,6 +4242,34 @@
    "puntaje": 19,
    "por_que": "Presencial en Lima · Gremio o institución · Evento sin formato claro",
    "visto_desde": "2026-10-13T08:24-05:00"
+  },
+  {
+   "id": "luma:evt-SJDv2zAJxWhfItg",
+   "titulo": "Voluntariado: Actividad con Niños Scouts (RUA UNMSM x Scouts)",
+   "inicio": "2026-12-12T14:00-05:00",
+   "fin": "2026-12-12T18:00-05:00",
+   "lugar": "Av. Carlos 375, Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://lu.ma/qmn593iq",
+   "fuente": "Luma",
+   "organizador": "RUA UNMSM - Actividades",
+   "descripcion": "Unete al grupo:\nhttps://chat.whatsapp.com/Kr0rVbPpQF26BczLwUyAVO?s=cl&p=a&iam=2\n¿Te gustaría sumar en una tarde llena de aprendizaje y compañerismo? Este 12 de diciembre nos unimos con los Scouts para realizar una jornada especial junto a niños scouts en la Ciudad Universitaria de la UNMSM. Será una tarde para compartir, dinamizar actividades y aportar tu energía en una experiencia enriquecedora para todos.   Si te provoca hacer algo útil, conectar con más personas y vivir la experiencia de voluntariado, este plan es para ti (seas o no de la universidad). Además, se entregará constancia de participación al finalizar la jornada y ¡puedes invitar a un amigo o compañero para que se sume contigo",
+   "gratis": true,
+   "imagen": "https://images.lumacdn.com/uploads/1i/f348c850-e39e-4a01-a169-4355fd64d06d.jpg",
+   "inscripcion": "https://lu.ma/qmn593iq",
+   "fuente_url": "https://lu.ma/lima",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Ingeniería y operaciones"
+   ],
+   "valor": 34,
+   "afinidad": 0,
+   "puntaje": 34,
+   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-11-23T06:40-05:00"
   },
   {
    "id": "devpost:32072",
@@ -4568,7 +4678,7 @@
    "organizador": "Shail & Sharaf",
    "descripcion": "Hackathon online. Temas: Beginner Friendly, IoT, Machine Learning/AI. Premios: $CAD 1,050.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/970/597/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/989/370/datas/medium_square.png",
    "categorias": [
     "Tecnología e IA",
     "Competencias y hackathons"
@@ -7488,31 +7598,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "eb:2004335878568",
-   "titulo": "The Only Fre Food Tasting Tours in Lima",
-   "inicio": "2026-11-22T20:00-05:00",
-   "fin": "2026-11-22T21:30-05:00",
-   "lugar": "McDonald's, 599 Jirón de la Unión",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335878568",
-   "fuente": "Eventbrite",
-   "organizador": "Viajens Machupicchu",
-   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
-   "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
-   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335878568",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Evento sin formato claro"
-  },
-  {
    "id": "eb:2004764139508",
    "titulo": "prueba",
    "inicio": "2026-11-23T10:00-05:00",
@@ -7536,6 +7621,31 @@
    "afinidad": 0,
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis"
+  },
+  {
+   "id": "eb:2004335879571",
+   "titulo": "The Only Fre Food Tasting Tours in Lima",
+   "inicio": "2026-11-23T17:00-05:00",
+   "fin": "2026-11-23T18:30-05:00",
+   "lugar": "McDonald's, 599 Jirón de la Unión",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335879571",
+   "fuente": "Eventbrite",
+   "organizador": "Viajens Machupicchu",
+   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
+   "gratis": false,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
+   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335879571",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
    "id": "eb:1976412299391",
@@ -7700,7 +7810,7 @@
    "organizador": "Ermantourage UK",
    "descripcion": "Connect with other locals over coffee! Meet a new friend in your city. A different cafe each gathering!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=03be7893bd239a257f487229eb5956e9",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178081088%2F2972884566231%2F1%2Foriginal.20260221-023503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa8e3e4933db165428ed9864b11725aa",
    "inscripcion": "https://www.eventbrite.com/e/the-comeunity-project-lima-coffee-with-strangers-tickets-1984736925572",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8103,6 +8213,34 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Empresa reconocida · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31960",
+   "titulo": "ML Empowerment Build Challenge 4.0 (250K IN PRIZES!)",
+   "tipo": "hackathon",
+   "inicio": "2026-11-01T00:00-05:00",
+   "fin": "2026-12-02T23:59-05:00",
+   "cierre": "2026-12-02T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://ml-build-challenge-4.devpost.com/",
+   "inscripcion": "https://ml-build-challenge-4.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ML Empowerment Foundation",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Machine Learning/AI, Social Good. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/767/299/datas/medium_square.png",
+   "motivo": "recreativo o de venta (250k)",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 35,
+   "puntaje": 54,
+   "por_que": "Afín: Datos y machine learning · Competencia · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:31773",
    "titulo": "LaunchPad Hacks (580k In Prizes!)",
    "tipo": "hackathon",
@@ -8307,20 +8445,20 @@
    "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
-   "id": "eb:2004334238663",
+   "id": "eb:2004334239666",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-22T20:00-05:00",
-   "fin": "2026-11-22T21:30-05:00",
+   "inicio": "2026-11-23T18:00-05:00",
+   "fin": "2026-11-23T19:30-05:00",
    "lugar": "Tourist Information Center, 799 Avenida José Larco",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334238663",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334239666",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334238663",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334239666",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8647,7 +8785,7 @@
    "cierre": "",
    "lugar": "",
    "distrito": "Lima",
-   "modalidad": "Presencial",
+   "modalidad": "Virtual",
    "url": "https://100.cientifica.edu.pe/2026/05/concurso-modelo-educativo-de-la-cientifica/",
    "inscripcion": "https://100.cientifica.edu.pe/2026/05/concurso-modelo-educativo-de-la-cientifica/",
    "fuente": "Inscripciones (Linktree)",
@@ -8661,10 +8799,10 @@
     "Investigación y ciencia",
     "Competencias y hackathons"
    ],
-   "valor": 29,
+   "valor": 24,
    "afinidad": 9,
-   "puntaje": 38,
-   "por_que": "Formativo · Afín: Competencias · Presencial en Lima · Universidad"
+   "puntaje": 33,
+   "por_que": "Formativo · Afín: Competencias · Universidad · Virtual"
   },
   {
    "id": "insc:1bf51d4dc641",
@@ -8761,7 +8899,7 @@
    "organizador": "AWS Student Builder Group UNI",
    "descripcion": "Un día de charlas, workshops y comunidad sobre cloud e IA, organizado por estudiantes del AWS Student Builder Group UNI.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=4947bfa70477611befac2e5ee3039f58",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196553454%2F2984214488379%2F1%2Foriginal.20261025-195926?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.875&fp-y=1.0&s=ff03716ec626363368db29cefaf9cd26",
    "inscripcion": "https://www.eventbrite.com.pe/e/aws-student-community-day-lima-2026-tickets-2003893051059",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -8809,8 +8947,8 @@
   }
  ],
  "calidad": {
-  "fecha": "2026-11-22T20:22-05:00",
-  "revisados": 203,
+  "fecha": "2026-11-23T06:40-05:00",
+  "revisados": 207,
   "corregidos": 13,
   "avisos": 1,
   "archivados": 2,
@@ -8945,13 +9083,21 @@
    }
   ],
   "enlaces": {
-   "comprobados": 12,
+   "comprobados": 10,
    "rotos": 1,
    "sin_comprobar": 1
   },
   "fuentes_a_revisar": []
  },
  "por_confirmar": [
+  {
+   "titulo": "Foro de CGTN Español en Lima aborda agenda APEC 2026 y plantea oportunidades para Perú y la región sudamericana",
+   "url": "https://espanol.cri.cn/2026/11/21/ARTI1795228855201452",
+   "medio": "cri",
+   "publicado": "Fri, 20 Nov 2026 18:40:00 GMT",
+   "resumen": "La conversación sobre el futuro de Asia-Pacífico también llega a América Latina. Lima acogió el Foro Internacional Shenzhen 2026, organizado por CGTN Español, para analizar cómo Perú y China pueden tr ...",
+   "fecha_mencionada": ""
+  },
   {
    "titulo": "Lima 2027: Comité Olímpico Peruano inauguró foro de Atletas Rumbo a los Panamericanos",
    "url": "https://trome.com/deportes/polideportivo/lima-2027-comite-olimpico-peruano-inauguro-foro-de-atletas-rumbo-a-los-panamericanos-noticia/",
@@ -8961,11 +9107,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Foro de CGTN Español en Lima aborda agenda APEC 2026 y plantea oportunidades para Perú y la región sudamericana",
-   "url": "https://espanol.cgtn.com/2026/11/21/ARTI1795228855201452",
-   "medio": "CGTN en Español",
-   "publicado": "Fri, 20 Nov 2026 21:29:00 GMT",
-   "resumen": "La conversación sobre el futuro de Asia-Pacífico también llega a América Latina. Lima acogió el Foro Internacional Shenzhen 2026, organizado por CGTN Español, para analizar cómo Perú y China pueden tr ...",
+   "titulo": "Cancillería: Perú fortaleció su presencia en el Asia Pacífico durante foro APEC 2026",
+   "url": "https://andina.pe/agencia/noticia-cancilleria-peru-fortalecio-su-presencia-el-asia-pacifico-durante-foro-apec-2026-1100983.aspx",
+   "medio": "Agencia Peruana de Noticias | ANDINA",
+   "publicado": "Fri, 20 Nov 2026 16:00:00 GMT",
+   "resumen": "El Perú fortaleció su presencia en el Asia Pacífico durante la participación de la presidenta Keiko Fujimori en el Foro APEC 2026, realizado en Shenzhen, China, manifestó la Cancillería ...",
    "fecha_mencionada": ""
   },
   {
@@ -8977,14 +9123,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Google Cloud Summit Perú 2026: ¿cuáles fueron los puntos claves?",
-   "url": "https://www.mercadonegro.pe/marketing/google-cloud-summit-puntos-claves/",
-   "medio": "Mercado Negro",
-   "publicado": "Fri, 20 Nov 2026 10:03:00 GMT",
-   "resumen": "En el encuentro celebrado el 19 de noviembre, presentó novedades tecnológicas en torno a la IA y su adopción y ...",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "NTT Data realizará Digital & AI Summit Lima 2026 el 28 de abril en Lima",
    "url": "https://gestion.pe/economia/empresas/empresa-ntt-data-realizara-digital-ai-summit-lima-2026-el-28-de-abril-en-san-borja-lima-noticia/",
    "medio": "gestion",
@@ -8993,11 +9131,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "LATAM Media Leaders Summit 2026 reúne en Lima a líderes de medios internacionales",
-   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-reunira-en-lima-a-lideres-de-medios-internacionales-apuesplan-noticia/",
+   "titulo": "LATAM Media Leaders Summit 2026: repasa las mejores imágenes que dejó el primer día del evento",
+   "url": "https://elcomercio.pe/lima/latam-media-leaders-summit-2026-las-mejores-imagenes-que-dejo-el-primer-dia-del-evento-apuesplan-noticia/",
    "medio": "El Comercio",
-   "publicado": "Tue, 15 Sep 2026 13:15:00 GMT",
-   "resumen": "Por Redacción EC 15/09/2026, 08:15 p.m. Líderes de medios de América Latina y otros países se reunirán este martes 15 y miércoles 16 de septiembre en Lima para participar en el LATAM Media Leaders ...",
+   "publicado": "Wed, 16 Sep 2026 02:19:00 GMT",
+   "resumen": "Líderes de medios de América Latina y otros países se reunieron este martes 15 setiembre en Lima para participar en el LATAM Media Leaders Summit 2026, organizado por WAN-IFRA. Pregúntale a Merlín IA ...",
    "fecha_mencionada": ""
   },
   {
@@ -9006,14 +9144,6 @@
    "medio": "DiarioBitcoin",
    "publicado": "Wed, 18 Nov 2026 08:47:00 GMT",
    "resumen": "Tras el cierre del tour 2026 en Bogotá, DiarioBitcoin conversó nuevamente con Rodrigo Sainz, fundador y CEO del Blockchain Summit Latam, quien compartió su balance del paso del evento por Perú, Chile ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Retail Media Summit Perú 2026: una industria lista para conectar el futuro del comercio",
-   "url": "https://www.americatv.com.pe/noticias/util-e-interesante/retail-media-summit-peru-2026-industria-lista-conectar-futuro-comercio-n523776",
-   "medio": "América Televisión",
-   "publicado": "Thu, 22 Oct 2026 23:33:00 GMT",
-   "resumen": "La primera edición del encuentro, organizado por Mediática junto a Inbrax, reunió a líderes de marcas, retailers, agencias y empresas tecnológicas para analizar el potencial del Retail Media y el Conn ...",
    "fecha_mencionada": ""
   },
   {
@@ -9314,7 +9444,6 @@
   "luma:evt-FvLvhaqmG2oHMsT": "2026-10-29T23:01-05:00",
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-10-31T06:35-05:00",
   "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25": "2026-11-01T07:32-05:00",
-  "devpost:31960": "2026-11-01T07:32-05:00",
   "devpost:31787": "2026-11-01T07:32-05:00",
   "luma:evt-heQySSVPAFajESL": "2026-11-02T05:28-05:00",
   "devpost:31642": "2026-11-02T16:18-05:00",
@@ -9439,7 +9568,6 @@
   "devpost:31504": "2026-11-21T19:53-05:00",
   "devpost:32133": "2026-11-22T05:39-05:00",
   "luma:evt-0T4FjSm2b4KI5UO": "2026-11-22T05:39-05:00",
-  "devpost:32211": "2026-11-22T05:39-05:00",
   "devpost:32155": "2026-11-22T05:39-05:00",
   "ieee:596508": "2026-11-22T13:58-05:00",
   "meetup:317539689": "2026-11-22T13:58-05:00",
@@ -9449,6 +9577,12 @@
   "luma:evt-V9U8nHT0Vqf4AJO": "2026-11-22T20:22-05:00",
   "devpost:32061": "2026-11-22T20:22-05:00",
   "devpost:32141": "2026-11-22T20:22-05:00",
-  "devpost:31974": "2026-11-22T20:22-05:00"
+  "devpost:31974": "2026-11-22T20:22-05:00",
+  "eb:2005172693504": "2026-11-23T06:40-05:00",
+  "eb:2005248256515": "2026-11-23T06:40-05:00",
+  "luma:evt-QKh3LnwQuK7NpTw": "2026-11-23T06:40-05:00",
+  "devpost:32215": "2026-11-23T06:40-05:00",
+  "eb:2005159198139": "2026-11-23T06:40-05:00",
+  "luma:evt-SJDv2zAJxWhfItg": "2026-11-23T06:40-05:00"
  }
 }
