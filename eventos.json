@@ -1,29 +1,29 @@
 {
- "actualizado": "2026-11-26T06:49-05:00",
+ "actualizado": "2026-11-26T15:51-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 54
+   "n": 53
   },
   "Eventbrite": {
    "ok": true,
-   "n": 33
+   "n": 34
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 16
+   "n": 13
   },
   "Meetup": {
    "ok": true,
-   "n": 4
+   "n": 5
   },
   "PUCP": {
    "ok": true,
-   "n": 20
+   "n": 16
   },
   "IEEE Perú": {
    "ok": true,
-   "n": 13
+   "n": 8
   },
   "Devpost": {
    "ok": true,
@@ -48,7 +48,8 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 5
+   "n": 3,
+   "revisar": "los problemas subieron de 40% a 67%"
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -59,7 +60,7 @@
    "n": 0
   }
  },
- "revisados": 308,
+ "revisados": 295,
  "top": 55,
  "eventos": [
   {
@@ -203,33 +204,6 @@
    "visto_desde": "2026-11-24T22:56-05:00"
   },
   {
-   "id": "eb:2001057110685",
-   "titulo": "Webinars | OBServatory 2026",
-   "inicio": "2026-11-25T11:00-05:00",
-   "fin": "2026-11-26T13:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com/e/entradas-webinars-observatory-2026-2001057110685",
-   "inscripcion": "https://www.eventbrite.com/e/entradas-webinars-observatory-2026-2001057110685",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "OBS Business School",
-   "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=98149458ee473e40a1f608f81046be95",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Formativo · Gratis · Virtual",
-   "visto_desde": "2026-10-11T12:31-05:00"
-  },
-  {
    "id": "opportunitydesk:management-creative-job-opportunities-currently-open-november-25-2026-",
    "titulo": "20  Communications, Talent Management & Creative Job Opportunities  Currently Open – November 25, 2026",
    "tipo": "convocatoria",
@@ -286,62 +260,6 @@
    "visto_desde": "2026-11-25T20:28-05:00"
   },
   {
-   "id": "ieee:596016",
-   "titulo": "PRECISION Robotics League 2026 – School Robotics Tournament",
-   "inicio": "2026-11-26T08:00-05:00",
-   "fin": "2026-11-26T17:00-05:00",
-   "lugar": "Universidad de Ingeniería y Tecnología (UTEC), Jr Medrano Silva 165 - Barranco",
-   "distrito": "Lima, Lima",
-   "modalidad": "Presencial",
-   "url": "https://events.vtools.ieee.org/m/596016",
-   "inscripcion": "https://events.vtools.ieee.org/m/596016",
-   "fuente": "IEEE Perú",
-   "fuente_url": "https://events.vtools.ieee.org/",
-   "organizador": "IEEE · Universidad de Ingenieria y Tecnologia-UTEC, RA24",
-   "descripcion": "The PRECISION Robotics League 2026 – School Robotics Tournament is a free, in-person educational robotics competition scheduled to take place at Universidad de Ingeniería y Tecnología (UTEC), Lima, Peru, with the support of IEEE RAS UTEC, alongside PRECISION, Let's Go Robot, and TechHunter Entertainment.\n\r\nThe tournament aims to promote interest in robotics, engineering, technology, and STEM education among primary and secondary school students through practical robotics challenges and competitive learning experiences.\n\r\nThe competition features three categories:\n\r\n\r\n\r\nPath Attack Junior: Designed for students from 4th to 6th grade of primary school.\n\r\n\n\r\n\r\nDisk Derby: Designed for students ",
-   "gratis": true,
-   "imagen": "",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-11-21T13:37-05:00"
-  },
-  {
-   "id": "luma:evt-V03QEkUgBk5mQIE",
-   "titulo": "Final Local ISC 2027 | UTP Lima",
-   "inicio": "2026-11-26T09:00-05:00",
-   "fin": "2026-11-26T11:00-05:00",
-   "lugar": "Av. José Larco 770, Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/94bpnycu",
-   "fuente": "Luma",
-   "organizador": "Jose Eduardo Diaz Fernandez, Hellen Saraí Camila Patiño Avendaño",
-   "descripcion": "🏆 ¡Llegó la Final Local de Impact Startup Competition 2027 | UTP Lima!\nLos equipos finalistas presentarán sus startups de impacto ante un jurado de expertos en emprendimiento e innovación. Solo uno será elegido para representar a la UTP en la siguiente etapa de la competencia 🚀\n📅 Jueves 26 de noviembre\r\n🕘 9:00 – 11:00 a. m. (hora de Perú)\r\n📍 Hub de Innovación Miraflores – Av. Larco 700, Miraflores\n¿Qué encontrarás?\r\n🎤 Pitches de los equipos finalistas\r\n🧑‍⚖️ Evaluación en vivo por parte del jurado\r\n🏅 Premiación del equipo ganador\n📲 Únete al grupo de WhatsApp del evento para recibir toda la información:\n👉 https://chat.whatsapp.com/DN40sMgXFGPKUtfsmgQhOI\nTe recomendamos llegar 15 minutos antes ",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/hr/6177e157-07ea-4be5-a508-9e2b807c8d59.png",
-   "inscripcion": "https://lu.ma/94bpnycu",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Competencias y hackathons"
-   ],
-   "valor": 30,
-   "afinidad": 10,
-   "puntaje": 40,
-   "por_que": "Competencia · Presencial en Lima · Gratis · Afín: Competencias",
-   "visto_desde": "2026-11-24T14:54-05:00"
-  },
-  {
    "id": "eb:2003742708380",
    "titulo": "CONFERENCIA DE PRENSA- Encuesta de expectativas empresariales - IPADE",
    "inicio": "2026-11-26T09:30-05:00",
@@ -395,145 +313,6 @@
    "puntaje": 35,
    "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
    "visto_desde": "2026-11-23T06:40-05:00"
-  },
-  {
-   "id": "pucp:primer-intercambio-de-experiencias-sobre-vinculacion-e-impacto-social-de-la-investigacion-2026-06112026130501",
-   "titulo": "Primer Intercambio de Experiencias sobre Vinculación e Impacto Social de la Investigación 2026",
-   "inicio": "2026-11-26T10:00-05:00",
-   "fin": "2026-11-26T12:00-05:00",
-   "lugar": "Aula Polivalente B100, Complejo de Innovación Académica",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/primer-intercambio-de-experiencias-sobre-vinculacion-e-impacto-social-de-la-investigacion-2026-06112026130501/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Te invitamos al Primer Intercambio de Experiencias sobre Vinculación e Impacto Social de la Investigación 2026, un espacio para conocer y compartir iniciativas que conectan la investigación universitaria con las necesidades y desafíos de la sociedad.\nDurante el encuentro, 15 equipos de investigación de la PUCP serán reconocidos y seis de ellos compartirán sus experiencias de vinculación con comunidades, entidades del Estado, empresas y organizaciones sociales.\nDescubre proyectos que generan aportes en ámbitos como la arqueología, las telecomunicaciones rurales, el bienestar infantil, la medicina, el emprendimiento y la identidad.\n¡Acompáñanos y descubre cómo el conocimiento puede generar cam",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Impacto_Social_Agenda_9a716f8c91.jpg",
-   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSfboCHOwlesPNcOebCM6_ltjjbFSvTVFXKqAtn8Qgo94iBv8g/viewform",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 34,
-   "afinidad": 28,
-   "puntaje": 62,
-   "por_que": "Abre puertas (beca/programa) · Afín: Investigación · Afín: Becas y posgrado · Presencial en Lima",
-   "visto_desde": "2026-11-06T19:38-05:00"
-  },
-  {
-   "id": "eb:2004615065624",
-   "titulo": "Trabajar en red desde los vínculos: experimentando el liderazgo relacional",
-   "inicio": "2026-11-26T11:00-05:00",
-   "fin": "2026-11-26T12:30-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com/e/trabajar-en-red-desde-los-vinculos-experimentando-el-liderazgo-relacional-tickets-2004615065624",
-   "inscripcion": "https://www.eventbrite.com/e/trabajar-en-red-desde-los-vinculos-experimentando-el-liderazgo-relacional-tickets-2004615065624",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Circle Generation",
-   "descripcion": "Taller gratuito y experiencial de 90 minutos para explorar y practicar temas de liderazgo relacional y redes colaborativas.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197815402%2F2033445612073%2F1%2Foriginal.20261112-020211?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a95f321662834500d58544b7849e1f88",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Tecnología e IA"
-   ],
-   "valor": 23,
-   "afinidad": 8,
-   "puntaje": 31,
-   "por_que": "Formativo · Afín: Liderazgo y oratoria · Gratis · Virtual",
-   "visto_desde": "2026-11-13T08:49-05:00"
-  },
-  {
-   "id": "pucp:primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447",
-   "titulo": "Primer Encuentro del Derecho Laboral y la Fotografía Documental",
-   "inicio": "2026-11-26T12:30-05:00",
-   "fin": "2026-11-26T14:30-05:00",
-   "lugar": "Campus PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Los días 22 y 23 de octubre de 2026, la Sala de Audiencias de la Facultad de Derecho de la PUCP será sede del Primer Encuentro del Derecho del Trabajo y la Fotografía Documental, organizada por la Comisión de Arte y Derecho y Angela Escobar Huanca, egresada de la Facultad de Derecho de la PUCP. La propuesta busca acercar los temas sensibles del derecho desde la puerta de la fotografía documental, para trasladar los problemas jurídicos y conectar con ellos desde la fuerza de la imagen.\nLas ponencias. Durante dos jornadas, especialistas de la academia, la judicatura, el sector público y privado y la Organización Internacional de Trabajo interpretarán el trabajo a través de fotografías document",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/portada_evento_e552a0c4f9.jpg",
-   "inscripcion": "https://docs.google.com/forms/d/e/1FAIpQLSdIFpww1ej0KZcRaBQkaXk1qg5mfnx-bsKbHMzvunfuTrAuHQ/viewform",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 33,
-   "afinidad": 6,
-   "puntaje": 39,
-   "por_que": "Competencia · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-10-21T14:07-05:00"
-  },
-  {
-   "id": "pucp:plataformas-digitales-en-iberoamerica-gobernanza-poder-y-mercado-17112026152417",
-   "titulo": "Plataformas digitales en Iberoamérica: gobernanza, poder y mercado",
-   "inicio": "2026-11-26T12:30-05:00",
-   "fin": "2026-11-26T14:00-05:00",
-   "lugar": "Plataforma Zoom",
-   "distrito": "San Miguel",
-   "modalidad": "Virtual",
-   "url": "https://agenda.pucp.edu.pe/evento/plataformas-digitales-en-iberoamerica-gobernanza-poder-y-mercado-17112026152417/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Un espacio de diálogo y reflexión sobre las plataformas digitales en Iberoamérica, sus modelos de gobernanza, las relaciones de poder y las dinámicas del mercado.\nJueves 26 de noviembre de 2026\n12:30 p. m. Perú | 2:30 p. m. Brasil | 6:30 p. m. España\nModalidad: Virtual | Zoom\nParticipan:\nDaniela Monje, presidenta de la Asociación Latinoamericana de Investigadores de la Comunicación (ALAIC).\nMaría Trinidad García Leiva, catedrática de la Universidad Carlos III de Madrid (UC3M), España.\nCésar Bolaño, profesor de la Universidad Federal de Sergipe (UFS), Brasil.\nModera: Ana Bizberge (PUCP)\nInscríbete en el formulario: https://forms.gle/hom4WHgp2bM6zxoh9\nTe enviaremos el enlace luego de registrar",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Diseno_sin_titulo_7_c63772b5fd.png",
-   "inscripcion": "https://forms.gle/E28NbjGrfKc2EnnFA",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 20,
-   "afinidad": 12,
-   "puntaje": 32,
-   "por_que": "Afín: Becas y posgrado · Universidad · Gratis · Evento sin formato claro",
-   "visto_desde": "2026-11-17T21:43-05:00"
-  },
-  {
-   "id": "eb:2004484180142",
-   "titulo": "Webinar | Los Ingenieros que el país y el mundo necesitan",
-   "inicio": "2026-11-26T13:00-05:00",
-   "fin": "2026-11-26T14:30-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.ar/e/webinar-los-ingenieros-que-el-pais-y-el-mundo-necesitan-tickets-2004484180142",
-   "inscripcion": "https://www.eventbrite.com.ar/e/webinar-los-ingenieros-que-el-pais-y-el-mundo-necesitan-tickets-2004484180142",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Academia Nacional de Ingeniería",
-   "descripcion": "LOS INGENIEROS QUE EL PAIS Y EL MUNDO NECESITAN. Desafíos, reflexiones y propuestas.",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197432999%2F221084714153%2F1%2Foriginal.20261106-151956?crop=focalpoint&fit=crop&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.064&fp-y=0.335&s=e3eddbc4c629a481fd6ff93ab25bbf4a",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 30,
-   "afinidad": 8,
-   "puntaje": 38,
-   "por_que": "Formativo · Afín: Inteligencia artificial · Universidad · Gratis",
-   "visto_desde": "2026-11-12T16:47-05:00"
   },
   {
    "id": "pucp:olas-de-calor-marinas-y-el-fenomeno-el-nino-modelamiento-numerico-e-inteligencia-artificial-12112026034119",
@@ -623,37 +402,6 @@
    "visto_desde": "2026-11-25T20:28-05:00"
   },
   {
-   "id": "ieee:592919",
-   "titulo": "South Lima Rampage II – Underground Edition",
-   "inicio": "2026-11-26T14:30-05:00",
-   "fin": "2026-11-26T18:00-05:00",
-   "lugar": "Universidad Nacional Tecnológica de Lima Sur, Av. Revolución con Av. Bolivar",
-   "distrito": "Villa el Salvador",
-   "modalidad": "Presencial",
-   "url": "https://events.vtools.ieee.org/m/592919",
-   "inscripcion": "https://events.vtools.ieee.org/event/register/592919",
-   "fuente": "IEEE Perú",
-   "fuente_url": "https://events.vtools.ieee.org/",
-   "organizador": "IEEE · Universidad Nacional Tecnologica de Lima Sur, RA24",
-   "descripcion": "¿Estás listo para poner a prueba tu talento, creatividad e ingenio? ⚡\n\r\nLlega SOUTH LIMA RAMPAGE II – UNDERGROUND EDITION, una competencia donde la tecnología, la programación y la pasión por la robótica se enfrentan en una jornada llena de adrenalina y desafíos.\n\r\n🏆 Categorías de competencia:\n🔹 Seguidor de Línea – Amateur\n🔹 Robot Soccer – Amateur y Senior\n🔹 Minisumo RC – Amateur y Senior\n🔹 Otto Race – Amateur y Senior\n\r\n📅 Fecha: 26 de noviembre\n📍 Lugar: Campus UNTELS\n\r\n🚀 ¡Demuestra de qué eres capaz, desafía tus límites y lleva tu robot a la victoria!\n\r\n📲 ¡INSCRÍBETE Y ASEGURA TU PARTICIPACIÓN!\nInscripciones: https://docs.google.com/forms/d/e/1FAIpQLSci7YdYxtPJ9SUOm1U-samypF2ucSoVLf86Sj0ht8",
-   "gratis": false,
-   "imagen": "",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 30,
-   "afinidad": 6,
-   "puntaje": 36,
-   "por_que": "Competencia · Presencial en Lima · Universidad · Afín: Competencias",
-   "original": {
-    "titulo": "SOUTH LIMA RAMPAGE II – UNDERGROUND EDITION"
-   },
-   "visto_desde": "2026-11-10T16:11-05:00"
-  },
-  {
    "id": "pucp:mas-alla-del-pbi-nuevas-narrativas-y-metricas-para-el-desarrollo-humano-en-america-latina-17112026191854",
    "titulo": "Más allá del PBI: Nuevas narrativas y métricas para el desarrollo humano en América Latina",
    "inicio": "2026-11-26T15:00-05:00",
@@ -679,34 +427,6 @@
    "puntaje": 25,
    "por_que": "Presencial en Lima · Universidad · Gratis · Evento sin formato claro",
    "visto_desde": "2026-11-18T14:53-05:00"
-  },
-  {
-   "id": "ieee:596766",
-   "titulo": "Taller de Diseño 3D Orientado a Proyectos de Ingeniería – XV Semana Electrónica",
-   "inicio": "2026-11-26T15:00-05:00",
-   "fin": "2026-11-26T17:00-05:00",
-   "lugar": "CAMPUS DE INGENIERIA ELECTRONICA - UNSAAC",
-   "distrito": "CUSCO",
-   "modalidad": "Presencial",
-   "url": "https://events.vtools.ieee.org/m/596766",
-   "inscripcion": "https://events.vtools.ieee.org/m/596766",
-   "fuente": "IEEE Perú",
-   "fuente_url": "https://events.vtools.ieee.org/",
-   "organizador": "IEEE · Univ Nacional San Antonio Abad del Cusco,ED15",
-   "descripcion": "Taller práctico presencial desarrollado el 26 de noviembre de 2026 en la Facultad de Ingeniería Electrónica de la UNSAAC, en Cusco, dentro del Congreso Internacional XV Semana Electrónica. A cargo de Héctor Lionel García Hurtado, la sesión capacitó a quince participantes en modelado tridimensional orientado a proyectos reales de ingeniería mediante Autodesk Fusion 360. Bajo una metodología práctica, los asistentes trabajaron el flujo desde la conceptualización hasta el prototipo físico, fortaleciendo competencias de diseño mecánico e integración de hardware.",
-   "gratis": true,
-   "imagen": "",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Ingeniería y operaciones",
-    "Investigación y ciencia"
-   ],
-   "valor": 27,
-   "afinidad": 8,
-   "puntaje": 35,
-   "por_que": "Formativo · Afín: Investigación · Gremio o institución · Gratis",
-   "visto_desde": "2026-11-23T18:15-05:00"
   },
   {
    "id": "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26",
@@ -769,6 +489,36 @@
    "puntaje": 24,
    "por_que": "Networking · Presencial en Lima · Gratis",
    "visto_desde": "2026-11-02T23:59-05:00"
+  },
+  {
+   "id": "eb:2005508938221",
+   "titulo": "Cana-day en Lima",
+   "inicio": "2026-11-26T17:00-05:00",
+   "fin": "2026-11-26T20:00-05:00",
+   "lugar": "Sol de Oro Hotel & Suites, 305 Calle San Martín",
+   "distrito": "Miraflores",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.co/e/cana-day-en-lima-tickets-2005508938221",
+   "fuente": "Eventbrite",
+   "organizador": "VyV",
+   "descripcion": "Una feria gratuita para conocer las mejores opciones educativas en CANADÁ ✈️",
+   "gratis": true,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198749665%2F242127667892%2F1%2Foriginal.20261126-162733?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9be1e56656ec741ed1d94347ef0ae154",
+   "inscripcion": "https://www.eventbrite.co/e/cana-day-en-lima-tickets-2005508938221",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis",
+   "original": {
+    "titulo": "CANA-DAY EN LIMA"
+   },
+   "visto_desde": "2026-11-26T15:51-05:00"
   },
   {
    "id": "pucp:cuando-una-investigacion-juridica-debe-ser-evaluada-por-un-comite-de-etica-de-la-investigacion-13112026151628",
@@ -1689,32 +1439,31 @@
    "visto_desde": "2026-11-19T14:53-05:00"
   },
   {
-   "id": "luma:evt-BRHZHVuBBggmfWa",
-   "titulo": "Notion tu ecosistema de IA",
+   "id": "meetup:317592183",
+   "titulo": "Saturday - Let's practice English (Rustica - First Floor Terrace)",
    "inicio": "2026-11-28T18:00-05:00",
    "fin": "2026-11-28T20:00-05:00",
-   "lugar": "San Isidro, Perú",
-   "distrito": "San Isidro",
+   "lugar": "",
+   "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://lu.ma/notionper-te0c",
-   "fuente": "Luma",
-   "organizador": "Notion Perú",
-   "descripcion": "La inteligencia artificial avanza a toda velocidad. Lo que no cambia es esto: tu negocio necesita un lugar donde viva la información, se tomen las decisiones y se coordinen las personas y los agentes.\nEn esta sesión vas a ver cómo Notion se convierte en ese centro de gravedad. Cuando tus bases están bien armadas, modelos como Claude, GPT y Grok Bot dejan de ser chats sueltos y pasan a trabajar sobre tu operación real.\n🔍 Qué vas a descubrir\n🧱 Cómo diseñar las bases de tus sistemas para que ventas, contabilidad y operaciones hablen el mismo idioma\n\n💬 Cómo conectar WhatsApp a un CRM en Notion y tener cada conversación donde corresponde\n\n🧾 Cómo usar habilidades de IA en Notion para que las factu",
+   "url": "https://www.meetup.com/practice-english-saturday/events/317592183/",
+   "fuente": "Meetup",
+   "organizador": "Let’s Practice English (Saturdays)",
+   "descripcion": "Join us this Saturday to practice English at Rustica in Miraflores (Next to Kennedy Park)!\nPlease note: There are two Rustica locations on Calle de las Pizzas. We'll be at the one on Pasaje Figari.\n\nWe'll be meeting to practice English/Spanish, talk, meet new people, and share cultures. Intermediate and advanced English levels are welcome — Spanish is not a must if you can speak English! Free admission, but you must order at least a soft drink since we're meeting at a café. 😎😊\n\nAnd don't rush home after the meetup! Afterward, a group of us usually goes for a casual, inexpensive dinner somewhere nearby. It's a great chance to keep chatting, get to know everyone better, and continue the evenin",
    "gratis": true,
-   "imagen": "https://images.lumacdn.com/api-uploads/cs/46325678-1a51-4bfd-b84b-4fbdfe44ab04.png",
-   "inscripcion": "https://lu.ma/notionper-te0c",
-   "fuente_url": "https://lu.ma/lima",
+   "imagen": "",
+   "inscripcion": "https://www.meetup.com/practice-english-saturday/events/317592183/",
+   "fuente_url": "https://www.meetup.com/practice-english-saturday/events/ical/",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
+    "Idiomas, becas e internacional"
    ],
-   "valor": 23,
-   "afinidad": 12,
-   "puntaje": 35,
-   "por_que": "Afín: Inteligencia artificial · Presencial en Lima · Gratis · Empresa reconocida",
-   "visto_desde": "2026-11-13T16:10-05:00"
+   "valor": 24,
+   "afinidad": 0,
+   "puntaje": 24,
+   "por_que": "Networking · Presencial en Lima · Gratis",
+   "visto_desde": "2026-11-26T15:51-05:00"
   },
   {
    "id": "devpost:31826",
@@ -2207,7 +1956,7 @@
    "organizador": "AMERIC AC",
    "descripcion": "Sesión técnica online con el Ing. Enrique Maldonado sobre principios, aplicaciones y diseño de vigas frías en hospitales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&w=340&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=1f321aa7390d19473d7c5984b37e4a5c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=c407ce90d27e238f2564d7589d0df29a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2401,7 +2150,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2608,37 +2357,6 @@
    "puntaje": 39,
    "por_que": "Networking · Presencial en Lima · Afín: Becas y posgrado · Universidad",
    "visto_desde": "2026-11-06T13:51-05:00"
-  },
-  {
-   "id": "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04",
-   "titulo": "EdTech Hub",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-12-04T00:00-05:00",
-   "fin": "2026-12-04T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://amcham.org.pe/evento/curso-1-introduccion-a-la-ia-moderna/",
-   "inscripcion": "https://amcham.org.pe/evento/curso-1-introduccion-a-la-ia-moderna/",
-   "fuente": "Institucional",
-   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
-   "organizador": "Cámara de Comercio Americana del Perú",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/10/2390_ws.jpg",
-   "extraido_por": "sitemap + fecha en texto",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-11-11T08:26-05:00"
   },
   {
    "id": "luma:evt-ymyX3k2zUlqYCqU",
@@ -3132,7 +2850,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Seguimos investigando y desmontando mitos en módulos fotovoltaicos, inversores, conectores, baterías...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&w=340&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=32c35565fc8f04dc8870cb4d24aceabd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e94d68edf0e8e80f19705b83ce8b46fe",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3447,37 +3165,6 @@
    "puntaje": 29,
    "por_que": "Formativo · Afín: Investigación · Plazo claro · Se postula en línea",
    "visto_desde": "2026-11-25T20:28-05:00"
-  },
-  {
-   "id": "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11",
-   "titulo": "EdTech Hub",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-12-11T00:00-05:00",
-   "fin": "2026-12-11T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://amcham.org.pe/evento/curso-2-aspectos-basicos-de-la-inteligencia-artificial/",
-   "inscripcion": "https://amcham.org.pe/evento/curso-2-aspectos-basicos-de-la-inteligencia-artificial/",
-   "fuente": "Institucional",
-   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
-   "organizador": "Cámara de Comercio Americana del Perú",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/10/2390_ws.jpg",
-   "extraido_por": "sitemap + fecha en texto",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-11-11T08:26-05:00"
   },
   {
    "id": "luma:evt-jfsSWBTWWcWlJEa",
@@ -4538,6 +4225,35 @@
    "visto_desde": "2026-09-26T08:43-05:00"
   },
   {
+   "id": "opportunitydesk:desk-org-2026-11-26-google-for-startups-accelerator-sovereign-ai-2027-",
+   "titulo": "Google for Startups Accelerator: Sovereign AI 2027",
+   "tipo": "convocatoria",
+   "inicio": "2027-01-15T23:59-05:00",
+   "fin": "2027-01-15T23:59-05:00",
+   "cierre": "2027-01-15T23:59-05:00",
+   "publicado": "2026-11-26T08:54-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/26/google-for-startups-accelerator-sovereign-ai-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/26/google-for-startups-accelerator-sovereign-ai-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: January 15, 2027 Applications are open for the Google for Startups Accelerator: Sovereign AI 2027. Available in Europe and Israel, this initiative supports startups that are building cutting-edge AI solutions for European regulatory environments. This equity-free, 15-week hybrid program includes virtual and in-person sessions connecting founders with Google engineers, regulatory experts, and local partners. [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Negocios y emprendimiento",
+    "Tecnología e IA"
+   ],
+   "valor": 25,
+   "afinidad": 16,
+   "puntaje": 41,
+   "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Empresa reconocida · Plazo claro",
+   "visto_desde": "2026-11-26T15:51-05:00"
+  },
+  {
    "id": "eb:2005435187631",
    "titulo": "AI \"Agents\". — Power Walk",
    "inicio": "2027-01-17T16:00-05:00",
@@ -4649,7 +4365,7 @@
   },
   {
    "id": "devpost:31886",
-   "titulo": "Build with AI - Pico Space Program",
+   "titulo": "Build with AI - PICO Space Program",
    "tipo": "hackathon",
    "inicio": "2026-11-18T00:00-05:00",
    "fin": "2027-02-01T23:59-05:00",
@@ -7195,31 +6911,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "pucp:feria-convivencia-sin-violencia",
-   "titulo": "Feria Convivencia Sin Violencia",
-   "inicio": "2026-11-26T12:00-05:00",
-   "fin": "2026-11-26T15:00-05:00",
-   "lugar": "Coliseo Polideportivo #ParadaSaludable",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/feria-convivencia-sin-violencia/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Participa en esta feria que reúne iniciativas estudiantiles, organizaciones de la sociedad civil y propuestas reflexivas para promover relaciones libres de violencia de género. A través de intervenciones creativas, espacios de diálogo y experiencias colectivas, podrás reconocer prácticas cotidianas ",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/cer_cont_a1d2507b27.jpg",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/feria-convivencia-sin-violencia/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 34,
-   "afinidad": 0,
-   "puntaje": 34,
-   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad · Gratis"
-  },
-  {
    "id": "eb:1984736925572",
    "titulo": "The Comeunity Project: Lima | Coffee with Strangers",
    "inicio": "2026-11-26T13:00-05:00",
@@ -7779,34 +7470,6 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:32179",
-   "titulo": "Free AWS Courses & Certifications for Students – NASSCOM Initiative",
-   "tipo": "hackathon",
-   "inicio": "2026-11-19T00:00-05:00",
-   "fin": "2026-11-26T23:59-05:00",
-   "cierre": "2026-11-26T23:59-05:00",
-   "lugar": "REMOTE",
-   "distrito": "REMOTE",
-   "modalidad": "Presencial",
-   "url": "https://free-aws-courses.devpost.com/",
-   "inscripcion": "https://free-aws-courses.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "shekunj",
-   "descripcion": "Hackathon presencial en REMOTE. Temas: Education, Productivity, Web. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/966/855/datas/medium_square.png",
-   "motivo": "presencial fuera del Perú",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 21,
-   "afinidad": 6,
-   "puntaje": 27,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Empresa reconocida · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:31956",
    "titulo": "Build Day 2",
    "tipo": "hackathon",
@@ -8071,34 +7734,6 @@
    "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea"
   },
   {
-   "id": "opportunitydesk:https-opportunitydesk-org-2026-11-25-qynari-story-competition-2027-",
-   "titulo": "Qynari Story Competition 2027 ($12,500 in prizes)",
-   "tipo": "convocatoria",
-   "inicio": "2027-02-01T23:59-05:00",
-   "fin": "2027-02-01T23:59-05:00",
-   "cierre": "2027-02-01T23:59-05:00",
-   "publicado": "2026-11-25T11:46-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/25/qynari-story-competition-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/25/qynari-story-competition-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: February 1, 2027 Applications are open for the Qynari Story Competition 2027. Most stories only go one way. You press play, it runs, it ends, you scroll on. A Qynari story stops and asks the viewer what happens next. They pick a path, or type whatever they like, and the story goes where th",
-   "gratis": false,
-   "imagen": "",
-   "motivo": "sin afinidad",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Abre puertas (beca/programa) · Con premio · Plazo claro · Se postula en línea"
-  },
-  {
    "id": "wikicfp:194196",
    "titulo": "IJMVSC 2026 : The International Journal of Managing Value and Supply Chains",
    "tipo": "call for papers",
@@ -8209,6 +7844,33 @@
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:32207",
+   "titulo": "Bath Game Jam 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-23T00:00-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://jam26.devpost.com/",
+   "inscripcion": "https://jam26.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Bath Computer Science Society",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Design, Gaming. Premios: £0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/978/534/datas/medium_square.png",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "insc:8eca04457016",
    "titulo": "Concurso «Modelo Educativo de la Científica»",
    "tipo": "evento",
@@ -8289,62 +7951,6 @@
    "afinidad": 12,
    "puntaje": 41,
    "por_que": "Formativo · Afín: Investigación · Presencial en Lima · Universidad"
-  },
-  {
-   "id": "ieee:596771",
-   "titulo": "Taller de Microelectrónica FPGA: Diseña Hardware Real desde Cero – XV Semana Electrónica",
-   "inicio": "2026-11-25T13:00-05:00",
-   "fin": "2026-11-25T14:00-05:00",
-   "lugar": "CAMPUS DE INGENIERIA ELECTRONICA - UNSAAC",
-   "distrito": "CUSCO",
-   "modalidad": "Presencial",
-   "url": "https://events.vtools.ieee.org/m/596771",
-   "inscripcion": "https://events.vtools.ieee.org/event/register/596771",
-   "fuente": "IEEE Perú",
-   "fuente_url": "https://events.vtools.ieee.org/",
-   "organizador": "IEEE · Univ Nacional San Antonio Abad del Cusco,ED15",
-   "descripcion": "Taller teórico-práctico presencial realizado el 26 de noviembre de 2026 en la Facultad de Ingeniería Electrónica de la UNSAAC, en Cusco, como parte del Congreso Internacional XV Semana Electrónica. Dictado por Roly Sandro Gutierrez Benito, el taller introdujo a quince participantes en el diseño de h",
-   "gratis": true,
-   "imagen": "",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "ya pasó",
-   "categorias": [
-    "Tecnología e IA",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 27,
-   "afinidad": 8,
-   "puntaje": 35,
-   "por_que": "Formativo · Afín: Investigación · Gremio o institución · Gratis"
-  },
-  {
-   "id": "ieee:593524",
-   "titulo": "Visita técnica: TEST & CONTROL ✨",
-   "inicio": "2026-11-25T14:30-05:00",
-   "fin": "2026-11-25T17:30-05:00",
-   "lugar": "Av. Simón Bolívar 1619, Pueblo Libre, Lima.",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://events.vtools.ieee.org/m/593524",
-   "inscripcion": "https://luma.com/htj4hg4a",
-   "fuente": "IEEE Perú",
-   "fuente_url": "https://events.vtools.ieee.org/",
-   "organizador": "IEEE · Universidad Tecnologica del Peru",
-   "descripcion": "🔬 ¡Una visita técnica para acercarnos al mundo de la metrología!\n\nIEEE UTP te invita a visitar Test & Control, laboratorio de calibración acreditado por INACAL, con más de 17 años de experiencia y 43 procedimientos de calibración acreditados.\n\nDurante esta visita podremos acercarnos a los procesos d",
-   "gratis": true,
-   "imagen": "",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "ya pasó",
-   "categorias": [
-    "Tecnología e IA",
-    "Investigación y ciencia"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis"
   },
   {
    "id": "pucp:olas-de-calor-marinas-el-fenomeno-el-nino-el-modelamiento-numerico-y-la-inteligencia-artificial-24112026195043",
@@ -8579,11 +8185,11 @@
   "luma:evt-FvLvhaqmG2oHMsT",
   "pucp:olas-de-calor-marinas-y-el-fenomeno-el-nino-modelamiento-numerico-e-inteligencia-artificial-12112026034119",
   "luma:evt-lQxK9Jqu5IPxkmP",
-  "pucp:primer-intercambio-de-experiencias-sobre-vinculacion-e-impacto-social-de-la-investigacion-2026-06112026130501",
   "devpost:31775",
   "ieee:595272",
   "devpost:31480",
-  "devpost:31642"
+  "devpost:31642",
+  "pucp:innovacion-circular-en-accion-empresas-y-universidades-transforman-desafios-en-oportunidades-24112026191346"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
@@ -8591,13 +8197,13 @@
   "ESAN — eventos": 0,
   "PMI Lima": 0,
   "Sociedad Nacional de Industrias": 2,
-  "AmCham Perú": 2,
+  "AmCham Perú": 0,
   "ComexPerú": 0
  },
  "se_viene": [],
  "calidad": {
-  "fecha": "2026-11-26T06:49-05:00",
-  "revisados": 189,
+  "fecha": "2026-11-26T15:51-05:00",
+  "revisados": 179,
   "corregidos": 11,
   "avisos": 1,
   "archivados": 2,
@@ -8611,20 +8217,20 @@
     "url": "https://lu.ma/yj5tp4fe"
    },
    {
-    "id": "ieee:592919",
-    "titulo": "South Lima Rampage II – Underground Edition",
-    "fuente": "IEEE Perú",
-    "nivel": "corregido",
-    "detalle": "título en MAYÚSCULAS → formato legible",
-    "url": "https://events.vtools.ieee.org/m/592919"
-   },
-   {
     "id": "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26",
     "titulo": "Webinar: Novedades para el 2027 en materia de responsabilidad de los directores",
     "fuente": "Institucional",
     "nivel": "corregido",
     "detalle": "hora de término de relleno (23:50)",
     "url": "https://sni.org.pe/eventos/"
+   },
+   {
+    "id": "eb:2005508938221",
+    "titulo": "Cana-day en Lima",
+    "fuente": "Eventbrite",
+    "nivel": "corregido",
+    "detalle": "título en MAYÚSCULAS → formato legible",
+    "url": "https://www.eventbrite.co/e/cana-day-en-lima-tickets-2005508938221"
    },
    {
     "id": "inst:sni-caf-industrial:2026-11-27",
@@ -8716,13 +8322,26 @@
    }
   ],
   "enlaces": {
-   "comprobados": 13,
+   "comprobados": 12,
    "rotos": 0,
    "sin_comprobar": 0
   },
-  "fuentes_a_revisar": []
+  "fuentes_a_revisar": [
+   {
+    "fuente": "Institucional",
+    "detalle": "los problemas subieron de 40% a 67%"
+   }
+  ]
  },
  "por_confirmar": [
+  {
+   "titulo": "Nuestros deportistas participaron con éxito del I Foro de Atletas “Rumbo a Lima 2027”",
+   "url": "https://libero.pe/deportes/2026/11/26/nuestros-deportistas-participaron-exito-del-i-foro-de-atletas-rumbo-lima-2027-493454",
+   "medio": "Diario Líbero",
+   "publicado": "Thu, 26 Nov 2026 01:17:00 GMT",
+   "resumen": "Deportistas de diversas disciplinas participaron en el I Foro de Atletas “Rumbo a Lima 2027”, desarrollado en la sala de reuniones Bowling de la Videna, organizado por el Comité Olímpico Peruano (COP) ...",
+   "fecha_mencionada": ""
+  },
   {
    "titulo": "Foro de CGTN Español en Lima aborda agenda APEC 2026 y plantea oportunidades para Perú y la región sudamericana",
    "url": "https://espanol.cgtn.com/2026/11/21/ARTI1795228855201452",
@@ -8732,27 +8351,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Comité Olímpico Peruano realizó con éxito el I Foro de Atletas “Rumbo a Lima 2027” en la Videna",
-   "url": "https://www.expreso.com.pe/deportes/comite-olimpico-peruano-realizo-con-exito-el-i-foro-de-atletas-rumbo-a-lima-2027-en-la-videna-noticia/1334898/",
-   "medio": "Diario Expreso",
-   "publicado": "Tue, 24 Nov 2026 07:02:00 GMT",
-   "resumen": "El Comité Olímpico Peruano organizó el I Foro de Atletas “Rumbo a Lima 2027” en la Videna para fortalecer la preparación y voz dirigencial de los deportistas nacionales.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Google Cloud Summit Perú 2026: ¿cuáles fueron los puntos clave?",
-   "url": "https://www.mercadonegro.pe/marketing/google-cloud-summit-puntos-claves/",
-   "medio": "Mercado Negro",
-   "publicado": "Fri, 20 Nov 2026 10:03:00 GMT",
-   "resumen": "En el encuentro celebrado el 19 de noviembre, presentó novedades tecnológicas en torno a la IA y su adopción y ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Google Cloud Summit Perú 2026: Cómo funcionan los agentes de IA para potenciar a las mypes y empresas",
-   "url": "https://enlinea.pe/2026/11/20/google-cloud-summit-peru-2026-como-funcionan-los-agentes-de-ia-para-potenciar-a-las-mypes-y-empresas/",
-   "medio": "En Línea",
-   "publicado": "Thu, 19 Nov 2026 21:27:00 GMT",
-   "resumen": "Un agente de inteligencia artificial puede recibir una tarea que exige varios pasos, consultar una base de datos, elegir una herramienta y ejecutar código ...",
+   "titulo": "COP realizó foro para fortalecer participación de los deportistas rumbo a Lima 2027",
+   "url": "https://ovacion.pe/noticias/mas-deporte/cop-realizo-foro-fortalecer-participacion-deportistas-rumbo-lima-2027",
+   "medio": "Ovación Corporación Deportiva",
+   "publicado": "Tue, 24 Nov 2026 07:00:00 GMT",
+   "resumen": "Con la participación de deportistas de distintas disciplinas, el Comité Olímpico Peruano (COP) desarrolló el I Foro de Atletas 'Rumbo a Lima 2027', un espacio de encuentro e intercambio que tuvo como ...",
    "fecha_mencionada": ""
   },
   {
@@ -8772,11 +8375,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Rodrigo Sainz: Blockchain Summit Latam volverá en 2027 con nuevo enfoque y cambios muy interesantes",
-   "url": "https://www.diariobitcoin.com/eventos/rodrigo-sainz-blockchain-summit-latam-volvera-en-2027-con-nuevo-enfoque-y-cambios-muy-interesantes/",
-   "medio": "DiarioBitcoin",
-   "publicado": "Wed, 18 Nov 2026 08:47:00 GMT",
-   "resumen": "Tras el cierre del tour 2026 en Bogotá, DiarioBitcoin conversó nuevamente con Rodrigo Sainz, fundador y CEO del Blockchain Summit Latam, quien compartió su balance del paso del evento por Perú, Chile ...",
+   "titulo": "Adoptatón 2026 en Lima: más de 150 perros y gatos buscan familia en gran feria de adopción",
+   "url": "https://larepublica.pe/sociedad/2026/11/24/adoptaton-2026-en-lima-mas-de-150-perros-y-gatos-buscan-familia-en-gran-feria-de-adopcion-1426824",
+   "medio": "La República",
+   "publicado": "Tue, 24 Nov 2026 13:10:00 GMT",
+   "resumen": "La Adoptatón 2026 se realizará este domingo 29 de noviembre en el Parque de la Exposición. El ingreso será gratuito y habrá servicios veterinarios, actividades y artistas invitados.",
+   "fecha_mencionada": "2026-11-29T00:00-05:00"
+  },
+  {
+   "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
+   "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
+   "medio": "Infobae",
+   "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
+   "resumen": "La Municipalidad de Lima organizará la Feria Metropolitana del Libro Lima Lee 2026 del viernes 16 al domingo 25 de octubre en el Museo Metropolitano de Lima, ubicado en la avenida 28 de Julio 700, en ...",
    "fecha_mencionada": ""
   },
   {
@@ -8796,27 +8407,11 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Adoptatón 2026 en Lima: más de 150 perros y gatos buscan familia en gran feria de adopción",
-   "url": "https://larepublica.pe/sociedad/2026/11/24/adoptaton-2026-en-lima-mas-de-150-perros-y-gatos-buscan-familia-en-gran-feria-de-adopcion-1426824",
-   "medio": "La República",
-   "publicado": "Tue, 24 Nov 2026 13:10:00 GMT",
-   "resumen": "La Adoptatón 2026 se realizará este domingo 29 de noviembre en el Parque de la Exposición. El ingreso será gratuito y habrá servicios veterinarios, actividades y artistas invitados.",
-   "fecha_mencionada": "2026-11-29T00:00-05:00"
-  },
-  {
-   "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
-   "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
-   "medio": "Infobae",
-   "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
-   "resumen": "La Municipalidad de Lima organizará la Feria Metropolitana del Libro Lima Lee 2026 del viernes 16 al domingo 25 de octubre en el Museo Metropolitano de Lima, ubicado en la avenida 28 de Julio 700, en ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "(Multimedia) Artesanos resaltan técnicas ancestrales e identidad peruana durante feria en Lima",
-   "url": "https://spanish.news.cn/20261124/512f965cde414948837672f50a185d07/c.html",
-   "medio": "Xinhua Español",
-   "publicado": "Mon, 23 Nov 2026 22:35:00 GMT",
-   "resumen": "Personas visitan la feria de artesanías \"De Nuestras Manos 2026\", en el Parque Alfredo Salazar, en el distrito de Miraflores, en Lima, Perú, el 23 de noviembre de 2026. (Xinhua/Mariana Bazo) LIMA, 23 ...",
+   "titulo": "La feria Sitdrone se transforma en DACS Perú 2026 con foco en drones, ciberseguridad y tecnología espacial",
+   "url": "https://www.infodefensa.com/texto-diario/mostrar/6095843/sitdrone-transforma-dacs-peru-2026-drones-ciberseguridad-tecnologia-espacial",
+   "medio": "Infodefensa",
+   "publicado": "Wed, 18 Nov 2026 03:01:00 GMT",
+   "resumen": "La edición de este año tendrá una mayor representación industrial. Participación industrial y sistemas de defensaEstados Unidos estará representado por 22 empresas, entre ellas L3 Harri ...",
    "fecha_mencionada": ""
   }
  ],
@@ -9048,7 +8643,6 @@
   "wikicfp:203568": "2026-10-05T08:24-05:00",
   "wikicfp:192324": "2026-10-05T16:48-05:00",
   "ieee:581586": "2026-10-06T14:58-05:00",
-  "eb:2001057110685": "2026-10-11T12:31-05:00",
   "luma:evt-jfsSWBTWWcWlJEa": "2026-10-12T09:14-05:00",
   "tedx:70615": "2026-10-13T08:24-05:00",
   "tedx:70296": "2026-10-13T08:24-05:00",
@@ -9065,7 +8659,6 @@
   "devpost:30789": "2026-10-20T11:15-05:00",
   "devpost:31797": "2026-10-20T16:10-05:00",
   "luma:evt-CFnnzJpzLLYgAPo": "2026-10-21T09:20-05:00",
-  "pucp:primer-encuentro-del-derecho-laboral-y-la-fotografia-documental-18102026193447": "2026-10-21T14:07-05:00",
   "eb:2003706120946": "2026-10-21T14:07-05:00",
   "eb:2003742708380": "2026-10-21T18:55-05:00",
   "luma:evt-lQxK9Jqu5IPxkmP": "2026-10-22T18:51-05:00",
@@ -9094,7 +8687,6 @@
   "eb:2004375456948": "2026-11-06T05:20-05:00",
   "eb:2004336867526": "2026-11-06T05:20-05:00",
   "pucp:presentacion-del-libro-public-private-partnerships-in-emerging-economies-06112026113736": "2026-11-06T13:51-05:00",
-  "pucp:primer-intercambio-de-experiencias-sobre-vinculacion-e-impacto-social-de-la-investigacion-2026-06112026130501": "2026-11-06T19:38-05:00",
   "devpost:31972": "2026-11-08T07:41-05:00",
   "devpost:31794": "2026-11-08T14:21-05:00",
   "devpost:32009": "2026-11-08T14:21-05:00",
@@ -9104,21 +8696,15 @@
   "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26": "2026-11-10T00:42-05:00",
   "luma:evt-LYBDdhSpzrtFOhZ": "2026-11-10T00:42-05:00",
   "devpost:31973": "2026-11-10T09:10-05:00",
-  "ieee:592919": "2026-11-10T16:11-05:00",
   "devpost:32079": "2026-11-10T16:11-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04": "2026-11-11T08:26-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11": "2026-11-11T08:26-05:00",
   "devpost:31808": "2026-11-11T16:43-05:00",
   "devpost:31644": "2026-11-11T16:43-05:00",
   "devpost:32024": "2026-11-12T00:28-05:00",
   "devpost:32026": "2026-11-12T00:28-05:00",
   "luma:evt-S1WUd1vCAsQaF4V": "2026-11-12T09:31-05:00",
-  "eb:2004484180142": "2026-11-12T16:47-05:00",
   "pucp:olas-de-calor-marinas-y-el-fenomeno-el-nino-modelamiento-numerico-e-inteligencia-artificial-12112026034119": "2026-11-12T16:47-05:00",
   "luma:evt-QiBDlQKMKpC4aYs": "2026-11-12T23:46-05:00",
   "luma:evt-vzmJVstMP5JW7wq": "2026-11-12T23:46-05:00",
-  "eb:2004615065624": "2026-11-13T08:49-05:00",
-  "luma:evt-BRHZHVuBBggmfWa": "2026-11-13T16:10-05:00",
   "pucp:emprende-pucp-2026-13112026121105": "2026-11-13T16:10-05:00",
   "pucp:cuando-una-investigacion-juridica-debe-ser-evaluada-por-un-comite-de-etica-de-la-investigacion-13112026151628": "2026-11-13T23:38-05:00",
   "luma:evt-rlhyhVWB7Fgmlfy": "2026-11-13T23:38-05:00",
@@ -9136,7 +8722,6 @@
   "luma:evt-PwUYuc95F7HlzyZ": "2026-11-17T01:09-05:00",
   "eb:2003527459565": "2026-11-17T01:09-05:00",
   "pucp:talleres-de-cultura-china-trimestre-2026-4-17112026115557": "2026-11-17T21:43-05:00",
-  "pucp:plataformas-digitales-en-iberoamerica-gobernanza-poder-y-mercado-17112026152417": "2026-11-17T21:43-05:00",
   "eb:2004945746700": "2026-11-17T21:43-05:00",
   "luma:evt-srup5hIMEBHs4f7": "2026-11-17T21:43-05:00",
   "devpost:31571": "2026-11-17T21:43-05:00",
@@ -9160,7 +8745,6 @@
   "ieee:595577": "2026-11-20T14:32-05:00",
   "luma:evt-kUuxDz4Ju4YbeH4": "2026-11-20T20:57-05:00",
   "devpost:31826": "2026-11-21T05:35-05:00",
-  "ieee:596016": "2026-11-21T13:37-05:00",
   "ieee:595976": "2026-11-21T13:37-05:00",
   "eb:2004554962855": "2026-11-21T19:53-05:00",
   "eb:2004692187297": "2026-11-21T19:53-05:00",
@@ -9181,7 +8765,6 @@
   "devpost:32215": "2026-11-23T06:40-05:00",
   "eb:2005159198139": "2026-11-23T06:40-05:00",
   "luma:evt-SJDv2zAJxWhfItg": "2026-11-23T06:40-05:00",
-  "ieee:596766": "2026-11-23T18:15-05:00",
   "luma:evt-iTVBAG8NBefxAzw": "2026-11-23T18:15-05:00",
   "ieee:596709": "2026-11-23T18:15-05:00",
   "pucp:filosofia-de-la-religion-y-teologia-de-la-liberacion-un-dialogo-prometedor-20112026125611": "2026-11-23T18:15-05:00",
@@ -9190,7 +8773,6 @@
   "luma:evt-80qeK3qwYWAbhND": "2026-11-23T18:15-05:00",
   "luma:evt-EqHEnycFnd98fqG": "2026-11-23T18:15-05:00",
   "wikicfp:204439": "2026-11-24T03:00-05:00",
-  "luma:evt-V03QEkUgBk5mQIE": "2026-11-24T14:54-05:00",
   "opportunitiesforyouth:unteer-opportunity-for-leaders-in-sport-brands-and-digital-technology-": "2026-11-24T14:54-05:00",
   "luma:evt-9Uz0UxLvI4u1ZQI": "2026-11-24T14:54-05:00",
   "devpost:32141": "2026-11-24T14:54-05:00",
@@ -9210,6 +8792,9 @@
   "opportunitydesk:s-opportunitydesk-org-2026-11-25-iaffe-feminist-economics-school-2027-": "2026-11-25T20:28-05:00",
   "eb:2005435725239": "2026-11-25T20:28-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-11-25-iso-lomso-fellowships-2028-": "2026-11-25T20:28-05:00",
-  "tedx:70415": "2026-11-26T06:49-05:00"
+  "tedx:70415": "2026-11-26T06:49-05:00",
+  "eb:2005508938221": "2026-11-26T15:51-05:00",
+  "meetup:317592183": "2026-11-26T15:51-05:00",
+  "opportunitydesk:desk-org-2026-11-26-google-for-startups-accelerator-sovereign-ai-2027-": "2026-11-26T15:51-05:00"
  }
 }
