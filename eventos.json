@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-25T20:28-05:00",
+ "actualizado": "2026-11-26T06:49-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 57
+   "n": 54
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 17
+   "n": 16
   },
   "Meetup": {
    "ok": true,
@@ -38,16 +38,17 @@
    "n": 10
   },
   "Opportunities for Youth": {
-   "ok": true,
-   "n": 10
+   "ok": false,
+   "n": 0,
+   "error": "robots.txt no permite https://opportunitiesforyouth.org/category/volunteering/feed/"
   },
   "TEDx": {
    "ok": true,
-   "n": 2
+   "n": 3
   },
   "Institucionales": {
    "ok": true,
-   "n": 7
+   "n": 5
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +59,7 @@
    "n": 0
   }
  },
- "revisados": 323,
+ "revisados": 308,
  "top": 55,
  "eventos": [
   {
@@ -116,38 +117,6 @@
    "puntaje": 15,
    "por_que": "Voluntariado · Evento sin formato claro · Virtual",
    "visto_desde": "2026-11-18T14:53-05:00"
-  },
-  {
-   "id": "inst:sni-taller-cierre-contable-y-tributario-2026-principales-con:2026-11-23",
-   "titulo": "Taller: Cierre contable y tributario 2026: Principales consideraciones y recomendaciones",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-11-23T19:00-05:00",
-   "fin": "2026-11-25T22:00-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/11/CIERRE-CONTABLE-Y-TRIBUTARIO-2026-PRINCIPALES-CONSIDERACIONES-Y-IMG.jpg",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 32,
-   "afinidad": 0,
-   "puntaje": 32,
-   "por_que": "Formativo · Evento institucional · Presencial en Lima",
-   "visto_desde": "2026-11-03T15:46-05:00"
   },
   {
    "id": "pucp:congreso-internacional-filosofia-de-la-tecnologia-el-eclipse-del-deseo-04112026152150",
@@ -248,7 +217,7 @@
    "organizador": "OBS Business School",
    "descripcion": "Únete a la 13ª edición del International Seminar on Online Higher Education de OBS Business School, Building the Future of Education",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=ec196b90c00ce5cd1e6cf236629f2d4a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193549269%2F1316909042313%2F1%2Foriginal.20260915-125503?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.088&fp-y=0.231&s=98149458ee473e40a1f608f81046be95",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -315,96 +284,6 @@
    "puntaje": 35,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Universidad · Se postula en línea",
    "visto_desde": "2026-11-25T20:28-05:00"
-  },
-  {
-   "id": "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25",
-   "titulo": "Webinar: Calidad en los procesos para una empresa industrial",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-11-25T17:00-05:00",
-   "fin": "",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/10/Calidad-en-los-procesos-para-una-empresa-industrial-IMG1-1.jpg",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Ingeniería y operaciones"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Virtual",
-   "original": {
-    "fin": "2026-11-25T23:50-05:00"
-   },
-   "visto_desde": "2026-11-01T07:32-05:00"
-  },
-  {
-   "id": "luma:evt-vgshG1qwqpskc5u",
-   "titulo": "Crédito, Inversión y Pagos frente al Fenómeno El Niño",
-   "inicio": "2026-11-25T18:30-05:00",
-   "fin": "2026-11-25T22:00-05:00",
-   "lugar": "Ca. Coronel Andrés Reyes 420, San Isidro",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/ab1iy7yz",
-   "fuente": "Luma",
-   "organizador": "Securite, Juan Carlos Zamalloa",
-   "descripcion": "Securite te invita a una noche para anticiparse a los efectos de El Niño 2026-2027.\nEl Niño no golpea la cartera el día que llega, la golpea entre 6 y 18 meses después. Sin medidas de alivio, la morosidad del sistema financiero podría casi duplicarse hacia fines de 2027. Pero también abre oportunidades: las MIPYME afectadas necesitarán capital, y la inversión y los pagos digitales serán clave para su recuperación.\nLo que vas a encontrar:\nLos resultados del estudio “Impacto Potencial del Fenómeno El Niño sobre la cartera del sistema financiero peruano”, discutidos en un panel de expertos desde la perspectiva del crédito, la inversión, los pagos y la macroeconomía.\n\nLa mirada sobre riesgo cred",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/yo/04d369d0-dc78-4573-b932-016af11b6afb.png",
-   "inscripcion": "https://lu.ma/ab1iy7yz",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Investigación y ciencia"
-   ],
-   "valor": 35,
-   "afinidad": 12,
-   "puntaje": 47,
-   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Gremio o institución",
-   "visto_desde": "2026-11-19T14:53-05:00"
-  },
-  {
-   "id": "eb:2004991514593",
-   "titulo": "Conferencia Virtual de Liderazgo \"CAMBIA TU RUMBO\"",
-   "inicio": "2026-11-25T19:30-05:00",
-   "fin": "2026-11-25T20:30-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.pe/e/conferencia-virtual-de-liderazgo-cambia-tu-rumbo-tickets-2004991514593",
-   "inscripcion": "https://www.eventbrite.com.pe/e/conferencia-virtual-de-liderazgo-cambia-tu-rumbo-tickets-2004991514593",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "GROW",
-   "descripcion": "\"Crece y descubre cómo lograr tus metas\"",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198215497%2F225169246126%2F1%2Foriginal.20261118-032021?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=90a928df2d14d533d2c5644a032c94f6",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Habilidades y liderazgo",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 8,
-   "puntaje": 31,
-   "por_que": "Formativo · Afín: Liderazgo y oratoria · Gratis · Virtual",
-   "visto_desde": "2026-11-18T06:00-05:00"
   },
   {
    "id": "ieee:596016",
@@ -643,7 +522,7 @@
    "organizador": "Academia Nacional de Ingeniería",
    "descripcion": "LOS INGENIEROS QUE EL PAIS Y EL MUNDO NECESITAN. Desafíos, reflexiones y propuestas.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197432999%2F221084714153%2F1%2Foriginal.20261106-151956?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.064&fp-y=0.335&s=6307dde977d5fbf143efd6ea7e73e00c",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197432999%2F221084714153%2F1%2Foriginal.20261106-151956?crop=focalpoint&fit=crop&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.064&fp-y=0.335&s=e3eddbc4c629a481fd6ff93ab25bbf4a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -976,31 +855,31 @@
    "visto_desde": "2026-11-12T23:46-05:00"
   },
   {
-   "id": "devpost:32188",
-   "titulo": "STEM Innovation Challenge 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-24T00:00-05:00",
-   "fin": "2026-11-26T23:59-05:00",
-   "cierre": "2026-11-26T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://stem-innovation-challenge-2026.devpost.com/",
-   "inscripcion": "https://stem-innovation-challenge-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Global STEM Innovation Initiative",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Open Ended, Social Good. Premios: $100.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/971/409/datas/medium_square.png",
+   "id": "tedx:70415",
+   "titulo": "TEDxUNALM",
+   "tipo": "evento",
+   "inicio": "2026-11-27T00:00-05:00",
+   "fin": "2026-11-27T00:00-05:00",
+   "cierre": "",
+   "lugar": "Lima",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.ted.com/tedx/events/70415",
+   "inscripcion": "https://www.ted.com/tedx/events/70415",
+   "fuente": "TEDx",
+   "fuente_url": "https://www.ted.com/tedx/events",
+   "organizador": "TEDxUNALM",
+   "descripcion": "Evento TEDx (University) en Lima. Disponibilidad: SPACESAVAILABLE.",
+   "gratis": null,
+   "imagen": "",
    "categorias": [
-    "Competencias y hackathons"
+    "Habilidades y liderazgo"
    ],
    "valor": 19,
-   "afinidad": 9,
-   "puntaje": 28,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-24T03:00-05:00"
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Presencial en Lima · Universidad · Evento sin formato claro",
+   "visto_desde": "2026-11-26T06:49-05:00"
   },
   {
    "id": "luma:evt-lQxK9Jqu5IPxkmP",
@@ -2328,7 +2207,7 @@
    "organizador": "AMERIC AC",
    "descripcion": "Sesión técnica online con el Ing. Enrique Maldonado sobre principios, aplicaciones y diseño de vigas frías en hospitales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=c407ce90d27e238f2564d7589d0df29a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&w=340&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=1f321aa7390d19473d7c5984b37e4a5c",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2356,7 +2235,7 @@
    "organizador": "Activación X",
    "descripcion": "¿Y si pudieras transformar tu relación con la comida desde un lugar amable y sostenible?",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198576887%2F329921288251%2F1%2Foriginal.20261124-004045?crop=focalpoint&fit=crop&w=340&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.507&fp-y=0.503&s=3c850d4dcca1b23a8017bf68ffe45cb1",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198576887%2F329921288251%2F1%2Foriginal.20261124-004045?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.507&fp-y=0.503&s=5d620af3b66acd528b9cf9f9926f55b3",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2522,7 +2401,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2659,7 +2538,7 @@
    "organizador": "",
    "descripcion": "Cultura de servicio: el camino para transformar equipos y crear experiencias que dejan huella.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198606103%2F3006442371969%2F1%2Foriginal.20261124-132357?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.075&fp-y=0.149&s=30dd22e550b294b567d3749b8c59aa38",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198606103%2F3006442371969%2F1%2Foriginal.20261124-132357?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.075&fp-y=0.149&s=55d21f4985ec27fc2497515c23dc4431",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3253,7 +3132,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Seguimos investigando y desmontando mitos en módulos fotovoltaicos, inversores, conectores, baterías...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=138ccd8bf2b4a17674be988bbf795218",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196286480%2F428059197284%2F1%2Foriginal.20261021-153642?crop=focalpoint&fit=crop&w=340&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=32c35565fc8f04dc8870cb4d24aceabd",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3363,7 +3242,7 @@
    "organizador": "MyIntelli",
    "descripcion": "Descubre cómo calcular el costo real del ausentismo, identificar patrones de ausencia y convertir los datos en decisiones estratégicas.",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198548835%2F2630738230511%2F1%2Foriginal.20261123-180058?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.869&fp-y=0.278&s=69a1a516edcfdc0ac91cbaef4ddf5970",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198548835%2F2630738230511%2F1%2Foriginal.20261123-180058?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.869&fp-y=0.278&s=3e58af45847fdc131a1f9c09c2f5929c",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3419,7 +3298,7 @@
    "organizador": "FEMBi Mortgage",
    "descripcion": "Aprende cómo financiar tu próxima propiedad de inversión en Puerto Rico o en Florida. Gratis, por Zoom y en español.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198629930%2F1207188940513%2F1%2Foriginal.20261124-184523?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=733635376fb529be77aaf908656d75b9",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198629930%2F1207188940513%2F1%2Foriginal.20261124-184523?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5a7c7db06a9fded04d4102a975dd4ed2",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -3459,33 +3338,6 @@
    "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
-   "id": "devpost:31798",
-   "titulo": "Taskforge",
-   "tipo": "hackathon",
-   "inicio": "2026-10-17T00:00-05:00",
-   "fin": "2026-12-10T23:59-05:00",
-   "cierre": "2026-12-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://taskforge.devpost.com/",
-   "inscripcion": "https://taskforge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HackathonForEveryone",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Quantum. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/083/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-04T05:21-05:00"
-  },
-  {
    "id": "devpost:31994",
    "titulo": "AI OpenBuild",
    "tipo": "hackathon",
@@ -3512,6 +3364,33 @@
    "puntaje": 49,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-08T14:21-05:00"
+  },
+  {
+   "id": "devpost:31798",
+   "titulo": "Taskforge",
+   "tipo": "hackathon",
+   "inicio": "2026-10-17T00:00-05:00",
+   "fin": "2026-12-10T23:59-05:00",
+   "cierre": "2026-12-10T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://taskforge.devpost.com/",
+   "inscripcion": "https://taskforge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "HackathonForEveryone",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Quantum. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/083/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-04T05:21-05:00"
   },
   {
    "id": "devpost:32061",
@@ -7316,56 +7195,6 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "luma:evt-HFZ1jT6wReqzG60",
-   "titulo": "Strategic Vision Board",
-   "inicio": "2026-11-25T19:30-05:00",
-   "fin": "2026-11-25T21:00-05:00",
-   "lugar": "Av. Jorge Basadre Grohmann 318, San Isidro",
-   "distrito": "San Isidro",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/qs31dagt",
-   "fuente": "Luma",
-   "organizador": "Yessenia Valverde, Lucero Núñez",
-   "descripcion": "Strategic Vision Board 2027 | ByWIN\nTu experiencia ha impulsado grandes marcas. Hoy, esa experiencia y visión pueden abrir camino para construir el próximo capítulo de ByWIN.\nStrategic Vision Board 2027 es un encuentro privado que reunirá a un grupo selecto de profesionales con destacada trayectoria",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/se/2bb80312-6447-4afb-af1f-a6bc3e486601.png",
-   "inscripcion": "https://lu.ma/qs31dagt",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis"
-  },
-  {
-   "id": "eb:2004335887595",
-   "titulo": "The Only Fre Food Tasting Tours in Lima",
-   "inicio": "2026-11-25T20:00-05:00",
-   "fin": "2026-11-25T21:30-05:00",
-   "lugar": "McDonald's, 599 Jirón de la Unión",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335887595",
-   "fuente": "Eventbrite",
-   "organizador": "Viajens Machupicchu",
-   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
-   "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
-   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335887595",
-   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 12,
-   "afinidad": 0,
-   "puntaje": 12,
-   "por_que": "Presencial en Lima · Evento sin formato claro"
-  },
-  {
    "id": "pucp:feria-convivencia-sin-violencia",
    "titulo": "Feria Convivencia Sin Violencia",
    "inicio": "2026-11-26T12:00-05:00",
@@ -7414,6 +7243,31 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima"
+  },
+  {
+   "id": "eb:2004335888598",
+   "titulo": "The Only Fre Food Tasting Tours in Lima",
+   "inicio": "2026-11-26T17:00-05:00",
+   "fin": "2026-11-26T18:30-05:00",
+   "lugar": "McDonald's, 599 Jirón de la Unión",
+   "distrito": "Lima",
+   "modalidad": "Presencial",
+   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335888598",
+   "fuente": "Eventbrite",
+   "organizador": "Viajens Machupicchu",
+   "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
+   "gratis": false,
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
+   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335888598",
+   "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "no encaja en ningún área formativa",
+   "categorias": [],
+   "valor": 12,
+   "afinidad": 0,
+   "puntaje": 12,
+   "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
    "id": "luma:evt-x9hlQqB2jL0pb5Z",
@@ -7897,90 +7751,6 @@
    "por_que": "Abre puertas (beca/programa) · Se postula en línea"
   },
   {
-   "id": "opportunitiesforyouth:tional-un-volunteer-assignment-panama-city-12-months-full-time-onsite-",
-   "titulo": "UNICEF Regional Youth Engagement Specialist Volunteer Opportunity in Panama (2026) International UN Volunteer Assignment | Panama City | 12 Months | Full-Time, Onsite",
-   "tipo": "voluntariado",
-   "inicio": "2026-10-30T23:59-05:00",
-   "fin": "2026-10-30T23:59-05:00",
-   "cierre": "2026-10-30T23:59-05:00",
-   "publicado": "2026-10-19T06:38-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/10/19/unicef-regional-youth-engagement-specialist-volunteer-opportunity-in-panama-2026-international-un-volunteer-assignment-panama-city-12-months-full-time-onsite/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/10/19/unicef-regional-youth-engagement-specialist-volunteer-opportunity-in-panama-2026-international-un-volunteer-assignment-panama-city-12-months-full-time-onsite/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Overview of the UNICEF Regional Youth Engagement Specialist Opportunity The United Nations Children’s Fund (UNICEF), in partnership with the United Nations Volunteers (UNV) programme, is recruiting an international volunteer for the position of Regional Youth Engagement Specialist in Panama City, Pa",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 26,
-   "afinidad": 0,
-   "puntaje": 26,
-   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Plazo claro"
-  },
-  {
-   "id": "opportunitiesforyouth:ine-volunteer-opportunity-2026-grant-and-proposal-development-support-",
-   "titulo": "UNFPA Eswatini Online Volunteer Opportunity 2026: Grant and Proposal Development Support",
-   "tipo": "voluntariado",
-   "inicio": "2026-11-18T23:59-05:00",
-   "fin": "2026-11-18T23:59-05:00",
-   "cierre": "2026-11-18T23:59-05:00",
-   "publicado": "2026-11-11T05:50-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/11/11/unfpa-eswatini-online-volunteer-opportunity-2026-grant-and-proposal-development-support/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/11/11/unfpa-eswatini-online-volunteer-opportunity-2026-grant-and-proposal-development-support/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The United Nations Population Fund (UNFPA) is inviting qualified professionals to apply for an exciting Online Volunteer Opportunity in Grant and Proposal Development Support with its Eswatini Country Office. This 12-week virtual assignment offers an opportunity to contribute to the work of a United",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:r-interest-for-international-and-regional-civil-society-organizations-",
-   "titulo": "WPHF Global Steering Committee 2027–2029: Call for Interest for International and Regional Civil Society Organizations",
-   "tipo": "voluntariado",
-   "inicio": "2026-11-23T23:59-05:00",
-   "fin": "2026-11-23T23:59-05:00",
-   "cierre": "2026-11-23T23:59-05:00",
-   "publicado": "2026-11-16T00:36-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/11/16/wphf-global-steering-committee-2027-2029-call-for-interest-for-international-and-regional-civil-society-organizations/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/11/16/wphf-global-steering-committee-2027-2029-call-for-interest-for-international-and-regional-civil-society-organizations/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "The Women’s Peace and Humanitarian Fund (WPHF), a United Nations and civil society partnership, is inviting international and regional civil society organizations to express their interest in joining its Global Steering Committee (GSC) for the 2027–2029 term. Through this opportunity, two civil soci",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "plazo vencido",
-   "categorias": [
-    "Voluntariado e impacto social"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
-  },
-  {
    "id": "devpost:31484",
    "titulo": "2026-2027 Fall ESE Senior Design",
    "tipo": "hackathon",
@@ -8195,31 +7965,6 @@
    "por_que": "Networking · Presencial en Lima · Universidad"
   },
   {
-   "id": "luma:evt-mxhXFgtUgepnpmg",
-   "titulo": "Stand Up: Metidas de Pata – ¡El último desahogo del año!",
-   "inicio": "2026-11-25T19:30-05:00",
-   "fin": "2026-11-25T22:00-05:00",
-   "lugar": "Miraflores",
-   "distrito": "Miraflores",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/uxxd2pb6",
-   "fuente": "Luma",
-   "organizador": "Personal",
-   "descripcion": "",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/7s/da3fd22b-5039-4824-bd7d-02c55c22a9ae.jpg",
-   "inscripcion": "https://lu.ma/uxxd2pb6",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (stand up)",
-   "categorias": [],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
-  },
-  {
    "id": "eb:2003872191668",
    "titulo": "Free Tasting Tour of Lima, Perú",
    "inicio": "2026-10-25T11:30-05:00",
@@ -8245,20 +7990,20 @@
    "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
-   "id": "eb:2004334244681",
+   "id": "eb:2004334245684",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-25T20:00-05:00",
-   "fin": "2026-11-25T21:30-05:00",
+   "inicio": "2026-11-26T18:00-05:00",
+   "fin": "2026-11-26T19:30-05:00",
    "lugar": "Tourist Information Center, 799 Avenida José Larco",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334244681",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334245684",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334244681",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334245684",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -8270,54 +8015,25 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "opportunitiesforyouth:ntor-africas-next-generation-of-ai-technology-and-business-innovators-",
-   "titulo": "Timbuktoo Africa UniPods Mentor Network 2026: Apply to Mentor Africa’s Next Generation of AI, Technology and Business Innovators",
-   "tipo": "voluntariado",
-   "inicio": "2026-10-21T12:25-05:00",
-   "fin": "2026-10-21T12:25-05:00",
-   "cierre": "",
-   "publicado": "2026-10-21T12:25-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/10/21/timbuktoo-africa-unipods-mentor-network-2026-apply-to-mentor-africas-next-generation-of-ai-technology-and-business-innovators/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/10/21/timbuktoo-africa-unipods-mentor-network-2026-apply-to-mentor-africas-next-generation-of-ai-technology-and-business-innovators/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Africa’s innovation ecosystem continues to grow, creating new opportunities for young entrepreneurs, technology enthusiasts, researchers, and aspiring business leaders to develop solutions to the continent’s challenges. However, turning an innovative idea into a successful venture often requires mor",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Africa)",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 15,
-   "afinidad": 12,
-   "puntaje": 27,
-   "por_que": "Afín: Inteligencia artificial · Voluntariado · Evento sin formato claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitydesk:-org-2026-11-25-acumen-academy-green-rise-east-africa-fellowship-2027-",
-   "titulo": "Acumen Academy Green RISE East Africa Fellowship 2027 (Fully-funded)",
+   "id": "opportunitydesk:ps-opportunitydesk-org-2026-11-26-friends-of-pakistan-fellowship-2027-",
+   "titulo": "Friends of Pakistan Fellowship 2027 (Funded)",
    "tipo": "convocatoria",
-   "inicio": "2026-12-22T23:59-05:00",
-   "fin": "2026-12-22T23:59-05:00",
-   "cierre": "2026-12-22T23:59-05:00",
-   "publicado": "2026-11-25T11:19-05:00",
+   "inicio": "2026-12-11T23:59-05:00",
+   "fin": "2026-12-11T23:59-05:00",
+   "cierre": "2026-12-11T23:59-05:00",
+   "publicado": "2026-11-26T06:22-05:00",
    "lugar": "",
    "distrito": "",
    "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/25/acumen-academy-green-rise-east-africa-fellowship-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/25/acumen-academy-green-rise-east-africa-fellowship-2027/",
+   "url": "https://opportunitydesk.org/2026/11/26/friends-of-pakistan-fellowship-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/26/friends-of-pakistan-fellowship-2027/",
    "fuente": "Opportunity Desk",
    "fuente_url": "https://opportunitydesk.org/",
    "organizador": "",
-   "descripcion": "Deadline: December 22, 2026 Applications are open for the Acumen Academy Green RISE East Africa Fellowship 2027. Acumen invests in social entrepreneurs across the capital continuum and accompanies them on the journey to create transformational change. Acumen Academy identifies and prepares these lea",
+   "descripcion": "Deadline: December 11, 2026 Applications are open for the Friends of Pakistan Fellowship 2027. Pakistan has extraordinary leaders working on big social problems. Scale is the next frontier. Each year, a small cohort of Pakistani leaders spends seven days in Northern Pakistan refining their model for",
    "gratis": null,
    "imagen": "",
-   "motivo": "restringido a otro país o región (Africa)",
+   "motivo": "restringido a otro país o región (Pakistan)",
    "categorias": [
     "Idiomas, becas e internacional"
    ],
@@ -8325,64 +8041,6 @@
    "afinidad": 12,
    "puntaje": 32,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:ositions-in-biodiversity-and-ecosystem-services-across-southeast-asia-",
-   "titulo": "UNDP Online Volunteer Opportunity 2026: 12 Research Support Positions in Biodiversity and Ecosystem Services Across Southeast Asia",
-   "tipo": "voluntariado",
-   "inicio": "2026-10-30T03:56-05:00",
-   "fin": "2026-10-30T03:56-05:00",
-   "cierre": "",
-   "publicado": "2026-10-30T03:56-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/10/30/undp-online-volunteer-opportunity-2026-12-research-support-positions-in-biodiversity-and-ecosystem-services-across-southeast-asia/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/10/30/undp-online-volunteer-opportunity-2026-12-research-support-positions-in-biodiversity-and-ecosystem-services-across-southeast-asia/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Introduction The United Nations Development Programme (UNDP), through its Biodiversity and Ecosystem Services Network (BES-Net), is inviting applications from motivated and research-oriented individuals for an exciting online volunteering opportunity focused on biodiversity conservation, ecosystem s",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (Asia)",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Investigación y ciencia"
-   ],
-   "valor": 15,
-   "afinidad": 12,
-   "puntaje": 27,
-   "por_que": "Afín: Investigación · Voluntariado · Evento sin formato claro · Se postula en línea"
-  },
-  {
-   "id": "opportunitiesforyouth:ate-volunteer-assignment-in-india-2026-monthly-allowance-of-inr-56126-",
-   "titulo": "UNICEF Communications and Marketing Associate Volunteer Assignment in India 2026: Monthly Allowance of INR 56,126",
-   "tipo": "voluntariado",
-   "inicio": "2026-11-10T23:59-05:00",
-   "fin": "2026-11-10T23:59-05:00",
-   "cierre": "2026-11-10T23:59-05:00",
-   "publicado": "2026-10-29T02:53-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitiesforyouth.org/2026/10/29/unicef-communications-and-marketing-associate-volunteer-assignment-in-india-2026-monthly-allowance-of-inr-56126/",
-   "inscripcion": "https://opportunitiesforyouth.org/2026/10/29/unicef-communications-and-marketing-associate-volunteer-assignment-in-india-2026-monthly-allowance-of-inr-56126/",
-   "fuente": "Opportunities for Youth",
-   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
-   "organizador": "",
-   "descripcion": "Are you a communications, marketing, public relations, or digital media professional looking for an opportunity to contribute to the work of the United Nations? The United Nations Children’s Fund (UNICEF) is offering a Communications and Marketing Associate volunteer assignment in New Delhi, India. ",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "restringido a otro país o región (India)",
-   "categorias": [
-    "Voluntariado e impacto social",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 26,
-   "afinidad": 0,
-   "puntaje": 26,
-   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Plazo claro"
   },
   {
    "id": "opportunitydesk:opportunitydesk-org-2026-11-25-1776-reimagined-essay-competition-2026-",
@@ -8521,6 +8179,34 @@
    "afinidad": 18,
    "puntaje": 37,
    "por_que": "Competencia · Afín: Datos y machine learning · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:32182",
+   "titulo": "AlgoConnect Quantathon - 2026",
+   "tipo": "hackathon",
+   "inicio": "2026-11-22T00:00-05:00",
+   "fin": "2026-11-28T23:59-05:00",
+   "cierre": "2026-11-28T23:59-05:00",
+   "lugar": "AlgoConnect - Montréal Offices",
+   "distrito": "AlgoConnect - Montréal Offices",
+   "modalidad": "Presencial",
+   "url": "https://algoconnect-quantathon-2026.devpost.com/",
+   "inscripcion": "https://algoconnect-quantathon-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "AlgoConnect x QUARCC",
+   "descripcion": "Hackathon presencial en AlgoConnect - Montréal Offices. Temas: Fintech, Machine Learning/AI. Premios: $700.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/975/801/datas/medium_square.jpg",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Tecnología e IA",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 16,
+   "afinidad": 30,
+   "puntaje": 46,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "insc:8eca04457016",
@@ -8715,6 +8401,177 @@
    "puntaje": 51,
    "por_que": "Afín: Datos y machine learning · Networking · Presencial en Lima · Afín: Inteligencia artificial",
    "motivo": "no pasó la verificación: duplicado de «AWS Student Community Day Lima» (Meetup)"
+  },
+  {
+   "id": "opportunitiesforyouth:tional-un-volunteer-assignment-panama-city-12-months-full-time-onsite-",
+   "titulo": "UNICEF Regional Youth Engagement Specialist Volunteer Opportunity in Panama (2026) International UN Volunteer Assignment | Panama City | 12 Months | Full-Time, Onsite",
+   "tipo": "voluntariado",
+   "inicio": "2026-10-30T23:59-05:00",
+   "fin": "2026-10-30T23:59-05:00",
+   "cierre": "2026-10-30T23:59-05:00",
+   "publicado": "2026-10-19T06:38-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/10/19/unicef-regional-youth-engagement-specialist-volunteer-opportunity-in-panama-2026-international-un-volunteer-assignment-panama-city-12-months-full-time-onsite/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/10/19/unicef-regional-youth-engagement-specialist-volunteer-opportunity-in-panama-2026-international-un-volunteer-assignment-panama-city-12-months-full-time-onsite/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Overview of the UNICEF Regional Youth Engagement Specialist Opportunity The United Nations Children’s Fund (UNICEF), in partnership with the United Nations Volunteers (UNV) programme, is recruiting an international volunteer for the position of Regional Youth Engagement Specialist in Panama City, Pa",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 26,
+   "afinidad": 0,
+   "puntaje": 26,
+   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Plazo claro"
+  },
+  {
+   "id": "opportunitiesforyouth:ine-volunteer-opportunity-2026-grant-and-proposal-development-support-",
+   "titulo": "UNFPA Eswatini Online Volunteer Opportunity 2026: Grant and Proposal Development Support",
+   "tipo": "voluntariado",
+   "inicio": "2026-11-18T23:59-05:00",
+   "fin": "2026-11-18T23:59-05:00",
+   "cierre": "2026-11-18T23:59-05:00",
+   "publicado": "2026-11-11T05:50-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/11/11/unfpa-eswatini-online-volunteer-opportunity-2026-grant-and-proposal-development-support/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/11/11/unfpa-eswatini-online-volunteer-opportunity-2026-grant-and-proposal-development-support/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The United Nations Population Fund (UNFPA) is inviting qualified professionals to apply for an exciting Online Volunteer Opportunity in Grant and Proposal Development Support with its Eswatini Country Office. This 12-week virtual assignment offers an opportunity to contribute to the work of a United",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:r-interest-for-international-and-regional-civil-society-organizations-",
+   "titulo": "WPHF Global Steering Committee 2027–2029: Call for Interest for International and Regional Civil Society Organizations",
+   "tipo": "voluntariado",
+   "inicio": "2026-11-23T23:59-05:00",
+   "fin": "2026-11-23T23:59-05:00",
+   "cierre": "2026-11-23T23:59-05:00",
+   "publicado": "2026-11-16T00:36-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/11/16/wphf-global-steering-committee-2027-2029-call-for-interest-for-international-and-regional-civil-society-organizations/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/11/16/wphf-global-steering-committee-2027-2029-call-for-interest-for-international-and-regional-civil-society-organizations/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "The Women’s Peace and Humanitarian Fund (WPHF), a United Nations and civil society partnership, is inviting international and regional civil society organizations to express their interest in joining its Global Steering Committee (GSC) for the 2027–2029 term. Through this opportunity, two civil soci",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "plazo vencido",
+   "categorias": [
+    "Voluntariado e impacto social"
+   ],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Voluntariado · Evento sin formato claro · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:ntor-africas-next-generation-of-ai-technology-and-business-innovators-",
+   "titulo": "Timbuktoo Africa UniPods Mentor Network 2026: Apply to Mentor Africa’s Next Generation of AI, Technology and Business Innovators",
+   "tipo": "voluntariado",
+   "inicio": "2026-10-21T12:25-05:00",
+   "fin": "2026-10-21T12:25-05:00",
+   "cierre": "",
+   "publicado": "2026-10-21T12:25-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/10/21/timbuktoo-africa-unipods-mentor-network-2026-apply-to-mentor-africas-next-generation-of-ai-technology-and-business-innovators/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/10/21/timbuktoo-africa-unipods-mentor-network-2026-apply-to-mentor-africas-next-generation-of-ai-technology-and-business-innovators/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Africa’s innovation ecosystem continues to grow, creating new opportunities for young entrepreneurs, technology enthusiasts, researchers, and aspiring business leaders to develop solutions to the continent’s challenges. However, turning an innovative idea into a successful venture often requires mor",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Africa)",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 15,
+   "afinidad": 12,
+   "puntaje": 27,
+   "por_que": "Afín: Inteligencia artificial · Voluntariado · Evento sin formato claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:ositions-in-biodiversity-and-ecosystem-services-across-southeast-asia-",
+   "titulo": "UNDP Online Volunteer Opportunity 2026: 12 Research Support Positions in Biodiversity and Ecosystem Services Across Southeast Asia",
+   "tipo": "voluntariado",
+   "inicio": "2026-10-30T03:56-05:00",
+   "fin": "2026-10-30T03:56-05:00",
+   "cierre": "",
+   "publicado": "2026-10-30T03:56-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/10/30/undp-online-volunteer-opportunity-2026-12-research-support-positions-in-biodiversity-and-ecosystem-services-across-southeast-asia/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/10/30/undp-online-volunteer-opportunity-2026-12-research-support-positions-in-biodiversity-and-ecosystem-services-across-southeast-asia/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Introduction The United Nations Development Programme (UNDP), through its Biodiversity and Ecosystem Services Network (BES-Net), is inviting applications from motivated and research-oriented individuals for an exciting online volunteering opportunity focused on biodiversity conservation, ecosystem s",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (Asia)",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Investigación y ciencia"
+   ],
+   "valor": 15,
+   "afinidad": 12,
+   "puntaje": 27,
+   "por_que": "Afín: Investigación · Voluntariado · Evento sin formato claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitiesforyouth:ate-volunteer-assignment-in-india-2026-monthly-allowance-of-inr-56126-",
+   "titulo": "UNICEF Communications and Marketing Associate Volunteer Assignment in India 2026: Monthly Allowance of INR 56,126",
+   "tipo": "voluntariado",
+   "inicio": "2026-11-10T23:59-05:00",
+   "fin": "2026-11-10T23:59-05:00",
+   "cierre": "2026-11-10T23:59-05:00",
+   "publicado": "2026-10-29T02:53-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitiesforyouth.org/2026/10/29/unicef-communications-and-marketing-associate-volunteer-assignment-in-india-2026-monthly-allowance-of-inr-56126/",
+   "inscripcion": "https://opportunitiesforyouth.org/2026/10/29/unicef-communications-and-marketing-associate-volunteer-assignment-in-india-2026-monthly-allowance-of-inr-56126/",
+   "fuente": "Opportunities for Youth",
+   "fuente_url": "https://opportunitiesforyouth.org/category/volunteering/",
+   "organizador": "",
+   "descripcion": "Are you a communications, marketing, public relations, or digital media professional looking for an opportunity to contribute to the work of the United Nations? The United Nations Children’s Fund (UNICEF) is offering a Communications and Marketing Associate volunteer assignment in New Delhi, India. ",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (India)",
+   "categorias": [
+    "Voluntariado e impacto social",
+    "Negocios y emprendimiento"
+   ],
+   "valor": 26,
+   "afinidad": 0,
+   "puntaje": 26,
+   "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Plazo claro"
   }
  ],
  "perfil": true,
@@ -8733,36 +8590,18 @@
   "PERUMIN": 1,
   "ESAN — eventos": 0,
   "PMI Lima": 0,
-  "Sociedad Nacional de Industrias": 4,
+  "Sociedad Nacional de Industrias": 2,
   "AmCham Perú": 2,
   "ComexPerú": 0
  },
- "se_viene": [
-  {
-   "nombre": "CADE Ejecutivos",
-   "organizador": "IPAE Acción Empresarial",
-   "url": "https://www.ipae.pe/",
-   "mes": 11,
-   "ciudad": "Urubamba, Cusco",
-   "texto": "2026: del 24/11 al 26/11",
-   "dato": "Foro empresarial más importante del país. 2026: 24–26 nov en Urubamba (Cusco)."
-  }
- ],
+ "se_viene": [],
  "calidad": {
-  "fecha": "2026-11-25T20:28-05:00",
-  "revisados": 197,
-  "corregidos": 12,
+  "fecha": "2026-11-26T06:49-05:00",
+  "revisados": 189,
+  "corregidos": 11,
   "avisos": 1,
   "archivados": 2,
   "problemas": [
-   {
-    "id": "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25",
-    "titulo": "Webinar: Calidad en los procesos para una empresa industrial",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:50)",
-    "url": "https://sni.org.pe/eventos/"
-   },
    {
     "id": "luma:evt-heQySSVPAFajESL",
     "titulo": "Start Tank Universitario",
@@ -8877,7 +8716,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 16,
+   "comprobados": 13,
    "rotos": 0,
    "sin_comprobar": 0
   },
@@ -8885,18 +8724,10 @@
  },
  "por_confirmar": [
   {
-   "titulo": "Rumbo a Lima 2027: deportistas fortalecen su voz y liderazgo en el I Foro de Atletas",
-   "url": "https://rpp.pe/multideportes/panamericanos/rumbo-a-lima-2027-deportistas-fortalecen-su-voz-y-liderazgo-en-el-i-foro-de-atletas-noticia-1719660",
-   "medio": "RPP Noticias",
-   "publicado": "Wed, 25 Nov 2026 04:55:00 GMT",
-   "resumen": "Con la mirada puesta en Lima 2027, atletas se reunieron para fortalecer su liderazgo y plantear sus inquietudes sobre el futuro del deporte nacional.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Foro de CGTN Español en Lima aborda agenda APEC 2026 y plantea oportunidades para Perú y la región sudamericana",
-   "url": "https://espanol.cri.cn/2026/11/21/ARTI1795228855201452",
-   "medio": "cri",
-   "publicado": "Fri, 20 Nov 2026 18:40:00 GMT",
+   "url": "https://espanol.cgtn.com/2026/11/21/ARTI1795228855201452",
+   "medio": "CGTN en Español",
+   "publicado": "Fri, 20 Nov 2026 21:29:00 GMT",
    "resumen": "La conversación sobre el futuro de Asia-Pacífico también llega a América Latina. Lima acogió el Foro Internacional Shenzhen 2026, organizado por CGTN Español, para analizar cómo Perú y China pueden tr ...",
    "fecha_mencionada": ""
   },
@@ -8909,12 +8740,12 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Expertos analizarán futuro de las inversiones sostenibles en foro sobre economía circular",
-   "url": "https://andina.pe/agencia/noticia-expertos-analizaran-futuro-las-inversiones-sostenibles-foro-sobre-economia-circular-1101436.aspx",
-   "medio": "Agencia Peruana de Noticias | ANDINA",
-   "publicado": "Tue, 24 Nov 2026 15:59:00 GMT",
-   "resumen": "A fin de posicionar la inversión sostenible y circular como motores de un modelo productivo más competitivo, este 26 y 27 de noviembre se desarrollará en Lima el IX Foro Internacional de Economía Circ ...",
-   "fecha_mencionada": "2026-11-26T00:00-05:00"
+   "titulo": "Google Cloud Summit Perú 2026: ¿cuáles fueron los puntos clave?",
+   "url": "https://www.mercadonegro.pe/marketing/google-cloud-summit-puntos-claves/",
+   "medio": "Mercado Negro",
+   "publicado": "Fri, 20 Nov 2026 10:03:00 GMT",
+   "resumen": "En el encuentro celebrado el 19 de noviembre, presentó novedades tecnológicas en torno a la IA y su adopción y ...",
+   "fecha_mencionada": ""
   },
   {
    "titulo": "Google Cloud Summit Perú 2026: Cómo funcionan los agentes de IA para potenciar a las mypes y empresas",
@@ -8949,11 +8780,19 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
-   "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
-   "medio": "Infobae",
-   "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
-   "resumen": "La Municipalidad de Lima organizará la Feria Metropolitana del Libro Lima Lee 2026 del viernes 16 al domingo 25 de octubre en el Museo Metropolitano de Lima, ubicado en la avenida 28 de Julio 700, en ...",
+   "titulo": "De Nuestras Manos 2026: feria reúne lo mejor de la artesanía de las 25 regiones del Perú en Miraflores",
+   "url": "https://www.expreso.com.pe/actualidad/de-nuestras-manos-2026-feria-reune-lo-mejor-de-la-artesania-de-las-25-regiones-del-peru-en-miraflores-mincetur-noticia/1334432/",
+   "medio": "Diario Expreso",
+   "publicado": "Mon, 23 Nov 2026 16:04:00 GMT",
+   "resumen": "Nuestras Manos 2026 proyecta ventas superiores a S/1,5 millones y reúne a artesanos de las 25 regiones del Perú en Miraflores.",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "ATU invita a feria Transporte Sostenible 2026, con entrada gratuita hasta el viernes 27",
+   "url": "https://andina.pe/agencia/noticia-atu-invita-a-feria-transporte-sostenible-2026-entrada-gratuita-hasta-viernes-27-1101474.aspx",
+   "medio": "Agencia Peruana de Noticias | ANDINA",
+   "publicado": "Tue, 24 Nov 2026 15:59:00 GMT",
+   "resumen": "Los empresarios del transporte público de Lima y Callao podrán conocer las alternativas que ofrece el mercado para renovar sus flotas con vehículos eléctricos y a gas natural vehicular (GNV) en la fer ...",
    "fecha_mencionada": ""
   },
   {
@@ -8965,11 +8804,19 @@
    "fecha_mencionada": "2026-11-29T00:00-05:00"
   },
   {
-   "titulo": "Impulsan participación de organizaciones y mipymes en Expocafé Perú 2026",
-   "url": "https://agraria.pe/noticias/impulsan-participacion-de-organizaciones-y-mipymes-en-expoca-43536",
-   "medio": "Agraria.pe",
-   "publicado": "Wed, 25 Nov 2026 01:41:00 GMT",
-   "resumen": "(Agraria.pe) El Ministerio de Comercio Exterior y Turismo (Mincetur) promoverá la participación de 16 organizaciones y micro, pequeñas y medianas empresas (mipymes) ...",
+   "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
+   "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
+   "medio": "Infobae",
+   "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
+   "resumen": "La Municipalidad de Lima organizará la Feria Metropolitana del Libro Lima Lee 2026 del viernes 16 al domingo 25 de octubre en el Museo Metropolitano de Lima, ubicado en la avenida 28 de Julio 700, en ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "(Multimedia) Artesanos resaltan técnicas ancestrales e identidad peruana durante feria en Lima",
+   "url": "https://spanish.news.cn/20261124/512f965cde414948837672f50a185d07/c.html",
+   "medio": "Xinhua Español",
+   "publicado": "Mon, 23 Nov 2026 22:35:00 GMT",
+   "resumen": "Personas visitan la feria de artesanías \"De Nuestras Manos 2026\", en el Parque Alfredo Salazar, en el distrito de Miraflores, en Lima, Perú, el 23 de noviembre de 2026. (Xinhua/Mariana Bazo) LIMA, 23 ...",
    "fecha_mencionada": ""
   }
  ],
@@ -9232,13 +9079,11 @@
   "devpost:31682": "2026-10-29T04:15-05:00",
   "luma:evt-FvLvhaqmG2oHMsT": "2026-10-29T23:01-05:00",
   "inst:instituto-de-ingenieros-de-minas-del-per-perumin-38-convenci:2027-09-20": "2026-10-31T06:35-05:00",
-  "inst:sni-webinar-calidad-en-los-procesos-para-una-empresa-industr:2026-11-25": "2026-11-01T07:32-05:00",
   "devpost:31787": "2026-11-01T07:32-05:00",
   "luma:evt-heQySSVPAFajESL": "2026-11-02T05:28-05:00",
   "devpost:31642": "2026-11-02T16:18-05:00",
   "devpost:31083": "2026-11-02T16:18-05:00",
   "luma:evt-qDyg6BqcLOVy7jH": "2026-11-02T23:59-05:00",
-  "inst:sni-taller-cierre-contable-y-tributario-2026-principales-con:2026-11-23": "2026-11-03T15:46-05:00",
   "devpost:31480": "2026-11-03T20:01-05:00",
   "devpost:31798": "2026-11-04T05:21-05:00",
   "luma:evt-IZh5FuxOlKMurqD": "2026-11-04T14:16-05:00",
@@ -9295,14 +9140,12 @@
   "eb:2004945746700": "2026-11-17T21:43-05:00",
   "luma:evt-srup5hIMEBHs4f7": "2026-11-17T21:43-05:00",
   "devpost:31571": "2026-11-17T21:43-05:00",
-  "eb:2004991514593": "2026-11-18T06:00-05:00",
   "luma:evt-kYWDzvteeK1QQ5W": "2026-11-18T06:00-05:00",
   "opportunitiesforyouth:uncil-2026-27-applications-open-for-young-people-aged-14-18-worldwide-": "2026-11-18T14:53-05:00",
   "luma:evt-CipniDmmAonkTxA": "2026-11-18T14:53-05:00",
   "devpost:31775": "2026-11-18T14:53-05:00",
   "pucp:mas-alla-del-pbi-nuevas-narrativas-y-metricas-para-el-desarrollo-humano-en-america-latina-17112026191854": "2026-11-18T14:53-05:00",
   "devpost:31886": "2026-11-18T14:53-05:00",
-  "luma:evt-vgshG1qwqpskc5u": "2026-11-19T14:53-05:00",
   "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-19112026121020": "2026-11-19T14:53-05:00",
   "luma:evt-0z8fED7nUD9Mmj6": "2026-11-19T14:53-05:00",
   "luma:evt-bEHDOc6gMyTteRU": "2026-11-19T14:53-05:00",
@@ -9346,7 +9189,6 @@
   "eb:2005039617470": "2026-11-23T18:15-05:00",
   "luma:evt-80qeK3qwYWAbhND": "2026-11-23T18:15-05:00",
   "luma:evt-EqHEnycFnd98fqG": "2026-11-23T18:15-05:00",
-  "devpost:32188": "2026-11-24T03:00-05:00",
   "wikicfp:204439": "2026-11-24T03:00-05:00",
   "luma:evt-V03QEkUgBk5mQIE": "2026-11-24T14:54-05:00",
   "opportunitiesforyouth:unteer-opportunity-for-leaders-in-sport-brands-and-digital-technology-": "2026-11-24T14:54-05:00",
@@ -9367,6 +9209,7 @@
   "opportunitydesk:ortunitydesk-org-2026-11-25-engyro-research-proposal-competition-2027-": "2026-11-25T20:28-05:00",
   "opportunitydesk:s-opportunitydesk-org-2026-11-25-iaffe-feminist-economics-school-2027-": "2026-11-25T20:28-05:00",
   "eb:2005435725239": "2026-11-25T20:28-05:00",
-  "opportunitydesk:https-opportunitydesk-org-2026-11-25-iso-lomso-fellowships-2028-": "2026-11-25T20:28-05:00"
+  "opportunitydesk:https-opportunitydesk-org-2026-11-25-iso-lomso-fellowships-2028-": "2026-11-25T20:28-05:00",
+  "tedx:70415": "2026-11-26T06:49-05:00"
  }
 }
