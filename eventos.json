@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-26T22:27-05:00",
+ "actualizado": "2026-11-27T11:00-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 50
+   "n": 48
   },
   "Eventbrite": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "Eventbrite online": {
    "ok": true,
-   "n": 13
+   "n": 12
   },
   "Meetup": {
    "ok": true,
@@ -43,11 +43,11 @@
   },
   "TEDx": {
    "ok": true,
-   "n": 3
+   "n": 2
   },
   "Institucionales": {
    "ok": true,
-   "n": 5
+   "n": 4
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 297,
+ "revisados": 292,
  "top": 55,
  "eventos": [
   {
@@ -258,61 +258,6 @@
    "visto_desde": "2026-11-25T20:28-05:00"
   },
   {
-   "id": "eb:2003742708380",
-   "titulo": "CONFERENCIA DE PRENSA- Encuesta de expectativas empresariales - IPADE",
-   "inicio": "2026-11-26T09:30-05:00",
-   "fin": "2026-11-30T15:00-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://www.eventbrite.com.mx/e/conferencia-de-prensa-encuesta-de-expectativas-empresariales-ipade-tickets-2003742708380",
-   "inscripcion": "https://www.eventbrite.com.mx/e/conferencia-de-prensa-encuesta-de-expectativas-empresariales-ipade-tickets-2003742708380",
-   "fuente": "Eventbrite online",
-   "fuente_url": "https://www.eventbrite.com.pe/d/online/all-events/",
-   "organizador": "Román Calápiz",
-   "descripcion": "¡Descubre los resultados de la encuesta sobre expectativas empresariales en nuestra conferencia de prensa online!",
-   "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198544804%2F256438124752%2F1%2Foriginal.20261123-170521?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.433&fp-y=0.125&s=d0d41f560d58a19e7d5bcf6f86be78e4",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 23,
-   "afinidad": 0,
-   "puntaje": 23,
-   "por_que": "Formativo · Gratis · Virtual",
-   "visto_desde": "2026-10-21T18:55-05:00"
-  },
-  {
-   "id": "luma:evt-QKh3LnwQuK7NpTw",
-   "titulo": "Infosoft 2026",
-   "inicio": "2026-11-26T10:00-05:00",
-   "fin": "2026-11-28T16:00-05:00",
-   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/9687i94s",
-   "fuente": "Luma",
-   "organizador": "AAII",
-   "descripcion": "El evento académico insignia de Ingeniería Informática de la PUCP, organizado por la AAII, IEEE CS, Blockchain y GDP, vuelve con su edición 2026. Durante tres días, conferencias magistrales, talleres técnicos y stands de interacción reunirán a estudiantes, egresados y docentes con líderes de la industria e innovadores tecnológicos.\n📅 Fechas: 26, 27 y 28 de noviembre de 2026\n🕙 Horario: 10:00 a.m. a 4:00 p.m.\n📍 Lugar: Campus PUCP, explanada de la Biblioteca del CIA y auditorios o salones de la universidad\nINFORMACION:\nVen a actualizarte en tecnologías de vanguardia, conocer proyectos de innovación y hacer networking con empresas que buscan talento. ¡Te esperamos!\n📩 Consultas: aaii@pucp.edu.pe",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/3h/064f8882-2743-47f6-9315-adda53c7322e.png",
-   "inscripcion": "https://lu.ma/9687i94s",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 31,
-   "afinidad": 4,
-   "puntaje": 35,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-11-23T06:40-05:00"
-  },
-  {
    "id": "opportunitiesforyouth:-join-a-worldwide-network-and-share-your-views-on-human-rights-cities-",
    "titulo": "UN Global Youth Network for Human Rights: Join a Worldwide Network and Share Your Views on Human Rights Cities",
    "tipo": "voluntariado",
@@ -339,41 +284,6 @@
    "puntaje": 15,
    "por_que": "Voluntariado · Evento sin formato claro · Se postula en línea",
    "visto_desde": "2026-11-26T22:27-05:00"
-  },
-  {
-   "id": "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26",
-   "titulo": "Webinar: Novedades para el 2027 en materia de responsabilidad de los directores",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-11-26T16:00-05:00",
-   "fin": "",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Virtual",
-   "url": "https://sni.org.pe/eventos/",
-   "inscripcion": "https://sni.org.pe/eventos/",
-   "fuente": "Institucional",
-   "fuente_url": "https://sni.org.pe/eventos/",
-   "organizador": "SNI",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://sni.org.pe/wp-content/uploads/2026/11/Novedades-para-el-2027-en-materia-de-responsabilidad-de-los-directores-img.jpg",
-   "extraido_por": "json-ld",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 27,
-   "afinidad": 0,
-   "puntaje": 27,
-   "por_que": "Formativo · Evento institucional · Virtual",
-   "original": {
-    "fin": "2026-11-26T23:50-05:00"
-   },
-   "visto_desde": "2026-11-10T00:42-05:00"
   },
   {
    "id": "opportunitydesk:-beyond-the-credential-how-an-online-dba-can-reshape-the-way-you-lead-",
@@ -405,61 +315,6 @@
    "visto_desde": "2026-11-26T22:27-05:00"
   },
   {
-   "id": "tedx:70415",
-   "titulo": "TEDxUNALM",
-   "tipo": "evento",
-   "inicio": "2026-11-27T00:00-05:00",
-   "fin": "2026-11-27T00:00-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.ted.com/tedx/events/70415",
-   "inscripcion": "https://www.ted.com/tedx/events/70415",
-   "fuente": "TEDx",
-   "fuente_url": "https://www.ted.com/tedx/events",
-   "organizador": "TEDxUNALM",
-   "descripcion": "Evento TEDx (University) en Lima. Disponibilidad: SPACESAVAILABLE.",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Habilidades y liderazgo"
-   ],
-   "valor": 19,
-   "afinidad": 0,
-   "puntaje": 19,
-   "por_que": "Presencial en Lima · Universidad · Evento sin formato claro",
-   "visto_desde": "2026-11-26T06:49-05:00"
-  },
-  {
-   "id": "luma:evt-lQxK9Jqu5IPxkmP",
-   "titulo": "Executive Breakfast: IA en Crédito y Cobranzas: De pilotos a resultados reales",
-   "inicio": "2026-11-27T08:00-05:00",
-   "fin": "2026-11-27T10:00-05:00",
-   "lugar": "Lima, Perú",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/tnxh3l7j",
-   "fuente": "Luma",
-   "organizador": "PathPilot, Luis Narro",
-   "descripcion": "Un desayuno ejecutivo privado para conversar sobre cómo los bancos, financieras y fintechs están aplicando inteligencia artificial en sus operaciones de crédito y cobranzas, pasando de los pilotos a resultados reales.\nReuniremos a un grupo reducido de líderes del sector financiero para compartir casos reales, resultados, desafíos y aprendizajes sobre la implementación de IA en procesos como originación de crédito, gestión de cartera, atención al cliente y recuperación.\nUna conversación práctica sobre qué está funcionando, qué desafíos persisten y qué viene para el futuro del crédito impulsado por IA.\nAgenda\n8:00 · Desayuno y networkingUn espacio para conectar e intercambiar experiencias con ",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/iv/f83a078e-15c1-4c95-8f53-5c78f20f997c.png",
-   "inscripcion": "https://lu.ma/tnxh3l7j",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA",
-    "Ingeniería y operaciones"
-   ],
-   "valor": 27,
-   "afinidad": 36,
-   "puntaje": 63,
-   "por_que": "Abre puertas (beca/programa) · Afín: Supply chain y operaciones · Afín: Inteligencia artificial · Presencial en Lima",
-   "visto_desde": "2026-10-22T18:51-05:00"
-  },
-  {
    "id": "luma:evt-iTVBAG8NBefxAzw",
    "titulo": "Open Lab🔬|#27-nov",
    "inicio": "2026-11-27T09:00-05:00",
@@ -486,34 +341,6 @@
    "puntaje": 55,
    "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
    "visto_desde": "2026-11-23T18:15-05:00"
-  },
-  {
-   "id": "pucp:innovacion-tecnologia-y-conocimiento-para-impulsar-la-economia-circular-24112026192926",
-   "titulo": "Innovación, tecnología y conocimiento para impulsar la economía circular",
-   "inicio": "2026-11-27T09:30-05:00",
-   "fin": "2026-11-27T10:15-05:00",
-   "lugar": "Teatro NOS PUCP (Av. Camino Real 1037, San Isidro)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/innovacion-tecnologia-y-conocimiento-para-impulsar-la-economia-circular-24112026192926/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Este 27 de noviembre, el NOS PUCP será sede del IX Foro Internacional de Economía Circular, un espacio que reúne a diversos actores para compartir experiencias, promover iniciativas y generar soluciones sostenibles frente a los desafíos actuales.\n \nComo parte de este encuentro, la PUCP presentará el panel «Innovación, tecnología y conocimiento para impulsar la economía circular» que abordará el papel de la innovación, la tecnología y la colaboración entre la academia y el sector empresarial para impulsar la economía circular.\n \n¡Sé parte de este espacio de diálogo e intercambio que busca generar nuevas oportunidades para construir un futuro más sostenible!",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_2_Economia_circular_e0afd95f6e.jpg",
-   "inscripcion": "https://forointernacionaleconomiacircular.venuepe.com/registro?utm_source=correo+electronico&utm_medium=sistcom&utm_campaign=",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
-   ],
-   "valor": 34,
-   "afinidad": 22,
-   "puntaje": 56,
-   "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
-   "visto_desde": "2026-11-25T20:28-05:00"
   },
   {
    "id": "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-19112026121020",
@@ -1549,6 +1376,33 @@
    "visto_desde": "2026-11-15T13:26-05:00"
   },
   {
+   "id": "devpost:32215",
+   "titulo": "Acodemic X KeebsforWater Global SDG Hackathon",
+   "tipo": "hackathon",
+   "inicio": "2026-11-23T00:00-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://hackathon-draft-32215.devpost.com/",
+   "inscripcion": "https://hackathon-draft-32215.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Hack Club",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Social Good. Premios: $35.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 9,
+   "puntaje": 28,
+   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-23T06:40-05:00"
+  },
+  {
    "id": "devpost:31733",
    "titulo": "305 Veterans Hackathon Edition November 2026 — 305Hackathons.vercel.app",
    "tipo": "hackathon",
@@ -1577,33 +1431,6 @@
    "visto_desde": "2026-11-15T13:26-05:00"
   },
   {
-   "id": "devpost:32215",
-   "titulo": "Acodemic X KeebsforWater Global SDG Hackathon",
-   "tipo": "hackathon",
-   "inicio": "2026-11-23T00:00-05:00",
-   "fin": "2026-11-30T23:59-05:00",
-   "cierre": "2026-11-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://hackathon-draft-32215.devpost.com/",
-   "inscripcion": "https://hackathon-draft-32215.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Hack Club",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Education, Social Good. Premios: $35.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 9,
-   "puntaje": 28,
-   "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-23T06:40-05:00"
-  },
-  {
    "id": "devpost:31504",
    "titulo": "Code For DFW",
    "tipo": "hackathon",
@@ -1629,6 +1456,34 @@
    "puntaje": 25,
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-21T19:53-05:00"
+  },
+  {
+   "id": "devpost:32222",
+   "titulo": "National Hackathon 2026: AWS Student Builder Group COMSATS Sahiwal × ILC×Devsinc",
+   "tipo": "hackathon",
+   "inicio": "2026-11-26T00:00-05:00",
+   "fin": "2026-11-30T23:59-05:00",
+   "cierre": "2026-11-30T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://aws-sbg-cui-sahiwal-hack-2026.devpost.com/",
+   "inscripcion": "https://aws-sbg-cui-sahiwal-hack-2026.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "AWS SBG COMSATS Sahiwal",
+   "descripcion": "Hackathon online. Temas: Machine Learning/AI, Open Ended, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/995/262/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 24,
+   "afinidad": 29,
+   "puntaje": 53,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-27T11:00-05:00"
   },
   {
    "id": "opportunitiesforyouth:unteer-opportunity-for-leaders-in-sport-brands-and-digital-technology-",
@@ -1787,7 +1642,7 @@
    "organizador": "AMERIC AC",
    "descripcion": "Sesión técnica online con el Ing. Enrique Maldonado sobre principios, aplicaciones y diseño de vigas frías en hospitales.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=f6e933d2aa2638959f82e35ebe2fe9b8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197263717%2F262648874791%2F1%2Foriginal.20261104-151413?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.405&fp-y=0.044&s=c407ce90d27e238f2564d7589d0df29a",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2118,7 +1973,7 @@
    "organizador": "",
    "descripcion": "Cultura de servicio: el camino para transformar equipos y crear experiencias que dejan huella.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198606103%2F3006442371969%2F1%2Foriginal.20261124-132357?crop=focalpoint&fit=crop&w=340&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.075&fp-y=0.149&s=10dcadb18112ede45f8ccde8bbf9d39a",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198606103%2F3006442371969%2F1%2Foriginal.20261124-132357?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.075&fp-y=0.149&s=55d21f4985ec27fc2497515c23dc4431",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2145,7 +2000,7 @@
    "organizador": "Infopro",
    "descripcion": "Evento online sobre tendencias, coberturas y tecnologías digitales para personalizar seguros de viaje en la recuperación turística.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198548872%2F256438124752%2F1%2Foriginal.20261123-180123?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.512&fp-y=0.213&s=be9320c8bd537646ec288da9e2392694",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198548872%2F256438124752%2F1%2Foriginal.20261123-180123?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.512&fp-y=0.213&s=9e6199e5b989eac796814b3faaab4f24",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2790,7 +2645,7 @@
    "organizador": "ZirconTech",
    "descripcion": "Evento online sobre cómo usar IA para mejorar las ventas y optimizar el inventario.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198103865%2F2288947321483%2F1%2Foriginal.20261116-201618?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=11d0e25f22a4426020a231f589dbedd6",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198103865%2F2288947321483%2F1%2Foriginal.20261116-201618?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bc1d8bccb9abc1b8f85d657808e12de7",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2818,7 +2673,7 @@
    "organizador": "FEMBi Mortgage",
    "descripcion": "Aprende cómo financiar tu próxima propiedad de inversión en Puerto Rico o en Florida. Gratis, por Zoom y en español.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198629930%2F1207188940513%2F1%2Foriginal.20261124-184523?crop=focalpoint&fit=crop&w=340&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e281a4d4af47652578a5b1ae715ac5a0",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198629930%2F1207188940513%2F1%2Foriginal.20261124-184523?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5a7c7db06a9fded04d4102a975dd4ed2",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2829,33 +2684,6 @@
    "puntaje": 23,
    "por_que": "Formativo · Gratis · Virtual",
    "visto_desde": "2026-11-23T18:15-05:00"
-  },
-  {
-   "id": "devpost:31797",
-   "titulo": "Green Shift Hacks",
-   "tipo": "hackathon",
-   "inicio": "2026-10-18T00:00-05:00",
-   "fin": "2026-12-10T23:59-05:00",
-   "cierre": "2026-12-10T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://green-shift-hacks.devpost.com/",
-   "inscripcion": "https://green-shift-hacks.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "HackathonForEveryone",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Social Good. Premios: $125.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/250/datas/medium_square.png",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
    "id": "devpost:31994",
@@ -2884,6 +2712,33 @@
    "puntaje": 49,
    "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-08T14:21-05:00"
+  },
+  {
+   "id": "devpost:31797",
+   "titulo": "Green Shift Hacks",
+   "tipo": "hackathon",
+   "inicio": "2026-10-18T00:00-05:00",
+   "fin": "2026-12-10T23:59-05:00",
+   "cierre": "2026-12-10T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://green-shift-hacks.devpost.com/",
+   "inscripcion": "https://green-shift-hacks.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "HackathonForEveryone",
+   "descripcion": "Hackathon online. Temas: Beginner Friendly, Social Good. Premios: $125.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/250/datas/medium_square.png",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 6,
+   "puntaje": 25,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-10-20T16:10-05:00"
   },
   {
    "id": "devpost:31798",
@@ -3823,7 +3678,7 @@
    "organizador": "B&D Gestión Empresarial Integral",
    "descripcion": "Aprende todo sobre Diseño de Indicadores en solo 45 minutos, ¡y sin costo!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188009428%2F319168373075%2F1%2Foriginal.20260701-153539?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2fbcd3249b757727c0e9c7f0af2012cd",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188009428%2F319168373075%2F1%2Foriginal.20260701-153539?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bde23da1dbd6fc4ee0be7d2c60ee8400",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -7055,7 +6910,7 @@
    "organizador": "Coro de Niños de la Parroquia San Esteban",
    "descripcion": "El Coro de niños de la Parroquia San Esteban los invitan a participar de una noche mágica esperando la llegada del Niño Jesús al mundo",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198539952%2F3020682596621%2F1%2Foriginal.20261123-160529?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fc35e13aabc393a4c74bac905296e5b5",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198539952%2F3020682596621%2F1%2Foriginal.20261123-160529?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=038b500fd213afdd899656dbe6ec8419",
    "inscripcion": "https://www.eventbrite.com/e/entradas-recital-navideno-2005291591130",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7441,6 +7296,33 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "pucp:el-cine-desde-la-intuicion-construyendo-las-imagenes-ausentes-de-la-memoria-26112026181921",
+   "titulo": "El cine desde la intuición: construyendo las imágenes ausentes de la memoria",
+   "inicio": "2026-12-04T17:00-05:00",
+   "fin": "2026-12-04T19:00-05:00",
+   "lugar": "Complejo Mac Gregor (Pabellón N)",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/el-cine-desde-la-intuicion-construyendo-las-imagenes-ausentes-de-la-memoria-26112026181921/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Conversatorio · Comunicaciones · Cultura · Investigación · Departamento Académico de Comunicaciones",
+   "gratis": null,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/JARDIN_683bb2dab3_0a96cd929c_b099ace3a3_1_2199087631_6eb5b0e100_ee54e9179d.jpg",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/el-cine-desde-la-intuicion-construyendo-las-imagenes-ausentes-de-la-memoria-26112026181921/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "recreativo o de venta (cine)",
+   "categorias": [
+    "Investigación y ciencia"
+   ],
+   "valor": 19,
+   "afinidad": 8,
+   "puntaje": 27,
+   "por_que": "Presencial en Lima · Afín: Investigación · Universidad · Evento sin formato claro"
+  },
+  {
    "id": "eb:1901677772409",
    "titulo": "Foodies & Fears : Dinner with Strangers Lima",
    "inicio": "2026-12-09T19:00-05:00",
@@ -7553,7 +7435,7 @@
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=013203204f017f9c70974eb1057d8238",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
    "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334247690",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7763,6 +7645,34 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
+   "id": "devpost:31626",
+   "titulo": "Hackathon Agéntico SoftwareChido 2026B",
+   "tipo": "hackathon",
+   "inicio": "2026-10-05T00:00-05:00",
+   "fin": "2026-11-27T23:59-05:00",
+   "cierre": "2026-11-27T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://hackathon-agentico-2026b.devpost.com/",
+   "inscripcion": "https://hackathon-agentico-2026b.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "ITESO",
+   "descripcion": "Hackathon online. Temas: Education, Machine Learning/AI. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "motivo": "solo por invitación",
+   "categorias": [
+    "Competencias y hackathons",
+    "Tecnología e IA"
+   ],
+   "valor": 19,
+   "afinidad": 29,
+   "puntaje": 48,
+   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
    "id": "devpost:32193",
    "titulo": "DIU Dev Meetup 2026",
    "tipo": "hackathon",
@@ -7789,61 +7699,6 @@
    "afinidad": 18,
    "puntaje": 37,
    "por_que": "Competencia · Afín: Datos y machine learning · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:32182",
-   "titulo": "AlgoConnect Quantathon - 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-22T00:00-05:00",
-   "fin": "2026-11-28T23:59-05:00",
-   "cierre": "2026-11-28T23:59-05:00",
-   "lugar": "AlgoConnect - Montréal Offices",
-   "distrito": "AlgoConnect - Montréal Offices",
-   "modalidad": "Presencial",
-   "url": "https://algoconnect-quantathon-2026.devpost.com/",
-   "inscripcion": "https://algoconnect-quantathon-2026.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "AlgoConnect x QUARCC",
-   "descripcion": "Hackathon presencial en AlgoConnect - Montréal Offices. Temas: Fintech, Machine Learning/AI. Premios: $700.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/975/801/datas/medium_square.jpg",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Tecnología e IA",
-    "Negocios y emprendimiento"
-   ],
-   "valor": 16,
-   "afinidad": 30,
-   "puntaje": 46,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Gratis · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
-   "id": "devpost:32207",
-   "titulo": "Bath Game Jam 2026",
-   "tipo": "hackathon",
-   "inicio": "2026-11-23T00:00-05:00",
-   "fin": "2026-11-30T23:59-05:00",
-   "cierre": "2026-11-30T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://jam26.devpost.com/",
-   "inscripcion": "https://jam26.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Bath Computer Science Society",
-   "descripcion": "Hackathon online. Temas: Beginner Friendly, Design, Gaming. Premios: £0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/978/534/datas/medium_square.png",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 6,
-   "puntaje": 25,
-   "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "insc:8eca04457016",
@@ -7960,38 +7815,30 @@
  "recomendados": [
   "luma:evt-FvLvhaqmG2oHMsT",
   "luma:evt-JD0j4QbAhlAheTr",
-  "luma:evt-lQxK9Jqu5IPxkmP",
   "devpost:31775",
   "ieee:595272",
   "devpost:31480",
   "devpost:31642",
-  "pucp:innovacion-tecnologia-y-conocimiento-para-impulsar-la-economia-circular-24112026192926"
+  "luma:evt-iTVBAG8NBefxAzw",
+  "eb:2004916358800"
  ],
  "institucionales": {
   "Cumbre Perú Sostenible": 0,
   "PERUMIN": 1,
   "ESAN — eventos": 0,
   "PMI Lima": 0,
-  "Sociedad Nacional de Industrias": 2,
+  "Sociedad Nacional de Industrias": 1,
   "AmCham Perú": 2,
   "ComexPerú": 0
  },
  "se_viene": [],
  "calidad": {
-  "fecha": "2026-11-26T22:27-05:00",
-  "revisados": 177,
-  "corregidos": 9,
+  "fecha": "2026-11-27T10:59-05:00",
+  "revisados": 172,
+  "corregidos": 8,
   "avisos": 1,
   "archivados": 1,
   "problemas": [
-   {
-    "id": "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26",
-    "titulo": "Webinar: Novedades para el 2027 en materia de responsabilidad de los directores",
-    "fuente": "Institucional",
-    "nivel": "corregido",
-    "detalle": "hora de término de relleno (23:50)",
-    "url": "https://sni.org.pe/eventos/"
-   },
    {
     "id": "inst:sni-caf-industrial:2026-11-27",
     "titulo": "Café Industrial",
@@ -8074,7 +7921,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 11,
+   "comprobados": 3,
    "rotos": 0,
    "sin_comprobar": 0
   },
@@ -8090,10 +7937,18 @@
    "fecha_mencionada": ""
   },
   {
+   "titulo": "Comité Olímpico Peruano realizó con éxito el I Foro de Atletas “Rumbo a Lima 2027” en la Videna",
+   "url": "https://www.expreso.com.pe/deportes/comite-olimpico-peruano-realizo-con-exito-el-i-foro-de-atletas-rumbo-a-lima-2027-en-la-videna-noticia/1334898/",
+   "medio": "Diario Expreso",
+   "publicado": "Tue, 24 Nov 2026 07:02:00 GMT",
+   "resumen": "El Comité Olímpico Peruano organizó el I Foro de Atletas “Rumbo a Lima 2027” en la Videna para fortalecer la preparación y voz dirigencial de los deportistas nacionales.",
+   "fecha_mencionada": ""
+  },
+  {
    "titulo": "Foro de CGTN Español en Lima aborda agenda APEC 2026 y plantea oportunidades para Perú y la región sudamericana",
-   "url": "https://espanol.cri.cn/2026/11/21/ARTI1795228855201452",
-   "medio": "cri",
-   "publicado": "Fri, 20 Nov 2026 18:40:00 GMT",
+   "url": "https://espanol.cgtn.com/2026/11/21/ARTI1795228855201452",
+   "medio": "CGTN en Español",
+   "publicado": "Fri, 20 Nov 2026 21:29:00 GMT",
    "resumen": "La conversación sobre el futuro de Asia-Pacífico también llega a América Latina. Lima acogió el Foro Internacional Shenzhen 2026, organizado por CGTN Español, para analizar cómo Perú y China pueden tr ...",
    "fecha_mencionada": ""
   },
@@ -8130,22 +7985,6 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Feria del libro Lima Lee 2026 inicia este viernes 16 de octubre con más de 70 actividades gratuitas",
-   "url": "https://www.infobae.com/peru/2026/10/15/feria-del-libro-lima-lee-2026-inicia-este-viernes-16-de-octubre-con-mas-de-70-actividades-gratuitas/",
-   "medio": "Infobae",
-   "publicado": "Thu, 15 Oct 2026 08:22:00 GMT",
-   "resumen": "La Municipalidad de Lima organizará la Feria Metropolitana del Libro Lima Lee 2026 del viernes 16 al domingo 25 de octubre en el Museo Metropolitano de Lima, ubicado en la avenida 28 de Julio 700, en ...",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "De Nuestras Manos 2026: feria reúne lo mejor de la artesanía de las 25 regiones del Perú en Miraflores",
-   "url": "https://www.expreso.com.pe/actualidad/de-nuestras-manos-2026-feria-reune-lo-mejor-de-la-artesania-de-las-25-regiones-del-peru-en-miraflores-mincetur-noticia/1334432/",
-   "medio": "Diario Expreso",
-   "publicado": "Mon, 23 Nov 2026 16:04:00 GMT",
-   "resumen": "Nuestras Manos 2026 proyecta ventas superiores a S/1,5 millones y reúne a artesanos de las 25 regiones del Perú en Miraflores.",
-   "fecha_mencionada": ""
-  },
-  {
    "titulo": "Adoptatón 2026 en Lima: más de 150 perros y gatos buscan familia en gran feria de adopción",
    "url": "https://larepublica.pe/sociedad/2026/11/24/adoptaton-2026-en-lima-mas-de-150-perros-y-gatos-buscan-familia-en-gran-feria-de-adopcion-1426824",
    "medio": "La República",
@@ -8159,6 +7998,14 @@
    "medio": "Agencia Peruana de Noticias | ANDINA",
    "publicado": "Tue, 24 Nov 2026 15:59:00 GMT",
    "resumen": "Los empresarios del transporte público de Lima y Callao podrán conocer las alternativas que ofrece el mercado para renovar sus flotas con vehículos eléctricos y a gas natural vehicular (GNV) en la fer ...",
+   "fecha_mencionada": ""
+  },
+  {
+   "titulo": "De Nuestras Manos 2026: feria reúne lo mejor de la artesanía de las 25 regiones del Perú en Miraflores",
+   "url": "https://www.expreso.com.pe/actualidad/de-nuestras-manos-2026-feria-reune-lo-mejor-de-la-artesania-de-las-25-regiones-del-peru-en-miraflores-mincetur-noticia/1334432/",
+   "medio": "Diario Expreso",
+   "publicado": "Mon, 23 Nov 2026 16:04:00 GMT",
+   "resumen": "Nuestras Manos 2026 proyecta ventas superiores a S/1,5 millones y reúne a artesanos de las 25 regiones del Perú en Miraflores.",
    "fecha_mencionada": ""
   }
  ],
@@ -8406,8 +8253,6 @@
   "devpost:30789": "2026-10-20T11:15-05:00",
   "devpost:31797": "2026-10-20T16:10-05:00",
   "eb:2003706120946": "2026-10-21T14:07-05:00",
-  "eb:2003742708380": "2026-10-21T18:55-05:00",
-  "luma:evt-lQxK9Jqu5IPxkmP": "2026-10-22T18:51-05:00",
   "luma:evt-FpMXsIt3VijlANC": "2026-10-23T18:45-05:00",
   "meetup:317124918": "2026-10-24T21:51-05:00",
   "eb:2003710622410": "2026-10-25T13:03-05:00",
@@ -8437,7 +8282,6 @@
   "devpost:31994": "2026-11-08T14:21-05:00",
   "devpost:32060": "2026-11-09T05:50-05:00",
   "luma:evt-I4mWZZwvfYsGvZ9": "2026-11-09T16:52-05:00",
-  "inst:sni-webinar-novedades-para-el-2027-en-materia-de-responsabil:2026-11-26": "2026-11-10T00:42-05:00",
   "luma:evt-LYBDdhSpzrtFOhZ": "2026-11-10T00:42-05:00",
   "devpost:31973": "2026-11-10T09:10-05:00",
   "devpost:32079": "2026-11-10T16:11-05:00",
@@ -8500,7 +8344,6 @@
   "devpost:32061": "2026-11-22T20:22-05:00",
   "devpost:31974": "2026-11-22T20:22-05:00",
   "eb:2005172693504": "2026-11-23T06:40-05:00",
-  "luma:evt-QKh3LnwQuK7NpTw": "2026-11-23T06:40-05:00",
   "devpost:32215": "2026-11-23T06:40-05:00",
   "eb:2005159198139": "2026-11-23T06:40-05:00",
   "luma:evt-SJDv2zAJxWhfItg": "2026-11-23T06:40-05:00",
@@ -8525,11 +8368,9 @@
   "eb:2005435187631": "2026-11-25T11:41-05:00",
   "opportunitydesk:management-creative-job-opportunities-currently-open-november-25-2026-": "2026-11-25T20:28-05:00",
   "opportunitydesk:5-10-global-scholarship-opportunities-currently-open-november-25-2026-": "2026-11-25T20:28-05:00",
-  "pucp:innovacion-tecnologia-y-conocimiento-para-impulsar-la-economia-circular-24112026192926": "2026-11-25T20:28-05:00",
   "opportunitydesk:s-opportunitydesk-org-2026-11-25-iaffe-feminist-economics-school-2027-": "2026-11-25T20:28-05:00",
   "eb:2005435725239": "2026-11-25T20:28-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-11-25-iso-lomso-fellowships-2028-": "2026-11-25T20:28-05:00",
-  "tedx:70415": "2026-11-26T06:49-05:00",
   "meetup:317592183": "2026-11-26T15:51-05:00",
   "opportunitydesk:desk-org-2026-11-26-google-for-startups-accelerator-sovereign-ai-2027-": "2026-11-26T15:51-05:00",
   "opportunitiesforyouth:-join-a-worldwide-network-and-share-your-views-on-human-rights-cities-": "2026-11-26T22:27-05:00",
@@ -8537,6 +8378,7 @@
   "luma:evt-JD0j4QbAhlAheTr": "2026-11-26T22:27-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04": "2026-11-26T22:27-05:00",
   "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11": "2026-11-26T22:27-05:00",
-  "luma:evt-AYYckjZyhW0zEYX": "2026-11-26T22:27-05:00"
+  "luma:evt-AYYckjZyhW0zEYX": "2026-11-26T22:27-05:00",
+  "devpost:32222": "2026-11-27T11:00-05:00"
  }
 }
