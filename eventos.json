@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-27T11:00-05:00",
+ "actualizado": "2026-11-27T19:59-05:00",
  "fuentes": {
   "Luma": {
    "ok": true,
-   "n": 48
+   "n": 44
   },
   "Eventbrite": {
    "ok": true,
@@ -15,15 +15,15 @@
   },
   "Meetup": {
    "ok": true,
-   "n": 5
+   "n": 4
   },
   "PUCP": {
    "ok": true,
-   "n": 10
+   "n": 8
   },
   "IEEE Perú": {
    "ok": true,
-   "n": 8
+   "n": 7
   },
   "Devpost": {
    "ok": true,
@@ -47,7 +47,7 @@
   },
   "Institucionales": {
    "ok": true,
-   "n": 4
+   "n": 2
   },
   "Inscripciones (Linktree)": {
    "ok": true,
@@ -58,7 +58,7 @@
    "n": 0
   }
  },
- "revisados": 292,
+ "revisados": 282,
  "top": 55,
  "eventos": [
   {
@@ -315,62 +315,6 @@
    "visto_desde": "2026-11-26T22:27-05:00"
   },
   {
-   "id": "luma:evt-iTVBAG8NBefxAzw",
-   "titulo": "Open Lab🔬|#27-nov",
-   "inicio": "2026-11-27T09:00-05:00",
-   "fin": "2026-11-27T12:00-05:00",
-   "lugar": "Campus PUCP, Av. Universitaria 1801, San Miguel",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/8v21ldsl",
-   "fuente": "Luma",
-   "organizador": "Open Lab - PUCP",
-   "descripcion": "¿Quieres explorar nuevas oportunidades de innovación para tu organización, con el respaldo de una universidad líder en investigación en el país?\nOpen Lab es una experiencia diseñada especialmente para empresas que buscan transformar ideas en proyectos concretos. Durante esta visita guiada podrás recorrer laboratorios y centros especializados de la Pontificia Universidad Católica del Perú, conocer nuestras capacidades técnicas y ver de cerca cómo trabajamos en proyectos de I+D+i, validación tecnológica, innovación abierta y desafíos articulados con cursos de pregrado y posgrado.\nCon más de 15 años de experiencia en vinculación empresa–universidad, más de 250 proyectos de colaboración desarrol",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/mf/30d62035-1f96-4870-8cc0-0435d06c5f47.jpg",
-   "inscripcion": "https://lu.ma/8v21ldsl",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
-   ],
-   "valor": 35,
-   "afinidad": 20,
-   "puntaje": 55,
-   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Afín: Becas y posgrado",
-   "visto_desde": "2026-11-23T18:15-05:00"
-  },
-  {
-   "id": "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-19112026121020",
-   "titulo": "Open Lab: Abre nuevas posibilidades para innovar",
-   "inicio": "2026-11-27T10:00-05:00",
-   "fin": "2026-11-27T12:00-05:00",
-   "lugar": "Campus PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/open-lab-abre-nuevas-posibilidades-para-innovar-19112026121020/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "¿Buscas impulsar la innovación de tu empresa junto a la academia?\nAcompáñanos en la 3era edición de Open Lab, un espacio diseñado para conectar al sector empresarial con investigadores y tecnología de vanguardia.\nAdemás, explora oportunidades de I+D y aprende a aprovechar los beneficios tributarios de la Ley N.° 30309.",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_1_d405164c56.jpg",
-   "inscripcion": "https://luma.com/8v21ldsl",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Negocios y emprendimiento",
-    "Tecnología e IA"
-   ],
-   "valor": 35,
-   "afinidad": 12,
-   "puntaje": 47,
-   "por_que": "Formativo · Presencial en Lima · Afín: Investigación · Universidad",
-   "visto_desde": "2026-11-19T14:53-05:00"
-  },
-  {
    "id": "luma:evt-B8EX8PEoPH2UZrV",
    "titulo": "VI CNR UNI",
    "inicio": "2026-11-27T11:00-05:00",
@@ -399,114 +343,6 @@
    "visto_desde": "2026-09-28T16:03-05:00"
   },
   {
-   "id": "luma:evt-tPeo1ykCrrwml2V",
-   "titulo": "Comprendiendo la computación cuántica",
-   "inicio": "2026-11-27T14:00-05:00",
-   "fin": "2026-11-27T17:00-05:00",
-   "lugar": "Ciudad Universitaria - UNMSM, Av. Venezuela 3400, Lima",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/0oeu9337",
-   "fuente": "Luma",
-   "organizador": "Escuela Peruana de Gestión de Riesgos, Omar Briceño",
-   "descripcion": "EPGR - Escuela Peruana de Gestión de Riesgos e IEEE CIS UNMSM se unen para presentarte el evento presencial Comprendiendo la computación cuántica: sus alcances y limitaciones.\nEn este encuentro presencial exploraremos, de manera clara y accesible, los principios que hacen posible la computación cuántica, conceptos como qubits, superposición, entrelazamiento e interferencia, y su relación con el procesamiento de información.\nTambién revisaremos sus principales campos de aplicación, el estado actual de la tecnología y algunos de los desafíos que todavía deben resolverse antes de alcanzar una adopción más amplia.",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/1y/b7f5a0cb-8f31-4471-b9b5-fa63ed15b4b6.jpg",
-   "inscripcion": "https://lu.ma/0oeu9337",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Tecnología e IA"
-   ],
-   "valor": 31,
-   "afinidad": 0,
-   "puntaje": 31,
-   "por_que": "Networking · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-11-04T20:19-05:00"
-  },
-  {
-   "id": "luma:evt-SnZW9NhglnDHOdd",
-   "titulo": "[PRESENCIAL] Student OS Workshop – Ordena tu ciclo",
-   "inicio": "2026-11-27T16:00-05:00",
-   "fin": "2026-11-27T19:00-05:00",
-   "lugar": "Lima, Perú",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/notion-gect",
-   "fuente": "Luma",
-   "organizador": "Notion Community Lima",
-   "descripcion": "¡Es momento de transformar tu forma de estudiar!\nTe invitamos al Student OS Workshop, un espacio donde aprenderás a construir desde cero tu propio sistema de estudios en Notion, adaptado a tus necesidades universitarias.\nDurante esta experiencia aprenderás a organizar tus cursos, gestionar tus tareas y entregas, hacer seguimiento de tu progreso académico y centralizar todos tus recursos de estudio en un solo espacio.\nLo mejor es que no necesitas experiencia previa con Notion. Construiremos el sistema paso a paso para que, al finalizar el workshop, tengas tu propio espacio de trabajo funcional y listo para utilizar en tu día a día.\nAdemás, contaremos con la participación de Notion Campus Lead",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/uploads/z6/fb092a17-2e44-40d5-ba30-59247f690655.png",
-   "inscripcion": "https://lu.ma/notion-gect",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Investigación y ciencia"
-   ],
-   "valor": 28,
-   "afinidad": 0,
-   "puntaje": 28,
-   "por_que": "Formativo · Presencial en Lima · Gratis",
-   "visto_desde": "2026-11-20T14:32-05:00"
-  },
-  {
-   "id": "meetup:317539689",
-   "titulo": "Young Adults English Meetup (18–38) ☕ | McDonald's – Risso",
-   "inicio": "2026-11-27T16:00-05:00",
-   "fin": "2026-11-27T19:00-05:00",
-   "lugar": "",
-   "distrito": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://www.meetup.com/lince-english-group/events/317539689/",
-   "fuente": "Meetup",
-   "organizador": "English Practice Club 🎉✨",
-   "descripcion": "☕ Join us on Friday at 4:00 PM for coffee and English practice in Lince, Lima! 😎\n👥 Age group: 18–38 years old! This meetup is for young adults who want to practice English and Spanish, make friends, meet people their age, and share cultures.\n📍 Location: McDonald's – Plaza Vea Risso.\n🗣️ All English levels are welcome! We'll have fun conversation activities, partner rotations, and opportunities to meet new people.\n☕ Please consider ordering a McCoffee or something to eat to support the venue. 🥐\n🥐🙏 https://chat.whatsapp.com/H7RVh6cKa7XG3GQVPDwGSO\n🎲 Fun activies during this meetup!\n\n1. 🗣️ Conversation Rotations: Talk in groups of 2–3 for 10 minutes, then switch partners to practice with differen",
-   "gratis": null,
-   "imagen": "",
-   "inscripcion": "https://www.meetup.com/lince-english-group/events/317539689/",
-   "fuente_url": "https://www.meetup.com/lince-english-group/events/ical/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 18,
-   "afinidad": 0,
-   "puntaje": 18,
-   "por_que": "Networking · Presencial en Lima",
-   "visto_desde": "2026-11-22T13:58-05:00"
-  },
-  {
-   "id": "pucp:talleres-de-cultura-china-trimestre-2026-4-17112026115557",
-   "titulo": "Talleres de Cultura China Trimestre 2026-4",
-   "inicio": "2026-11-27T16:00-05:00",
-   "fin": "2026-11-27T17:30-05:00",
-   "lugar": "Instituto Confucio",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/talleres-de-cultura-china-trimestre-2026-4-17112026115557/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "El Instituto Confucio de la Pontificia Universidad Católica del Perú, institución dedicada a la enseñanza y difusión de la lengua y la cultura china, te invita a participar en los Talleres Presenciales de Cultura China del trimestre 2026-4.\n \nEste trimestre, nuestras docentes ofrecerán tres talleres culturales diseñados para conectar con la cultura china a través del canto, la caligrafía y la pintura. Las inscripciones estarán disponibles exclusivamente a través de nuestra página web durante las fechas programadas.\n \n➤ “Trazos de buena fortuna: escribe tus deseos al estilo chino”\n● Fechas de inscripción: Martes 17 y miércoles 18 de noviembre\n● Fecha del taller: Viernes 20 de noviembre\n● Hora",
-   "gratis": true,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_PUCP_4_1_ceafa0de77.png",
-   "inscripcion": "https://confucio.pucp.edu.pe/actividades/talleres-de-cultura-china-trimestre-2026-4/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 35,
-   "afinidad": 0,
-   "puntaje": 35,
-   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
-   "visto_desde": "2026-11-17T21:43-05:00"
-  },
-  {
    "id": "luma:evt-9BkR7E9Zyumrox9",
    "titulo": "🎉 La Hora de la IA Perú 2026 | Evento de Cierre",
    "inicio": "2026-11-27T17:00-05:00",
@@ -533,33 +369,6 @@
    "puntaje": 54,
    "por_que": "Abre puertas (beca/programa) · Afín: Inteligencia artificial · Presencial en Lima · Afín: Becas y posgrado",
    "visto_desde": "2026-09-28T22:49-05:00"
-  },
-  {
-   "id": "ieee:596709",
-   "titulo": "Lecture: Segmentación semántica con Deep Learning. De pixels a mapas: fundamentos y aplicaciones en imágenes satelitales",
-   "inicio": "2026-11-27T17:00-05:00",
-   "fin": "2026-11-27T19:00-05:00",
-   "lugar": "CAMPUS DE INGENIERIA ELECTRONICA - UNSAAC",
-   "distrito": "CUSCO",
-   "modalidad": "Presencial",
-   "url": "https://events.vtools.ieee.org/m/596709",
-   "inscripcion": "https://events.vtools.ieee.org/m/596709",
-   "fuente": "IEEE Perú",
-   "fuente_url": "https://events.vtools.ieee.org/",
-   "organizador": "IEEE · Univ Nacional San Antonio Abad del Cusco,ED15",
-   "descripcion": "Conferencia técnica dictada por el Dr. Victor Ayma Quirita sobre los fundamentos y evolución de las técnicas de segmentación semántica aplicadas a imágenes satelitales y teledetección, abordando arquitecturas como U-Net, ResUnet y DeepLab. Durante la sesión se analizaron aspectos prácticos clave como la construcción de ground truth, desbalance de clases, métricas de evaluación y generalización espacial, demostrando cómo el aprendizaje profundo permite transformar datos satelitales en productos cartográficos de alto valor para el monitoreo y gestión del territorio.",
-   "gratis": true,
-   "imagen": "",
-   "tipo": "evento",
-   "cierre": "",
-   "categorias": [
-    "Datos y analítica"
-   ],
-   "valor": 27,
-   "afinidad": 12,
-   "puntaje": 39,
-   "por_que": "Formativo · Afín: Datos y machine learning · Gremio o institución · Gratis",
-   "visto_desde": "2026-11-23T18:15-05:00"
   },
   {
    "id": "luma:evt-I4mWZZwvfYsGvZ9",
@@ -677,34 +486,6 @@
    "puntaje": 18,
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro",
    "visto_desde": "2026-11-05T14:27-05:00"
-  },
-  {
-   "id": "devpost:32133",
-   "titulo": "Creators AI Winter Challenge",
-   "tipo": "hackathon",
-   "inicio": "2026-11-19T00:00-05:00",
-   "fin": "2026-11-27T23:59-05:00",
-   "cierre": "2026-11-27T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://creators-ai-winter-challenge.devpost.com/",
-   "inscripcion": "https://creators-ai-winter-challenge.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Creators AI ",
-   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/966/592/datas/medium_square.png",
-   "categorias": [
-    "Tecnología e IA",
-    "Competencias y hackathons"
-   ],
-   "valor": 19,
-   "afinidad": 25,
-   "puntaje": 44,
-   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)",
-   "visto_desde": "2026-11-22T05:39-05:00"
   },
   {
    "id": "devpost:32155",
@@ -1152,6 +933,34 @@
    "visto_desde": "2026-11-21T05:35-05:00"
   },
   {
+   "id": "devpost:32133",
+   "titulo": "Creators AI Winter Challenge",
+   "tipo": "hackathon",
+   "inicio": "2026-11-19T00:00-05:00",
+   "fin": "2026-11-28T23:59-05:00",
+   "cierre": "2026-11-28T23:59-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Virtual",
+   "url": "https://creators-ai-winter-challenge.devpost.com/",
+   "inscripcion": "https://creators-ai-winter-challenge.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "Creators AI ",
+   "descripcion": "Hackathon online. Temas: Enterprise, Fintech, Productivity. Premios: $0.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/966/592/datas/medium_square.png",
+   "categorias": [
+    "Tecnología e IA",
+    "Competencias y hackathons"
+   ],
+   "valor": 19,
+   "afinidad": 25,
+   "puntaje": 44,
+   "por_que": "Competencia · Afín: Inteligencia artificial · Afín: Competencias · Gratis · (Hackathon global sin vínculo con el Perú)",
+   "visto_desde": "2026-11-22T05:39-05:00"
+  },
+  {
    "id": "devpost:31789",
    "titulo": "STEM2Connect AI Hackathon",
    "tipo": "hackathon",
@@ -1237,6 +1046,33 @@
     "titulo": "MÁS ALLÁ DE LAS FRONTERAS"
    },
    "visto_desde": "2026-11-18T14:53-05:00"
+  },
+  {
+   "id": "pucp:talleres-de-cultura-china-trimestre-2026-4-17112026115557",
+   "titulo": "Talleres de Cultura China Trimestre 2026-4",
+   "inicio": "2026-11-30T17:00-05:00",
+   "fin": "2026-11-30T18:30-05:00",
+   "lugar": "Instituto Confucio",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/talleres-de-cultura-china-trimestre-2026-4-17112026115557/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "El Instituto Confucio de la Pontificia Universidad Católica del Perú, institución dedicada a la enseñanza y difusión de la lengua y la cultura china, te invita a participar en los Talleres Presenciales de Cultura China del trimestre 2026-4.\n \nEste trimestre, nuestras docentes ofrecerán tres talleres culturales diseñados para conectar con la cultura china a través del canto, la caligrafía y la pintura. Las inscripciones estarán disponibles exclusivamente a través de nuestra página web durante las fechas programadas.\n \n➤ “Trazos de buena fortuna: escribe tus deseos al estilo chino”\n● Fechas de inscripción: Martes 17 y miércoles 18 de noviembre\n● Fecha del taller: Viernes 20 de noviembre\n● Hora",
+   "gratis": true,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_PUCP_4_1_ceafa0de77.png",
+   "inscripcion": "https://confucio.pucp.edu.pe/actividades/talleres-de-cultura-china-trimestre-2026-4/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 35,
+   "afinidad": 0,
+   "puntaje": 35,
+   "por_que": "Formativo · Presencial en Lima · Universidad · Gratis",
+   "visto_desde": "2026-11-17T21:43-05:00"
   },
   {
    "id": "eb:2003527459565",
@@ -1836,7 +1672,7 @@
    "organizador": "SMA Solar Academy - ES",
    "descripcion": "Desmontaremos 10 mitos repetidos sobre la producción fotovoltaica, orientaciones, inclinaciones, diseño, funcionamiento...",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f0cf6754cd0e1819b56805286aed94c8",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196285012%2F428059197284%2F1%2Foriginal.20261021-152230?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e1f4d0f54a9f9a6d77a69d4459dca44",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2045,37 +1881,6 @@
    "visto_desde": "2026-11-06T13:51-05:00"
   },
   {
-   "id": "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04",
-   "titulo": "EdTech Hub",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-12-04T00:00-05:00",
-   "fin": "2026-12-04T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://amcham.org.pe/evento/curso-1-introduccion-a-la-ia-moderna/",
-   "inscripcion": "https://amcham.org.pe/evento/curso-1-introduccion-a-la-ia-moderna/",
-   "fuente": "Institucional",
-   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
-   "organizador": "Cámara de Comercio Americana del Perú",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/10/2390_ws.jpg",
-   "extraido_por": "sitemap + fecha en texto",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-11-26T22:27-05:00"
-  },
-  {
    "id": "luma:evt-ymyX3k2zUlqYCqU",
    "titulo": "MAQNIFICA TU 2027",
    "inicio": "2026-12-04T09:00-05:00",
@@ -2169,7 +1974,7 @@
    "modalidad": "Presencial",
    "url": "https://lu.ma/fu3l1g0r",
    "fuente": "Luma",
-   "organizador": "nosoyceo",
+   "organizador": "hack0.dev",
    "descripcion": "¿Cobras del exterior y quieres aprender a invertir tu dinero? Este fin de año, aprende a invertir con Takenos 💸\n🥳 Cerramos el 2026 con un after office exclusivo donde aprenderás a dar tus primeros pasos invirtiendo desde Takenos. Después, a celebrar todo lo que logramos este año.\n\n¿Qué habrá en nuestra Last Party?\n📈 Charla: primeros pasos para invertir, con Facundo y Camila del equipo de Takenos. Qué es invertir, por qué empezar de a poquito y cómo hacerlo desde la app.\n❓ Ronda de preguntas para que salgas sin dudas.\nAdemássss:🍸 Tragos. 🥐 Bocaditos. 🎁 Merch de Takenos. 🎶 Música toda la noche. 💨 Sorteos entre los asistentes.\n\n📍 Av. Pardo 230, Miraflores, Of. 1704 D\n📅 Viernes 4 de diciembre\n⏰ ",
    "gratis": true,
    "imagen": "https://images.lumacdn.com/uploads/r5/501140a6-19ce-4a98-9fc8-ba5925ccae8b.png",
@@ -2178,6 +1983,7 @@
    "tipo": "evento",
    "cierre": "",
    "categorias": [
+    "Tecnología e IA",
     "Negocios y emprendimiento"
    ],
    "valor": 28,
@@ -2645,7 +2451,7 @@
    "organizador": "ZirconTech",
    "descripcion": "Evento online sobre cómo usar IA para mejorar las ventas y optimizar el inventario.",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198103865%2F2288947321483%2F1%2Foriginal.20261116-201618?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bc1d8bccb9abc1b8f85d657808e12de7",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198103865%2F2288947321483%2F1%2Foriginal.20261116-201618?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=11d0e25f22a4426020a231f589dbedd6",
    "tipo": "evento",
    "cierre": "",
    "categorias": [
@@ -2793,66 +2599,6 @@
    "puntaje": 28,
    "por_que": "Competencia · Afín: Competencias · Gratis · Con premio · (Hackathon global sin vínculo con el Perú)",
    "visto_desde": "2026-11-22T20:22-05:00"
-  },
-  {
-   "id": "opportunitydesk:s-opportunitydesk-org-2026-11-25-iaffe-feminist-economics-school-2027-",
-   "titulo": "IAFFE Feminist Economics School 2027 (Funded)",
-   "tipo": "convocatoria",
-   "inicio": "2026-12-10T23:59-05:00",
-   "fin": "2026-12-10T23:59-05:00",
-   "cierre": "2026-12-10T23:59-05:00",
-   "publicado": "2026-11-25T15:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/25/iaffe-feminist-economics-school-2027/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/25/iaffe-feminist-economics-school-2027/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "Deadline: December 10, 2026 Applications are open for the IAFFE Feminist Economics School 2027. The IAFFE Feminist Economics School is designed to bring together approximately 30 early-career scholars, practitioners, activists, and policymakers engaged in research and action on issues of concern to feminist economics, but who have had little or no formal access to training [...]",
-   "gratis": null,
-   "imagen": "",
-   "categorias": [
-    "Investigación y ciencia",
-    "Habilidades y liderazgo"
-   ],
-   "valor": 21,
-   "afinidad": 8,
-   "puntaje": 29,
-   "por_que": "Formativo · Afín: Investigación · Plazo claro · Se postula en línea",
-   "visto_desde": "2026-11-25T20:28-05:00"
-  },
-  {
-   "id": "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11",
-   "titulo": "EdTech Hub",
-   "tipo": "evento",
-   "institucional": true,
-   "escala": "media",
-   "inicio": "2026-12-11T00:00-05:00",
-   "fin": "2026-12-11T23:59-05:00",
-   "cierre": "",
-   "lugar": "Lima",
-   "distrito": "Lima",
-   "ciudad": "Lima",
-   "modalidad": "Presencial",
-   "url": "https://amcham.org.pe/evento/curso-2-aspectos-basicos-de-la-inteligencia-artificial/",
-   "inscripcion": "https://amcham.org.pe/evento/curso-2-aspectos-basicos-de-la-inteligencia-artificial/",
-   "fuente": "Institucional",
-   "fuente_url": "https://amcham.org.pe/eventos/proximos/",
-   "organizador": "Cámara de Comercio Americana del Perú",
-   "descripcion": "",
-   "gratis": null,
-   "imagen": "https://amcham.org.pe/wp-content/uploads/2026/10/2390_ws.jpg",
-   "extraido_por": "sitemap + fecha en texto",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 29,
-   "afinidad": 0,
-   "puntaje": 29,
-   "por_que": "Evento institucional · Presencial en Lima · Gremio o institución · Evento sin formato claro",
-   "visto_desde": "2026-11-26T22:27-05:00"
   },
   {
    "id": "luma:evt-jfsSWBTWWcWlJEa",
@@ -3883,6 +3629,34 @@
    "puntaje": 43,
    "por_que": "Afín: Supply chain y operaciones · Formativo · Afín: Investigación · Se postula en línea",
    "visto_desde": "2026-09-26T08:43-05:00"
+  },
+  {
+   "id": "opportunitydesk:itydesk-org-2026-11-27-queen-elizabeth-commonwealth-scholarships-2027-",
+   "titulo": "Queen Elizabeth Commonwealth Scholarships 2027 (Fully-funded)",
+   "tipo": "convocatoria",
+   "inicio": "2027-01-13T23:59-05:00",
+   "fin": "2027-01-13T23:59-05:00",
+   "cierre": "2027-01-13T23:59-05:00",
+   "publicado": "2026-11-27T13:07-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/27/queen-elizabeth-commonwealth-scholarships-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/27/queen-elizabeth-commonwealth-scholarships-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: January 13, 2027 Applications are open for the Queen Elizabeth Commonwealth Scholarships 2027. The Queen Elizabeth Commonwealth Scholarships (QECS) offer a unique opportunity to study a two-year master’s degree in a low or middle-income Commonwealth country. Aimed at students who are committed to creating change in their communities, the scholarships are a life-changing opportunity [...]",
+   "gratis": null,
+   "imagen": "",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea",
+   "visto_desde": "2026-11-27T19:59-05:00"
   },
   {
    "id": "devpost:30764",
@@ -6598,45 +6372,20 @@
    "por_que": "Abre puertas (beca/programa) · Presencial en Lima · Universidad"
   },
   {
-   "id": "luma:evt-x9hlQqB2jL0pb5Z",
-   "titulo": "Mesa de Trabajo Perú: FERREYCORP",
-   "inicio": "2026-11-27T08:30-05:00",
-   "fin": "2026-11-27T11:30-05:00",
-   "lugar": "Jirón Cristóbal de Peralta Nte. 820, Santiago de Surco",
-   "distrito": "Santiago de Surco",
-   "modalidad": "Presencial",
-   "url": "https://lu.ma/bcv00hh9",
-   "fuente": "Luma",
-   "organizador": "Comunidad Aequales",
-   "descripcion": "¿Cómo le decimos adiós a alguien que dedicó décadas a tu empresa? ¿Y cómo se acompaña a quien recién empieza?\nEn esta Mesa de Trabajo presencial de la Comunidad Aequales, Ferreycorp, nos abre sus puertas para compartir su programa de preparación para la jubilación. Es una propuesta que convierte la ",
-   "gratis": true,
-   "imagen": "https://images.lumacdn.com/event-covers/ff/36c6ace2-70a0-4771-a53a-e8ad2e61a770.png",
-   "inscripcion": "https://lu.ma/bcv00hh9",
-   "fuente_url": "https://lu.ma/lima",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "no encaja en ningún área formativa",
-   "categorias": [],
-   "valor": 24,
-   "afinidad": 0,
-   "puntaje": 24,
-   "por_que": "Networking · Presencial en Lima · Gratis"
-  },
-  {
-   "id": "eb:2004335891607",
+   "id": "eb:2004335893613",
    "titulo": "The Only Fre Food Tasting Tours in Lima",
-   "inicio": "2026-11-27T17:00-05:00",
-   "fin": "2026-11-27T18:30-05:00",
+   "inicio": "2026-11-27T20:00-05:00",
+   "fin": "2026-11-27T21:30-05:00",
    "lugar": "McDonald's, 599 Jirón de la Unión",
    "distrito": "Lima",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335891607",
+   "url": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335893613",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "The all experience include your personal escorted-guide, a professional guide-chef who explain you all topics regarding gastronomy & history",
    "gratis": false,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197226201%2F1749040313973%2F1%2Foriginal.20261104-013841?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=df89194e2053dc303483a99a506a6cba",
-   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335891607",
+   "inscripcion": "https://www.eventbrite.com.pe/e/the-only-fre-food-tasting-tours-in-lima-tickets-2004335893613",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -6910,7 +6659,7 @@
    "organizador": "Coro de Niños de la Parroquia San Esteban",
    "descripcion": "El Coro de niños de la Parroquia San Esteban los invitan a participar de una noche mágica esperando la llegada del Niño Jesús al mundo",
    "gratis": true,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198539952%2F3020682596621%2F1%2Foriginal.20261123-160529?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=038b500fd213afdd899656dbe6ec8419",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198795272%2F3020682596621%2F1%2Foriginal.20261127-172908?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=022eb2c99df0cb246f68afa7e1a2ca34",
    "inscripcion": "https://www.eventbrite.com/e/entradas-recital-navideno-2005291591130",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7073,62 +6822,6 @@
    "por_que": "Presencial en Lima · Gratis · Evento sin formato claro"
   },
   {
-   "id": "opportunitydesk:ing-the-festive-season-10-strategies-every-business-owner-should-know-",
-   "titulo": "How to Boost Your Sales During the Festive Season: 10 Strategies Every Business Owner Should Know",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-25T15:31-05:00",
-   "fin": "2026-11-25T15:31-05:00",
-   "cierre": "",
-   "publicado": "2026-11-25T15:31-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/25/how-to-boost-your-sales-during-the-festive-season-10-strategies-every-business-owner-should-know/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/25/how-to-boost-your-sales-during-the-festive-season-10-strategies-every-business-owner-should-know/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "The festive season presents one of the biggest opportunities for entrepreneurs and business owners to increase revenue, attract new customers and strengthen their brand visibility. From Christmas and New Year celebrations to other cultural and religious festivities, consumers are often more willing ",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "no es una convocatoria (artículo o consejos)",
-   "categorias": [
-    "Negocios y emprendimiento"
-   ],
-   "valor": 16,
-   "afinidad": 0,
-   "puntaje": 16,
-   "por_que": "Abre puertas (beca/programa) · Se postula en línea"
-  },
-  {
-   "id": "opportunitydesk:-your-holidays-count-how-to-gain-new-skills-during-the-holiday-season-",
-   "titulo": "Make Your Holidays Count: How to Gain New Skills During the Holiday Season",
-   "tipo": "convocatoria",
-   "inicio": "2026-11-25T15:42-05:00",
-   "fin": "2026-11-25T15:42-05:00",
-   "cierre": "",
-   "publicado": "2026-11-25T15:42-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Internacional",
-   "url": "https://opportunitydesk.org/2026/11/25/make-your-holidays-count-how-to-gain-new-skills-during-the-holiday-season/",
-   "inscripcion": "https://opportunitydesk.org/2026/11/25/make-your-holidays-count-how-to-gain-new-skills-during-the-holiday-season/",
-   "fuente": "Opportunity Desk",
-   "fuente_url": "https://opportunitydesk.org/",
-   "organizador": "",
-   "descripcion": "The holiday season is often associated with celebrations, family gatherings, travel, relaxation and taking a break from the demands of work or school. While it is important to rest and reconnect with loved ones, the holidays also present an excellent opportunity to invest in your personal and profes",
-   "gratis": null,
-   "imagen": "",
-   "motivo": "no es una convocatoria (artículo o consejos)",
-   "categorias": [
-    "Idiomas, becas e internacional"
-   ],
-   "valor": 16,
-   "afinidad": 0,
-   "puntaje": 16,
-   "por_que": "Abre puertas (beca/programa) · Se postula en línea"
-  },
-  {
    "id": "opportunitiesforyouth:ine-volunteer-opportunity-2026-grant-and-proposal-development-support-",
    "titulo": "UNFPA Eswatini Online Volunteer Opportunity 2026: Grant and Proposal Development Support",
    "tipo": "voluntariado",
@@ -7213,32 +6906,59 @@
    "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31956",
-   "titulo": "Build Day 2",
+   "id": "devpost:31716",
+   "titulo": "hackaTUM 2026",
    "tipo": "hackathon",
-   "inicio": "2026-11-24T00:00-05:00",
+   "inicio": "2026-11-27T00:00-05:00",
    "fin": "2026-11-28T23:59-05:00",
    "cierre": "2026-11-28T23:59-05:00",
-   "lugar": "Durham University, Entrepreneurs Durham",
-   "distrito": "Durham University",
+   "lugar": "Technical University of Munich, FMI",
+   "distrito": "Technical University of Munich",
    "modalidad": "Presencial",
-   "url": "https://build-day.devpost.com/",
-   "inscripcion": "https://build-day.devpost.com/",
+   "url": "https://hackatum26.devpost.com/",
+   "inscripcion": "https://hackatum26.devpost.com/",
    "fuente": "Devpost",
    "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "Durham College",
-   "descripcion": "Hackathon presencial en Durham University, Entrepreneurs Durham. Temas: Beginner Friendly, Machine Learning/AI, Voice skills. Premios: £1,000.",
+   "organizador": "Technical University of Munich",
+   "descripcion": "Hackathon presencial en Technical University of Munich, FMI. Temas: Beginner Friendly, Education, Enterprise. Premios: €0.",
    "gratis": true,
-   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/973/711/datas/medium_square.png",
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/641/200/datas/medium_square.png",
+   "motivo": "presencial fuera del Perú",
+   "categorias": [
+    "Competencias y hackathons"
+   ],
+   "valor": 23,
+   "afinidad": 6,
+   "puntaje": 29,
+   "por_que": "Competencia · Universidad · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "devpost:31958",
+   "titulo": "K-Dub Hacks",
+   "tipo": "hackathon",
+   "inicio": "2026-11-27T00:00-05:00",
+   "fin": "2026-11-29T23:59-05:00",
+   "cierre": "2026-11-29T23:59-05:00",
+   "lugar": "Spur Innovation Center",
+   "distrito": "Spur Innovation Center",
+   "modalidad": "Presencial",
+   "url": "https://k-dub-hacks.devpost.com/",
+   "inscripcion": "https://k-dub-hacks.devpost.com/",
+   "fuente": "Devpost",
+   "fuente_url": "https://devpost.com/hackathons",
+   "organizador": "AWS Student Builders Group - Laurier",
+   "descripcion": "Hackathon presencial en Spur Innovation Center. Temas: Beginner Friendly, Open Ended, Enterprise. Premios: $CAD 448,000.",
+   "gratis": true,
+   "imagen": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/767/103/datas/medium_square.png",
    "motivo": "presencial fuera del Perú",
    "categorias": [
     "Tecnología e IA",
     "Competencias y hackathons"
    ],
-   "valor": 23,
-   "afinidad": 26,
-   "puntaje": 49,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Inteligencia artificial · Universidad · (Hackathon global sin vínculo con el Perú)"
+   "valor": 21,
+   "afinidad": 6,
+   "puntaje": 27,
+   "por_que": "Competencia · Gratis · Afín: Competencias · Empresa reconocida · (Hackathon global sin vínculo con el Perú)"
   },
   {
    "id": "devpost:31960",
@@ -7335,7 +7055,7 @@
    "organizador": "",
    "descripcion": "Dinner with Strangers series for locals who love all things horror, supernatural, and paranormal. Share your story at the dinner table!",
    "gratis": false,
-   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1060474313%2F2816517062451%2F1%2Foriginal.20250625-170222?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e37e3118bc3efec217202a0cb8073259",
+   "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1060474313%2F2816517062451%2F1%2Foriginal.20250625-170222?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aa6be494d503aadb7eaf131a06db2593",
    "inscripcion": "https://www.eventbrite.com/e/foodies-fears-dinner-with-strangers-lima-tickets-1901677772409",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
@@ -7346,56 +7066,6 @@
    "afinidad": 0,
    "puntaje": 18,
    "por_que": "Networking · Presencial en Lima"
-  },
-  {
-   "id": "pucp:activacion-abrazando-a-quienes-viven-en-nuestra-memoria-misa",
-   "titulo": "Activación Abrazando a quienes viven en nuestra memoria (misa)",
-   "inicio": "2026-11-27T13:00-05:00",
-   "fin": "2026-11-27T14:00-05:00",
-   "lugar": "PUCP",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/activacion-abrazando-a-quienes-viven-en-nuestra-memoria-misa/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Encuentro · Interdisciplinarias · Dirección de Asuntos Estudiantiles · Bienestar PUCP",
-   "gratis": null,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/Agenda_2_2a6ceeba80.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/activacion-abrazando-a-quienes-viven-en-nuestra-memoria-misa/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (misa)",
-   "categorias": [],
-   "valor": 25,
-   "afinidad": 0,
-   "puntaje": 25,
-   "por_que": "Networking · Presencial en Lima · Universidad"
-  },
-  {
-   "id": "pucp:oracion-de-la-comunidad-sant-egidio-24082026105339",
-   "titulo": "Oración de la Comunidad Sant'Egidio",
-   "inicio": "2026-11-27T17:30-05:00",
-   "fin": "2026-11-27T18:00-05:00",
-   "lugar": "Centro de Asesoría Pastoral Universitaria (CAPU)",
-   "distrito": "San Miguel",
-   "modalidad": "Presencial",
-   "url": "https://agenda.pucp.edu.pe/evento/oracion-de-la-comunidad-sant-egidio-24082026105339/",
-   "fuente": "PUCP",
-   "organizador": "PUCP",
-   "descripcion": "Encuentro · Servicios Pastorales · CAPU",
-   "gratis": null,
-   "imagen": "https://api-agenda.pucp.edu.pe/uploads/AGENDA_SE_68795fa149.png",
-   "inscripcion": "https://agenda.pucp.edu.pe/evento/oracion-de-la-comunidad-sant-egidio-24082026105339/",
-   "fuente_url": "https://agenda.pucp.edu.pe/",
-   "tipo": "evento",
-   "cierre": "",
-   "motivo": "recreativo o de venta (oracion)",
-   "categorias": [],
-   "valor": 25,
-   "afinidad": 0,
-   "puntaje": 25,
-   "por_que": "Networking · Presencial en Lima · Universidad"
   },
   {
    "id": "eb:2003872191668",
@@ -7423,20 +7093,20 @@
    "por_que": "Presencial en Lima · Evento sin formato claro"
   },
   {
-   "id": "eb:2004334247690",
+   "id": "eb:2004334248693",
    "titulo": "Free Walking Tour of Lima, Perú",
-   "inicio": "2026-11-27T18:00-05:00",
-   "fin": "2026-11-27T19:30-05:00",
+   "inicio": "2026-11-27T20:00-05:00",
+   "fin": "2026-11-27T21:30-05:00",
    "lugar": "Tourist Information Center, 799 Avenida José Larco",
    "distrito": "Miraflores",
    "modalidad": "Presencial",
-   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334247690",
+   "url": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334248693",
    "fuente": "Eventbrite",
    "organizador": "Viajens Machupicchu",
    "descripcion": "Come and join our free tour of Lima you will discover the charms of the city as we walk together. We look forward to seeing you!",
    "gratis": true,
    "imagen": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985239913%2F1749040313973%2F1%2Foriginal.20250317-025635?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ae0bb0dd94e2878a8d5e800286d1f4c4",
-   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334247690",
+   "inscripcion": "https://www.eventbrite.com.pe/e/free-walking-tour-of-lima-peru-tickets-2004334248693",
    "fuente_url": "https://www.eventbrite.com.pe/d/peru--lima/all-events/",
    "tipo": "evento",
    "cierre": "",
@@ -7535,6 +7205,34 @@
    "por_que": "Voluntariado · Gremio o institución · Evento sin formato claro · Plazo claro"
   },
   {
+   "id": "opportunitydesk:sk-org-2026-11-27-eu-india-young-leaders-exchange-programme-2026-2027-",
+   "titulo": "EU–India Young Leaders Exchange Programme 2026–2027 (Funded)",
+   "tipo": "convocatoria",
+   "inicio": "2026-12-11T23:59-05:00",
+   "fin": "2026-12-11T23:59-05:00",
+   "cierre": "2026-12-11T23:59-05:00",
+   "publicado": "2026-11-27T13:26-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/27/eu-india-young-leaders-exchange-programme-2026-2027/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/27/eu-india-young-leaders-exchange-programme-2026-2027/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: December 11, 2026 The European Union Delegation to India invites young professionals and emerging leaders from the European Union and India to apply for the EU–India Young Leaders Exchange Programme 2026–2027. The initiative brings emerging leaders together to strengthen dialogue, build co",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "restringido a otro país o región (India)",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 20,
+   "afinidad": 0,
+   "puntaje": 20,
+   "por_que": "Abre puertas (beca/programa) · Plazo claro · Se postula en línea"
+  },
+  {
    "id": "opportunitydesk:ps-opportunitydesk-org-2026-11-26-friends-of-pakistan-fellowship-2027-",
    "titulo": "Friends of Pakistan Fellowship 2027 (Funded)",
    "tipo": "convocatoria",
@@ -7561,6 +7259,34 @@
    "afinidad": 12,
    "puntaje": 32,
    "por_que": "Abre puertas (beca/programa) · Afín: Becas y posgrado · Plazo claro · Se postula en línea"
+  },
+  {
+   "id": "opportunitydesk:s-opportunitydesk-org-2026-11-27-dot-climate-innovation-bootcamp-2026-",
+   "titulo": "DOT Climate Innovation Bootcamp 2026",
+   "tipo": "convocatoria",
+   "inicio": "2026-11-27T13:30-05:00",
+   "fin": "2026-11-27T13:30-05:00",
+   "cierre": "",
+   "publicado": "2026-11-27T13:30-05:00",
+   "lugar": "",
+   "distrito": "",
+   "modalidad": "Internacional",
+   "url": "https://opportunitydesk.org/2026/11/27/dot-climate-innovation-bootcamp-2026/",
+   "inscripcion": "https://opportunitydesk.org/2026/11/27/dot-climate-innovation-bootcamp-2026/",
+   "fuente": "Opportunity Desk",
+   "fuente_url": "https://opportunitydesk.org/",
+   "organizador": "",
+   "descripcion": "Deadline: Ongoing Applications are open for the Digital Opportunity Trust (DOT) Climate Innovation Bootcamp 2026. The world needs bold, youth-led climate solutions now more than ever. Whether your idea is just starting or you’ve already piloted a project, scaling it requires the right tools, mindset",
+   "gratis": null,
+   "imagen": "",
+   "motivo": "sin afinidad",
+   "categorias": [
+    "Idiomas, becas e internacional"
+   ],
+   "valor": 17,
+   "afinidad": 0,
+   "puntaje": 17,
+   "por_que": "Formativo · Se postula en línea"
   },
   {
    "id": "opportunitydesk:opportunitydesk-org-2026-11-25-1776-reimagined-essay-competition-2026-",
@@ -7645,34 +7371,6 @@
    "por_que": "Competencia · Gratis · Afín: Competencias · Con premio · (Hackathon global sin vínculo con el Perú)"
   },
   {
-   "id": "devpost:31626",
-   "titulo": "Hackathon Agéntico SoftwareChido 2026B",
-   "tipo": "hackathon",
-   "inicio": "2026-10-05T00:00-05:00",
-   "fin": "2026-11-27T23:59-05:00",
-   "cierre": "2026-11-27T23:59-05:00",
-   "lugar": "",
-   "distrito": "",
-   "modalidad": "Virtual",
-   "url": "https://hackathon-agentico-2026b.devpost.com/",
-   "inscripcion": "https://hackathon-agentico-2026b.devpost.com/",
-   "fuente": "Devpost",
-   "fuente_url": "https://devpost.com/hackathons",
-   "organizador": "ITESO",
-   "descripcion": "Hackathon online. Temas: Education, Machine Learning/AI. Premios: $0.",
-   "gratis": true,
-   "imagen": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "motivo": "solo por invitación",
-   "categorias": [
-    "Competencias y hackathons",
-    "Tecnología e IA"
-   ],
-   "valor": 19,
-   "afinidad": 29,
-   "puntaje": 48,
-   "por_que": "Competencia · Afín: Datos y machine learning · Afín: Competencias · Afín: Inteligencia artificial · (Hackathon global sin vínculo con el Perú)"
-  },
-  {
    "id": "devpost:32193",
    "titulo": "DIU Dev Meetup 2026",
    "tipo": "hackathon",
@@ -7699,6 +7397,31 @@
    "afinidad": 18,
    "puntaje": 37,
    "por_que": "Competencia · Afín: Datos y machine learning · Gratis · Afín: Competencias · (Hackathon global sin vínculo con el Perú)"
+  },
+  {
+   "id": "pucp:temporada-de-conciertos-del-coro-femenino-ecos-navidenos-27112026153112",
+   "titulo": "Temporada de Conciertos del Coro Femenino \"Ecos Navideños\"",
+   "inicio": "2026-12-08T20:00-05:00",
+   "fin": "2026-12-08T21:00-05:00",
+   "lugar": "Parroquia Nuestra Señora de la Asunción, Parroquia Nuestra Señora de Belén, Parroquia San Vicente de Paul, Parroquia San José",
+   "distrito": "San Miguel",
+   "modalidad": "Presencial",
+   "url": "https://agenda.pucp.edu.pe/evento/temporada-de-conciertos-del-coro-femenino-ecos-navidenos-27112026153112/",
+   "fuente": "PUCP",
+   "organizador": "PUCP",
+   "descripcion": "Concierto · Cultura · Dirección de Asuntos Culturales · Cultura PUCP",
+   "gratis": null,
+   "imagen": "https://api-agenda.pucp.edu.pe/uploads/AGENDA_PUCP_GRAFICA_DACU_c5f5e4fc71.jpg",
+   "inscripcion": "https://agenda.pucp.edu.pe/evento/temporada-de-conciertos-del-coro-femenino-ecos-navidenos-27112026153112/",
+   "fuente_url": "https://agenda.pucp.edu.pe/",
+   "tipo": "evento",
+   "cierre": "",
+   "motivo": "tipo de evento no formativo (Concierto)",
+   "categorias": [],
+   "valor": 19,
+   "afinidad": 0,
+   "puntaje": 19,
+   "por_que": "Presencial en Lima · Universidad · Evento sin formato claro"
   },
   {
    "id": "insc:8eca04457016",
@@ -7819,7 +7542,7 @@
   "ieee:595272",
   "devpost:31480",
   "devpost:31642",
-  "luma:evt-iTVBAG8NBefxAzw",
+  "luma:evt-9BkR7E9Zyumrox9",
   "eb:2004916358800"
  ],
  "institucionales": {
@@ -7828,13 +7551,13 @@
   "ESAN — eventos": 0,
   "PMI Lima": 0,
   "Sociedad Nacional de Industrias": 1,
-  "AmCham Perú": 2,
+  "AmCham Perú": 0,
   "ComexPerú": 0
  },
  "se_viene": [],
  "calidad": {
-  "fecha": "2026-11-27T10:59-05:00",
-  "revisados": 172,
+  "fecha": "2026-11-27T19:59-05:00",
+  "revisados": 164,
   "corregidos": 8,
   "avisos": 1,
   "archivados": 1,
@@ -7921,7 +7644,7 @@
    }
   ],
   "enlaces": {
-   "comprobados": 3,
+   "comprobados": 5,
    "rotos": 0,
    "sin_comprobar": 0
   },
@@ -7929,11 +7652,11 @@
  },
  "por_confirmar": [
   {
-   "titulo": "Nuestros deportistas participaron con éxito del I Foro de Atletas “Rumbo a Lima 2027”",
-   "url": "https://libero.pe/deportes/2026/11/26/nuestros-deportistas-participaron-exito-del-i-foro-de-atletas-rumbo-lima-2027-493454",
-   "medio": "Diario Líbero",
-   "publicado": "Thu, 26 Nov 2026 01:17:00 GMT",
-   "resumen": "Deportistas de diversas disciplinas participaron en el I Foro de Atletas “Rumbo a Lima 2027”, desarrollado en la sala de reuniones Bowling de la Videna, organizado por el Comité Olímpico Peruano (COP) ...",
+   "titulo": "Rumbo a Lima 2027: deportistas fortalecen su voz y liderazgo en el I Foro de Atletas",
+   "url": "https://rpp.pe/multideportes/panamericanos/rumbo-a-lima-2027-deportistas-fortalecen-su-voz-y-liderazgo-en-el-i-foro-de-atletas-noticia-1719660",
+   "medio": "RPP Noticias",
+   "publicado": "Wed, 25 Nov 2026 04:55:00 GMT",
+   "resumen": "Con la mirada puesta en Lima 2027, atletas se reunieron para fortalecer su liderazgo y plantear sus inquietudes sobre el futuro del deporte nacional.",
    "fecha_mencionada": ""
   },
   {
@@ -7942,14 +7665,6 @@
    "medio": "Diario Expreso",
    "publicado": "Tue, 24 Nov 2026 07:02:00 GMT",
    "resumen": "El Comité Olímpico Peruano organizó el I Foro de Atletas “Rumbo a Lima 2027” en la Videna para fortalecer la preparación y voz dirigencial de los deportistas nacionales.",
-   "fecha_mencionada": ""
-  },
-  {
-   "titulo": "Foro de CGTN Español en Lima aborda agenda APEC 2026 y plantea oportunidades para Perú y la región sudamericana",
-   "url": "https://espanol.cgtn.com/2026/11/21/ARTI1795228855201452",
-   "medio": "CGTN en Español",
-   "publicado": "Fri, 20 Nov 2026 21:29:00 GMT",
-   "resumen": "La conversación sobre el futuro de Asia-Pacífico también llega a América Latina. Lima acogió el Foro Internacional Shenzhen 2026, organizado por CGTN Español, para analizar cómo Perú y China pueden tr ...",
    "fecha_mencionada": ""
   },
   {
@@ -7985,12 +7700,12 @@
    "fecha_mencionada": ""
   },
   {
-   "titulo": "Adoptatón 2026 en Lima: más de 150 perros y gatos buscan familia en gran feria de adopción",
-   "url": "https://larepublica.pe/sociedad/2026/11/24/adoptaton-2026-en-lima-mas-de-150-perros-y-gatos-buscan-familia-en-gran-feria-de-adopcion-1426824",
-   "medio": "La República",
-   "publicado": "Tue, 24 Nov 2026 13:10:00 GMT",
-   "resumen": "La Adoptatón 2026 se realizará este domingo 29 de noviembre en el Parque de la Exposición. El ingreso será gratuito y habrá servicios veterinarios, actividades y artistas invitados.",
-   "fecha_mencionada": "2026-11-29T00:00-05:00"
+   "titulo": "Feria del libro más antigua de Perú abre sus puertas para «compartir lectura» en Navidad",
+   "url": "https://mundour.com/2026/11/27/feria-del-libro-mas-antigua-de-peru-abre-sus-puertas-para-compartir-lectura-en-navidad/",
+   "medio": "mundour",
+   "publicado": "Fri, 27 Nov 2026 14:04:00 GMT",
+   "resumen": "AME1421. LIMA (PERÚ), 27/11/2026.- Personas aguardan durante la inauguración de la 47 edición de la Feria del libro Ricardo Palma, la más antigua de Perú y una de las más longevas de Suramérica, en la ...",
+   "fecha_mencionada": ""
   },
   {
    "titulo": "ATU invita a feria Transporte Sostenible 2026, con entrada gratuita hasta el viernes 27",
@@ -8007,6 +7722,14 @@
    "publicado": "Mon, 23 Nov 2026 16:04:00 GMT",
    "resumen": "Nuestras Manos 2026 proyecta ventas superiores a S/1,5 millones y reúne a artesanos de las 25 regiones del Perú en Miraflores.",
    "fecha_mencionada": ""
+  },
+  {
+   "titulo": "Adoptatón 2026 en Lima: más de 150 perros y gatos buscan familia en gran feria de adopción",
+   "url": "https://larepublica.pe/sociedad/2026/11/24/adoptaton-2026-en-lima-mas-de-150-perros-y-gatos-buscan-familia-en-gran-feria-de-adopcion-1426824",
+   "medio": "La República",
+   "publicado": "Tue, 24 Nov 2026 13:10:00 GMT",
+   "resumen": "La Adoptatón 2026 se realizará este domingo 29 de noviembre en el Parque de la Exposición. El ingreso será gratuito y habrá servicios veterinarios, actividades y artistas invitados.",
+   "fecha_mencionada": "2026-11-29T00:00-05:00"
   }
  ],
  "inscripciones_abiertas": [
@@ -8270,7 +7993,6 @@
   "devpost:31798": "2026-11-04T05:21-05:00",
   "luma:evt-IZh5FuxOlKMurqD": "2026-11-04T14:16-05:00",
   "pucp:congreso-internacional-filosofia-de-la-tecnologia-el-eclipse-del-deseo-04112026152150": "2026-11-04T20:19-05:00",
-  "luma:evt-tPeo1ykCrrwml2V": "2026-11-04T20:19-05:00",
   "luma:evt-IdH72rxjbMGij0d": "2026-11-04T20:19-05:00",
   "luma:evt-X1u8p4bzwoSJQx2": "2026-11-05T14:27-05:00",
   "eb:2004375456948": "2026-11-06T05:20-05:00",
@@ -8315,7 +8037,6 @@
   "luma:evt-CipniDmmAonkTxA": "2026-11-18T14:53-05:00",
   "devpost:31775": "2026-11-18T14:53-05:00",
   "devpost:31886": "2026-11-18T14:53-05:00",
-  "pucp:open-lab-abre-nuevas-posibilidades-para-innovar-19112026121020": "2026-11-19T14:53-05:00",
   "luma:evt-0z8fED7nUD9Mmj6": "2026-11-19T14:53-05:00",
   "luma:evt-bEHDOc6gMyTteRU": "2026-11-19T14:53-05:00",
   "luma:evt-fmpjYmcJsCj4OOn": "2026-11-19T14:53-05:00",
@@ -8324,7 +8045,6 @@
   "ieee:595272": "2026-11-19T14:53-05:00",
   "luma:evt-ymyX3k2zUlqYCqU": "2026-11-19T14:53-05:00",
   "wikicfp:204316": "2026-11-20T05:51-05:00",
-  "luma:evt-SnZW9NhglnDHOdd": "2026-11-20T14:32-05:00",
   "inst:sni-caf-industrial:2026-11-27": "2026-11-20T14:32-05:00",
   "ieee:595577": "2026-11-20T14:32-05:00",
   "luma:evt-kUuxDz4Ju4YbeH4": "2026-11-20T20:57-05:00",
@@ -8337,7 +8057,6 @@
   "devpost:31504": "2026-11-21T19:53-05:00",
   "devpost:32133": "2026-11-22T05:39-05:00",
   "devpost:32155": "2026-11-22T05:39-05:00",
-  "meetup:317539689": "2026-11-22T13:58-05:00",
   "luma:evt-dpCxoHt7wrmyZxY": "2026-11-22T13:58-05:00",
   "luma:evt-zRqcFuFPPg5X15B": "2026-11-22T13:58-05:00",
   "luma:evt-FueQiS1OMP7yvMa": "2026-11-22T20:22-05:00",
@@ -8347,8 +8066,6 @@
   "devpost:32215": "2026-11-23T06:40-05:00",
   "eb:2005159198139": "2026-11-23T06:40-05:00",
   "luma:evt-SJDv2zAJxWhfItg": "2026-11-23T06:40-05:00",
-  "luma:evt-iTVBAG8NBefxAzw": "2026-11-23T18:15-05:00",
-  "ieee:596709": "2026-11-23T18:15-05:00",
   "pucp:filosofia-de-la-religion-y-teologia-de-la-liberacion-un-dialogo-prometedor-20112026125611": "2026-11-23T18:15-05:00",
   "eb:2005300085537": "2026-11-23T18:15-05:00",
   "eb:2005039617470": "2026-11-23T18:15-05:00",
@@ -8368,7 +8085,6 @@
   "eb:2005435187631": "2026-11-25T11:41-05:00",
   "opportunitydesk:management-creative-job-opportunities-currently-open-november-25-2026-": "2026-11-25T20:28-05:00",
   "opportunitydesk:5-10-global-scholarship-opportunities-currently-open-november-25-2026-": "2026-11-25T20:28-05:00",
-  "opportunitydesk:s-opportunitydesk-org-2026-11-25-iaffe-feminist-economics-school-2027-": "2026-11-25T20:28-05:00",
   "eb:2005435725239": "2026-11-25T20:28-05:00",
   "opportunitydesk:https-opportunitydesk-org-2026-11-25-iso-lomso-fellowships-2028-": "2026-11-25T20:28-05:00",
   "meetup:317592183": "2026-11-26T15:51-05:00",
@@ -8376,9 +8092,8 @@
   "opportunitiesforyouth:-join-a-worldwide-network-and-share-your-views-on-human-rights-cities-": "2026-11-26T22:27-05:00",
   "opportunitydesk:-beyond-the-credential-how-an-online-dba-can-reshape-the-way-you-lead-": "2026-11-26T22:27-05:00",
   "luma:evt-JD0j4QbAhlAheTr": "2026-11-26T22:27-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-04": "2026-11-26T22:27-05:00",
-  "inst:c-mara-de-comercio-americana-del-per-edtech-hub:2026-12-11": "2026-11-26T22:27-05:00",
   "luma:evt-AYYckjZyhW0zEYX": "2026-11-26T22:27-05:00",
-  "devpost:32222": "2026-11-27T11:00-05:00"
+  "devpost:32222": "2026-11-27T11:00-05:00",
+  "opportunitydesk:itydesk-org-2026-11-27-queen-elizabeth-commonwealth-scholarships-2027-": "2026-11-27T19:59-05:00"
  }
 }
